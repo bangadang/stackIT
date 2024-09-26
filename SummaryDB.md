@@ -37,9 +37,9 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- **Primärschlüssel** (Primary-Key): In der Anwendung die Spalte/n welche alle Reihen einer Tabellen eindeutig kennzeichnen. Das sind in der Praxis häufig IDs. Ist keine solche Spalte vorhanden lässt sich immer eine, als Surrogate-Key erstellen.
 		- UserID in einer User-Tabelle
 		- OrderID in einer Bestellungstabelle
-	- **Fremdschlüssel** (Foreign-Key): Eine Menge von Attributen einer Relation S(
+	- **Fremdschlüssel** (Foreign-Key): Eine Menge von Attributen einer Relation S(B_1, .. B_n) zu deren eine Relation R gibt
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE0MjYyODgsLTQ5OTU2MzQxXX0=
+eyJoaXN0b3J5IjpbLTIwOTI4MTY4NDQsLTQ5OTU2MzQxXX0=
 -->
