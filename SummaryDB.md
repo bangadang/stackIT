@@ -39,9 +39,10 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 		- OrderID in einer Bestellungstabelle
 	- **Fremdschlüssel** (Foreign-Key): Eine Menge von Attributen einer Relation S(B_1, .. B_n) zu denen es eine Relation R(A_1, ..., A_n) gibt, welche einen Primärschlüssel hat, der diese Attribute von S referenziert. (Konzept referentielle Integrität)
 		- 
-		
+## Relationale Algebra
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ==
+eyJoaXN0b3J5IjpbLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OT
+k1NjM0MV19
 -->
