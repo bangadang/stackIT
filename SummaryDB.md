@@ -40,10 +40,10 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- **Fremdschlüssel** (Foreign-Key): Eine Menge von Attributen einer Relation S(B_1, .. B_n) zu denen es eine Relation R(A_1, ..., A_n) gibt, welche einen Primärschlüssel hat, der diese Attribute von S referenziert. (Konzept referentielle Integrität)
 		- 
 ## Relationale Algebra
-
+Selektionsprädikat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxOD
-I2MTc2NDcyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbMTUwOTk1NDEwNiwtMjEwODE0MTg3MiwtNz
+MxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX0=
 -->
