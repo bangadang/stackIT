@@ -41,8 +41,9 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 		- 
 ## Relationale Algebra
 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OT
-k1NjM0MV19
+eyJoaXN0b3J5IjpbLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxOD
+I2MTc2NDcyLC00OTk1NjM0MV19
 -->
