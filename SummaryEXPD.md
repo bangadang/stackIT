@@ -105,13 +105,18 @@ Bsp Ab1Ex. 2
 - **Mittelwert**: Anfällig auf Ausreisser
 - **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
 	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
-		- $$\text{Median}(x_1, x_2, \ldots, x_n) = x_{\frac{n+1}{2}}, \& \text{if } n \text{ is odd}, \ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
+		- $$\text{Median}(x_1, x_2, \ldots, x_n) = x_{\frac{n+1}{2}}, \& \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
 	- rechtsschief: Mittelwert > Median
 	- linksschief: Mittelwert < Median
 	- symmetrisch: Mittelwert ~ Median
-- 
+
+|datatype| kategoriell  |
+|--|--|
+|  |  |
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjgwMDYwNiwxMDEwNTgzNzI0LDg4ND
+eyJoaXN0b3J5IjpbMTcwMTM1NTcyOCwxMDEwNTgzNzI0LDg4ND
 E0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0
 MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF19
 -->
