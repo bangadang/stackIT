@@ -49,12 +49,13 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 ### relative Operatoren
 - $\sigma$
 - $\pi$
-- $\times$ bzw 
+- $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
 Selektionsprädikat
+- **Mengenoperatoren**
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODQwMDM3NiwtMTg1NjE3ODIyLDE1MD
-k5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2
-NDcyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbOTc4NTUzMjAyLC0xODU2MTc4MjIsMTUwOT
+k1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0
+NzIsLTQ5OTU2MzQxXX0=
 -->
