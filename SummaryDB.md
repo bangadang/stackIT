@@ -37,13 +37,14 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- **Primärschlüssel** (Primary-Key): In der Anwendung die Spalte/n welche alle Reihen einer Tabellen eindeutig kennzeichnen. Das sind in der Praxis häufig IDs. Ist keine solche Spalte vorhanden lässt sich immer eine, als Surrogate-Key erstellen.
 		- UserID in einer User-Tabelle
 		- OrderID in einer Bestellungstabelle
-	- **Fremdschlüssel** (Foreign-Key): Eine Menge von Attributen einer Relation S(B_1, .. B_n) zu denen es eine Relation R(A_1, ..., A_n) gibt, welche einen Primärschlüssel hat, der diese Attribute von S referenziert. (Konzept referentielle Integrität)
+- **Fremdschlüssel** (Foreign-Key): Eine Menge von Attributen einer Relation S(B_1, .. B_n) zu denen es eine Relation R(A_1, ..., A_n) gibt, welche einen Primärschlüssel hat, der diese Attribute von S referenziert. (Konzept referentielle Integrität)
 		- 
 ## Relationale Algebra
 Selektionsprädikat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwOTk1NDEwNiwtMjEwODE0MTg3MiwtNz
-MxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX0=
+eyJoaXN0b3J5IjpbLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMT
+A4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYz
+NDFdfQ==
 -->
