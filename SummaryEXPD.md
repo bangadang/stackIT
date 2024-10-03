@@ -1,8 +1,12 @@
 
 #  Summary EXPD
 ## Vorträge
+### 1
 - realtives vs abs. Risiko
 - true vs false positiv  -->  $positiver\ Vorhersagewert = true-pos. \div false-pos.$
+### 2
+- Korrelation =/= Kausalität
+- 
 ## Einführung
 ### Grundberiffe
 - **Grundgesamtheit**: Die Menge aller für eine Untersuchung relevanten Elemente. Je nach
@@ -84,6 +88,7 @@ Bsp Ab1Ex. 2
 				- 
 				- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOT
-UwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
+eyJoaXN0b3J5IjpbLTkyNTYyNTYyOSwxMTc5MDcwMDYxLDIxMD
+AyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4
+ODIzMF19
 -->
