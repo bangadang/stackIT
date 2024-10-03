@@ -71,7 +71,8 @@ Bsp Ab1Ex. 2
 	- kann aus Häufigkeitstabelle oder Balkendiagramm (höchste Säule) abgelesen werden
 
 ### Univariate metrische Daten (Variablen)
-
+- **Stripchart** 
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDA5NTc4OSwxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbLTEyMDIxMTEyMjksMTYxMDY4ODIzMF19
 -->
