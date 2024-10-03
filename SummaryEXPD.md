@@ -88,10 +88,13 @@ Bsp Ab1Ex. 2
 		- je grösser die Klassen desto weniger rauschen
 			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
-- **Form de **
-	- 
+- **Form der Verteilung**
+	- symmetrisch: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
+	- rechts-/linksschief: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
+- **Modalität** = Anzahl Gipfel der Verteilung
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1ODQ3ODc0LDExNzkwNzAwNjEsMjEwMD
-IzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4
-MjMwXX0=
+eyJoaXN0b3J5IjpbLTI2MTAzMzUxMywxMTc5MDcwMDYxLDIxMD
+AyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4
+ODIzMF19
 -->
