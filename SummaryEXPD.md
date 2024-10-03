@@ -80,8 +80,9 @@ Bsp Ab1Ex. 2
 		- Wichtig ist die Entscheidung über die Grösse der Klassen/Buckets bzw Breite der Säulen auf der x-Achse
 		- je kleiner die Klassen desto rauschiger wird das Histogramm
 		- je grösser die Klassen desto weniger rauschen
-			- Versschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren
+			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam
+				- $k=$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzI5MDE2LDIxMDAyMzg4MTYsLTE5NT
-A0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF19
+eyJoaXN0b3J5IjpbMTgwNTc3NjAwNCwyMTAwMjM4ODE2LC0xOT
+UwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
 -->
