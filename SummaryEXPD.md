@@ -92,9 +92,13 @@ Bsp Ab1Ex. 2
 	- symmetrisch: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
 	- rechts-/linksschief: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
 - **Modalität** = Anzahl Gipfel der Verteilung
-- 
+	- unimodal
+	- bimodal
+	- multiodal
+### Empirische Verteilungsfunktion $F_n(x)$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTAzMzUxMywxMTc5MDcwMDYxLDIxMD
+eyJoaXN0b3J5IjpbMTU2MDU3NjE5OSwxMTc5MDcwMDYxLDIxMD
 AyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4
 ODIzMF19
 -->
