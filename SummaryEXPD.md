@@ -96,9 +96,9 @@ Bsp Ab1Ex. 2
 	- bimodal
 	- multiodal
 ### Empirische Verteilungsfunktion $F_n(x)$
-
+- $F_n(x) = \frac{Anzahl beobachtungen \lt, n}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDU3NjE5OSwxMTc5MDcwMDYxLDIxMD
-AyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4
-ODIzMF19
+eyJoaXN0b3J5IjpbODg0MTQ3NDAyLDExNzkwNzAwNjEsMjEwMD
+IzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4
+MjMwXX0=
 -->
