@@ -72,7 +72,7 @@ Bsp Ab1Ex. 2
 
 ### Univariate metrische Daten (Variablen)
 - **Stripchart** 
-	- 
+	- Daten werden auf e
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDIxMTEyMjksMTYxMDY4ODIzMF19
+eyJoaXN0b3J5IjpbNDIyNDA0NDE5LDE2MTA2ODgyMzBdfQ==
 -->
