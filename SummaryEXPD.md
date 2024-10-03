@@ -72,9 +72,9 @@ Bsp Ab1Ex. 2
 
 ### Univariate metrische Daten (Variablen)
 - **Stripchart** 
-	- Daten werden als Box/Punkt auf einer Linie aufgetragen: Datenpunkte mit gleichem Wert treten nur einmal auf.
+	- Daten werden als Box/Punkt auf einer Linie aufgetragen: Datenpunkte mit gleichem Wert treten nur einmal auf. Um solche Datenpunkte sichtbar zu machen gibt es zwei Möglichkeiten, in dem Man die Punkte/Boxen verschiebt oder stapelt.
 		- jittered Stripchart
-		- 
+		- stacked Stripchart
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDUwODI0OCwxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbLTIwMzczODA4NzksMTYxMDY4ODIzMF19
 -->
