@@ -51,7 +51,9 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- unärer Operator der Zeilen herausfiltert anhand Selektionsprädikat. Erzeugt also eine Relation mit gleichem Schema aber weniger Tupeln/Zeilen.
 	- Selektionsprädikat wird für jede Zeile der Relation geprüft.
 	- Syntax: $\sigma_{predicate}(R)$
+	- Bsp: $\sigma_{Körpergrösse\lt150}(Personen)$
 - $\pi$
+	- 
 - $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
 Selektionsprädikat
 - **Mengenoperatoren**
@@ -60,7 +62,7 @@ Selektionsprädikat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUwMTQ1MDM4LC0xODU2MTc4MjIsMTUwOT
-k1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0
-NzIsLTQ5OTU2MzQxXX0=
+eyJoaXN0b3J5IjpbMjA5Nzg4MzMyNiwtMTg1NjE3ODIyLDE1MD
+k5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2
+NDcyLC00OTk1NjM0MV19
 -->
