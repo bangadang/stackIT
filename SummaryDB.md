@@ -52,21 +52,21 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Selektionsprädikat wird für jede Zeile der Relation geprüft.
 	- Syntax: $\sigma_{predicate}(R)$
 	- Bsp: $\sigma_{Körpergrösse\lt150}(Person)$
-	- SQL: SELECT Körpergrösse FROM PERSON WHERE Körpergrösse < 150;
+	- SQL: SELECT Körpergrösse FROM Person WHERE Körpergrösse < 150;
 - $\pi$: Projektion
-	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute.
+	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem .
 	- Syntax: $\pi_{A_1,..,A_n}(R)$
 	- Bsp: $\pi_{Name, Gewicht}(Person)$ 
-	- SQL: SELECT Name, Gewicht FROM F
+	- SQL: SELECT Name, Gewicht FROM Person
 - $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
 Selektionsprädikat
 - **Mengenoperatoren**
-- Queries bzw. Ausdrücke der rel. Algebra
+-  **Queries** bzw. Ausdrücke der rel. Algebra
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTM4MjUwNiwtMTg1NjE3ODIyLDE1MD
+eyJoaXN0b3J5IjpbMTUyODgwNDcwMSwtMTg1NjE3ODIyLDE1MD
 k5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2
 NDcyLC00OTk1NjM0MV19
 -->
