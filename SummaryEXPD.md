@@ -57,7 +57,7 @@ Bsp Ab1Ex. 2
 		3. cumsum(table(noten)) [kumulierte absolute Häufigkeit; "Wie viele Leute haben Note x oder kleiner"]
 		4. cumsum(table(noten))/length(noten)) [kumulierte rel. Häufigkeiten]
 - **Balkendiagramm**
-	-  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll mit dem kumulierten Häufigkeiten
+	-  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren.
 	- Darstellung in R
 		1. barplot(table(Sternzeichen)) [abs. H]
 		2. barplot()table(Sternzeichen) / length(Sternzeichen) [rel. H]
@@ -70,6 +70,7 @@ Bsp Ab1Ex. 2
 	- sinnvoll für kategorielle und diskrete Variablen
 	- kann aus Häufigkeitstabelle oder Balkendiagramm (höchste Säule) abgelesen werden
 
+### Univariate
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTUzNzY2MCwxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbMjY0ODU0MTc3LDE2MTA2ODgyMzBdfQ==
 -->
