@@ -81,9 +81,9 @@ Bsp Ab1Ex. 2
 		- je kleiner die Klassen desto rauschiger wird das Histogramm
 		- je grösser die Klassen desto weniger rauschen
 			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam
-				- $k=\floor*{\sqrt{n}$
+				- $\usepackage{mathtools} \DeclarePairedDelimiter\floor{\lfloor}{\rfloor} k=\floor*{\sqrt{n}}$
 				- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTczNjY1MiwyMTAwMjM4ODE2LC0xOT
+eyJoaXN0b3J5IjpbLTI1OTA2NzU3MywyMTAwMjM4ODE2LC0xOT
 UwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
 -->
