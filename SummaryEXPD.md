@@ -75,6 +75,9 @@ Bsp Ab1Ex. 2
 	- Daten werden als Box/Punkt auf einer Linie aufgetragen: Datenpunkte mit gleichem Wert treten nur einmal auf. Um solche Datenpunkte sichtbar zu machen gibt es zwei Möglichkeiten, in dem Man die Punkte/Boxen verschiebt oder stapelt.
 		- jittered Stripchart
 		- stacked Stripchart
+- **Histogramm**
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzczODA4NzksMTYxMDY4ODIzMF19
+eyJoaXN0b3J5IjpbLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMT
+YxMDY4ODIzMF19
 -->
