@@ -77,7 +77,8 @@ Bsp Ab1Ex. 2
 		- stacked Stripchart
 - **Histogramm**
 	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
+		- Wichtig ist die Entscheidung über die Grösse der Klassen/Buckets bzw Breite der Säulen auf der x-Achse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMj
-AzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbLTY5NDA0NTM1MCwyMTAwMjM4ODE2LC0xOT
+UwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
 -->
