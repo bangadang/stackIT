@@ -48,14 +48,17 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - **Prädikat**: Funktion die einem math. Ausdruck einen Wahrrheitswert {TRUE, FALSE} bzw. {0,1} zuuordnet
 ### relative Operatoren
 - $\sigma$
+	- unärer Operator der Zeilen herausfiltert anhand Selektionsprädikat. Erzeugt aalso eine Relation mit gleichem Schema aber weniger Tupeln/Zeilen
 - $\pi$
 - $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
 Selektionsprädikat
 - **Mengenoperatoren**
+- Queries bzw. Ausdrücke der rel. Algebra
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4NTUzMjAyLC0xODU2MTc4MjIsMTUwOT
-k1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0
-NzIsLTQ5OTU2MzQxXX0=
+eyJoaXN0b3J5IjpbLTE0OTA5NTQ3MzQsLTE4NTYxNzgyMiwxNT
+A5OTU0MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3
+NjQ3MiwtNDk5NTYzNDFdfQ==
 -->
