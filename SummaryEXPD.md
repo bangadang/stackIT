@@ -112,12 +112,12 @@ Bsp Ab1Ex. 2
 
 |datatype| kategoriell  | metrisch
 |--|--|--|
-| numerisch | Häufigkeitsttabelle/Modus | Lagemasse( AVG, Median, Quantile)/Streumasse |
-| 
+| numerisch | Häufigkeitsttabelle/ Modus | Lagemasse( AVG, Median, Quantile)/ Streumasse |
+| grafisch | Kuchen-/Balkendiagramm | Histogramm/ Stripchart/ empir. Verteilungsfunktion/ Boxplot |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTE2Mzc2NywxMDEwNTgzNzI0LDg4ND
+eyJoaXN0b3J5IjpbLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4ND
 E0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0
 MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF19
 -->
