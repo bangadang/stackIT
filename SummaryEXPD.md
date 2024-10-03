@@ -6,6 +6,7 @@
 - true vs false positiv  -->  $positiver\ Vorhersagewert = true-pos. \div false-pos.$
 ### 2
 - Korrelation =/= Kausalität
+- Simpson Paradoxon
 - Einfluss der dritten Variable um Scheinkorrelation zu vermeiden
 - Korrelationen treten häufig auf. Kausalitäten können sich experimentell nachweisbar (oft nicht einfach durchzuführen) 
 ## Einführung
@@ -89,7 +90,7 @@ Bsp Ab1Ex. 2
 				- 
 				- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDcyOTAzMSwxMTc5MDcwMDYxLDIxMD
-AyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4
-ODIzMF19
+eyJoaXN0b3J5IjpbNDEzODM1MTAxLDExNzkwNzAwNjEsMjEwMD
+IzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4
+MjMwXX0=
 -->
