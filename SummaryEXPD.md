@@ -6,7 +6,7 @@
 - true vs false positiv  -->  $positiver\ Vorhersagewert = true-pos. \div false-pos.$
 ### 2
 - Korrelation =/= Kausalität
-- 
+- Einfluss der dritten Variable um Scheinkorrela 
 ## Einführung
 ### Grundberiffe
 - **Grundgesamtheit**: Die Menge aller für eine Untersuchung relevanten Elemente. Je nach
@@ -88,7 +88,7 @@ Bsp Ab1Ex. 2
 				- 
 				- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTYyNTYyOSwxMTc5MDcwMDYxLDIxMD
-AyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4
-ODIzMF19
+eyJoaXN0b3J5IjpbNzQ1MDg3MjA5LDExNzkwNzAwNjEsMjEwMD
+IzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4
+MjMwXX0=
 -->
