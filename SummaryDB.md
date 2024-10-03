@@ -40,11 +40,21 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - **Fremdschlüssel** (Foreign-Key): Eine Menge von Attributen einer Relation S(B_1, .. B_n) zu denen es eine Relation R(A_1, ..., A_n) gibt, welche einen Primärschlüssel hat, der diese Attribute von S referenziert. (Konzept referentielle Integrität)
 		- 
 ## Relationale Algebra
+-**Algebra**: Auf einem Wertebereich definierte Operationen
+- **Operand**: Variablen oder Werte auf welche Operationen angewendet werden können
+- **O perationen**: Prozeduren die durch Symbolerepräsentiert werden.
+-  **Äquivalenz**: Gleichheit zweier math. Ausdrücke 
+	- zwei äquivalente Relationen $R_1~R_2$
+- **Prädikat**: Funktion die einem math. Ausdruck einen Wahrrheitswert {TRUE, FALSE} bzw. {0,1} zuuordnet
+### relative Operatoren
+- $\sigma$
+- $\pi$
+- $\times$ bzw 
 Selektionsprädikat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMT
-A4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYz
-NDFdfQ==
+eyJoaXN0b3J5IjpbMTYxODQwMDM3NiwtMTg1NjE3ODIyLDE1MD
+k5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2
+NDcyLC00OTk1NjM0MV19
 -->
