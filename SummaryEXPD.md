@@ -104,9 +104,10 @@ Bsp Ab1Ex. 2
 - **Streuungsmasse**: wie stark Streuen die Werte
 - **Mittelwert**: Anfällig auf Ausreisser
 - **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
-- 
+	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM3NTA0OTAsMTAxMDU4MzcyNCw4OD
-QxNDc0MDIsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3
-NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
+eyJoaXN0b3J5IjpbLTMzMTM4MDc0OSwxMDEwNTgzNzI0LDg4ND
+E0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0
+MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF19
 -->
