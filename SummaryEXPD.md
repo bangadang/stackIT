@@ -5,7 +5,7 @@
 - realtives vs abs. Risiko
 - true vs false positiv  -->  $positiver\ Vorhersagewert = true-pos. \div false-pos.$
 ### 2
-- Korrelation =/= Kausalität
+- Korrelation =/= Kausalität (Korr=0 keine Korr.)
 - Simpson Paradoxon
 - Einfluss der dritten Variable um Scheinkorrelation zu vermeiden
 - Korrelationen treten häufig auf. Kausalitäten können sich experimentell nachweisbar (oft nicht einfach durchzuführen) 
@@ -86,11 +86,9 @@ Bsp Ab1Ex. 2
 		- Wichtig ist die Entscheidung über die Grösse der Klassen/Buckets bzw Breite der Säulen auf der x-Achse
 		- je kleiner die Klassen desto rauschiger wird das Histogramm
 		- je grösser die Klassen desto weniger rauschen
-			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam
-				- 
-				- 
+			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzODM1MTAxLDExNzkwNzAwNjEsMjEwMD
-IzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4
-MjMwXX0=
+eyJoaXN0b3J5IjpbLTE1MjI0Mzg2MjksMTE3OTA3MDA2MSwyMT
+AwMjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2
+ODgyMzBdfQ==
 -->
