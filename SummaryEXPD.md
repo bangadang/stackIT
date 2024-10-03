@@ -83,12 +83,15 @@ Bsp Ab1Ex. 2
 		- stacked Stripchart
 - **Histogramm**
 	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
-		- Wichtig ist die Entscheidung über die Grösse der Klassen/Buckets bzw Breite der Säulen auf der x-Achse
+		- Wichtig ist die Entscheidung über die **Grösse der Klassen**/Buckets bzw Breite der Säulen auf der x-Achse
 		- je kleiner die Klassen desto rauschiger wird das Histogramm
 		- je grösser die Klassen desto weniger rauschen
 			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
+	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
+- **Form de **
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjI0Mzg2MjksMTE3OTA3MDA2MSwyMT
-AwMjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2
-ODgyMzBdfQ==
+eyJoaXN0b3J5IjpbMjc1ODQ3ODc0LDExNzkwNzAwNjEsMjEwMD
+IzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4
+MjMwXX0=
 -->
