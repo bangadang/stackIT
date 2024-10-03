@@ -97,7 +97,7 @@ Bsp Ab1Ex. 2
 	- multiodal
 ### Empirische Verteilungsfunktion $F_n(x)$
 -  empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
-- $F_n(x) = \frac{Anzahl beobachtungen \lt, n}$
+- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
 - Median an Grafik ablesbar
 ### Statistische Kennzahlen
 - **Lagemasse**: Verteilung der Daten um einen "mittleren" Wert
@@ -105,10 +105,10 @@ Bsp Ab1Ex. 2
 - **Mittelwert**: Anfällig auf Ausreisser
 - **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
 	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
-		- $$x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
-		- 
+		- $$x_{\frac{n+1}{2}}, \& \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
+	-rechtsschief: Mittelwert > Median
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTcxMzg1MTUsMTAxMDU4MzcyNCw4OD
-QxNDc0MDIsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3
-NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
+eyJoaXN0b3J5IjpbNjY1OTI3MjMzLDEwMTA1ODM3MjQsODg0MT
+Q3NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQw
+MiwtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
 -->
