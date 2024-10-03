@@ -96,9 +96,11 @@ Bsp Ab1Ex. 2
 	- bimodal
 	- multiodal
 ### Empirische Verteilungsfunktion $F_n(x)$
+-  empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
 - $F_n(x) = \frac{Anzahl beobachtungen \lt, n}$
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MTQ3NDAyLDExNzkwNzAwNjEsMjEwMD
-IzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4
-MjMwXX0=
+eyJoaXN0b3J5IjpbLTE4MzMzMzkyOCw4ODQxNDc0MDIsMTE3OT
+A3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3Mzgw
+ODc5LDE2MTA2ODgyMzBdfQ==
 -->
