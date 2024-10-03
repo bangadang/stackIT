@@ -99,9 +99,14 @@ Bsp Ab1Ex. 2
 -  empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
 - $F_n(x) = \frac{Anzahl beobachtungen \lt, n}$
 - Median an Grafik ablesbar
+### Statistische Kennzahlen
+- **Lagemasse**: Verteilung der Daten um einen "mittleren" Wert
+- **Streuungsmasse**: wie stark Streuen die Werte
+- **Mittelwert**: Anfällig auf Ausreisser
+- **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OT
-A3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3Mzgw
-ODc5LDE2MTA2ODgyMzBdfQ==
+eyJoaXN0b3J5IjpbLTIwNDM3NTA0OTAsMTAxMDU4MzcyNCw4OD
+QxNDc0MDIsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3
+NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
 -->
