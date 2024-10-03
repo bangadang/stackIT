@@ -53,8 +53,9 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Syntax: $\sigma_{predicate}(R)$
 	- Bsp: $\sigma_{Körpergrösse\lt150}(Personen)$
 - $\pi$: Projektion
-	- unärer OPerator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute.
-	- 
+	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute.
+	- Syntax: $\pi_{A_1,..,A_n}(R)$
+	- Bsp: $\pi_{Name, Gewicht}(Person)$ 
 - $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
 Selektionsprädikat
 - **Mengenoperatoren**
@@ -63,7 +64,7 @@ Selektionsprädikat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODgyNzc4NzksLTE4NTYxNzgyMiwxNT
+eyJoaXN0b3J5IjpbLTIxMDI2Mjg2NDIsLTE4NTYxNzgyMiwxNT
 A5OTU0MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3
 NjQ3MiwtNDk5NTYzNDFdfQ==
 -->
