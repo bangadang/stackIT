@@ -78,7 +78,8 @@ Bsp Ab1Ex. 2
 - **Histogramm**
 	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
 		- Wichtig ist die Entscheidung über die Grösse der Klassen/Buckets bzw Breite der Säulen auf der x-Achse
+		- je kleiner die Klassen desto rauschiger wird das Histogramm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NDA0NTM1MCwyMTAwMjM4ODE2LC0xOT
+eyJoaXN0b3J5IjpbLTI2MzgzMjY5NCwyMTAwMjM4ODE2LC0xOT
 UwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
 -->
