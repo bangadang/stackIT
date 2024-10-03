@@ -47,12 +47,13 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- zwei äquivalente Relationen $R_1~R_2$
 - **Prädikat**: Funktion die einem math. Ausdruck einen Wahrrheitswert {TRUE, FALSE} bzw. {0,1} zuuordnet
 ### relative Operatoren
-- $\sigma$
+- $\sigma$: Selektion
 	- unärer Operator der Zeilen herausfiltert anhand Selektionsprädikat. Erzeugt also eine Relation mit gleichem Schema aber weniger Tupeln/Zeilen.
 	- Selektionsprädikat wird für jede Zeile der Relation geprüft.
 	- Syntax: $\sigma_{predicate}(R)$
 	- Bsp: $\sigma_{Körpergrösse\lt150}(Personen)$
-- $\pi$
+- $\pi$: Projektion
+	- unärer OPerator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute.
 	- 
 - $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
 Selektionsprädikat
@@ -62,7 +63,7 @@ Selektionsprädikat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Nzg4MzMyNiwtMTg1NjE3ODIyLDE1MD
-k5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2
-NDcyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbLTEwODgyNzc4NzksLTE4NTYxNzgyMiwxNT
+A5OTU0MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3
+NjQ3MiwtNDk5NTYzNDFdfQ==
 -->
