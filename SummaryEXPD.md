@@ -7,7 +7,7 @@
 ### 2
 - Korrelation =/= Kausalität
 - Einfluss der dritten Variable um Scheinkorrelation zu vermeiden
-- Korrelationen treten häufig auf um Kausalität nachzuweisen  können Experimente 
+- Korrelationen treten häufig auf. Kausalitäten können sich experimentell nachweisbar (oft nicht einfach durchzuführen) 
 ## Einführung
 ### Grundberiffe
 - **Grundgesamtheit**: Die Menge aller für eine Untersuchung relevanten Elemente. Je nach
@@ -89,7 +89,7 @@ Bsp Ab1Ex. 2
 				- 
 				- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTI0MzE5OCwxMTc5MDcwMDYxLDIxMD
+eyJoaXN0b3J5IjpbMTYzMDcyOTAzMSwxMTc5MDcwMDYxLDIxMD
 AyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4
 ODIzMF19
 -->
