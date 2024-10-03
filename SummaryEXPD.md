@@ -106,9 +106,11 @@ Bsp Ab1Ex. 2
 - **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
 	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
 		- $$x_{\frac{n+1}{2}}, \& \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
-	-rechtsschief: Mittelwert > Median
+	- rechtsschief: Mittelwert > Median
+	- linksschief: Mittelwert < Median
+	- symmetrisch: Mittelwert 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1OTI3MjMzLDEwMTA1ODM3MjQsODg0MT
+eyJoaXN0b3J5IjpbODY0NzM3NjY0LDEwMTA1ODM3MjQsODg0MT
 Q3NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQw
 MiwtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
 -->
