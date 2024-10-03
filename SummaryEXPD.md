@@ -76,8 +76,8 @@ Bsp Ab1Ex. 2
 		- jittered Stripchart
 		- stacked Stripchart
 - **Histogramm**
-	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet
+	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDY5NDgxNTQsLTE5NTA0NTc0MDIsLT
-IwMzczODA4NzksMTYxMDY4ODIzMF19
+eyJoaXN0b3J5IjpbMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMj
+AzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
 -->
