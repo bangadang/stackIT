@@ -70,7 +70,8 @@ Bsp Ab1Ex. 2
 	- sinnvoll für kategorielle und diskrete Variablen
 	- kann aus Häufigkeitstabelle oder Balkendiagramm (höchste Säule) abgelesen werden
 
-### Univariate
+### Univariate metrische Daten (Variablen)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0ODU0MTc3LDE2MTA2ODgyMzBdfQ==
+eyJoaXN0b3J5IjpbNDAzNDA3MTIwLDE2MTA2ODgyMzBdfQ==
 -->
