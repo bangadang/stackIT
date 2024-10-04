@@ -62,12 +62,14 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- nicht kommutativ
 
 - $\times$ (kartesisches Produkt/outer join)
-	- Syntax: $R \times S$
+	- Syntax: $R \times S = R'$
 	- binärer Operator, welcher das Kreuzprodukt zweier Relationen bildet.
 	- Bildet die Menge aller Tupel, wenn man jedes Tupel aus einer Relation R mit jedem Tupel aus einer Relation S kombiniert.
 	- Das Schema des Kreuzprodukts hat ein Attribut für jedes Attribut aus R und S. Treten gleichnamige Attribute auf müssen sie umbenannt werden.
--  $\bowtie$ (inner join)
-	- ss
+	- nicht kommutativ
+-  $\bowtie$ (inner/natural join)
+	- $R \bowtie S = R'$
+	- binärer Operator,der 
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
 	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
@@ -77,8 +79,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MTI2OTI3NywxODQ3MTYyNDc5LC0xNz
-UwMjIxMzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0
-MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX
-0=
+eyJoaXN0b3J5IjpbODQ5MjEwNTAyLDE4NDcxNjI0NzksLTE3NT
+AyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQx
+ODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ
+==
 -->
