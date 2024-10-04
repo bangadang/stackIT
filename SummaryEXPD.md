@@ -109,7 +109,8 @@ Bsp Ab1Ex. 2
 	- rechtsschief: Mittelwert > Median
 	- linksschief: Mittelwert < Median
 	- symmetrisch: Mittelwert ~ Median
-
+	- 
+### Zusammenfassung Darstellungsmöglichkeiten
 |datatype| kategoriell  | metrisch
 |--|--|--|
 | numerisch | Häufigkeitsttabelle/ Modus | Lagemasse( AVG, Median, Quantile)/ Streumasse |
@@ -117,7 +118,8 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4ND
-E0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0
-MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF19
+eyJoaXN0b3J5IjpbLTIwMjA4OTg3ODksLTgwMzQxMTIyMCwxMD
+EwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4
+MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF
+19
 -->
