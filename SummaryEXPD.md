@@ -109,7 +109,7 @@ Bsp Ab1Ex. 2
 	- rechtsschief: Mittelwert > Median
 	- linksschief: Mittelwert < Median
 	- symmetrisch: Mittelwert ~ Median
-	- 
+- **Modus**: numerische Variable, die am häufigsten Auftritt.
 ### Zusammenfassung Darstellungsmöglichkeiten
 |datatype| kategoriell  | metrisch
 |--|--|--|
@@ -118,7 +118,7 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA4OTg3ODksLTgwMzQxMTIyMCwxMD
+eyJoaXN0b3J5IjpbLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMD
 EwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4
 MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF
 19
