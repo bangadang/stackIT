@@ -67,11 +67,12 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Bildet die Menge aller Tupel, wenn man jedes Tupel aus einer Relation R mit jedem Tupel aus einer Relation S kombiniert.
 	- Das Schema des Kreuzprodukts hat ein Attribut für jedes Attribut aus R und S. Treten gleichnamige Attribute auf müssen sie umbenannt werden.
 	- nicht kommutativ
--  $\bowtie$ (inner/natural join)
+-  $\bowtie$ (natural join)
 	- $R \bowtie S = R'$
 	- binärer Operator, der eine Relation R' erzeugt, in welcher die alle Attribute von R, gefolgt von gemeinsamen Attributen von R und S und die restlichen Attribute aus S kombiniert werden. 
 	- nicht kommutativ
 	- Bsp. (insert image)
+- $\bowtie_\Rho$
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
 	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
@@ -81,8 +82,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjExOTc0NzksMTg0NzE2MjQ3OSwtMT
-c1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgx
-NDE4NzIsLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV
-19
+eyJoaXN0b3J5IjpbOTYxOTY1NDY3LC0xMjIxMTk3NDc5LDE4ND
+cxNjI0NzksLTE3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0
+MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3Mi
+wtNDk5NTYzNDFdfQ==
 -->
