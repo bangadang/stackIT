@@ -74,7 +74,7 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Bsp. (insert image)
 	- Nachteile des natural joins treten durch die Voraussetzung auf, dass beide Relationen gleiche Attribute und Attributwerte besitzen müssen. Falls keine Gleichheiten auftreten, erzeugt man einfach das Kreuzprodukt. 
 - $\bowtie_\Rho$ (theta join)
-- $$
+- $\leftouterjoin$
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
 	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
@@ -84,8 +84,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTgzOTU3LC0xMjMxODM5NzQsLTEyMj
-ExOTc0NzksMTg0NzE2MjQ3OSwtMTc1MDIyMTM0NiwtMTg1NjE3
-ODIyLDE1MDk5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NC
-wxODI2MTc2NDcyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbMTgyODIxNzY4NSwxMTk1ODM5NTcsLTEyMz
+E4Mzk3NCwtMTIyMTE5NzQ3OSwxODQ3MTYyNDc5LC0xNzUwMjIx
+MzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0MTg3Mi
+wtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX0=
 -->
