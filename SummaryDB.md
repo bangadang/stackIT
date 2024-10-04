@@ -59,6 +59,7 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Bsp: $\pi_{Name, Gewicht}(Person)$ 
 	- SQL: SELECT Name, Gewicht FROM Person
 	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem Schema.
+	- nicht kommutativ
 
 - $\times$ (kartesisches Produkt/outer join)
 	- Syntax: $R \times S$
@@ -76,7 +77,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzE2MjQ3OSwtMTc1MDIyMTM0NiwtMT
-g1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5
-ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbLTc4MTI2OTI3NywxODQ3MTYyNDc5LC0xNz
+UwMjIxMzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0
+MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX
+0=
 -->
