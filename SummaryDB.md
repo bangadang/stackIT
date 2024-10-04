@@ -61,7 +61,9 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem Schema.
 
 - $\times$ (kartesisches Produkt/outer join)
-	- 
+	- binärer Operator, welcher das Kreuzprodukt zweier Relationen bildet.
+	- Bildet die Menge aller Tupel, wenn man jedes Tupel aus einer Relation R mit jedem Tupel aus einer Relation S kombiniert.
+	- Das 
 -  $\bowtie$ (inner join)
 	- ss
 - $\rho$: Umbenennung
@@ -73,7 +75,7 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk3NDExNDgsLTE3NTAyMjEzNDYsLT
+eyJoaXN0b3J5IjpbLTEyNjkyNjUyOTQsLTE3NTAyMjEzNDYsLT
 E4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzEx
 OTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ==
 -->
