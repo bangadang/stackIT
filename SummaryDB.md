@@ -69,7 +69,7 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- nicht kommutativ
 -  $\bowtie$ (inner/natural join)
 	- $R \bowtie S = R'$
-	- binärer Operator,der 
+	- binärer Operator, der eine Relation R' erzeugt, in welcher die alle Attribute von R, gefolgt von gemeinsamen Attributen R und S 
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
 	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
@@ -79,8 +79,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MjEwNTAyLDE4NDcxNjI0NzksLTE3NT
-AyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQx
-ODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ
-==
+eyJoaXN0b3J5IjpbMTU3NTk4NjQxOCwxODQ3MTYyNDc5LC0xNz
+UwMjIxMzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0
+MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX
+0=
 -->
