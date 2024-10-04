@@ -72,7 +72,7 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- binärer Operator, der eine Relation R' erzeugt, in welcher die alle Attribute von R, gefolgt von gemeinsamen Attributen von R und S und die restlichen Attribute aus S kombiniert werden. 
 	- nicht kommutativ
 	- Bsp. (insert image)
-	- Nachteile des natural joins treten durch die Voraussetzung auf, dass beide Relationen gleiche Attribute und Attributwerte besitzen müssen. Falls keine Gleichheiten auftreten, erzeugt man einfach das Kreuzprodukt
+	- Nachteile des natural joins treten durch die Voraussetzung auf, dass beide Relationen gleiche Attribute und Attributwerte besitzen müssen. Falls keine Gleichheiten auftreten, erzeugt man einfach das Kreuzprodukt. 
 - $\bowtie_\Rho$ (theta join)
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
@@ -83,8 +83,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTI3MzIwLC0xMjIxMTk3NDc5LDE4ND
-cxNjI0NzksLTE3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0
-MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3Mi
-wtNDk5NTYzNDFdfQ==
+eyJoaXN0b3J5IjpbLTEyMzE4Mzk3NCwtMTIyMTE5NzQ3OSwxOD
+Q3MTYyNDc5LC0xNzUwMjIxMzQ2LC0xODU2MTc4MjIsMTUwOTk1
+NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0Nz
+IsLTQ5OTU2MzQxXX0=
 -->
