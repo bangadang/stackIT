@@ -60,18 +60,20 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- SQL: SELECT Name, Gewicht FROM Person
 	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem Schema.
 
-- $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
+- $\times$ (kartesisches Produkt/outer join)
+	- 
+-  $\bowtie$ (inner join)
 	- ss
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
-	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow $
+	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
 - **Mengenoperatoren**
 -  **Queries** bzw. Ausdrücke der rel. Algebra
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMyODA3NjcsLTE3NTAyMjEzNDYsLT
+eyJoaXN0b3J5IjpbLTE1Nzk3NDExNDgsLTE3NTAyMjEzNDYsLT
 E4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzEx
 OTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ==
 -->
