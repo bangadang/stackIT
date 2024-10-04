@@ -71,7 +71,7 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- $R \bowtie S = R'$
 	- binärer Operator, der eine Relation R' erzeugt, in welcher die alle Attribute von R, gefolgt von gemeinsamen Attributen von R und S und die restlichen Attribute aus S kombiniert werden. 
 	- nicht kommutativ
-	- Bsp. 
+	- Bsp. (insert image)
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
 	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
@@ -81,8 +81,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODQ1MDU2NiwxODQ3MTYyNDc5LC0xNz
-UwMjIxMzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0
-MTg3MiwtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX
-0=
+eyJoaXN0b3J5IjpbLTEyMjExOTc0NzksMTg0NzE2MjQ3OSwtMT
+c1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgx
+NDE4NzIsLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV
+19
 -->
