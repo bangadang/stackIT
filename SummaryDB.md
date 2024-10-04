@@ -51,24 +51,24 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Syntax: $\sigma_{predicate}(R)$
 	- Bsp: $\sigma_{Körpergrösse\lt150}(Person)$
 	- SQL: SELECT Körpergrösse FROM Person WHERE Körpergrösse < 150;
-
 	- unärer Operator der Zeilen herausfiltert anhand Selektionsprädikat. Erzeugt also eine Relation mit gleichem Schema aber weniger Tupeln/Zeilen.
 	- Selektionsprädikat wird für jede Zeile der Relation geprüft.
 	- Selektion ist kommutativ 
 - $\pi$: Projektion
-	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem Schema.
 	- Syntax: $\pi_{A_1,..,A_n}(R)$
 	- Bsp: $\pi_{Name, Gewicht}(Person)$ 
 	- SQL: SELECT Name, Gewicht FROM Person
+	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem Schema.
+
 - $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
-Selektionsprädikat
+	- ss
 - **Mengenoperatoren**
 -  **Queries** bzw. Ausdrücke der rel. Algebra
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODg5Nzc3MCwtMTc1MDIyMTM0NiwtMT
+eyJoaXN0b3J5IjpbMTI0MzkyNzE0MywtMTc1MDIyMTM0NiwtMT
 g1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5
 ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV19
 -->
