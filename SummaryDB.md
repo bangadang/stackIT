@@ -63,14 +63,15 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - $\times$ (kartesisches Produkt/outer join) bzw.  $\bowtie$ (inner join)
 	- ss
 - $\rho$: Umbenennung
-	- 
+	- Syntax: $\rho_{neuerName}(R)$ 
+	- Bsp: 
 - **Mengenoperatoren**
 -  **Queries** bzw. Ausdrücke der rel. Algebra
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzODI2NjU0LC0xNzUwMjIxMzQ2LC0xOD
-U2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4
-MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX0=
+eyJoaXN0b3J5IjpbMTk5NDQ4OTQyNCwtMTc1MDIyMTM0NiwtMT
+g1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5
+ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV19
 -->
