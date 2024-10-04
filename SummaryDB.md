@@ -48,12 +48,13 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - **Prädikat**: Funktion die einem math. Ausdruck einen Wahrrheitswert {TRUE, FALSE} bzw. {0,1} zuuordnet
 ### relative Operatoren
 - $\sigma$: Selektion
+	- Syntax: $\sigma_{predicate}(R)$
+	- Bsp: $\sigma_{Körpergrösse\lt150}(Person)$
+	- SQL: SELECT Körpergrösse FROM Person WHERE Körpergrösse < 150;
+
 	- unärer Operator der Zeilen herausfiltert anhand Selektionsprädikat. Erzeugt also eine Relation mit gleichem Schema aber weniger Tupeln/Zeilen.
 	- Selektionsprädikat wird für jede Zeile der Relation geprüft.
 	- Selektion ist kommutativ 
-		- Syntax: $\sigma_{predicate}(R)$
-		- Bsp: $\sigma_{Körpergrösse\lt150}(Person)$
-		- SQL: SELECT Körpergrösse FROM Person WHERE Körpergrösse < 150;
 - $\pi$: Projektion
 	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem Schema.
 	- Syntax: $\pi_{A_1,..,A_n}(R)$
@@ -67,7 +68,7 @@ Selektionsprädikat
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY3NzQzNDAsLTE3NTAyMjEzNDYsLT
-E4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzEx
-OTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ==
+eyJoaXN0b3J5IjpbMTQyODg5Nzc3MCwtMTc1MDIyMTM0NiwtMT
+g1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5
+ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV19
 -->
