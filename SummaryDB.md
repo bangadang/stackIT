@@ -64,14 +64,14 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- ss
 - $\rho$: Umbenennung
 	- Syntax: $\rho_{neuerName}(R)$ 
-	- Bsp: 
+	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow $
 - **Mengenoperatoren**
 -  **Queries** bzw. Ausdrücke der rel. Algebra
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDQ4OTQyNCwtMTc1MDIyMTM0NiwtMT
-g1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5
-ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbLTE5MjMyODA3NjcsLTE3NTAyMjEzNDYsLT
+E4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzEx
+OTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ==
 -->
