@@ -2,7 +2,7 @@
 #  Summary EXPD
 ## Vorträge
 ### 1
-- realtives vs abs. Risiko
+- relatives vs abs. Risiko
 - true vs false positiv  -->  $positiver\ Vorhersagewert = true-pos. \div false-pos.$
 ### 2
 - Korrelation =/= Kausalität (Korr=0 keine Korr.)
@@ -140,10 +140,10 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMD
-QyNTE4NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1
-Njk2MywtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMj
-AsMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3MDA2MSwyMTAw
-MjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2OD
-gyMzBdfQ==
+eyJoaXN0b3J5IjpbMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOT
+I3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0
+NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2Mz
+YsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5
+MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczOD
+A4NzksMTYxMDY4ODIzMF19
 -->
