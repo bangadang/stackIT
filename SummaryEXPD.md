@@ -95,7 +95,9 @@ Bsp Ab1Ex. 2
 	- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
 	- Median an Grafik ablesbar
 - **Boxplot**
-	- 
+	- gibt sofortige Auskunft über 5 Kennzahlen und Symmetrie der D
+	- sagt nichts über Shape/ Modalität der Daten aus
+	- eignet sich zum Vergleich mehrerer Datensätze
 - **Form der Verteilung**
 	- symmetrisch: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
 	- rechts-/linksschief: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
@@ -142,10 +144,11 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNT
-g0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUz
-MjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3My
-wtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0
-MTQ3NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1Nz
-QwMiwtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbMTI3MjQ0MzA2MCwxNTQ5MDcwNTI3LDE2Mj
+UwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4
+NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2My
+wtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMjAsMTAx
+MDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3MDA2MSwyMTAwMjM4OD
+E2LC0xOTUwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2ODgyMzBd
+fQ==
 -->
