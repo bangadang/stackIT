@@ -109,7 +109,7 @@ Bsp Ab1Ex. 2
 - **Streuungsmasse**: wie stark Streuen die Werte
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
-	- $g = (x_1 x_2 ...x_n){\frac{1}{n}}$ 
+	- $g = (x_1*  x_2 * ... * x_n)^{\frac{1}{n}}$ 
 - **harmonischer Mittelwert**: Mittel von Qutienten 
 	- Bspw. Geschwindigkeiten
 - **Median**: Teilt Daten, sodass 50% der Daten über bzw. unter dem Median liegen.
@@ -128,8 +128,8 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA3Mzg4MTUsLTU3NjA4NDU3MywtMT
-Y5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3
-NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMi
-wtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbMTgwMDU5ODcxNywtNTc2MDg0NTczLC0xNj
+k2OTE0NjM2LC04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0
+MDIsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC
+0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
 -->
