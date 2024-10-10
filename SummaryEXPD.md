@@ -9,6 +9,8 @@
 - Simpson Paradoxon
 - Einfluss der dritten Variable um Scheinkorrelation zu vermeiden
 - Korrelationen treten häufig auf. Kausalitäten können sich experimentell nachweisbar (oft nicht einfach durchzuführen) 
+ ### 5
+-  
 ## Einführung
 ### Grundberiffe
 - **Grundgesamtheit**: Die Menge aller für eine Untersuchung relevanten Elemente. Je nach
@@ -123,8 +125,8 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjA4NDU3MywtMTY5NjkxNDYzNiwtOD
-AzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkwNzAw
-NjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OS
-wxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbODg2NTk5Njk0LC01NzYwODQ1NzMsLTE2OT
+Y5MTQ2MzYsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQw
+MiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0MDIsLT
+IwMzczODA4NzksMTYxMDY4ODIzMF19
 -->
