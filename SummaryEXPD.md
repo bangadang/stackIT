@@ -125,7 +125,8 @@ Bsp Ab1Ex. 2
 	-  Bei grossen Stichproben nehmen Quantile ähnliche Werte an
 #### Streungsmasse
 - **Varianz** s~x~^2^ 
-- **Standardabweichung** s~~
+- **Standardabweichung** s~x~
+- **median absolute deviation** MAD: 
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
@@ -134,10 +135,10 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTQ3ODYxNywxOTI3NTI5MDE4LDIwND
-I1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2
-OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMC
-wxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAy
-Mzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4OD
-IzMF19
+eyJoaXN0b3J5IjpbLTE0OTcxMTM2NzYsMTkyNzUyOTAxOCwyMD
+QyNTE4NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1
+Njk2MywtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMj
+AsMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3MDA2MSwyMTAw
+MjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3MzgwODc5LDE2MTA2OD
+gyMzBdfQ==
 -->
