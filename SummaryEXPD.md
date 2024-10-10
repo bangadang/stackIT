@@ -102,7 +102,9 @@ Bsp Ab1Ex. 2
 ### Statistische Kennzahlen
 - **Lagemasse**: Verteilung der Daten um einen "mittleren" Wert
 - **Streuungsmasse**: wie stark Streuen die Werte
-- **Mittelwert**: Anfällig auf Ausreisser
+- **arithmetischer Mittelwert**: Anfällig auf Ausreisser
+- **geometrischer Mittelwert**:
+- 
 - **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
 	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
 		- $$\text{Median}(x_1, x_2, \ldots, x_n) = x_{\frac{n+1}{2}}, \& \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
@@ -113,13 +115,13 @@ Bsp Ab1Ex. 2
 ### Zusammenfassung Darstellungsmöglichkeiten
 |datatype| kategoriell  | metrisch
 |--|--|--|
-| numerisch | Häufigkeitsttabelle/ Modus | Lagemasse( AVG, Median, Quantile)/ Streumasse |
+| numerisch | Häufigkeitsttabelle/ Modus | Lagemasse( AVG, Median, Quantile)/ Streumasse( Varianz, Stndardabweichung, IQR, MAD) |
 | grafisch | Kuchen-/Balkendiagramm | Histogramm/ Stripchart/ empir. Verteilungsfunktion/ Boxplot |
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMD
-EwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4
-MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF
-19
+eyJoaXN0b3J5IjpbLTk3Nzg3MjIxNywtMTY5NjkxNDYzNiwtOD
+AzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkwNzAw
+NjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OS
+wxNjEwNjg4MjMwXX0=
 -->
