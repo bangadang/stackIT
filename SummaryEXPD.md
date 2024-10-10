@@ -127,11 +127,12 @@ Bsp Ab1Ex. 2
 - **Varianz** s~x~^2^ 
 - **Standardabweichung** s~x~
 	- für symmetrische Verteilungen ohne Ausreisser
+	- nicht robust, wird stark verzerrt bei auuhc nur einer falsch Beobachtung
 - **median absolute deviation** MAD: 
 	- robust gegenüber Ausreissern
 - **inter quartile range** IQR: Differenz zw. Q~3~ und Q~1~
 	- mittlere 50% der Datenpunkte
-	- Für rechts-/linksschiefe Verteilunge
+	- Für rechts-/linksschiefe Verteilungen
 - **Spannweite**
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
@@ -141,7 +142,7 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDU2NjA0MSwxNjI1MDkyNzI3LC0xNT
+eyJoaXN0b3J5IjpbMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNT
 g0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUz
 MjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3My
 wtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0
