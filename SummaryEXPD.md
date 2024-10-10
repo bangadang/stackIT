@@ -110,6 +110,7 @@ Bsp Ab1Ex. 2
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
 	- $g = (x_1 * x_2 * ... * x_n)^{\frac{1}{n}}$ 
+	- 
 - **harmonischer Mittelwert**: Mittel von Qutienten 
 	- Bspw. Geschwindigkeiten
 - **Median**: Teilt Daten, sodass 50% der Daten über bzw. unter dem Median liegen.
@@ -128,9 +129,9 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLT
-U3NjA4NDU3MywtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1
-ODM3MjQsODg0MTQ3NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNi
-wtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
-
+eyJoaXN0b3J5IjpbNzkyNzU4NDc2LC0xMTk0NDY0NzkxLC0yMD
+IzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQx
+MTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLD
+IxMDAyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYx
+MDY4ODIzMF19
 -->
