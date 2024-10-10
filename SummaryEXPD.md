@@ -120,8 +120,8 @@ Bsp Ab1Ex. 2
 	- linksschief: Mittelwert < Median
 	- symmetrisch: Mittelwert ~ Median
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
-- **Quantile**: Werte die Datenpunkte einer Variable prozentual aufteilen
-	-  
+- **Quantile** $\alpha$: Werte die Datenpunkte einer Variable prozentual aufteilen
+	-  Bei grossen Stichproben nehmen Quantile ähnliche Werte an
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
@@ -130,9 +130,9 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOT
-Q0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5Njkx
-NDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLD
-ExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMjAz
-NzM4MDg3OSwxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbLTEzNDE3MzUwNDIsMjA0MjUxODU3LC00MT
+c2NTUzMjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4
+NDU3MywtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3Mj
+QsODg0MTQ3NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1
+MDQ1NzQwMiwtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
 -->
