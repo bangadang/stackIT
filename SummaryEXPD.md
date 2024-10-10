@@ -88,6 +88,7 @@ Bsp Ab1Ex. 2
 		- je grösser die Klassen desto weniger rauschen
 			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
+- **Boxplot**
 - **Form der Verteilung**
 	- symmetrisch: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
 	- rechts-/linksschief: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
@@ -104,7 +105,7 @@ Bsp Ab1Ex. 2
 - **Streuungsmasse**: wie stark Streuen die Werte
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
 - **geometrischer Mittelwert**:
-- 
+- **harmonischer Mittelwert**:
 - **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
 	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
 		- $$\text{Median}(x_1, x_2, \ldots, x_n) = x_{\frac{n+1}{2}}, \& \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
@@ -112,6 +113,7 @@ Bsp Ab1Ex. 2
 	- linksschief: Mittelwert < Median
 	- symmetrisch: Mittelwert ~ Median
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
+- **Quantile**
 ### Zusammenfassung Darstellungsmöglichkeiten
 |datatype| kategoriell  | metrisch
 |--|--|--|
@@ -120,8 +122,8 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Nzg3MjIxNywtMTY5NjkxNDYzNiwtOD
-AzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkwNzAw
-NjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OS
-wxNjEwNjg4MjMwXX0=
+eyJoaXN0b3J5IjpbNTU5MDU5Nzc2LC0xNjk2OTE0NjM2LC04MD
+M0MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3MDA2
+MSwyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3MzgwODc5LD
+E2MTA2ODgyMzBdfQ==
 -->
