@@ -90,7 +90,7 @@ Bsp Ab1Ex. 2
 		- je grösser die Klassen desto weniger rauschen
 			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
-- **Empirische Verteilungsfunktion **$F_n(x)$ 
+- **Empirische Verteilungsfunktion** $F_n(x)$ 
 	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
 	- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
 	- Median an Grafik ablesbar
@@ -128,8 +128,8 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDU5ODcxNywtNTc2MDg0NTczLC0xNj
-k2OTE0NjM2LC04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0
-MDIsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC
-0yMDM3MzgwODc5LDE2MTA2ODgyMzBdfQ==
+eyJoaXN0b3J5IjpbLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMT
+Y5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3
+NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMi
+wtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
 -->
