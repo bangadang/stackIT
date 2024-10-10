@@ -60,8 +60,12 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- SQL: SELECT Name, Gewicht FROM Person
 	- unärer Operator der Attribute/Spalten der Relation filtert. Erzeugt also eine neue Relation mit einer Teilmenge der ursprünglichen Attribute aber gleichem Schema.
 	- nicht kommutativ
+-  $\rho$: Umbenennung
+	- Syntax: $\rho_{neuerName}(R)$ 
+	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
 
-- $\times$ (kartesisches Produkt/outer join)
+
+- $\times$ (kartesisches Produkt/cross join)
 	- Syntax: $R \times S = R'$
 	- binärer Operator, welcher das Kreuzprodukt zweier Relationen bildet.
 	- Bildet die Menge aller Tupel, wenn man jedes Tupel aus einer Relation R mit jedem Tupel aus einer Relation S kombiniert.
@@ -74,18 +78,29 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Bsp. (insert image)
 	- Nachteile des natural joins treten durch die Voraussetzung auf, dass beide Relationen gleiche Attribute und Attributwerte besitzen müssen. Falls keine Gleichheiten auftreten, erzeugt man einfach das Kreuzprodukt. 
 - $\bowtie_\Rho$ (theta join)
+	- Syntax: $\bowtie_\Rho  = \sigma_{P}(R \times S)$
+		- Join Prädikat kann ein beliebiger logischer Ausdruck sein
+	- Natural Join ist ein Speziall Fall des Theta Joins
+- **Equi Join**: (weitere Verallgemeinerung des natural Joins) Prüft mit einem gegebenen Prädikat auf Gleichheit. Gleichzeitig sind die Attribute mit einem $\and$ verknüpft.
+	- Jeder Equi Join ist ein natural Join aber nicht umgekehrt, da bei einem natural Join immer alle Gleichheiten berücksichtigt werden. Bei einem Equi Join kann auch nur auf die Gleichheit von einem Attribut geprüft werden. 
 - $\leftouterjoin$
-- $\rho$: Umbenennung
-	- Syntax: $\rho_{neuerName}(R)$ 
-	- Bsp: $\rho_{S(C,D)}(R(A,B)) \Rightarrow R.A \rightarrow S.C, R.B \rightarrow S.D$
 - **Mengenoperatoren**
+	- Vereinigung
+	- Durchschnitt
+	- Differenz
 -  **Queries** bzw. Ausdrücke der rel. Algebra
 
-
+### "Bag" Algebra
+- Relationelle Algebra unter der Berücksichtigung von Multimengen
+- **Multiplizität** eines Tupels
+	- Da in der bag Algebral Tupel mehrfach auftreten können, kann solchen Tupeln eine Multipliztät zugeschrieben werden
+#### Operatoren der Bag Algebra
+-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODIxNzY4NSwxMTk1ODM5NTcsLTEyMz
-E4Mzk3NCwtMTIyMTE5NzQ3OSwxODQ3MTYyNDc5LC0xNzUwMjIx
-MzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0MTg3Mi
-wtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX0=
+eyJoaXN0b3J5IjpbNDc3NzU4ODY3LDE4MjgyMTc2ODUsMTE5NT
+gzOTU3LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0NzE2MjQ3
+OSwtMTc1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLT
+IxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OTk1
+NjM0MV19
 -->
