@@ -120,7 +120,8 @@ Bsp Ab1Ex. 2
 	- linksschief: Mittelwert < Median
 	- symmetrisch: Mittelwert ~ Median
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
-- **Quantile**
+- **Quantile**: Werte die Daten einer Variable prozentual aufteilen
+	-  
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
@@ -129,7 +130,7 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDk5NDIzNiwtMTE5NDQ2NDc5MSwtMj
+eyJoaXN0b3J5IjpbLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMj
 AyMzQ1Njk2MywtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0
 MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3MDA2MS
 wyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC0yMDM3MzgwODc5LDE2
