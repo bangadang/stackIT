@@ -90,6 +90,10 @@ Bsp Ab1Ex. 2
 		- je grösser die Klassen desto weniger rauschen
 			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
+- **Empirische Verteilungsfunktion **$F_n(x)$ 
+	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
+	- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
+	- Median an Grafik ablesbar
 - **Boxplot**
 	- 
 - **Form der Verteilung**
@@ -99,17 +103,16 @@ Bsp Ab1Ex. 2
 	- unimodal
 	- bimodal
 	- multiodal
-### Empirische Verteilungsfunktion $F_n(x)$
--  empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
-- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
-- Median an Grafik ablesbar
+
 ### Statistische Kennzahlen
 - **Lagemasse**: Verteilung der Daten um einen "mittleren" Wert
 - **Streuungsmasse**: wie stark Streuen die Werte
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
-- **geometrischer Mittelwert**:
-- **harmonischer Mittelwert**:
-- **Median**: Teilt Daten, dass 50% der Daten über bzw. unter dem Median liegen.
+- **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
+	- $g = (x_1 x_2 ...x_n){\frac{1}{n}}$ 
+- **harmonischer Mittelwert**: Mittel von Qutienten 
+	- Bspw. Geschwindigkeiten
+- **Median**: Teilt Daten, sodass 50% der Daten über bzw. unter dem Median liegen.
 	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
 		- $$\text{Median}(x_1, x_2, \ldots, x_n) = x_{\frac{n+1}{2}}, \& \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even}.$$
 	- rechtsschief: Mittelwert > Median
@@ -117,7 +120,7 @@ Bsp Ab1Ex. 2
 	- symmetrisch: Mittelwert ~ Median
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
 - **Quantile**
-### Zusammenfassung Darstellungsmöglichkeiten
+### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
 | numerisch | Häufigkeitsttabelle/ Modus | Lagemasse( AVG, Median, Quantile)/ Streumasse( Varianz, Stndardabweichung, IQR, MAD) |
@@ -125,8 +128,8 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2NTk5Njk0LC01NzYwODQ1NzMsLTE2OT
-Y5MTQ2MzYsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQw
-MiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0MDIsLT
-IwMzczODA4NzksMTYxMDY4ODIzMF19
+eyJoaXN0b3J5IjpbLTE0OTA3Mzg4MTUsLTU3NjA4NDU3MywtMT
+Y5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3
+NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMi
+wtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
 -->
