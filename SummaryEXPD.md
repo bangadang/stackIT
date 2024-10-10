@@ -131,6 +131,7 @@ Bsp Ab1Ex. 2
 	- robust gegenüber Ausreissern
 - **inter quartile range** IQR: Differenz zw. Q~3~ und Q~1~
 	- mittlere 50% der Datenpunkte
+	- Für rechts-/linksschiefe Verteilunge
 - **Spannweite**
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
@@ -140,10 +141,10 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOT
-I3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0
-NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2Mz
-YsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5
-MDcwMDYxLDIxMDAyMzg4MTYsLTE5NTA0NTc0MDIsLTIwMzczOD
-A4NzksMTYxMDY4ODIzMF19
+eyJoaXN0b3J5IjpbMTQ1NDU2NjA0MSwxNjI1MDkyNzI3LC0xNT
+g0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUz
+MjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3My
+wtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0
+MTQ3NDAyLDExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1Nz
+QwMiwtMjAzNzM4MDg3OSwxNjEwNjg4MjMwXX0=
 -->
