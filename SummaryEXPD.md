@@ -126,6 +126,7 @@ Bsp Ab1Ex. 2
 #### Streungsmasse
 - **Varianz** s~x~^2^ 
 - **Standardabweichung** s~x~
+	- für symmetrische Verteilungen ohne Ausreisser
 - **median absolute deviation** MAD: 
 	- robust gegenüber Ausreissern
 - **inter quartile range** IQR: Differenz zw. Q~3~ und Q~1~
@@ -139,7 +140,7 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjkzMjMzMjksMTkyNzUyOTAxOCwyMD
+eyJoaXN0b3J5IjpbLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMD
 QyNTE4NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1
 Njk2MywtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMj
 AsMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3MDA2MSwyMTAw
