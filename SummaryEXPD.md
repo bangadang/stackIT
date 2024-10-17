@@ -140,6 +140,7 @@ Bsp Ab1Ex. 2
 - **inter quartile range** IQR: Differenz zw. Q~3~ und Q~1~
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
+	- robust gegenüber Ausreissern
 
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
@@ -151,11 +152,11 @@ Bsp Ab1Ex. 2
 ## Bivariate Darstellungen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU0OTMxNzksMTI3NTMwNTQwMiwyMT
-MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
-MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLT
-QxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2
-MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMjAsMTAxMDU4Mz
-cyNCw4ODQxNDc0MDIsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0x
-OTUwNDU3NDAyXX0=
+eyJoaXN0b3J5IjpbMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMz
+IxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5Mjcy
+NywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtND
+E3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYw
+ODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMDEwNTgzNz
+I0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5
+NTA0NTc0MDJdfQ==
 -->
