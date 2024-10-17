@@ -171,17 +171,14 @@ Eintrag durch das Spaltentotal dividiert.
 	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
 	- Fläche ist proportional zur Anzahl Beobachtung für die Merkmalskombination in der Stichprobe. 
 	- man sieht nur proportionen --> Die Anzahl an Beobachtungen ist  nicht ablesbar
-	- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten
- Variable, die Höhe proportional
-zur zweiten Variable.
-
-	- 
+	- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten Variable, die Höhe proportional zur zweiten Variable.
+	- Vertauschen der Variaben führt zu einem anderen Mosaikplot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzQ4OTEzNyw1MDQ2MTYzNywyMTIxNj
-U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
-MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
-c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
-OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNi
-wtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkw
-NzAwNjFdfQ==
+eyJoaXN0b3J5IjpbLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMT
+Y1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEz
+LDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOT
+I3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0
+NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2Mz
+YsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5
+MDcwMDYxXX0=
 -->
