@@ -153,13 +153,20 @@ Bsp Ab1Ex. 2
 - Beziehungen und Korrelationen können so untersucht werden.
 - verschiedene Variablentypen brauchen versch. Handhabung
 ### Kategoriell vs. Kategoriell
+- **Kontingenztafel** Kreuztabelle
+	- enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
+	- Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
+			1. Anteil am Gesamten
+			2. Anteil pro Zeile
+			3. Anteil pro Spalte
+			4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1Mz
-A1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1Mjcs
-MTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwND
-I1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2
-OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMC
-wxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAy
-Mzg4MTZdfQ==
+eyJoaXN0b3J5IjpbMTAzNDgyODQzNyw1MDQ2MTYzNywyMTIxNj
+U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
+MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
+c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
+OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNi
+wtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkw
+NzAwNjFdfQ==
 -->
