@@ -168,13 +168,13 @@ Eintrag durch das Spaltentotal dividiert.
 - **gruppiertes Balkendiagramm**:
 	- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
 - **Mosaikplot**: 
-	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal für zwei Merkmale  auf.
+	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2NzQyMDYzLDUwNDYxNjM3LDIxMjE2NT
-c1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUxMywx
-NTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNz
-UyOTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5
-MSwtMjAyMzQ1Njk2MywtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC
-04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3
-MDA2MV19
+eyJoaXN0b3J5IjpbMTQwMjI4MjU0OCw1MDQ2MTYzNywyMTIxNj
+U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
+MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
+c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
+OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNi
+wtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkw
+NzAwNjFdfQ==
 -->
