@@ -127,6 +127,7 @@ Bsp Ab1Ex. 2
 	-  Bei grossen Stichproben nehmen Quantile ähnliche Werte an
 #### Streungsmasse
 - **Varianz** s~x~^2^ 
+- -
 - **Standardabweichung** s~x~
 	- für symmetrische Verteilungen ohne Ausreisser
 	- nicht robust, wird stark verzerrt bei auuhc nur einer falsch Beobachtung
@@ -149,11 +150,11 @@ Bsp Ab1Ex. 2
 ## Bivariate Darstellungen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMz
-M2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMx
-MDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMyNCwtMT
-E5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2MDg0NTczLC0xNjk2
-OTE0NjM2LC04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0MD
-IsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC0y
-MDM3MzgwODc5XX0=
+eyJoaXN0b3J5IjpbLTg4Njk2NjYyOCwxMjc1MzA1NDAyLDIxMz
+IxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5Mjcy
+NywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtND
+E3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYw
+ODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMDEwNTgzNz
+I0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5
+NTA0NTc0MDJdfQ==
 -->
