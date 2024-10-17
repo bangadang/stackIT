@@ -135,7 +135,8 @@ Bsp Ab1Ex. 2
 - **inter quartile range** IQR: Differenz zw. Q~3~ und Q~1~
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
-- **Spannweite**
+- **Spannweite** = Maxima- Minima bzw. max(A)-min(A)
+	- anfällg auf Ausreisser
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
@@ -144,11 +145,11 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNT
-A5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1
-NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC
-01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMDEw
-NTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MT
-YsLTE5NTA0NTc0MDIsLTIwMzczODA4NzksMTYxMDY4ODIzMF19
-
+eyJoaXN0b3J5IjpbLTcxMDQxNzA4OCw1MjMzNjM1MTMsMTU0OT
+A3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1Mjkw
+MTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLT
+IwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNiwtODAz
+NDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkwNzAwNj
+EsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMjAzNzM4MDg3OSwx
+NjEwNjg4MjMwXX0=
 -->
