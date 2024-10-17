@@ -161,10 +161,10 @@ Bsp Ab1Ex. 2
 Eintrag durch das Zeilentotal dividiert
 			3. Anteil pro Spalte:  relative Häufigkeit pro Spalte brechnet sich, indem man den jeweiligen
 Eintrag durch das Spaltentotal dividiert.
-	- 
+	-  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpret
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTg4NzAwMyw1MDQ2MTYzNywyMTIxNj
+eyJoaXN0b3J5IjpbMTk1MTEyNTE0NCw1MDQ2MTYzNywyMTIxNj
 U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
 MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
 c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
