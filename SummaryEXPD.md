@@ -137,6 +137,8 @@ Bsp Ab1Ex. 2
 	- Für rechts-/linksschiefe Verteilungen
 - **Spannweite** = Maxima- Minima bzw. max(A)-min(A)
 	- anfällg auf Ausreisser
+	- nimmt zu bei grösseren Stichproben
+	- nicht geeignet als Streuungsmass
 ### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
@@ -145,7 +147,7 @@ Bsp Ab1Ex. 2
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDQxNzA4OCw1MjMzNjM1MTMsMTU0OT
+eyJoaXN0b3J5IjpbMjEzMjEwODIxMiw1MjMzNjM1MTMsMTU0OT
 A3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1Mjkw
 MTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLT
 IwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNiwtODAz
