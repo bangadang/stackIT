@@ -157,16 +157,17 @@ Bsp Ab1Ex. 2
 	- enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
 	- Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
 			1. Anteil am Gesamten
-			2. Anteil pro Zeile
-			3. Anteil pro Spalte
+	
+			3. Anteil pro Zeile
+			4. Anteil pro Spalte
 	-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NDg0NzgsNTA0NjE2MzcsMjEyMTY1Nz
-UzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1
-NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NT
-I5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0Nzkx
-LC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLT
-gwMzQxMTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcw
-MDYxXX0=
+eyJoaXN0b3J5IjpbMTk2OTEzNzk3Miw1MDQ2MTYzNywyMTIxNj
+U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
+MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
+c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
+OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNi
+wtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkw
+NzAwNjFdfQ==
 -->
