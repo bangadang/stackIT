@@ -150,9 +150,12 @@ Bsp Ab1Ex. 2
 
 
 ## Bivariate Darstellungen
+- Beziehungen und Korrelationen können so untersucht werden.
+- verschiedene Variablentypen brauchen versch. Handhabung
+### Kategoriell vs. Kategoriell
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0MTcxOTksMjEyMTY1NzUzOCwxMjc1Mz
+eyJoaXN0b3J5IjpbNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1Mz
 A1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1Mjcs
 MTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwND
 I1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2
