@@ -78,7 +78,7 @@ Bsp Ab1Ex. 2
 	- sinnvoll für kategorielle und diskrete Variablen
 	- kann aus Häufigkeitstabelle oder Balkendiagramm (höchste Säule) abgelesen werden
 
-### Univariate metrische Daten (Variablen)
+### Univariate metrische Daten (1 Variable)
 - **Stripchart** 
 	- Daten werden als Box/Punkt auf einer Linie aufgetragen: Datenpunkte mit gleichem Wert treten nur einmal auf. Um solche Datenpunkte sichtbar zu machen gibt es zwei Möglichkeiten, in dem Man die Punkte/Boxen verschiebt oder stapelt.
 		- jittered Stripchart
@@ -149,11 +149,11 @@ Bsp Ab1Ex. 2
 ## Bivariate Darstellungen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3ODkzNzUsMjEzMjEwODIxMiw1MjMzNj
-M1MTMsMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAz
-LDE5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOT
-Q0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5Njkx
-NDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLD
-ExNzkwNzAwNjEsMjEwMDIzODgxNiwtMTk1MDQ1NzQwMiwtMjAz
-NzM4MDg3OV19
+eyJoaXN0b3J5IjpbMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMz
+M2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMx
+MDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMyNCwtMT
+E5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2MDg0NTczLC0xNjk2
+OTE0NjM2LC04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0MD
+IsMTE3OTA3MDA2MSwyMTAwMjM4ODE2LC0xOTUwNDU3NDAyLC0y
+MDM3MzgwODc5XX0=
 -->
