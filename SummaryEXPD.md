@@ -166,9 +166,11 @@ Eintrag durch das Spaltentotal dividiert.
 	- Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
 	- Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
 - **gruppiertes Balkendiagramm**:
-	- höhe der Balken zeigt die absolute Häufigkeit für eine Merkmal.
+	- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
+- **Mosaikplot**: 
+	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal für zwei Merkmale  auf.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3ODMwNjg1LDUwNDYxNjM3LDIxMjE2NT
+eyJoaXN0b3J5IjpbMzc2NzQyMDYzLDUwNDYxNjM3LDIxMjE2NT
 c1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUxMywx
 NTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNz
 UyOTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5
