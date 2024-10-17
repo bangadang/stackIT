@@ -90,10 +90,10 @@ Bsp Ab1Ex. 2
 		- je grösser die Klassen desto weniger rauschen
 			- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
-- **Empirische Verteilungsfunktion** $F_n(x)$ 
+- **Empirische kumulierte Verteilungsfunktion** $F_n(x)$ 
 	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
 	- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
-	- Median an Grafik ablesbar
+- Median und Quantile an Grafik ablesbar
 - **Boxplot**
 	- gibt sofortige Auskunft über 5 Kennzahlen und Symmetrie der Daten
 	- sagt nichts über Shape/ Modalität der Daten aus, d.h. nur geeignet für unimodalen Verteilungen
@@ -152,11 +152,11 @@ Bsp Ab1Ex. 2
 ## Bivariate Darstellungen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMz
-IxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5Mjcy
-NywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtND
-E3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYw
-ODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMDEwNTgzNz
-I0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAyMzg4MTYsLTE5
-NTA0NTc0MDJdfQ==
+eyJoaXN0b3J5IjpbNzY0MTcxOTksMjEyMTY1NzUzOCwxMjc1Mz
+A1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1Mjcs
+MTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwND
+I1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2
+OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMC
+wxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5MDcwMDYxLDIxMDAy
+Mzg4MTZdfQ==
 -->
