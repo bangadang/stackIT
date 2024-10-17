@@ -162,9 +162,11 @@ Eintrag durch das Zeilentotal dividiert
 			3. Anteil pro Spalte:  relative Häufigkeit pro Spalte brechnet sich, indem man den jeweiligen
 Eintrag durch das Spaltentotal dividiert.
 	-  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpretation bei Zeilen/Spalten normierten Tabelle
-
+- **gestapeltes Balkendiagramm**:
+	- Die Gesamthöhe der Balkenzeigt die absolute Häufigkeit für ein Merkmal.
+	- Höhe der
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzQ3MTMyNiw1MDQ2MTYzNywyMTIxNj
+eyJoaXN0b3J5IjpbMTUzNzg4MTM0OCw1MDQ2MTYzNywyMTIxNj
 U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
 MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
 c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
