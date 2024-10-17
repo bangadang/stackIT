@@ -163,14 +163,16 @@ Eintrag durch das Zeilentotal dividiert
 Eintrag durch das Spaltentotal dividiert.
 	-  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpretation bei Zeilen/Spalten normierten Tabelle
 - **gestapeltes Balkendiagramm**:
-	- Die Gesamthöhe der Balkenzeigt die absolute Häufigkeit für ein Merkmal.
-	- Höhe der
+	- Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
+	- Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
+- **gruppiertes Balkendiagramm**:
+	- höhe der Balken zeigt die absolute Häufigkeit für eine Merkmal.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzg4MTM0OCw1MDQ2MTYzNywyMTIxNj
-U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
-MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
-c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
-OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNi
-wtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0MTQ3NDAyLDExNzkw
-NzAwNjFdfQ==
+eyJoaXN0b3J5IjpbNjY3ODMwNjg1LDUwNDYxNjM3LDIxMjE2NT
+c1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUxMywx
+NTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNz
+UyOTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5
+MSwtMjAyMzQ1Njk2MywtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC
+04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQxNDc0MDIsMTE3OTA3
+MDA2MV19
 -->
