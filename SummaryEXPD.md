@@ -169,8 +169,15 @@ Eintrag durch das Spaltentotal dividiert.
 	- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
 - **Mosaikplot**: 
 	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
+	- Fläche ist proportional zur Anzahl Beobachtung für die Merkmalskombination in der Stichprobe. 
+	- man sieht nur proportionen --> Die Anzahl an Beobachtungen ist  nicht ablesbar
+	- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten
+ Variable, die Höhe proportional
+zur zweiten Variable.
+
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjI4MjU0OCw1MDQ2MTYzNywyMTIxNj
+eyJoaXN0b3J5IjpbMTE3MzQ4OTEzNyw1MDQ2MTYzNywyMTIxNj
 U3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMs
 MTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mj
 c1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3
