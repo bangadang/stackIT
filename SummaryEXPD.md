@@ -180,7 +180,7 @@ quantile(vec, probs= c(Q1,...,Qn), type=1)
 # wenn der Vektor eine gerade Anzahl Elemente hat.
 # Definition ist nicht symmetrisch
 ```
-
+- Ansatz 2: Lineare Interpolation zwischen den nächsten zwei  Werten. --> Standardmethode
 ### Streungsmasse
 - **Varianz** s~x~^2^ 
 	- nicht robust gegen Ausreisser
@@ -260,11 +260,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzA4NTcsNzA2MDQ4MTE4LDEwODU5NT
-YzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgxNDEs
-NTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNjA1OD
-g4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEzMDgs
-MjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LDUwND
-YxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEy
-XX0=
+eyJoaXN0b3J5IjpbNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OT
+U2MzY3LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQx
+LDU2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNT
+g4ODU4LC00MDE2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4
+LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MD
+Q2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIx
+Ml19
 -->
