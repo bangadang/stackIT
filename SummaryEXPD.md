@@ -212,6 +212,9 @@ sd(vec) or sqrt(var(vec))
 	- Man zieht von jedem Element der geordneten Liste der Median ab und generiert den Median aus all diesen Differenzen.
 	- robust gegenüber Ausreissern
 	$$MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$$
+```r
+mad(vec) or 1.4826 * median(abs(A - median(A)))
+```
 - **inter quartile range** IQR
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
@@ -280,7 +283,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTE4MDcxMSw0NjgzMzY0NTMsNzA2MD
+eyJoaXN0b3J5IjpbMTM5MDI3Mzg2MCw0NjgzMzY0NTMsNzA2MD
 Q4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1
 LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MD
 AwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0
