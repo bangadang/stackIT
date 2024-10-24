@@ -213,13 +213,16 @@ sd(vec) or sqrt(var(vec))
 	- robust gegenüber Ausreissern
 	$$MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$$
 ```r
-mad(vec) or 1.4826 * median(abs(A - median(A)))
+mad(vec) or 1.4826 * median(abs(vec - median(vec)))
 ```
 - **inter quartile range** IQR
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
 	- robust gegenüber Ausreissern
 	$$IQR=Q_3 -Q_1$$
+```r
+IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
+```
 
 ## Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
@@ -283,11 +286,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDI3Mzg2MCw0NjgzMzY0NTMsNzA2MD
-Q4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1
-LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MD
-AwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0
-LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMD
-AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
-Ml19
+eyJoaXN0b3J5IjpbNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwND
+gxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUs
+MTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMD
+AyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQs
+MTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMD
+A3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAy
+XX0=
 -->
