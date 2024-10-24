@@ -287,6 +287,11 @@ mosaicplot(table(df$kateg.Variable1, df$kateg.Variable2))
 ```
 ### Kategoriell vs. Metrisch
 - **Kennzahlentabelle**: Die Daten lassen sich über die kategorielle Grösse Gruppieren. Dannach kann man die nummerischen Daten pro Gruppe über eine Kennzahl, wie Mittelwert und Standardabweichung, zusammenfassen.
+```r
+m <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "mean")
+s <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "sd")
+cbind(Mittelwert = m, Standardabweichung = s)
+```
 -  **Boxplots** für monomodale Verteilungen: So kann die Verteilung der metrischen Variable gruppiert nach der kategoriellen Variable dargestellt werden.
 	- monomodale Verteilungen können so gut verglichen werden
 - **Stripcharts** bimodale Verteilungen
@@ -315,11 +320,11 @@ mosaicplot(table(df$kateg.Variable1, df$kateg.Variable2))
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDY5MzE0NywtMTIwNzk2MjEzMiw1Nj
-czNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2MzY3
-LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2Mj
-Y4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4
-LC00MDE2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwND
-E0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYz
-N119
+eyJoaXN0b3J5IjpbLTc3MTcxODU3NywtOTM0NjkzMTQ3LC0xMj
+A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
+LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNT
+k5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUx
+LDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNz
+AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
+NjI3XX0=
 -->
