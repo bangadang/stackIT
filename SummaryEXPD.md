@@ -45,6 +45,7 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 - Bsp. Umfrage Sternzeichen von 20 Personen. Wie kann man Ergebnisse darstellen?
 	- Columns: Sternzeichen, abs. Häufigkeit, rel. Häufigkeit
 	- Darstellung in R
+	- `vec <`
 		1. Vektor erstellen: Sternzeichen <-c(Ergebnisse)
 		2. table(Sternzeichen) [abs. H]
 		3. table(Sternzeichen) / length(Sternzeichen) [rel. H] 
@@ -193,7 +194,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODkyMjE1NywtODk5MjE3NTM0LDEyNz
+eyJoaXN0b3J5IjpbMTU1OTc2NzA5NiwtODk5MjE3NTM0LDEyNz
 AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
 NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
 MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
