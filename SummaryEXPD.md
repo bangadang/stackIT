@@ -112,6 +112,10 @@ hist(	vect,
 		- je grösser die Klassen desto weniger rauschen
 	- Verschiedene Faustregeln um Klassenzahlen zu wählen. I.d.R. ist experimentieren ratsam.
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
+	- Konsruktion der Balken über rel. Häufigkeit: 
+		$$
+		Balkenhöhe = \frac{Anzahl beob. Klassen, }
+		$$
 - **Empirische kumulierte Verteilungsfunktion** $F_n(x)$ 
 	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
 	- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
@@ -226,11 +230,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYwODQyMTAsNTYyNjg3ODIzLDUxNj
-Y5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYx
-NywtODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxND
-UxMTQxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1
-MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNT
-Q5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUy
-OTAxOF19
+eyJoaXN0b3J5IjpbMTIzMjkzNTk4MCw1NjI2ODc4MjMsNTE2Nj
+k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
+LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
+ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
+OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
+kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
+MDE4XX0=
 -->
