@@ -24,8 +24,8 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 	- SP: zu kleine Stichprobe (kann der Zufall das kompensieren; wahrsch nicht)
 
 ## Variabeln
-- Variablen: Merkmale der Grundgesamtheit
-	- Körpergrösse von Einwohner, Umsatzzahlen eines KMUs etc.
+- Merkmale der Grundgesamtheit
+	- Bsp: Körpergrösse von Einwohner, Umsatzzahlen eines KMUs etc.
 	- Merkmale sind typisierbar
 		- **kategorisch** (Kategorien) : qualitativ oder kategoriell: nominal oder ordinal
 			- Bürgerort: nominal (keine Ordnung)
@@ -193,7 +193,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjQxMTc2MiwtODk5MjE3NTM0LDEyNz
+eyJoaXN0b3J5IjpbMTA0ODkyMjE1NywtODk5MjE3NTM0LDEyNz
 AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
 NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
 MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
