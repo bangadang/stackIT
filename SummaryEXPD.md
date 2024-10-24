@@ -130,6 +130,15 @@ ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 	- gibt sofortige Auskunft über 5 Kennzahlen und Symmetrie der Daten
 	- sagt nichts über Shape/ Modalität der Daten aus, d.h. nur geeignet für unimodalen Verteilungen
 	- eignet sich zum Vergleich mehrerer Datensätze
+	- eignet sich um schiefe der Daten und Ausreisser zu erkennen
+	- enthält weniger Info als Histogramm, ist dafür kompakt
+-
+-
+-
+-
+-
+-
+
 #### Form der Verteilung
 - **symmetrisch**: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
 - **rechts-/linksschief**: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
@@ -286,11 +295,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwND
-gxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUs
-MTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMD
-AyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQs
-MTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMD
-A3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAy
-XX0=
+eyJoaXN0b3J5IjpbLTE3MTU0Mzk2MjQsNTY3MzU1NDU0LDQ2OD
+MzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYs
+LTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Nj
+k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
+LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
+ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
+OF19
 -->
