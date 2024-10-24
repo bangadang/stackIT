@@ -191,10 +191,11 @@ quantile(vec, probs=c(0.1,..0.75), type=7)
 - **Varianz** s~x~^2^ 
 	- mittlere quadratische Abweichung der Beobachtungen vom arith. Mittelwert
 	- nicht robust gegen Ausreisser
-	- 
+	$$\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
 - **Standardabweichung** s~x~
 	- für symmetrische Verteilungen ohne Ausreisser
 	- nicht robust, wird stark verzerrt bei auuhc nur einer falschen Beobachtung
+	$$$$
 - **Spannweite** = Maxima- Minima bzw. max(A)-min(A)
 	- anfällg auf Ausreisser
 	- nimmt zu bei grösseren Stichproben
@@ -268,7 +269,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTcyNTA0Niw0NjgzMzY0NTMsNzA2MD
+eyJoaXN0b3J5IjpbMTA0NDQxOTg1Myw0NjgzMzY0NTMsNzA2MD
 Q4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1
 LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MD
 AwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0
