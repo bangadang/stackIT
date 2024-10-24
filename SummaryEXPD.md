@@ -144,7 +144,7 @@ ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 ### Lagemasse
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
-	- $g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$ 
+	-$g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$ 
 	- 
 - **harmonischer Mittelwert**: Mittel von Qutienten 
 	- Bspw. Geschwindigkeiten
@@ -236,11 +236,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1Nj
-I2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1
-OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMD
-QxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2
-MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNT
-IzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2
-MzEwM119
+eyJoaXN0b3J5IjpbLTE5MTgzNjQ0NjksLTE2OTc4ODM4MTUsMT
+I1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAy
+NTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQsMT
+I3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3
+MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLD
+IxMzIxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5
+MjcyN119
 -->
