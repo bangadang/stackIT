@@ -276,13 +276,15 @@ prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
 barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
 #beside bestimmt ober Säulen gestapelt oder nebeneinander stehen sollen
 ```
-- **Mosaikplot**: 
-	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
-	- Fläche ist proportional zur Anzahl Beobachtung für die Merkmalskombination in der Stichprobe. 
-	- man sieht nur proportionen --> Die Anzahl an Beobachtungen ist  nicht ablesbar
-	- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten Variable, die Höhe proportional zur zweiten Variable.
-	- Vertauschen der Variaben führt zu einem anderen Mosaikplot
-
+#### Mosaikplot: 
+- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
+- Fläche ist proportional zur Anzahl Beobachtung für die Merkmalskombination in der Stichprobe. 
+- man sieht nur proportionen --> Die Anzahl an Beobachtungen ist  nicht ablesbar
+- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten Variable, die Höhe proportional zur zweiten Variable.
+- Vertauschen der Variaben führt zu einem anderen Mosaikplot
+```r
+mosaicplot(table(df$kateg.Variable1, df$kateg.Variable2))
+```
 ### Kategoriell vs. Metrisch
 - **Kennzahlentabelle**: Die Daten lassen sich über die kategorielle Grösse Gruppieren. Dannach kann man die nummerischen Daten pro Gruppe über eine Kennzahl, wie Mittelwert und Standardabweichung, zusammenfassen.
 -  **Boxplots** für monomodale Verteilungen: So kann die Verteilung der metrischen Variable gruppiert nach der kategoriellen Variable dargestellt werden.
@@ -313,11 +315,11 @@ barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDc5NjIxMzIsNTY3MzU1NDU0LDQ2OD
-MzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYs
-LTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Nj
-k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
-LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
-ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
-OF19
+eyJoaXN0b3J5IjpbLTkzNDY5MzE0NywtMTIwNzk2MjEzMiw1Nj
+czNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2MzY3
+LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2Mj
+Y4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4
+LC00MDE2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwND
+E0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYz
+N119
 -->
