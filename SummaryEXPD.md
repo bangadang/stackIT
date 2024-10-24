@@ -175,13 +175,14 @@ Eintrag durch das Spaltentotal dividiert.
 	- Vertauschen der Variaben führt zu einem anderen Mosaikplot
 
 ### Kategoriell vs. Metrisch
-- Kennzahlentabelle: Die Daten lassen sich über die ategorielle 
+- **Kennzahlentabelle**: Die Daten lassen sich über die kategorielle Grösse Gruppieren. Dannach kann man die nummerischen Daten pro Gruppe über eine Kennzahl, wie Mittelwert und Standardabweichung, zusammenfassen.
+-  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NjU1NDIyLC0yMDAwNzE3NjI3LDUwND
-YxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEy
-LDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1OD
-Q4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMy
-NCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2MDg0NTczLC
-0xNjk2OTE0NjM2LC04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQx
-NDc0MDJdfQ==
+eyJoaXN0b3J5IjpbLTEyNzkxMTcyMzgsLTIwMDA3MTc2MjcsNT
+A0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgy
+MTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMT
+U4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1
+MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1Nz
+MsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4
+NDE0NzQwMl19
 -->
