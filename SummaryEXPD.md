@@ -194,16 +194,17 @@ Eintrag durch das Spaltentotal dividiert.
 	6. Verbinde alle Mittelwerte
 
 ### Zusammenfassung Darstellungsmöglichkeiten bivariate Darstellungen (2 Variablen)
-|  |  |
-|--|--|
-|  |  |
+| Datentypen | Darstellungsart | Kommentar |
+|--|--|--|
+| Kategoriell vs. Kategoriell | Kreutabelle
+ |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMD
-AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
-MiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2Mj
-UwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4
-NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2My
-wtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMjAsMTAx
-MDU4MzcyNF19
+eyJoaXN0b3J5IjpbLTQ1ODk5NzgwNiwyMDQxNDkwNTc4LDE0NT
+ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
+OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
+kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
+MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC
+0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgw
+MzQxMTIyMF19
 -->
