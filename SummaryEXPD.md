@@ -42,16 +42,16 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 
 ## univariate kategorielle Variablen
 - **Häufigkeitstabellen**
+`vec <- c("val1","val2",...,"valn")
+	table(vec) #abs. Häufigkeiten
+	table(vec) / length(vec) #rel. Häufigkeiten
+	vec <- c(val1, val2,..., valn)
+	cumsum(table(vec)) #kumulierte absolute Häufigkeiten, sind bei ordinalen`
 - Bsp. Umfrage Sternzeichen von 20 Personen. Wie kann man Ergebnisse darstellen?
 	- Columns: Sternzeichen, abs. Häufigkeit, rel. Häufigkeit
 	- Darstellung in R
-	 `vec <- c("val1","val2",...,"valn")
-	table(vec) #abs. Häufigkeiten
-	table(vec) / length(vec) #rel. Häufigkeiten
-	
-	vec <- c(val1, val2,..., valn)
-	cumsum(table(vec)) #kumulierte absolute häufigkeiten, sind bei ordinalen `
-		- Bei ordinalen Merkmalen sind kumuliert abs. /rel. Häufigkeiten sinnvoll. 
+
+- Bei ordinalen Merkmalen sind kumuliert abs. /rel. Häufigkeiten sinnvoll. 
 		1. noten <- c(Ergebnisse)
 		2. table(noten) [abs. H]
 		3. cumsum(table(noten)) [kumulierte absolute Häufigkeit; "Wie viele Leute haben Note x oder kleiner"]
@@ -196,7 +196,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzNjYwNzMyLC04OTkyMTc1MzQsMTI3MD
+eyJoaXN0b3J5IjpbNTA1MDQwNDcyLC04OTkyMTc1MzQsMTI3MD
 A2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2
 MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMz
 IxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5Mjcy
