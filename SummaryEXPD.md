@@ -46,17 +46,12 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 vec <- c(val1, ..., valn)
 table(vec) #abs. Häufigkeiten
 table(vec) / length(vec) #rel. Häufigkeiten
-cumsum(table(vec)) #
+cumsum(table(vec)) #kumulierte abs. Häufigkeiten sind bei ordinalen Variablen sinnvoll
+cumsum(table(vec)) / length(vec) #kumulierte rel. Häufigkeiten
 ```
 - Bsp. Umfrage Sternzeichen von 20 Personen. Wie kann man Ergebnisse darstellen?
 	- Columns: Sternzeichen, abs. Häufigkeit, rel. Häufigkeit
-	- Darstellung in R
 
-- Bei ordinalen Merkmalen sind kumuliert abs. /rel. Häufigkeiten sinnvoll. 
-		1. noten <- c(Ergebnisse)
-		2. table(noten) [abs. H]
-		3. cumsum(table(noten)) [kumulierte absolute Häufigkeit; "Wie viele Leute haben Note x oder kleiner"]
-		4. cumsum(table(noten))/length(noten)) [kumulierte rel. Häufigkeiten]
 - **Balkendiagramm**
 	-  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
 	- Darstellung in R
@@ -197,11 +192,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjcxMTE4MDEsLTg5OTIxNzUzNCwxMj
-cwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcx
-NzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMj
-EzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDky
-NzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC
-00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3
-NjA4NDU3M119
+eyJoaXN0b3J5IjpbMTQ5NzkzMTE2NSwtODk5MjE3NTM0LDEyNz
+AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
+NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
+MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
+MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLT
+QxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2
+MDg0NTczXX0=
 -->
