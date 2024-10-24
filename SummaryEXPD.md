@@ -42,11 +42,11 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 
 ## univariate kategorielle Variablen
 - **Häufigkeitstabellen**
-`vec <- c("val1","val2",...,"valn")
+```vec <- c("val1","val2",...,"valn")
 	table(vec) #abs. Häufigkeiten
 	table(vec) / length(vec) #rel. Häufigkeiten
 	vec <- c(val1, val2,..., valn)
-	cumsum(table(vec)) #kumulierte absolute Häufigkeiten, sind bei ordinalen`
+	cumsum(table(vec)) #kumulierte absolute Häufigkeiten, sind bei ordinalen```
 - Bsp. Umfrage Sternzeichen von 20 Personen. Wie kann man Ergebnisse darstellen?
 	- Columns: Sternzeichen, abs. Häufigkeit, rel. Häufigkeit
 	- Darstellung in R
@@ -196,11 +196,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MDQwNDcyLC04OTkyMTc1MzQsMTI3MD
-A2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2
-MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMz
-IxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5Mjcy
-NywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtND
-E3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYw
-ODQ1NzNdfQ==
+eyJoaXN0b3J5IjpbMTU4MTcyMTM2OCwtODk5MjE3NTM0LDEyNz
+AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
+NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
+MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
+MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLT
+QxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2
+MDg0NTczXX0=
 -->
