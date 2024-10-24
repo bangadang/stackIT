@@ -28,13 +28,14 @@ Volkszählung)
 - Merkmale der Grundgesamtheit
 	- Bsp: Körpergrösse von Einwohner, Umsatzzahlen eines KMUs etc.
 - Merkmale sind typisierbar
-#### kategorisch** (Kategorien) : 
-qualitativ oder kategoriell: nominal oder ordinal
-			- Bürgerort: nominal (keine Ordnung)
-			- Zufriedenheit: ordinal
-			- Gefahrenstufe Lawinengänge: ordinal
-			- Farbe Verpackung: nominell
-		- **numerisch** (Zahlen): quantitativ oder numerisch: diskret oder stetig 
+#### kategorisch: 
+- **nominal oder ordinal**
+		- Bürgerort: nominal (keine Ordnung)
+		- Zufriedenheit: ordinal
+		- Gefahrenstufe Lawinengänge: ordinal
+		- Farbe Verpackung: nominell
+#### numerisch (Zahlen): 
+quantitativ oder numerisch: diskret oder stetig 
 			- diskret = ganzzahlig
 			- stetig = float
 	
@@ -201,7 +202,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MjI2NTE3OSwtODk5MjE3NTM0LDEyNz
+eyJoaXN0b3J5IjpbMTczNDYzODc5MiwtODk5MjE3NTM0LDEyNz
 AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
 NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
 MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
