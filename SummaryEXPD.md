@@ -44,8 +44,9 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 - **Häufigkeitstabellen**
 ```r
 vec <- c(val1, ..., valn)
-table(vec)
-table(vec
+table(vec) #abs. Häufigkeiten
+table(vec) / length(vec) #rel. Häufigkeiten
+cumsum(table(vec)) #
 ```
 - Bsp. Umfrage Sternzeichen von 20 Personen. Wie kann man Ergebnisse darstellen?
 	- Columns: Sternzeichen, abs. Häufigkeit, rel. Häufigkeit
@@ -196,7 +197,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgxMDU2OTQsLTg5OTIxNzUzNCwxMj
+eyJoaXN0b3J5IjpbLTE2NjcxMTE4MDEsLTg5OTIxNzUzNCwxMj
 cwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcx
 NzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMj
 EzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDky
