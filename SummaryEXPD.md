@@ -157,14 +157,15 @@ $$\bar x = \frac{val_1+val_2+...+val_n}{n}$$
 $$$$
 	- Bspw. Geschwindigkeiten
 - **Median**: Teilt Daten, sodass 50% der Daten über bzw. unter dem Median liegen.
+	- Symmetrie vs. Mittelwert/Median
+		- rechtsschief: Mittelwert > Median
+		- linksschief: Mittelwert < Median
+	- symmetrisch: Mittelwert ~ Median
 ```r
 median(vec)
 ```
 $$\text{Median}(x_1, x_2, \ldots, x_n) = \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
 
-	- rechtsschief: Mittelwert > Median
-	- linksschief: Mittelwert < Median
-	- symmetrisch: Mittelwert ~ Median
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
 - **Quantile** $\alpha$: Werte die Datenpunkte einer Variable prozentual bzw in ein Verhältnis aufteilen. $\alpha :(1-\alpha)$
 	-  Bei grossen Stichproben nehmen Quantile ähnliche Werte an
@@ -247,7 +248,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzQzOTE5NSwxMDg1OTU2MzY3LDkwNj
+eyJoaXN0b3J5IjpbLTU1OTIzNjU5NCwxMDg1OTU2MzY3LDkwNj
 U1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2MjY4Nzgy
 Myw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4LC00MD
 E2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwNDE0OTA1
