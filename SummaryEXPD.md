@@ -246,13 +246,17 @@ IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
 ### Kategoriell vs. Kategoriell
 #### Kontingenztafel Kreuztabelle
 - enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
-	- Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
-			1. Anteil am Gesamten: absoluten Häufigkeiten durch die Anzahl Datenpunkte -->  relativen Häufigkeiten für jede einzelne Merkmalskombination
-			2. Anteil pro Zeile: relative Häufigkeit pro Zeile brechnet sich, indem man den jeweiligen
+-  Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
+	1. Anteil am Gesamten: absoluten Häufigkeiten durch die Anzahl Datenpunkte -->  relativen Häufigkeiten für jede einzelne Merkmalskombination
+	2. Anteil pro Zeile: relative Häufigkeit pro Zeile brechnet sich, indem man den jeweiligen
 Eintrag durch das Zeilentotal dividiert
-			3. Anteil pro Spalte:  relative Häufigkeit pro Spalte brechnet sich, indem man den jeweiligen
+	3. Anteil pro Spalte:  relative Häufigkeit pro Spalte brechnet sich, indem man den jeweiligen
 Eintrag durch das Spaltentotal dividiert.
-	-  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpretation bei Zeilen/Spalten normierten Tabelle
+-  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpretation bei Zeilen/Spalten normierten Tabelle
+```r
+table(df$kateg.Variable1, df$kateg.Variable2) #abs. Häufigkeiten
+
+```
 - **gestapeltes Balkendiagramm**:
 	- Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
 	- Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
@@ -295,11 +299,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDc5Mjg3NSw1NjczNTU0NTQsNDY4Mz
-M2NDUzLDcwNjA0ODExOCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwt
-MTY5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OT
-Q1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcs
-LTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MT
-E0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4
-XX0=
+eyJoaXN0b3J5IjpbMTQ1MzExMzc5LDU2NzM1NTQ1NCw0NjgzMz
+Y0NTMsNzA2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0x
+Njk3ODgzODE1LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5ND
+U3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywt
+ODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMT
+QxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1Mzhd
+fQ==
 -->
