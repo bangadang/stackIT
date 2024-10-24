@@ -301,13 +301,19 @@ par(mfrow = c(1,2)) # 2 Grafiken nebeneinander
 boxplot(num.var ~ kateg.var1, data = kdata)
 boxplot(num.var ~ kateg.var2, data = kdata)
 ```
-- **Stripcharts** bimodale Verteilungen
+Stripcharts** bimodale Verteilungen
 	- wird unübersichtlich bei vielen Stufen
+```r
+par(mfrow = c(1,2)) # 2 Grafiken nebeneinander
+stripchart(num.var ~ kateg.var1, data = kdata, vertical=TRUE, method="stack")
+stripchart(num.var ~ kateg.var2, data = kdata, vertical=TRUE, method="stack")
+```
 
 ### Metrisch vs. Metrisch
 - **Streudiagramm**: Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechenden Werte der Variablen.
 	- Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
 	- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
+
 - **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
 	1. Wähle ein Fenster von x-Werten
 	2. Bilde den Mittelwert über die y-Werte im Fenster
@@ -327,11 +333,11 @@ boxplot(num.var ~ kateg.var2, data = kdata)
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDExNzYwODIsLTkzNDY5MzE0NywtMT
-IwNzk2MjEzMiw1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODEx
-OCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMj
-U5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1
-MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcsLTg5OTIxNzUzNCwxMj
-cwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcx
-NzYyN119
+eyJoaXN0b3J5IjpbMTM2ODYyMzMyMywtOTM0NjkzMTQ3LC0xMj
+A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
+LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNT
+k5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUx
+LDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNz
+AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
+NjI3XX0=
 -->
