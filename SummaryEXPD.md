@@ -260,10 +260,18 @@ table(df$kateg.Variable1, df$kateg.Variable2)
 # rel. Häufigkeiten zur Gesamtheit
 prop.table(table(df$kateg.Variable1, df$kateg.Variable2)) 
 
+#rel. Häufigkeiten pro Zeile
+prop.table(table(df$kateg.Variable1, df$kateg.Variable2), margin=1)
+
+#rel. Häufigkeit pro Spalte
+prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
 ```
-- **gestapeltes Balkendiagramm**:
-	- Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
-	- Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
+#### gestapeltes Balkendiagramm**:
+- Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
+- Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
+```r
+
+```
 - **gruppiertes Balkendiagramm**:
 	- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
 - **Mosaikplot**: 
@@ -303,7 +311,7 @@ prop.table(table(df$kateg.Variable1, df$kateg.Variable2))
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NTk0NTAsNTY3MzU1NDU0LDQ2ODMzNj
+eyJoaXN0b3J5IjpbODYxMTIzMDUsNTY3MzU1NDU0LDQ2ODMzNj
 Q1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2
 OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NT
 czLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04
