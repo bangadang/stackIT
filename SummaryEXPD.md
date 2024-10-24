@@ -160,8 +160,8 @@ $$$$
 ```r
 median(vec)
 ```
-- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
-	$$\text{Median}(x_1, x_2, \ldots, x_n) = \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
+$$\text{Median}(x_1, x_2, \ldots, x_n) = \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
+
 	- rechtsschief: Mittelwert > Median
 	- linksschief: Mittelwert < Median
 	- symmetrisch: Mittelwert ~ Median
@@ -247,11 +247,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDYyMjI0ODgsMTA4NTk1NjM2Nyw5MD
-Y1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4
-MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtND
-AxNjk5NjE3LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkw
-NTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMj
-EyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYz
-NTEzXX0=
+eyJoaXN0b3J5IjpbMjA0NzQzOTE5NSwxMDg1OTU2MzY3LDkwNj
+U1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2MjY4Nzgy
+Myw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4LC00MD
+E2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwNDE0OTA1
+NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYzNywyMT
+IxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1
+MTNdfQ==
 -->
