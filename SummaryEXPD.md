@@ -3,7 +3,7 @@
 
 ## Einführung
 ### Grundberiffe
-- **Grundgesamtheit**: Die Menge aller für eine Untersuchung relevanten Elemente. Je nach
+#### Grundgesamtheit: Die Menge aller für eine Untersuchung relevanten Elemente. Je nach
 Fragestellung ergibt sich eine andere Untersuchungsmenge.
 	- Abstimmungen in der CH: alle stimmberechtigten Schweizer:innen
 - **Vollerhebung** (Zensus): Bei **jedem** Individuum bzw. **jedem** Objekt der Grundgesamtheit werden
@@ -63,7 +63,7 @@ barplot(table(vec)) / length (vec) #rel. Häufigkeiten
 - **Kuchendiagramm**
 
 ```r
-
+pie(table(vec))
 ```
 - rel. Häufigkeit einer Variable entspricht dem entsprechenden Kreissektor an der Gesamtfläche
 	- Ausprägungen sind schwer zu erkennen, wenn Kreissektoren ähnlich gross sind
@@ -199,11 +199,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjgwMjY4MSwtODk5MjE3NTM0LDEyNz
-AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
-NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
-MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
-MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLT
-QxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2
-MDg0NTczXX0=
+eyJoaXN0b3J5IjpbLTE5NDcxMTY2NzIsLTg5OTIxNzUzNCwxMj
+cwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcx
+NzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMj
+EzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDky
+NzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC
+00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3
+NjA4NDU3M119
 -->
