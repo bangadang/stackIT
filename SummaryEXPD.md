@@ -182,13 +182,16 @@ Eintrag durch das Spaltentotal dividiert.
 	- wird unübersichtlich bei vielen Stufen
 
 ### Metrisch vs. Metrisch
-- **Streudiagramm**: Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechen
+- **Streudiagramm**: Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechenden Werte der Variablen.
+	- Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
+	- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
+- **Gleitender Mittelwe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzEwMDE3MiwxNDUxMTQxOTI4LC0yMD
-AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
-MiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2Mj
-UwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4
-NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2My
-wtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMjAsMTAx
-MDU4MzcyNF19
+eyJoaXN0b3J5IjpbLTEwNjk3NTc4ODYsMTQ1MTE0MTkyOCwtMj
+AwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0
+MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNj
+I1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUx
+ODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5Nj
+MsLTU3NjA4NDU3MywtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEw
+MTA1ODM3MjRdfQ==
 -->
