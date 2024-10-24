@@ -14,9 +14,8 @@ erhoben. Die Teilmenge wird nach bestimmten Gesichtspunkten aus-
 gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 - **Repräsentativität** (bezgl. Stichprobe): Auswahl aus der Grundgesamtheit, die alle typischen Merkmalen gemäss ihren relativen Häufigkeiten abbildet.
 	- Bericht Health Students at ZHAW
-- 
-- 
-Bsp Ab1Ex. 2
+
+*Bsp Ab1Ex. 2*
 - “Sollten in der Stadt Zürich mehr Parkplätze angeboten werden?” Stichprobe: Befragung von 150 Passanten im Zürcher Hauptbahnhof.
 	- Grundpopulation: Alle Erwachsenen der Stadt Zürich
 	- Stichprobe nicht repr. --> Passanten am Hbf eher Pendler als Autofahrer--> Grösse nicht mehr releveant.
@@ -194,11 +193,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwND
-E0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYz
-NywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1Mj
-MzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYz
-MTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLT
-ExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5
-NjkxNDYzNl19
+eyJoaXN0b3J5IjpbLTgzNjQxMTc2MiwtODk5MjE3NTM0LDEyNz
+AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
+NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
+MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
+MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLT
+QxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2
+MDg0NTczXX0=
 -->
