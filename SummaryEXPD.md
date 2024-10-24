@@ -286,14 +286,16 @@ barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
 mosaicplot(table(df$kateg.Variable1, df$kateg.Variable2))
 ```
 ### Kategoriell vs. Metrisch
-- **Kennzahlentabelle**: Die Daten lassen sich über die kategorielle Grösse Gruppieren. Dannach kann man die nummerischen Daten pro Gruppe über eine Kennzahl, wie Mittelwert und Standardabweichung, zusammenfassen.
+#### Kennzahlentabelle:
+Die Daten lassen sich über die kategorielle Grösse Gruppieren. Dannach kann man die nummerischen Daten pro Gruppe über eine Kennzahl, wie Mittelwert und Standardabweichung, zusammenfassen.
 ```r
 m <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "mean")
 s <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "sd")
 cbind(Mittelwert = m, Standardabweichung = s)
 ```
--  **Boxplots** für monomodale Verteilungen: So kann die Verteilung der metrischen Variable gruppiert nach der kategoriellen Variable dargestellt werden.
-	- monomodale Verteilungen können so gut verglichen werden
+#### Boxplots** für monomodale Verteilungen: 
+So kann die Verteilung der metrischen Variable gruppiert nach der kategoriellen Variable dargestellt werden.
+- unimodale Verteilungen können so gut verglichen werden
 - **Stripcharts** bimodale Verteilungen
 	- wird unübersichtlich bei vielen Stufen
 
@@ -320,11 +322,11 @@ cbind(Mittelwert = m, Standardabweichung = s)
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTcxODU3NywtOTM0NjkzMTQ3LC0xMj
-A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
-LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNT
-k5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUx
-LDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNz
-AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
-NjI3XX0=
+eyJoaXN0b3J5IjpbMTI2NDYzNjUwLC05MzQ2OTMxNDcsLTEyMD
+c5NjIxMzIsNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgs
+MTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OT
+k4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAyNTEs
+MTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQsMTI3MD
+A2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2
+MjddfQ==
 -->
