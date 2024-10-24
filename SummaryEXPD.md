@@ -164,7 +164,7 @@ $$\bar h = \frac{n}{\frac{1}{x_1}+...+\frac{1}{x_n}}$$
 ```r
 median(vec)
 ```
-$$\text{Median}(x_1, x_2, \ldots, x_n) = \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
+$$\text{Median}(x_1, x_2, \ldots, x_n) =  \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
 
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
 	- von Barplot einfach abzulesen
@@ -210,7 +210,7 @@ sd(vec) or sqrt(var(vec))
 	$$max(A)-min(A)$$
 - **median absolute deviation** MAD: 
 	- robust gegenüber Ausreissern
-	$$$$
+	$$MAD_x = 1.4826 \cdot median(||)$$
 - **inter quartile range** IQR: Differenz zw. Q~3~ und Q~1~
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
@@ -278,11 +278,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQxMjUyNzEsNDY4MzM2NDUzLDcwNj
-A0ODExOCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwtMTY5Nzg4Mzgx
-NSwxMjU5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OT
-AwMDI1MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcsLTg5OTIxNzUz
-NCwxMjcwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMj
-AwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTkwNTkyNDcyNyw0NjgzMzY0NTMsNzA2MD
+Q4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1
+LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MD
+AwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0
+LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMD
+AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
+Ml19
 -->
