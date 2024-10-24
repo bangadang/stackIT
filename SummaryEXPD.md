@@ -314,6 +314,8 @@ stripchart(num.var ~ kateg.var2, data = kdata, vertical=TRUE, method="stack")
 	- Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
 	- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
 ```r
+#Falls Datensatz zu gross eine Stichprobe darstellen
+stichprobedf <- sample(1:nrow(kdata), 500)
 plot(df$num.var1, df$num.var2, main = "Title",ylab = "y-Achse Beschriftung", xlab = "x-Achse Beschriftung", las = 1, cex=.5, pch=20)
 ```
 - **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
@@ -335,7 +337,7 @@ plot(df$num.var1, df$num.var2, main = "Title",ylab = "y-Achse Beschriftung", xla
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTUzNzIxNiwtOTM0NjkzMTQ3LC0xMj
+eyJoaXN0b3J5IjpbMTM5NTYzODY4NSwtOTM0NjkzMTQ3LC0xMj
 A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
 LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNT
 k5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUx
