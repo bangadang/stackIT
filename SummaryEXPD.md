@@ -35,9 +35,9 @@ Volkszählung)
 		- Gefahrenstufe Lawinengänge: ordinal
 		- Farbe Verpackung: nominell
 #### numerisch (Zahlen): 
-quantitativ oder numerisch: diskret oder stetig 
-			- diskret = ganzzahlig
-			- stetig = float
+- **diskret oder stetig**
+		- diskret = ganzzahlig
+		- stetig = float
 	
 ## Daten & Messungen
 - **Accuracy** (Wie genau sind die Daten?) vs. **Precision** (Wie sehr streuen Daten?)
@@ -202,7 +202,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDYzODc5MiwtODk5MjE3NTM0LDEyNz
+eyJoaXN0b3J5IjpbLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNz
 AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
 NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
 MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
