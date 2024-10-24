@@ -144,11 +144,13 @@ ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 
 ### Lagemasse
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
-$$\bar x = \frac{val_1+val_2+...+val_n}{n}\sum{s{s}}}$$
+$$\bar x = \frac{val_1+val_2+...+val_n}{n}$$
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
 	$$g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$$
+	- Bspw. Zinssätze
 
 - **harmonischer Mittelwert**: Mittel von Qutienten 
+-
 	- Bspw. Geschwindigkeiten
 - **Median**: Teilt Daten, sodass 50% der Daten über bzw. unter dem Median liegen.
 	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
@@ -238,7 +240,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODc3NDY4ODcsLTE2OTc4ODM4MTUsMT
+eyJoaXN0b3J5IjpbLTE5NTgzNTQ3NzMsLTE2OTc4ODM4MTUsMT
 I1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAy
 NTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQsMT
 I3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3
