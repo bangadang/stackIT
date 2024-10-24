@@ -28,14 +28,13 @@ Volkszählung)
 - Merkmale der Grundgesamtheit
 	- Bsp: Körpergrösse von Einwohner, Umsatzzahlen eines KMUs etc.
 - Merkmale sind typisierbar
-#### kategorisch: 
+# kategorisch: 
 - **nominal oder ordinal**
 		- Bürgerort: nominal (keine Ordnung)
 		- Zufriedenheit: ordinal
 		- Gefahrenstufe Lawinengänge: ordinal
 		- Farbe Verpackung: nominell
-#### numerisch (Zahlen): 
-- **diskret oder stetig**
+#### numerisch (Zahlen):i diskret oder stetig**
 		- diskret = ganzzahlig
 		- stetig = float
 	
@@ -50,32 +49,21 @@ Volkszählung)
 -
 -
 
-## univariate kategorielle Variablen
-- **Häufigkeitstabellen**
+## univariate### kategorielle Variablen
+kumuliert rel. Häufigkeiten- **Häufigkeitstabellen**
 ```r
 vec <- c(val1, ..., valn)
 table(vec) #abs. Häufigkeiten
 table(vec) / length(vec) #rel. Häufigkeiten
 cumsum(table(vec)) #kumulierte abs. Häufigkeiten sind bei ordinalen Variablen sinnvoll
-cumsum(table(vec)) / length(vec) #kumulierte rel. Häufigkeiten
-```
-- Bsp. Umfrage Sternzeichen von 20 Personen. Wie kann man Ergebnisse darstellen?
-	- Columns: Sternzeichen, abs. Häufigkeit, rel. Häufigkeit
+cumsum(table(vec)) / length(vec) #-  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
 
-- **Balkendiagramm**
-```r
-barplot(table(vec)) #abs. Häufigkeiten
-barplot(table(vec)) / length (vec) #rel. Häufigkeiten
-
-```
--  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
-
-- **Kuchendiagramm**
+	- **Kuchendiagramm**
 
 ```r
 pie(table(vec))
 ```
-- rel. Häufigkeit einer Variable entspricht dem entsprechenden Kreissektor an der Gesamtfläche
+.- rel. Häufigkeit einer Variable entspricht dem entsprechenden Kreissektor an der Gesamtfläche
 	- Ausprägungen sind schwer zu erkennen, wenn Kreissektoren ähnlich gross sind
 	- schwer leserlich mit vielen Sektoren
 	--> Balkendiagramm >>>> Kuchendiagramm
@@ -106,7 +94,8 @@ hist(	vect,
 		col=color-value-or-func, 
 		ylim = vec, las=1)
 ```
-- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
+**
+	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
 	- Wichtig ist die Entscheidung über die **Grösse der Klassen**/Buckets bzw Breite der Säulen auf der x-Achse
 		- je kleiner die Klassen desto rauschiger wird das Histogramm
 		- je grösser die Klassen desto weniger rauschen
@@ -116,7 +105,7 @@ hist(	vect,
 		$$
 		Balkenhöhe = \frac{Anzahl Beobachtungen In Einer Klasse}{Anzahl Beobachtungenen Total \times (obere Klassengrenze - untere Klassengrenze)}
 		$$
-#### Empirische kumulierte Verteilungsfunktion $F_n(x)$ 
+#### **Empirische kumulierte Verteilungsfunktion $F_n(x)$ 
 ```r
 vec <- dataframe$column
 plot(ecdf(vec))
@@ -139,7 +128,7 @@ ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 -
 -
 
-#### Form der Verteilung
+#### **Form der Verteilung
 - **symmetrisch**: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
 - **rechts-/linksschief**: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
 #### Modalität = Anzahl Gipfel der Verteilung
@@ -151,7 +140,7 @@ ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 - **Lagemasse**: Verteilung der Daten um einen "mittleren" Wert
 - **Streuungsmasse**: wie stark Streuen die Werte
 
-### Lagemasse
+## Lagemasse
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
 ```r
 mean(vec)
@@ -159,7 +148,7 @@ mean(vec)
 $$\bar x = \frac{val_1+val_2+...+val_n}{n}$$
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
 	
-	$$\bar g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$$
+	$$\bar - $g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$$
 	- Bspw. Zinssätze
 
 - **harmonischer Mittelwert**: Mittel von Qutienten 
@@ -173,7 +162,7 @@ $$\bar h = \frac{n}{\frac{1}{x_1}+...+\frac{1}{x_n}}$$
 ```r
 median(vec)
 ```
-$$\text{Median}(x_1, x_2, \ldots, x_n) = \tilde x= \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
+ $$\text{Median}(x_1, x_2, \ldots, x_n) = \tilde x= \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
 
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
 	- von Barplot einfach abzulesen
@@ -203,9 +192,11 @@ quantile(vec, probs=c(0.1,..0.75), type=7)
 	$$\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
 ```r
 var(vec)
-```
+```#### Streungsmasse
+- **Varianz** s~x~^2^ 
+	- nicht robust gegen Ausreisser
 - **Standardabweichung** s~x~
-	- für symmetrische Verteilungen ohne Ausreisser
+	- für symmetrischVerteilungen ohne Ausreisser
 	- nicht robust, wird stark verzerrt bei auuhc nur einer falschen Beobachtung
 	$$s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
 $$
@@ -219,21 +210,21 @@ sd(vec) or sqrt(var(vec))
 	$$max(A)-min(A)$$
 - **median absolute deviation** MAD: 
 	- Man zieht von jedem Element der geordneten Liste der Median ab und generiert den Median aus all diesen Differenzen.
-	- robust gegenüber Ausreissern
+	- 
 	$$MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$$
 ```r
 mad(vec) or 1.4826 * median(abs(vec - median(vec)))
-```
-- **inter quartile range** IQR
+```robust gegenüber Ausreissern
+- inter quartile range** IQR
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
-	- robust gegenüber Ausreissern
+- robust gegenüber Ausreissern
 	$$IQR=Q_3 -Q_1$$
 ```r
 IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
 ```
 
-## Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
+### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
 | numerisch | Häufigkeitsttabelle/ Modus | Lagemasse( AVG, Median, Quantile)/ Streumasse( Varianz, Stndardabweichung, IQR, MAD) |
@@ -242,9 +233,9 @@ IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
 
 ## Bivariate Darstellungen
 - Beziehungen und Korrelationen können so untersucht werden.
-- verschiedene Variablentypen brauchen versch. Handhabung
+verschiedene Variablentypen brauchen versch. Handhabung
 ### Kategoriell vs. Kategoriell
-#### Kontingenztafel Kreuztabelle
+#### - **Kontingenztafel Kreuztabelle
 - enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
 -  Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
 	1. Anteil am Gesamten: absoluten Häufigkeiten durch die Anzahl Datenpunkte -->  relativen Häufigkeiten für jede einzelne Merkmalskombination
@@ -270,7 +261,7 @@ prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
 - Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
 - Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
 
-#### gruppiertes Balkendiagramm**:
+#### - **gruppiertes Balkendiagramm**:
 - Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
 ```r
 barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
@@ -295,22 +286,22 @@ cbind(Mittelwert = m, Standardabweichung = s)
 ```
 #### Boxplots für monomodale Verteilungen: 
 So kann die Verteilung der metrischen Variable gruppiert nach der kategoriellen Variable dargestellt werden.
-- unimodale Verteilungen können so gut verglichen werden
+	- unimonomodale Verteilungen können so gut verglichen werden
 ```r
 par(mfrow = c(1,2)) # 2 Grafiken nebeneinander
 boxplot(num.var ~ kateg.var1, data = kdata)
 boxplot(num.var ~ kateg.var2, data = kdata)
 ```
-#### Stripcharts für bimodale Verteilungen
-- wird unübersichtlich bei vielen Stufen
+#### - **Stripcharts für** bimodale Verteilungen
+	- wird unübersichtlich bei vielen Stufen
 ```r
 par(mfrow = c(1,2)) # 2 Grafiken nebeneinander
 stripchart(num.var ~ kateg.var1, data = kdata, vertical=TRUE, method="stack")
 stripchart(num.var ~ kateg.var2, data = kdata, vertical=TRUE, method="stack")
 ```
 
-### Metrisch vs. Metrisch
-#### Streudiagramm: 
+#### Metrisch vs. Metrisch
+#### - **Streudiagramm**: 
 Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechenden Werte der Variablen.
 - Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
 - Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
@@ -325,13 +316,13 @@ plot(	df$num.var1,
 		las = 1, 
 		cex=.5, pch=20)
 ```
-#### Gleitender Mittelwert (bspw. über ein Streudiagramm)
-1. Wähle ein Fenster von x-Werten
-2. Bilde den Mittelwert über die y-Werte im Fenster
-3. Zeichne den Mittelwert in der Mitte des Fensters ein
-4. Verschiebe das Fenster, so dass es mit dem ersten Fenster immer noch überlappt.
-5. Wiederhole 2. - 4. bis der ganze Wertebereich von x abgedeckt ist.
-6. Verbinde alle Mittelwerte
+#### - **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
+	1. Wähle ein Fenster von x-Werten
+	2. Bilde den Mittelwert über die y-Werte im Fenster
+	3. Zeichne den Mittelwert in der Mitte des Fensters ein
+	4. Verschiebe das Fenster, so dass es mit dem ersten Fenster immer noch überlappt.
+	5. Wiederhole 2. - 4. bis der ganze Wertebereich von x abgedeckt ist.
+	6. Verbinde alle Mittelwerte
 ```r
 scatter.smooth(	df$num.var1, 
 				df$num.var2, 
@@ -352,12 +343,13 @@ scatter.smooth(	df$num.var1,
 ||Boxplot|generell gut geeignet|
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMj
-A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
-LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNT
-k5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUx
-LDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNz
-AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
-NjI3XX0=
+eyJoaXN0b3J5IjpbMjAxMDU2NDM0NCwxOTY0NTQyNzEzLC05Mz
+Q2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1NDU0LDQ2ODMzNjQ1
+Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OT
+c4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTcz
+LDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OT
+kyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5
+MjhdfQ==
 -->
