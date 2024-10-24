@@ -150,11 +150,11 @@ mean(vec)
 $$\bar x = \frac{val_1+val_2+...+val_n}{n}$$
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
 	
-	$$g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$$
+	$$\bar g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$$
 	- Bspw. Zinssätze
 
 - **harmonischer Mittelwert**: Mittel von Qutienten 
-$$$$
+$$\bar h = \frac{n}{\frac{1}{x_1}+...+\frac{1}{x_n}}$$
 	- Bspw. Geschwindigkeiten
 - **Median**: Teilt Daten, sodass 50% der Daten über bzw. unter dem Median liegen.
 	- Symmetrie vs. Mittelwert/Median
@@ -248,11 +248,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NT
-U0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgxNDEsNTYyNjg3ODIz
-LDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgsLTQwMT
-Y5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MTQ5MDU3
-OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMj
-E2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUx
-M119
+eyJoaXN0b3J5IjpbLTE5NTY3MDc0OTIsNzA2MDQ4MTE4LDEwOD
+U5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgx
+NDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNj
+A1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEz
+MDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LD
+UwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4
+MjEyXX0=
 -->
