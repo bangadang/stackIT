@@ -47,10 +47,10 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 	- Darstellung in R
 	 `vec <- c("val1","val2",...,"valn")
 	table(vec) #abs. Häufigkeiten
-	table(vec`
-		1. Vektor erstellen: Sternzeichen <-c(Ergebnisse)
-		2. table(Sternzeichen) [abs. H]
-		3. table(Sternzeichen) / length(Sternzeichen) [rel. H] 
+	table(vec) / length(vec) #rel. Häufigkeiten`
+		
+
+    
 	- Bei ordinalen Merkmalen sind kumuliert abs. /rel. Häufigkeiten sinnvoll. 
 		1. noten <- c(Ergebnisse)
 		2. table(noten) [abs. H]
@@ -196,11 +196,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzk1NDA2ODksLTg5OTIxNzUzNCwxMj
-cwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcx
-NzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMj
-EzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDky
-NzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC
-00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3
-NjA4NDU3M119
+eyJoaXN0b3J5IjpbNzE1NDM3NjA1LC04OTkyMTc1MzQsMTI3MD
+A2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2
+MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMz
+IxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5Mjcy
+NywtMTU4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtND
+E3NjU1MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYw
+ODQ1NzNdfQ==
 -->
