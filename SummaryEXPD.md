@@ -189,7 +189,9 @@ quantile(vec, probs=c(0.1,..0.75), type=7)
 ```
 ### Streungsmasse
 - **Varianz** s~x~^2^ 
+	- mittlere quadratische Abweichung der Beobachtungen vom arith. Mittelwert
 	- nicht robust gegen Ausreisser
+	- 
 - **Standardabweichung** s~x~
 	- für symmetrische Verteilungen ohne Ausreisser
 	- nicht robust, wird stark verzerrt bei auuhc nur einer falschen Beobachtung
@@ -266,11 +268,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM0NDY2MDYsNDY4MzM2NDUzLDcwNj
-A0ODExOCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwtMTY5Nzg4Mzgx
-NSwxMjU5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OT
-AwMDI1MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcsLTg5OTIxNzUz
-NCwxMjcwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMj
-AwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTM3OTcyNTA0Niw0NjgzMzY0NTMsNzA2MD
+Q4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1
+LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MD
+AwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0
+LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMD
+AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
+Ml19
 -->
