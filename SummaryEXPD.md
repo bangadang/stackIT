@@ -50,13 +50,9 @@ Volkszählung)
 -
 
 ## univariate### kategorielle Variablen
-kumuliert rel. Häufigkeiten- **Häufigkeitstabellen**
+kumuliertHäufigkeiten- **, rel. Häufigkeitstabellen**
 ```r
-vec <- c(val1, ..., valn)
-table(vec) #abs. Häufigkeiten
-table(vec) / length(vec) #rel. Häufigkeiten
-cumsum(table(vec)) #kumulierte abs. Häufigkeiten sind bei ordinalen Variablen sinnvoll
-cumsum(table(vec)) / length(vec) #-  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
+vec <-c() abs. Hcumsum(table(vec)) [kumulierte abs. Häufigkeiten sind bei ordinalen Variaben -  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
 
 	- **Kuchendiagramm**
 
@@ -71,8 +67,7 @@ pie(table(vec))
 	- sinnvoll für kategorielle und diskrete Variablen
 	- kann aus Häufigkeitstabelle oder Balkendiagramm (höchste Säule) abgelesen werden
 
-## Univariate metrische Daten (1 Variable)
-#### Stripchart
+## Univariate metrische Daten (1 Variable)*Stripchart
 ```r
 vec <- daraframe$column
 stripchart(vec, xlab="Beschriftung x-Achse", method="jitter" oder "stacked")
@@ -103,7 +98,7 @@ hist(	vect,
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
 	- Konsruktion der Balken über rel. Häufigkeit: 
 		$$
-		Balkenhöhe = \frac{Anzahl Beobachtungen In Einer Klasse}{Anzahl Beobachtungenen Total \times (obere Klassengrenze - untere Klassengrenze)}
+		Balkenhöhe = \frac{Anzahl eobachtungen In Einer Klasse}{Anzahl Beobachtungenen Total \times (obere Klassengrenze - untere Klassengrenze)}
 		$$
 #### **Empirische kumulierte Verteilungsfunktion $F_n(x)$ 
 ```r
@@ -112,7 +107,7 @@ plot(ecdf(vec))
 ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 ```
 - empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
-	$$F_n(x) = \frac{Anzahl Beobachtungen \leq x}{ n}$$
+	$$F_n(x) = \frac{Anzahl Bbeobachtungen \leq x}{ n}$$
 - Median und Quantile an Grafik ablesbar
 
 - **Boxplot**
@@ -203,7 +198,7 @@ $$
 ```r
 sd(vec) or sqrt(var(vec))
 ```
-- **Spannweite** 
+- neie - **Spannweite** = Maxima- Minima bzw. max(A)-min(A)
 	- anfällg auf Ausreisser
 	- nimmt zu bei grösseren Stichproben
 	- nicht geeignet als Streuungsmass
@@ -218,7 +213,7 @@ mad(vec) or 1.4826 * median(abs(vec - median(vec)))
 - inter quartile range** IQR
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
-- robust gegenüber Ausreissern
+	- robust gegenüber Ausreissern
 	$$IQR=Q_3 -Q_1$$
 ```r
 IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
@@ -233,17 +228,17 @@ IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
 
 ## Bivariate Darstellungen
 - Beziehungen und Korrelationen können so untersucht werden.
-verschiedene Variablentypen brauchen versch. Handhabung
+- verschiedene Variablentypen brauchen versch. Handhabung
 ### Kategoriell vs. Kategoriell
-#### - **Kontingenztafel Kreuztabelle
-- enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
--  Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
-	1. Anteil am Gesamten: absoluten Häufigkeiten durch die Anzahl Datenpunkte -->  relativen Häufigkeiten für jede einzelne Merkmalskombination
-	2. Anteil pro Zeile: relative Häufigkeit pro Zeile brechnet sich, indem man den jeweiligen
+#### - **Kontingenztafel** Kreuztabelle
+	- enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
+	-  Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
+			1. Anteil am Gesamten: absoluten Häufigkeiten durch die Anzahl Datenpunkte -->  relativen Häufigkeiten für jede einzelne Merkmalskombination
+			2. Anteil pro Zeile: relative Häufigkeit pro Zeile brechnet sich, indem man den jeweiligen
 Eintrag durch das Zeilentotal dividiert
-	3. Anteil pro Spalte:  relative Häufigkeit pro Spalte brechnet sich, indem man den jeweiligen
+			3. Anteil pro Spalte:  relative Häufigkeit pro Spalte brechnet sich, indem man den jeweiligen
 Eintrag durch das Spaltentotal dividiert.
--  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpretation bei Zeilen/Spalten normierten Tabelle
+	-  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpretation bei Zeilen/Spalten normierten Tabelle
 ```r
 #abs. Häufigkeiten
 table(df$kateg.Variable1, df$kateg.Variable2) 
@@ -257,22 +252,22 @@ prop.table(table(df$kateg.Variable1, df$kateg.Variable2), margin=1)
 #rel. Häufigkeit pro Spalte
 prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
 ```
-#### gestapeltes Balkendiagramm**:
-- Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
-- Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
+#### - **gestapeltes Balkendiagramm**:
+	- Die Gesamthöhe der Balken zeigt die absolute Häufigkeit für ein Merkmal.
+	- Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
 
 #### - **gruppiertes Balkendiagramm**:
-- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
+	- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
 ```r
 barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
 #beside bestimmt ober Säulen gestapelt oder nebeneinander stehen sollen
 ```
-#### Mosaikplot: 
-- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
-- Fläche ist proportional zur Anzahl Beobachtung für die Merkmalskombination in der Stichprobe. 
-- man sieht nur proportionen --> Die Anzahl an Beobachtungen ist  nicht ablesbar
-- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten Variable, die Höhe proportional zur zweiten Variable.
-- Vertauschen der Variaben führt zu einem anderen Mosaikplot
+#### - **Mosaikplot**: 
+	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
+	- Fläche ist proportional zur Anzahl Beobachtung für die Merkmalskombination in der Stichprobe. 
+	- man sieht nur proportionen --> Die Anzahl an Beobachtungen ist  nicht ablesbar
+	- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten Variable, die Höhe proportional zur zweiten Variable.
+	- Vertauschen der Variaben führt zu einem anderen Mosaikplot
 ```r
 mosaicplot(table(df$kateg.Variable1, df$kateg.Variable2))
 ```
@@ -345,11 +340,11 @@ scatter.smooth(	df$num.var1,
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDU2NDM0NCwxOTY0NTQyNzEzLC05Mz
-Q2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1NDU0LDQ2ODMzNjQ1
-Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OT
-c4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTcz
-LDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OT
-kyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTExMzY5NzA3MDEsMjAxMDU2NDM0NCwxOT
+Y0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1
+NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MD
+Y1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4
+MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtND
+AxNjk5NjE3LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkw
+NTc4XX0=
 -->
