@@ -181,7 +181,7 @@ quantile(vec, probs= c(Q1,...,Qn), type=1)
 # Definition ist nicht symmetrisch
 ```
 - Ansatz 2: Lineare Interpolation zwischen den nächsten zwei  Werten. --> Standardmethode
-$$Q_\alpha= x_{[\lfloor h \rfloor]}+(h - \lfloor h \rfloor)$$
+$$Q_\alpha= x_{[\lfloor h \rfloor]}+(h - \lfloor h \rfloor )\cdot(x_{[\lfloor h \rfloor + 1]}-x_{[\lfloor h \rfloor]})$$
 ### Streungsmasse
 - **Varianz** s~x~^2^ 
 	- nicht robust gegen Ausreisser
@@ -261,7 +261,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM2ODQwODIsNDY4MzM2NDUzLDcwNj
+eyJoaXN0b3J5IjpbLTE3NTYxODA3OTgsNDY4MzM2NDUzLDcwNj
 A0ODExOCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwtMTY5Nzg4Mzgx
 NSwxMjU5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OT
 AwMDI1MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcsLTg5OTIxNzUz
