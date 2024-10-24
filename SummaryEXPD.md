@@ -157,7 +157,10 @@ $$\bar x = \frac{val_1+val_2+...+val_n}{n}$$
 $$$$
 	- Bspw. Geschwindigkeiten
 - **Median**: Teilt Daten, sodass 50% der Daten über bzw. unter dem Median liegen.
-	- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
+```r
+median(vec)
+```
+- n gerade: Mittelwert zwischen den zwei Werten in der Mitte
 	$$\text{Median}(x_1, x_2, \ldots, x_n) = \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$$
 	- rechtsschief: Mittelwert > Median
 	- linksschief: Mittelwert < Median
@@ -244,11 +247,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OT
-c4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NTcz
-LDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OT
-kyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5
-MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMj
-c1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1
-MjddfQ==
+eyJoaXN0b3J5IjpbLTIwMDYyMjI0ODgsMTA4NTk1NjM2Nyw5MD
+Y1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4
+MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtND
+AxNjk5NjE3LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkw
+NTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMj
+EyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYz
+NTEzXX0=
 -->
