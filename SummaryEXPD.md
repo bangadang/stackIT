@@ -244,8 +244,8 @@ IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
 - Beziehungen und Korrelationen können so untersucht werden.
 - verschiedene Variablentypen brauchen versch. Handhabung
 ### Kategoriell vs. Kategoriell
-- **Kontingenztafel** Kreuztabelle
-	- enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
+#### Kontingenztafel Kreuztabelle
+- enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
 	- Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
 			1. Anteil am Gesamten: absoluten Häufigkeiten durch die Anzahl Datenpunkte -->  relativen Häufigkeiten für jede einzelne Merkmalskombination
 			2. Anteil pro Zeile: relative Häufigkeit pro Zeile brechnet sich, indem man den jeweiligen
@@ -295,11 +295,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU0Mzk2MjQsNTY3MzU1NDU0LDQ2OD
-MzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYs
-LTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Nj
-k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
-LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
-ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
-OF19
+eyJoaXN0b3J5IjpbLTUwNDc5Mjg3NSw1NjczNTU0NTQsNDY4Mz
+M2NDUzLDcwNjA0ODExOCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwt
+MTY5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OT
+Q1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcs
+LTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MT
+E0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4
+XX0=
 -->
