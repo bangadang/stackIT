@@ -96,7 +96,8 @@ stripchart(vec, xlab="Beschriftung x-Achse", method="jitter" oder "stacked")
 - **Histogramm**
 ```r
 classes <- cut(vec, breaks  = seq(start, end, by))
-
+table(classes) #abs. Häufigkeit der versch. Klassen
+hist(vect, freq=TRUE/FALSE, )
 ```
 - Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
 		- Wichtig ist die Entscheidung über die **Grösse der Klassen**/Buckets bzw Breite der Säulen auf der x-Achse
@@ -218,11 +219,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNDc1NzYyLDU2MjY4NzgyMyw1MTY2OT
-Q1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcs
-LTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MT
-E0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4
-LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMsMTU0OT
-A3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1Mjkw
-MThdfQ==
+eyJoaXN0b3J5IjpbLTc1MTg3NTYxMyw1NjI2ODc4MjMsNTE2Nj
+k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
+LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
+ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
+OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
+kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
+MDE4XX0=
 -->
