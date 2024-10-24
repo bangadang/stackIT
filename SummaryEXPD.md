@@ -120,6 +120,7 @@ hist(	vect,
 	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
 	- $F_n(x) = \frac{Anzahl Beobachtungen \leq x}{ n}$
 - Median und Quantile an Grafik ablesbar
+
 - **Boxplot**
 	- gibt sofortige Auskunft über 5 Kennzahlen und Symmetrie der Daten
 	- sagt nichts über Shape/ Modalität der Daten aus, d.h. nur geeignet für unimodalen Verteilungen
@@ -230,11 +231,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Nj
-k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
-LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
-ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
-OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
-kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
-MDE4XX0=
+eyJoaXN0b3J5IjpbNzA1OTg1NjYzLDEyNTk5ODgxNDEsNTYyNj
+g3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgs
+LTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MT
+Q5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3
+LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMz
+M2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMx
+MDNdfQ==
 -->
