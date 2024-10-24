@@ -115,7 +115,7 @@ Bsp Ab1Ex. 2
 - **Modus**: numerische Variable, die am häufigsten Auftritt.
 - **Quantile** $\alpha$: Werte die Datenpunkte einer Variable prozentual bzw in ein Verhältnis aufteilen. $\alpha :(1-\alpha)$
 	-  Bei grossen Stichproben nehmen Quantile ähnliche Werte an
-#### Streungsmasse
+### Streungsmasse
 - **Varianz** s~x~^2^ 
 	- nicht robust gegen Ausreisser
 - **Standardabweichung** s~x~
@@ -132,7 +132,7 @@ Bsp Ab1Ex. 2
 	- Für rechts-/linksschiefe Verteilungen
 	- robust gegenüber Ausreissern
 
-### Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
+## Zusammenfassung Darstellungsmöglichkeiten ==für eine Variable==
 |datatype| kategoriell  | metrisch
 |--|--|--|
 | numerisch | Häufigkeitsttabelle/ Modus | Lagemasse( AVG, Median, Quantile)/ Streumasse( Varianz, Stndardabweichung, IQR, MAD) |
@@ -194,11 +194,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4Nzg3MTQsMTI3MDA2MTMwOCwyMDQxND
-kwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2Mzcs
-MjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMz
-YzNTEzLDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEw
-MywxOTI3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMT
-k0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5
-MTQ2MzZdfQ==
+eyJoaXN0b3J5IjpbLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwND
+E0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYz
+NywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1Mj
+MzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYz
+MTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLT
+ExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5
+NjkxNDYzNl19
 -->
