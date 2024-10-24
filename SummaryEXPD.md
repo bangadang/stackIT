@@ -131,8 +131,8 @@ ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 	- sagt nichts über Shape/ Modalität der Daten aus, d.h. nur geeignet für unimodalen Verteilungen
 	- eignet sich zum Vergleich mehrerer Datensätze
 #### Form der Verteilung
-- symmetrisch: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
-- rechts-/linksschief: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
+- **symmetrisch**: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
+- **rechts-/linksschief**: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
 #### Modalität = Anzahl Gipfel der Verteilung
 	- unimodal
 	- bimodal
@@ -250,11 +250,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM5MzI3MjcsNzA2MDQ4MTE4LDEwOD
-U5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgx
-NDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNj
-A1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEz
-MDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LD
-UwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4
-MjEyXX0=
+eyJoaXN0b3J5IjpbMTYwMDU4Nzg0OSw3MDYwNDgxMTgsMTA4NT
+k1NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0
+MSw1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MD
+U4ODg1OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQsMTI3MDA2MTMw
+OCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNT
+A0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgy
+MTJdfQ==
 -->
