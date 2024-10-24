@@ -114,11 +114,11 @@ hist(	vect,
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
 	- Konsruktion der Balken über rel. Häufigkeit: 
 		$$
-		Balkenhöhe = \frac{Anzahl Beobachtungen in einer Klasse}{Anzahl Beobachtungenen total \times (obere Klassengrenze - untere Klassengrenze}
+		Balkenhöhe = \frac{Anzahl Beobachtungen In Einer Klasse}{Anzahl Beobachtungenen Total \times (obere Klassengrenze - untere Klassengrenze)}
 		$$
 - **Empirische kumulierte Verteilungsfunktion** $F_n(x)$ 
 	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
-	- $F_n(x) = \frac{Anzahl beobachtungen \leq }{ n}$
+	- $F_n(x) = \frac{Anzahl Beobachtungen \leq x}{ n}$
 - Median und Quantile an Grafik ablesbar
 - **Boxplot**
 	- gibt sofortige Auskunft über 5 Kennzahlen und Symmetrie der Daten
@@ -230,7 +230,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMzI0OTk0Miw1NjI2ODc4MjMsNTE2Nj
+eyJoaXN0b3J5IjpbMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Nj
 k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
 LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
 ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
