@@ -185,9 +185,40 @@ Eintrag durch das Spaltentotal dividiert.
 - **Streudiagramm**: Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechenden Werte der Variablen.
 	- Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
 	- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
-- **Gleitender Mittelwe
+- **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
+	1. Wähle ein Fenster von x-Werten
+2. Bilde den Mittelwert über die
+y-Werte im Fenster
+3. Zeichne den Mittelwert in der
+Mitte des Fensters ein
+4. Verschiebe das Fenster, so dass es
+mit dem ersten Fenster immer
+noch überlappt.
+5. Wiederhole 2. - 4. bis der ganze
+Wertebereich von x abgedeckt ist.
+6. Verbinde alle Mittelwerte
+
+20 30 40 50 60 70 80 90
+
+0
+
+10000
+
+20000
+
+30000
+
+40000
+
+Einkaufsummen nach Alter
+
+Alter
+
+Einkauf
+
+⇒ Arbeitsblatt 6: Aufgabe 1 c bis e)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk3NTc4ODYsMTQ1MTE0MTkyOCwtMj
+eyJoaXN0b3J5IjpbLTIxNDI1NDkxOTcsMTQ1MTE0MTkyOCwtMj
 AwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0
 MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNj
 I1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUx
