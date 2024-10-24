@@ -87,15 +87,16 @@ pie(table(vec))
 #### Stripchart
 ```r
 vec <- daraframe$column
-stripchart(vec, xlab="Beschriftung x-Achse")
+stripchart(vec, xlab="Beschriftung x-Achse", method="jitter" oder "stacked")
 ```
 -Daten werden als Box/Punkt auf einer Linie aufgetragen: Datenpunkte mit gleichem Wert treten nur einmal auf. Um solche Datenpunkte sichtbar zu machen gibt es zwei Möglichkeiten, in dem Man die Punkte/Boxen verschiebt oder stapelt.
 		- jittered Stripchart
 		- stacked Stripchart
 - **Histogramm**
 ```r
+
 ```
-	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
+- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
 		- Wichtig ist die Entscheidung über die **Grösse der Klassen**/Buckets bzw Breite der Säulen auf der x-Achse
 		- je kleiner die Klassen desto rauschiger wird das Histogramm
 		- je grösser die Klassen desto weniger rauschen
@@ -215,11 +216,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzA5ODU2Miw1MTY2OTQ1NzMsMTE0OT
-AwMDI1MSwxMTYwNTg4ODU4LC00MDE2OTk2MTcsLTg5OTIxNzUz
-NCwxMjcwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMj
-AwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0
-MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNj
-I1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUx
-ODU3XX0=
+eyJoaXN0b3J5IjpbNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MD
+AwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0
+LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMD
+AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
+MiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2Mj
+UwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4
+NTddfQ==
 -->
