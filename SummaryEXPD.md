@@ -293,7 +293,7 @@ m <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "mean")
 s <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "sd")
 cbind(Mittelwert = m, Standardabweichung = s)
 ```
-#### Boxplots** für monomodale Verteilungen: 
+#### Boxplots für monomodale Verteilungen: 
 So kann die Verteilung der metrischen Variable gruppiert nach der kategoriellen Variable dargestellt werden.
 - unimodale Verteilungen können so gut verglichen werden
 ```r
@@ -301,8 +301,8 @@ par(mfrow = c(1,2)) # 2 Grafiken nebeneinander
 boxplot(num.var ~ kateg.var1, data = kdata)
 boxplot(num.var ~ kateg.var2, data = kdata)
 ```
-Stripcharts** bimodale Verteilungen
-	- wird unübersichtlich bei vielen Stufen
+#### Stripcharts für bimodale Verteilungen
+- wird unübersichtlich bei vielen Stufen
 ```r
 par(mfrow = c(1,2)) # 2 Grafiken nebeneinander
 stripchart(num.var ~ kateg.var1, data = kdata, vertical=TRUE, method="stack")
@@ -313,7 +313,9 @@ stripchart(num.var ~ kateg.var2, data = kdata, vertical=TRUE, method="stack")
 - **Streudiagramm**: Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechenden Werte der Variablen.
 	- Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
 	- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
-
+```r
+plot(df$num.var1, df$num.var2, main = "Title",ylab = "y-Achse Beschriftung", xlab = "x-Achse Beschriftung", las = 1, cex=.5, pch=20)
+```
 - **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
 	1. Wähle ein Fenster von x-Werten
 	2. Bilde den Mittelwert über die y-Werte im Fenster
@@ -333,7 +335,7 @@ stripchart(num.var ~ kateg.var2, data = kdata, vertical=TRUE, method="stack")
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODYyMzMyMywtOTM0NjkzMTQ3LC0xMj
+eyJoaXN0b3J5IjpbMTk0OTUzNzIxNiwtOTM0NjkzMTQ3LC0xMj
 A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
 LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNT
 k5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUx
