@@ -117,7 +117,12 @@ hist(	vect,
 		Balkenhöhe = \frac{Anzahl Beobachtungen In Einer Klasse}{Anzahl Beobachtungenen Total \times (obere Klassengrenze - untere Klassengrenze)}
 		$$
 - **Empirische kumulierte Verteilungsfunktion** $F_n(x)$ 
-	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
+```r
+vec <- dataframe$column
+plot(ecdf(vec))
+ecd
+```
+- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
 	- $F_n(x) = \frac{Anzahl Beobachtungen \leq x}{ n}$
 - Median und Quantile an Grafik ablesbar
 
@@ -231,11 +236,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1OTg1NjYzLDEyNTk5ODgxNDEsNTYyNj
-g3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgs
-LTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MT
-Q5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3
-LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMz
-M2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMx
-MDNdfQ==
+eyJoaXN0b3J5IjpbLTI2MzcwMzcxNCwxMjU5OTg4MTQxLDU2Mj
+Y4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4
+LC00MDE2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwND
+E0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYz
+NywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1Mj
+MzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYz
+MTAzXX0=
 -->
