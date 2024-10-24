@@ -28,20 +28,20 @@ Bsp Ab1Ex. 2
 - Variablen: Merkmale der Grundgesamtheit
 	- Körpergrösse von Einwohner, Umsatzzahlen eines KMUs etc.
 	- Merkmale sind typisierbar
-		- kategorisch (Kategorien) : qualitativ oder **kategoriell: nominal oder ordinal
+		- **kategorisch** (Kategorien) : qualitativ oder kategoriell: nominal oder ordinal
 			- Bürgerort: nominal (keine Ordnung)
 			- Zufriedenheit: ordinal
 			- Gefahrenstufe Lawinengänge: ordinal
 			- Farbe Verpackung: nominell
-		- numerisch (Zahlen): quantitativ oder numerisch: diskret oder stetig 
+		- **numerisch** (Zahlen): quantitativ oder numerisch: diskret oder stetig 
 			- diskret = ganzzahlig
 			- stetig = float
 	
-### Daten & Messungen
+## Daten & Messungen
 - **Accuracy** (Wie genau sind die Daten?) vs. **Precision** (Wie sehr streuen Daten?)
 - **Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
 
-### kategorielle Variablen
+## univariate kategorielle Variablen
 - **Häufigkeitstabellen**
 - Bsp. Umfrage Sternzeichen von 20 Personen. Wie kann man Ergebnisse darstellen?
 	- Columns: Sternzeichen, abs. Häufigkeit, rel. Häufigkeit
@@ -68,7 +68,7 @@ Bsp Ab1Ex. 2
 	- sinnvoll für kategorielle und diskrete Variablen
 	- kann aus Häufigkeitstabelle oder Balkendiagramm (höchste Säule) abgelesen werden
 
-### Univariate metrische Daten (1 Variable)
+## Univariate metrische Daten (1 Variable)
 - **Stripchart** 
 	- Daten werden als Box/Punkt auf einer Linie aufgetragen: Datenpunkte mit gleichem Wert treten nur einmal auf. Um solche Datenpunkte sichtbar zu machen gibt es zwei Möglichkeiten, in dem Man die Punkte/Boxen verschiebt oder stapelt.
 		- jittered Stripchart
@@ -96,10 +96,10 @@ Bsp Ab1Ex. 2
 	- bimodal
 	- multiodal
 
-### Statistische Kennzahlen
+## Statistische Kennzahlen
 - **Lagemasse**: Verteilung der Daten um einen "mittleren" Wert
 - **Streuungsmasse**: wie stark Streuen die Werte
-#### Lagemasse
+### Lagemasse
 - **arithmetischer Mittelwert**: Anfällig auf Ausreisser
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
 	- $g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$ 
@@ -194,11 +194,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTI1OTMyMjUsMTI3MDA2MTMwOCwyMD
-QxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2
-MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNT
-IzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2
-MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC
-0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2
-OTY5MTQ2MzZdfQ==
+eyJoaXN0b3J5IjpbMzg4Nzg3MTQsMTI3MDA2MTMwOCwyMDQxND
+kwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2Mzcs
+MjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMz
+YzNTEzLDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEw
+MywxOTI3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMT
+k0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5
+MTQ2MzZdfQ==
 -->
