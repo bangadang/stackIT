@@ -254,7 +254,11 @@ Eintrag durch das Zeilentotal dividiert
 Eintrag durch das Spaltentotal dividiert.
 -  Spalten und Zeilennormierung kann man nicht gleichzeitig aus einer Tabelle ablesen. --> Vorsicht bei Interpretation bei Zeilen/Spalten normierten Tabelle
 ```r
-table(df$kateg.Variable1, df$kateg.Variable2) #abs. Häufigkeiten
+#abs. Häufigkeiten
+table(df$kateg.Variable1, df$kateg.Variable2) 
+
+# rel. Häufigkeiten zur Gesamtheit
+prop.table(table(df$kateg.Variable1, df$kateg.Variable2)) 
 
 ```
 - **gestapeltes Balkendiagramm**:
@@ -299,11 +303,11 @@ table(df$kateg.Variable1, df$kateg.Variable2) #abs. Häufigkeiten
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzExMzc5LDU2NzM1NTQ1NCw0NjgzMz
-Y0NTMsNzA2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0x
-Njk3ODgzODE1LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5ND
-U3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywt
-ODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMT
-QxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1Mzhd
-fQ==
+eyJoaXN0b3J5IjpbMTc4NTk0NTAsNTY3MzU1NDU0LDQ2ODMzNj
+Q1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2
+OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Njk0NT
+czLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04
+OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExND
+E5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUzOF19
+
 -->
