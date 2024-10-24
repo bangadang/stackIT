@@ -160,7 +160,7 @@ $$$$
 	- Symmetrie vs. Mittelwert/Median
 		- rechtsschief: Mittelwert > Median
 		- linksschief: Mittelwert < Median
-	- symmetrisch: Mittelwert ~ Median
+		- symmetrisch: Mittelwert ~ Median
 ```r
 median(vec)
 ```
@@ -248,11 +248,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTIzNjU5NCwxMDg1OTU2MzY3LDkwNj
-U1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2MjY4Nzgy
-Myw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4ODU4LC00MD
-E2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwNDE0OTA1
-NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYzNywyMT
-IxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1
-MTNdfQ==
+eyJoaXN0b3J5IjpbNzA2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NT
+U0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgxNDEsNTYyNjg3ODIz
+LDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgsLTQwMT
+Y5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MTQ5MDU3
+OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMj
+E2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUx
+M119
 -->
