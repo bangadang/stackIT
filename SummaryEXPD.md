@@ -42,6 +42,7 @@ Volkszählung)
 ## Daten & Messungen
 - **Accuracy** (Wie genau sind die Daten?) vs. **Precision** (Wie sehr streuen Daten?)
 - **Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
+
 ![accuracy vs. precision](https://github.com/bangadang/stackIT/blob/93cfa63a3d98c9f994da680d02982cd096f81ce4/accuracy-vs-precision.png)
 
 
@@ -204,7 +205,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTkxMjkzNiwtNDAxNjk5NjE3LC04OT
+eyJoaXN0b3J5IjpbMTE2MDU4ODg1OCwtNDAxNjk5NjE3LC04OT
 kyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5
 MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMj
 c1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1
