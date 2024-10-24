@@ -196,11 +196,11 @@ Eintrag durch das Spaltentotal dividiert.
 ### Zusammenfassung Darstellungsmöglichkeiten bivariate Darstellungen (2 Variablen)
 | Datentypen | Darstellungsart | Kommentar |
 |--|--|--|
-| Kategoriell vs. Kategoriell | Kreutabelle
- |
+| Kategoriell vs. Kategoriell | Kreuztabelle |  eher langweilig|
+|  | gruppierte Bal |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODk5NzgwNiwyMDQxNDkwNTc4LDE0NT
+eyJoaXN0b3J5IjpbMTY3Mjk5MTE0OSwyMDQxNDkwNTc4LDE0NT
 ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
 OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
 kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
