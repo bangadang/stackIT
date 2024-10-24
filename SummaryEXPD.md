@@ -187,42 +187,23 @@ Eintrag durch das Spaltentotal dividiert.
 	- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
 - **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
 	1. Wähle ein Fenster von x-Werten
-2. Bilde den Mittelwert über die
-y-Werte im Fenster
-3. Zeichne den Mittelwert in der
-Mitte des Fensters ein
-4. Verschiebe das Fenster, so dass es
-mit dem ersten Fenster immer
-noch überlappt.
-5. Wiederhole 2. - 4. bis der ganze
-Wertebereich von x abgedeckt ist.
-6. Verbinde alle Mittelwerte
+	2. Bilde den Mittelwert über die y-Werte im Fenster
+	3. Zeichne den Mittelwert in der Mitte des Fensters ein
+	4. Verschiebe das Fenster, so dass es mit dem ersten Fenster immer noch überlappt.
+	5. Wiederhole 2. - 4. bis der ganze Wertebereich von x abgedeckt ist.
+	6. Verbinde alle Mittelwerte
 
-20 30 40 50 60 70 80 90
+### Zusammenfassung Darstellungsmöglichkeiten bivariate Darstellungen (2 Variablen)
+|  |  |
+|--|--|
+|  |  |
 
-0
-
-10000
-
-20000
-
-30000
-
-40000
-
-Einkaufsummen nach Alter
-
-Alter
-
-Einkauf
-
-⇒ Arbeitsblatt 6: Aufgabe 1 c bis e)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI1NDkxOTcsMTQ1MTE0MTkyOCwtMj
-AwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0
-MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNj
-I1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUx
-ODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5Nj
-MsLTU3NjA4NDU3MywtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEw
-MTA1ODM3MjRdfQ==
+eyJoaXN0b3J5IjpbMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMD
+AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
+MiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2Mj
+UwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4
+NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2My
+wtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04MDM0MTEyMjAsMTAx
+MDU4MzcyNF19
 -->
