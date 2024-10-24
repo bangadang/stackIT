@@ -271,7 +271,11 @@ prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
 - Höhe der Balkenabschnitte eines Balkens ist absolute Häufigkeit einer bestimmten Merkmalskombination.
 
 #### gruppiertes Balkendiagramm**:
-	- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
+- Höhe der Balken zeigt die absolute Häufigkeit für eine bestimmte Merkmalskombination.
+```r
+barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
+#beside bestimmt ober Säulen gestapelt oder nebeneinander stehen sollen
+```
 - **Mosaikplot**: 
 	- Teilt ein Quadrat, welches die Gesamtheit der Datenpunkte darstellt, vertikal und horizontal anhand relativen Häufigkeiten für zwei Merkmale  auf.
 	- Fläche ist proportional zur Anzahl Beobachtung für die Merkmalskombination in der Stichprobe. 
@@ -309,11 +313,11 @@ prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMjA4NDAyLDU2NzM1NTQ1NCw0NjgzMz
-Y0NTMsNzA2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0x
-Njk3ODgzODE1LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5ND
-U3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywt
-ODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMT
-QxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1Mzhd
-fQ==
+eyJoaXN0b3J5IjpbLTEyMDc5NjIxMzIsNTY3MzU1NDU0LDQ2OD
+MzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3MjYs
+LTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNTE2Nj
+k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
+LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
+ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
+OF19
 -->
