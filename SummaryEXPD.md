@@ -173,12 +173,15 @@ Eintrag durch das Spaltentotal dividiert.
 	- man sieht nur proportionen --> Die Anzahl an Beobachtungen ist  nicht ablesbar
 	- Breite der Säulen ist proportional zur relativen Häufigkeit der ersten Variable, die Höhe proportional zur zweiten Variable.
 	- Vertauschen der Variaben führt zu einem anderen Mosaikplot
+
+### Kategoriell vs. Metrisch
+- Kennzahlentabelle: Die Daten lassen sich über die ategorielle 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMT
-Y1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEz
-LDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOT
-I3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0
-NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2Mz
-YsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4NDE0NzQwMiwxMTc5
-MDcwMDYxXX0=
+eyJoaXN0b3J5IjpbMTg2NjU1NDIyLC0yMDAwNzE3NjI3LDUwND
+YxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEy
+LDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3MjcsLTE1OD
+Q4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMy
+NCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2MDg0NTczLC
+0xNjk2OTE0NjM2LC04MDM0MTEyMjAsMTAxMDU4MzcyNCw4ODQx
+NDc0MDJdfQ==
 -->
