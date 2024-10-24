@@ -55,14 +55,17 @@ cumsum(table(vec)) / length(vec) #kumulierte rel. Häufigkeiten
 - **Balkendiagramm**
 ```r
 barplot(table(vec)) #abs. Häufigkeiten
+barplot(table(vec)) / length (vec) #rel. Häufigkeiten
 
 ```
 -  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
-	- Darstellung in R
-		1. barplot(table(Sternzeichen)) [abs. H]
-		2. barplot()table(Sternzeichen) / length(Sternzeichen) [rel. H]
+
 - **Kuchendiagramm**
-	- rel. Häufigkeit einer Variable entspricht dem entsprechenden Kreissektor an der Gesamtfläche
+
+```r
+
+```
+- rel. Häufigkeit einer Variable entspricht dem entsprechenden Kreissektor an der Gesamtfläche
 	- Ausprägungen sind schwer zu erkennen, wenn Kreissektoren ähnlich gross sind
 	- schwer leserlich mit vielen Sektoren
 	--> Balkendiagramm >>>> Kuchendiagramm
@@ -196,11 +199,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY4NjA0NjcsLTg5OTIxNzUzNCwxMj
-cwMDYxMzA4LDIwNDE0OTA1NzgsMTQ1MTE0MTkyOCwtMjAwMDcx
-NzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMj
-EzMjEwODIxMiw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDky
-NzI3LC0xNTg0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC
-00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3
-NjA4NDU3M119
+eyJoaXN0b3J5IjpbLTk1NjgwMjY4MSwtODk5MjE3NTM0LDEyNz
+AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
+NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
+MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
+MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLT
+QxNzY1NTMyNCwtMTE5NDQ2NDc5MSwtMjAyMzQ1Njk2MywtNTc2
+MDg0NTczXX0=
 -->
