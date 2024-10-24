@@ -201,13 +201,14 @@ Eintrag durch das Spaltentotal dividiert.
 | | Mosaikplot | gut, nicht bekannt|
 | **Metrisch vs. Kategoriell** | Tabelle mit Kennzahlen| beschränkte Information |
 ||Boxplot|generell gut geeignet|
-||Stripcharts||
+||Stripcharts|generell gut geeignet|
+|**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDExOTE5MDEsMjA0MTQ5MDU3OCwxND
-UxMTQxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1
-MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNT
-Q5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUy
-OTAxOCwyMDQyNTE4NTcsLTQxNzY1NTMyNCwtMTE5NDQ2NDc5MS
-wtMjAyMzQ1Njk2MywtNTc2MDg0NTczLC0xNjk2OTE0NjM2LC04
-MDM0MTEyMjBdfQ==
+eyJoaXN0b3J5IjpbMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
+ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
+OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
+kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
+MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC
+0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgw
+MzQxMTIyMF19
 -->
