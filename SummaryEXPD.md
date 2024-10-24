@@ -310,21 +310,27 @@ stripchart(num.var ~ kateg.var2, data = kdata, vertical=TRUE, method="stack")
 ```
 
 ### Metrisch vs. Metrisch
-- **Streudiagramm**: Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechenden Werte der Variablen.
-	- Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
-	- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
+#### Streudiagramm: 
+Eine metrische Variable bildet die x-Achse, die andere die y-Achse. Die Koordinaten der Datenpunkte sind die dementsprechenden Werte der Variablen.
+- Zusammenhänge und Ausreisser zwischen zwei variablen werden so ersichtlich. 
+- Wird bei grossen Datensätzen aber schnell unübersichtlich --> Stichprobe um Datensatz zu verkleinern
 ```r
 #Falls Datensatz zu gross eine Stichprobe darstellen
 stichprobedf <- sample(1:nrow(kdata), 500)
 plot(df$num.var1, df$num.var2, main = "Title",ylab = "y-Achse Beschriftung", xlab = "x-Achse Beschriftung", las = 1, cex=.5, pch=20)
 ```
-- **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
-	1. Wähle ein Fenster von x-Werten
-	2. Bilde den Mittelwert über die y-Werte im Fenster
-	3. Zeichne den Mittelwert in der Mitte des Fensters ein
-	4. Verschiebe das Fenster, so dass es mit dem ersten Fenster immer noch überlappt.
-	5. Wiederhole 2. - 4. bis der ganze Wertebereich von x abgedeckt ist.
-	6. Verbinde alle Mittelwerte
+#### Gleitender Mittelwert (bspw. über ein Streudiagramm)
+1. Wähle ein Fenster von x-Werten
+2. Bilde den Mittelwert über die y-Werte im Fenster
+3. Zeichne den Mittelwert in der Mitte des Fensters ein
+4. Verschiebe das Fenster, so dass es mit dem ersten Fenster immer noch überlappt.
+5. Wiederhole 2. - 4. bis der ganze Wertebereich von x abgedeckt ist.
+6. Verbinde alle Mittelwerte
+```r
+scatter.smooth(kdata$alter, kdata$einkauf, main ="Einkaufsummen nach Alter",
+ylab = "Einkauf", xlab = "Alter", las = 1,
+lpars = list(col = "red"))
+```
 
 ### Zusammenfassung Darstellungsmöglichkeiten bivariate Darstellungen (2 Variablen)
 | Datentypen | Darstellungsart | Kommentar |
@@ -337,7 +343,7 @@ plot(df$num.var1, df$num.var2, main = "Title",ylab = "y-Achse Beschriftung", xla
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NTYzODY4NSwtOTM0NjkzMTQ3LC0xMj
+eyJoaXN0b3J5IjpbMTY3MTQ5MDM2MywtOTM0NjkzMTQ3LC0xMj
 A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
 LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNT
 k5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUx
