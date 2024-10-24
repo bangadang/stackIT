@@ -11,10 +11,9 @@
 die Eigenschaften gemessen, abgefragt bzw. erhoben. (z.B. früher
 Volkszählung)
 #### Stichprobe (*genügend grosse* Teilmenge Grundgesamtheit):
-- Die Eigenschaften werden in einer Teilmenge der Grundgesamtheit
-erhoben. Die Teilmenge wird nach bestimmten Gesichtspunkten aus-
-gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
-- **Repräsentativität** (bezgl. Stichprobe): Auswahl aus der Grundgesamtheit, die alle typischen Merkmalen gemäss ihren relativen Häufigkeiten abbildet.
+- Die Eigenschaften werden in einer Teilmenge der Grundgesamtheiterhoben. Die Teilmenge wird nach bestimmten Gesichtspunkten ausgewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
+#### Repräsentativität (bezgl. Stichprobe): 
+- Auswahl aus der Grundgesamtheit, die alle typischen Merkmalen gemäss ihren relativen Häufigkeiten abbildet.
 	- Bericht Health Students at ZHAW
 
 *Bsp Ab1Ex. 2*
@@ -28,8 +27,9 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 ## Variabeln
 - Merkmale der Grundgesamtheit
 	- Bsp: Körpergrösse von Einwohner, Umsatzzahlen eines KMUs etc.
-	- Merkmale sind typisierbar
-		- **kategorisch** (Kategorien) : qualitativ oder kategoriell: nominal oder ordinal
+- Merkmale sind typisierbar
+#### kategorisch** (Kategorien) : 
+qualitativ oder kategoriell: nominal oder ordinal
 			- Bürgerort: nominal (keine Ordnung)
 			- Zufriedenheit: ordinal
 			- Gefahrenstufe Lawinengänge: ordinal
@@ -201,7 +201,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODE3MjQ0OSwtODk5MjE3NTM0LDEyNz
+eyJoaXN0b3J5IjpbMTY1MjI2NTE3OSwtODk5MjE3NTM0LDEyNz
 AwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3
 NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMT
 MyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3
