@@ -43,6 +43,7 @@ Volkszählung)
 - **Accuracy** (Wie genau sind die Daten?) vs. **Precision** (Wie sehr streuen Daten?)
 - **Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
 
+![](https://github.com/bangadang/stackIT/blob/master/accuracy-vs-precision.png)
 
 
 ## univariate kategorielle Variablen
@@ -204,11 +205,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTAwMDI1MSwxMTYwNTg4ODU4LC00MD
-E2OTk2MTcsLTg5OTIxNzUzNCwxMjcwMDYxMzA4LDIwNDE0OTA1
-NzgsMTQ1MTE0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYzNywyMT
-IxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1
-MTMsMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLD
-E5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0
-NjQ3OTFdfQ==
+eyJoaXN0b3J5IjpbMTUxNzM3OTEzNSwxMTQ5MDAwMjUxLDExNj
+A1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0LDEyNzAwNjEz
+MDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMDAwNzE3NjI3LD
+UwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQwMiwyMTMyMTA4
+MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2MjUwOTI3MjcsLT
+E1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4NTcsLTQxNzY1
+NTMyNF19
 -->
