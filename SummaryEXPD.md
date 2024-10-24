@@ -172,7 +172,7 @@ $$\text{Median}(x_1, x_2, \ldots, x_n) = \begin{cases} x_{\frac{n+1}{2}}, & \tex
 - **Quantile** $\alpha$: Werte die Datenpunkte einer Variable prozentual bzw in ein Verhältnis aufteilen. $\alpha :(1-\alpha)$
 	-  Bei grossen Stichproben nehmen Quantile ähnliche Werte an
 - Ansatz 1
-$$Q_$$
+$$Q_{\alpha}=x_{[\lceil n\alpha]}$$
 ```r
 vec <- c(values)
 quantile(vec, probs= c(Q1,...,Qn), type=1) 
@@ -258,7 +258,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTU0Nzk3Niw3MDYwNDgxMTgsMTA4NT
+eyJoaXN0b3J5IjpbLTE5MjAxMDA0Nyw3MDYwNDgxMTgsMTA4NT
 k1NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0
 MSw1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MD
 U4ODg1OCwtNDAxNjk5NjE3LC04OTkyMTc1MzQsMTI3MDA2MTMw
