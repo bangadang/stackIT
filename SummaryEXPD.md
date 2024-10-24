@@ -114,7 +114,7 @@ hist(	vect,
 	-  Auch die **Wahl des Startpunkt** kann ein Histogramm beeinflussen.
 	- Konsruktion der Balken über rel. Häufigkeit: 
 		$$
-		Balkenhöhe = \frac{Anzahl beob. Klassen, }
+		Balkenhöhe = \frac{Anzahl Beobachtungen in einer Klasse}{Anzahl Beobachtungenen total \times (obere Klassengrenze - untere Klassengrenze}
 		$$
 - **Empirische kumulierte Verteilungsfunktion** $F_n(x)$ 
 	- empirische Verteilungsfunktion Fn(x) zeigt den Anteil Datenpunkte ≤ x, d.h. die kumulierten relativen Häufigkeiten:
@@ -230,7 +230,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjkzNTk4MCw1NjI2ODc4MjMsNTE2Nj
+eyJoaXN0b3J5IjpbMjAyMzI0OTk0Miw1NjI2ODc4MjMsNTE2Nj
 k0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5NjE3
 LC04OTkyMTc1MzQsMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
 ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
