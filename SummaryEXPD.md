@@ -47,10 +47,9 @@ gewählt. Sie kann **zufällig, systematisch, willkürlich** etc. sein.
 	- Darstellung in R
 	 `vec <- c("val1","val2",...,"valn")
 	table(vec) #abs. Häufigkeiten
-	table(vec) / length(vec) #rel. Häufigkeiten`
-		
-
-    
+	table(vec) / length(vec) #rel. Häufigkeiten
+	
+	vec <- c(val1, val2, val3, val)`vec <-
 	- Bei ordinalen Merkmalen sind kumuliert abs. /rel. Häufigkeiten sinnvoll. 
 		1. noten <- c(Ergebnisse)
 		2. table(noten) [abs. H]
@@ -196,7 +195,7 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NDM3NjA1LC04OTkyMTc1MzQsMTI3MD
+eyJoaXN0b3J5IjpbMjQ1OTExMjkxLC04OTkyMTc1MzQsMTI3MD
 A2MTMwOCwyMDQxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2
 MjcsNTA0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMz
 IxMDgyMTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5Mjcy
