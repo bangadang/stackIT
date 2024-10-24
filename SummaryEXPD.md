@@ -176,13 +176,14 @@ Eintrag durch das Spaltentotal dividiert.
 
 ### Kategoriell vs. Metrisch
 - **Kennzahlentabelle**: Die Daten lassen sich über die kategorielle Grösse Gruppieren. Dannach kann man die nummerischen Daten pro Gruppe über eine Kennzahl, wie Mittelwert und Standardabweichung, zusammenfassen.
--  mehrere **Boxplots**: So kann die met
+-  mehrere **Boxplots**: So kann die Verteilung der metrischen Variable gruppiert nach der kategoriellen Variable dargestellt werden.
+	- monomodale Verteilungen können so gu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjQzMTE4OSwtMjAwMDcxNzYyNyw1MD
-Q2MTYzNywyMTIxNjU3NTM4LDEyNzUzMDU0MDIsMjEzMjEwODIx
-Miw1MjMzNjM1MTMsMTU0OTA3MDUyNywxNjI1MDkyNzI3LC0xNT
-g0ODYzMTAzLDE5Mjc1MjkwMTgsMjA0MjUxODU3LC00MTc2NTUz
-MjQsLTExOTQ0NjQ3OTEsLTIwMjM0NTY5NjMsLTU3NjA4NDU3My
-wtMTY5NjkxNDYzNiwtODAzNDExMjIwLDEwMTA1ODM3MjQsODg0
-MTQ3NDAyXX0=
+eyJoaXN0b3J5IjpbLTE4NTM2MDc1MjIsLTIwMDA3MTc2MjcsNT
+A0NjE2MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgy
+MTIsNTIzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMT
+U4NDg2MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1
+MzI0LC0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1Nz
+MsLTE2OTY5MTQ2MzYsLTgwMzQxMTIyMCwxMDEwNTgzNzI0LDg4
+NDE0NzQwMl19
 -->
