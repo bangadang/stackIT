@@ -1,16 +1,6 @@
 
 #  Summary EXPD
-## Vorträge
-### 1
-- relatives vs abs. Risiko
-- true vs false positiv  -->  $positiver\ Vorhersagewert = true-pos. \div false-pos.$
-### 2
-- Korrelation =/= Kausalität (Korr=0 keine Korr.)
-- Simpson Paradoxon
-- Einfluss der dritten Variable um Scheinkorrelation zu vermeiden
-- Korrelationen treten häufig auf. Kausalitäten können sich experimentell nachweisbar (oft nicht einfach durchzuführen) 
- ### 5
--  
+
 ## Einführung
 ### Grundberiffe
 - **Grundgesamtheit**: Die Menge aller für eine Untersuchung relevanten Elemente. Je nach
@@ -34,11 +24,11 @@ Bsp Ab1Ex. 2
 	- GG: alle Flüge der Lufthansa
 	- SP: zu kleine Stichprobe (kann der Zufall das kompensieren; wahrsch nicht)
 
-### Variabeln
+## Variabeln
 - Variablen: Merkmale der Grundgesamtheit
 	- Körpergrösse von Einwohner, Umsatzzahlen eines KMUs etc.
 	- Merkmale sind typisierbar
-		- kategorisch (Kategorien) : qualitativ oder kategoriell: nominal oder ordinal
+		- kategorisch (Kategorien) : qualitativ oder **kategoriell: nominal oder ordinal
 			- Bürgerort: nominal (keine Ordnung)
 			- Zufriedenheit: ordinal
 			- Gefahrenstufe Lawinengänge: ordinal
@@ -47,7 +37,7 @@ Bsp Ab1Ex. 2
 			- diskret = ganzzahlig
 			- stetig = float
 	
-#### Daten & Messungen
+### Daten & Messungen
 - **Accuracy** (Wie genau sind die Daten?) vs. **Precision** (Wie sehr streuen Daten?)
 - **Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
 
@@ -204,11 +194,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDA2MTMwOCwyMDQxNDkwNTc4LDE0NT
-ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
-OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
-kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
-MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC
-0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgw
-MzQxMTIyMF19
+eyJoaXN0b3J5IjpbLTE4MTI1OTMyMjUsMTI3MDA2MTMwOCwyMD
+QxNDkwNTc4LDE0NTExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2
+MzcsMjEyMTY1NzUzOCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNT
+IzMzYzNTEzLDE1NDkwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2
+MzEwMywxOTI3NTI5MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC
+0xMTk0NDY0NzkxLC0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2
+OTY5MTQ2MzZdfQ==
 -->
