@@ -200,13 +200,13 @@ Eintrag durch das Spaltentotal dividiert.
 |  | gruppierte Balkendiagramme | mässig übersichtlich |
 | | Mosaikplot | gut, nicht bekannt|
 | Metrisch vs. Kategoriell | Tabelle mit Kennzahlen| beschränkte Information |
-||||
+||Boxplot||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1NTgzMDk2LDIwNDE0OTA1NzgsMTQ1MT
-E0MTkyOCwtMjAwMDcxNzYyNyw1MDQ2MTYzNywyMTIxNjU3NTM4
-LDEyNzUzMDU0MDIsMjEzMjEwODIxMiw1MjMzNjM1MTMsMTU0OT
-A3MDUyNywxNjI1MDkyNzI3LC0xNTg0ODYzMTAzLDE5Mjc1Mjkw
-MTgsMjA0MjUxODU3LC00MTc2NTUzMjQsLTExOTQ0NjQ3OTEsLT
-IwMjM0NTY5NjMsLTU3NjA4NDU3MywtMTY5NjkxNDYzNiwtODAz
-NDExMjIwXX0=
+eyJoaXN0b3J5IjpbLTMzNTcwNzY5NiwyMDQxNDkwNTc4LDE0NT
+ExNDE5MjgsLTIwMDA3MTc2MjcsNTA0NjE2MzcsMjEyMTY1NzUz
+OCwxMjc1MzA1NDAyLDIxMzIxMDgyMTIsNTIzMzYzNTEzLDE1ND
+kwNzA1MjcsMTYyNTA5MjcyNywtMTU4NDg2MzEwMywxOTI3NTI5
+MDE4LDIwNDI1MTg1NywtNDE3NjU1MzI0LC0xMTk0NDY0NzkxLC
+0yMDIzNDU2OTYzLC01NzYwODQ1NzMsLTE2OTY5MTQ2MzYsLTgw
+MzQxMTIyMF19
 -->
