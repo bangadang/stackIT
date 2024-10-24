@@ -89,9 +89,10 @@ pie(table(vec))
 vec <- daraframe$column
 stripchart(vec, xlab="Beschriftung x-Achse", method="jitter" oder "stacked")
 ```
--Daten werden als Box/Punkt auf einer Linie aufgetragen: Datenpunkte mit gleichem Wert treten nur einmal auf. Um solche Datenpunkte sichtbar zu machen gibt es zwei Möglichkeiten, in dem Man die Punkte/Boxen verschiebt oder stapelt.
-		- jittered Stripchart
-		- stacked Stripchart
+- Daten werden als Box/Punkt auf einer Linie aufgetragen. Datenpunkte mit gleichem Wert treten nur einmal auf. Um solche Datenpunkte sichtbar zu machen gibt es zwei Möglichkeiten, in dem Man die Punkte/Boxen verschiebt oder stapelt.
+	- jittered Stripchart
+	- stacked Stripchart
+
 - **Histogramm**
 ```r
 
@@ -216,11 +217,11 @@ Eintrag durch das Spaltentotal dividiert.
 ||Stripcharts|generell gut geeignet|
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MD
-AwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3NTM0
-LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxNDUxMTQxOTI4LC0yMD
-AwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1MzgsMTI3NTMwNTQw
-MiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNTQ5MDcwNTI3LDE2Mj
-UwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUyOTAxOCwyMDQyNTE4
-NTddfQ==
+eyJoaXN0b3J5IjpbLTE3NjYzMzMzMTEsNTYyNjg3ODIzLDUxNj
+Y5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYx
+NywtODk5MjE3NTM0LDEyNzAwNjEzMDgsMjA0MTQ5MDU3OCwxND
+UxMTQxOTI4LC0yMDAwNzE3NjI3LDUwNDYxNjM3LDIxMjE2NTc1
+MzgsMTI3NTMwNTQwMiwyMTMyMTA4MjEyLDUyMzM2MzUxMywxNT
+Q5MDcwNTI3LDE2MjUwOTI3MjcsLTE1ODQ4NjMxMDMsMTkyNzUy
+OTAxOF19
 -->
