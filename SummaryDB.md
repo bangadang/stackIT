@@ -95,12 +95,12 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - **Multiplizität** eines Tupels
 	- Da in der bag Algebral Tupel mehrfach auftreten können, kann solchen Tupeln eine Multipliztät zugeschrieben werden
 #### Operatoren der Bag Algebra
--
+- Selektion, Projektion, Kreuzprodukt 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3NzU4ODY3LDE4MjgyMTc2ODUsMTE5NT
-gzOTU3LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0NzE2MjQ3
-OSwtMTc1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLT
-IxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OTk1
-NjM0MV19
+eyJoaXN0b3J5IjpbLTk1MjIwNjc2OCw0Nzc3NTg4NjcsMTgyOD
+IxNzY4NSwxMTk1ODM5NTcsLTEyMzE4Mzk3NCwtMTIyMTE5NzQ3
+OSwxODQ3MTYyNDc5LC0xNzUwMjIxMzQ2LC0xODU2MTc4MjIsMT
+UwOTk1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0LDE4MjYx
+NzY0NzIsLTQ5OTU2MzQxXX0=
 -->
