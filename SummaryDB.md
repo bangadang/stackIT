@@ -96,16 +96,16 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Da in der bag Algebral Tupel mehrfach auftreten können, kann solchen Tupeln eine Multipliztät zugeschrieben werden
 #### Operatoren der Bag Algebra
 - Selektion, Projektion, Kreuzprodukt und Joins funktionieren gleich wie in der RA. Duplikate werden wie normale Tupel
-- bag union $$
-- bag concatenation
-- intersection
+- bag union $\cup$
+- bag concatenation $\sqcup$
+- intersection $$
 - difference
 - Duplikatenelimination
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDM4NDQ2Miw0Nzc3NTg4NjcsMTgyOD
-IxNzY4NSwxMTk1ODM5NTcsLTEyMzE4Mzk3NCwtMTIyMTE5NzQ3
-OSwxODQ3MTYyNDc5LC0xNzUwMjIxMzQ2LC0xODU2MTc4MjIsMT
-UwOTk1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0LDE4MjYx
-NzY0NzIsLTQ5OTU2MzQxXX0=
+eyJoaXN0b3J5IjpbMTA5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nz
+c1ODg2NywxODI4MjE3Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0
+LC0xMjIxMTk3NDc5LDE4NDcxNjI0NzksLTE3NTAyMjEzNDYsLT
+E4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzEx
+OTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ==
 -->
