@@ -125,10 +125,10 @@ Der ER-"Dialekt":
  ### Grundstrukturen
 - Entitätstyp und Entitäten: Ein Entitätstyp steht für eine Menge von Entitäten. Bzw. ist eine Entität eine Instanz eines Entitätstyps
 - Attribut/Attributwert: Entitätstypen haben Attribute, die Entitäten Attributswerte, da die Instanzen bzw Tupel aus den Attributen sind. Sie sind mit einer Linie zum Entitätstyp verbunden. Diejenigen Attribute die als Primärschlüssel gewählt wurden, werden unterstrichen. 
-- Beziehungstyp: Zeigt mit einem Pfeil zum Entitätstyp, auf den er sich bezieht. Ein Beziehungstyp erbt alle Priämrschlü
+- Beziehungstyp: Zeigt mit einem Pfeil zum Entitätstyp, auf den er sich bezieht. Diese Pfeile besitzen eine KardinalitätEin Beziehungstyp erbt alle Priämrschlüsselattribute der Entitätstypen, die er verbidet, als eigene Schlüssel (nicht Primär). Er kann auch noch eigene Attrribute haben. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTEwOTcwMjYsLTE2MjMxMDg4NTAsLT
+eyJoaXN0b3J5IjpbLTE2ODQzMDY2NjAsLTE2MjMxMDg4NTAsLT
 E3NjMyMzIyMDEsLTIwMzMyMjk3NTQsMTA5MDA2MTUzOCwtNDM0
 Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Njg1LDExOTU4Mzk1Ny
 wtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4NDcxNjI0NzksLTE3
