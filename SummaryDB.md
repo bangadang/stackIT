@@ -116,9 +116,15 @@ vermeiden (siehe Vorlesungsteil SQL).
 - Full outer Join &#10199;
 
 ## Entity Relationship Design
-Ein Entitiy Relationship Model ist eine Diagrammsprache für das Design von Datenbanken, welche ein
+Ein Entitiy Relationship Model ist eine Diagrammsprache für das Design von Datenbanken, welche einfach zum relationalen Model gemapped werden kann. 
+Der ER-"Dialekt":
+ - liefert Relationen in Inclusion Dependency Normal Form
+ - vermeidet NULLs
+ - Lässt nur überwachbare Semantik zu
+ 
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE3ODE3ODgsLTIwMzMyMjk3NTQsMT
+eyJoaXN0b3J5IjpbLTE3NjMyMzIyMDEsLTIwMzMyMjk3NTQsMT
 A5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3
 Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LD
 E4NDcxNjI0NzksLTE3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5
