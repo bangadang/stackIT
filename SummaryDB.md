@@ -103,9 +103,11 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - Duplikatenelimination $\delta$: Entfernt Duplikate.
 
 ### Outer Joins
--   `&#10199;`
+- Left outer Join  &#10197;
+- Right outer Join 
+- Full outer Join &#10199;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTE5NTYzOCwxMDkwMDYxNTM4LC00Mz
+eyJoaXN0b3J5IjpbLTM2NTI1MjU2MywxMDkwMDYxNTM4LC00Mz
 QzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2ODUsMTE5NTgzOTU3
 LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0NzE2MjQ3OSwtMT
 c1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgx
