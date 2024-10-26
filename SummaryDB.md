@@ -97,13 +97,13 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 #### Operatoren der Bag Algebra
 - Selektion, Projektion, Kreuzprodukt und Joins funktionieren gleich wie in der RA. Duplikate werden wie normale Tupel behandelt
 - bag union $\cup$: Wie bei RA, nur das bei Duplikaten, die grössere Multiplizität übernommen wird. 
-- bag concatenation $\sqcup$: Wie Union, aeer die Summe der Mulitplizitäten wird überno
-- intersection $\cap$
+- bag concatenation $\sqcup$: Wie Union, aeer die Summe der Mulitplizitäten wird übernommen.
+- intersection $\cap$: Wie bei RA, aber bei Duplikaten wird die kleinere Multiplizität übernommen.
 - difference \
-- Duplikatenelimination $\delta$
+- Duplikatenelimination $\delta$: Gibt es in der linken Me
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjU1NzAxOSwxMDkwMDYxNTM4LC00Mz
+eyJoaXN0b3J5IjpbMTA2NjY5MjE4MywxMDkwMDYxNTM4LC00Mz
 QzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2ODUsMTE5NTgzOTU3
 LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0NzE2MjQ3OSwtMT
 c1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgx
