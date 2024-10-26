@@ -89,7 +89,7 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Differenz
 -  **Queries** bzw. Ausdrücke der rel. Algebra
 
-### "Bag" Algebra
+## "Bag" Algebra
 - Relationelle Algebra unter der Berücksichtigung von Multimengen
 - **Multiplizität** eines Tupels
 	- Da in der bag Algebral Tupel mehrfach auftreten können, kann solchen Tupeln eine Multipliztät zugeschrieben werden
@@ -114,8 +114,11 @@ vermeiden (siehe Vorlesungsteil SQL).
 - Left outer Join  &#10197;
 - Right outer Join &#10198;
 - Full outer Join &#10199;
+
+## Entity Relationship Design
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1ODc5OTg5MiwtMjAzMzIyOTc1NCwxMD
+eyJoaXN0b3J5IjpbLTMzODAzMDg5NiwtMjAzMzIyOTc1NCwxMD
 kwMDYxNTM4LC00MzQzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2
 ODUsMTE5NTgzOTU3LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMT
 g0NzE2MjQ3OSwtMTc1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5
