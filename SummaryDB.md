@@ -124,14 +124,15 @@ Der ER-"Dialekt":
  
  ### Grundstrukturen
 - Entitätstyp und Entitäten: Ein Entitätstyp steht für eine Menge von Entitäten. Bzw. ist eine Entität eine Instanz eines Entitätstyps
-- Attribut/Attributwert: Entitätstypen haben Attribute, die Entitäten Attributswerte, da die Instanzen bzw Tupel aus den Attributen sind. Sie sind mit einer Linie zum Entitätstyp verbunden. Diejenigen Attribute die als Primrchlüssel 
+- Attribut/Attributwert: Entitätstypen haben Attribute, die Entitäten Attributswerte, da die Instanzen bzw Tupel aus den Attributen sind. Sie sind mit einer Linie zum Entitätstyp verbunden. Diejenigen Attribute die als Primärschlüssel gewählt wurden, werden unterstrichen. 
+- Beziehungstyp
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTcwNjQwMywtMTYyMzEwODg1MCwtMT
-c2MzIzMjIwMSwtMjAzMzIyOTc1NCwxMDkwMDYxNTM4LC00MzQz
-ODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2ODUsMTE5NTgzOTU3LC
-0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0NzE2MjQ3OSwtMTc1
-MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgxND
-E4NzIsLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbNjgzNTI5NjM3LC0xNjIzMTA4ODUwLC0xNz
+YzMjMyMjAxLC0yMDMzMjI5NzU0LDEwOTAwNjE1MzgsLTQzNDM4
+NDQ2Miw0Nzc3NTg4NjcsMTgyODIxNzY4NSwxMTk1ODM5NTcsLT
+EyMzE4Mzk3NCwtMTIyMTE5NzQ3OSwxODQ3MTYyNDc5LC0xNzUw
+MjIxMzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0MT
+g3MiwtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX0=
 
 -->
