@@ -127,13 +127,29 @@ Der ER-"Dialekt":
 - Attribut/Attributwert: Entitätstypen haben Attribute, die Entitäten Attributswerte, da die Instanzen bzw Tupel aus den Attributen sind. Sie sind mit einer Linie zum Entitätstyp verbunden. Diejenigen Attribute die als Primärschlüssel gewählt wurden, werden unterstrichen. 
 - Beziehungstyp: Zeigt mit einem Pfeil zum Entitätstyp, auf den er sich bezieht. Diese Pfeile besitzen eine Kardinalität. Ein Beziehungstyp erbt alle Priämrschlüsselattribute der Entitätstypen, die er verbidet, als eigene Schlüssel (nicht Primär). Er kann auch noch eigene Attrribute haben. 
 
-	|x| y | y |
+	|x| y | 
+	|--|--|
+	|  |  |  
+	|  |  |  
+	|  |  |  
+	|  |  | 
+	
+	|x| y | z |
 	|--|--|--|
 	|  |  |  |
+	|  |  |  |
+	|  |  |  |
+	|  |  |  |
+	|  |  |  |
+	|  |  |  |
+	|  |  |  |
+	|  |  |  |
+	
+	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTA2ODc1NCwtMTYyMzEwODg1MCwtMT
+eyJoaXN0b3J5IjpbMjAzMDM1NDQzMiwtMTYyMzEwODg1MCwtMT
 c2MzIzMjIwMSwtMjAzMzIyOTc1NCwxMDkwMDYxNTM4LC00MzQz
 ODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2ODUsMTE5NTgzOTU3LC
 0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0NzE2MjQ3OSwtMTc1
