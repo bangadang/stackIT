@@ -102,12 +102,13 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - difference \: Gibt es in der linken Menge mehr Muplikate nimmt man die Differenz der Multiplizitäten, ansonsten wird die Multipliztät 0.
 - Duplikatenelimination $\delta$: Entfernt Duplikate.
 
-> Written with [StackEdit](https://stackedit.io/).
+### Outer Joins
+-   `&#10199;`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYxMzA3MTQsMTA5MDA2MTUzOCwtND
-M0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Njg1LDExOTU4Mzk1
-NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4NDcxNjI0NzksLT
-E3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4
-MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzND
-FdfQ==
+eyJoaXN0b3J5IjpbMTczNTE5NTYzOCwxMDkwMDYxNTM4LC00Mz
+QzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2ODUsMTE5NTgzOTU3
+LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0NzE2MjQ3OSwtMT
+c1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NTQxMDYsLTIxMDgx
+NDE4NzIsLTczMTE5ODE3NCwxODI2MTc2NDcyLC00OTk1NjM0MV
+19
 -->
