@@ -126,7 +126,7 @@ Der ER-"Dialekt":
 - Entitätstyp und Entitäten: Ein Entitätstyp steht für eine Menge von Entitäten. Bzw. ist eine Entität eine Instanz eines Entitätstyps
 - Attribut/Attributwert: Entitätstypen haben Attribute, die Entitäten Attributswerte, da die Instanzen bzw Tupel aus den Attributen sind. Sie sind mit einer Linie zum Entitätstyp verbunden. Diejenigen Attribute die als Primärschlüssel gewählt wurden, werden unterstrichen. 
 - Beziehungstyp: Zeigt mit einem Pfeil zum Entitätstyp, auf den er sich bezieht. Diese Pfeile besitzen eine Kardinalität. Ein Beziehungstyp erbt alle Priämrschlüsselattribute der Entitätstypen, die er verbidet, als eigene Schlüssel (nicht Primär). Er kann auch noch eigene Attrribute haben. 
-I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird *
+I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf** sie referenziert
 
 	|x to A| y to B | 
 	|--|--|
@@ -151,11 +151,11 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird *
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwOTY1MDAwLC0xNjIzMTA4ODUwLC0xNz
-YzMjMyMjAxLC0yMDMzMjI5NzU0LDEwOTAwNjE1MzgsLTQzNDM4
-NDQ2Miw0Nzc3NTg4NjcsMTgyODIxNzY4NSwxMTk1ODM5NTcsLT
-EyMzE4Mzk3NCwtMTIyMTE5NzQ3OSwxODQ3MTYyNDc5LC0xNzUw
-MjIxMzQ2LC0xODU2MTc4MjIsMTUwOTk1NDEwNiwtMjEwODE0MT
-g3MiwtNzMxMTk4MTc0LDE4MjYxNzY0NzIsLTQ5OTU2MzQxXX0=
-
+eyJoaXN0b3J5IjpbLTE4MzQ1NzE0OTYsLTE2MjMxMDg4NTAsLT
+E3NjMyMzIyMDEsLTIwMzMyMjk3NTQsMTA5MDA2MTUzOCwtNDM0
+Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Njg1LDExOTU4Mzk1Ny
+wtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4NDcxNjI0NzksLTE3
+NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MT
+QxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFd
+fQ==
 -->
