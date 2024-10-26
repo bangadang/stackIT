@@ -147,12 +147,13 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	| m | m | 1 | {a,b}
 	| m | m | m | {a,b,c}
 	
-	- ISA abhängiger Bezi
+	- ISA abhängiger Entitätstyp
+	- ID abhängiger Entitätstyp
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg4MDcyNTQsLTE0MDc3MTgyMTQsLT
+eyJoaXN0b3J5IjpbLTEyMDQ2ODcwODUsLTE0MDc3MTgyMTQsLT
 E2MjMxMDg4NTAsLTE3NjMyMzIyMDEsLTIwMzMyMjk3NTQsMTA5
 MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Nj
 g1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4
