@@ -98,14 +98,15 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - Selektion, Projektion, Kreuzprodukt und Joins funktionieren gleich wie in der RA. Duplikate werden wie normale Tupel
 - bag union $\cup$
 - bag concatenation $\sqcup$
-- intersection $$
-- difference
-- Duplikatenelimination
+- intersection $\cap$
+- difference \
+- Duplikatenelimination $\delta$
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nz
-c1ODg2NywxODI4MjE3Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0
-LC0xMjIxMTk3NDc5LDE4NDcxNjI0NzksLTE3NTAyMjEzNDYsLT
-E4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzEx
-OTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzNDFdfQ==
+eyJoaXN0b3J5IjpbLTIxMzUxOTQzNDQsMTA5MDA2MTUzOCwtND
+M0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Njg1LDExOTU4Mzk1
+NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4NDcxNjI0NzksLT
+E3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4
+MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzND
+FdfQ==
 -->
