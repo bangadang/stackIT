@@ -116,12 +116,12 @@ vermeiden (siehe Vorlesungsteil SQL).
 - Full outer Join &#10199;
 
 ## Entity Relationship Design
-
+Ein Entitiy Relationship Model ist eine Diagrammsprache für das Design von Datenbanken, welche ein
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODAzMDg5NiwtMjAzMzIyOTc1NCwxMD
-kwMDYxNTM4LC00MzQzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2
-ODUsMTE5NTgzOTU3LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMT
-g0NzE2MjQ3OSwtMTc1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5
-NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2ND
-cyLC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbLTE5OTE3ODE3ODgsLTIwMzMyMjk3NTQsMT
+A5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3
+Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LD
+E4NDcxNjI0NzksLTE3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5
+OTU0MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3Nj
+Q3MiwtNDk5NTYzNDFdfQ==
 -->
