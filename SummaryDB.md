@@ -123,10 +123,9 @@ Der ER-"Dialekt":
  - Lässt nur überwachbare Semantik zu
  
  ### Grundstrukturen
-
--
+- Entitätstyp und Entitäten: Ein Entitätstyp steht für eine Menge von Entitäten. Bzw. ist eine Entität eine 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTQ5ODA1MiwtMTc2MzIzMjIwMSwtMj
+eyJoaXN0b3J5IjpbMTg5MDExNjAwNCwtMTc2MzIzMjIwMSwtMj
 AzMzIyOTc1NCwxMDkwMDYxNTM4LC00MzQzODQ0NjIsNDc3NzU4
 ODY3LDE4MjgyMTc2ODUsMTE5NTgzOTU3LC0xMjMxODM5NzQsLT
 EyMjExOTc0NzksMTg0NzE2MjQ3OSwtMTc1MDIyMTM0NiwtMTg1
