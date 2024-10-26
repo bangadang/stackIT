@@ -141,21 +141,22 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	| 1 | 1 | 1 | {a,b} & {a,c} & {b,c}
 	| 1 | 1 | m | {a,c} & {b,c}
 	| 1 | m | 1 | {a,b} & {b,c}
-	| 1 | m | m | {} & {}
+	| 1 | m | m | {b,c}
 	| m | 1  | 1 | {a,b} & {a,c}
-	| m | 1 | m | 
-	| m | m | 1 |
+	| m | 1 | m | {a,c}
+	| m | m | 1 | {a,b}
 	| m | m | m | {a,b,c}
 	
+	- ISA abhängiger Bezi
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDIxMDk4MSwtMTQwNzcxODIxNCwtMT
-YyMzEwODg1MCwtMTc2MzIzMjIwMSwtMjAzMzIyOTc1NCwxMDkw
-MDYxNTM4LC00MzQzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2OD
-UsMTE5NTgzOTU3LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0
-NzE2MjQ3OSwtMTc1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5NT
-QxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2NDcy
-LC00OTk1NjM0MV19
+eyJoaXN0b3J5IjpbLTE4OTg4MDcyNTQsLTE0MDc3MTgyMTQsLT
+E2MjMxMDg4NTAsLTE3NjMyMzIyMDEsLTIwMzMyMjk3NTQsMTA5
+MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Nj
+g1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4
+NDcxNjI0NzksLTE3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OT
+U0MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3
+MiwtNDk5NTYzNDFdfQ==
 -->
