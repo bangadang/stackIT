@@ -81,9 +81,8 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 	- Syntax: $\bowtie_\Rho  = \sigma_{P}(R \times S)$
 		- Join Prädikat kann ein beliebiger logischer Ausdruck sein
 	- Natural Join ist ein Speziall Fall des Theta Joins
-- **Equi Join**: (weitere Verallgemeinerung des natural Joins) Prüft mit einem gegebenen Prädikat auf Gleichheit. Gleichzeitig sind die Attribute mit einem $\and$ verknüpft.
+- **Equi Join**: (weitere Verallgemeinerung des natural Joins) Prüft mit einem gegebenen Prädikat auf Gleichheit. Gleichzeitig sind die Attribute mit einem  verknüpft.
 	- Jeder Equi Join ist ein natural Join aber nicht umgekehrt, da bei einem natural Join immer alle Gleichheiten berücksichtigt werden. Bei einem Equi Join kann auch nur auf die Gleichheit von einem Attribut geprüft werden. 
-- $\leftouterjoin$
 - **Mengenoperatoren**
 	- Vereinigung
 	- Durchschnitt
@@ -103,14 +102,23 @@ Die Implementation um die Daten handzuhaben erfolgt mit der Programmiersprache S
 - Duplikatenelimination $\delta$: Entfernt Duplikate.
 
 ### Outer Joins
+Bei outer joins werden alle Tupel des linken (oder rechten, oder 
+von beiden) Operatoren ins Resultat übernommen. Wenn es einen 
+passenden «Join-Partner» gibt, so wird normal gejoint, ansonsten werden 
+die fehlenden Werte durch den Platzhalter «NULL» ersetzt. Für outer-joins 
+verwendet man spezielle «bowtie»-Symbole (siehe folgende Slides).
+
+NULL ist selbst kein Wert sondern ist ein Indikator für fehlende Werte! --> Führen oft zu Problemen
+vermeiden (siehe Vorlesungsteil SQL).
+
 - Left outer Join  &#10197;
 - Right outer Join &#10198;
 - Full outer Join &#10199;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzMyMjk3NTQsMTA5MDA2MTUzOCwtND
-M0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Njg1LDExOTU4Mzk1
-NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4NDcxNjI0NzksLT
-E3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OTU0MTA2LC0yMTA4
-MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3MiwtNDk5NTYzND
-FdfQ==
+eyJoaXN0b3J5IjpbMTc1ODc5OTg5MiwtMjAzMzIyOTc1NCwxMD
+kwMDYxNTM4LC00MzQzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2
+ODUsMTE5NTgzOTU3LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMT
+g0NzE2MjQ3OSwtMTc1MDIyMTM0NiwtMTg1NjE3ODIyLDE1MDk5
+NTQxMDYsLTIxMDgxNDE4NzIsLTczMTE5ODE3NCwxODI2MTc2ND
+cyLC00OTk1NjM0MV19
 -->
