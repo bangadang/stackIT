@@ -140,9 +140,9 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	|--|--|--|--|
 	| 1 | 1 | 1 | {a,b} & {a,c} & {b,c}
 	| 1 | 1 | m | {a,c} & {b,c}
-	| 1 | m | 1 | {} & {}
-	| 1 | m | m |
-	| m | 1  | 1 | {} & {}
+	| 1 | m | 1 | {a,b} & {b,c}
+	| 1 | m | m | {} & {}
+	| m | 1  | 1 | {a,b} & {a,c}
 	| m | 1 | m | 
 	| m | m | 1 |
 	| m | m | m | {a,b,c}
@@ -151,7 +151,7 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODIwODUzNCwtMTQwNzcxODIxNCwtMT
+eyJoaXN0b3J5IjpbLTQ4NDIxMDk4MSwtMTQwNzcxODIxNCwtMT
 YyMzEwODg1MCwtMTc2MzIzMjIwMSwtMjAzMzIyOTc1NCwxMDkw
 MDYxNTM4LC00MzQzODQ0NjIsNDc3NzU4ODY3LDE4MjgyMTc2OD
 UsMTE5NTgzOTU3LC0xMjMxODM5NzQsLTEyMjExOTc0NzksMTg0
