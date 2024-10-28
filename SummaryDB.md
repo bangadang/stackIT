@@ -148,17 +148,19 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	| m | m | m | {a,b,c}
 	
 	- ISA abhängiger Entitätstyp: Zeigt mit einem Pfeil auf einen weiteren Entitätstyp und beschreibt eine existentielle Abhängigkeit. Er übernimmt die Primärschlüssel des Parent Entitätstyp, welcher eine Generalisierung des ISA ET ist.
-	- ID abhängiger Entitätstyp: Zeigt mit einem Pfeil auf einen weiteren Entitätstyp und beschreibt eine hierarchische Beziehung. Ein ID abhängiger ET it nur innerhalb dieser Hierarchie definiert, deswegen übernimmt er die Primärschlüssel des übergeordneten ET, braucht aber noch einen weiteren Primärschlüssel aus seinen Attributen, um sich eindeutig zu identifizieren. (Buchbeispiel oder Salärbeispiel, Telefonnummer<->Mitrbeiter)
+	- ID abhängiger Entitätstyp: Zeigt mit einem Pfeil auf einen weiteren Entitätstyp und beschreibt eine hierarchische Beziehung. Ein ID abhängiger ET it nur innerhalb dieser Hierarchie definiert, deswegen übernimmt er die Primärschlüssel des übergeordneten ET, braucht aber noch einen weiteren Primärschlüssel aus seinen Attributen, um sich eindeutig zu identifizieren. (Buchbeispiel oder Salärbeispiel, Telefonnummer<->Mitrbeiterbeispiel)
 	- zusammenngesetzter Entitätstyp: Entsteht aus einem Beziehungstyp, auf welchen wir min. einen weiteren Beziehungstyp beziehen wollen. Da nun ein Pfeil auf den Beziehungstyp zeigt braucht er auch Primärschlüssel (vgl. Beziehungstyp)
+
+### Schematisches Vorgehen Schlüssel
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTkyNTEzMDcsLTEzNDA3NTkwMjUsLT
-E0MDc3MTgyMTQsLTE2MjMxMDg4NTAsLTE3NjMyMzIyMDEsLTIw
-MzMyMjk3NTQsMTA5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1OD
-g2NywxODI4MjE3Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0x
-MjIxMTk3NDc5LDE4NDcxNjI0NzksLTE3NTAyMjEzNDYsLTE4NT
-YxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzExOTgx
-NzQsMTgyNjE3NjQ3Ml19
+eyJoaXN0b3J5IjpbNTcyNTk1MDQ4LC0xMzQwNzU5MDI1LC0xND
+A3NzE4MjE0LC0xNjIzMTA4ODUwLC0xNzYzMjMyMjAxLC0yMDMz
+MjI5NzU0LDEwOTAwNjE1MzgsLTQzNDM4NDQ2Miw0Nzc3NTg4Nj
+csMTgyODIxNzY4NSwxMTk1ODM5NTcsLTEyMzE4Mzk3NCwtMTIy
+MTE5NzQ3OSwxODQ3MTYyNDc5LC0xNzUwMjIxMzQ2LC0xODU2MT
+c4MjIsMTUwOTk1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0
+LDE4MjYxNzY0NzJdfQ==
 -->
