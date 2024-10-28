@@ -148,17 +148,18 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	| m | m | m | {a,b,c}
 	
 	- ISA abhängiger Entitätstyp
+	
 	- ID abhängiger Entitätstyp
 	- zusammenngesetzter Entitätstyp 
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA3NTkwMjUsLTE0MDc3MTgyMTQsLT
-E2MjMxMDg4NTAsLTE3NjMyMzIyMDEsLTIwMzMyMjk3NTQsMTA5
-MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1ODg2NywxODI4MjE3Nj
-g1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0xMjIxMTk3NDc5LDE4
-NDcxNjI0NzksLTE3NTAyMjEzNDYsLTE4NTYxNzgyMiwxNTA5OT
-U0MTA2LC0yMTA4MTQxODcyLC03MzExOTgxNzQsMTgyNjE3NjQ3
-MiwtNDk5NTYzNDFdfQ==
+eyJoaXN0b3J5IjpbLTE3NTAyNjg1MDcsLTEzNDA3NTkwMjUsLT
+E0MDc3MTgyMTQsLTE2MjMxMDg4NTAsLTE3NjMyMzIyMDEsLTIw
+MzMyMjk3NTQsMTA5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1OD
+g2NywxODI4MjE3Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0x
+MjIxMTk3NDc5LDE4NDcxNjI0NzksLTE3NTAyMjEzNDYsLTE4NT
+YxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzExOTgx
+NzQsMTgyNjE3NjQ3Ml19
 -->
