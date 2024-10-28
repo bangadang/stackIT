@@ -148,13 +148,13 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	| m | m | m | {a,b,c}
 	
 	- ISA abhängiger Entitätstyp: Zeigt mit einem Pfeil auf einen weiteren Entitätstyp und beschreibt eine existentielle Abhängigkeit. Er übernimmt die Primärschlüssel des Parent Entitätstyp, welcher eine Generalisierung des ISA ET ist.
-	- ID abhängiger Entitätstyp: Zeigt mit einem Pfeil auf einen weiteren Entitätstyp und beschreibt eine hierarchische Beziehung. Ein ID abhängiger ET it nur innerhalb dieser Hierarchie definiert, deswegen übernimmt er die Primärschlüssel des überge
+	- ID abhängiger Entitätstyp: Zeigt mit einem Pfeil auf einen weiteren Entitätstyp und beschreibt eine hierarchische Beziehung. Ein ID abhängiger ET it nur innerhalb dieser Hierarchie definiert, deswegen übernimmt er die Primärschlüssel des übergeordneten ET, braucht aber noch einen weiteren Primärschlüssel aus seinen Attributen, um sich eindeutig zu identifizieren. (Buchbeispiel o
 	- zusammenngesetzter Entitätstyp 
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ5MjkwMjYsLTEzNDA3NTkwMjUsLT
+eyJoaXN0b3J5IjpbLTEwODAzMTM0NDIsLTEzNDA3NTkwMjUsLT
 E0MDc3MTgyMTQsLTE2MjMxMDg4NTAsLTE3NjMyMzIyMDEsLTIw
 MzMyMjk3NTQsMTA5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1OD
 g2NywxODI4MjE3Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0x
