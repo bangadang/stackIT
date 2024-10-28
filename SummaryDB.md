@@ -148,17 +148,17 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	| m | m | m | {a,b,c}
 	
 	- ISA abhängiger Entitätstyp: Zeigt mit einem Pfeil auf einen weiteren Entitätstyp und beschreibt eine existentielle Abhängigkeit. Er übernimmt die Primärschlüssel des Parent Entitätstyp, welcher eine Generalisierung des ISA ET ist.
-	- ID abhängiger Entitätstyp
+	- ID abhängiger Entitätstyp: Zeigt mit einem Pfeil auf ei
 	- zusammenngesetzter Entitätstyp 
 	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxMTg4NjA0LC0xMzQwNzU5MDI1LC0xND
-A3NzE4MjE0LC0xNjIzMTA4ODUwLC0xNzYzMjMyMjAxLC0yMDMz
-MjI5NzU0LDEwOTAwNjE1MzgsLTQzNDM4NDQ2Miw0Nzc3NTg4Nj
-csMTgyODIxNzY4NSwxMTk1ODM5NTcsLTEyMzE4Mzk3NCwtMTIy
-MTE5NzQ3OSwxODQ3MTYyNDc5LC0xNzUwMjIxMzQ2LC0xODU2MT
-c4MjIsMTUwOTk1NDEwNiwtMjEwODE0MTg3MiwtNzMxMTk4MTc0
-LDE4MjYxNzY0NzJdfQ==
+eyJoaXN0b3J5IjpbLTEzNTQ4NDQ2MjcsLTEzNDA3NTkwMjUsLT
+E0MDc3MTgyMTQsLTE2MjMxMDg4NTAsLTE3NjMyMzIyMDEsLTIw
+MzMyMjk3NTQsMTA5MDA2MTUzOCwtNDM0Mzg0NDYyLDQ3Nzc1OD
+g2NywxODI4MjE3Njg1LDExOTU4Mzk1NywtMTIzMTgzOTc0LC0x
+MjIxMTk3NDc5LDE4NDcxNjI0NzksLTE3NTAyMjEzNDYsLTE4NT
+YxNzgyMiwxNTA5OTU0MTA2LC0yMTA4MTQxODcyLC03MzExOTgx
+NzQsMTgyNjE3NjQ3Ml19
 -->
