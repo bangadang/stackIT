@@ -122,7 +122,7 @@ Der ER-"Dialekt":
  - vermeidet NULLs
  - Lässt nur überwachbare Semantik zu
  
- ### Grundstrukturen
+### Grundstrukturen
 - Entitätstyp und Entitäten: Ein Entitätstyp steht für eine Menge von Entitäten. Bzw. ist eine Entität eine Instanz eines Entitätstyps
 - Attribut/Attributwert: Entitätstypen haben Attribute, die Entitäten Attributswerte, da die Instanzen bzw Tupel aus den Attributen sind. Sie sind mit einer Linie zum Entitätstyp verbunden. Diejenigen Attribute die als Primärschlüssel gewählt wurden, werden unterstrichen. 
 - Beziehungstyp: Zeigt mit einem Pfeil zum Entitätstyp, auf den er sich bezieht. Diese Pfeile besitzen eine Kardinalität. Ein Beziehungstyp erbt alle Priämrschlüsselattribute der Entitätstypen, die er verbidet, als eigene Schlüssel (nicht Primär). Er kann auch noch eigene Attrribute haben. 
@@ -152,11 +152,18 @@ I.d.R. haben Beziehungstypen keine Primärschlüssel, es sei denn es wird **auf*
 	- zusammenngesetzter Entitätstyp: Entsteht aus einem Beziehungstyp, auf welchen wir min. einen weiteren Beziehungstyp beziehen wollen. Da nun ein Pfeil auf den Beziehungstyp zeigt braucht er auch Primärschlüssel (vgl. Beziehungstyp)
 
 ### Schematisches Vorgehen Schlüssel
-	
+Jeder unabhängige Entitätstyp erhält einen oder mehrere Schlüssel:
+- Falls der Entitätstyp eingehende Pfeile hat, wählen wir einen Primärschlüssel
+- Für Beziehungstypen: wir wählen Fremdschlüssel und Schlüssel (Unique 
+Constraints) (gemäss Kardinalitäten)
+- Für Umwandlung in zusammengesetzte Entitätstypen: Primärschlüssel 
+wählen
+- Entitätstyp E ist ID- oder ISA-abhängig von F: Primärschlüssel in F wählen, 
+Fremdschlüssel und Schlüssel (Unique Constraints) in E wählen	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNTk1MDQ4LC0xMzQwNzU5MDI1LC0xND
+eyJoaXN0b3J5IjpbNjM4ODYxMjgyLC0xMzQwNzU5MDI1LC0xND
 A3NzE4MjE0LC0xNjIzMTA4ODUwLC0xNzYzMjMyMjAxLC0yMDMz
 MjI5NzU0LDEwOTAwNjE1MzgsLTQzNDM4NDQ2Miw0Nzc3NTg4Nj
 csMTgyODIxNzY4NSwxMTk1ODM5NTcsLTEyMzE4Mzk3NCwtMTIy
