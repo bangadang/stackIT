@@ -378,9 +378,9 @@ AB 7 Ex 1
 für nicht lineare aber monotone Zusammenhänge. Wie nahe liegen die Punkte an einer Kurve
 
 AB 7 Ex 2
-
+a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3OTQxNjE2OSwxNDE3NzgyMTg2LDE4Mz
+eyJoaXN0b3J5IjpbMTkzMTM1ODMxOSwxNDE3NzgyMTg2LDE4Mz
 UzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcw
 NzAxLDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC
 0xMjA3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4
