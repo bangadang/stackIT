@@ -345,12 +345,13 @@ Zusammenhang von Datenpunkten
 Form: linerarer oder anderer Zusammenhang zw. Datenpunkten (monotone Kurve, Punktewolke)
 Richtung: positiv oder negativ 
 Stärke: Wie breit ist die Punktewolke. Je breiter, deto schwächer der Zusammenhang.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjEwMjY0NzAsMTgzNTMwNzU4NiwtOD
-YwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2
-NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMz
-IsNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1
-NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0MS
-w1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MDU4
-ODg1OF19
+eyJoaXN0b3J5IjpbMTkwNDI2MjY2NCwxODM1MzA3NTg2LC04Nj
+A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
+MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
+w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
+MzY3LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLD
+U2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4
+ODU4XX0=
 -->
