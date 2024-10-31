@@ -379,12 +379,12 @@ AB 7 Ex 1
 ```r
 cor(var1, var2, method=spearman)
 ```
-Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an einer Kurve liegen. Man definiert dafür die Ränge der x- und y-Werte und berrechnet auf diesen Rängen die Pearson Korrelation. Spearman sol
+Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an einer Kurve liegen. Man definiert dafür die Ränge der x- und y-Werte und berrechnet auf diesen Rängen die Pearson Korrelation. Spearman soll der Pearsono-Korr vorgezogen werden, wenn der Zusammenhan nicht linerar ist, sonder monoton, es Ausreisser geben könnte und die Werte nicht glockenförmig verteilt sind.
 
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjUyMDMzMyw0MzYyNzc3MTcsMTkzMT
+eyJoaXN0b3J5IjpbLTg1OTk3NzcxOSw0MzYyNzc3MTcsMTkzMT
 M1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAx
 NCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDQsMT
 k2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLDU2NzM1
