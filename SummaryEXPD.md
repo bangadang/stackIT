@@ -340,9 +340,9 @@ scatter.smooth(	df$num.var1,
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
 
 
-## KOKorrelation 
+## Kovarianz & Korrelation 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTQ3NDUwNywtODgyNjE0OTI5LC0xMT
+eyJoaXN0b3J5IjpbLTM5MTgzODExNiwtODgyNjE0OTI5LC0xMT
 M2OTcwNzAxLDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0Njkz
 MTQ3LC0xMjA3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNz
 A2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgz
