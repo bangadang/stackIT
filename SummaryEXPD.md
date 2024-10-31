@@ -369,13 +369,14 @@ $$r_{xy}= \frac {\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]}} {\sqrt {\sum_{i=1}^n{
 ```r
 cor(var1, var2)
 ```
+
 misst die Stärke des **linearen** Zusammenhangs, d.h. wie eng die Punkte um eine Gerade liegen bzw. wie stark sie streuen, und entspricht der standardisierten Kovarianz. Es können verschiedene Formen auftreten mit der gleichen Korrelation, d.h. sie wird nicht von der Korrelation geprüft.
 
 AB 7 Ex 1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjAxNDYwMCwxODM1MzA3NTg2LC04Nj
+eyJoaXN0b3J5IjpbMjA2MDQ0MDEzOCwxODM1MzA3NTg2LC04Nj
 A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
 MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
 w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
