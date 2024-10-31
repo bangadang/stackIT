@@ -342,12 +342,12 @@ scatter.smooth(	df$num.var1,
 
 ## Kovarianz & Korrelation 
 Zusammenhang von Datenpunkten
-Form: linerarer oder anderer Zusammenhang zw. Datenpunkten (monotone Kurve, Punktewolke)
+Form: linerarer oder anderer Zusammenhang zw. Datenpunkten (monotone Kurve, Punktewolke) (muss nicht konstant sein. Kann "b
 Richtung: positiv oder negativ 
 Stärke: Wie breit ist die Punktewolke. Je breiter, deto schwächer der Zusammenhang.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDI2MjY2NCwxODM1MzA3NTg2LC04Nj
+eyJoaXN0b3J5IjpbMTk3OTc2MjcyNSwxODM1MzA3NTg2LC04Nj
 A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
 MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
 w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
