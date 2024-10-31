@@ -361,11 +361,17 @@ con < 0 --> neg. Beziehung
 
 Grenzen der Kovarianz
 - informiert nur über Richtung eines Zusammenhangs nicht dessen Stärke
-- Wert
+- Wert der Kovarianz ist schwer zu interpretieren, da er vom Masstab von x und y abhängig ist
+- anfällig für Ausreisser
+
+#### Pearson-Korrelation
+misst die Stärke des linearen Zusammenhangs, d.h. wie eng die
+Punkte um eine Gerade liegen bzw. wie stark sie streuen, und entspricht der
+standardisierten Kovarianz.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODQ0NzgxNSwxODM1MzA3NTg2LC04Nj
+eyJoaXN0b3J5IjpbLTM0Njc2OTA2NywxODM1MzA3NTg2LC04Nj
 A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
 MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
 w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
