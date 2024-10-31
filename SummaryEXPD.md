@@ -348,7 +348,7 @@ Richtung: positiv oder negativ
 Stärke: Wie breit ist die Punktewolke. Je breiter, deto schwächer der Zusammenhang.
 
 ### Kovarianz
-$$Cov(x,y)=\frac{1}{n-1}\sum{} $$
+$$Cov(x,y)=\frac{1}{n-1}\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]} $$
 ```r
 1/(nrow(df)-1) * sum(df$column) #oder
 cov(df$column1, df$column2)
@@ -365,6 +365,7 @@ Grenzen der Kovarianz
 - anfällig für Ausreisser
 
 #### Pearson-Korrelation
+$$$$
 ```r
 cor(var1, var2)
 ```
@@ -374,11 +375,11 @@ standardisierten Kovarianz.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODE1NjMzOTcsMTgzNTMwNzU4NiwtOD
-YwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2
-NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMz
-IsNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1
-NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0MS
-w1NjI2ODc4MjMsNTE2Njk0NTczLDExNDkwMDAyNTEsMTE2MDU4
-ODg1OF19
+eyJoaXN0b3J5IjpbLTY1MDc4OTM5LDE4MzUzMDc1ODYsLTg2MD
+Y4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQz
+NDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLD
+U2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4LDEwODU5NTYz
+NjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgxNDEsNT
+YyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4
+NThdfQ==
 -->
