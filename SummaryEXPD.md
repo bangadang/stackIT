@@ -366,6 +366,7 @@ Grenzen der Kovarianz
 
 #### Pearson-Korrelation
 $$r_{xy}= \frac {\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]}} {\sqrt {\sum_{i=1}^n{(x_i-\bar x)^2 \sum_{i=1}^{n}{(y_i-\bar y)^2}}}}$$
+$$r_{xy}=\frac{Cov(x,y)}{s_xs_y}$$
 ```r
 cor(var1, var2)
 ```
@@ -380,11 +381,11 @@ für nicht lineare aber monotone Zusammenhänge. Wie nahe liegen die Punkte an e
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTM1ODMxOSwxNDE3NzgyMTg2LDE4Mz
-UzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcw
-NzAxLDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC
-0xMjA3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4
-MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LD
-EyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAw
-MjUxXX0=
+eyJoaXN0b3J5IjpbNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNz
+c4MjE4NiwxODM1MzA3NTg2LC04NjA2ODkwMTQsLTg4MjYxNDky
+OSwtMTEzNjk3MDcwMSwyMDEwNTY0MzQ0LDE5NjQ1NDI3MTMsLT
+kzNDY5MzE0NywtMTIwNzk2MjEzMiw1NjczNTU0NTQsNDY4MzM2
+NDUzLDcwNjA0ODExOCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwtMT
+Y5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OTQ1
+NzNdfQ==
 -->
