@@ -365,7 +365,7 @@ Grenzen der Kovarianz
 - anfällig für Ausreisser
 
 #### Pearson-Korrelation
-$$$$
+$$r_{xy}= \frac {\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]}} {\}$$
 ```r
 cor(var1, var2)
 ```
@@ -375,11 +375,11 @@ standardisierten Kovarianz.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDc4OTM5LDE4MzUzMDc1ODYsLTg2MD
-Y4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQz
-NDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLD
-U2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4LDEwODU5NTYz
-NjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgxNDEsNT
-YyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAwMjUxLDExNjA1ODg4
-NThdfQ==
+eyJoaXN0b3J5IjpbMTc1NjgwMDc3MSwxODM1MzA3NTg2LC04Nj
+A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
+MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
+w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
+MzY3LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLD
+U2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4
+ODU4XX0=
 -->
