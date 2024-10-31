@@ -370,17 +370,18 @@ $$r_{xy}= \frac {\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]}} {\sqrt {\sum_{i=1}^n{
 cor(var1, var2)
 ```
 **Korrealtion misst nicht die Steigung**
+
 misst die Stärke des **linearen** Zusammenhangs, d.h. wie eng die Punkte um eine Gerade liegen bzw. wie stark sie streuen, und entspricht der standardisierten Kovarianz. Es können verschiedene Formen auftreten mit der gleichen Korrelation, d.h. sie wird nicht von der Korrelation geprüft.
 
 AB 7 Ex 1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04Nj
-A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
-MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
-w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
-MzY3LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4MTQxLD
-U2MjY4NzgyMyw1MTY2OTQ1NzMsMTE0OTAwMDI1MSwxMTYwNTg4
-ODU4XX0=
+eyJoaXN0b3J5IjpbMjAyODEwMjI2OCwxNDE3NzgyMTg2LDE4Mz
+UzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcw
+NzAxLDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC
+0xMjA3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4
+MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgzODE1LD
+EyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMTQ5MDAw
+MjUxXX0=
 -->
