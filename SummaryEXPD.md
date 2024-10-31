@@ -375,7 +375,7 @@ misst die Stärke des **linearen** Zusammenhangs, d.h. wie eng die Punkte um ein
 
 AB 7 Ex 1
 
-#### Spearman Korrelation
+#### Spearman Rang Korrelation
 ```r
 cor(var1, var2, method=spearman)
 ```
@@ -384,11 +384,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTk3NzcxOSw0MzYyNzc3MTcsMTkzMT
-M1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAx
-NCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDQsMT
-k2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLDU2NzM1
-NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4LDEwODU5NTYzNjcsOT
-A2NTU0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgxNDEsNTYyNjg3
-ODIzXX0=
+eyJoaXN0b3J5IjpbNDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMz
+U4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0
+LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2NDM0NCwxOT
+Y0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1
+NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MD
+Y1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4
+MjNdfQ==
 -->
