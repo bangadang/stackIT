@@ -337,17 +337,17 @@ scatter.smooth(	df$num.var1,
 | **Metrisch vs. Kategoriell** | Tabelle mit Kennzahlen| beschränkte Information |
 ||Boxplot|generell gut geeignet|
 ||Stripcharts|generell gut geeignet|
-|**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten|
+|**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten (Form, Richtung, Stärke)|
 
 
 ## Kovarianz & Korrelation 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMT
-M2OTcwNzAxLDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0Njkz
-MTQ3LC0xMjA3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNz
-A2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgz
-ODE1LDEyNTk5ODgxNDEsNTYyNjg3ODIzLDUxNjY5NDU3MywxMT
-Q5MDAwMjUxLDExNjA1ODg4NTgsLTQwMTY5OTYxNywtODk5MjE3
-NTM0XX0=
+eyJoaXN0b3J5IjpbMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04OD
+I2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2NDM0NCwxOTY0NTQy
+NzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1NDU0LD
+Q2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3
+MjYsLTE2OTc4ODM4MTUsMTI1OTk4ODE0MSw1NjI2ODc4MjMsNT
+E2Njk0NTczLDExNDkwMDAyNTEsMTE2MDU4ODg1OCwtNDAxNjk5
+NjE3XX0=
 -->
