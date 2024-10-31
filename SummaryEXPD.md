@@ -376,13 +376,15 @@ misst die Stärke des **linearen** Zusammenhangs, d.h. wie eng die Punkte um ein
 AB 7 Ex 1
 
 #### Spearman Korrelation
-
-Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an einer Kurve liegen. Man definiert dafür die Ränge der x- und y-Werte 
+```r
+cor(var1, var2, method=spearman)
+```
+Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an einer Kurve liegen. Man definiert dafür die Ränge der x- und y-Werte und berrechnet auf diesen Rängen die Pearson Korrelation. Spearman sol
 
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTExMjA3OCw0MzYyNzc3MTcsMTkzMT
+eyJoaXN0b3J5IjpbMTkyMjUyMDMzMyw0MzYyNzc3MTcsMTkzMT
 M1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAx
 NCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDQsMT
 k2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLDU2NzM1
