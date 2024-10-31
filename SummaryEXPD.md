@@ -376,16 +376,17 @@ misst die Stärke des **linearen** Zusammenhangs, d.h. wie eng die Punkte um ein
 AB 7 Ex 1
 
 #### Spearman Korrelation
-für nicht lineare aber monotone Zusammenhänge. Wie nahe liegen die Punkte an einer Kurve
+
+Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an einer Kurve liegen. Man definiert dafür die Ränge der x- und y-Werte 
 
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNz
-c4MjE4NiwxODM1MzA3NTg2LC04NjA2ODkwMTQsLTg4MjYxNDky
-OSwtMTEzNjk3MDcwMSwyMDEwNTY0MzQ0LDE5NjQ1NDI3MTMsLT
-kzNDY5MzE0NywtMTIwNzk2MjEzMiw1NjczNTU0NTQsNDY4MzM2
-NDUzLDcwNjA0ODExOCwxMDg1OTU2MzY3LDkwNjU1NDcyNiwtMT
-Y5Nzg4MzgxNSwxMjU5OTg4MTQxLDU2MjY4NzgyMyw1MTY2OTQ1
-NzNdfQ==
+eyJoaXN0b3J5IjpbMTk4OTExMjA3OCw0MzYyNzc3MTcsMTkzMT
+M1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAx
+NCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDQsMT
+k2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLDU2NzM1
+NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4LDEwODU5NTYzNjcsOT
+A2NTU0NzI2LC0xNjk3ODgzODE1LDEyNTk5ODgxNDEsNTYyNjg3
+ODIzXX0=
 -->
