@@ -323,7 +323,13 @@ pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
 ### Ergänzung Code
 ```r
+#MAD and sd have attribute na.rm
 head(df, n_elem), tail(, n_elem)
+which(df$col = val & df$col = val | df$col) return indexes of df rows that fulfill conditions
+
+# vertikale Linien bei gewissen x-Stellen einzeichnen
+abline(v= x-stelle, col="red")
+
 ```
 ### Zusammenfassung Darstellungsmöglichkeiten bivariate Darstellungen (2 Variablen)
 | Datentypen | Darstellungsart | Kommentar |
@@ -381,11 +387,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAwMjUwMTcsMTMzMzk4Mjk1MCwzMj
-I1NzE1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3Nzcx
-NywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4NiwtOD
-YwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2
-NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMz
-IsNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1
-NjM2N119
+eyJoaXN0b3J5IjpbMTQzMTM4NDgwNCwxMzMzOTgyOTUwLDMyMj
+U3MTU0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3
+LDE5MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04Nj
+A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
+MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
+w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
+MzY3XX0=
 -->
