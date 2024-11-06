@@ -323,6 +323,8 @@ pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
 ### Ergänzung Code
 ```r
+möglichkeiten fehlende datenwerte zu entfernen df[df$col != "",] oder df[!is.na(df$col),]
+
 #MAD and sd have attribute na.rm
 head(df, n_elem), tail(, n_elem)
 which(df$col = val & df$col = val | df$col) 
@@ -334,6 +336,21 @@ abline(v= x-stelle, col="red")
 map values to certain label:
 	foot2height <- as.numeric(Fragebogen_ExpD$Schuhgrösse / Fragebogen_ExpD.reduced$Koerpergroesse)
 	Fragebogen_ExpD.reduced$foot2height <- cut(foot2height,                                     breaks = c(-Inf, 0.236, 0.243, Inf), / defines the classes --> 3 classes                                          labels = c("klein", "mittel", "gross"), /defines the labels make sure not to mistake wit lvels
+String manipulation
+toupper()
+tolower()
+Mit grep() und grepl() (l für logisch) kann man Objekte identifizieren, welche ein spezifisches Muster enthalten.
+
+# Ausgabe: Index Positionen der Zeichenketten, die 'a' enthalten.
+grep(pattern = "a", x = namen)
+grepl gibt logischer vektor aus
+substring(namen, 3, 4) # extrahiere alle Zeichen vom 3 bis zum 4
+paste(vec, 1:5 oder " Z., sep=" "=)
+paste(strings, collapse="mit diesem Zeichen verbinden") verbindet strings
+sub(pattern="str", replacement = "str2", x=string) Ersetz das erste Vorkomnis des Patterns
+gsub(pattern="str", replacement = "str2", x=string) Ersetz ein pattern in string so oft es vorkommt
+nchar() length of string
+strsplit
  
 
 ```
@@ -393,11 +410,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDE2ODM2LDEzMzM5ODI5NTAsMzIyNT
-cxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcs
-MTkzMTM1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MD
-Y4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQz
-NDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLD
-U2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4LDEwODU5NTYz
-NjddfQ==
+eyJoaXN0b3J5IjpbNTcxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1Nz
+E1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3NzcxNywx
+OTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4NiwtODYwNj
+g5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2NDM0
+NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMzIsNT
+Y3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2
+N119
 -->
