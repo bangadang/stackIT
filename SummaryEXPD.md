@@ -330,6 +330,8 @@ scatter.smooth(	df$num.var1,
 				xlab = "x-Achse Beschriftung", 
 				las = 1, 
 				lpars = list(col = "red"))
+several scatterplots as pairs
+pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
 
 ### Zusammenfassung Darstellungsmöglichkeiten bivariate Darstellungen (2 Variablen)
@@ -388,11 +390,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MD
-E0OTg4NSw0MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3NzgyMTg2
-LDE4MzUzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMT
-M2OTcwNzAxLDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0Njkz
-MTQ3LC0xMjA3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNz
-A2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgz
-ODE1XX0=
+eyJoaXN0b3J5IjpbMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNj
+Q5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5
+LDE0MTc3ODIxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04OD
+I2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2NDM0NCwxOTY0NTQy
+NzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1NDU0LD
+Q2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3
+MjZdfQ==
 -->
