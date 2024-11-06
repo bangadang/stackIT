@@ -309,11 +309,11 @@ plot(	df$num.var1,
 		ylab = "y-Achse Beschriftung", 
 		xlab = "x-Achse Beschriftung", 
 		las = 1, 
-		cex=.5, pch=20,
+		cex=.5, pch=20 (filled),
 		col=colvec)
 legend("topleft", 
 		legend=c("meaning1", "meaning2"),
-		,fill =)
+		,fill = c(col1, col2),bty= "n")
 ```
 #### - **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
 	1. Wähle ein Fenster von x-Werten
@@ -388,11 +388,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTk1MzI2Nyw0NzAxNDk4ODUsNDM2Mj
-c3NzE3LDE5MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2
-LC04NjA2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMD
-EwNTY0MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2
-MjEzMiw1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMD
-g1OTU2MzY3LDkwNjU1NDcyNiwtMTY5Nzg4MzgxNSwxMjU5OTg4
-MTQxXX0=
+eyJoaXN0b3J5IjpbLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNj
+I3NzcxNywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4
+NiwtODYwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMj
+AxMDU2NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5
+NjIxMzIsNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMT
+A4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4
+ODE0MV19
 -->
