@@ -42,11 +42,8 @@ Volkszählung)
 - **Accuracy** (Wie genau sind die Daten?) vs. **Precision** (Wie sehr streuen Daten?)
 - **Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
 
--
--
--
 
-## univariate### kategorielle Variablen
+## univariate kategorielle Variablen
 kumuliertHäufigkeiten- **, rel. Häufigkeitstabellen**
 ```r
 vec <-c() abs. Hcumsum(table(vec)) [kumulierte abs. Häufigkeiten sind bei ordinalen Variaben -  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
@@ -56,7 +53,7 @@ vec <-c() abs. Hcumsum(table(vec)) [kumulierte abs. Häufigkeiten sind bei ordin
 ```r
 pie(table(vec))
 ```
-.- rel. Häufigkeit einer Variable entspricht dem entsprechenden Kreissektor an der Gesamtfläche
+- rel. Häufigkeit einer Variable entspricht dem entsprechenden Kreissektor an der Gesamtfläche
 	- Ausprägungen sind schwer zu erkennen, wenn Kreissektoren ähnlich gross sind
 	- schwer leserlich mit vielen Sektoren
 	--> Balkendiagramm >>>> Kuchendiagramm
@@ -113,14 +110,8 @@ ecdf(vec)(value) #ouput: kumulierte rel. H. von value
 	- eignet sich zum Vergleich mehrerer Datensätze
 	- eignet sich um schiefe der Daten und Ausreisser zu erkennen
 	- enthält weniger Info als Histogramm, ist dafür kompakt
--
--
--
--
--
--
 
-#### **Form der Verteilung
+#### Form der Verteilung
 - **symmetrisch**: m lässt sich annähernd in der Mitte an einer vertikalen Linie (Symmetrieachse) spiegeln.
 - **rechts-/linksschief**: Das Histogramm steigt auf der linken (/rechten) Seite steil an und ist rechts (/links) ganz flach.
 #### Modalität = Anzahl Gipfel der Verteilung
@@ -387,7 +378,7 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzY0MjAyNSwxMzMzOTgyOTUwLDMyMj
+eyJoaXN0b3J5IjpbMTMyOTgyODg5NSwxMzMzOTgyOTUwLDMyMj
 U3MTU0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3
 LDE5MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04Nj
 A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
