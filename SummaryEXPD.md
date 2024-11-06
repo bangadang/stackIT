@@ -309,7 +309,7 @@ plot(	df$num.var1,
 		ylab = "y-Achse Beschriftung", 
 		xlab = "x-Achse Beschriftung", 
 		las = 1, 
-		cex=.5, pch=20 (filled),
+		cex=.5, pch=20 (filled) or as.numeric(dat$factor),
 		col=colvec)
 legend("topleft", 
 		legend=c("meaning1", "meaning2"),
@@ -388,11 +388,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNj
-I3NzcxNywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4
-NiwtODYwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMj
-AxMDU2NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5
-NjIxMzIsNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMT
-A4NTk1NjM2Nyw5MDY1NTQ3MjYsLTE2OTc4ODM4MTUsMTI1OTk4
-ODE0MV19
+eyJoaXN0b3J5IjpbMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MD
+E0OTg4NSw0MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3NzgyMTg2
+LDE4MzUzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMT
+M2OTcwNzAxLDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0Njkz
+MTQ3LC0xMjA3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNz
+A2MDQ4MTE4LDEwODU5NTYzNjcsOTA2NTU0NzI2LC0xNjk3ODgz
+ODE1XX0=
 -->
