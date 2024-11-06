@@ -45,9 +45,6 @@ Volkszählung)
 -
 -
 -
--
--
--
 
 ## univariate### kategorielle Variablen
 kumuliertHäufigkeiten- **, rel. Häufigkeitstabellen**
@@ -390,11 +387,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNj
-Q5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5
-LDE0MTc3ODIxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04OD
-I2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2NDM0NCwxOTY0NTQy
-NzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1NDU0LD
-Q2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2Nyw5MDY1NTQ3
-MjZdfQ==
+eyJoaXN0b3J5IjpbMTQ3NzY0MjAyNSwxMzMzOTgyOTUwLDMyMj
+U3MTU0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3
+LDE5MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04Nj
+A2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0
+MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMi
+w1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODExOCwxMDg1OTU2
+MzY3XX0=
 -->
