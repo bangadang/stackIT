@@ -83,8 +83,8 @@ hist(	vect,
 		col=color-value-or-func, 
 		ylim = vec, las=1)
 ```
-**
-	- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
+
+- Ziel des Histogramm ist die Verteilung der Datenpunkte über einen Wertebereich darzustellen. Umgesetzt wird das indem man Daten gruppiert bzw. in Spans/Intervalle zuordnet.
 	- Wichtig ist die Entscheidung über die **Grösse der Klassen**/Buckets bzw Breite der Säulen auf der x-Achse
 		- je kleiner die Klassen desto rauschiger wird das Histogramm
 		- je grösser die Klassen desto weniger rauschen
@@ -94,7 +94,7 @@ hist(	vect,
 		$$
 		Balkenhöhe = \frac{Anzahl eobachtungen In Einer Klasse}{Anzahl Beobachtungenen Total \times (obere Klassengrenze - untere Klassengrenze)}
 		$$
-#### **Empirische kumulierte Verteilungsfunktion $F_n(x)$ 
+#### Empirische kumulierte Verteilungsfunktion $F_n(x)$ 
 ```r
 vec <- dataframe$column
 plot(ecdf(vec))
@@ -194,7 +194,8 @@ sd(vec) or sqrt(var(vec))
 	$$max(A)-min(A)$$
 - **median absolute deviation** MAD: 
 	- Man zieht von jedem Element der geordneten Liste der Median ab und generiert den Median aus all diesen Differenzen.
-	- 
+	-  robust gegenüber Ausreissern
+ 
 	$$MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$$
 ```r
 mad(vec) or 1.4826 * median(abs(vec - median(vec)))
@@ -411,7 +412,7 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1OTAwNjA1LDU3MTU3OTk4LDEzMzM5OD
+eyJoaXN0b3J5IjpbMTYzMDM5OTI3LDU3MTU3OTk4LDEzMzM5OD
 I5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0
 MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMD
 c1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAx
