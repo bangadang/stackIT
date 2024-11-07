@@ -131,7 +131,7 @@ mean(vec)
 $$\bar x = \frac{val_1+val_2+...+val_n}{n}$$
 - **geometrischer Mittelwert**: Mittelwert von Wachstumsraten
 	
-	$$\bar - $g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$$
+	$$\bar g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$$
 	- Bspw. Zinssätze
 
 - **harmonischer Mittelwert**: Mittel von Qutienten 
@@ -410,11 +410,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1Nz
-E1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3NzcxNywx
-OTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4NiwtODYwNj
-g5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2NDM0
-NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIxMzIsNT
-Y3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgxMTgsMTA4NTk1NjM2
-N119
+eyJoaXN0b3J5IjpbMTA0NDEzMjM5OSw1NzE1Nzk5OCwxMzMzOT
+gyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUs
+NDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1Mz
+A3NTg2LC04NjA2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcw
+MSwyMDEwNTY0MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMT
+IwNzk2MjEzMiw1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODEx
+OF19
 -->
