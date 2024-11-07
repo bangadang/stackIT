@@ -175,7 +175,8 @@ quantile(vec, probs=c(0.1,..0.75), type=7)
 	$$\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$$
 ```r
 var(vec)
-```#### Streungsmasse
+```
+#### Streungsmasse
 - **Varianz** s~x~^2^ 
 	- nicht robust gegen Ausreisser
 - **Standardabweichung** s~x~
@@ -186,7 +187,7 @@ $$
 ```r
 sd(vec) or sqrt(var(vec))
 ```
-- neie - **Spannweite** = Maxima- Minima bzw. max(A)-min(A)
+- **Spannweite** = Maxima- Minima bzw. max(A)-min(A)
 	- anfällg auf Ausreisser
 	- nimmt zu bei grösseren Stichproben
 	- nicht geeignet als Streuungsmass
@@ -197,7 +198,7 @@ sd(vec) or sqrt(var(vec))
 	$$MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$$
 ```r
 mad(vec) or 1.4826 * median(abs(vec - median(vec)))
-```robust gegenüber Ausreissern
+```
 - inter quartile range** IQR
 	- mittlere 50% der Datenpunkte
 	- Für rechts-/linksschiefe Verteilungen
@@ -410,11 +411,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDEzMjM5OSw1NzE1Nzk5OCwxMzMzOT
-gyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUs
-NDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1Mz
-A3NTg2LC04NjA2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcw
-MSwyMDEwNTY0MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMT
-IwNzk2MjEzMiw1NjczNTU0NTQsNDY4MzM2NDUzLDcwNjA0ODEx
-OF19
+eyJoaXN0b3J5IjpbNTY1OTAwNjA1LDU3MTU3OTk4LDEzMzM5OD
+I5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0
+MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMD
+c1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAx
+LDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMj
+A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
+XX0=
 -->
