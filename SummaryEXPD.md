@@ -46,9 +46,12 @@ Volkszählung)
 ## univariate kategorielle Variablen
 kumuliertHäufigkeiten- **, rel. Häufigkeitstabellen**
 ```r
-vec <-c() abs. Hcumsum(table(vec)) [kumulierte abs. Häufigkeiten sind bei ordinalen Variaben -  **Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
+vec <-c() abs. H
+cumsum(table(vec)) [kumulierte abs. Häufigkeiten sind bei ordinalen Variaben -  
+```
+**Pareto-Diagramm** ist ein sortiertes Balkendiagramm. Oft ist es sinnvoll es mit dem kumulierten Häufigkeiten zu kombinieren. Quantitativere Aussagen so möglich 
 
-	- **Kuchendiagramm**
+	**Kuchendiagramm**
 
 ```r
 pie(table(vec))
@@ -412,11 +415,11 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDM5OTI3LDU3MTU3OTk4LDEzMzM5OD
-I5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0
-MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMD
-c1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAx
-LDIwMTA1NjQzNDQsMTk2NDU0MjcxMywtOTM0NjkzMTQ3LC0xMj
-A3OTYyMTMyLDU2NzM1NTQ1NCw0NjgzMzY0NTMsNzA2MDQ4MTE4
-XX0=
+eyJoaXN0b3J5IjpbLTE1NzIzMTU1NzYsNTcxNTc5OTgsMTMzMz
+k4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1
+LDQzNjI3NzcxNywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNT
+MwNzU4NiwtODYwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3
+MDEsMjAxMDU2NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLT
+EyMDc5NjIxMzIsNTY3MzU1NDU0LDQ2ODMzNjQ1Myw3MDYwNDgx
+MThdfQ==
 -->
