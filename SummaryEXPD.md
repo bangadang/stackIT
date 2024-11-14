@@ -437,18 +437,22 @@ library(vcd)
 mosaic(~ kat_var1+ kat_var2 + kat_var3, data = df, direction = c("v","h","v"), highlighting = "kat_var3", highlighting_fill = c("red", "blue", "green"), main = "Title", cex.axis = 0.7)
 ```
 ### 1 quantitative und mehrere kategoriellen Variablen
-#### Boxplots
+#### Boxplots (1num + 2kat)
 ```r
-boxplot(num_var ~ kat_var1+ kat_var2 + .., data = df, col = c("red", "yellow", "blue", "green"))
+boxplot(num_var ~ kat_var1+ kat_var2, data = df, col = c("red", "yellow", "blue", "green"))
 ```
 Kann bei kategoriellen Variablen mit vielen Ausprägungen schnell unübersichtlich werden.
+#### Faktorplot (1num + >2kat)
+```r
+plot.design(Miete ~ Ort + Zimmer2 + Stock2 + m22, data = wg)
+```
 ### 2 quantitative und mehrere kategoriellen Variablen
 ### >2 quantitative und mehrere kategoriellen Variablen
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTIwNTc1Myw5MzU5MTI3MCwtNTE2Nj
+eyJoaXN0b3J5IjpbMTQyODQ1MjI4MCw5MzU5MTI3MCwtNTE2Nj
 U1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwt
 NjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNT
 Q4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkz
