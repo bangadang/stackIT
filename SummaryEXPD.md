@@ -467,7 +467,8 @@ Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet 
 ### >2 quantitative stetige und mehrere kategoriellen Variablen
 ### mehrere metrische Variablen
 #### 3D-Plots oder Coplots
-#### Matrix 
+#### Matrix von Streudiagrammen/ Pairs-Plot
+#### Korrelationsmatric
 ## Visualisierungregeln
 - zu beachtende Reihenfolge mit abnehmder Wirksamkeit:
 	1. Grösse
@@ -487,7 +488,7 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTUzMjM5MDQsLTE1NDYyODAzMzAsMT
+eyJoaXN0b3J5IjpbLTE5NjI1OTc0NzYsLTE1NDYyODAzMzAsMT
 AwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4
 NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MT
 U3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1
