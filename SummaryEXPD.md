@@ -423,11 +423,16 @@ Korrelationen können rein zufällig sein --> tylervigen.com/spurious-correlatio
 
 ## Multivariate Darstellung
 ### Simpson Paradoxon
-Falsche Eindrücke, die entstehen, indem man wichtige beeinflussende Variabeln nicht berücksichtigt. Tritt
+Entsteht/Beinhaltet min. 3 Variablen:
+- Zielvariable
+- Beobachtete Variable
+- Störvariable
+Falsche Eindrücke, die entstehen, indem man wichtige beeinflussende Variabeln nicht berücksichtigt. Tritt häufig auf, wenn heterogene Gruppen aggregiert werden.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1Njc5MDkzLDE4MTQ3MzE4NDAsNzMwMz
+eyJoaXN0b3J5IjpbMzg4NjY5NzI2LDE4MTQ3MzE4NDAsNzMwMz
 QwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MTU3OTk4LDEz
 MzM5ODI5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OT
 g4NSw0MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3NzgyMTg2LDE4
