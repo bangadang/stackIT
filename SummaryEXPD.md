@@ -448,16 +448,18 @@ plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 ```
  Für jede Ausprägung wird hier der Mittelwert von der quantitativen Variable dargestellt.
 ### 2 quantitative und mehrere kategoriellen Variablen
+#### Streudiagramme
+```r```
 ### >2 quantitative und mehrere kategoriellen Variablen
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA3NDE5MTIsOTM1OTEyNzAsLTUxNj
-Y1NTg5MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAs
-LTY0NzAwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MT
-U0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3LDE5
-MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04NjA2OD
-kwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0MzQ0
-XX0=
+eyJoaXN0b3J5IjpbLTY5MjcxNDEwMCw5MzU5MTI3MCwtNTE2Nj
+U1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwt
+NjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNT
+Q4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkz
+MTM1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OT
+AxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDRd
+fQ==
 -->
