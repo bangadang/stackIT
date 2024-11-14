@@ -446,13 +446,14 @@ Kann bei kategoriellen Variablen mit vielen Ausprägungen schnell unübersichtli
 ```r
 plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 ```
+ Für jede Ausprägung wird hier der Mittelwert von der quantitativen Variable dargestellt.
 ### 2 quantitative und mehrere kategoriellen Variablen
 ### >2 quantitative und mehrere kategoriellen Variablen
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU5ODUzMzYsOTM1OTEyNzAsLTUxNj
+eyJoaXN0b3J5IjpbLTIwOTA3NDE5MTIsOTM1OTEyNzAsLTUxNj
 Y1NTg5MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAs
 LTY0NzAwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MT
 U0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3LDE5
