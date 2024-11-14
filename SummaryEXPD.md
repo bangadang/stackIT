@@ -390,7 +390,7 @@ cov = 0 --> keine Beziehung
 cov > 0 --> pos. Bezieung
 con < 0 --> neg. Beziehung
 
-Grenzen der Kovarianz
+**Grenzen der Kovarianz**
 - informiert nur über Richtung eines Zusammenhangs nicht dessen Stärke
 - Wert der Kovarianz ist schwer zu interpretieren, da er vom Masstab von x und y abhängig ist
 - anfällig für Ausreisser
@@ -415,13 +415,14 @@ Misst nicht lineare aber monotone Zusammenhänge, d.h. wie nahe die Punkte an ei
 AB 7 Ex 2
 a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 
+## Korrelation und Kausalität
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Mjg0NzEsLTY0NzAwNDQ4NSw1NzE1Nz
-k5OCwxMzMzOTgyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0
-NzAxNDk4ODUsNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4Mj
-E4NiwxODM1MzA3NTg2LC04NjA2ODkwMTQsLTg4MjYxNDkyOSwt
-MTEzNjk3MDcwMSwyMDEwNTY0MzQ0LDE5NjQ1NDI3MTMsLTkzND
-Y5MzE0NywtMTIwNzk2MjEzMiw1NjczNTU0NTQsNDY4MzM2NDUz
-XX0=
+eyJoaXN0b3J5IjpbOTMyOTM5NDk0LC02NDcwMDQ0ODUsNTcxNT
+c5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUs
+NDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5LDE0MTc3OD
+IxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04ODI2MTQ5Mjks
+LTExMzY5NzA3MDEsMjAxMDU2NDM0NCwxOTY0NTQyNzEzLC05Mz
+Q2OTMxNDcsLTEyMDc5NjIxMzIsNTY3MzU1NDU0LDQ2ODMzNjQ1
+M119
 -->
