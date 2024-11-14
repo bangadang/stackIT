@@ -423,15 +423,15 @@ Korrelationen können rein zufällig sein --> tylervigen.com/spurious-correlatio
 
 ## Multivariate Darstellung
 ### Simpson Paradoxon
-
+Falsche Eindrücke die entstehen indem man wichtige beeinflussende Variabeln nicht berücksichtigt
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTcyODg0OCw3MzAzNDA5NjIsOTQwMj
-c0NTgwLC02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1MCwz
-MjI1NzE1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3Nz
-cxNywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4Niwt
-ODYwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMD
-U2NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIx
-MzJdfQ==
+eyJoaXN0b3J5IjpbOTkzOTUyNTI2LDczMDM0MDk2Miw5NDAyNz
+Q1ODAsLTY0NzAwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMy
+MjU3MTU0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3Nz
+E3LDE5MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04
+NjA2ODkwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNT
+Y0MzQ0LDE5NjQ1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEz
+Ml19
 -->
