@@ -469,7 +469,7 @@ Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet 
 #### 3D-Plots oder Coplots
 ```r
 library(scatterplot3d)
-scatterplot3d(df$num_var1, df$num_var2, mtcars$mpg, type = "h")
+scatterplot3d(df$num_var1, df$num_var2,df$num_var3, type = "h")
 library(plotly) # interaktiv
 plot_ly(mtcars, x = ~wt, y = ~disp, z = ~mpg)
 ```
@@ -496,11 +496,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3OTUyMzA5LC0xNTQ2MjgwMzMwLDEwMD
-UzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQw
-LDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0NzAwNDQ4NSw1NzE1Nz
-k5OCwxMzMzOTgyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0
-NzAxNDk4ODUsNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4Mj
-E4NiwxODM1MzA3NTg2LC04NjA2ODkwMTQsLTg4MjYxNDkyOV19
-
+eyJoaXN0b3J5IjpbMTI2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMD
+A1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0
+MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNT
+c5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUs
+NDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5LDE0MTc3OD
+IxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04ODI2MTQ5Mjld
+fQ==
 -->
