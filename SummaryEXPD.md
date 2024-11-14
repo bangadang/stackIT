@@ -451,13 +451,13 @@ plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 #### Streudiagramme
 ```r
 # Farbkodiert
-plot(num_var1 ~ num_var2, data = wg, col = c("red","yellow","blue","green")[df$kat_var])
+plot(num_var1 ~ num_var2, data = df, col = c("red","yellow","blue","green")[df$kat_var])
 # Symbolkodiert
-plot(num_var1 ~ num_var2, data = wg, pch = c(15,16,17)[wg$Stock2])
+plot(num_var1 ~ num_var2, data = df, pch = c(15,16,17)[df$kat_var])
 #Symbolgrössenkodiert
-plot(num_var1 ~ num_var2, data = wg, cex = c(0.5,1,1.2,1.8)[wg$Zimmer2], pch = 16)
+plot(num_var1 ~ num_var2, data = df, cex = c(0.5,1,1.2,1.8)[wg$Zimmer2], pch = 16)
 # Farben, Symbolform, Symbolgrösse kodiert
-plot(num_var1 ~ num_var2, data = wg, col = c("red","yellow","blue","green")[wg$Ort], pch = c(15,16,17)[wg$Stock2], cex = c(0.5,1,1.2,1.8)[wg$Zimmer2])
+plot(num_var1 ~ num_var2, data = df, col = c("red","yellow","blue","green")[wg$Ort], pch = c(15,16,17)[wg$Stock2], cex = c(0.5,1,1.2,1.8)[wg$Zimmer2])
 # mit ggplot
 library(ggplot2)
 ggplot(wg, mapping = aes(x = m2, y = Miete, shape = Stock2,
@@ -472,7 +472,7 @@ Symbolform und Symbolgrösse visualisiert.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDcwMzUwNzgsMTAwNTM4NjA3MCw5Mz
+eyJoaXN0b3J5IjpbLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5Mz
 U5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYy
 LDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5OD
 I5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0
