@@ -439,15 +439,16 @@ mosaic(~ kat_var1+ kat_var2 + kat_var3, data = df, direction = c("v","h","v"), h
 ### 1 quantitative und mehrere kategoriellen Variablen
 #### Boxplots
 ```r
-
+boxplot(num_var ~ kat_var1+ kat_var2 + .., data = df, col = c("red", "yellow", "blue", "green"))
 ```
+Kann bei kategoriellen Variablen mit vielen Ausprägungen schnell unübersichtlich werden.
 ### 2 quantitative und mehrere kategoriellen Variablen
 ### >2 quantitative und mehrere kategoriellen Variablen
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDA0ODcxOCw5MzU5MTI3MCwtNTE2Nj
+eyJoaXN0b3J5IjpbLTg0NTIwNTc1Myw5MzU5MTI3MCwtNTE2Nj
 U1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwt
 NjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNT
 Q4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkz
