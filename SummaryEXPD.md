@@ -450,9 +450,13 @@ plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 ### 2 quantitative und mehrere kategoriellen Variablen
 #### Streudiagramme
 ```r
+# Farbkodiert
 plot(num_var1 ~ num_var2, data = wg, col = c("red","yellow","blue","green")[df$kat_var])
+# Symbolkodiert
 plot(Miete ~ m2, data = wg, pch = c(15,16,17)[wg$Stock2])
+#Symbolgrössenkodiert
 plot(Miete ~ m2, data = wg, cex = c(0.5,1,1.2,1.8)[wg$Zimmer2], pch = 16)
+# Farben, Symbolform, Symbolgrösse kodiert
 plot(Miete ~ m2, data = wg, col = c("red","yellow","blue","green")[wg$Ort], pch = c(15,16,17)[wg$Stock2], cex = c(0.5,1,1.2,1.8)[wg$Zimmer2])
 ```
 Die 2 quantitativen Variablen werden mittels eines Streudiagramms
@@ -463,7 +467,7 @@ Symbolform und Symbolgrösse visualisiert.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mjc2ODA5MCw5MzU5MTI3MCwtNTE2Nj
+eyJoaXN0b3J5IjpbMTEzNTk5NTkyMSw5MzU5MTI3MCwtNTE2Nj
 U1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwt
 NjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNT
 Q4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkz
