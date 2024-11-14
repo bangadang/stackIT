@@ -417,8 +417,9 @@ a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 
 ## Korrelation und Kausalität
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyOTM5NDk0LC02NDcwMDQ0ODUsNTcxNT
+eyJoaXN0b3J5IjpbOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNT
 c5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUs
 NDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5LDE0MTc3OD
 IxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04ODI2MTQ5Mjks
