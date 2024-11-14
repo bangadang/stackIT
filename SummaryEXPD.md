@@ -422,15 +422,16 @@ Richtung der Abhängigkeit ist nicht immer klar. Hängt X von Y oder umgekehrt a
 Korrelationen können rein zufällig sein --> tylervigen.com/spurious-correlations
 
 ## Multivariate Darstellung
+### Simpson Paradoxon
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MD
-A0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNTQ4LC0y
-MDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkzMTM1OD
-MxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAxNCwt
-ODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDQsMTk2ND
-U0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLDU2NzM1NTQ1
-NF19
+eyJoaXN0b3J5IjpbMTMwNTcyODg0OCw3MzAzNDA5NjIsOTQwMj
+c0NTgwLC02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1MCwz
+MjI1NzE1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3Nz
+cxNywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4Niwt
+ODYwNjg5MDE0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMD
+U2NDM0NCwxOTY0NTQyNzEzLC05MzQ2OTMxNDcsLTEyMDc5NjIx
+MzJdfQ==
 -->
