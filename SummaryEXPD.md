@@ -463,19 +463,20 @@ library(ggplot2)
 ggplot(wg, mapping = aes(x = num_var1, y = num_var2, shape = kat_var1,colour= kat_var2, size = kat_var3)) +
 geom_point() + theme_classic()
 ```
-Die 2 quantitativen Variablen werden mittels eines Streudiagramms
-aufgezeichnet und die kategorieller Variable zusätzlich durch Farben,
-Symbolform und Symbolgrösse visualisiert.
+Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet und die kategorieller Variable zusätzlich durch Farben, Symbolform und Symbolgrösse visualisiert.
 ### >2 quantitative und mehrere kategoriellen Variablen
+
+## Visualisierungregeln
+- zu beachtende Reihenfolge mit abnehmder 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTMzOTExNCwtMTU0NjI4MDMzMCwxMD
-A1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0
-MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNT
-c5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUs
-NDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5LDE0MTc3OD
-IxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04ODI2MTQ5Mjld
-fQ==
+eyJoaXN0b3J5IjpbLTE0ODc5ODA0MzYsLTE1NDYyODAzMzAsMT
+AwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4
+NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MT
+U3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1
+LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3Nz
+gyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5
+XX0=
 -->
