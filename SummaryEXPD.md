@@ -417,14 +417,17 @@ a) monoton abfallende Kurve. Exponentialfunktion oder 1/x
 
 ## Korrelation und Kausalität
 Korr. =/= Kaus. <-> Ursache und Wirkung, Problematik des Lineraren-Denkens
-Richtung der Abhängigkeit ist nicht immer kla
+Richtung der Abhängigkeit ist nicht immer klar. Hängt X von Y oder umgekehrt ab.
+**confounding factor** versteckte Variable beeinflusst beide beobachtenden Variabeln und verursacht eine vermeintliche Korrelation.
+Korrelationen können rein zufällig sein
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0MjA3NTM4LDk0MDI3NDU4MCwtNjQ3MD
-A0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNTQ4LC0y
-MDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkzMTM1OD
-MxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAxNCwt
-ODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDQsMTk2ND
-U0MjcxMywtOTM0NjkzMTQ3LC0xMjA3OTYyMTMyLDU2NzM1NTQ1
-NF19
+eyJoaXN0b3J5IjpbMTM5NzQ4NDA1NSw5NDAyNzQ1ODAsLTY0Nz
+AwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MTU0OCwt
+MjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3LDE5MzEzNT
+gzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04NjA2ODkwMTQs
+LTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0MzQ0LDE5Nj
+Q1NDI3MTMsLTkzNDY5MzE0NywtMTIwNzk2MjEzMiw1NjczNTU0
+NTRdfQ==
 -->
