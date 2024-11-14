@@ -450,9 +450,10 @@ plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 ### 2 quantitative und mehrere kategoriellen Variablen
 #### Streudiagramme
 ```r
-plot(Miete ~ m2, data = wg, col = c("red","yellow","blue","green")[wg$Ort])
+plot(num_var1 ~ num_var2, data = wg, col = c("red","yellow","blue","green")[df$kat_var])
 plot(Miete ~ m2, data = wg, pch = c(15,16,17)[wg$Stock2])
-
+plot(Miete ~ m2, data = wg, cex = c(0.5,1,1.2,1.8)[wg$Zimmer2], pch = 16)
+plot(Miete ~ m2, data = wg, col = c("red","yellow","blue","green")[wg$Ort], pch = c(15,16,17)[wg$Stock2], cex = c(0.5,1,1.2,1.8)[wg$Zimmer2])
 ```
 Die 2 quantitativen Variablen werden mittels eines Streudiagramms
 aufgezeichnet und die kategorieller Variable zusätzlich durch Farben,
@@ -462,11 +463,11 @@ Symbolform und Symbolgrösse visualisiert.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMDA4MDI5LDkzNTkxMjcwLC01MTY2NT
-U4OTMsMTgxNDczMTg0MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02
-NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1ND
-gsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMx
-MzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4NiwtODYwNjg5MD
-E0LC04ODI2MTQ5MjksLTExMzY5NzA3MDEsMjAxMDU2NDM0NF19
-
+eyJoaXN0b3J5IjpbLTU4Mjc2ODA5MCw5MzU5MTI3MCwtNTE2Nj
+U1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwt
+NjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNT
+Q4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkz
+MTM1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OT
+AxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDRd
+fQ==
 -->
