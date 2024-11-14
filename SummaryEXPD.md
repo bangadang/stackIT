@@ -434,22 +434,24 @@ Falsche Eindrücke, die entstehen, indem man wichtige beeinflussende Variabeln n
 mosaicplot(~ kat_var1+ kat_var2 + kat_var3, data = df, main = "Title", col = c("red", "blue", "green"), cex.axis = 0.7)
 
 library(vcd)
-mosaic(~ Zimmer2 + Ort + Stock2, data = wg, direction = c("v","h","v"),
-highlighting = "Stock2", highlighting_fill = c("red", "blue", "green"),
-main = "Wohnungen", cex.axis = 0.7)
+mosaic(~ kat_var1+ kat_var2 + kat_var3, data = df, direction = c("v","h","v"), highlighting = "kat_var3", highlighting_fill = c("red", "blue", "green"), main = "Title", cex.axis = 0.7)
 ```
 ### 1 quantitative und mehrere kategoriellen Variablen
+#### Boxplots
+```r
+
+```
 ### 2 quantitative und mehrere kategoriellen Variablen
 ### >2 quantitative und mehrere kategoriellen Variablen
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc0NTYxOTYsOTM1OTEyNzAsLTUxNj
-Y1NTg5MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAs
-LTY0NzAwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MT
-U0OCwtMjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3LDE5
-MzEzNTgzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04NjA2OD
-kwMTQsLTg4MjYxNDkyOSwtMTEzNjk3MDcwMSwyMDEwNTY0MzQ0
-XX0=
+eyJoaXN0b3J5IjpbMTgwMDA0ODcxOCw5MzU5MTI3MCwtNTE2Nj
+U1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwt
+NjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNT
+Q4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkz
+MTM1ODMxOSwxNDE3NzgyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OT
+AxNCwtODgyNjE0OTI5LC0xMTM2OTcwNzAxLDIwMTA1NjQzNDRd
+fQ==
 -->
