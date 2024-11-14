@@ -431,12 +431,12 @@ Falsche Eindrücke, die entstehen, indem man wichtige beeinflussende Variabeln n
 ### mehrere kategorielle Variablen
 ### 1 quantitative und mehrere kategoriellen Variablen
 ### 2 quantitative und mehrere kategoriellen Variablen
-### 
+### >2 quantitative und mehrere kategoriellen Variablen
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODkwNzU4NSwxODE0NzMxODQwLDczMD
+eyJoaXN0b3J5IjpbLTUxNjY1NTg5MywxODE0NzMxODQwLDczMD
 M0MDk2Miw5NDAyNzQ1ODAsLTY0NzAwNDQ4NSw1NzE1Nzk5OCwx
 MzMzOTgyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0NzAxND
 k4ODUsNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4MjE4Niwx
