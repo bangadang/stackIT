@@ -466,7 +466,8 @@ geom_point() + theme_classic()
 Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet und die kategorieller Variable zusätzlich durch Farben, Symbolform und Symbolgrösse visualisiert.
 ### >2 quantitative stetige und mehrere kategoriellen Variablen
 ### mehrere metrische Variablen
-### 3
+#### 3D-Plots oder Coplots
+#### Matrix 
 ## Visualisierungregeln
 - zu beachtende Reihenfolge mit abnehmder Wirksamkeit:
 	1. Grösse
@@ -486,11 +487,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTkwNTg4NSwtMTU0NjI4MDMzMCwxMD
-A1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0
-MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNT
-c5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUs
-NDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5LDE0MTc3OD
-IxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04ODI2MTQ5Mjld
-fQ==
+eyJoaXN0b3J5IjpbLTE0MTUzMjM5MDQsLTE1NDYyODAzMzAsMT
+AwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4
+NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MT
+U3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1
+LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3Nz
+gyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5
+XX0=
 -->
