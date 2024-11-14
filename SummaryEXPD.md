@@ -467,8 +467,16 @@ Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet 
 ### >2 quantitative stetige und mehrere kategoriellen Variablen
 ### mehrere metrische Variablen
 #### 3D-Plots oder Coplots
+```r
+library(scatterplot3d)
+scatterplot3d(df$num_var1, df$num_var2, mtcars$mpg, type = "h")
+library(plotly) # interaktiv
+plot_ly(mtcars, x = ~wt, y = ~disp, z = ~mpg)
+```
 #### Matrix von Streudiagrammen/ Pairs-Plot
-#### Korrelationsmatric
+#### Korrelationsmatrix
+#### Dimensionsreduktion (Hauptkomponentenanalyse)
+
 ## Visualisierungregeln
 - zu beachtende Reihenfolge mit abnehmder Wirksamkeit:
 	1. Grösse
@@ -488,11 +496,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI1OTc0NzYsLTE1NDYyODAzMzAsMT
-AwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4
-NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MT
-U3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1
-LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkzMTM1ODMxOSwxNDE3Nz
-gyMTg2LDE4MzUzMDc1ODYsLTg2MDY4OTAxNCwtODgyNjE0OTI5
-XX0=
+eyJoaXN0b3J5IjpbMTM3OTUyMzA5LC0xNTQ2MjgwMzMwLDEwMD
+UzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQw
+LDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0NzAwNDQ4NSw1NzE1Nz
+k5OCwxMzMzOTgyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0
+NzAxNDk4ODUsNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4Mj
+E4NiwxODM1MzA3NTg2LC04NjA2ODkwMTQsLTg4MjYxNDkyOV19
+
 -->
