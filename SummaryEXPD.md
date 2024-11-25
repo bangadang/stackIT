@@ -442,6 +442,9 @@ mosaic(~ kat_var1+ kat_var2 + kat_var3, data = df, direction = c("v","h","v"), h
 boxplot(num_var ~ kat_var1+ kat_var2, data = df, col = c("red", "yellow", "blue", "green"))
 ```
 Kann bei kategoriellen Variablen mit vielen Ausprägungen schnell unübersichtlich werden.
+```r
+
+```
 #### Faktorplot (1num + >2kat)
 ```r
 plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
@@ -496,11 +499,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMD
-A1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0
-MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNT
-c5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUs
-NDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5LDE0MTc3OD
-IxODYsMTgzNTMwNzU4NiwtODYwNjg5MDE0LC04ODI2MTQ5Mjld
+eyJoaXN0b3J5IjpbMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNT
+Q2MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5
+MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0Nz
+AwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MTU0OCwt
+MjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3LDE5MzEzNT
+gzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04NjA2ODkwMTRd
 fQ==
 -->
