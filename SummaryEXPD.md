@@ -471,7 +471,8 @@ abline(v = seq(5, 20, 5), #vertikale Linien an bestimmten x Stellen
 ```r
 plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 ```
- Für jede Ausprägung wird hier der Mittelwert von der quantitativen Variable dargestellt. Man m
+ Für jede Ausprägung wird hier der Mittelwert von der quantitativen Variable dargestellt. Man muss jedoch aufpassen, dass man nicht versucht Informationen über eine Variable abzulesen. Dieser Plot stell Zusammenhänge von allen Variablen miteinander dar.
+ 
 ### 2 quantitative und mehrere kategoriellen Variablen
 #### Streudiagramme
 ```r
@@ -521,7 +522,7 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjg2MDY0NSwxMjM1ODIzMzQsMTA0MT
+eyJoaXN0b3J5IjpbLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MT
 Q0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYw
 NzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDczMD
 M0MDk2Miw5NDAyNzQ1ODAsLTY0NzAwNDQ4NSw1NzE1Nzk5OCwx
