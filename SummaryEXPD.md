@@ -443,7 +443,29 @@ boxplot(num_var ~ kat_var1+ kat_var2, data = df, col = c("red", "yellow", "blue"
 ```
 Kann bei kategoriellen Variablen mit vielen Ausprägungen schnell unübersichtlich werden.
 ```r
-
+boxplot(Miete ~ Ort + Zimmer2,
+        data = wg,
+        col = c("orange", "magenta", "purple", "skyblue"),
+        xlab = "Anzahl Zimmer",
+        las = 1,
+        ylab = "Miete",
+        at = c(1:20)[-seq(5,20,5)], #x-Koordinaten für die Boxplots
+        xaxt = "n" #keine xAchse zeichnen
+        )
+# x-Achse mit Levels der Zimmeranzahl hinzufügen
+axis(1, #Achsennummer 
+     at= seq(2.5, 17.5, 5), #Stellen wo labels stehen
+     labels = levels(wg$Zimmer2)) # factor levels sind labels
+legend("topleft", #Ort wo legende stehen soll
+       legend = levels(wg$Ort),#namen für Legende
+       fill = c("orange", "magenta", "purple", "skyblue"), #Farben mit der Legende ausgefüllt werden soll
+       title = "Ort", #Titeö für Legende
+       bty = "y", #Box/Kontur um Legende
+       y.intersp = 0.8, # Vertikaler Abstand Linienabstand der einzelnen Legendeneinträge
+       x.intersp = 1.4) #Abstand zwischen Farbboxen und Farblegende
+abline(v = seq(5, 20, 5), #vertikale Linien an bestimmten x Stellen
+       col = "grey", 
+       lty = 1) #Linienstil
 ```
 #### Faktorplot (1num + >2kat)
 ```r
@@ -499,11 +521,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNT
-Q2MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5
-MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0Nz
-AwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MTU0OCwt
-MjA2NDkzMjg1NSw0NzAxNDk4ODUsNDM2Mjc3NzE3LDE5MzEzNT
-gzMTksMTQxNzc4MjE4NiwxODM1MzA3NTg2LC04NjA2ODkwMTRd
-fQ==
+eyJoaXN0b3J5IjpbMTIzNTgyMzM0LDEwNDE0NDMzNjgsMTI2MT
+g2MzkyNiwtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLDkzNTkxMjcw
+LC01MTY2NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5NjIsOTQwMj
+c0NTgwLC02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1MCwz
+MjI1NzE1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3Nz
+cxNywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4Nl19
+
 -->
