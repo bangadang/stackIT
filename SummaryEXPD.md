@@ -489,7 +489,7 @@ library(ggplot2)
 ggplot(wg, mapping = aes(x = num_var1, y = num_var2, shape = kat_var1,colour= kat_var2, size = kat_var3)) +
 geom_point() + theme_classic()
 ```
-Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet und die kategorieller Variable zusätzlich durch Farben, Symbolform und Symbolgrösse visualisiert.
+
 ### >2 quantitative stetige und mehrere kategoriellen Variablen
 ### mehrere metrische Variablen
 #### 3D-Plots oder Coplots
@@ -522,11 +522,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MT
-Q0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYw
-NzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDczMD
-M0MDk2Miw5NDAyNzQ1ODAsLTY0NzAwNDQ4NSw1NzE1Nzk5OCwx
-MzMzOTgyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0NzAxND
-k4ODUsNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4MjE4Nl19
+eyJoaXN0b3J5IjpbOTU5ODkyOTY1LC0yNzM4NDA0MzcsMTIzNT
+gyMzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMz
+MCwxMDA1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxND
+czMTg0MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUs
+NTcxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5Mz
+I4NTUsNDcwMTQ5ODg1LDQzNjI3NzcxNywxOTMxMzU4MzE5XX0=
 
 -->
