@@ -471,7 +471,7 @@ abline(v = seq(5, 20, 5), #vertikale Linien an bestimmten x Stellen
 ```r
 plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 ```
- Für jede Ausprägung wird hier der Mittelwert von der quantitativen Variable dargestellt.
+ Für jede Ausprägung wird hier der Mittelwert von der quantitativen Variable dargestellt. Man m
 ### 2 quantitative und mehrere kategoriellen Variablen
 #### Streudiagramme
 ```r
@@ -521,11 +521,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTgyMzM0LDEwNDE0NDMzNjgsMTI2MT
-g2MzkyNiwtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLDkzNTkxMjcw
-LC01MTY2NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5NjIsOTQwMj
-c0NTgwLC02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1MCwz
-MjI1NzE1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1LDQzNjI3Nz
-cxNywxOTMxMzU4MzE5LDE0MTc3ODIxODYsMTgzNTMwNzU4Nl19
+eyJoaXN0b3J5IjpbMTQyMjg2MDY0NSwxMjM1ODIzMzQsMTA0MT
+Q0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYw
+NzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDczMD
+M0MDk2Miw5NDAyNzQ1ODAsLTY0NzAwNDQ4NSw1NzE1Nzk5OCwx
+MzMzOTgyOTUwLDMyMjU3MTU0OCwtMjA2NDkzMjg1NSw0NzAxND
+k4ODUsNDM2Mjc3NzE3LDE5MzEzNTgzMTksMTQxNzc4MjE4Nl19
 
 -->
