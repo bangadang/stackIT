@@ -476,9 +476,12 @@ plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 ### 2 quantitative und mehrere kategoriellen Variablen
 #### Streudiagramme
 Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet und die kategorieller Variable zusätzlich durch Farben, Symbolform und Symbolgrösse visualisiert.
+#### 2 num + 1 kat als Farbe
 ```r
 # Farbkodiert
 plot(num_var1 ~ num_var2, data = df, col = c("red","yellow","blue","green")[df$kat_var])
+```
+```r
 # Symbolkodiert
 plot(num_var1 ~ num_var2, data = df, pch = c(15,16,17)[df$kat_var])
 #Symbolgrössenkodiert
@@ -523,11 +526,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMz
-U4MjMzNCwxMDQxNDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYyODAz
-MzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MT
-Q3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1
-LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNTcxNTQ4LC0yMDY0OT
-MyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTcsMTkzMTM1ODMxOV19
-
+eyJoaXN0b3J5IjpbLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMj
+czODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4NjM5
+MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwtNT
+E2NjU1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4
+MCwtNjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNT
+cxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTdd
+fQ==
 -->
