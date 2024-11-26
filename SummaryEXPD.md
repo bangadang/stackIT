@@ -677,15 +677,17 @@ library(colorBlindness)
 displayColors(safeColors)
 ```
 ## Transformation
-Ziel einer Transformation ist es eine Variable so umzuwandeln, dass sie für die Analyse bessere Eigenschaften
+Ziel einer Transformation ist es eine Variable so umzuwandeln, dass sie für die Analyse bessere Eigenschaften besitzt. D.h. die Werte einer Variable werden anhand einer bestimmten
+Je nach Datentyp und Art der Analyse wird eine bestimmte Transformation verwendet.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjQ4MjQ2NiwtMTk1NTU2ODgzOCwtMz
-I4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMz
-MzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0Nz
-csLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQx
-NDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYyODAzMzAsMTAwNTM4Nj
-A3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4NDAsNzMw
-MzQwOTYyXX0=
+eyJoaXN0b3J5IjpbMzM5NzU0NjUsLTE5NTU1Njg4MzgsLTMyOD
+c3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMw
+OCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC
+0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0
+MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYwNz
+AsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDczMDM0
+MDk2Ml19
 -->
