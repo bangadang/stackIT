@@ -802,13 +802,13 @@ Sie ist bspw. bei der PCA wichtig
 **Formel**:
 $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})$$
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
-$$\bar z 0 unf s_z = 1$$
+$$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDcxMDEyMjAsLTE3MzkzNjcyNjYsLT
-g1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3
-MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMz
-M5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMs
-LTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMT
-M3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQw
-NDM3LDEyMzU4MjMzNF19
+eyJoaXN0b3J5IjpbNTQyMzAwNDQ2LC0xNzM5MzY3MjY2LC04NT
+QzODY3ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0
+NzgzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOT
+YsLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00
+MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNz
+A2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQz
+NywxMjM1ODIzMzRdfQ==
 -->
