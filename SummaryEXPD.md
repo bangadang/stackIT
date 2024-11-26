@@ -613,7 +613,13 @@ coplot(
 pairs(df[,c(1,3,6)]
 ```
 #### Korrelationsmatrix
+```r
+cor(mtcars[c(1:6)], method = "pearson")
+cor(mtcars[c(1:6)], method = "spearman")
 
+library(ellipse)
+
+```
 #### Dimensionsreduktion (Hauptkomponentenanalyse)
 
 ## Visualisierungregeln
@@ -635,11 +641,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjA5MDE1NywtNDI1MjU0MTQ1LDEyNz
-kzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2
-MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LD
-EwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMDA1
-Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0MC
-w3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNTc5
-OThdfQ==
+eyJoaXN0b3J5IjpbLTE0ODkyMTEzMDgsLTQyNTI1NDE0NSwxMj
+c5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5
+NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNC
+wxMDQxNDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYyODAzMzAsMTAw
+NTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4ND
+AsNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MTU3
+OTk4XX0=
 -->
