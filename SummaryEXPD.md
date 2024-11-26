@@ -595,7 +595,15 @@ plot_ly(
 ```
 **Coplot**
 ```r
-
+coplot(
+  disp ~wt | mpg,
+  data = mtcars,
+  xlab = "Gewicht",
+  ylab = "Hubraum",
+  number = 3,
+  overlap = 0.2, #Overlap von dataslices mit < 0 entstehen gaps
+  rows = 1, # auf wv zeilen sollen die panels aufgeteilt werden 
+  pch = 16)
 ```
 #### Matrix von Streudiagrammen/ Pairs-Plot
 für max. 6-8 metrische Variablen
@@ -621,11 +629,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMz
-EzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0
-MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC
-0xNTQ2MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1
-NTg5MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLT
-Y0NzAwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MTU0
-OF19
+eyJoaXN0b3J5IjpbLTcyNjMwNzQxMCwxMjc5MzMzMzA4LDExNj
+IyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5
+NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4LD
+EyNjE4NjM5MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5MzU5
+MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLD
+k0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5
+NTBdfQ==
 -->
