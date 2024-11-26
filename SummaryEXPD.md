@@ -600,13 +600,16 @@ coplot(
   data = df,
   xlab = "x-Achsen Titel",
   ylab = "y-Achsen Titel",
-  number = 3,
+  number = 3, #wv dataslices sollen generiert werden, wird nicht gebraucht bei factors
   overlap = 0.2, #Overlap von dataslices mit < 0 entstehen gaps
   rows = 1, # auf wv zeilen sollen die panels aufgeteilt werden 
   pch = 16)
 ```
 #### Matrix von Streudiagrammen/ Pairs-Plot
 für max. 6-8 metrische Variablen
+```r
+pairs(df[,c(1,3,6)]
+```
 #### Korrelationsmatrix
 #### Dimensionsreduktion (Hauptkomponentenanalyse)
 
@@ -629,7 +632,7 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY3NjI4MzEsMTI3OTMzMzMwOCwxMT
+eyJoaXN0b3J5IjpbLTEyNDUwOTQ2MTksMTI3OTMzMzMwOCwxMT
 YyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkw
 OTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OC
 wxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYwNzAsOTM1
