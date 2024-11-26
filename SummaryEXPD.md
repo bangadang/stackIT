@@ -566,6 +566,7 @@ theme_classic()
 
 #### 3D-Plots oder Coplots
 für genau 3, allenfalls 4, metrische Variablen
+**Scatterplot**
 ```r
 library(scatterplot3d)
 library(plotly) # interaktiv
@@ -576,7 +577,7 @@ scatterplot3d(
 	df$num_var3, 
 	xlab = "x-Achsen Titel",
     ylab = "y-Achsen Titel",
-    zlab = "x-Achsen Titel",
+    zlab = "z-Achsen Titel",
     type = "h", # "l für Linie "p" für nur Punkte, "h", für vertikale Linien zur x-y-Ebene
     highlight.3d = TRUE, #Punkte bekommen andere Farbe je nach Koordinaten, geht nur mit type = "h" oder "p"
     mar = c(4,4,4,4), #margin around the plot unten, links, oben, rechts
@@ -586,7 +587,15 @@ scatterplot3d(
     cex.axis = 2 # Skalierung Achsenbeschriftung 
     )
 
-plot_ly(mtcars, x = ~wt, y = ~disp, z = ~mpg)
+plot_ly(
+	mtcars, 
+	x = ~num_var1, 
+	y = ~num_var2, 
+	z = ~num_var3)
+```
+**Coplot**
+```r
+
 ```
 #### Matrix von Streudiagrammen/ Pairs-Plot
 für max. 6-8 metrische Variablen
@@ -612,11 +621,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDAwNjYxOTMsMTE2MjI1MDY2MSwtMT
-MxMzcwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4
-NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNi
-wtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLDkzNTkxMjcwLC01MTY2
-NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC
-02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1
-NDhdfQ==
+eyJoaXN0b3J5IjpbMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMz
+EzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0
+MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC
+0xNTQ2MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1
+NTg5MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLT
+Y0NzAwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgyOTUwLDMyMjU3MTU0
+OF19
 -->
