@@ -712,14 +712,19 @@ df$nom_var[df$nom_var %in% vSel] <- "Sonstige"
 ```r
 # Zusammenfassung ohne Informationsverlust, umwandeln in Faktor
 df$ord_var <- factor(df$ord_var)
+dat$SchlafzimmerT1 <- factor(dat$Schlafzimmer,
+                             levels = levels(dat$Schlafzimmer),
+                             labels = seq(0,length(levels(dat$Schlafzimmer))-1, by=1),
+                             ordered = TRUE)
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMT
-M0ODMyMzM5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2
-ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2Nj
-EsLTEzMTM3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwt
-MjczODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4Nj
-M5MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwt
-NTE2NjU1ODkzXX0=
+eyJoaXN0b3J5IjpbMTMzODQxNjMxNSwtNTQ2MzgxNjYxLC0xOT
+I0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3
+NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMD
+gsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3Nywt
+MzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LDEwNDE0ND
+MzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMDA1Mzg2MDcw
+LDkzNTkxMjcwXX0=
 -->
