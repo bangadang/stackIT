@@ -794,6 +794,9 @@ Streuungsmasse: Standardabweichung, MAD, IQR
 Für die Varianz gilt, weil sie ein quadratisches Streuungsmass ist:
 $$Var_y = a^2 \cdot Var_x$$
 
+### Wirkung einer streng monotoner Transformation
+#### Verteilung
+Eine monotone Transformation ändert die Verteilung der Variable
 ### Standardisierung als Lineare Transformation 
 Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
 Sie ist bspw. bei der PCA wichtig
@@ -804,11 +807,11 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyMzAwNDQ2LC0xNzM5MzY3MjY2LC04NT
-QzODY3ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0
-NzgzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOT
-YsLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00
-MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNz
-A2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQz
-NywxMjM1ODIzMzRdfQ==
+eyJoaXN0b3J5IjpbLTkwNTUxODM5OSwtMTczOTM2NzI2NiwtOD
+U0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcx
+NDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMz
+k2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5Mywt
+NDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMz
+cwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0
+MzcsMTIzNTgyMzM0XX0=
 -->
