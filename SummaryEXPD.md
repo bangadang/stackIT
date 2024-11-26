@@ -797,11 +797,14 @@ $$Var_y = a^2 \cdot Var_x$$
 ### Standardisierung als Lineare Transformation 
 Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
 Sie ist bspw. bei der PCA wichtig
+**Standardisierte Variabeln haben Mittelwert = 0 und Standardabweichung = 1**
+
 **Formel**:
 $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})$$
-$$d.h. a = fr{1}{s_x} und b =  $$
+$$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
+$$\bar z 0 unf s_z = 1$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTg3NjQ2NDEsLTE3MzkzNjcyNjYsLT
+eyJoaXN0b3J5IjpbLTIwMDcxMDEyMjAsLTE3MzkzNjcyNjYsLT
 g1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3
 MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMz
 M5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMs
