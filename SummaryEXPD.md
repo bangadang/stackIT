@@ -798,6 +798,9 @@ $$Var_y = a^2 \cdot Var_x$$
 #### Verteilung
 Eine monotone Transformation ändert die Verteilung der Variable, da sie bspw. angewendet wird wenn die Verteilung rechtschief ist. Nach der Transformation kann eine solche rechtsschiefe Variable annährend symmetrisch sein.
 
+#### Wirkung einer log Transformation
+Diese Transformation führt gleiche multiplikative Änderungen in gleiche ab
+
 ### Standardisierung als Lineare Transformation 
 Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
 Sie ist bspw. bei der PCA wichtig
@@ -808,11 +811,11 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ1Mjc5MTAsLTE3MzkzNjcyNjYsLT
-g1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3
-MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMz
-M5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMs
-LTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMT
-M3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQw
-NDM3LDEyMzU4MjMzNF19
+eyJoaXN0b3J5IjpbLTkyNzAzMzM0MCwtMTczOTM2NzI2NiwtOD
+U0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcx
+NDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMz
+k2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5Mywt
+NDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMz
+cwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0
+MzcsMTIzNTgyMzM0XX0=
 -->
