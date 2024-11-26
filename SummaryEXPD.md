@@ -731,15 +731,15 @@ $$ x \mapsto f(x) = ax + b$$
 Beispiel Umrechnen von Einheiten
 
 **streng monotone Transformation**
-$$ x \mapsto f(x) , f monoton$$
+$$ x \mapsto f(x) , f monoton,$$
 Beispiel Änderung der unvorteilhaften Verteilung
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxODY1OTExLC0xNDcxNzE0NzgzLC01ND
-YzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1
-Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxND
-UsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0x
-NjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1OD
-IzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMw
-LDEwMDUzODYwNzBdfQ==
+eyJoaXN0b3J5IjpbLTIwMTgzOTMwOTUsOTkxODY1OTExLC0xND
+cxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgz
+MjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMj
+kzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0x
+MzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mz
+g0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2
+LC0xNTQ2MjgwMzMwXX0=
 -->
