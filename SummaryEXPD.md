@@ -697,18 +697,23 @@ Je nach Datentyp und Art der Analyse wird eine bestimmte Transformation verwende
 ```r
 #Zusammenfassung verwandter Ausprägungen -> kein Infoverlust
 df$nom_var[df$nom_var %in% c("val1", "val2",..)] <- "new_val"
-#Zusammenfassung versch. Ausprägungen -> Infoverlust
-table <- table(df$nom_var
+#Zusammenfassung versch. Ausprägungen zu Sonstige-> Infoverlust
+table <- table(df$nom_var)
+vSel <- names(table)[table <= 1]
+df$nom_var[df$nom_var %in% vSel] <- "Sonstige"
 ```
+
+### Transformation ordinaler Daten
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1Nzc5NTg1NCwtMTM0ODMyMzM5NiwtMT
-k1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1
-NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMz
-UsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEy
-MzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYyOD
-AzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4
-MTQ3MzE4NDBdfQ==
+eyJoaXN0b3J5IjpbLTExNjc5MjcwMzYsLTEzNDgzMjMzOTYsLT
+E5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUy
+NTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MT
+M1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywx
+MjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2Mj
+gwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5Mywx
+ODE0NzMxODQwXX0=
 -->
