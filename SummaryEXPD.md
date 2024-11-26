@@ -606,8 +606,9 @@ coplot(
   pch = 16)
 ```
 #### Matrix von Streudiagrammen/ Pairs-Plot
-für max. 6-8 metrische Variablen
-Eignet sich gut um schnell eine Übersicht über viele Variablen zu geinen
+- Für max. 6-8 metrische Variablen
+- Eignet sich gut um schnell eine Übersicht über viele Variablen zu eignen, aber je mehr Variablen desto unübersichtlich
+- 2 Dimensionale Projektion kann nicht alle Eigenschaften oder Einsichten über die Daten einer höher Dimensionalen Darstellung abbilden.
 ```r
 pairs(df[,c(1,3,6)]
 ```
@@ -633,11 +634,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA1NzQ1NzgzLDEyNzkzMzMzMDgsMTE2Mj
-I1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0
-OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMzNjgsMT
-I2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLDkzNTkx
-MjcwLC01MTY2NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5NjIsOT
-QwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1
-MF19
+eyJoaXN0b3J5IjpbLTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNj
+IyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5
+NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4LD
+EyNjE4NjM5MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5MzU5
+MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLD
+k0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5
+NTBdfQ==
 -->
