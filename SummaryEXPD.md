@@ -799,7 +799,8 @@ $$Var_y = a^2 \cdot Var_x$$
 Eine monotone Transformation ändert die Verteilung der Variable, da sie bspw. angewendet wird wenn die Verteilung rechtschief ist. Nach der Transformation kann eine solche rechtsschiefe Variable annährend symmetrisch sein.
 
 #### Wirkung einer log Transformation
-Diese Transformation führt gleiche multiplikative Änderungen in gleiche ab
+Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolute Differenzen um. Dadurch werden Daten, die über einen grossen Bereich streuen auf, einen kleinen Bereich zusammengebracht.
+
 
 ### Standardisierung als Lineare Transformation 
 Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
@@ -811,7 +812,7 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNzAzMzM0MCwtMTczOTM2NzI2NiwtOD
+eyJoaXN0b3J5IjpbLTY0NTczMzY4MCwtMTczOTM2NzI2NiwtOD
 U0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcx
 NDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMz
 k2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5Mywt
