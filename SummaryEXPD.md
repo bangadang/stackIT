@@ -690,17 +690,19 @@ Je nach Datentyp und Art der Analyse wird eine bestimmte Transformation verwende
 
 ### Transformation nominaler Daten
 
-Transformation ohne Informationsverlust
-	- beliebiges umbenennen der Kategorien, wie Geschlecht von männlich/weiblich zu  
+**Transformation ohne Informationsverlust**
+	- beliebiges umbenennen der Kategorien, wie Geschlecht von männlich/weiblich zu 0/1
+**Transformation ohne Informationsverlust**
+	- Zusammenfassen von Kategorien, wie Partei, wobei alle Parteie, die keinen Sitz im Parlamen 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjcyMTI0NDYsLTE5NTU1Njg4MzgsLT
-MyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMz
-MzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzND
-c3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0
-MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzOD
-YwNzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDcz
-MDM0MDk2Ml19
+eyJoaXN0b3J5IjpbNTM0NjI4MDAsLTE5NTU1Njg4MzgsLTMyOD
+c3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMw
+OCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC
+0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0
+MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYwNz
+AsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDczMDM0
+MDk2Ml19
 -->
