@@ -798,13 +798,14 @@ $$Var_y = a^2 \cdot Var_x$$
 Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
 Sie ist bspw. bei der PCA wichtig
 **Formel**:
-$$x \mapsto z = (frac{x - \bar x}{s_x}) = ()$$
+$$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})$$
+$$d.h. a = fr{1}{s_x} und b =  $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Nzk4NzExMywtMTczOTM2NzI2NiwtOD
-U0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcx
-NDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMz
-k2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5Mywt
-NDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMz
-cwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0
-MzcsMTIzNTgyMzM0XX0=
+eyJoaXN0b3J5IjpbLTE3OTg3NjQ2NDEsLTE3MzkzNjcyNjYsLT
+g1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3
+MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMz
+M5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMs
+LTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMT
+M3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQw
+NDM3LDEyMzU4MjMzNF19
 -->
