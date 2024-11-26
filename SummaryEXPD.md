@@ -705,15 +705,15 @@ df$nom_var[df$nom_var %in% vSel] <- "Sonstige"
 
 ### Transformation ordinaler Daten
 
-
-
-
+**Transformation ohne Informationsverlust**
+	- sind die Ausprägungen als Zahlen codiert, liefert jede streng monoton steigende Funktion wieder ein ordinales Merkmal (f(x) < f(y) für x < y) 
+**Transformation ohne Informationsverlust**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc5MjcwMzYsLTEzNDgzMjMzOTYsLT
-E5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUy
-NTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MT
-M1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywx
-MjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2Mj
-gwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5Mywx
-ODE0NzMxODQwXX0=
+eyJoaXN0b3J5IjpbNjk4NjkwNDYxLC0xMzQ4MzIzMzk2LC0xOT
+U1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0
+MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNS
+wtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIz
+NTgyMzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MD
+MzMCwxMDA1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgx
+NDczMTg0MF19
 -->
