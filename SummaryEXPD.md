@@ -565,7 +565,7 @@ theme_classic()
 ### mehrere metrische Variablen
 
 #### 3D-Plots oder Coplots
-für genau 3, allenfalls 4 metrische Variablen
+für genau 3, allenfalls 4, metrische Variablen
 ```r
 library(scatterplot3d)
 scatterplot3d(df$num_var1, df$num_var2,df$num_var3, type = "h")
@@ -596,11 +596,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM3MDYxMzUsLTE2MTA5NjM0NzcsLT
-MzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQz
-MzY4LDEyNjE4NjM5MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MC
-w5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4NDAsNzMwMzQw
-OTYyLDk0MDI3NDU4MCwtNjQ3MDA0NDg1LDU3MTU3OTk4LDEzMz
-M5ODI5NTAsMzIyNTcxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4
-NV19
+eyJoaXN0b3J5IjpbMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMT
+YxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgy
+MzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMzMC
+wxMDA1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDcz
+MTg0MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNT
+cxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4
+NTVdfQ==
 -->
