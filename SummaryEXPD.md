@@ -713,14 +713,14 @@ df$nom_var[df$nom_var %in% vSel] <- "Sonstige"
 # Zusammenfassung ohne Informationsverlust, umwandeln in Faktor
 df$ord_var <- factor(df$ord_var)
 df$ord_varT1 <- factor(df$ord_var,
-                        levels = levels(df$ord_var),
-                        labels = seq(start,end, 1),
-                        ordered = TRUE)
+                       levels = levels(df$ord_var),
+                       labels = seq(start,end, 1),
+                       ordered = TRUE)
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjE0MjgzMiwtNTQ2MzgxNjYxLC0xOT
+eyJoaXN0b3J5IjpbLTUzMzkzNzM4OCwtNTQ2MzgxNjYxLC0xOT
 I0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3
 NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMD
 gsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3Nywt
