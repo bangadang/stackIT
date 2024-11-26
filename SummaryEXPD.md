@@ -795,10 +795,11 @@ Für die Varianz gilt, weil sie ein quadratisches Streuungsmass ist:
 $$Var_y = a^2 \cdot Var_x$$
 
 ### Standardisierung als Lineare Transformation 
-
+Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
+Sie ist 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNzcyNDU2NSwtMTczOTM2NzI2NiwtOD
+eyJoaXN0b3J5IjpbLTM0NzUxMTI3NCwtMTczOTM2NzI2NiwtOD
 U0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcx
 NDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMz
 k2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5Mywt
