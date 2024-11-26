@@ -731,11 +731,13 @@ $$ x \mapsto f(x) = ax + b$$
 Beispiel Umrechnen von Einheiten
 
 **streng monotone Transformation**
-$$ x \mapsto f(x) , f monoton,$$
+$$ x \mapsto f(x) , f monoton, f(x_1) < f(x_2) für x_1 < x_2$$
 Beispiel Änderung der unvorteilhaften Verteilung
+Wichtige Vertreter sind die **Logarithmus** und **Wurzelfunktion**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTgzOTMwOTUsOTkxODY1OTExLC0xND
+eyJoaXN0b3J5IjpbLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xND
 cxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgz
 MjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMj
 kzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0x
