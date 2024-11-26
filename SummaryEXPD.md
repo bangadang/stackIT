@@ -563,7 +563,9 @@ theme_classic()
 
 ### >2 quantitative stetige und mehrere kategoriellen Variablen
 ### mehrere metrische Variablen
+
 #### 3D-Plots oder Coplots
+für genau 3
 ```r
 library(scatterplot3d)
 scatterplot3d(df$num_var1, df$num_var2,df$num_var3, type = "h")
@@ -571,6 +573,7 @@ library(plotly) # interaktiv
 plot_ly(mtcars, x = ~wt, y = ~disp, z = ~mpg)
 ```
 #### Matrix von Streudiagrammen/ Pairs-Plot
+für max. 6-8 metrische Variablen
 #### Korrelationsmatrix
 #### Dimensionsreduktion (Hauptkomponentenanalyse)
 
@@ -593,7 +596,7 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDEyNjYxNywtMTYxMDk2MzQ3NywtMz
+eyJoaXN0b3J5IjpbMTYyNDYxNzA1NywtMTYxMDk2MzQ3NywtMz
 M5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMz
 NjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLD
 kzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5
