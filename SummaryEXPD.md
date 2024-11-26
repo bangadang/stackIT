@@ -784,11 +784,13 @@ Lineare Verteilung veränder den Mittelwert und die Standardabweichung etc.
 **Änderung des Mittelwerts**
 $$\bar y = a \cdot \bar x + b$$
 **Änderung der Standardabweichung**
-$$$$
+$$s_y = |a| \cdot s_x$$
+
+Im Allgemeinen ändern sich L
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2ODg5Njk4NCwtODU0Mzg2Nzg5LC0xMj
+eyJoaXN0b3J5IjpbMTQ1NTY2NTI1OCwtODU0Mzg2Nzg5LC0xMj
 IzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2Mzgx
 NjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4OD
 M4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEy
