@@ -743,22 +743,34 @@ Die Auswirkung bei linearen Transformationen lassen sich einfacher beschreiben, 
 
 ### Wirkung einer linearer Transformation
 - Verändert die Verteilung **nicht**. Siehe Histogramm. Nur die Achsenbeschriftung ändert sich.
+- Code to create equal breaks
 ```r
 breaks <- seq(
 			floor(
 				min(
 					c(
-					df$num_var, 			df$num_var_lin_trans))), ceiling(max(c(df$num_var, df$num_var_lin_trans))), length.out = 15)
+					df$num_var,
+					df$num_var_lin_trans)
+					)
+				), 
+			ceiling(
+				max(
+					c(
+					df$num_var, 
+					df$num_var_lin_trans)
+					)
+				), 
+			length.out = 15)
 
 ```
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTYwNzc0OCwtODU0Mzg2Nzg5LC0xMj
-IzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2Mzgx
-NjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4OD
-M4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEy
-NzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMD
-k2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0
-LDEwNDE0NDMzNjhdfQ==
+eyJoaXN0b3J5IjpbLTE3MjkyNTEwMTcsLTg1NDM4Njc4OSwtMT
+IyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4
+MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2OD
+gzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwx
+Mjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MT
+A5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMz
+NCwxMDQxNDQzMzY4XX0=
 -->
