@@ -683,12 +683,18 @@ Je nach Datentyp und Art der Analyse wird eine bestimmte Transformation verwende
 
 **Gründe für Datentransformation**:
 - Zusammenfassen von Beobachtungen einer Klasse
-- Umrechnen von Einheiten (freedom uni
+- Umrechnen von Einheiten (example freedom units to metric)
+- Informativere Darstellung
+- Datenstandardisieren bspw. für PCA
+- Änderung einer unvorteilhaften Form einer Verteilung
+
+### Transformation nominaler Daten
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDgxMjkzOSwtMTk1NTU2ODgzOCwtMz
+eyJoaXN0b3J5IjpbLTcwNDY0ODkyMCwtMTk1NTU2ODgzOCwtMz
 I4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMz
 MzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0Nz
 csLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQx
