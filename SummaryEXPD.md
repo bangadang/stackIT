@@ -792,16 +792,17 @@ Lagemasse: arith. Mittel, Median, Quatile für a >= 0, Modus
 $$Streuung_y = |a| \cdot Streuung_x$$
 Streuungsmasse: Standardabweichung, MAD, IQR
 Für die Varianz gilt, weil sie ein quadratisches Streuungsmass ist:
+$$Var_y = a^2 \cdot Var_x$$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyNjgxMzQ3LC04NTQzODY3ODksLTEyMj
-M1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2
-NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4Mz
-gsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3
-OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOT
-YzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQs
-MTA0MTQ0MzM2OF19
+eyJoaXN0b3J5IjpbLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMT
+IyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4
+MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2OD
+gzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwx
+Mjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MT
+A5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMz
+NCwxMDQxNDQzMzY4XX0=
 -->
