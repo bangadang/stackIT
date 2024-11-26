@@ -788,16 +788,20 @@ $$s_y = |a| \cdot s_x$$
 
 Im Allgemeinen ändern sich Lage- und Streuungsmasse wie folgt:
 $$Lage_y = a \cdot Lage_x + b$$
+Lagemasse: arith. Mittel, Median, Quatile für a >= 0, Modus
 $$Streuung_y = |a| \cdot Streuung_x$$
+Streuungsmasse: Standardabweichung, MAD, IQR
+Für die Varianz gilt, weil sie ein quadratisches Streuungsmass ist:
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE0MTMyMiwtODU0Mzg2Nzg5LC0xMj
-IzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2Mzgx
-NjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4OD
-M4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEy
-NzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMD
-k2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0
-LDEwNDE0NDMzNjhdfQ==
+eyJoaXN0b3J5IjpbNDUyNjgxMzQ3LC04NTQzODY3ODksLTEyMj
+M1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2
+NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4Mz
+gsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3
+OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOT
+YzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQs
+MTA0MTQ0MzM2OF19
 -->
