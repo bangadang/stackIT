@@ -726,13 +726,15 @@ df$ord_varT1 <- factor(df$ord_var,
 ### Transformation quantitativer Daten
 Jede injektive Funktion liefert wieder ein quantitatives Merkmal ohne Informationsverlust. Sinnvoll sind jedoch nur welche, die eine Reihenfolge erhalten. Daher werden am meisten **lineare Transformationen** oder **streng monotone Transformationen** verwendet.
 
+**lineare Transformation*
+$$ x $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkwNDE4MDIsLTE0NzE3MTQ3ODMsLT
-U0NjM4MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1
-NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1ND
-E0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUs
-LTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMz
-U4MjMzNCwxMDQxNDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYyODAz
-MzAsMTAwNTM4NjA3MF19
+eyJoaXN0b3J5IjpbMzI1ODk4MzgzLC0xNDcxNzE0NzgzLC01ND
+YzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1
+Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxND
+UsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0x
+NjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1OD
+IzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMw
+LDEwMDUzODYwNzBdfQ==
 -->
