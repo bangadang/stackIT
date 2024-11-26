@@ -640,7 +640,8 @@ Hochdimensionale Phänomene können nur bedingt dargestellt werden.
 library(lattice)
 parallelplot(df)
 ```
- example of the iris dataset, which refines th eparallelplot for better readability
+ example of the iris dataset, which refines the parallelplot for better readability.
+ Jede Polylinie ist ein Eintrag in Dataframe. Verlaufen Linien arallel ist eher eine positive Korrelation vorhanden. Überkreuzen sie sich eher eine negative.
 ```r
 parallelplot(
 	~ iris[1:4] | iris$Species, 
@@ -679,11 +680,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyOTc2MTEsLTMyODc3NzI3MiwxMTIxNj
-gxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYx
-LC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLT
-I3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYz
-OTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLT
-UxNjY1NTg5MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1
-ODBdfQ==
+eyJoaXN0b3J5IjpbLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMT
+IxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUw
+NjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5Nz
+ksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYx
+ODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNz
+AsLTUxNjY1NTg5MywxODE0NzMxODQwLDczMDM0MDk2Miw5NDAy
+NzQ1ODBdfQ==
 -->
