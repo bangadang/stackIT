@@ -690,15 +690,17 @@ Je nach Datentyp und Art der Analyse wird eine bestimmte Transformation verwende
 
 ### Transformation nominaler Daten
 
+Transformation ohne Informationsverlust
+	- beliebiges umbenennen der Kategorien, wie Geschlecht von männlich/weiblich zu  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDY0ODkyMCwtMTk1NTU2ODgzOCwtMz
-I4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMz
-MzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0Nz
-csLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQx
-NDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYyODAzMzAsMTAwNTM4Nj
-A3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4MTQ3MzE4NDAsNzMw
-MzQwOTYyXX0=
+eyJoaXN0b3J5IjpbLTE2NjcyMTI0NDYsLTE5NTU1Njg4MzgsLT
+MyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMz
+MzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzND
+c3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0
+MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzOD
+YwNzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDcz
+MDM0MDk2Ml19
 -->
