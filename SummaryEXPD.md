@@ -736,15 +736,17 @@ Beispiel Änderung der unvorteilhaften Verteilung
 Wichtige Vertreter sind die **Logarithmus** und **Wurzelfunktion**
 
 ## Auswirkungen von Transformationen
-Transformationen auf Variablen können ihre Kennzahlen (Mittelwert, Std-Abw.) ändern
-
+Transformationen auf Variablen können:
+	- ihre Kennzahlen (Mittelwert, Std-Abw.) ändern
+	- ihre Verteilung ändern
+Die Auswirkung bei linearen Transformationen lassen sich einfacher beschreiben, als bei monoton steigen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM1MzU4OTc0LC0xMjIzNTI1MTczLDk5MT
-g2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0
-OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNz
-IsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2
-MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MD
-k0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMzNjgs
-MTI2MTg2MzkyNl19
+eyJoaXN0b3J5IjpbLTIxMDA0NTIxNzUsLTEyMjM1MjUxNzMsOT
+kxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQy
+OTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3Nz
+I3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwx
+MTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMz
+kwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2
+OCwxMjYxODYzOTI2XX0=
 -->
