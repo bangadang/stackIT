@@ -709,14 +709,17 @@ df$nom_var[df$nom_var %in% vSel] <- "Sonstige"
 	- sind die Ausprägungen als Zahlen codiert, liefert jede streng monoton steigende Funktion **f** wieder ein ordinales Merkmal (f(x) < f(y) für x < y) 
 **Transformation ohne Informationsverlust**
 	- Zusammenfassen von Kategorien oder wenn **f** nicht streng monoton ist.
-??
+```r
+# Zusammenfassung ohne Informationsverlust, umwandeln in Faktor
+df$ord_var <- factor(df$ord_var)
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQwNzY3NzUsLTE5MjQyOTQ5ODMsLT
-EzNDgzMjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIx
-NjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNj
-YxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5Nzks
-LTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxOD
-YzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAs
-LTUxNjY1NTg5M119
+eyJoaXN0b3J5IjpbLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMT
+M0ODMyMzM5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2
+ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2Nj
+EsLTEzMTM3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwt
+MjczODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4Nj
+M5MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwt
+NTE2NjU1ODkzXX0=
 -->
