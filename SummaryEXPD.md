@@ -739,14 +739,17 @@ Wichtige Vertreter sind die **Logarithmus** und **Wurzelfunktion**
 Transformationen auf Variablen können:
 	- ihre Kennzahlen (Mittelwert, Std-Abw.) ändern
 	- ihre Verteilung ändern
-Die Auswirkung bei linearen Transformationen lassen sich einfacher beschreiben, als bei monoton steigen
+Die Auswirkung bei linearen Transformationen lassen sich einfacher beschreiben, als bei monoton steigenden.
+
+### Wirkung einer linearer Transformation
+- Verändert die Verteilung nicht**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA0NTIxNzUsLTEyMjM1MjUxNzMsOT
-kxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQy
-OTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3Nz
-I3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwx
-MTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMz
-kwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2
-OCwxMjYxODYzOTI2XX0=
+eyJoaXN0b3J5IjpbLTEyNDAwMTEzNiwtMTIyMzUyNTE3Myw5OT
+E4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5
+NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3Mj
+cyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMzMzA4LDEx
+NjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOT
+A5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4
+LDEyNjE4NjM5MjZdfQ==
 -->
