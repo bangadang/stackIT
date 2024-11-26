@@ -717,15 +717,19 @@ df$ord_varT1 <- factor(df$ord_var,
                        labels = seq(start,end, 1),
                        ordered = TRUE)
 # Zusammenfassung mit Infoverlust, alle Werte über best. Wert zusammenfassen
-
+df$ord_var <- factor(df$ord_var)
+df$ord_varT1 <- factor(df$ord_var,
+                       levels = levels(df$ord_var),
+                       labels = c(label1, label2 ,label>n,label>n,..), # length of labels needs to be 
+                       ordered = TRUE)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE3MTQ3ODMsLTU0NjM4MTY2MSwtMT
-kyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2ODgzOCwtMzI4
-Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMzMz
-A4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0Nzcs
-LTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQxND
-QzMzY4LDEyNjE4NjM5MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3
-MCw5MzU5MTI3MF19
+eyJoaXN0b3J5IjpbLTQxMjE5ODgzMiwtMTQ3MTcxNDc4MywtNT
+Q2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1
+NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MT
+Q1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwt
+MTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNT
+gyMzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMz
+MCwxMDA1Mzg2MDcwXX0=
 -->
