@@ -735,13 +735,16 @@ $$ x \mapsto f(x) , f monoton, f(x_1) < f(x_2) für x_1 < x_2$$
 Beispiel Änderung der unvorteilhaften Verteilung
 Wichtige Vertreter sind die **Logarithmus** und **Wurzelfunktion**
 
+## Auswirkungen von Transformationen
+Transformationen auf Variablen können ihre Kennzahlen (Mittelwert, Std-Abw.) ändern
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xND
-cxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgz
-MjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMj
-kzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0x
-MzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mz
-g0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2
-LC0xNTQ2MjgwMzMwXX0=
+eyJoaXN0b3J5IjpbODM1MzU4OTc0LC0xMjIzNTI1MTczLDk5MT
+g2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0
+OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNz
+IsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2
+MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MD
+k0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMzNjgs
+MTI2MTg2MzkyNl19
 -->
