@@ -620,8 +620,15 @@ cor(df[, c(1:6)], method = "spearman")
 library(ellipse)
 plotcorr(cor(df))
 
-
+# Streudiagramm-Matrix inkl. Korrelation
+library(GGally)
+ggpairs(mtcars[, c(1:6)])
 ```
+### Zusammenfassung
+|  |  |
+|--|--|
+|  |  |
+
 #### Dimensionsreduktion (Hauptkomponentenanalyse)
 
 ## Visualisierungregeln
@@ -643,11 +650,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNz
-kzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2
-MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LD
-EwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMDA1
-Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0MC
-w3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNTc5
-OThdfQ==
+eyJoaXN0b3J5IjpbMTY1MzE2OTg5NiwxMTIxNjgxMjkzLC00Mj
+UyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2
+MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNy
+wxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2
+MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5My
+wxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0NzAw
+NDQ4NV19
 -->
