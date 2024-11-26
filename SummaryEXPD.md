@@ -677,11 +677,11 @@ library(colorBlindness)
 displayColors(safeColors)
 ```
 ## Transformation
-
+Ziel einer Transformation ist es eine Variable so umzuwandeln, dass sie für die Analyse bessere Eigenschaften
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTQ5ODkzNSwtMTk1NTU2ODgzOCwtMz
+eyJoaXN0b3J5IjpbLTY5MjQ4MjQ2NiwtMTk1NTU2ODgzOCwtMz
 I4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMz
 MzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0Nz
 csLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQx
