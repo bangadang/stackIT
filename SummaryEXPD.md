@@ -724,9 +724,9 @@ df$ord_varT1 <- factor(df$ord_var,
                        ordered = TRUE)
 ```
 ### Transformation quantitativer Daten
-
+Jede injektive Funktion liefert wieder ein quantitatives Merkmal ohne Informationsverlust. Sinnvoll sind jedoch nur welche, die
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NzcwODE2OCwtMTQ3MTcxNDc4MywtNT
+eyJoaXN0b3J5IjpbMTc1NDU1MzQ1NCwtMTQ3MTcxNDc4MywtNT
 Q2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1
 NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MT
 Q1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwt
