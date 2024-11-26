@@ -712,15 +712,15 @@ df$nom_var[df$nom_var %in% vSel] <- "Sonstige"
 ```r
 # Zusammenfassung ohne Informationsverlust, umwandeln in Faktor
 df$ord_var <- factor(df$ord_var)
-dat$SchlafzimmerT1 <- factor(dat$Schlafzimmer,
-                             levels = levels(dat$Schlafzimmer),
-                             labels = seq(0,length(levels(dat$Schlafzimmer))-1, by=1),
-                             ordered = TRUE)
+df$ord_varT1 <- factor(df$ord_var,
+                        levels = levels(df$ord_var),
+                        labels = seq(start,end, 1),
+                        ordered = TRUE)
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODQxNjMxNSwtNTQ2MzgxNjYxLC0xOT
+eyJoaXN0b3J5IjpbLTk1NjE0MjgzMiwtNTQ2MzgxNjYxLC0xOT
 I0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3
 NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMD
 gsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3Nywt
