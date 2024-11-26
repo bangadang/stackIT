@@ -742,10 +742,11 @@ Transformationen auf Variablen können:
 Die Auswirkung bei linearen Transformationen lassen sich einfacher beschreiben, als bei monoton steigenden.
 
 ### Wirkung einer linearer Transformation
-- Verändert die Verteilung nicht**
+- Verändert die Verteilung **nicht**. Siehe Histogramm. Nur die Achsenbeschriftung ändert sich.
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDAwMTEzNiwtMTIyMzUyNTE3Myw5OT
+eyJoaXN0b3J5IjpbLTg1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OT
 E4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5
 NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3Mj
 cyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMzMzA4LDEx
