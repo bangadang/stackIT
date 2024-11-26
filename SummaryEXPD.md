@@ -735,7 +735,7 @@ $$ x \mapsto f(x) , f monoton, f(x_1) < f(x_2) für x_1 < x_2$$
 Beispiel Änderung der unvorteilhaften Verteilung
 Wichtige Vertreter sind die **Logarithmus** und **Wurzelfunktion**
 
-## Auswirkungen von Transformationen
+### Auswirkungen von Transformationen
 Transformationen auf Variablen können:
 	- ihre Kennzahlen (Mittelwert, Std-Abw.) ändern
 	- ihre Verteilung ändern
@@ -779,7 +779,7 @@ hist(
 	freq = TRUE)
 
 ```
-### Kennzahlen
+#### Kennzahlen
 Lineare Verteilung veränder den Mittelwert und die Standardabweichung etc.
 **Änderung des Mittelwerts**
 $$\bar y = a \cdot \bar x + b$$
@@ -794,15 +794,15 @@ Streuungsmasse: Standardabweichung, MAD, IQR
 Für die Varianz gilt, weil sie ein quadratisches Streuungsmass ist:
 $$Var_y = a^2 \cdot Var_x$$
 
-
+### Standardisierung als Lineare Transformation 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMT
-IyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4
-MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2OD
-gzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwx
-Mjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MT
-A5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMz
-NCwxMDQxNDQzMzY4XX0=
+eyJoaXN0b3J5IjpbMTMyNzcyNDU2NSwtMTczOTM2NzI2NiwtOD
+U0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcx
+NDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMz
+k2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5Mywt
+NDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMz
+cwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0
+MzcsMTIzNTgyMzM0XX0=
 -->
