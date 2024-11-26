@@ -632,7 +632,10 @@ ggpairs(mtcars[, c(1:6)])
 | 2 num. + >2 kat. | Streudiagramm mir Farben und Formen |
 | >2 num. | Streudiagramm-Matrix und Korrelationsmatrix |
 
-Je mehr Variablen desto unübersichtlicher
+Je mehr Variablen desto unübersichtlicher die Darstellung.
+Hochdimensionale Phänomene können nur bedingt dargestellt werden.
+
+
 #### Dimensionsreduktion (Hauptkomponentenanalyse)
 
 ## Visualisierungregeln
@@ -654,11 +657,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTM5OTMyMCwxMTIxNjgxMjkzLC00Mj
-UyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2
-MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNy
-wxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2
-MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5My
-wxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0NzAw
-NDQ4NV19
+eyJoaXN0b3J5IjpbLTEzNTY4ODc4OTcsMTEyMTY4MTI5MywtND
+I1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcw
+NjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0Mz
+csMTIzNTgyMzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0
+NjI4MDMzMCwxMDA1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OT
+MsMTgxNDczMTg0MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcw
+MDQ0ODVdfQ==
 -->
