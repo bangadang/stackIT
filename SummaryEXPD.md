@@ -694,15 +694,19 @@ Je nach Datentyp und Art der Analyse wird eine bestimmte Transformation verwende
 	- beliebiges umbenennen der Kategorien, wie Geschlecht von männlich/weiblich zu 0/1
 **Transformation ohne Informationsverlust**
 	- Zusammenfassen von Kategorien, wie Partei, wobei alle Parteien, die keinen Sitz im Parlament haben, zu Sonstige umbenannt werden.
+```r
+df$nom_var[df$nom_var %in% c("val1", "val2",..)] <- "new_val"
+df
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDgzMjMzOTYsLTE5NTU1Njg4MzgsLT
-MyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMz
-MzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzND
-c3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0
-MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzOD
-YwNzAsOTM1OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDcz
-MDM0MDk2Ml19
+eyJoaXN0b3J5IjpbMTkzNjU1Nzg3MywtMTM0ODMyMzM5NiwtMT
+k1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1
+NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMz
+UsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEy
+MzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYyOD
+AzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLDE4
+MTQ3MzE4NDBdfQ==
 -->
