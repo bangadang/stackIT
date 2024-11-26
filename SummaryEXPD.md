@@ -607,6 +607,7 @@ coplot(
 ```
 #### Matrix von Streudiagrammen/ Pairs-Plot
 für max. 6-8 metrische Variablen
+Eignet sich gut um schnell eine Übersicht über viele Variablen zu geinen
 ```r
 pairs(df[,c(1,3,6)]
 ```
@@ -632,11 +633,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDUwOTQ2MTksMTI3OTMzMzMwOCwxMT
-YyMjUwNjYxLC0xMzEzNzA2MTM1LC0xNjEwOTYzNDc3LC0zMzkw
-OTQ5NzksLTI3Mzg0MDQzNywxMjM1ODIzMzQsMTA0MTQ0MzM2OC
-wxMjYxODYzOTI2LC0xNTQ2MjgwMzMwLDEwMDUzODYwNzAsOTM1
-OTEyNzAsLTUxNjY1NTg5MywxODE0NzMxODQwLDczMDM0MDk2Mi
-w5NDAyNzQ1ODAsLTY0NzAwNDQ4NSw1NzE1Nzk5OCwxMzMzOTgy
-OTUwXX0=
+eyJoaXN0b3J5IjpbOTA1NzQ1NzgzLDEyNzkzMzMzMDgsMTE2Mj
+I1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0
+OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMzNjgsMT
+I2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLDkzNTkx
+MjcwLC01MTY2NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5NjIsOT
+QwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1
+MF19
 -->
