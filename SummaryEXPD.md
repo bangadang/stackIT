@@ -478,20 +478,87 @@ plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df)
 Die 2 quantitativen Variablen werden mittels eines Streudiagramms aufgezeichnet und die kategorieller Variable zusätzlich durch Farben, Symbolform und Symbolgrösse visualisiert.
 #### 2 num + 1 kat als Farbe
 ```r
-# Farbkodiert
-plot(num_var1 ~ num_var2, data = df, col = c("red","yellow","blue","green")[df$kat_var])
+plot(
+	num_var1 ~ num_var2, 
+	data = df, 
+	col = c("red","yellow","blue","green")[df$kat_var]
+	pch = 19,
+    xlab = "x-Achsen Titel",
+    ylab = "y-Achsen Titel"
+	)
+legend(
+	"topleft", 
+	legend = levels(df$kat_var),
+    fill = c("red","yellow","blue","green")
+    )
 ```
+#### 2 num + 1 kat als Symbol
 ```r
-# Symbolkodiert
-plot(num_var1 ~ num_var2, data = df, pch = c(15,16,17)[df$kat_var])
-#Symbolgrössenkodiert
-plot(num_var1 ~ num_var2, data = df, cex = c(0.5,1,1.2,1.8)[df$kat_var], pch = 16)
-# Farben, Symbolform, Symbolgrösse kodiert
-plot(num_var1 ~ num_var2, data = df, col = c("red","yellow","blue","green")[df$kat_var1], pch = c(15,16,17)[df$kat_var2], cex = c(0.5,1,1.2,1.8)[df$kat_var3])
-# mit ggplot
+plot(
+	num_var1 ~ num_var2, 
+	data = df, 
+	pch = c(15,16,17)[df$kat_var], 
+	cex = 2 #Skalierfaktor der Symbole
+	xlab = "x-Achsen Titel",
+    ylab = "y-Achsen Titel"
+	)
+legend("topleft", 
+       legend = levels(df$kat_var),
+       pch = c(15, 16, 17)
+       )
+```
+#### 2 num + 1 kat als Symbolgrösse
+```r
+plot(
+	num_var1 ~ num_var2, 
+	data = df, 
+	cex = c(0.5,1,1.2,1.8)[df$kat_var], 
+	pch = 16,
+	xlab = "x-Achsen Titel",
+    ylab = "y-Achsen Titel"
+	)
+legend("topleft", 
+       legend = levels(df$kat_var),
+       pch = 16,
+       pt.cex = c(1, 1.25, 1.5, 1.75)
+       )
+```
+#### 2 num + >2 kat
+```r
+par(mar = c(4,4,1,8), 
+	xpd = TRUE) # Vergrössern des rechten Randes für die Legenden	
+plot(
+	num_var1 ~ num_var2, 
+	data = df, 
+	col = c("red","yellow","blue","green")[df$kat_var1], 
+	pch = c(15,16,17)[df$kat_var2], 
+	cex = c(1, 1.25, 1.5, 1.75)[df$kat_var3]
+	)
+legend(210, 3000, 
+       legend = levels(df$kat_var3),
+       pch = 16,
+       pt.cex = c(1, 1.25, 1.5, 1.75))
+legend(210, 2000, 
+       legend = levels(df$kat_var2),
+       pch = c(15, 16, 17))
+legend(210, 1200, 
+       legend = levels(df$kat_var1),
+       fill = c("red","yellow","blue","green"))
+```
+### GGPLOT2
+```r
 library(ggplot2)
-ggplot(wg, mapping = aes(x = num_var1, y = num_var2, shape = kat_var1,colour= kat_var2, size = kat_var3)) +
-geom_point() + theme_classic()
+ggplot(wg, 
+	mapping = aes(
+		x = num_var1, 
+		y = num_var2, 
+		shape = kat_var1,
+		colour= kat_var2, 
+		size = kat_var3
+		)
+	) +
+geom_point() + 
+theme_classic()
 ```
 
 ### >2 quantitative stetige und mehrere kategoriellen Variablen
@@ -526,11 +593,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMj
-czODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4NjM5
-MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwtNT
-E2NjU1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4
-MCwtNjQ3MDA0NDg1LDU3MTU3OTk4LDEzMzM5ODI5NTAsMzIyNT
-cxNTQ4LC0yMDY0OTMyODU1LDQ3MDE0OTg4NSw0MzYyNzc3MTdd
-fQ==
+eyJoaXN0b3J5IjpbMjExMDEyNjYxNywtMTYxMDk2MzQ3NywtMz
+M5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMz
+NjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLD
+kzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5
+NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMz
+k4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4NTUsNDcwMTQ5ODg1
+XX0=
 -->
