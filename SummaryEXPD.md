@@ -568,8 +568,24 @@ theme_classic()
 für genau 3, allenfalls 4, metrische Variablen
 ```r
 library(scatterplot3d)
-scatterplot3d(df$num_var1, df$num_var2,df$num_var3, type = "h")
 library(plotly) # interaktiv
+
+scatterplot3d(
+	df$num_var1, 
+	df$num_var2,
+	df$num_var3, 
+	xlab = "x-Achsen Titel",
+    ylab = "y-Achsen Titel",
+    zlab = "x-Achsen Titel",
+    type = "h", # "l für Linie "p" für nur Punkte, "h", für vertikale Linien zur x-y-Ebene
+    highlight.3d = TRUE, #Punkte bekommen andere Farbe je nach Koordinaten, geht nur mit type = "h" oder "p"
+    mar = c(4,4,4,4), #margin around the plot unten, links, oben, rechts
+    pch = 16,
+    cex.symbols = 2, #Skalierung der Punkte
+    cex.lab = 2, #Skalierung Achsentitel
+    cex.axis = 2 # Skalierung Achsenbeschriftung 
+    )
+
 plot_ly(mtcars, x = ~wt, y = ~disp, z = ~mpg)
 ```
 #### Matrix von Streudiagrammen/ Pairs-Plot
@@ -596,11 +612,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMT
-YxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgy
-MzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNiwtMTU0NjI4MDMzMC
-wxMDA1Mzg2MDcwLDkzNTkxMjcwLC01MTY2NTU4OTMsMTgxNDcz
-MTg0MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC02NDcwMDQ0ODUsNT
-cxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1NDgsLTIwNjQ5MzI4
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTE0NDAwNjYxOTMsMTE2MjI1MDY2MSwtMT
+MxMzcwNjEzNSwtMTYxMDk2MzQ3NywtMzM5MDk0OTc5LC0yNzM4
+NDA0MzcsMTIzNTgyMzM0LDEwNDE0NDMzNjgsMTI2MTg2MzkyNi
+wtMTU0NjI4MDMzMCwxMDA1Mzg2MDcwLDkzNTkxMjcwLC01MTY2
+NTU4OTMsMTgxNDczMTg0MCw3MzAzNDA5NjIsOTQwMjc0NTgwLC
+02NDcwMDQ0ODUsNTcxNTc5OTgsMTMzMzk4Mjk1MCwzMjI1NzE1
+NDhdfQ==
 -->
