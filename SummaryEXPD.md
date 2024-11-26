@@ -780,14 +780,19 @@ hist(
 
 ```
 ### Kennzahlen
-Lineare Verteilung veränder den Mittelwert und die Standa
+Lineare Verteilung veränder den Mittelwert und die Standardabweichung etc.
+**Änderung des Mittelwerts**
+$$\bar y = a \cdot \bar x + b$$
+**Änderung der Standardabweichung**
+$$$$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NjIxODAsLTg1NDM4Njc4OSwtMTIyMz
-UyNTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4MTY2
-MSwtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2ODgzOC
-wtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwxMjc5
-MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MTA5Nj
-M0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMzNCwx
-MDQxNDQzMzY4XX0=
+eyJoaXN0b3J5IjpbLTk2ODg5Njk4NCwtODU0Mzg2Nzg5LC0xMj
+IzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2Mzgx
+NjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4OD
+M4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEy
+NzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMD
+k2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0
+LDEwNDE0NDMzNjhdfQ==
 -->
