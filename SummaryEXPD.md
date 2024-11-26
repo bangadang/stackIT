@@ -761,16 +761,28 @@ breaks <- seq(
 					)
 				), 
 			length.out = 15)
+hist(
+	df$num_var, 
+	breaks = breaks, 
+	col = 'lightblue', 
+	main = "Title", 
+	xlab = "x-Achsen Titel", 
+	freq = TRUE)
+hist(
+	df$num_var_lin_trans, 
+	breaks = breaks * a_of_lin_trans, 
+	col = 'lightgreen', 
+	main = "Verteilung von kml", xlab = "kml", freq = TRUE)
 
 ```
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkyNTEwMTcsLTg1NDM4Njc4OSwtMT
-IyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4
-MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2OD
-gzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1NDE0NSwx
-Mjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMzUsLTE2MT
-A5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEyMzU4MjMz
-NCwxMDQxNDQzMzY4XX0=
+eyJoaXN0b3J5IjpbMTQ3MzY2NTc3MiwtODU0Mzg2Nzg5LC0xMj
+IzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2Mzgx
+NjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4OD
+M4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEy
+NzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMD
+k2MzQ3NywtMzM5MDk0OTc5LC0yNzM4NDA0MzcsMTIzNTgyMzM0
+LDEwNDE0NDMzNjhdfQ==
 -->
