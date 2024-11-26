@@ -640,6 +640,18 @@ Hochdimensionale Phänomene können nur bedingt dargestellt werden.
 library(lattice)
 parallelplot(df)
 ```
+ example of the iris dataset, which refines th eparallelplot for better readability
+```r
+parallelplot(
+	~ iris[1:4] | iris$Species, 
+	groups = iris$Species, 
+	col = c("blue", "orange", "green"), 
+	data = iris, 
+	auto.key = list(columns = 3), # Add a legend
+	scales = list(x = list(rot = 90)), # Rotate axis labels for clarity 
+	horizontal.axis = FALSE # Align axes vertically 
+	)
+```
 #### Starsplot
 ```r
 stars(df)
@@ -666,11 +678,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00Mj
-UyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2
-MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNy
-wxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2
-MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5My
-wxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0NzAw
-NDQ4NV19
+eyJoaXN0b3J5IjpbLTgyMDA0NDg5OSwtMzI4Nzc3MjcyLDExMj
+E2ODEyOTMsLTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2
+NjEsLTEzMTM3MDYxMzUsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OS
+wtMjczODQwNDM3LDEyMzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4
+NjM5MjYsLTE1NDYyODAzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MC
+wtNTE2NjU1ODkzLDE4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3
+NDU4MF19
 -->
