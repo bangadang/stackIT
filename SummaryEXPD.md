@@ -720,12 +720,12 @@ df$ord_varT1 <- factor(df$ord_var,
 df$ord_var <- factor(df$ord_var)
 df$ord_varT1 <- factor(df$ord_var,
                        levels = levels(df$ord_var),
-                       labels = c(label1, label2 ,label>n,label>n,..), # length of labels needs to be 
+                       labels = c(label1, label2 ,label>n,label>n,..), # length of labels needs to be equal length of levels, Wert ab dem zusammengefasst werden soll kommt mehrmals vor
                        ordered = TRUE)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjE5ODgzMiwtMTQ3MTcxNDc4MywtNT
+eyJoaXN0b3J5IjpbLTQ5MzY1OTY1MywtMTQ3MTcxNDc4MywtNT
 Q2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1
 NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MT
 Q1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwt
