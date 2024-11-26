@@ -800,6 +800,7 @@ Eine monotone Transformation ändert die Verteilung der Variable, da sie bspw. a
 
 #### Wirkung einer log Transformation
 Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolute Differenzen um. Dadurch werden Daten, die über einen grossen Bereich streuen auf, einen kleinen Bereich zusammengebracht.
+#### Wirkung einer Wurzel Transformation
 
 
 ### Standardisierung als Lineare Transformation 
@@ -812,7 +813,7 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTczMzY4MCwtMTczOTM2NzI2NiwtOD
+eyJoaXN0b3J5IjpbMTAxOTY1MzUxMiwtMTczOTM2NzI2NiwtOD
 U0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcx
 NDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMz
 k2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MTI5Mywt
