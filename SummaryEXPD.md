@@ -624,11 +624,12 @@ plotcorr(cor(df))
 library(GGally)
 ggpairs(mtcars[, c(1:6)])
 ```
-### Zusammenfassung
-|  |  |
+### Zusammenfassung Multivariate Darstellung
+| Variablen | Plot |
 |--|--|
-|  |  |
-
+| >2 kat. | Mosaikplot |
+| 1 num. + >2 kat. | Boxlot |
+| 2 num. +
 #### Dimensionsreduktion (Hauptkomponentenanalyse)
 
 ## Visualisierungregeln
@@ -650,11 +651,11 @@ displayColors(safeColors)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzE2OTg5NiwxMTIxNjgxMjkzLC00Mj
-UyNTQxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2
-MTM1LC0xNjEwOTYzNDc3LC0zMzkwOTQ5NzksLTI3Mzg0MDQzNy
-wxMjM1ODIzMzQsMTA0MTQ0MzM2OCwxMjYxODYzOTI2LC0xNTQ2
-MjgwMzMwLDEwMDUzODYwNzAsOTM1OTEyNzAsLTUxNjY1NTg5My
-wxODE0NzMxODQwLDczMDM0MDk2Miw5NDAyNzQ1ODAsLTY0NzAw
-NDQ4NV19
+eyJoaXN0b3J5IjpbMzg3MzE4Njc5LDExMjE2ODEyOTMsLTQyNT
+I1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYx
+MzUsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LD
+EyMzU4MjMzNCwxMDQxNDQzMzY4LDEyNjE4NjM5MjYsLTE1NDYy
+ODAzMzAsMTAwNTM4NjA3MCw5MzU5MTI3MCwtNTE2NjU1ODkzLD
+E4MTQ3MzE4NDAsNzMwMzQwOTYyLDk0MDI3NDU4MCwtNjQ3MDA0
+NDg1XX0=
 -->
