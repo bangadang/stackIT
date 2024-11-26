@@ -695,14 +695,16 @@ Je nach Datentyp und Art der Analyse wird eine bestimmte Transformation verwende
 **Transformation ohne Informationsverlust**
 	- Zusammenfassen von Kategorien, wie Partei, wobei alle Parteien, die keinen Sitz im Parlament haben, zu Sonstige umbenannt werden.
 ```r
+#Zusammenfassung verwandter Ausprägungen -> kein Infoverlust
 df$nom_var[df$nom_var %in% c("val1", "val2",..)] <- "new_val"
-df
+#Zusammenfassung versch. Ausprägungen -> Infoverlust
+table <- table(df$nom_var
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjU1Nzg3MywtMTM0ODMyMzM5NiwtMT
+eyJoaXN0b3J5IjpbLTU1Nzc5NTg1NCwtMTM0ODMyMzM5NiwtMT
 k1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMsLTQyNTI1
 NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEsLTEzMTM3MDYxMz
 UsLTE2MTA5NjM0NzcsLTMzOTA5NDk3OSwtMjczODQwNDM3LDEy
