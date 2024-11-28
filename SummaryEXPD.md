@@ -805,7 +805,7 @@ Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolu
 Diese Transformation zieht Werte die nahe bei 0 liegen auseinander und schiebt grosse Werte zusammen, aber nicht so stark wie der Logarithmus.
 
 #### Verwendung
-Streng monotone Transformationen werden verwendet, um dei Form der Verteilung gezielt zu ändern
+Streng monotone Transformationen werden verwendet, um die Form der Verteilung gezielt zu ändern, damit die Daten analysiert werden können. Ebenso verlangen verschiedene statistische Methoden betimmte Verteilungseigenschaften, um sie anzuwenden
 
 
 ### Standardisierung als Lineare Transformation 
@@ -818,7 +818,7 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Mzk0NjQzNiwxMjcyOTYxOTI2LDMwMj
+eyJoaXN0b3J5IjpbLTcwNTkxNzk0MiwxMjcyOTYxOTI2LDMwMj
 E2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3
 ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC
 01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5
