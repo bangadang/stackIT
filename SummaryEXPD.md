@@ -810,24 +810,24 @@ Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolu
 Diese Transformation zieht Werte die nahe bei 0 liegen auseinander und schiebt grosse Werte zusammen, aber nicht so stark wie der Logarithmus.
 
 #### Verwendung
-Streng monotone Transformationen werden verwendet, um die Form der Verteilung gezielt zu ändern, damit die Daten analysiert werden können. Ebenso verlangen verschiedene statistische Methoden bestimmte Verteilungseigenschaften, um sie anzuwenden. Bspw ein modell ist additiv aber die Verteilung ist muli
+Streng monotone Transformationen werden verwendet, um die Form der Verteilung gezielt zu ändern, damit die Daten analysiert werden können. Ebenso verlangen verschiedene statistische Methoden bestimmte Verteilungseigenschaften, um sie anzuwenden. Bspw. ein Modell ist additiv aber die Verteilung ist multiplikativ, d.h. eine log-Transformation ist notwendig. 
 
 
 ### Standardisierung als Lineare Transformation 
 Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
 Sie ist bspw. bei der PCA wichtig
-**Standardisierte Variabeln haben Mittelwert = 0 und Standardabweichung = 1**
+**Standardisierte Variablen haben Mittelwert = 0 und Standardabweichung = 1**
 
 **Formel**:
-$$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})$$
+$$x \mapsto z = (\frac{x - \bar x}{s_x}) = (\frac{1}{s_x} \cdot x - \fr{\bar x}{s_x})$$
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
-$$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
+$$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |\frac{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTI1MTU1LC04NTM0MDk3ODEsMTI3Mj
-k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
-NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMT
-Q3MTcxNDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4
-MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MT
-I5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwt
-MTMxMzcwNjEzNV19
+eyJoaXN0b3J5IjpbLTU0NDQyNTc5NSwtODUzNDA5NzgxLDEyNz
+I5NjE5MjYsMzAyMTYwNzgxLDEwMTk2NTM1MTIsLTE3MzkzNjcy
+NjYsLTg1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLT
+E0NzE3MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMTM0
+ODMyMzM5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2OD
+EyOTMsLTQyNTI1NDE0NSwxMjc5MzMzMzA4LDExNjIyNTA2NjEs
+LTEzMTM3MDYxMzVdfQ==
 -->
