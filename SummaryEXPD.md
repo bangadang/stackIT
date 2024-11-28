@@ -798,6 +798,9 @@ $$Var_y = a^2 \cdot Var_x$$
 #### Verteilung
 Eine monotone Transformation ändert die Verteilung der Variable, da sie bspw. angewendet wird wenn die Verteilung rechtschief ist. Nach der Transformation kann eine solche rechtsschiefe Variable annährend symmetrisch sein.
 
+#### Kennzahlen
+Kennzahlen von monoton tranfformierten V
+
 #### Wirkung einer log Transformation
 Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolute Differenzen um. Dadurch werden Daten, die über einen grossen Bereich streuen auf, einen kleinen Bereich zusammengebracht.
 
@@ -818,7 +821,7 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNTkxNzk0MiwxMjcyOTYxOTI2LDMwMj
+eyJoaXN0b3J5IjpbLTE5MjMwNDQ3MSwxMjcyOTYxOTI2LDMwMj
 E2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3
 ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC
 01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5
