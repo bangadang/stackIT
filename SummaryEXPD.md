@@ -804,6 +804,9 @@ Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolu
 #### Wirkung einer Wurzel Transformation
 Diese Transformation zieht Werte die nahe bei 0 liegen auseinander und schiebt grosse Werte zusammen, aber nicht so stark wie der Logarithmus.
 
+#### Verwendung
+Streng monotone Transformationen werden verwendet, um dei Form der Verteilung gezielt zu ändern
+
 
 ### Standardisierung als Lineare Transformation 
 Die Standardisierung von Daten ist nützlich, um sie zu vergleichen, wenn man sich für die Verteilungsform interessiert, aber die Kennzahlen nicht berücksichtigen möchte.
@@ -815,11 +818,11 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMTAxOT
-Y1MzUxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIzNTI1
-MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNjYxLC
-0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0z
-Mjg3NzcyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNzkzMz
-MzMDgsMTE2MjI1MDY2MSwtMTMxMzcwNjEzNSwtMTYxMDk2MzQ3
-NywtMzM5MDk0OTc5XX0=
+eyJoaXN0b3J5IjpbMTc0Mzk0NjQzNiwxMjcyOTYxOTI2LDMwMj
+E2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3
+ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC
+01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5
+NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNT
+QxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1
+LC0xNjEwOTYzNDc3XX0=
 -->
