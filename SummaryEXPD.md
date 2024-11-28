@@ -804,13 +804,13 @@ Kennzahlen von monoton transformierten Variablen lassen sich i.d.R nicht mehr ei
 - Das gleiche gilt für den Median, da er das 50% Quantil ist: median(f(x)) = f(median(x)) 
 
 #### Wirkung einer log Transformation
-Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolute Differenzen um. Dadurch werden Daten, die über einen grossen Bereich streuen auf, einen kleinen Bereich zusammengebracht.
+Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolute Differenzen um. Dadurch werden Daten, die über einen grossen Bereich streuen auf, einen kleinen Bereich zusammengebracht. D.h. zieht Werte die nahe bei 0 liegen auseinander und schiebt grosse Werte zusammen.
 
 #### Wirkung einer Wurzel Transformation
 Diese Transformation zieht Werte die nahe bei 0 liegen auseinander und schiebt grosse Werte zusammen, aber nicht so stark wie der Logarithmus.
 
 #### Verwendung
-Streng monotone Transformationen werden verwendet, um die Form der Verteilung gezielt zu ändern, damit die Daten analysiert werden können. Ebenso verlangen verschiedene statistische Methoden betimmte Verteilungseigenschaften, um sie anzuwenden
+Streng monotone Transformationen werden verwendet, um die Form der Verteilung gezielt zu ändern, damit die Daten analysiert werden können. Ebenso verlangen verschiedene statistische Methoden bestimmte Verteilungseigenschaften, um sie anzuwenden. Bspw ein modell ist additiv aber die Verteilung ist muli
 
 
 ### Standardisierung als Lineare Transformation 
@@ -823,11 +823,11 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMwMj
-E2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3
-ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC
-01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5
-NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNT
-QxNDUsMTI3OTMzMzMwOCwxMTYyMjUwNjYxLC0xMzEzNzA2MTM1
-LC0xNjEwOTYzNDc3XX0=
+eyJoaXN0b3J5IjpbLTkwOTI1MTU1LC04NTM0MDk3ODEsMTI3Mj
+k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
+NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMT
+Q3MTcxNDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4
+MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MT
+I5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwt
+MTMxMzcwNjEzNV19
 -->
