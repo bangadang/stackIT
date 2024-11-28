@@ -801,7 +801,7 @@ Eine monotone Transformation ändert die Verteilung der Variable, da sie bspw. a
 #### Kennzahlen
 Kennzahlen von monoton transformierten Variablen lassen sich i.d.R nicht mehr einfach direkt berechnen. Bis auf:
 - Wenn x das 10% Quantil der x-Werte ist, so ist y = f(x) auch das 10% Quantil der y-Werte.
-- Das gleicche gilt für den Median, da er das 50% Quantil ist: $$ 
+- Das gleiche gilt für den Median, da er das 50% Quantil ist: median(f(x)) = f(median(x)) 
 
 #### Wirkung einer log Transformation
 Diese Transformation führt gleiche multiplikative Änderungen in gleiche absolute Differenzen um. Dadurch werden Daten, die über einen grossen Bereich streuen auf, einen kleinen Bereich zusammengebracht.
@@ -823,7 +823,7 @@ $$x \mapsto z = (frac{x - \bar x}{s_x}) = (fr{1}{s_x} \cdot x - fr{\bar x}{s_x})
 $$d.h. a = fr{1}{s_x} und b =  - fr{\bar x}{s_x}$$
 $$\bar z = 0 = (fr{1}{s_x} \cdot \bar x - fr{\bar x}{s_x} und s_z = 1 = |fr{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Mjc3MzExMywxMjcyOTYxOTI2LDMwMj
+eyJoaXN0b3J5IjpbLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMwMj
 E2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3
 ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC
 01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5
