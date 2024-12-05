@@ -834,7 +834,8 @@ Simulation:
 Anzahl Stichproben 1000
 |Stichprobengrösse| Mittelwert | Standardabweichung | sqrt(n)*s
 |--|--|--|--|
-| 10 |  |
+| 10 | 37.808 | 11.349 | 
+| 50 | 37.761 | 
 
 Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 - Je grösser die Stichprobe desto weniger streut der Populations-Mittelwert
@@ -843,11 +844,11 @@ Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTIxODMyNTYsLTMyNTc2MjUxMCwxMT
-EwODQ4MjYwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4
-MTgyLC04NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMT
-AxOTY1MzUxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIz
-NTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNj
-YxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4
-LC0zMjg3NzcyNzJdfQ==
+eyJoaXN0b3J5IjpbNjUzNTUyMzY3LC0zMjU3NjI1MTAsMTExMD
+g0ODI2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4
+MiwtODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMT
+k2NTM1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUy
+NTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4MTY2MS
+wtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2ODgzOCwt
+MzI4Nzc3MjcyXX0=
 -->
