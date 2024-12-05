@@ -822,6 +822,7 @@ Sie ist bspw. bei der PCA wichtig
 $$x \mapsto z = (\frac{x - \bar x}{s_x}) = (\frac{1}{s_x} \cdot x - \frac{\bar x}{s_x})$$
 $$d.h.$$$$ a = \frac{1}{s_x}$$ $$ b =  - \frac{\bar x}{s_x}$$
 $$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |\frac{1}{s_x}| \cdot s_x$$
+
 ## Diskussion
 - Debatte um Fettsäuren und Herzkreislauf, kommt aus einer Studie aus den 60ern. Haken der Studie, Studie finanziert von der US Zuckerindustrie. --> **Wer finanziert die Studie? Woher kommt sie?**
 - Mass Killings USA 
@@ -829,11 +830,11 @@ $$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1Mz
-QwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEy
-LC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1MjUxNzMsOT
-kxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQy
-OTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3Nz
-I3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwx
-MTYyMjUwNjYxXX0=
+eyJoaXN0b3J5IjpbLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5OD
+IzNjgxODIsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4
+MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLT
+EyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC01NDYz
+ODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Nj
+g4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUs
+MTI3OTMzMzMwOF19
 -->
