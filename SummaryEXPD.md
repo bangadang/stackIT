@@ -822,12 +822,16 @@ Sie ist bspw. bei der PCA wichtig
 $$x \mapsto z = (\frac{x - \bar x}{s_x}) = (\frac{1}{s_x} \cdot x - \frac{\bar x}{s_x})$$
 $$d.h.$$$$ a = \frac{1}{s_x}$$ $$ b =  - \frac{\bar x}{s_x}$$
 $$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |\frac{1}{s_x}| \cdot s_x$$
+
+## Zusammenhang Stichprobengrössen und Genauigkeit
+
+## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mj
-k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
-NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMT
-Q3MTcxNDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4
-MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIsMTEyMTY4MT
-I5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMDgsMTE2MjI1MDY2MSwt
-MTMxMzcwNjEzNV19
+eyJoaXN0b3J5IjpbLTk4Mjk5Mjk1MSw5ODIzNjgxODIsLTg1Mz
+QwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEy
+LC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1MjUxNzMsOT
+kxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQy
+OTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3Nz
+I3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwx
+MTYyMjUwNjYxXX0=
 -->
