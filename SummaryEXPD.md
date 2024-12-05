@@ -825,16 +825,16 @@ $$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |
 
 ## Diskussion
 - Debatte um Fettsäuren und Herzkreislauf, kommt aus einer Studie aus den 60ern. Haken der Studie, Studie finanziert von der US Zuckerindustrie. --> **Wer finanziert die Studie? Woher kommt sie?**
-- Mass Killings USA ()
+- Mass Killings USA (https://data.world/associatedpress/mass-killings-public , https://pinkerton.com/our-insights/blog/infographic--mass-shootings-in-the-us-patterns-and-traits)
 ## Zusammenhang Stichprobengrössen und Genauigkeit
-
+Repetition Stichproben: Grundgesamtheit bzw Population, Menge an allen 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODQ4OTkxMzcsLTE1NTMxOTU4NzIsMT
-Y2MDMwMzc1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOTYx
-OTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC
-04NTQzODY3ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcx
-NzE0NzgzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMj
-MzOTYsLTE5NTU1Njg4MzgsLTMyODc3NzI3MiwxMTIxNjgxMjkz
-LC00MjUyNTQxNDVdfQ==
+eyJoaXN0b3J5IjpbMjEwMjc3NzkwMCwtMTU1MzE5NTg3MiwxNj
+YwMzAzNzU4LDk4MjM2ODE4MiwtODUzNDA5NzgxLDEyNzI5NjE5
+MjYsMzAyMTYwNzgxLDEwMTk2NTM1MTIsLTE3MzkzNjcyNjYsLT
+g1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3
+MTQ3ODMsLTU0NjM4MTY2MSwtMTkyNDI5NDk4MywtMTM0ODMyMz
+M5NiwtMTk1NTU2ODgzOCwtMzI4Nzc3MjcyLDExMjE2ODEyOTMs
+LTQyNTI1NDE0NV19
 -->
