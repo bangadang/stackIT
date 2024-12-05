@@ -828,10 +828,12 @@ $$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |
 - Mass Killings USA (https://data.world/associatedpress/mass-killings-public , https://pinkerton.com/our-insights/blog/infographic--mass-shootings-in-the-us-patterns-and-traits)
 ## Zusammenhang Stichprobengrössen und Genauigkeit
 Repetition: Grundgesamtheit bzw. Population, Parameter direkt bestimmbar ohne Informationsunsicherheit (Population muss explizit berechenbar sein --> Statisik über Population ist sicher/keine Unsicherheiten über Resulate)
+Hingegen sind Statistiken über Stichproben mit einer Informationsunsicherheit verbunden, da sie Schätzwerte für Parameter generieren. Es ist wichtig wie gross, wie gut verteilt etc die Stichprobe ist.
+--> 
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTMwMTY4NiwtMTU1MzE5NTg3MiwxNj
+eyJoaXN0b3J5IjpbMTQ3NTcxNjc4MSwtMTU1MzE5NTg3MiwxNj
 YwMzAzNzU4LDk4MjM2ODE4MiwtODUzNDA5NzgxLDEyNzI5NjE5
 MjYsMzAyMTYwNzgxLDEwMTk2NTM1MTIsLTE3MzkzNjcyNjYsLT
 g1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3
