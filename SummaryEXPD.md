@@ -831,18 +831,22 @@ Repetition: Grundgesamtheit bzw. Population, Parameter direkt bestimmbar ohne In
 Hingegen sind Statistiken über Stichproben mit einer Informationsunsicherheit verbunden, da sie Schätzwerte für Parameter generieren. Es ist wichtig wie gross, wie gut verteilt etc die Stichprobe ist.
 --> Eine Stichprobe ist repräsentativ, wenn sie eine Auswahl aus der Grundgesamtheit ist, die deren typischen Merkmale getreu ihrer relativen Häufigkeit abbildet.
 Simulation: 
+|  |  |
+|--|--|
+|  |  |
+
 Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 - Je grösser die Stichprobe desto weniger streut der Populations-Mittelwert
-- Standardabweichung wird klei
+- Standardabweichung wird kleiner
 
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjkyNTk5MCwtMzI1NzYyNTEwLDExMT
-A4NDgyNjAsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgx
-ODIsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMD
-E5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1
-MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2Nj
-EsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4Mzgs
-LTMyODc3NzI3Ml19
+eyJoaXN0b3J5IjpbNDg2MjM2NjA5LC0zMjU3NjI1MTAsMTExMD
+g0ODI2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4
+MiwtODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMT
+k2NTM1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUy
+NTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4MTY2MS
+wtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2ODgzOCwt
+MzI4Nzc3MjcyXX0=
 -->
