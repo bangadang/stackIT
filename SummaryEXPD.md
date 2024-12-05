@@ -833,15 +833,16 @@ Hingegen sind Statistiken über Stichproben mit einer Informationsunsicherheit v
 Simulation: 
 Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 - Je grösser die Stichprobe desto weniger streut der Populations-Mittelwert
+- Standardabweichung wird klei
 
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY0NjA1MDAsLTMyNTc2MjUxMCwxMT
-EwODQ4MjYwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4
-MTgyLC04NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMT
-AxOTY1MzUxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIz
-NTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNj
-YxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4
-LC0zMjg3NzcyNzJdfQ==
+eyJoaXN0b3J5IjpbLTM5NjkyNTk5MCwtMzI1NzYyNTEwLDExMT
+A4NDgyNjAsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgx
+ODIsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMD
+E5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1
+MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2Nj
+EsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4Mzgs
+LTMyODc3NzI3Ml19
 -->
