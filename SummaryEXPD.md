@@ -836,7 +836,8 @@ Anzahl Stichproben 1000
 |--|--|--|--|
 | 10 | 37.808 | 11.349 | | 
 | 50 | 37.761 | 4.883 | |
-
+| 100 | 37.69 | 3.574 | |
+| 500 | 
 
 Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 - Je grösser die Stichprobe desto weniger streut der Populations-Mittelwert
@@ -845,11 +846,11 @@ Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1OTUyMjkwLC0zMjU3NjI1MTAsMTExMD
-g0ODI2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4
-MiwtODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMT
-k2NTM1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUy
-NTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4MTY2MS
-wtMTkyNDI5NDk4MywtMTM0ODMyMzM5NiwtMTk1NTU2ODgzOCwt
-MzI4Nzc3MjcyXX0=
+eyJoaXN0b3J5IjpbMTIwODAxNjA3MiwtMzI1NzYyNTEwLDExMT
+A4NDgyNjAsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgx
+ODIsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMD
+E5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1
+MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2Nj
+EsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4Mzgs
+LTMyODc3NzI3Ml19
 -->
