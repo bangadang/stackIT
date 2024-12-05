@@ -843,15 +843,17 @@ Anzahl Stichproben 1000
 Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 - Je grösser die Stichprobe desto weniger streut der Populations-Mittelwert
 - Standardabweichung wird kleiner
+- sqrt (n) · s_x ist ungefähr konstant, d.h. Standardabweichung ist umgekehrt proportional zur Wurzel aus n.
+	- Möchte man die Standardabweichung der Mittelwerte halbieren, muss man die Stichprobengrösse vervierfachen!
 
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIzMzIyNjEsLTMyNTc2MjUxMCwxMT
-EwODQ4MjYwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4
-MTgyLC04NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMT
-AxOTY1MzUxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIz
-NTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNj
-YxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4
-LC0zMjg3NzcyNzJdfQ==
+eyJoaXN0b3J5IjpbMTQ4MDY5MDQyMCwtMTAyMjMzMjI2MSwtMz
+I1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIsMTY2MDMw
+Mzc1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LD
+MwMjE2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQz
+ODY3ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0Nz
+gzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYs
+LTE5NTU1Njg4MzhdfQ==
 -->
