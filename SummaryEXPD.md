@@ -830,15 +830,18 @@ $$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |
 Repetition: Grundgesamtheit bzw. Population, Parameter direkt bestimmbar ohne Informationsunsicherheit (Population muss explizit berechenbar sein --> Statisik über Population ist sicher/keine Unsicherheiten über Resulate)
 Hingegen sind Statistiken über Stichproben mit einer Informationsunsicherheit verbunden, da sie Schätzwerte für Parameter generieren. Es ist wichtig wie gross, wie gut verteilt etc die Stichprobe ist.
 --> Eine Stichprobe ist repräsentativ, wenn sie eine Auswahl aus der Grundgesamtheit ist, die deren typischen Merkmale getreu ihrer relativen Häufigkeit abbildet.
+Simulation: 
+Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
+- Je grösser die Stichprobe desto weniger streut der Populations-Mittelwert
 
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNT
-UzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3
-ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMT
-czOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2
-NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OT
-gzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3NzcyNzIs
-MTEyMTY4MTI5M119
+eyJoaXN0b3J5IjpbLTEwOTY0NjA1MDAsLTMyNTc2MjUxMCwxMT
+EwODQ4MjYwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4
+MTgyLC04NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMT
+AxOTY1MzUxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIz
+NTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNj
+YxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4
+LC0zMjg3NzcyNzJdfQ==
 -->
