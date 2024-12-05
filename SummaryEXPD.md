@@ -846,15 +846,16 @@ Stichprobengrösse wird grösser, Anzahl Stichproben gleich:
 - sqrt (n) · s_x ist ungefähr konstant, d.h. Standardabweichung ist umgekehrt proportional zur Wurzel aus n.
 	- Möchte man die Standardabweichung der Mittelwerte halbieren, muss man die Stichprobengrösse vervierfachen!
 ### Gekerbter Boxplot
-
+Um bei Stichproben ein Intervall anzugeben, in dem der wahre Median «ziemlich sicher» liegt
+$Median +- (1.58)\cdot IQR) / (\sqrt(n))$
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjQ1ODA2NzAsLTEwMjIzMzIyNjEsLT
-MyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcyLDE2NjAz
-MDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mjk2MTkyNi
-wzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2NiwtODU0
-Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxND
-c4MywtNTQ2MzgxNjYxLC0xOTI0Mjk0OTgzLC0xMzQ4MzIzMzk2
-LC0xOTU1NTY4ODM4XX0=
+eyJoaXN0b3J5IjpbLTg5NzczNTIyMywtMTAyMjMzMjI2MSwtMz
+I1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIsMTY2MDMw
+Mzc1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LD
+MwMjE2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQz
+ODY3ODksLTEyMjM1MjUxNzMsOTkxODY1OTExLC0xNDcxNzE0Nz
+gzLC01NDYzODE2NjEsLTE5MjQyOTQ5ODMsLTEzNDgzMjMzOTYs
+LTE5NTU1Njg4MzhdfQ==
 -->
