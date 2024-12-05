@@ -823,16 +823,16 @@ $$x \mapsto z = (\frac{x - \bar x}{s_x}) = (\frac{1}{s_x} \cdot x - \frac{\bar x
 $$d.h.$$$$ a = \frac{1}{s_x}$$ $$ b =  - \frac{\bar x}{s_x}$$
 $$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |\frac{1}{s_x}| \cdot s_x$$
 ## Diskussion
-Fettsäuren und Herzkreislauf   
+Debatte um Fettsäuren und Herzkreislauf, kommt aus einer Studie aus den 60ern. Haken der Studie, Funds der Studie aus der US Zuckerindustrie
 ## Zusammenhang Stichprobengrössen und Genauigkeit
 
 ## PCA
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc4NDI2MzUsOTgyMzY4MTgyLC04NT
-M0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUx
-MiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTczLD
-k5MTg2NTkxMSwtMTQ3MTcxNDc4MywtNTQ2MzgxNjYxLC0xOTI0
-Mjk0OTgzLC0xMzQ4MzIzMzk2LC0xOTU1NTY4ODM4LC0zMjg3Nz
-cyNzIsMTEyMTY4MTI5MywtNDI1MjU0MTQ1LDEyNzkzMzMzMDgs
-MTE2MjI1MDY2MV19
+eyJoaXN0b3J5IjpbLTkzMTk0OTgwMyw5ODIzNjgxODIsLTg1Mz
+QwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEy
+LC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1MjUxNzMsOT
+kxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2NjEsLTE5MjQy
+OTQ5ODMsLTEzNDgzMjMzOTYsLTE5NTU1Njg4MzgsLTMyODc3Nz
+I3MiwxMTIxNjgxMjkzLC00MjUyNTQxNDUsMTI3OTMzMzMwOCwx
+MTYyMjUwNjYxXX0=
 -->
