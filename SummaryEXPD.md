@@ -852,13 +852,13 @@ $Median +- (1.58)\cdot IQR) / (\sqrt(n))$
 ## PCA
 Ziel der Hauptkomponentenanalyse ist es die Anzahl Dimensionen eines Datensatzes zu reduzieren, damit es die Visualisierung solcher Daten erleichtert. Es ist eine von vielen Möglichkeiten Dimensionen zu reduzieren.
 Ebenso ist die Dimensionsreduktion beim Trainieren von Modellen hilfreich, um irrelevante Daten zu eliminieren oder Noise/Rauschen zu reduzieren. Ebenso gibt es Algorithmen die nicht mit hoch Dimensionalen Daten umgehen können.
-Die Hauptidee ist es die Koordinatenachsen so zu drehen, das am wenigsten Information verloren geht. Dies ist äquivalent diejenige Richtung zu finden, in welcher die grösste Streuung vorliegt, d
+Die Hauptidee ist es die Koordinatenachsen so zu drehen, das am wenigsten Information verloren geht. Dies ist äquivalent diejenige Richtung zu finden, in welcher die grösste Streuung vorliegt,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjEyMDE4MywtNzQ3MjU5MzE5LC0xNj
-k2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMzIyNjEsLTMyNTc2
-MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NT
-gsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIx
-NjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nz
-g5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwtMTQ3MTcxNDc4Mywt
-NTQ2MzgxNjYxXX0=
+eyJoaXN0b3J5IjpbLTEyOTExNDQxNzksLTc0NzI1OTMxOSwtMT
+Y5NjUwNDM5MywtODk3NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3
+NjI1MTAsMTExMDg0ODI2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNz
+U4LDk4MjM2ODE4MiwtODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAy
+MTYwNzgxLDEwMTk2NTM1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Nj
+c4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMs
+LTU0NjM4MTY2MV19
 -->
