@@ -864,9 +864,10 @@ cov(x_2, x_1) & var(x_2) & \cdots & cov(x_2, x_p) \\
 \vdots  & \vdots  &  &\vdots \\
 cov(x_p,x_1) & cov(x_p,x_1) & \cdots & var(x_p)
 \end{bmatrix}$$
+Wenn einige Variablen korreliert sind, haben Elemente ausserhalb der Diagonale Werte ungleich 0
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjY1MzEyNiwtMTI5MTE0NDE3OSwtNz
+eyJoaXN0b3J5IjpbLTkxMDkzNjIyOCwtMTI5MTE0NDE3OSwtNz
 Q3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIz
 MzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1OD
 cyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3
