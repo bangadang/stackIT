@@ -855,8 +855,10 @@ Ebenso ist die Dimensionsreduktion beim Trainieren von Modellen hilfreich, um ir
 Die Hauptidee ist es die Koordinatenachsen so zu drehen, das am wenigsten Information verloren geht, d.h. in in die Richtung des Schwerpunkts der Daten (**Mittelwert von den Daten abziehen**). Dies ist äquivalent diejenige Richtung zu finden, in welcher die grösste Streuung vorliegt (Mass für die Streuung ist die Varianz), bzw. den Projektionsraum zu finden mit minimaler Summe der quadratischen orthogonalen Abständen. 
 --> Rotation des ursprünglichen Koordinatensystems zum Koordinatensystem der Hauptkomponenten, s.d. der grösste Teil der restlichen Varianz entlang der zweiten Hauptkomponenten liegt. 
 
+$$X_{n\times p} \cdot A_{}$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzIwMTAzMywtMTI5MTE0NDE3OSwtNz
+eyJoaXN0b3J5IjpbLTc2MzcwODk2OCwtMTI5MTE0NDE3OSwtNz
 Q3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIz
 MzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1OD
 cyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3
