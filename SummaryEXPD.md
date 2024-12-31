@@ -878,14 +878,16 @@ pca$roration #rotationsmatrix
 Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw. den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht. Eine Skalierung der Daten ist sinnvoll, wenn die Variablen verschiedene Einheiten haben oder gezielt gewollt ist, dass alle das gleiche Gewicht haben. 
 
 ### Schritt 2 Dimensionsreduktion
+Nach der Rotation verwenden wir nur die ersten paar Hauptkomponenten und hoffen, dass die Daten dadurch möglichst gut beschrieben/approx sind.
+Als Mass für die Qualität der 
 Die Rotation verändert die Summe der totalen Varianz nicht. 
-$$Var_total = \sum_{j=1}^{k}Var(X_j)$$
+$$Var_{total} = \sum_{j=1}^{k}Var(X_j)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDgwMjM1MiwtMTYyNDg0NTA2MCwtMT
-I5MTE0NDE3OSwtNzQ3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3
-MzUyMjMsLTEwMjIzMzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4Mj
-YwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04
-NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMTAxOTY1Mz
-UxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTcz
-LDk5MTg2NTkxMV19
+eyJoaXN0b3J5IjpbMTc2OTAyNzc1LC0xNjI0ODQ1MDYwLC0xMj
+kxMTQ0MTc5LC03NDcyNTkzMTksLTE2OTY1MDQzOTMsLTg5Nzcz
+NTIyMywtMTAyMjMzMjI2MSwtMzI1NzYyNTEwLDExMTA4NDgyNj
+AsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1
+MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNT
+EyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1MjUxNzMs
+OTkxODY1OTExXX0=
 -->
