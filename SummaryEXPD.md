@@ -882,13 +882,14 @@ Nach der Rotation verwenden wir nur die ersten paar Hauptkomponenten und hoffen,
 Als Mass für die Qualität der Approximation ist die Varianz.
 Wichtig ist, dass die Rotation die Summe der totalen Varianz nicht verändert. 
 $$Var_{total} = \sum_{j=1}^{k}Var(X_j)$$
-
+Als Kriterium der Qualität der Approximation nehmen wir den Anteil der Varianz der durch die ersten k-Hauptkomponenten beschrieben wird.
+$$p_k = (\sum_{j=1}^{k})$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4NzkxMTg3LC0xNjI0ODQ1MDYwLC0xMj
-kxMTQ0MTc5LC03NDcyNTkzMTksLTE2OTY1MDQzOTMsLTg5Nzcz
-NTIyMywtMTAyMjMzMjI2MSwtMzI1NzYyNTEwLDExMTA4NDgyNj
-AsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1
-MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNT
-EyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1MjUxNzMs
-OTkxODY1OTExXX0=
+eyJoaXN0b3J5IjpbLTE0ODc5NDE1NTYsLTE2MjQ4NDUwNjAsLT
+EyOTExNDQxNzksLTc0NzI1OTMxOSwtMTY5NjUwNDM5MywtODk3
+NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTExMDg0OD
+I2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4Miwt
+ODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMTk2NT
+M1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUyNTE3
+Myw5OTE4NjU5MTFdfQ==
 -->
