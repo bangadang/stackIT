@@ -911,11 +911,17 @@ Mit dem Biplot, welcher den Scoreplot mit standardisierten Daten und zusätzlich
 Enge Winkel zwischen Pfeilen zweier Variablen bedeuten eine Stärkere Korrelation. Sind sich zwei Pfeile entgegengesetzt besteht keine Korrelation.
 ```r
 biplot(pca)
+#oder
+library(ggfortify)
+autoplot(pca, loadings=True, loadings.label=True, label=True, la
 ```
 Die Richtung und Länge der  Pfeile kann auch in der Rotationsmatrix gessehen werden.
+```r
+pca$rotation[,1:2]
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTM3MjE4OCwtMTkzODIyNzExNCwxNj
+eyJoaXN0b3J5IjpbMjA0NDkwMDA1OSwtMTkzODIyNzExNCwxNj
 U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
 NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
 I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
