@@ -856,7 +856,7 @@ Die Hauptidee ist es die Koordinatenachsen so zu drehen, das am wenigsten Inform
 --> Rotation des ursprünglichen Koordinatensystems zum Koordinatensystem der Hauptkomponenten, s.d. der grösste Teil der restlichen Varianz entlang der zweiten Hauptkomponenten liegt. 
 
 $$X_{n\times p} \cdot A_{p \times p} = Z_{n\times p}$$
-Die PCA Rotation ergibt sich durch die Multiplikation der Datenmatrix X (Kovarianz-Matrix) mit der Rotationsmatrix A, sodass original korrelierte Variablen in unkorrelierte transformiert werden. Die Kovarainmattrix   Die Rotationmatrix A erhält man über Lösen dieses Gleichungssystems. 
+Die PCA Rotation ergibt sich durch die Multiplikation der Datenmatrix X (Kovarianz-Matrix) mit der Rotationsmatrix A, sodass original korrelierte Variablen in unkorrelierte transformiert werden. D.h. die Kovarianzmatrix wird diagonalisiert, sodass alle Elemente ausserhalb der Diagonale   Die Rotationmatrix A erhält man über Lösen dieses Gleichungssystems. 
 
 $$Cov(X) =\begin{bmatrix} 
 var(x_1) & cov(x_1, x_2) & \cdots & cov(x_1, x_p) \\ 
@@ -868,11 +868,11 @@ Wenn einige Variablen korreliert sind, haben Elemente ausserhalb der Diagonale W
 Wenn die Elemente ausserhalb der Diagonale den Wert 0 haben, dann sind alle Variablen unkorreliert.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ4NTMwOTAsLTEyOTExNDQxNzksLT
-c0NzI1OTMxOSwtMTY5NjUwNDM5MywtODk3NzM1MjIzLC0xMDIy
-MzMyMjYxLC0zMjU3NjI1MTAsMTExMDg0ODI2MCwtMTU1MzE5NT
-g3MiwxNjYwMzAzNzU4LDk4MjM2ODE4MiwtODUzNDA5NzgxLDEy
-NzI5NjE5MjYsMzAyMTYwNzgxLDEwMTk2NTM1MTIsLTE3MzkzNj
-cyNjYsLTg1NDM4Njc4OSwtMTIyMzUyNTE3Myw5OTE4NjU5MTEs
-LTE0NzE3MTQ3ODNdfQ==
+eyJoaXN0b3J5IjpbMjA1MDQ2ODc3MCwtMTI5MTE0NDE3OSwtNz
+Q3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIz
+MzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1OD
+cyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3
+Mjk2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2Nz
+I2NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTczLDk5MTg2NTkxMSwt
+MTQ3MTcxNDc4M119
 -->
