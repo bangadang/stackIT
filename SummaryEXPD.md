@@ -887,13 +887,13 @@ Als erstes Kriterium der Qualität der Approximation nehmen wir den Anteil der V
 $$p_k = ( \sum_{j=1}^{k} Var(Z_j)) / Var_{total}$$
 
 k sollte so gewählt werden, dass ca. 80% der totalen Varian durch die berücksichtigten Hauptkomponenten erklärt wird.
-Das zweite Kriterium ist der Knick im Screeplot. All
+Das zweite Kriterium ist der Knick im Screeplot. Alle Hauptkomponenten nach dem Knickk tragen nicht mehr zur Gesamtinformation bei.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDA2MTE2OSwtMTkzODIyNzExNCwxNj
-U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
-NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
-I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
-MTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOT
-YxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2
-LC04NTQzODY3ODldfQ==
+eyJoaXN0b3J5IjpbLTI3OTkwNjQwLC0xOTM4MjI3MTE0LDE2NT
+g1ODc5MzAsLTE2MjQ4NDUwNjAsLTEyOTExNDQxNzksLTc0NzI1
+OTMxOSwtMTY5NjUwNDM5MywtODk3NzM1MjIzLC0xMDIyMzMyMj
+YxLC0zMjU3NjI1MTAsMTExMDg0ODI2MCwtMTU1MzE5NTg3Miwx
+NjYwMzAzNzU4LDk4MjM2ODE4MiwtODUzNDA5NzgxLDEyNzI5Nj
+E5MjYsMzAyMTYwNzgxLDEwMTk2NTM1MTIsLTE3MzkzNjcyNjYs
+LTg1NDM4Njc4OV19
 -->
