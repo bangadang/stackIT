@@ -854,6 +854,7 @@ Ziel der Hauptkomponentenanalyse ist es die Anzahl Dimensionen eines Datensatzes
 Ebenso ist die Dimensionsreduktion beim Trainieren von Modellen hilfreich, um irrelevante Daten zu eliminieren oder Noise/Rauschen zu reduzieren. Ebenso gibt es Algorithmen die nicht mit hoch Dimensionalen Daten umgehen können.
 Die Hauptidee ist es die Koordinatenachsen so zu drehen, das am wenigsten Information verloren geht, d.h. in in die Richtung des Schwerpunkts der Daten (**Mittelwert von den Daten abziehen**). Dies ist äquivalent diejenige Richtung zu finden, in welcher die grösste Streuung vorliegt (Mass für die Streuung ist die Varianz), bzw. den Projektionsraum zu finden mit minimaler Summe der quadratischen orthogonalen Abständen. 
 --> Rotation des ursprünglichen Koordinatensystems zum Koordinatensystem der Hauptkomponenten, s.d. der grösste Teil der restlichen Varianz entlang der zweiten Hauptkomponenten liegt. 
+--> Nutzen einer Dimensionsreduktion ist besonders nützlich wenn die Variablen stark korrelieren
 
 ### Schritt 1 Rotation
 $$X_{n\times p} \cdot A_{p \times p} = Z_{n\times p}$$
@@ -972,11 +973,11 @@ abline(h = pca.rob@cutoff.od)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIxNTAyODAsLTE5MzgyMjcxMTQsMT
-Y1ODU4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3
-MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMz
-IyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcy
-LDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mj
-k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
-NiwtODU0Mzg2Nzg5XX0=
+eyJoaXN0b3J5IjpbNzkzOTY3MjcsLTE5MzgyMjcxMTQsMTY1OD
+U4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3MjU5
+MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMzIyNj
+EsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcyLDE2
+NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mjk2MT
+kyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2Niwt
+ODU0Mzg2Nzg5XX0=
 -->
