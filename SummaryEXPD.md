@@ -937,16 +937,26 @@ $$OD_i = || x_i- \mu - P\cdot y_i^T$$
 
 BSP
 ```r
-
+library(ggplot2)
+pca_klass <- prcomp(x)
+dat_plot <- data.frame(
+	pca_klass$x,
+	label=as.factor(xlabel)
+	)
+ggplot(dat_plot, 
+	aes(x=PC1, 
+	y=PC2,
+	color=label))+
+	geom_point()
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODY0Njc0NSwtMTkzODIyNzExNCwxNj
-U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
-NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
-I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
-MTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOT
-YxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2
-LC04NTQzODY3ODldfQ==
+eyJoaXN0b3J5IjpbLTE1NDU3MDUxNDYsLTE5MzgyMjcxMTQsMT
+Y1ODU4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3
+MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMz
+IyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcy
+LDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mj
+k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
+NiwtODU0Mzg2Nzg5XX0=
 -->
