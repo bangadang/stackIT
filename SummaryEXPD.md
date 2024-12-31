@@ -873,6 +873,7 @@ Wenn die Elemente ausserhalb der Diagonale den Wert 0 haben, dann sind alle Vari
 pca <-prcomp(df, scale=TRUE) #numerisch stabiler
 princomp() #Alternative mit mehr Optionen
 pca$roration #rotationsmatrix
+screeplot(pca)
 ```
 #### Gewicht und Skalierung
 Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw. den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht. Eine Skalierung der Daten ist sinnvoll, wenn die Variablen verschiedene Einheiten haben oder gezielt gewollt ist, dass alle das gleiche Gewicht haben. 
@@ -885,12 +886,13 @@ $$Var_{total} = \sum_{j=1}^{k}Var(X_j)$$
 Als Kriterium der Qualität der Approximation nehmen wir den Anteil der Varianz der durch die ersten k-Hauptkomponenten beschrieben wird.
 $$p_k = ( \sum_{j=1}^{k} Var(Z_j)) / Var_{total}$$
 
+k sollte so gewählt werden, dass ca. 80% der totalen Varian durch die berücksichtigten Hauptkomponenten erklärt wird.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwNjI1MDYsLTE2MjQ4NDUwNjAsLTEyOT
-ExNDQxNzksLTc0NzI1OTMxOSwtMTY5NjUwNDM5MywtODk3NzM1
-MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTExMDg0ODI2MC
-wtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4MiwtODUz
-NDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMTk2NTM1MT
-IsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUyNTE3Myw5
-OTE4NjU5MTFdfQ==
+eyJoaXN0b3J5IjpbMTY1ODU4NzkzMCwtMTYyNDg0NTA2MCwtMT
+I5MTE0NDE3OSwtNzQ3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3
+MzUyMjMsLTEwMjIzMzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4Mj
+YwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04
+NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMTAxOTY1Mz
+UxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTcz
+LDk5MTg2NTkxMV19
 -->
