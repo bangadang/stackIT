@@ -850,13 +850,13 @@ Um bei Stichproben ein Intervall anzugeben, in dem der wahre Median «ziemlich s
 $Median +- (1.58)\cdot IQR) / (\sqrt(n))$
 
 ## PCA
-Ziel der Hauptkomponentenanalyse ist es die Anzahl Dimensionen eines Datensatzes zu reduzieren, damit es die Visualisierung solcher Daten erle
+Ziel der Hauptkomponentenanalyse ist es die Anzahl Dimensionen eines Datensatzes zu reduzieren, damit es die Visualisierung solcher Daten erleichtert. Ebenso ist die Dimensionsreduktion beim Trainieren von Modellen hilfreich, um irrelevante Daten zu eliminieren oder Noise/Rauschen zu reduzieren. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODM2Nzk5MSwtMTY5NjUwNDM5MywtOD
-k3NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTExMDg0
-ODI2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4Mi
-wtODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMTk2
-NTM1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUyNT
-E3Myw5OTE4NjU5MTEsLTE0NzE3MTQ3ODMsLTU0NjM4MTY2MSwt
-MTkyNDI5NDk4M119
+eyJoaXN0b3J5IjpbLTE4NTg0MDYyMzAsLTE2OTY1MDQzOTMsLT
+g5NzczNTIyMywtMTAyMjMzMjI2MSwtMzI1NzYyNTEwLDExMTA4
+NDgyNjAsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgxOD
+IsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5
+NjUzNTEyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1Mj
+UxNzMsOTkxODY1OTExLC0xNDcxNzE0NzgzLC01NDYzODE2NjEs
+LTE5MjQyOTQ5ODNdfQ==
 -->
