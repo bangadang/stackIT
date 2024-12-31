@@ -894,10 +894,14 @@ Das zweite Kriterium ist der Knick im Scree-Plot (Geröll-Plot). Alle Hauptkompo
 In einem Score-Plot können die ersten beiden Hauptkomponenten (haben grössten Anteil der Varianz) visualisiert werden.
 ```r
 pca <- prcom(df, scale=T/F)
-plot(PC"
+plot(	PC1~PC2, 
+		data=pca$x,
+		pch=16,
+		las=1,
+		col= c(colors)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ3MDAzODQsLTE5MzgyMjcxMTQsMT
+eyJoaXN0b3J5IjpbLTE3MjQ5MjMyNjcsLTE5MzgyMjcxMTQsMT
 Y1ODU4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3
 MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMz
 IyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcy
