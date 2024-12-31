@@ -902,10 +902,14 @@ plot(	PC1~PC2,
 		main="title")
 text(x=pca$x[,1], 
 	y=pca$a[,2],
-	
+	labels=df$Rang,
+	pos=4)
+grid()
 ```
+
+Mit dem Biplot, welcher den Scoreplot mit standardisierten Daten und
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzcyMDAzMSwtMTkzODIyNzExNCwxNj
+eyJoaXN0b3J5IjpbMjEwODI4MjU0MSwtMTkzODIyNzExNCwxNj
 U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
 NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
 I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
