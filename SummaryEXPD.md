@@ -890,9 +890,10 @@ $$p_k = ( \sum_{j=1}^{k} Var(Z_j)) / Var_{total}$$
 k sollte so gewählt werden, dass ca. 80% der totalen Varian durch die berücksichtigten Hauptkomponenten erklärt wird.
 Das zweite Kriterium ist der Knick im Screeplot. Alle Hauptkomponenten nach dem Knickk tragen nicht mehr zur Gesamtinformation bei.
 
-### Interpret
+### Interpretation der PCA
+In einem Scoreplot können die ersten beiden Hauptkomponenten (haben grössten Anteil der Vaianz) visualisiert werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MzIyODA2MCwtMTkzODIyNzExNCwxNj
+eyJoaXN0b3J5IjpbMTExNDU2NjU0MSwtMTkzODIyNzExNCwxNj
 U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
 NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
 I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
