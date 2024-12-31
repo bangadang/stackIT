@@ -874,14 +874,14 @@ princomp() #Alternative mit mehr Optionen
 pca$roration #rotationsmatrix
 ```
 ### Gewicht und Skalierung
-Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw- den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht.
+Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw. den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht. Eine Skalierung der Dat
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM2MjUzNSwtMTYyNDg0NTA2MCwtMT
-I5MTE0NDE3OSwtNzQ3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3
-MzUyMjMsLTEwMjIzMzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4Mj
-YwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04
-NTM0MDk3ODEsMTI3Mjk2MTkyNiwzMDIxNjA3ODEsMTAxOTY1Mz
-UxMiwtMTczOTM2NzI2NiwtODU0Mzg2Nzg5LC0xMjIzNTI1MTcz
-LDk5MTg2NTkxMV19
+eyJoaXN0b3J5IjpbLTEyOTQ1MTg1MTIsLTE2MjQ4NDUwNjAsLT
+EyOTExNDQxNzksLTc0NzI1OTMxOSwtMTY5NjUwNDM5MywtODk3
+NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTExMDg0OD
+I2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4Miwt
+ODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMTk2NT
+M1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUyNTE3
+Myw5OTE4NjU5MTFdfQ==
 -->
