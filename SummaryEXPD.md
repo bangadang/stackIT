@@ -907,9 +907,9 @@ text(x=pca$x[,1],
 grid()
 ```
 
-Mit dem Biplot, welcher den Scoreplot mit standardisierten Daten und
+Mit dem Biplot, welcher den Scoreplot mit standardisierten Daten und zusätzlich Pfeile (Projektionen der urspr. Merkmale in der Ebene der HK) zeigt, kann visualisiert werden wie sich ein Datenpunkt verschoben werden würde we
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODI4MjU0MSwtMTkzODIyNzExNCwxNj
+eyJoaXN0b3J5IjpbMTQ0Njc0ODgzOSwtMTkzODIyNzExNCwxNj
 U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
 NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
 I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
