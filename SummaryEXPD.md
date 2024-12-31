@@ -907,9 +907,10 @@ text(x=pca$x[,1],
 grid()
 ```
 
-Mit dem Biplot, welcher den Scoreplot mit standardisierten Daten und zusätzlich Pfeile (Projektionen der urspr. Merkmale in der Ebene der HK) zeigt, kann visualisiert werden wie sich ein Datenpunkt verschoben werden würde we
+Mit dem Biplot, welcher den Scoreplot mit standardisierten Daten und zusätzlich Pfeile (Projektionen der urspr. Merkmale in der Ebene der HK) zeigt, kann visualisiert werden, wie ein Datenpunkt verschoben werden würde, wenn sich der Datenpunkt um eine Einheit verändert.
+Enge Winkel zwischen Pfeilen zweier Variablen bedeuten eine Stärkere Korrelation. Sind sich zwei Pfeile entgegengesetzt besteht keine Korrelation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Njc0ODgzOSwtMTkzODIyNzExNCwxNj
+eyJoaXN0b3J5IjpbMTY1NDkyMDM5MiwtMTkzODIyNzExNCwxNj
 U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
 NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
 I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
