@@ -859,14 +859,14 @@ $$X_{n\times p} \cdot A_{p \times p} = Z_{n\times p}$$
 Die PCA Rotation ergibt sich durch die Multiplikation der Datenmatrix X (Kovarianz-Matrix) mit der Rotationsmatrix A. Die Rotationmatrix A erhält man über Lösen dieses Gleichungssystems.
 
 $$Cov(X) =\begin{bmatrix} 
-var(x_1) & b & \cdots & c \\ 
-cov(x_2, x_1) & var(x_2) & \cdots & f \\ 
+var(x_1) & cov(x_1, x_2) & \cdots & cov(x_1, x_p) \\ 
+cov(x_2, x_1) & var(x_2) & \cdots & cov(x_2, x_p) \\ 
 \vdots  & \vdots  &  &\vdots \\
 cov(x_p,x_1) & cov(x_p,x_1) & \cdots & var(x_p)
 \end{bmatrix}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg1ODI0NiwtMTI5MTE0NDE3OSwtNz
+eyJoaXN0b3J5IjpbMTQ1NjY1MzEyNiwtMTI5MTE0NDE3OSwtNz
 Q3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIz
 MzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1OD
 cyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3
