@@ -932,15 +932,16 @@ pca$rotation[,1:2]
 $$SD_i = \sqrt{\sum_{j=1}^{k} \frac{y_{ij}^{2}}{\lambda_j}}$$
 $$optionaler cutoff: \sqrt{\Chi_{k0.975}^{2}}$$
 
-Ausreisser können im Raum der PCA auch über die orthogonale Distanz erfasst erde
+Ausreisser können im Raum der PCA auch über die orthogonale Distanz erfasst werden, welcher weit ausserhalb des ersten HK-Raums liegen.
+$$OD_i = $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTM1NjMwMDIsLTE5MzgyMjcxMTQsMT
-Y1ODU4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3
-MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMz
-IyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcy
-LDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mj
-k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
-NiwtODU0Mzg2Nzg5XX0=
+eyJoaXN0b3J5IjpbMTgyNDQ3MTgzLC0xOTM4MjI3MTE0LDE2NT
+g1ODc5MzAsLTE2MjQ4NDUwNjAsLTEyOTExNDQxNzksLTc0NzI1
+OTMxOSwtMTY5NjUwNDM5MywtODk3NzM1MjIzLC0xMDIyMzMyMj
+YxLC0zMjU3NjI1MTAsMTExMDg0ODI2MCwtMTU1MzE5NTg3Miwx
+NjYwMzAzNzU4LDk4MjM2ODE4MiwtODUzNDA5NzgxLDEyNzI5Nj
+E5MjYsMzAyMTYwNzgxLDEwMTk2NTM1MTIsLTE3MzkzNjcyNjYs
+LTg1NDM4Njc4OV19
 -->
