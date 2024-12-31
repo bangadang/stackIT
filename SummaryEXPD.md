@@ -879,7 +879,7 @@ screeplot(pca)
 Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw. den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht. Eine Skalierung der Daten ist sinnvoll, wenn die Variablen verschiedene Einheiten haben oder gezielt gewollt ist, dass alle das gleiche Gewicht haben. 
 --> Skalierung ändert das Ergebnis der PCA
 Da die PCA von Varianzen und Korrelationen, die stark von Ausreissern beeinflusst werden können, abhängt, können Ausreisser die PCA stark verfälschen.
-Setzt man die scale Variable auf True wird mit Mittelwert und Standardabweichung standardisiert. Besser wär
+Setzt man die scale Variable auf True wird mit Mittelwert und Standardabweichung standardisiert. Besser wäre diese über Median und MAD als Skalenmass. Diese muss dann aber manuell durchgeführt werden und anschliessend die scale Variable bei der PCA auf False setzten.
 
 ### Schritt 2 Dimensionsreduktion
 Nach der Rotation verwenden wir nur die ersten paar Hauptkomponenten und hoffen, dass die Daten dadurch möglichst gut beschrieben/approximiert sind.
@@ -927,8 +927,10 @@ Die Richtung und Länge der  Pfeile kann auch in der Rotationsmatrix gessehen we
 pca$rotation[,1:2]
 ```
 
+### PCA mit robusten Sch
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNTA5NjE0NiwtMTkzODIyNzExNCwxNj
+eyJoaXN0b3J5IjpbMTUxOTM0NTkzOCwtMTkzODIyNzExNCwxNj
 U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
 NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
 I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
