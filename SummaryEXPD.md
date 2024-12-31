@@ -933,11 +933,11 @@ $$SD_i = \sqrt{\sum_{j=1}^{k} \frac{y_{ij}^{2}}{\lambda_j}}$$
 $$optionaler cutoff: \sqrt{\Chi_{k0.975}^{2}}$$
 
 Ausreisser können im Raum der PCA auch über die orthogonale Distanz erfasst werden, welcher weit ausserhalb des ersten HK-Raums liegen.
-$$OD_i = $$
+$$OD_i = || x_i- \mu - P\cdot y_i^T$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNDQ3MTgzLC0xOTM4MjI3MTE0LDE2NT
+eyJoaXN0b3J5IjpbODQzOTU5ODYyLC0xOTM4MjI3MTE0LDE2NT
 g1ODc5MzAsLTE2MjQ4NDUwNjAsLTEyOTExNDQxNzksLTc0NzI1
 OTMxOSwtMTY5NjUwNDM5MywtODk3NzM1MjIzLC0xMDIyMzMyMj
 YxLC0zMjU3NjI1MTAsMTExMDg0ODI2MCwtMTU1MzE5NTg3Miwx
