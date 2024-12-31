@@ -860,13 +860,13 @@ Die PCA Rotation ergibt sich durch die Multiplikation der Datenmatrix X (Kovaria
 
 $$Cov(X) =\begin{bmatrix} 
 var(x_1) & b & \cdots & c \\ 
-d & var(x_2) & \cdots & f \\ 
-g & h &  &\vdots \\
-
+cov(x_2, x_1) & var(x_2) & \cdots & f \\ 
+\vdots  & \vdots  &  &\vdots \\
+cov(x_p,x_1) & cov(x_p,x_1) & \cdots & var(x_p)
 \end{bmatrix}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTAzNjg1NywtMTI5MTE0NDE3OSwtNz
+eyJoaXN0b3J5IjpbLTExNzg1ODI0NiwtMTI5MTE0NDE3OSwtNz
 Q3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIz
 MzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1OD
 cyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3
