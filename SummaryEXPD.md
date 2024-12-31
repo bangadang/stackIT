@@ -855,6 +855,7 @@ Ebenso ist die Dimensionsreduktion beim Trainieren von Modellen hilfreich, um ir
 Die Hauptidee ist es die Koordinatenachsen so zu drehen, das am wenigsten Information verloren geht, d.h. in in die Richtung des Schwerpunkts der Daten (**Mittelwert von den Daten abziehen**). Dies ist äquivalent diejenige Richtung zu finden, in welcher die grösste Streuung vorliegt (Mass für die Streuung ist die Varianz), bzw. den Projektionsraum zu finden mit minimaler Summe der quadratischen orthogonalen Abständen. 
 --> Rotation des ursprünglichen Koordinatensystems zum Koordinatensystem der Hauptkomponenten, s.d. der grösste Teil der restlichen Varianz entlang der zweiten Hauptkomponenten liegt. 
 
+### Schritt 1 Rotat
 $$X_{n\times p} \cdot A_{p \times p} = Z_{n\times p}$$
 Die PCA Rotation ergibt sich durch die Multiplikation der Datenmatrix X (Kovarianz-Matrix) mit der Rotationsmatrix A, sodass original korrelierte Variablen in unkorrelierte transformiert werden. D.h. die Kovarianzmatrix wird diagonalisiert, sodass alle Elemente ausserhalb der Diagonale den Wert 0 haben.  Die Rotationmatrix A erhält man über Lösen dieses Gleichungssystems mittels Eigenvektoren. 
 
@@ -874,14 +875,14 @@ princomp() #Alternative mit mehr Optionen
 pca$roration #rotationsmatrix
 ```
 ### Gewicht und Skalierung
-Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw. den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht. Eine Skalierung der Dat
+Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw. den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht. Eine Skalierung der Daten ist sinnvoll, wenn die Variablen verschiedene Einheiten haben oder gezielt gewollt ist, dass alle das gleiche Gewicht haben. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ1MTg1MTIsLTE2MjQ4NDUwNjAsLT
-EyOTExNDQxNzksLTc0NzI1OTMxOSwtMTY5NjUwNDM5MywtODk3
-NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTExMDg0OD
-I2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2ODE4Miwt
-ODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEwMTk2NT
-M1MTIsLTE3MzkzNjcyNjYsLTg1NDM4Njc4OSwtMTIyMzUyNTE3
-Myw5OTE4NjU5MTFdfQ==
+eyJoaXN0b3J5IjpbNzM0MjE3NDc4LC0xNjI0ODQ1MDYwLC0xMj
+kxMTQ0MTc5LC03NDcyNTkzMTksLTE2OTY1MDQzOTMsLTg5Nzcz
+NTIyMywtMTAyMjMzMjI2MSwtMzI1NzYyNTEwLDExMTA4NDgyNj
+AsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1
+MzQwOTc4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNT
+EyLC0xNzM5MzY3MjY2LC04NTQzODY3ODksLTEyMjM1MjUxNzMs
+OTkxODY1OTExXX0=
 -->
