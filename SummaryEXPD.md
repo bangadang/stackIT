@@ -869,14 +869,15 @@ Wenn die Elemente ausserhalb der Diagonale den Wert 0 haben, dann sind alle Vari
 
 ```r
 # R Basic Funktonen für die PCA
-prcomp(df, scale=TRUE) #numerisch stabiler
+pca <-prcomp(df, scale=TRUE) #numerisch stabiler
 princomp() #Alternative mit mehr Optionen
+pca$roration #rotationsmatrix
 ```
 ### Gewicht und Skalierung
 Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw- den grössten Einfluss auf die neue Koordinate. Skaliert/Standardisiert man die Variablen, haben alle das gleiche Gewicht.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODU3MjQ1OSwtMTYyNDg0NTA2MCwtMT
+eyJoaXN0b3J5IjpbLTExNTM2MjUzNSwtMTYyNDg0NTA2MCwtMT
 I5MTE0NDE3OSwtNzQ3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3
 MzUyMjMsLTEwMjIzMzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4Mj
 YwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04
