@@ -928,14 +928,16 @@ pca$rotation[,1:2]
 ```
 
 ### PCA mit robusten Schätzern
-**PcaHubert** und **rrcov** sind Pakete in R welche PCA mit robusteren Methoden durchführen. Diese Art der PCA detektiert Ausreisser in h
+**PcaHubert** und **rrcov** sind Pakete in R welche PCA mit robusteren Methoden durchführen. Diese Art der PCA detektiert Ausreisser in hochdimensionalen Daten. Solche Datenpunkte haben eine grosse Distanz zum Ursprung der PCA auch Score-Distanz genannt.
+$$SD_i = \sqrt$$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA4Nzg4MTcsLTE5MzgyMjcxMTQsMT
-Y1ODU4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3
-MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMz
-IyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcy
-LDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mj
-k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
-NiwtODU0Mzg2Nzg5XX0=
+eyJoaXN0b3J5IjpbMTY3NjI5NjkzNCwtMTkzODIyNzExNCwxNj
+U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
+NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
+I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
+MTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOT
+YxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2
+LC04NTQzODY3ODldfQ==
 -->
