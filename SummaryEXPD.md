@@ -872,10 +872,11 @@ Wenn die Elemente ausserhalb der Diagonale den Wert 0 haben, dann sind alle Vari
 prcomp() #numerisch stabiler
 princomp() #Alternative mit mehr Optionen
 ```
-
+### Gewicht und Skalierung
+Wenn Variablen nicht skaliert sind, hat die Variable mit der grössten Streuung das höchste Gewicht bzw- den grössten Einfluss auf die neue Koordinate.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2OTM4ODUwMiwtMTYyNDg0NTA2MCwtMT
+eyJoaXN0b3J5IjpbMTU4NDg4NTk5MSwtMTYyNDg0NTA2MCwtMT
 I5MTE0NDE3OSwtNzQ3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3
 MzUyMjMsLTEwMjIzMzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4Mj
 YwLC0xNTUzMTk1ODcyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04
