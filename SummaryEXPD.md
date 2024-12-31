@@ -888,16 +888,20 @@ Als erstes Kriterium der Qualität der Approximation nehmen wir den Anteil der V
 $$p_k = ( \sum_{j=1}^{k} Var(Z_j)) / Var_{total}$$
 
 k sollte so gewählt werden, dass ca. 80% der totalen Varian durch die berücksichtigten Hauptkomponenten erklärt wird.
-Das zweite Kriterium ist der Knick im Screeplot. Alle Hauptkomponenten nach dem Knickk tragen nicht mehr zur Gesamtinformation bei.
+Das zweite Kriterium ist der Knick im Scree-Plot (Geröll-Plot). Alle Hauptkomponenten nach dem Knick tragen nicht mehr zur Gesamtinformation bei.
 
 ### Interpretation der PCA
-In einem Scoreplot können die ersten beiden Hauptkomponenten (haben grössten Anteil der Vaianz) visualisiert werden.
+In einem Score-Plot können die ersten beiden Hauptkomponenten (haben grössten Anteil der Varianz) visualisiert werden.
+```r
+pca <- prcom(df, scale=T/F)
+plot(PC"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDU2NjU0MSwtMTkzODIyNzExNCwxNj
-U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
-NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
-I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
-MTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOT
-YxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEyLC0xNzM5MzY3MjY2
-LC04NTQzODY3ODldfQ==
+eyJoaXN0b3J5IjpbLTEyOTQ3MDAzODQsLTE5MzgyMjcxMTQsMT
+Y1ODU4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3
+MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMz
+IyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcy
+LDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mj
+k2MTkyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2
+NiwtODU0Mzg2Nzg5XX0=
 -->
