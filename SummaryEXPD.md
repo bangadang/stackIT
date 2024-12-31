@@ -913,7 +913,12 @@ Enge Winkel zwischen Pfeilen zweier Variablen bedeuten eine Stärkere Korrelatio
 biplot(pca)
 #oder
 library(ggfortify)
-autoplot(pca, loadings=True, loadings.label=True, label=True, la
+autoplot(pca, 
+	loadings=True, 
+	loadings.label=True, 
+	label=True, 
+	label.hjust=-0.3, 
+	main="title")
 ```
 Die Richtung und Länge der  Pfeile kann auch in der Rotationsmatrix gessehen werden.
 ```r
@@ -921,7 +926,7 @@ pca$rotation[,1:2]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDkwMDA1OSwtMTkzODIyNzExNCwxNj
+eyJoaXN0b3J5IjpbLTQ3Nzc1NTIyNCwtMTkzODIyNzExNCwxNj
 U4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcy
 NTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMj
 I2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIs
