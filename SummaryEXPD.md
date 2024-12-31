@@ -858,8 +858,10 @@ Die Hauptidee ist es die Koordinatenachsen so zu drehen, das am wenigsten Inform
 $$X_{n\times p} \cdot A_{p \times p} = Z_{n\times p}$$
 Die PCA Rotation ergibt sich durch die Multiplikation der Datenmatrix X (Kovarianz-Matrix) mit der Rotationsmatrix A. Die Rotationmatrix A erhält man über Lösen dieses Gleichungssystems.
 
+$$\[ \begin{bmatrix} a & b & c \\ d & e & f \\ g & h & i \end{bmatrix} \]$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTI2ODExMCwtMTI5MTE0NDE3OSwtNz
+eyJoaXN0b3J5IjpbLTI0NDczNzA2MSwtMTI5MTE0NDE3OSwtNz
 Q3MjU5MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIz
 MzIyNjEsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1OD
 cyLDE2NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3
