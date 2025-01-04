@@ -308,7 +308,7 @@ legend("topleft",
 		legend=c("meaning1", "meaning2"),
 		,fill = c(col1, col2),bty= "n")
 ```
-#### - **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
+####  **Gleitender Mittelwert** (bspw. über ein Streudiagramm)
 	1. Wähle ein Fenster von x-Werten
 	2. Bilde den Mittelwert über die y-Werte im Fenster
 	3. Zeichne den Mittelwert in der Mitte des Fensters ein
@@ -973,11 +973,11 @@ abline(h = pca.rob@cutoff.od)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzOTY3MjcsLTE5MzgyMjcxMTQsMTY1OD
-U4NzkzMCwtMTYyNDg0NTA2MCwtMTI5MTE0NDE3OSwtNzQ3MjU5
-MzE5LC0xNjk2NTA0MzkzLC04OTc3MzUyMjMsLTEwMjIzMzIyNj
-EsLTMyNTc2MjUxMCwxMTEwODQ4MjYwLC0xNTUzMTk1ODcyLDE2
-NjAzMDM3NTgsOTgyMzY4MTgyLC04NTM0MDk3ODEsMTI3Mjk2MT
-kyNiwzMDIxNjA3ODEsMTAxOTY1MzUxMiwtMTczOTM2NzI2Niwt
-ODU0Mzg2Nzg5XX0=
+eyJoaXN0b3J5IjpbLTU1NzgxOTg5OCw3OTM5NjcyNywtMTkzOD
+IyNzExNCwxNjU4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0
+MTc5LC03NDcyNTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMy
+wtMTAyMjMzMjI2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1
+NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1MzQwOT
+c4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEyLC0x
+NzM5MzY3MjY2XX0=
 -->
