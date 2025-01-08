@@ -435,6 +435,11 @@ mosaicplot(~ kat_var1+ kat_var2 + kat_var3, data = df, main = "Title", col = c("
 
 library(vcd)
 mosaic(~ kat_var1+ kat_var2 + kat_var3, data = df, direction = c("v","h","v"), highlighting = "kat_var3", highlighting_fill = c("red", "blue", "green"), main = "Title", cex.axis = 0.7)
+
+library(ggmosaic)
+ggplot(data = df) +
+geom_mosaic(aes(x=product(kat_var1, kat_var2, kat_var3), fill=kat_var1/2/3), divider = mosaic("h"))+
+  labs(x="kat_var", y="zivilstand")
 ```
 ### 1 quantitative und mehrere kategoriellen Variablen
 #### Boxplots (1num + 2kat)
@@ -973,11 +978,11 @@ abline(h = pca.rob@cutoff.od)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NzgxOTg5OCw3OTM5NjcyNywtMTkzOD
-IyNzExNCwxNjU4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMjkxMTQ0
-MTc5LC03NDcyNTkzMTksLTE2OTY1MDQzOTMsLTg5NzczNTIyMy
-wtMTAyMjMzMjI2MSwtMzI1NzYyNTEwLDExMTA4NDgyNjAsLTE1
-NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1MzQwOT
-c4MSwxMjcyOTYxOTI2LDMwMjE2MDc4MSwxMDE5NjUzNTEyLC0x
-NzM5MzY3MjY2XX0=
+eyJoaXN0b3J5IjpbLTUxMzQzODM2MSwtNTU3ODE5ODk4LDc5Mz
+k2NzI3LC0xOTM4MjI3MTE0LDE2NTg1ODc5MzAsLTE2MjQ4NDUw
+NjAsLTEyOTExNDQxNzksLTc0NzI1OTMxOSwtMTY5NjUwNDM5My
+wtODk3NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTEx
+MDg0ODI2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2OD
+E4MiwtODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEw
+MTk2NTM1MTJdfQ==
 -->
