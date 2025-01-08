@@ -439,7 +439,7 @@ mosaic(~ kat_var1+ kat_var2 + kat_var3, data = df, direction = c("v","h","v"), h
 library(ggmosaic)
 ggplot(data = df) +
 geom_mosaic(aes(x=product(kat_var1, kat_var2, kat_var3), fill=kat_var1/2/3), divider = mosaic("h"))+
-  labs(x="kat_var", y="zivilstand")
+  labs(x="kat_var2/3/1", y="kat_var3/1/2")
 ```
 ### 1 quantitative und mehrere kategoriellen Variablen
 #### Boxplots (1num + 2kat)
@@ -978,7 +978,7 @@ abline(h = pca.rob@cutoff.od)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzQzODM2MSwtNTU3ODE5ODk4LDc5Mz
+eyJoaXN0b3J5IjpbLTgzNDA4Mjk5NSwtNTU3ODE5ODk4LDc5Mz
 k2NzI3LC0xOTM4MjI3MTE0LDE2NTg1ODc5MzAsLTE2MjQ4NDUw
 NjAsLTEyOTExNDQxNzksLTc0NzI1OTMxOSwtMTY5NjUwNDM5My
 wtODk3NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTEx
