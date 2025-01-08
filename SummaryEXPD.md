@@ -445,6 +445,13 @@ geom_mosaic(aes(x=product(kat_var1, kat_var2, kat_var3), fill=kat_var1/2/3), div
 #### Boxplots (1num + 2kat)
 ```r
 boxplot(num_var ~ kat_var1+ kat_var2, data = df, col = c("red", "yellow", "blue", "green"))
+
+library(ggplot2)
+ggplot(df, aes(y=num_var, x=kat_var1, color = kat_var2, fill = kat_var3)) +
+geom_boxplot()
+#optional
++
+facet_wrap(~geschlecht)
 ```
 Kann bei kategoriellen Variablen mit vielen Ausprägungen schnell unübersichtlich werden.
 ```r
@@ -978,11 +985,11 @@ abline(h = pca.rob@cutoff.od)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDA4Mjk5NSwtNTU3ODE5ODk4LDc5Mz
-k2NzI3LC0xOTM4MjI3MTE0LDE2NTg1ODc5MzAsLTE2MjQ4NDUw
-NjAsLTEyOTExNDQxNzksLTc0NzI1OTMxOSwtMTY5NjUwNDM5My
-wtODk3NzM1MjIzLC0xMDIyMzMyMjYxLC0zMjU3NjI1MTAsMTEx
-MDg0ODI2MCwtMTU1MzE5NTg3MiwxNjYwMzAzNzU4LDk4MjM2OD
-E4MiwtODUzNDA5NzgxLDEyNzI5NjE5MjYsMzAyMTYwNzgxLDEw
-MTk2NTM1MTJdfQ==
+eyJoaXN0b3J5IjpbLTYzOTcwMzg5LC04MzQwODI5OTUsLTU1Nz
+gxOTg5OCw3OTM5NjcyNywtMTkzODIyNzExNCwxNjU4NTg3OTMw
+LC0xNjI0ODQ1MDYwLC0xMjkxMTQ0MTc5LC03NDcyNTkzMTksLT
+E2OTY1MDQzOTMsLTg5NzczNTIyMywtMTAyMjMzMjI2MSwtMzI1
+NzYyNTEwLDExMTA4NDgyNjAsLTE1NTMxOTU4NzIsMTY2MDMwMz
+c1OCw5ODIzNjgxODIsLTg1MzQwOTc4MSwxMjcyOTYxOTI2LDMw
+MjE2MDc4MV19
 -->
