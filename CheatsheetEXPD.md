@@ -151,12 +151,12 @@ scatterplot3d(
 	xlab = "x-Achsen Titel",
     ylab = "y-Achsen Titel",
     zlab = "z-Achsen Titel",
-    type = "h", # "l für Linie "p" für nur Punkte, "h", für vertikale Linien zur x-y-Ebene
+    type = "h", #["l für Linie "p" für nur Punkte, "h", für vertikale Linien zur x-y-Ebene
     highlight.3d = TRUE, #Punkte bekommen andere Farbe je nach Koordinaten, geht nur mit type = "h" oder "p"
     mar = c(4,4,4,4), #margin around the plot unten, links, oben, rechts
     pch = 16,
     cex.symbols = 2, #Skalierung der Punkte
-    cex.lab = 2, #Skalierung Achsentitel
+    cex.lab = 2, #[Skalierung Achsentitel]
     cex.axis = 2 # Skalierung Achsenbeschriftung 
     )
  coplot( num_var1 ~ num_var2 | num_var3, 
@@ -174,5 +174,5 @@ library(ellipse)
 plotcorr(cor(df))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzU2ODMwOCwtMjU3NTcyMDE5XX0=
+eyJoaXN0b3J5IjpbLTExNTc4OTE3MDcsLTI1NzU3MjAxOV19
 -->
