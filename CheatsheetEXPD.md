@@ -59,10 +59,17 @@ con < 0 --> neg. Beziehung
 ```r
 cov(df$column1, df$column2)
 ```
-**Pearson Korrelation**: lineare Daten 
-$r_{xy}= \frac {\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]}} {\sqrt {\sum_{i=1}^n{(x_i-\bar x)^2 \sum_{i=1}^{n}{(y_i-\bar y)^2}}}}$$
-$$r_{xy}=\frac{Cov(x,y)}{s_xs_y}$
 
+**Pearson Korrelation**: lineare Daten 
+$r_{xy}= \frac {\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]}} {\sqrt {\sum_{i=1}^n{(x_i-\bar x)^2 \sum_{i=1}^{n}{(y_i-\bar y)^2}}}}$
+$r_{xy}=\frac{Cov(x,y)}{s_xs_y}$
+```r
+cor(var1, var2, method="pearson")
+```
+**Spearman-Korrelation**: monotone Zusammenhänge, rangbasierte Korrelation
+```r
+cor(var1, var2, method=spearman)
+```
 ### Univariate Darstellung
 | Darstellungsart | kategoriell | metrisch |
 |--|--|--|
@@ -251,6 +258,6 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczODYwNjYxMSwtNjg1NDk5OCwtMjU3NT
+eyJoaXN0b3J5IjpbLTg3MTU2MjgyNCwtNjg1NDk5OCwtMjU3NT
 cyMDE5XX0=
 -->
