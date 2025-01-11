@@ -9,6 +9,7 @@ die Eigenschaften gemessen, abgefragt bzw. erhoben.
 **Precision**: Wie sehr streuen Daten?
 **Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
 **Modalität**: uni-, bi-, multimodal
+
 ### Lagemasse
 **arithm. MW**: $\bar x = \frac{val_1+val_2+...+val_n}{n}$
 **geom. MW**: $\bar g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$	(Wachstumsraten)
@@ -21,10 +22,10 @@ anfällig auf Ausreisser
 $h = (n-1)\cdot \alpha + 1$
 ### Streumasse
 **Varianz**: $\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$ (anfällig auf Ausreisser)
-**Std.-Ab**: $s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$ (anfällig auf Ausreisser)
+**Std.-Ab**: $s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$ (anfällig auf Ausreisser, sym. Verteilung)
 **Spannweite**: max(A)-min(A)
 **MAD**: $MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$
-**IQR**: Q3-Q1
+**IQR**: Q3-Q1 (Für rechts-/linksschiefe Verteilungen)
 ### String Manipulation
 ```r
 # Ausgabe: Index Positionen der Zeichenketten, die 'a' enthalten.
@@ -229,6 +230,6 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMxNTAzNDIsLTY4NTQ5OTgsLTI1Nz
-U3MjAxOV19
+eyJoaXN0b3J5IjpbNTg3MTQxMiwtNjg1NDk5OCwtMjU3NTcyMD
+E5XX0=
 -->
