@@ -159,7 +159,20 @@ scatterplot3d(
     cex.lab = 2, #Skalierung Achsentitel
     cex.axis = 2 # Skalierung Achsenbeschriftung 
     )
+ coplot( num_var1 ~ num_var2 | num_var3, 
+	 data = df, 
+	 xlab =  "x-Achsen Titel", 
+	 ylab =  "y-Achsen Titel", 
+	 number =  3,  #wv dataslices sollen generiert werden, wird nicht gebraucht bei factors 	
+ 	overlap =  0.2,  #Overlap von dataslices mit < 0 entstehen gaps rows =  1,  # auf wv zeilen sollen die panels aufgeteilt werden 
+ 	pch =  16)
+
+pairs(df[,c(1,3,6)]
+cor(df[, c(1:6)], method = "pearson")
+cor(df[, c(1:6)], method = "spearman")
+library(ellipse)
+plotcorr(cor(df))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAwMzUwOTEsLTI1NzU3MjAxOV19
+eyJoaXN0b3J5IjpbMTAyNzU2ODMwOCwtMjU3NTcyMDE5XX0=
 -->
