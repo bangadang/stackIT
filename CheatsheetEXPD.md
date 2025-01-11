@@ -41,7 +41,14 @@ strsplit
 
 ```
 ### Kovarianz & Korrelation
-**Kovarianz**:
+**Zusammenhang Datenpunkte**: 
+1. Form: linerarer oder anderer Zusammenhang zw. Datenpunkten (monotone Kurve, Punktewolke) (muss nicht konstant sein. Kann "brechen"..
+2. Richtung: positiv oder negativ 
+3. Stärke: Wie breit ist die Punktewolke. Je breiter, deto schwächer der Zusammenhang.
+
+**Kovarianz**: $Cov(x,y)=\frac{1}{n-1}\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]} $
+``
+
 ### Univariate Darstellung
 | Darstellungsart | kategoriell | metrisch |
 |--|--|--|
@@ -230,6 +237,6 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MTQxMiwtNjg1NDk5OCwtMjU3NTcyMD
-E5XX0=
+eyJoaXN0b3J5IjpbLTY1OTI4MTQ5NCwtNjg1NDk5OCwtMjU3NT
+cyMDE5XX0=
 -->
