@@ -22,10 +22,12 @@ hist(	vect,
 		ylab="y-Achse Beschrriftung", 
 		main="Title Hist.", 
 		col=color-value-or-func,
-		xlim=c(start 
-		ylim = vec, 
+		xlim=c(start, end), 
+		xlim=c(start, end), 
 		las=1)
+plot(ecdf(df$var)) 
+ecdf(df$var)(value)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MDI0MjAyXX0=
+eyJoaXN0b3J5IjpbMTEyNzQ5MTk1MF19
 -->
