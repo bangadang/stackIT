@@ -72,7 +72,26 @@ boxplot(num.var ~ kateg.var1, data = df)
 boxplot(num.var ~ kateg.var2, data = df)
 
 stripchart(num.var ~ kateg.var1, data = df, vertical=TRUE, method="stack")
+
+stichprobedf <- sample(1:nrow(kdata), 500)
+plot(	df$num.var1, 
+		df$num.var2, 
+		main = "Title",
+		ylab = "y-Achse Beschriftung", 
+		xlab = "x-Achse Beschriftung", 
+		las = 1, 
+		cex=.5, pch=20)
+
+scatter.smooth(	df$num.var1, 
+				df$num.var2, 
+				main = "Title",
+				ylab = "y-Achse Beschriftung", 
+				xlab = "x-Achse Beschriftung", 
+				las = 1, 
+				lpars = list(col = "red"))
+#several scatterplots as pairs
+pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzQ2MDc5MDZdfQ==
+eyJoaXN0b3J5IjpbLTE4NjcwOTk3NzNdfQ==
 -->
