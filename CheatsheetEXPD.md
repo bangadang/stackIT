@@ -67,8 +67,12 @@ m <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "mean")
 s <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "sd")
 cbind(Mittelwert = m, Standardabweichung = s)
 
+par(mfrow = c(1,2)) # 2 Grafiken nebeneinander
+boxplot(num.var ~ kateg.var1, data = df)
+boxplot(num.var ~ kateg.var2, data = df)
 
+stripchart(num.var ~ kateg.var1, data = df, vertical=TRUE, method="stack")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI2NDM1MTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MzQ2MDc5MDZdfQ==
 -->
