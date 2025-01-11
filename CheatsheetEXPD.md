@@ -14,8 +14,18 @@ pie/barplot(table)
 stripchart(	df$var, 
 			xlab="Beschriftung x-Achse",
 			method="jitter"/"stacked")
-hist
+classes/breaks <- cut(vec, breaks = seq(start, end, by))
+hist(	vect, 
+		freq=TRUE/FALSE, #abs./rel. Häufigkeiten
+		breaks = seq(start, end, by), 
+		xlab="x-Achse Beschriftung",
+		ylab="y-Achse Beschrriftung", 
+		main="Title Hist.", 
+		col=color-value-or-func,
+		xlim=c(start 
+		ylim = vec, 
+		las=1)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5NDI2NzBdfQ==
+eyJoaXN0b3J5IjpbNzU0MDI0MjAyXX0=
 -->
