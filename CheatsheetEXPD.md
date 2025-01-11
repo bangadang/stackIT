@@ -10,6 +10,12 @@ table <- table(df/df$var)
 cumsum(table(vec)) (kum. abs. Häufigkeiten)
 pie/barplot(table)
 ```
+```r
+stripchart(	df$var, 
+			xlab="Beschriftung x-Achse",
+			method="jitter"/"stacked")
+hist
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQ3OTI4MzldfQ==
+eyJoaXN0b3J5IjpbNTA5NDI2NzBdfQ==
 -->
