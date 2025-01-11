@@ -173,6 +173,13 @@ cor(df[, c(1:6)], method = "spearman")
 library(ellipse)
 plotcorr(cor(df))
 ```
+### PCA
+```r
+pca <-prcomp(df, scale=TRUE) #numerisch stabiler
+princomp() #Alternative mit mehr Optionen
+pca$rotation #rotationsmatrix
+screeplot(pca)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzU2ODMwOCwtMjU3NTcyMDE5XX0=
+eyJoaXN0b3J5IjpbNjgxMzU2NTY2LC0yNTc1NzIwMTldfQ==
 -->
