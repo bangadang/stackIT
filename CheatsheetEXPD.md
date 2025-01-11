@@ -264,7 +264,34 @@ autoplot(pca,
 	label.hjust=-0.3, 
 	main="title")
 ```
+### Transformation
+**Transformation ohne Informationsverlust**
+	- beliebiges umbenennen der Kategorien, wie Geschlecht von männlich/weiblich zu 0/1
+**Transformation mitInformationsverlust**
+	- Zusammenfassen von Kategorien, wie Partei, wobei alle Parteien, die keinen Sitz im Parlament haben, zu Sonstige umbenannt werden.
+```r
+#Zusammenfassung verwandter Ausprägungen -> kein Infoverlust
+df$nom_var[df$nom_var %in% c("val1", "val2",..)] <- "new_val"
+#Zusammenfassung versch. Ausprägungen zu Sonstige-> Infoverlust
+table <- table(df$nom_var)
+vSel <- names(table)[table <= 1]
+df$nom_var[df$nom_var %in% vSel] <- "Sonstige"
+```
+```r
+# Zusammenfassung ohne Informationsverlust, umwandeln in Faktor
+df$ord_var <- factor(df$ord_var)
+df$ord_varT1 <- factor(df$ord_var,
+                       levels = levels(df$ord_var),
+                       labels = seq(start,end, 1),
+                       ordered = TRUE)
+# Zusammenfassung mit Infoverlust, alle Werte über best. Wert zusammenfassen
+df$ord_var <- factor(df$ord_var)
+df$ord_varT1 <- factor(df$ord_var,
+                       levels = levels(df$ord_var),
+                       labels = c(label1, label2 ,label>n,label>n,..), # length of labels needs to be equal length of levels, Wert ab dem zusammengefasst werden soll kommt mehrmals vor
+                       ordered = TRUE)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDA1MjQxOCwtNjg1NDk5OCwtMjU3NT
-cyMDE5XX0=
+eyJoaXN0b3J5IjpbLTE5MjE3MjU0NjgsLTY4NTQ5OTgsLTI1Nz
+U3MjAxOV19
 -->
