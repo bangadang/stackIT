@@ -24,6 +24,7 @@ Falsche Eindrücke, die entstehen, indem man wichtige beeinflussende Variabeln n
 anfällig auf Ausreisser
 
 **Median**: $\text{Median}(x_1, x_2, \ldots, x_n) = \tilde x= \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$
+Median Ker
 **Modus**
 **Quantile**:  $Q_\alpha= x_{[\lfloor h \rfloor]}+(h - \lfloor h \rfloor )\cdot(x_{[\lfloor h \rfloor + 1]}-x_{[\lfloor h \rfloor]})$ 
 $h = (n-1)\cdot \alpha + 1$
@@ -305,9 +306,10 @@ Eine monotone Transformation ändert die Verteilung der Variable
 
 **Formel**:
 $x \mapsto z = (\frac{x - \bar x}{s_x}) = (\frac{1}{s_x} \cdot x - \frac{\bar x}{s_x})$
-$d.h.$ $a = \frac{1}{s_x}$$ $$ b =  - \frac{\bar x}{s_x}$
-$$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |\frac{1}{s_x}| \cdot s_x$$
+$d.h.$ $a = \frac{1}{s_x}$  $b =  - \frac{\bar x}{s_x}$
+$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x})$
+$s_z = 1 = |\frac{1}{s_x}| \cdot s_x$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjMwNTEzODQsLTY4NTQ5OTgsLTI1Nz
+eyJoaXN0b3J5IjpbLTE4MTQ5NTM4MzgsLTY4NTQ5OTgsLTI1Nz
 U3MjAxOV19
 -->
