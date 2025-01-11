@@ -24,7 +24,7 @@ Falsche Eindrücke, die entstehen, indem man wichtige beeinflussende Variabeln n
 anfällig auf Ausreisser
 
 **Median**: $\text{Median}(x_1, x_2, \ldots, x_n) = \tilde x= \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$
-Median Ker
+**Median Kerben**: $Median +- (1.58)\cdot IQR) / (\sqrt(n))$
 **Modus**
 **Quantile**:  $Q_\alpha= x_{[\lfloor h \rfloor]}+(h - \lfloor h \rfloor )\cdot(x_{[\lfloor h \rfloor + 1]}-x_{[\lfloor h \rfloor]})$ 
 $h = (n-1)\cdot \alpha + 1$
@@ -46,8 +46,9 @@ sub(pattern="str", replacement = "str2", x=string) Ersetz das erste Vorkomnis de
 gsub(pattern="str", replacement = "str2", x=string) Ersetz ein pattern in string so oft es vorkommt
 nchar() length of string
 strsplit
-
 ```
+### Faktoren
+
 ### Kovarianz & Korrelation
 **Zusammenhang Datenpunkte**: 
 1. Form: linerarer oder anderer Zusammenhang zw. Datenpunkten (monotone Kurve, Punktewolke) (muss nicht konstant sein. Kann "brechen"..
@@ -310,6 +311,6 @@ $d.h.$ $a = \frac{1}{s_x}$  $b =  - \frac{\bar x}{s_x}$
 $\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x})$
 $s_z = 1 = |\frac{1}{s_x}| \cdot s_x$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQ5NTM4MzgsLTY4NTQ5OTgsLTI1Nz
-U3MjAxOV19
+eyJoaXN0b3J5IjpbMTM1Nzg4MDAxMSwtNjg1NDk5OCwtMjU3NT
+cyMDE5XX0=
 -->
