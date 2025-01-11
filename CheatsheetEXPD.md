@@ -299,7 +299,15 @@ df$ord_varT1 <- factor(df$ord_var,
 
 **streng monotone Transformation**: $x \mapsto f(x) , \text{f monoton}, f(x_1) < f(x_2) für x_1 < x_2$
 Eine monotone Transformation ändert die Verteilung der Variable
+
+### Standardisierung
+**Standardisierte Variablen haben Mittelwert = 0 und Standardabweichung = 1**
+
+**Formel**:
+$x \mapsto z = (\frac{x - \bar x}{s_x}) = (\frac{1}{s_x} \cdot x - \frac{\bar x}{s_x})$
+$d.h.$ $a = \frac{1}{s_x}$$ $$ b =  - \frac{\bar x}{s_x}$
+$$\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x}) $$$$s_z = 1 = |\frac{1}{s_x}| \cdot s_x$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzgzNTc5NywtNjg1NDk5OCwtMjU3NT
-cyMDE5XX0=
+eyJoaXN0b3J5IjpbLTE5NjMwNTEzODQsLTY4NTQ5OTgsLTI1Nz
+U3MjAxOV19
 -->
