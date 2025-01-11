@@ -17,9 +17,9 @@ die Eigenschaften gemessen, abgefragt bzw. erhoben.
 **Modus**
 ### Streumasse
 **Varianz**: $\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$
-**Std.-Ab**: s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+**Std.-Ab**: $s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$
 **Spannweite**: max(A)-min(A)
-**MAD**: MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)
+**MAD**: $MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$
 **IQR**: Q3-Q1
 ### String Manipulation
 ```r
@@ -225,5 +225,5 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDUzMjU0LC0yNTc1NzIwMTldfQ==
+eyJoaXN0b3J5IjpbLTY4NTQ5OTgsLTI1NzU3MjAxOV19
 -->
