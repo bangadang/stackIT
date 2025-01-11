@@ -292,8 +292,9 @@ df$ord_varT1 <- factor(df$ord_var,
                        ordered = TRUE)
 ```
 **lineare Transformation**: $x \mapsto f(x) = ax + b$ 
-**streng monotone Transformation**: $x \mapsto f(x) , \text f monoton \text, f(x_1) < f(x_2) für x_1 < x_2$
+
+**streng monotone Transformation**: $x \mapsto f(x) , \text{f monoton}, f(x_1) < f(x_2) für x_1 < x_2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzkzMTAyODEsLTY4NTQ5OTgsLTI1Nz
+eyJoaXN0b3J5IjpbLTEyMTQ5NTM2NzAsLTY4NTQ5OTgsLTI1Nz
 U3MjAxOV19
 -->
