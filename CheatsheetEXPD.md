@@ -9,6 +9,13 @@ die Eigenschaften gemessen, abgefragt bzw. erhoben.
 **Precision**: Wie sehr streuen Daten?
 **Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
 **Modalität**: uni-, bi-, multimodal
+**confounding factor** versteckte Variable beeinflusst beide beobachtenden Variabeln und verursacht eine vermeintliche Korrelation.
+**Simpson-Paradoxon**: Entsteht/Beinhaltet min. 3 Variablen:
+- Zielvariable
+- Beobachtete Variable
+- Störvariable
+
+Falsche Eindrücke, die entstehen, indem man wichtige beeinflussende Variabeln nicht berücksichtigt. Tritt häufig auf, wenn heterogene Gruppen aggregiert werden.
 
 ### Lagemasse
 **arithm. MW**: $\bar x = \frac{val_1+val_2+...+val_n}{n}$
@@ -258,6 +265,6 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTU2MjgyNCwtNjg1NDk5OCwtMjU3NT
+eyJoaXN0b3J5IjpbLTIzNDA1MjQxOCwtNjg1NDk5OCwtMjU3NT
 cyMDE5XX0=
 -->
