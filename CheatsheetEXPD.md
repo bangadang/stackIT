@@ -292,17 +292,14 @@ df$ord_varT1 <- factor(df$ord_var,
                        ordered = TRUE)
 ```
 **lineare Transformation**: $x \mapsto f(x) = ax + b$ 
-
-**Änderung des Mittelwerts**: $\bar y = a \cdot \bar x + b$
-**Änderung der Standardabweichung**: $s_y = |a| \cdot s_x$
-$$Lage_y = a \cdot Lage_x + b$$
-Lagemasse: arith. Mittel, Median, Quatile für a >= 0, Modus
+**Änderung MW, Median, Quantile**: $Lage_y = a \cdot Lage_x + b$
+**Änderung SD, MAD, IQR**
 $$Streuung_y = |a| \cdot Streuung_x$$
 Streuungsmasse: Standardabweichung, MAD, IQR
 Für die Varianz gilt, weil sie ein quadratisches Streuungsmass ist:
 $$Var_y = a^2 \cdot Var_x$$
 **streng monotone Transformation**: $x \mapsto f(x) , \text{f monoton}, f(x_1) < f(x_2) für x_1 < x_2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjYwMTc0MywtNjg1NDk5OCwtMjU3NT
-cyMDE5XX0=
+eyJoaXN0b3J5IjpbLTExMjkxOTAyMjksLTY4NTQ5OTgsLTI1Nz
+U3MjAxOV19
 -->
