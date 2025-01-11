@@ -47,7 +47,21 @@ strsplit
 3. Stärke: Wie breit ist die Punktewolke. Je breiter, deto schwächer der Zusammenhang.
 
 **Kovarianz**: $Cov(x,y)=\frac{1}{n-1}\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]} $
-``
+Definiert als durchschnittliches Produkt der Abweichung beider Variablen vom Mittelwert
+cov = 0 --> keine Beziehung
+cov > 0 --> pos. Bezieung
+con < 0 --> neg. Beziehung
+
+**Grenzen der Kovarianz**
+- informiert nur über Richtung eines Zusammenhangs nicht dessen Stärke
+- Wert der Kovarianz ist schwer zu interpretieren, da er vom Masstab von x und y abhängig ist
+- anfällig für Ausreisser
+```r
+cov(df$column1, df$column2)
+```
+**Pearson Korrelation**: lineare Daten 
+$r_{xy}= \frac {\sum_{i=1}^n{[(x_i-\bar x)(y_i-\bar y)]}} {\sqrt {\sum_{i=1}^n{(x_i-\bar x)^2 \sum_{i=1}^{n}{(y_i-\bar y)^2}}}}$$
+$$r_{xy}=\frac{Cov(x,y)}{s_xs_y}$
 
 ### Univariate Darstellung
 | Darstellungsart | kategoriell | metrisch |
@@ -237,6 +251,6 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTI4MTQ5NCwtNjg1NDk5OCwtMjU3NT
+eyJoaXN0b3J5IjpbMTczODYwNjYxMSwtNjg1NDk5OCwtMjU3NT
 cyMDE5XX0=
 -->
