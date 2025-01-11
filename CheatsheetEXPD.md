@@ -1,5 +1,18 @@
 
-### Stringmanipulation
+### String Manipulation
+```r
+# Ausgabe: Index Positionen der Zeichenketten, die 'a' enthalten.
+grep(pattern = "a", x = namen)
+grepl gibt logischer vektor aus
+substring(namen, 3, 4) # extrahiere alle Zeichen vom 3 bis zum 4
+paste(vec, 1:5 oder " Z., sep=" "=)
+paste(strings, collapse="mit diesem Zeichen verbinden") verbindet strings
+sub(pattern="str", replacement = "str2", x=string) Ersetz das erste Vorkomnis des Patterns
+gsub(pattern="str", replacement = "str2", x=string) Ersetz ein pattern in string so oft es vorkommt
+nchar() length of string
+strsplit
+
+```
 ### Univariate Darstellung
 | Darstellungsart | kategoriell | metrisch |
 |--|--|--|
@@ -93,7 +106,7 @@ scatter.smooth(	df$num.var1,
 #several scatterplots as pairs
 pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
-###Multivariate Darstellung
+### Multivariate Darstellung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzU3MjAxOV19
+eyJoaXN0b3J5IjpbMTQ1NTc2MTE0NCwtMjU3NTcyMDE5XX0=
 -->
