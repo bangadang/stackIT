@@ -125,7 +125,41 @@ boxplot(num_var ~ kat_var1+ kat_var2,
 	col = c("red", "yellow", "blue", "green"))
 plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df) #Faktorplot
 
+par(mar = c(4,4,1,8), 
+	xpd = TRUE) # Vergrössern des rechten Randes für die Legenden
+plot(
+	num_var1 ~ num_var2, 
+	data = df, 
+	col = c("red","yellow","blue","green")[df$kat_var1], 
+	pch = c(15,16,17)[df$kat_var2], 
+	cex = c(1, 1.25, 1.5, 1.75)[df$kat_var3]
+	)
+legend(210, 3000, 
+       legend = levels(df$kat_var3),
+       pch = 16,
+       pt.cex = c(1, 1.25, 1.5, 1.75))
+legend(210, 2000, 
+       legend = levels(df$kat_var2),
+       pch = c(15, 16, 17))
+legend(210, 1200, 
+       legend = levels(df$kat_var1),
+       fill = c("red","yellow","blue","green"))
+scatterplot3d(
+	df$num_var1, 
+	df$num_var2,
+	df$num_var3, 
+	xlab = "x-Achsen Titel",
+    ylab = "y-Achsen Titel",
+    zlab = "z-Achsen Titel",
+    type = "h", # "l für Linie "p" für nur Punkte, "h", für vertikale Linien zur x-y-Ebene
+    highlight.3d = TRUE, #Punkte bekommen andere Farbe je nach Koordinaten, geht nur mit type = "h" oder "p"
+    mar = c(4,4,4,4), #margin around the plot unten, links, oben, rechts
+    pch = 16,
+    cex.symbols = 2, #Skalierung der Punkte
+    cex.lab = 2, #Skalierung Achsentitel
+    cex.axis = 2 # Skalierung Achsenbeschriftung 
+    )
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNzY0ODgxLC0yNTc1NzIwMTldfQ==
+eyJoaXN0b3J5IjpbLTE4NjAwMzUwOTEsLTI1NzU3MjAxOV19
 -->
