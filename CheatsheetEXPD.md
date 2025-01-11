@@ -1,4 +1,5 @@
 
+### Stringmanipulation
 ### Univariate Darstellung
 | Darstellungsart | kategoriell | metrisch |
 |--|--|--|
@@ -92,7 +93,7 @@ scatter.smooth(	df$num.var1,
 #several scatterplots as pairs
 pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
-
+###Multivariate Darstellung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc5MzM3MTFdfQ==
+eyJoaXN0b3J5IjpbLTI1NzU3MjAxOV19
 -->
