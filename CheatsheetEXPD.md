@@ -57,7 +57,12 @@ prop.table(table(df$kateg.Variable1, df$kateg.Variable2), margin=1)
 prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
 
 barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
+
+mosaicplot(table(df$kat.var1, df$kat.var2))
+mosaicpot(~kat.var1+kat.var2, data=df)
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDI5NDc3OTBdfQ==
+eyJoaXN0b3J5IjpbLTg5NDMxMjg4MV19
 -->
