@@ -44,8 +44,20 @@ boxplot(df$var)
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten (Form, Richtung, Stärke)|
 
 ```r
+#abs. Häufigkeiten
+table(df$kateg.Variable1, df$kateg.Variable2) 
 
+# rel. Häufigkeiten zur Gesamtheit
+prop.table(table(df$kateg.Variable1, df$kateg.Variable2)) 
+
+#rel. Häufigkeiten pro Zeile
+prop.table(table(df$kateg.Variable1, df$kateg.Variable2), margin=1)
+
+#rel. Häufigkeit pro Spalte
+prop.table(table(df$kateg.Variable1, df$kateg.Variable2),margin=2)
+
+barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDAwNDI2N119
+eyJoaXN0b3J5IjpbLTIwNDI5NDc3OTBdfQ==
 -->
