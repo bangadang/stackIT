@@ -223,7 +223,7 @@ IQR(vec) or quantile(vec,0.75) - quantile(vec,0.25)
 - Beziehungen und Korrelationen können so untersucht werden.
 - verschiedene Variablentypen brauchen versch. Handhabung
 ### Kategoriell vs. Kategoriell
-#### - **Kontingenztafel** Kreuztabelle
+####  **Kontingenztafel** Kreuztabelle
 	- enthält die absoluten und relativen Häufigkeiten der Merkmalskombination zweier kategorieller Variablen
 	-  Bei der Angabe von relativen Häufigkeiten gibt es mehrere Möglichkeiten:
 			1. Anteil am Gesamten: absoluten Häufigkeiten durch die Anzahl Datenpunkte -->  relativen Häufigkeiten für jede einzelne Merkmalskombination
@@ -985,11 +985,11 @@ abline(h = pca.rob@cutoff.od)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzkxNTAyMSw2MjA1NjQxODcsLTgzND
-A4Mjk5NSwtNTU3ODE5ODk4LDc5Mzk2NzI3LC0xOTM4MjI3MTE0
-LDE2NTg1ODc5MzAsLTE2MjQ4NDUwNjAsLTEyOTExNDQxNzksLT
-c0NzI1OTMxOSwtMTY5NjUwNDM5MywtODk3NzM1MjIzLC0xMDIy
-MzMyMjYxLC0zMjU3NjI1MTAsMTExMDg0ODI2MCwtMTU1MzE5NT
-g3MiwxNjYwMzAzNzU4LDk4MjM2ODE4MiwtODUzNDA5NzgxLDEy
-NzI5NjE5MjZdfQ==
+eyJoaXN0b3J5IjpbOTMxODAwNTcyLDEyNDM5MTUwMjEsNjIwNT
+Y0MTg3LC04MzQwODI5OTUsLTU1NzgxOTg5OCw3OTM5NjcyNywt
+MTkzODIyNzExNCwxNjU4NTg3OTMwLC0xNjI0ODQ1MDYwLC0xMj
+kxMTQ0MTc5LC03NDcyNTkzMTksLTE2OTY1MDQzOTMsLTg5Nzcz
+NTIyMywtMTAyMjMzMjI2MSwtMzI1NzYyNTEwLDExMTA4NDgyNj
+AsLTE1NTMxOTU4NzIsMTY2MDMwMzc1OCw5ODIzNjgxODIsLTg1
+MzQwOTc4MV19
 -->
