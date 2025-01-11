@@ -32,6 +32,20 @@ ecdf(df$var)(value)
 boxplot(df$var)
 ```
 
+### Bivariate Darstellung
+| Datentypen | Darstellungsart | Kommentar |
+|--|--|--|
+| **Kategoriell vs. Kategoriell** | Kreuztabelle |  eher langweilig|
+|  | gruppierte Balkendiagramme | mässig übersichtlich |
+| | Mosaikplot | gut, nicht bekannt|
+| **Metrisch vs. Kategoriell** | Tabelle mit Kennzahlen| beschränkte Information |
+||Boxplot|generell gut geeignet|
+||Stripcharts|generell gut geeignet|
+|**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten (Form, Richtung, Stärke)|
+
+```r
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTU4Njg2NzBdfQ==
+eyJoaXN0b3J5IjpbMjAxNDAwNDI2N119
 -->
