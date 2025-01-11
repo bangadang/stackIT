@@ -107,6 +107,17 @@ scatter.smooth(	df$num.var1,
 pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
 ### Multivariate Darstellung
+| Variablen | Plot |
+|--|--|
+| >2 kat. | Mosaikplot |
+| 1 num. + >2 kat. | Boxlot |
+| 2 num. + >2 kat. | Streudiagramm mir Farben und Formen |
+| >2 num. | Streudiagramm-Matrix und Korrelationsmatrix |
+
+```
+mosaicplot(~ kat_var1+ kat_var2 + kat_var3, 
+			data = df, main = "Title", col = c("red", "blue", "green"), cex.axis = 0.7)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTc2MTE0NCwtMjU3NTcyMDE5XX0=
+eyJoaXN0b3J5IjpbMTA0MDE4NzQ5NywtMjU3NTcyMDE5XX0=
 -->
