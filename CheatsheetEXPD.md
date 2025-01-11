@@ -176,10 +176,30 @@ plotcorr(cor(df))
 ### PCA
 ```r
 pca <-prcomp(df, scale=TRUE) #numerisch stabiler
+summary(pca)
 princomp() #Alternative mit mehr Optionen
 pca$rotation #rotationsmatrix
 screeplot(pca)
+
+plot(	PC1~PC2, 
+		data=pca$x,
+		pch=16,
+		las=1,
+		col= c(n-colors for n datapoints),
+		main="title")
+text(x=pca$x[,1], 
+	y=pca$a[,2],
+	labels=df$Rang,
+	pos=4)
+biplot(pca)
+library(ggfortify)
+autoplot(pca, 
+	loadings=True, 
+	loadings.label=True, 
+	label=True, 
+	label.hjust=-0.3, 
+	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgxMzU2NTY2LC0yNTc1NzIwMTldfQ==
+eyJoaXN0b3J5IjpbMTMyODE5NzE2MSwtMjU3NTcyMDE5XX0=
 -->
