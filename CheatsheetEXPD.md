@@ -291,7 +291,9 @@ df$ord_varT1 <- factor(df$ord_var,
                        labels = c(label1, label2 ,label>n,label>n,..), # length of labels needs to be equal length of levels, Wert ab dem zusammengefasst werden soll kommt mehrmals vor
                        ordered = TRUE)
 ```
+**lineare Transformation**: $x \mapsto f(x) = ax + b$ 
+**streng monotone Transformation**: $x \mapsto f(x) , \text f monoton \text, f(x_1) < f(x_2) für x_1 < x_2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE3MjU0NjgsLTY4NTQ5OTgsLTI1Nz
+eyJoaXN0b3J5IjpbLTExNzkzMTAyODEsLTY4NTQ5OTgsLTI1Nz
 U3MjAxOV19
 -->
