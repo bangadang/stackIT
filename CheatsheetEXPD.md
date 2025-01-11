@@ -44,6 +44,7 @@ boxplot(df$var)
 |**Metrisch vs. Metrisch**|Streudiagramm|zeigt Verteilung der Daten (Form, Richtung, Stärke)|
 
 ```r
+# 2 kategorische
 #abs. Häufigkeiten
 table(df$kateg.Variable1, df$kateg.Variable2) 
 
@@ -61,8 +62,13 @@ barplot(table(df$kateg.Variable1, df$kateg.Variable2), beside=TRUE/FALSE)
 mosaicplot(table(df$kat.var1, df$kat.var2))
 mosaicpot(~kat.var1+kat.var2, data=df)
 
+#kategorisch vs. metrisch
+m <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "mean")
+s <- tapply(X = df$num.variable, INDEX = df$kateg.variable, FUN = "sd")
+cbind(Mittelwert = m, Standardabweichung = s)
+
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDMxMjg4MV19
+eyJoaXN0b3J5IjpbLTEyMTI2NDM1MTRdfQ==
 -->
