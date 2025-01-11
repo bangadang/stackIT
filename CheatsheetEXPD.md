@@ -5,14 +5,19 @@
 **Stichprobe**
 **Repräsentativität**:
 **Accuracy**:
-**Bias**
-**Modalität**
+**Bias**:
+**Modalität**:
 ### Lagemasse
-**arithm. MW**
+**arithm. MW**:
 **geom. MW**
 **harm. MW**
 
-
+### Streumasse
+**Varianz**
+**Std.-Ab**
+**Spannweite**
+**MAD**
+**IQR**
 ### String Manipulation
 ```r
 # Ausgabe: Index Positionen der Zeichenketten, die 'a' enthalten.
@@ -215,5 +220,5 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NjE1ODIyMSwtMjU3NTcyMDE5XX0=
+eyJoaXN0b3J5IjpbLTEwNDA4NDQ1NDAsLTI1NzU3MjAxOV19
 -->
