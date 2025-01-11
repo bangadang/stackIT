@@ -11,11 +11,13 @@ die Eigenschaften gemessen, abgefragt bzw. erhoben.
 **Modalität**: uni-, bi-, multimodal
 ### Lagemasse
 **arithm. MW**: $\bar x = \frac{val_1+val_2+...+val_n}{n}$
-**geom. MW**: $\bar g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$
-**harm. MW**: $\bar h = \frac{n}{\frac{1}{x_1}+...+\frac{1}{x_n}}$
+**geom. MW**: $\bar g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$	(Wachstumsraten)
+**harm. MW**: $\bar h = \frac{n}{\frac{1}{x_1}+...+\frac{1}{x_n}}$ (Quotienten)
+anfällig auf Ausreisser
 
 **Median**: $\text{Median}(x_1, x_2, \ldots, x_n) = \tilde x= \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$
 **Modus**
+
 ### Streumasse
 **Varianz**: $\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$
 **Std.-Ab**: $s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$
@@ -226,6 +228,6 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDMwMjAyMCwtNjg1NDk5OCwtMjU3NT
+eyJoaXN0b3J5IjpbLTc5MzA1MDIzMCwtNjg1NDk5OCwtMjU3NT
 cyMDE5XX0=
 -->
