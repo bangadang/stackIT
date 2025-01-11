@@ -1,4 +1,11 @@
 
+### Begriffe
+**Grundgesamtheit**:
+**Vollerhebung**:
+**Stichprobe**
+**Repräsentativität**:
+**Accuracy**:
+**B
 ### String Manipulation
 ```r
 # Ausgabe: Index Positionen der Zeichenketten, die 'a' enthalten.
@@ -201,5 +208,5 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyODE5NzE2MSwtMjU3NTcyMDE5XX0=
+eyJoaXN0b3J5IjpbLTYxMzc1MzczMiwtMjU3NTcyMDE5XX0=
 -->
