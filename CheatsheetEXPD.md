@@ -1,5 +1,5 @@
 
-
+### Univariate Darstellung
 | Darstellungsart | kategoriell | metrisch |
 |--|--|--|
 | numerisch | Häufigkeitsttabelle/ Modus | **Lagemasse**( AVG, Median, Quantile) **Streumasse**( Varianz, Stndardabweichung, IQR, MAD) |
@@ -15,6 +15,7 @@ stripchart(	df$var,
 			xlab="Beschriftung x-Achse",
 			method="jitter"/"stacked")
 classes/breaks <- cut(vec, breaks = seq(start, end, by))
+
 hist(	vect, 
 		freq=TRUE/FALSE, #abs./rel. Häufigkeiten
 		breaks = seq(start, end, by), 
@@ -25,9 +26,12 @@ hist(	vect,
 		xlim=c(start, end), 
 		xlim=c(start, end), 
 		las=1)
+		
 plot(ecdf(df$var)) 
 ecdf(df$var)(value)
+boxplot(df$var)
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzQ5MTk1MF19
+eyJoaXN0b3J5IjpbLTE2OTU4Njg2NzBdfQ==
 -->
