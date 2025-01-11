@@ -92,6 +92,7 @@ scatter.smooth(	df$num.var1,
 #several scatterplots as pairs
 pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjcwOTk3NzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNDc5MzM3MTFdfQ==
 -->
