@@ -17,10 +17,11 @@ anfällig auf Ausreisser
 
 **Median**: $\text{Median}(x_1, x_2, \ldots, x_n) = \tilde x= \begin{cases} x_{\frac{n+1}{2}}, & \text{if } n \text{ is odd}, \\ \frac{x_{\frac{n}{2}} + x_{\frac{n}{2} + 1}}{2}, & \text{if } n \text{ is even} \end{cases}$
 **Modus**
-
+**Quantile**:  $Q_\alpha= x_{[\lfloor h \rfloor]}+(h - \lfloor h \rfloor )\cdot(x_{[\lfloor h \rfloor + 1]}-x_{[\lfloor h \rfloor]})$ 
+$h = (n-1)\cdot \alpha + 1$
 ### Streumasse
-**Varianz**: $\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$
-**Std.-Ab**: $s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$
+**Varianz**: $\text{Var}(X) = s_x^2=\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2$ (anfällig auf Ausreisser)
+**Std.-Ab**: $s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}$ (anfällig auf Ausreisser)
 **Spannweite**: max(A)-min(A)
 **MAD**: $MAD_x = 1.4826 \cdot median(|x_1-\tilde x|, ..., |x_n-\tilde x|)$
 **IQR**: Q3-Q1
@@ -228,6 +229,6 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzA1MDIzMCwtNjg1NDk5OCwtMjU3NT
-cyMDE5XX0=
+eyJoaXN0b3J5IjpbLTE2MTMxNTAzNDIsLTY4NTQ5OTgsLTI1Nz
+U3MjAxOV19
 -->
