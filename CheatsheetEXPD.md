@@ -3,11 +3,12 @@
 **Grundgesamtheit**: Die Menge aller für eine Untersuchung relevanten Elemente
 **Vollerhebung**: Bei **jedem** Individuum/Objekt der Grundgesamtheit werden
 die Eigenschaften gemessen, abgefragt bzw. erhoben. 
-**Stichprobe**
-**Repräsentativität**:
-**Accuracy**:
-**Bias**:
-**Modalität**:
+**Stichprobe**:  Teilmenge Grundgesamtheit
+**Repräsentativität**: Auswahl aus der Grundgesamtheit, die alle typischen Merkmalen gemäss ihren relativen Häufigkeiten abbildet.
+**Accuracy**: Wie genau sind die Daten
+**Precision**: Wie sehr streuen Daten?
+**Bias**: Systematischer Fehler (Fall wenn Werte nicht Stimmen, tiefe Accuracy)
+**Modalität**: uni-, bi-, multimodal
 ### Lagemasse
 **arithm. MW**: $\bar x = \frac{val_1+val_2+...+val_n}{n}$
 **geom. MW**: $\bar g = (x_1 \cdot x_2 \cdot ... \cdot x_n)^{\frac{1}{n}}$
@@ -222,5 +223,5 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTkwMzk5MCwtMjU3NTcyMDE5XX0=
+eyJoaXN0b3J5IjpbLTE1MDgyODg3OTEsLTI1NzU3MjAxOV19
 -->
