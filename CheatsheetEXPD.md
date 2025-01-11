@@ -35,6 +35,8 @@ nchar() length of string
 strsplit
 
 ```
+### Kovarianz & Korrelation
+**Kovarianz**:
 ### Univariate Darstellung
 | Darstellungsart | kategoriell | metrisch |
 |--|--|--|
@@ -223,5 +225,5 @@ autoplot(pca,
 	main="title")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDgyODg3OTEsLTI1NzU3MjAxOV19
+eyJoaXN0b3J5IjpbMTMzMDUzMjU0LC0yNTc1NzIwMTldfQ==
 -->
