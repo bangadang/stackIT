@@ -116,8 +116,16 @@ pairs(df[, c("col1", "col2", "coln")],col = rgb(0,0,0, alpha= 0.2))
 
 ```
 mosaicplot(~ kat_var1+ kat_var2 + kat_var3, 
-			data = df, main = "Title", col = c("red", "blue", "green"), cex.axis = 0.7)
+			data = df, main = "Title", 
+			col = c("red", "blue", "green"), 
+			cex.axis = 0.7)
+
+boxplot(num_var ~ kat_var1+ kat_var2, 
+	data = df, 
+	col = c("red", "yellow", "blue", "green"))
+plot.design(num_var ~ kat_var1+ kat_var2 + kat_var3 + kat_var4, data = df) #Faktorplot
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDE4NzQ5NywtMjU3NTcyMDE5XX0=
+eyJoaXN0b3J5IjpbNDExNzY0ODgxLC0yNTc1NzIwMTldfQ==
 -->
