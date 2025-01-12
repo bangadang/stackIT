@@ -46,6 +46,7 @@ sub(pattern="str", replacement = "str2", x=string) Ersetz das erste Vorkomnis de
 gsub(pattern="str", replacement = "str2", x=string) Ersetz ein pattern in string so oft es vorkommt
 nchar() length of string
 strsplit
+data(name) #get r dataset
 ```
 ### Faktoren
 
@@ -311,6 +312,6 @@ $d.h.$ $a = \frac{1}{s_x}$  $b =  - \frac{\bar x}{s_x}$
 $\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x})$
 $s_z = 1 = |\frac{1}{s_x}| \cdot s_x$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Nzg4MDAxMSwtNjg1NDk5OCwtMjU3NT
-cyMDE5XX0=
+eyJoaXN0b3J5IjpbLTI3MDQ2OTU4MCwxMzU3ODgwMDExLC02OD
+U0OTk4LC0yNTc1NzIwMTldfQ==
 -->
