@@ -50,12 +50,28 @@ data(name) #get r dataset
 ```
 ### Faktoren
 ```r
-vec <- as.factor(vec, levels=c(reihenfolge der labels), labels=c(bezeichnungen der levels))
+vec <- as.factor(vec, levels=c(reihenfolge der labels), labels=c(bezeichnungen der levels), ordered=T/F)
 levels(f.vec)
 nlevels(f.vec)
 droplevels(f.vec) #unnötige levels löschen
+levels(f.vec)[levels(v.vel) == "lvlname"] <- "newlvlname"
 ```
-levels(ProgKenntFac)[levels(ProgKenntFac) == "klein"] <- "tief
+fac_num_var <- cut(x = fac_num_var, breaks = seq(0, 120, by= 20 ), ordered_result = TRUE)
+```
+dat_aktuell <- Sys.Date()
+time_aktuell <- Sys.time()
+as.numeric(date) #Date2POSIXct
+as.Date("date_str", format="%Y-%m-%d")
+
+#manuelle Skal. Date Achse
+plot(Close ~ Date, data=smi, type = "l", ylab = "Tageskurs", xaxt = "n", las = 1, xlab="")
+axis.Date(1, format = "%d-%m",
+          at=seq.Date(as.Date("01.01.2019", format="%d.%m.%Y"), as.Date("31.12.2019", format="%d.%m.%Y"), 30))
+mtext("Date", side = 1, line = 1.5, cex=0.8)
+
+as.POSIXct("2011-01-27 01:30:00", format = "%Y-%m-%d %H:%M:%S"))
+
+difftime(t2,t1, units=)
 ```
 ### Kovarianz & Korrelation
 **Zusammenhang Datenpunkte**: 
@@ -318,7 +334,18 @@ $x \mapsto z = (\frac{x - \bar x}{s_x}) = (\frac{1}{s_x} \cdot x - \frac{\bar x}
 $d.h.$ $a = \frac{1}{s_x}$  $b =  - \frac{\bar x}{s_x}$
 $\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x})$
 $s_z = 1 = |\frac{1}{s_x}| \cdot s_x$
+
+### wichtige Funktionen
+```r
+aggregate(kat_var~num_var, data=d, FUN=mean/sd)
+abline(h=, v=)
+reshape(data=df, varying=colnames[n:m], v.names="name für neue varyingvar",idvar="ID", direction="long")
+library(tidyr)
+pivot_longer(data=df, cols=n:m, names_to="name")
+merge(df1, df2, by="common_var", all=T/F)
+(F=naturaljoin/intersection, T=outerjoin, all.x=leftjoin, all.y=rightjoin)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTExMDEyOCwtMjcwNDY5NTgwLDEzNT
-c4ODAwMTEsLTY4NTQ5OTgsLTI1NzU3MjAxOV19
+eyJoaXN0b3J5IjpbLTIwMzAzNTM3NDUsLTI3MDQ2OTU4MCwxMz
+U3ODgwMDExLC02ODU0OTk4LC0yNTc1NzIwMTldfQ==
 -->
