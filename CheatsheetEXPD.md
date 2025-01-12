@@ -52,7 +52,7 @@ data(name) #get r dataset
 
 ### Kovarianz & Korrelation
 **Zusammenhang Datenpunkte**: 
-1. Form: linerarer oder anderer Zusammenhang zw. Datenpunkten (monotone Kurve, Punktewolke) (muss nicht konstant sein. Kann "brechen"..
+1. Form: linearer oder anderer Zusammenhang zw. Datenpunkten (monotone Kurve, Punktewolke) (muss nicht konstant sein. Kann "brechen"..
 2. Richtung: positiv oder negativ 
 3. Stärke: Wie breit ist die Punktewolke. Je breiter, deto schwächer der Zusammenhang.
 
@@ -312,6 +312,6 @@ $d.h.$ $a = \frac{1}{s_x}$  $b =  - \frac{\bar x}{s_x}$
 $\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x})$
 $s_z = 1 = |\frac{1}{s_x}| \cdot s_x$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDQ2OTU4MCwxMzU3ODgwMDExLC02OD
-U0OTk4LC0yNTc1NzIwMTldfQ==
+eyJoaXN0b3J5IjpbLTEzNjExNjM5MTAsLTI3MDQ2OTU4MCwxMz
+U3ODgwMDExLC02ODU0OTk4LC0yNTc1NzIwMTldfQ==
 -->
