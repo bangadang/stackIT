@@ -50,7 +50,10 @@ data(name) #get r dataset
 ```
 ### Faktoren
 ```r
-vec <- as.factor(vec, levels=
+vec <- as.factor(vec, levels=c(reihenfolge der labels), labels=c(bezeichnungen der levels))
+levels(f.vec)
+nlevels(f.vec)
+
 ```
 ### Kovarianz & Korrelation
 **Zusammenhang Datenpunkte**: 
@@ -314,6 +317,6 @@ $d.h.$ $a = \frac{1}{s_x}$  $b =  - \frac{\bar x}{s_x}$
 $\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x})$
 $s_z = 1 = |\frac{1}{s_x}| \cdot s_x$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE3MDI2MTAsLTI3MDQ2OTU4MCwxMz
+eyJoaXN0b3J5IjpbLTEwODQzMzEwNTgsLTI3MDQ2OTU4MCwxMz
 U3ODgwMDExLC02ODU0OTk4LC0yNTc1NzIwMTldfQ==
 -->
