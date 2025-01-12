@@ -53,7 +53,9 @@ data(name) #get r dataset
 vec <- as.factor(vec, levels=c(reihenfolge der labels), labels=c(bezeichnungen der levels))
 levels(f.vec)
 nlevels(f.vec)
-
+droplevels(f.vec) #unnötige levels löschen
+```
+levels(ProgKenntFac)[levels(ProgKenntFac) == "klein"] <- "tief
 ```
 ### Kovarianz & Korrelation
 **Zusammenhang Datenpunkte**: 
@@ -317,6 +319,6 @@ $d.h.$ $a = \frac{1}{s_x}$  $b =  - \frac{\bar x}{s_x}$
 $\bar z = 0 = (\frac{1}{s_x} \cdot \bar x - \frac{\bar x}{s_x})$
 $s_z = 1 = |\frac{1}{s_x}| \cdot s_x$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQzMzEwNTgsLTI3MDQ2OTU4MCwxMz
-U3ODgwMDExLC02ODU0OTk4LC0yNTc1NzIwMTldfQ==
+eyJoaXN0b3J5IjpbMTQ1MTExMDEyOCwtMjcwNDY5NTgwLDEzNT
+c4ODAwMTEsLTY4NTQ5OTgsLTI1NzU3MjAxOV19
 -->
