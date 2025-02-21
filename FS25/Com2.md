@@ -110,14 +110,14 @@ $P(A) =\lim_{n \rarr\inf} r_n(A)$
 set.seed()
 sample(x = 1:6, size = 5, replace = TRUE)
 ```
-### Sample mit manipulierten Wahrsch.
+### Sample Würfeln mit manipulierten Wahrsch.
 ```r
 (round(p <- c(1,2,2,2,2,3)/12,3))
 w <- sample(x = 1:6, size = 1000, replace = TRUE,
 prob = p)
 r_6 <- sum(w == 6) / length(w) # 0.249
 ```
-### 2-Würfel Simulation mir for Schlaufe
+### 2-mal würfeln Simulation mit for Schlaufe
 ```r
 n <- 50000
 w1 <- matrix(NA, nrow = n, ncol = 2)
@@ -130,10 +130,10 @@ w1[i,] <- sample(1:6, size = 2, replace = T)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NTA2MzUxMCwtMTI2ODk4NDYzNSwtMT
-MwMjU1ODE5NSwtMTgwOTI4NDAyMywtMTg0ODk0NDMxMSwtNDA4
-NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1NT
-AsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUy
-NTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzOD
-JdfQ==
+eyJoaXN0b3J5IjpbODE1NTM0MTQyLC0xMjY4OTg0NjM1LC0xMz
+AyNTU4MTk1LC0xODA5Mjg0MDIzLC0xODQ4OTQ0MzExLC00MDg1
+NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIwNTIxLDIzNTM1NjU1MC
+wtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkxLDgxNTI1
+Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4Ml
+19
 -->
