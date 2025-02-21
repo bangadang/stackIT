@@ -146,9 +146,15 @@ Jedem Ereignis $A \sub \Omega$ wird eine Zahl P(A) zugeordnet:
 **Frequentistische, Laplace-Definition und Bayesianische Interpretation erfüllen diese Axiome.**
 
 ### Herleitungen
-
+1. P(A) + P(AC ) = 1
+2. P(∅) = 1 − P(Ω) = 0
+3. Wenn A ⊆ B, so gilt P(A) ≤ P(B)
+4. Für jedes Ereignis A gilt 0 ≤ P(A) ≤ 1
+5. P(A1 ∪ A2 ∪ . . . ∪ Ak ) = P(A1) + P(A2) + . . . + P(Ak ), falls Ai ∩ Aj = ∅
+für alle i, j.
+6. P(A ∪ B) = P(A) + P(B) − P(A ∩ B) (Additionssatz)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTY1NjQxLDE2NTM3NDExOTUsLTEyNj
+eyJoaXN0b3J5IjpbNjE1MDkzMzU2LDE2NTM3NDExOTUsLTEyNj
 g5ODQ2MzUsLTEzMDI1NTgxOTUsLTE4MDkyODQwMjMsLTE4NDg5
 NDQzMTEsLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQyMjA1Mj
 EsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00ODI3
