@@ -53,9 +53,21 @@ Ein Ereignis ist eine nicht leere Teilmenge des Ergebnisraumes $A \subset \Omega
 Umständen von mehreren Ergebnissen erfüllt wird. Ein Ereignis bezeichnet eine Konstellation, die unter Umständen von mehreren Ergebnissen erfüllt wird. Ein Ereignis gilt als eingetroffen, wenn ein passendes Ergebnis aus dem
 Zufallsexperiment resultiert.
 
-- Unterschied Ereignis vs
+- Unterschied Ereignis vs. Ergebnis:
+	- Ergebnisse sind elementare Outcomes.
+	- Ereignisse sind Eigenschaften von Ergebnissen
+	- Unterschied zwischen Ergebnis und Ereignis:
+
+• Fussballmatch: FCW - FCZ ist 0:2 (Ergebnis)
+• Fussballmatch: FCW gewinnt gegen FCZ (Ereignis)
+
+Ziel: Angabe von einer Wahrscheinlichket für das Eintreffen eines
+Ereignisses (und nicht eines Ergebnisses).
+
+Bemerkung: Ein Ereignis kann auch nur ein einziges Ergebnis enthalten.
+Somit kann man auch einem Ergebnis eine Wahrscheinlichkeit zuordnen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTEwMjYzNiwyMzUzNTY1NTAsLTkxND
+eyJoaXN0b3J5IjpbLTM0ODQyMDU2NSwyMzUzNTY1NTAsLTkxND
 k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
 MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
 -->
