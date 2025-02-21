@@ -139,12 +139,12 @@ Experimente durchzuführen
 Jedem Ereignis $A \sub \Omega$ wird eine Zahl P(A) zugeordnet:
 - Axiom 1: $P(A) \geq 0$ für jedes Ereignis A
 - Axiom 2: $P(\Omega) = 1$
-- Axiom 3: Falls $A\cap$ 
+- Axiom 3: Falls $A \cap B = \emptyset$, dann gilt $P(A\cup B) = P(A) + P(B)$ 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MjM4ODA2MiwxNjUzNzQxMTk1LC0xMj
+eyJoaXN0b3J5IjpbLTY4NTcyMDEzOCwxNjUzNzQxMTk1LC0xMj
 Y4OTg0NjM1LC0xMzAyNTU4MTk1LC0xODA5Mjg0MDIzLC0xODQ4
 OTQ0MzExLC00MDg1NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIwNT
 IxLDIzNTM1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgy
