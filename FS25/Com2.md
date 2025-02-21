@@ -97,13 +97,13 @@ Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \
 In vielen Situationen ist nicht klar wie der Ergebnisraum aussieht oder ob alle Ergebnisse gleich wahrscheinlich sind. Wahrscheinlichkeiten können dann aufgrund vergangener Beobachtungen abgeschätzt werden.
 - Beispiel: Anzahl E-Mails, die in der nächsten Minute über die ZHAW Mailserver abgefertigt werden
 Ein Zufallsexperiment wird n-mal durchgeführt und gezählt wie oft das Ereignis A eintritt.
-$$\text{P(A)} \approx \frac{n_A}{n} = \text{r(A)} = \text{relative Häufigkeit}$$
+$$\text{P(A)} \approx \frac{n_A}{n} = \text{r(A)}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTIzNTMsLTE4MDkyODQwMjMsLTE4ND
-g5NDQzMTEsLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQyMjA1
-MjEsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00OD
-I3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5
-NywxNDM4NDgzMzgyXX0=
+eyJoaXN0b3J5IjpbMTIxODE3NDU5NSwtMTgwOTI4NDAyMywtMT
+g0ODk0NDMxMSwtNDA4NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIy
+MDUyMSwyMzUzNTY1NTAsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLT
+Q4MjczNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAy
+Njk3LDE0Mzg0ODMzODJdfQ==
 -->
