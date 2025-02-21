@@ -91,18 +91,19 @@ Alle Ereignisse von A sind auch in B enthalten
 
 ## Laplace Wahrscheinlichkeiten
 Alle Elementarereignisse des Ereignisraums sind gleich Wahrscheinlich.
-Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \frac{|A|}{||\Omega}$$
+Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \frac{|A|}{|\Omega|}$$
 
 ## Frequentistische Wahrscheinlichkeiten
 In vielen Situationen ist nicht klar wie der Ergebnisraum aussieht oder ob alle Ergebnisse gleich wahrscheinlich sind. Wahrscheinlichkeiten können dann aufgrund vergangener Beobachtungen abgeschätzt werden.
 - Beispiel: Anzahl E-Mails, die in der nächsten Minute über die ZHAW Mailserver abgefertigt werden
 Ein Zufallsexperiment wird n-mal durchgeführt und gezählt wie oft das Ereignis A eintritt.
-$$$\text{P(A)} \$$
+$$\text{P(A)} \approx \frac{n_A}{n} = \text{r(A)} = \text{relative Häufigkeit}$$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkyODQwMjMsLTE4NDg5NDQzMTEsLT
-QwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQyMjA1MjEsMjM1MzU2
-NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEsOD
-E1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5NywxNDM4NDgz
-MzgyXX0=
+eyJoaXN0b3J5IjpbLTY4OTIzNTMsLTE4MDkyODQwMjMsLTE4ND
+g5NDQzMTEsLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQyMjA1
+MjEsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00OD
+I3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5
+NywxNDM4NDgzMzgyXX0=
 -->
