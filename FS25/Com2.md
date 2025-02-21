@@ -28,10 +28,11 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
  $$f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp\frac{(x-\mu)^2}{2\sigma^2}$$
  ### Zufallsexperiment
  Ein Versuch/ Eine Situation, wo das Ergebnis nicht bekannt ist.
-	 - Können theoretisch untr gleichen Bedingungen wiederholt werden.
-	 - Ein 
+	 - Können theoretisch unter gleichen Bedingungen wiederholt werden.
+	 -  Ob ein Versuch / eine Situation ein Zufallsexperiment ist, fragt man sich, ob sich bei einer  Wiederholung (unter gleichen Bedingungen) immer exakt dasselbe Resultat einstellen würde. Ist die Antwort “nein”, dann handelt es sich um ein Zufallsexperiment.
+ - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY4ODA2NDUsLTkxNDk5NDk2NiwyMT
-IzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAy
-OSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMz
+E0NjMzLC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjks
+LTUwNTEwMjY5NywxNDM4NDgzMzgyXX0=
 -->
