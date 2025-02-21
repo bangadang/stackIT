@@ -37,10 +37,18 @@ Ein Versuch/ Eine Situation, wo das Ergebnis nicht bekannt ist.
 konkrete Ergebnisse eines Zufallsexperiments. Es tritt bei jedem Experiment genau ein Ergebnis ein. Ergebnisse schliessen sich aus.
 ### Ergebnisraum $\Omega$
 Menge aller möglichen Ergebnisse eines Zufallsexperiments. Ergebnisse sind Elemente von $\Omega$.
-	- Bsp:
-	- 
+Bsp:
+- 1 x Würfelwurf: Ω = {1, 2, 3, 4, 5, 6}
+- Fussballmatch: Ω = {0 : 0, 0 : 1, 1 : 0, 0 : 2, . . .}
+- Geburtsmonat: Ω = {Jan, Feb, Mär , . . . , Nov , Dez}
+- Anzahl Anrufe Ω = {0, 1, 2, 3, . . . , x }
+- Treibstoffverbrauch: Ω = [a, b], zwischen a (minimal möglicher
+Verbrauch) und b (maximal möglicher Verbrauch, Tankvolumen).
+
+### Mächtigkeit Ergebnisraum $|\Omega|$
+Anzahl Elemente des Ergebnisraums. Kann endlich, abzählbar unendlich, überabzählbar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTAyNTc1NSwyMzUzNTY1NTAsLTkxND
+eyJoaXN0b3J5IjpbLTc1MzczOTM3MCwyMzUzNTY1NTAsLTkxND
 k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
 MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
 -->
