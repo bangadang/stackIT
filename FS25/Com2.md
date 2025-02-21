@@ -79,9 +79,13 @@ $$\text{A}^{\text{C}}$$
 ### Differenz
 $$\text{A}\setminus\text{C}$$
 
-Zwei Ergebnisse A 
+### disjunkte Ergebnisse
+Zwei Ergebnisse A und B sind disjunkt, wenn Sie sich gegenseitig ausschliessen
+$\text{A} \cap \text{B}=\emptyset$
+
+### Ergebnis A ist 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTc5MjcyNSwtNzI0MjIwNTIxLDIzNT
+eyJoaXN0b3J5IjpbLTU3ODgxOTk0MCwtNzI0MjIwNTIxLDIzNT
 M1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkx
 LDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzOD
 Q4MzM4Ml19
