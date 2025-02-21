@@ -20,9 +20,10 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
 	- Es gibt Faktoren, die eine Rolle spielen, aber nur mit Messfehler behaftet erhoben werden können
 	- deterministische Phänomene sind zu komplex für eine exakte Modellierung. Phänomene wie: menschliches Verhalten, Wetter, Wirtschaft
 	- Zufall, Unsicherheit oder Unbestimmtheit werden in stochastischen Modellen berücksichtigt.
-	- Bsp 1.  Wartezeit an einem Schalter: Histogramm vor Daten --> Annäherungslinie des Histogramm gibt Annäherungsmodell für die Wartezeit x. $f(x)=$
+	- Bsp 1.  Wartezeit an einem Schalter: Histogramm vor Daten --> Annäherungslinie des Histogramm gibt Annäherungsmodell für die Wartezeit x. --> $f(x)=\lambda e^{-\lambda x}$ 
+	- Bsp 2. Körpergrösse der Klassenerhebung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTg2NjE2MSwyMTIzMTQ2MzMsLTQ4Mj
-czNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3
-LDE0Mzg0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbLTI2MDE5NTE1LDIxMjMxNDYzMywtNDgyNz
+M0NTkxLDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcs
+MTQzODQ4MzM4Ml19
 -->
