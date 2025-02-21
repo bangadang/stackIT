@@ -71,13 +71,16 @@ Somit kann man auch einem Ergebnis eine Wahrscheinlichkeit zuordnen.
 
 ## Mengenoperationen
 ### Schnittmenge
-$$A\inter$$
+$$\text{A }\cap\text{ B}$$
 ### Vereinigung
+$$\text{A }\cup\text{ B}$$
 ### Komplement
+$$\text{A}^{\text{C}}$$
 ### Differenz
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5NTEwOTk5LC03MjQyMjA1MjEsMjM1Mz
-U2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEs
-ODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5NywxNDM4ND
-gzMzgyXX0=
+eyJoaXN0b3J5IjpbLTQ0MjM2NDQyNiwtNzI0MjIwNTIxLDIzNT
+M1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkx
+LDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzOD
+Q4MzM4Ml19
 -->
