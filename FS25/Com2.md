@@ -138,12 +138,13 @@ Experimente durchzuführen
 ## Axiome von Kolmogorov
 Jedem Ereignis $A \sub \Omega$ wird eine Zahl P(A) zugeordnet:
 - Axiom 1: $P(A) \geq 0$ für jedes Ereignis A
-- Axiom 2: $ 
+- Axiom 2: $P(\Omega) = 1$
+- Axiom 3:  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNjc4MDA2MSwtMTI2ODk4NDYzNSwtMT
+eyJoaXN0b3J5IjpbMTY1Mzc0MTE5NSwtMTI2ODk4NDYzNSwtMT
 MwMjU1ODE5NSwtMTgwOTI4NDAyMywtMTg0ODk0NDMxMSwtNDA4
 NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1NT
 AsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUy
