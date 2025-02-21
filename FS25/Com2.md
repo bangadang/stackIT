@@ -88,10 +88,12 @@ Alle Ereignisse von A sind auch in B enthalten
 
 ## Laplace Wahrscheinlichkeiten
 Alle Elementarereignisse des Ereignisraums sind gleich Wahrscheinlich.
-Dann ist die Wahrssscheinlichkeit, dass ein Ereignis A 
+Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \frac{|A|}{||\Omega}$$
+
+## Frequentische Wahrscheinlichkeiten
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkzMTA1OTAsLTQwODU0NDMzNiwxNz
+eyJoaXN0b3J5IjpbLTE4NDg5NDQzMTEsLTQwODU0NDMzNiwxNz
 M0Njg0NTgxLC03MjQyMjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5
 NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5Nz
 QxNDkwMjksLTUwNTEwMjY5NywxNDM4NDgzMzgyXX0=
