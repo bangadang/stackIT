@@ -110,11 +110,16 @@ $P(A) =\lim_{n \rarr\inf} r_n(A)$
 set.seed()
 sample(x = 1:6, size = 5, replace = TRUE)
 ```
+### Sample mit manipulierten Wahrsch.
+```r
+(round(p <- c(1,2,2,2,2,3)/12,3))
+
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjUzNDY4OTYsLTE4MDkyODQwMjMsLT
+eyJoaXN0b3J5IjpbLTIwNDA1NTI0MDgsLTE4MDkyODQwMjMsLT
 E4NDg5NDQzMTEsLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQy
 MjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC
 00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEw
