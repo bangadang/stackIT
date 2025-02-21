@@ -3,11 +3,16 @@
 20.02.25
 
 Wahrscheinlichkeitsrechnung: von einem Modell auf Daten zu schliessen. wichtig für schliessende Statistik
-Nutzen: Auf viele Fragen gibt es keine eindeutige, sichere Antwort. WR bietet  
+Nutzen: Auf viele Fragen gibt es keine eindeutige, sichere Antwort. WR bietet  die Möglichkeit solche Fragen mit Wahrsch.-modellen zu bearbeiten.
+--> Quantifizierung Zufall/Risiko/Unsicherheit
+Wie lange werde ich am Postschalter warten müssen?
+• Soll ich einen Regenschirm mitnehmen?
+• Wie viel Anrufe gibt es bei einer Hotline in der nächsten Stunde?
+• Wieviel gewinne ich, wenn ich heute einen Lotto-Schein löse?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTQzMDAyMzksLTQ4MjczNDU5MSw4MT
-UyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMz
-ODJdfQ==
+eyJoaXN0b3J5IjpbMTM4Nzg0NDE0NSwtNDgyNzM0NTkxLDgxNT
+I1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4
+Ml19
 -->
