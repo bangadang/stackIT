@@ -50,10 +50,12 @@ Anzahl Elemente des Ergebnisraums. Kann endlich, abzählbar unendlich, überabz�
 
 ### Ereignis A
 Ein Ereignis ist eine nicht leere Teilmenge des Ergebnisraumes $A \subset \Omega$. Ein bezeichnet man eine Konstellation, die unter
-Umständen von mehreren Ergebnissen erfüllt wird. reignibezeichnet man eine Konstellation, die unter
-Umständen von mehreren Ergebnissen erfüllt wird.
+Umständen von mehreren Ergebnissen erfüllt wird. Ein Ereignis bezeichnet eine Konstellation, die unter Umständen von mehreren Ergebnissen erfüllt wird. Ein Ereignis gilt als eingetroffen, wenn ein passendes Ergebnis aus dem
+Zufallsexperiment resultiert.
+
+- Unterschied Ereignis vs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODU5MjI5NSwyMzUzNTY1NTAsLTkxND
+eyJoaXN0b3J5IjpbMjAzMTEwMjYzNiwyMzUzNTY1NTAsLTkxND
 k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
 MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
 -->
