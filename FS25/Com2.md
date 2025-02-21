@@ -125,19 +125,21 @@ for (i in 1:n) {
 w1[i,] <- sample(1:6, size = 2, replace = T)
 }
 #wie häufig bei 2x Würfeln mindestens eine 6 enthalten ist
-w_tf <- w1 == 6 # feststellen, welche Einträge Sechser sind
+w_tf <- w1 == 6 # feststellen, welche Einträge Sechser sind, true/false matrix
 summen <- rowSums(w_tf)
 sum(summen>0)/length(summen) # 0.30944
 ```
+## subjektive Wahrscheinlichkeit
+Wahrscheinlichkeit = Mass des persönlichen Glaubens (Bayesianische Interpretation)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQxNjg1MTksLTEyNjg5ODQ2MzUsLT
-EzMDI1NTgxOTUsLTE4MDkyODQwMjMsLTE4NDg5NDQzMTEsLTQw
-ODU0NDMzNiwxNzM0Njg0NTgxLC03MjQyMjA1MjEsMjM1MzU2NT
-UwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEsODE1
-MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5NywxNDM4NDgzMz
-gyXX0=
+eyJoaXN0b3J5IjpbLTI4MDQ0MTkwLC0xMjY4OTg0NjM1LC0xMz
+AyNTU4MTk1LC0xODA5Mjg0MDIzLC0xODQ4OTQ0MzExLC00MDg1
+NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIwNTIxLDIzNTM1NjU1MC
+wtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkxLDgxNTI1
+Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4Ml
+19
 -->
