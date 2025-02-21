@@ -68,6 +68,7 @@ Somit kann man auch einem Ergebnis eine Wahrscheinlichkeit zuordnen.
 	- $\text{A}\cup\text{A}^{\text{C}}=\Omega$
 - sicheres Ereignis $\text{A}=\Omega$
 - Unmögliches Ereignis $\text{A}=\emptyset$ 
+### Wahrscheinlichkeit für Ereignis A P(A)
 
 ## Mengenoperationen
 ### Schnittmenge
@@ -86,6 +87,8 @@ $\text{A} \cap \text{B}=\emptyset$
 ### Ereignis A ist Teilmenge von B
 Alle Ereignisse von A sind auch in B enthalten
 
+
+
 ## Laplace Wahrscheinlichkeiten
 Alle Elementarereignisse des Ereignisraums sind gleich Wahrscheinlich.
 Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \frac{|A|}{||\Omega}$$
@@ -93,8 +96,9 @@ Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \
 ## Frequentische Wahrscheinlichkeiten
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDg5NDQzMTEsLTQwODU0NDMzNiwxNz
-M0Njg0NTgxLC03MjQyMjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5
-NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5Nz
-QxNDkwMjksLTUwNTEwMjY5NywxNDM4NDgzMzgyXX0=
+eyJoaXN0b3J5IjpbNjAzMzE4NDkwLC0xODQ4OTQ0MzExLC00MD
+g1NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIwNTIxLDIzNTM1NjU1
+MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkxLDgxNT
+I1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4
+Ml19
 -->
