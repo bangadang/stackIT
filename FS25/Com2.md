@@ -46,9 +46,12 @@ Bsp:
 Verbrauch) und b (maximal möglicher Verbrauch, Tankvolumen).
 
 ### Mächtigkeit Ergebnisraum $|\Omega|$
-Anzahl Elemente des Ergebnisraums. Kann endlich, abzählbar unendlich, überabzählbar
+Anzahl Elemente des Ergebnisraums. Kann endlich, abzählbar unendlich, überabzählbar unendlich sein.
+
+### Ereignis A
+Ein Ereignis ist eine nicht leere Teilmenge des Ergebnisraumes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzczOTM3MCwyMzUzNTY1NTAsLTkxND
-k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
-MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbOTg1MjQ4NzE3LDIzNTM1NjU1MCwtOTE0OT
+k0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkxLDgxNTI1Nzc0Nywx
+OTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4Ml19
 -->
