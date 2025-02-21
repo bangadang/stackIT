@@ -67,10 +67,11 @@ Somit kann man auch einem Ergebnis eine Wahrscheinlichkeit zuordnen.
 - Gegenereignis von A : $\text{A}^{\text{C}}$
 	- $\text{A}\cup\text{A}^{\text{C}}=\Omega$
 - sicheres Ereignis $\text{A}=\Omega$
-- Unmögliches Ereignis $A =$ 
+- Unmögliches Ereignis $\text{A}=\emptyset$ 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTAwNDgzMywtNzI0MjIwNTIxLDIzNT
-M1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkx
-LDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzOD
-Q4MzM4Ml19
+eyJoaXN0b3J5IjpbLTE1MzQ5ODg4NDYsLTcyNDIyMDUyMSwyMz
+UzNTY1NTAsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5
+MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mz
+g0ODMzODJdfQ==
 -->
