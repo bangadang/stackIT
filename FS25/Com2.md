@@ -96,12 +96,12 @@ Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \
 ## Frequentistische Wahrscheinlichkeiten
 In vielen Situationen ist nicht klar wie der Ergebnisraum aussieht oder ob alle Ergebnisse gleich wahrscheinlich sind. Wahrscheinlichkeiten können dann aufgrund vergangener Beobachtungen abgeschätzt werden.
 - Beispiel: Anzahl E-Mails, die in der nächsten Minute über die ZHAW Mailserver abgefertigt werden
-Ein Zufallsexperiment wird n-mal durchgeführt und gezä
+Ein Zufallsexperiment wird n-mal durchgeführt und gezählt wie oft das Ereignis A eintritt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTE3MDE3OCwtMTg0ODk0NDMxMSwtND
-A4NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1
-NTAsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MT
-UyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMz
-ODJdfQ==
+eyJoaXN0b3J5IjpbMTk5MzIwMzQ2LC0xODQ4OTQ0MzExLC00MD
+g1NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIwNTIxLDIzNTM1NjU1
+MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkxLDgxNT
+I1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4
+Ml19
 -->
