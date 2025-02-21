@@ -87,10 +87,12 @@ $\text{A} \cap \text{B}=\emptyset$
 Alle Ereignisse von A sind auch in B enthalten
 
 ## Laplace Wahrscheinlichkeiten
+Alle Elementarereignisse des Ereignisraums sind gleich Wahrscheinlich.
+Dann ist die Wahrssscheinlichkeit, dass ein Ereignis A 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NTk2Njc1NSwtNDA4NTQ0MzM2LDE3Mz
-Q2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1NTAsLTkxNDk5NDk2
-NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcsMTk3ND
-E0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbLTE3ODkzMTA1OTAsLTQwODU0NDMzNiwxNz
+M0Njg0NTgxLC03MjQyMjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5
+NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5Nz
+QxNDkwMjksLTUwNTEwMjY5NywxNDM4NDgzMzgyXX0=
 -->
