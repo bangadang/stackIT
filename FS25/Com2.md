@@ -138,16 +138,19 @@ Experimente durchzuführen
 ## Axiome von Kolmogorov
 Jedem Ereignis $A \sub \Omega$ wird eine Zahl P(A) zugeordnet:
 - Axiom 1: $P(A) \geq 0$ für jedes Ereignis A
-- Axiom 2: $P(\Omega) = 1$, Wahrscheinlichkeit das irgendetwas eintritt
-- Axiom 3: Falls $A \cap B = \emptyset$, dann gilt $P(A\cup B) = P(A) + P(B)$ Wenn zwei Ereignisse sich ausschliessen, dann ist die Wahrscheinlichkeit der Vereinigung (A oder B tritt ein) gleich der Summe der Wahrsch. der einzelnen Ereignis
+- Axiom 2: $P(\Omega) = 1$
+	- Wahrscheinlichkeit das irgendetwas eintritt
+- Axiom 3: Falls $A \cap B = \emptyset$, dann gilt $P(A\cup B) = P(A) + P(B)$ 
+	- Wenn zwei Ereignisse sich ausschliessen, dann ist die Wahrscheinlichkeit der Vereinigung (A oder B tritt ein) gleich der Summe der Wahrsch. der einzelnen Ereignisse
 
+**Frequentistische, Laplace-Definition und Bayesianische Interpretation erfüllen diese Axiome.**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMjY4MDA5NCwxNjUzNzQxMTk1LC0xMj
-Y4OTg0NjM1LC0xMzAyNTU4MTk1LC0xODA5Mjg0MDIzLC0xODQ4
-OTQ0MzExLC00MDg1NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIwNT
-IxLDIzNTM1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgy
-NzM0NTkxLDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OT
-csMTQzODQ4MzM4Ml19
+eyJoaXN0b3J5IjpbLTE0MzAwMzE3MjIsMTY1Mzc0MTE5NSwtMT
+I2ODk4NDYzNSwtMTMwMjU1ODE5NSwtMTgwOTI4NDAyMywtMTg0
+ODk0NDMxMSwtNDA4NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMD
+UyMSwyMzUzNTY1NTAsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4
+MjczNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNj
+k3LDE0Mzg0ODMzODJdfQ==
 -->
