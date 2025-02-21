@@ -117,7 +117,7 @@ w <- sample(x = 1:6, size = 1000, replace = TRUE,
 prob = p)
 r_6 <- sum(w == 6) / length(w) # 0.249
 ```
-### Würfel Simulation mir for Schlaufe
+### 2-Würfel Simulation mir for Schlaufe
 ```r
 n <- 50000
 w1 <- matrix(NA, nrow = n, ncol = 2)
@@ -130,9 +130,10 @@ w1[i,] <- sample(1:6, size = 2, replace = T)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg5ODQ2MzUsLTEzMDI1NTgxOTUsLT
-E4MDkyODQwMjMsLTE4NDg5NDQzMTEsLTQwODU0NDMzNiwxNzM0
-Njg0NTgxLC03MjQyMjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5Nj
-YsMjEyMzE0NjMzLC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQx
-NDkwMjksLTUwNTEwMjY5NywxNDM4NDgzMzgyXX0=
+eyJoaXN0b3J5IjpbLTY3NTA2MzUxMCwtMTI2ODk4NDYzNSwtMT
+MwMjU1ODE5NSwtMTgwOTI4NDAyMywtMTg0ODk0NDMxMSwtNDA4
+NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1NT
+AsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUy
+NTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzOD
+JdfQ==
 -->
