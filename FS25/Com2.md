@@ -31,9 +31,10 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
  Ein Versuch/ Eine Situation, wo das Ergebnis nicht bekannt ist.
 	 - Können theoretisch unter gleichen Bedingungen wiederholt werden.
 	 -  Ob ein Versuch / eine Situation ein Zufallsexperiment ist, fragt man sich, ob sich bei einer  Wiederholung (unter gleichen Bedingungen) immer exakt dasselbe Resultat einstellen würde. Ist die Antwort “nein”, dann handelt es sich um ein Zufallsexperiment.
- - Bsp Treibstoffverbrauch für Flug ist
+ - Bsp Treibstoffverbrauch für Flug ist Zufallsmodell, weil es zu viele beeinflussende Faktoren gibt um das sicherlich deterministisch zu bestimmen
+ -  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTg4Mzc0NCwyMzUzNTY1NTAsLTkxND
+eyJoaXN0b3J5IjpbLTQ2MzU5MzQyMCwyMzUzNTY1NTAsLTkxND
 k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
 MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
 -->
