@@ -15,10 +15,12 @@ Nutzen: Auf viele Fragen gibt es keine eindeutige, sichere Antwort. WR bietet  d
 vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeitsbereich. Abstrahiert die Realität im Sinne der Beantwortung der Fragestellung 
 - **deterministische** Modelle --> liefert immer das gleiche Resultat
 	- Es gibt keine Unsicherheit/Unbestimmtheit
+	- Es ist determiniert auf Grund dem Moment jetzt was in der Zukunft passieren wird
 - **Stochastische** Modelle --> zufälliges Resultat
-	- Es gibt Faktoren, die eine Rolle spielen, aber nur mit Messfe
+	- Es gibt Faktoren, die eine Rolle spielen, aber nur mit Messfehler behaftet erhoben werden können
+	- deterministische Phänomene sind zu komplex für eine exakte Modellierung. Phänomene wie: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDg0MSwyMTIzMTQ2MzMsLTQ4MjczND
-U5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0
-Mzg0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbMTQ5MDgxOTIyNCwyMTIzMTQ2MzMsLTQ4Mj
+czNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3
+LDE0Mzg0ODMzODJdfQ==
 -->
