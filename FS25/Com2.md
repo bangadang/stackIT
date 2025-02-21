@@ -85,9 +85,12 @@ $\text{A} \cap \text{B}=\emptyset$
 
 ### Ereignis A ist Teilmenge von B
 Alle Ereignisse von A sind auch in B enthalten
+
+## Wahrscheinlichkeit für ein Ereignis P(A)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDY4NDU4MSwtNzI0MjIwNTIxLDIzNT
-M1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkx
-LDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzOD
-Q4MzM4Ml19
+eyJoaXN0b3J5IjpbLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03Mj
+QyMjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMz
+LC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNT
+EwMjY5NywxNDM4NDgzMzgyXX0=
 -->
