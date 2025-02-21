@@ -68,10 +68,16 @@ Somit kann man auch einem Ergebnis eine Wahrscheinlichkeit zuordnen.
 	- $\text{A}\cup\text{A}^{\text{C}}=\Omega$
 - sicheres Ereignis $\text{A}=\Omega$
 - Unmögliches Ereignis $\text{A}=\emptyset$ 
-- 
+
+## Mengenoperationen
+### Schnittmenge
+$$A\inter$$
+### Vereinigung
+### Komplement
+### Differenz
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ5ODg4NDYsLTcyNDIyMDUyMSwyMz
-UzNTY1NTAsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5
-MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mz
-g0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbNjQ5NTEwOTk5LC03MjQyMjA1MjEsMjM1Mz
+U2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEs
+ODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5NywxNDM4ND
+gzMzgyXX0=
 -->
