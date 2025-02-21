@@ -24,9 +24,11 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
 	- Bsp 1.  Wartezeit an einem Schalter: Histogramm vor Daten --> Annäherungslinie des Histogramm gibt Annäherungsmodell für die Wartezeit x. --> $f(x)=\lambda e^{-\lambda x}$ 
 	- Bsp 2. Körpergrösse der Klassenerhebung
 
-- Normalverteilung $f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp\frac{(x-\mu)^2}{2\sigma^2}$
+### Normalverteilung
+ $$f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp\frac{(x-\mu)^2}{2\sigma^2}$$
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5MDUwMzkwLDIxMjMxNDYzMywtNDgyNz
-M0NTkxLDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcs
-MTQzODQ4MzM4Ml19
+eyJoaXN0b3J5IjpbLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4Mj
+czNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3
+LDE0Mzg0ODMzODJdfQ==
 -->
