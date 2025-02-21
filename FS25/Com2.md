@@ -22,8 +22,9 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
 	- Zufall, Unsicherheit oder Unbestimmtheit werden in stochastischen Modellen berücksichtigt.
 	- Bsp 1.  Wartezeit an einem Schalter: Histogramm vor Daten --> Annäherungslinie des Histogramm gibt Annäherungsmodell für die Wartezeit x. --> $f(x)=\lambda e^{-\lambda x}$ 
 	- Bsp 2. Körpergrösse der Klassenerhebung
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDE5NTE1LDIxMjMxNDYzMywtNDgyNz
+eyJoaXN0b3J5IjpbMjU4MDg2OTc2LDIxMjMxNDYzMywtNDgyNz
 M0NTkxLDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcs
 MTQzODQ4MzM4Ml19
 -->
