@@ -95,13 +95,17 @@ Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \
 
 ## Frequentistische Wahrscheinlichkeiten
 In vielen Situationen ist nicht klar wie der Ergebnisraum aussieht oder ob alle Ergebnisse gleich wahrscheinlich sind. Wahrscheinlichkeiten können dann aufgrund vergangener Beobachtungen abgeschätzt werden.
+- müssen Wieder
 - Beispiel: Anzahl E-Mails, die in der nächsten Minute über die ZHAW Mailserver abgefertigt werden
 Ein Zufallsexperiment wird n-mal durchgeführt und gezählt wie oft das Ereignis A eintritt.
 $$\text{P(A)} \approx \frac{n_A}{n} = \text{r(A)}$$
+r(A) ist die relative Häufigkeit
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxODE3NDU5NSwtMTgwOTI4NDAyMywtMT
+eyJoaXN0b3J5IjpbMTU0NTY0OTE1MiwtMTgwOTI4NDAyMywtMT
 g0ODk0NDMxMSwtNDA4NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIy
 MDUyMSwyMzUzNTY1NTAsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLT
 Q4MjczNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAy
