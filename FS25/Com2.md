@@ -23,6 +23,7 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
 	- stoch. Modelle sind nicht eindeutig <-> "Alle Modelle sind falsche, aber manche sind nützlich"
 	- Bsp 1.  Wartezeit an einem Schalter: Histogramm vor Daten --> Annäherungslinie des Histogramm gibt Annäherungsmodell für die Wartezeit x. --> $f(x)=\lambda e^{-\lambda x}$ 
 	- Bsp 2. Körpergrösse der Klassenerhebung
+	- 
 
 ### Normalverteilung
  $$f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp\frac{(x-\mu)^2}{2\sigma^2}$$
@@ -30,9 +31,9 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
  Ein Versuch/ Eine Situation, wo das Ergebnis nicht bekannt ist.
 	 - Können theoretisch unter gleichen Bedingungen wiederholt werden.
 	 -  Ob ein Versuch / eine Situation ein Zufallsexperiment ist, fragt man sich, ob sich bei einer  Wiederholung (unter gleichen Bedingungen) immer exakt dasselbe Resultat einstellen würde. Ist die Antwort “nein”, dann handelt es sich um ein Zufallsexperiment.
- - 
+ - Bsp Treibstoffverbrauch für Flug ist
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMz
-E0NjMzLC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjks
-LTUwNTEwMjY5NywxNDM4NDgzMzgyXX0=
+eyJoaXN0b3J5IjpbMjA4OTg4Mzc0NCwyMzUzNTY1NTAsLTkxND
+k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
+MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
 -->
