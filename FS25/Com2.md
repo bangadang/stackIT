@@ -130,15 +130,19 @@ summen <- rowSums(w_tf)
 sum(summen>0)/length(summen) # 0.30944
 ```
 ## subjektive Wahrscheinlichkeit
-Wahrscheinlichkeit = Mass des persönlichen Glaubens (Bayesianische Interpretation), Abschätzung vo 
+Wahrscheinlichkeit = Mass des persönlichen Glaubens (Bayesianische Interpretation), Abschätzung von Experten 
 - auch Aussagen über Wahrscheinlichkeiten möglich, wo keine Frequenz-Aussagen möglich sind, da in der Praxis es unmöglich ist gewisse
 Experimente durchzuführen
 - Bsp. wie wahrscheinlich ist ein atomarer Unfall in der Schweiz
 
+## Axiome von Kolmogorov
+Jedem Ereignis $A \sub \Omega$ wird eine Zahl P(A) zugeordnet:
+- Axiom 1: $P(A) \$
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTcxNzAxMSwtMTI2ODk4NDYzNSwtMT
+eyJoaXN0b3J5IjpbLTI4MTQ5NTgxNywtMTI2ODk4NDYzNSwtMT
 MwMjU1ODE5NSwtMTgwOTI4NDAyMywtMTg0ODk0NDMxMSwtNDA4
 NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1NT
 AsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUy
