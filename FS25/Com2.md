@@ -35,10 +35,12 @@ Ein Versuch/ Eine Situation, wo das Ergebnis nicht bekannt ist.
  - Bsp Treibstoffverbrauch für Flug ist Zufallsmodell, weil es zu viele beeinflussende Faktoren gibt um das sicherlich deterministisch zu bestimmen
 ### Ergebnis / Outcome
 konkrete Ergebnisse eines Zufallsexperiments. Es tritt bei jedem Experiment genau ein Ergebnis ein. Ergebnisse schliessen sich aus.
-### Ergebnisraum
-Alle möglichen Ergebnisse eines Zufallsexperiments
+### Ergebnisraum $\Omega$
+Menge aller möglichen Ergebnisse eines Zufallsexperiments. Ergebnisse sind Elemente von $\Omega$.
+	- Bsp:
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDUyOTI5OSwyMzUzNTY1NTAsLTkxND
+eyJoaXN0b3J5IjpbMTQ0MTAyNTc1NSwyMzUzNTY1NTAsLTkxND
 k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
 MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
 -->
