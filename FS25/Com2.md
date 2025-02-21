@@ -83,9 +83,10 @@ $$\text{A}\setminus\text{C}$$
 Zwei Ergebnisse A und B sind disjunkt, wenn Sie sich gegenseitig ausschliessen
 $\text{A} \cap \text{B}=\emptyset$
 
-### Ergebnis A ist 
+### Ergebnis A ist Teilmenge von B
+Alle Ereignisse von A sind auch in B enthalten
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3ODgxOTk0MCwtNzI0MjIwNTIxLDIzNT
+eyJoaXN0b3J5IjpbMjA3MDc1NTA0NiwtNzI0MjIwNTIxLDIzNT
 M1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkx
 LDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzOD
 Q4MzM4Ml19
