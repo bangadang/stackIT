@@ -61,8 +61,12 @@ Zufallsexperiment resultiert.
 
 Bemerkung: Ein Ereignis kann auch nur ein einziges Ergebnis enthalten.
 Somit kann man auch einem Ergebnis eine Wahrscheinlichkeit zuordnen.
+
+
+Elementarereignisse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDIyMDUyMSwyMzUzNTY1NTAsLTkxND
-k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
-MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbNzc2NzU1NDQyLC03MjQyMjA1MjEsMjM1Mz
+U2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00ODI3MzQ1OTEs
+ODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5NywxNDM4ND
+gzMzgyXX0=
 -->
