@@ -49,9 +49,11 @@ Verbrauch) und b (maximal möglicher Verbrauch, Tankvolumen).
 Anzahl Elemente des Ergebnisraums. Kann endlich, abzählbar unendlich, überabzählbar unendlich sein.
 
 ### Ereignis A
-Ein Ereignis ist eine nicht leere Teilmenge des Ergebnisraumes
+Ein Ereignis ist eine nicht leere Teilmenge des Ergebnisraumes $A \subset \Omega$. Ein bezeichnet man eine Konstellation, die unter
+Umständen von mehreren Ergebnissen erfüllt wird. reignibezeichnet man eine Konstellation, die unter
+Umständen von mehreren Ergebnissen erfüllt wird.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1MjQ4NzE3LDIzNTM1NjU1MCwtOTE0OT
-k0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkxLDgxNTI1Nzc0Nywx
-OTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4Ml19
+eyJoaXN0b3J5IjpbMTcxODU5MjI5NSwyMzUzNTY1NTAsLTkxND
+k5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUyNTc3NDcs
+MTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzODJdfQ==
 -->
