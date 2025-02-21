@@ -113,16 +113,18 @@ sample(x = 1:6, size = 5, replace = TRUE)
 ### Sample mit manipulierten Wahrsch.
 ```r
 (round(p <- c(1,2,2,2,2,3)/12,3))
-sample(x = 1:6, size = 5, replace = TRUE,
+w <- sample(x = 1:6, size = 1000, replace = TRUE,
 prob = p)
+r_6 <- sum(w == 6) / length(w) # 0.249
 ```
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDI1NTgxOTUsLTE4MDkyODQwMjMsLT
-E4NDg5NDQzMTEsLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQy
-MjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC
-00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEw
-MjY5NywxNDM4NDgzMzgyXX0=
+eyJoaXN0b3J5IjpbLTE3MTc2OTkyMzksLTEzMDI1NTgxOTUsLT
+E4MDkyODQwMjMsLTE4NDg5NDQzMTEsLTQwODU0NDMzNiwxNzM0
+Njg0NTgxLC03MjQyMjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5Nj
+YsMjEyMzE0NjMzLC00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQx
+NDkwMjksLTUwNTEwMjY5NywxNDM4NDgzMzgyXX0=
 -->
