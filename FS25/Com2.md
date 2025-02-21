@@ -12,9 +12,10 @@ Nutzen: Auf viele Fragen gibt es keine eindeutige, sichere Antwort. WR bietet  d
 
 ## Begriffe
 **Modell**: vereinfachte Darstellung der Realität mit oft eingeschränktem Gültigkeitsbereich
-- deterministische Modelle
+- deterministische Modelle --> liefert immer das gleiche Resultat
+- Stochastische Modelle
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjk2MTE3MywtNDgyNzM0NTkxLDgxNT
-I1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4
-Ml19
+eyJoaXN0b3J5IjpbLTEwMjI5MjA0MjUsLTQ4MjczNDU5MSw4MT
+UyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMz
+ODJdfQ==
 -->
