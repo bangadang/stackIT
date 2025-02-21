@@ -26,9 +26,9 @@ vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeits
 
 ### Normalverteilung
  $$f(x)=\frac{1}{\sqrt{2\pi\sigma^2}}exp\frac{(x-\mu)^2}{2\sigma^2}$$
- 
+ ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4Mj
-czNDU5MSw4MTUyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3
-LDE0Mzg0ODMzODJdfQ==
+eyJoaXN0b3J5IjpbLTYzNjE1Mzc3OSwtOTE0OTk0OTY2LDIxMj
+MxNDYzMywtNDgyNzM0NTkxLDgxNTI1Nzc0NywxOTc0MTQ5MDI5
+LC01MDUxMDI2OTcsMTQzODQ4MzM4Ml19
 -->
