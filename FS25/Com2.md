@@ -11,11 +11,11 @@ Nutzen: Auf viele Fragen gibt es keine eindeutige, sichere Antwort. WR bietet  d
 • Wieviel gewinne ich, wenn ich heute einen Lotto-Schein löse?
 
 ## Begriffe
-**Modell**: vereinfachte Darstellung der Realität mit oft eingeschränktem Gültigkeitsbereich
+**Modell**: vereinfachte Darstellung der Realität mit oftmals eingeschränktem Gültigkeitsbereich
 - deterministische Modelle --> liefert immer das gleiche Resultat
-- Stochastische Modelle
+- Stochastische Modelle --> zufälliges Resultat
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI5MjA0MjUsLTQ4MjczNDU5MSw4MT
+eyJoaXN0b3J5IjpbLTE1OTQ2NzQyMzEsLTQ4MjczNDU5MSw4MT
 UyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMz
 ODJdfQ==
 -->
