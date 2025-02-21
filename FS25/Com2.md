@@ -94,10 +94,12 @@ Alle Elementarereignisse des Ereignisraums sind gleich Wahrscheinlich.
 Dann ist die Wahrscheinlichkeit, dass ein Ereignis A eintritt: $$\text{P(A)} = \frac{|A|}{||\Omega}$$
 
 ## Frequentistische Wahrscheinlichkeiten
-In vielen Situationen ist nicht klar wie der Ergebnisraum aussieht oder ob alle Ergebnisse gleich Wahrsche
+In vielen Situationen ist nicht klar wie der Ergebnisraum aussieht oder ob alle Ergebnisse gleich wahrscheinlich sind. Wahrscheinlichkeiten können dann aufgrund vergangener Beobachtungen abgeschätzt werden.
+- Beispiel: Anzahl E-Mails, die in der nächsten Minute über die ZHAW Mailserver abgefertigt werden
+Ein Zufallsexperiment wird n-mal durchgeführt und gezä
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTk0Mjg0OCwtMTg0ODk0NDMxMSwtND
+eyJoaXN0b3J5IjpbMTc0OTE3MDE3OCwtMTg0ODk0NDMxMSwtND
 A4NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1
 NTAsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MT
 UyNTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMz
