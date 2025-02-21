@@ -101,15 +101,15 @@ Ein Zufallsexperiment wird n-mal durchgeführt und gezählt wie oft das Ereignis
 $$\text{P(A)} \approx \frac{n_A}{n} = \text{r(A)}$$
 r(A) ist die relative Häufigkeit
 
-r
+$r_n(A_1 \cup A_2) =r_n(A_1) + r_n(A_2)$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYzOTQ1NzgsLTE4MDkyODQwMjMsLT
-E4NDg5NDQzMTEsLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQy
-MjA1MjEsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC
-00ODI3MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEw
-MjY5NywxNDM4NDgzMzgyXX0=
+eyJoaXN0b3J5IjpbNzE5Njg3NjUyLC0xODA5Mjg0MDIzLC0xOD
+Q4OTQ0MzExLC00MDg1NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIw
+NTIxLDIzNTM1NjU1MCwtOTE0OTk0OTY2LDIxMjMxNDYzMywtND
+gyNzM0NTkxLDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2
+OTcsMTQzODQ4MzM4Ml19
 -->
