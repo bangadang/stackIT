@@ -130,16 +130,18 @@ summen <- rowSums(w_tf)
 sum(summen>0)/length(summen) # 0.30944
 ```
 ## subjektive Wahrscheinlichkeit
-Wahrscheinlichkeit = Mass des persönlichen Glaubens (Bayesianische Interpretation)
-
+Wahrscheinlichkeit = Mass des persönlichen Glaubens (Bayesianische Interpretation), Abschätzung vo 
+- auch Aussagen über Wahrscheinlichkeiten möglich, wo keine Frequenz-Aussagen möglich sind, da in der Praxis es unmöglich ist gewisse
+Experimente durchzuführen
+- Bsp. wie wahrscheinlich ist ein atomarer Unfall in der Schweiz
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDQ0MTkwLC0xMjY4OTg0NjM1LC0xMz
-AyNTU4MTk1LC0xODA5Mjg0MDIzLC0xODQ4OTQ0MzExLC00MDg1
-NDQzMzYsMTczNDY4NDU4MSwtNzI0MjIwNTIxLDIzNTM1NjU1MC
-wtOTE0OTk0OTY2LDIxMjMxNDYzMywtNDgyNzM0NTkxLDgxNTI1
-Nzc0NywxOTc0MTQ5MDI5LC01MDUxMDI2OTcsMTQzODQ4MzM4Ml
-19
+eyJoaXN0b3J5IjpbMTQ2NTcxNzAxMSwtMTI2ODk4NDYzNSwtMT
+MwMjU1ODE5NSwtMTgwOTI4NDAyMywtMTg0ODk0NDMxMSwtNDA4
+NTQ0MzM2LDE3MzQ2ODQ1ODEsLTcyNDIyMDUyMSwyMzUzNTY1NT
+AsLTkxNDk5NDk2NiwyMTIzMTQ2MzMsLTQ4MjczNDU5MSw4MTUy
+NTc3NDcsMTk3NDE0OTAyOSwtNTA1MTAyNjk3LDE0Mzg0ODMzOD
+JdfQ==
 -->
