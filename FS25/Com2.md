@@ -49,7 +49,7 @@ Verbrauch) und b (maximal möglicher Verbrauch, Tankvolumen).
 Anzahl Elemente des Ergebnisraums. Kann endlich, abzählbar unendlich, überabzählbar unendlich sein.
 
 ### Ereignis A
-Ein Ereignis ist eine nicht leere Teilmenge des Ergebnisraumes $A \subset \Omega$. Ein bezeichnet man eine Konstellation, die unter
+Ein Ereignis ist eine nicht leere Teilmenge des Ergebnisraumes $A \subseteq \Omega$. Ein bezeichnet man eine Konstellation, die unter
 Umständen von mehreren Ergebnissen erfüllt wird. Ein Ereignis bezeichnet eine Konstellation, die unter Umständen von mehreren Ergebnissen erfüllt wird. Ein Ereignis gilt als eingetroffen, wenn ein passendes Ergebnis aus dem
 Zufallsexperiment resultiert.
 
@@ -136,28 +136,27 @@ Experimente durchzuführen
 - Bsp. wie wahrscheinlich ist ein atomarer Unfall in der Schweiz
 
 ## Axiome von Kolmogorov
-Jedem Ereignis $A \sub \Omega$ wird eine Zahl P(A) zugeordnet:
-- Axiom 1: $P(A) \geq 0$ für jedes Ereignis A
-- Axiom 2: $P(\Omega) = 1$
+Jedem Ereignis $A \subseteq \Omega$ wird eine Zahl P(A) zugeordnet:
+- **Axiom 1**: $P(A) \geq 0$ für jedes Ereignis A
+- **Axiom 2**: $P(\Omega) = 1$
 	- Wahrscheinlichkeit das irgendetwas eintritt
-- Axiom 3: Falls $A \cap B = \emptyset$, dann gilt $P(A\cup B) = P(A) + P(B)$ 
+- **Axiom 3**: Falls $A \cap B = \emptyset$, dann gilt $P(A\cup B) = P(A) + P(B)$ 
 	- Wenn zwei Ereignisse sich ausschliessen, dann ist die Wahrscheinlichkeit der Vereinigung (A oder B tritt ein) gleich der Summe der Wahrsch. der einzelnen Ereignisse
 
 **Frequentistische, Laplace-Definition und Bayesianische Interpretation erfüllen diese Axiome.**
 
-### Herleitungen
-1. P(A) + P(AC ) = 1
-2. P(∅) = 1 − P(Ω) = 0
-3. Wenn A ⊆ B, so gilt P(A) ≤ P(B)
-4. Für jedes Ereignis A gilt 0 ≤ P(A) ≤ 1
-5. P(A1 ∪ A2 ∪ . . . ∪ Ak ) = P(A1) + P(A2) + . . . + P(Ak ), falls Ai ∩ Aj = ∅
-für alle i, j.
-6. P(A ∪ B) = P(A) + P(B) − P(A ∩ B) (Additionssatz)
+### weiterre Formeln durch Herleitungen aus Axiomen
+1. $P(A) + P(A^C ) = 1$
+2. $P(\emptyset) = 1 − P(\Omega) = 0$
+3. Wenn $A \subseteq B$, so gilt $P(A) \leq P(B)$
+4. Für jedes Ereignis **A** gilt $0 \leq P(A) \leq 1$
+5. $P(A_1 \cup A_2 \cup . . . \cup A_k ) = P(A_1) + P(A_2) + . . . + P(A_k )$, falls $A_i ∩ A_j = \emptyset , \forall i,j$
+6. **Additionssatz** $P(A \cup B) = P(A) + P(B) − P(A ∩ B)$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1MDkzMzU2LDE2NTM3NDExOTUsLTEyNj
-g5ODQ2MzUsLTEzMDI1NTgxOTUsLTE4MDkyODQwMjMsLTE4NDg5
-NDQzMTEsLTQwODU0NDMzNiwxNzM0Njg0NTgxLC03MjQyMjA1Mj
-EsMjM1MzU2NTUwLC05MTQ5OTQ5NjYsMjEyMzE0NjMzLC00ODI3
-MzQ1OTEsODE1MjU3NzQ3LDE5NzQxNDkwMjksLTUwNTEwMjY5Ny
-wxNDM4NDgzMzgyXX0=
+eyJoaXN0b3J5IjpbMjE4Njc3NTk0LDYxNTA5MzM1NiwxNjUzNz
+QxMTk1LC0xMjY4OTg0NjM1LC0xMzAyNTU4MTk1LC0xODA5Mjg0
+MDIzLC0xODQ4OTQ0MzExLC00MDg1NDQzMzYsMTczNDY4NDU4MS
+wtNzI0MjIwNTIxLDIzNTM1NjU1MCwtOTE0OTk0OTY2LDIxMjMx
+NDYzMywtNDgyNzM0NTkxLDgxNTI1Nzc0NywxOTc0MTQ5MDI5LC
+01MDUxMDI2OTcsMTQzODQ4MzM4Ml19
 -->
