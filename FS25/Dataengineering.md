@@ -9,7 +9,7 @@
 | |intro to pandas |
 | 27.02.25 | reasons for data quality issues : a lot of different data sources, data can be falsely measured, extracted or entered etc., variety of formats (export errors) |
 |  | to avoid issues: domain knowledge, clean data |
-|  | RegEx |
+|  | RegEx: match, extract, find, replace with patterns |
 |  |  |
 |  |  |
 |  |  |
@@ -18,5 +18,5 @@
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDIyMDQyNiw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
