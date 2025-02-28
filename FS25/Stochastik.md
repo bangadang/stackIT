@@ -199,8 +199,8 @@ s[[4]] # "E" "E" "R" "B" "S"
 s[[5]] # "E" "E" "R" "B" "S"
 length(unique(s)) # 60
 ```
-$frac{}{}$
+Formel: $\frac{n!}{k_1!\cdot...\cdot k_s!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzAxMzcxLC0xNzczMzgwNzA0LDEwND
-MwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
+A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
