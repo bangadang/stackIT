@@ -255,7 +255,7 @@ s <- combn(x = 1:9, m = 3, simplify = FALSE) #alle Kombis auflisten
 
 #Wahrscheinlichkeit Nr. 7 im Testset zu haben
 m <- dim(s)[2] # Anzahl mögliche Fälle
-g <- sum(apply(s, 2, function(x) sum(x == 7 ))) # Anzahl günstige Fälle, d.h. ob 7 in Auswahl drin ist
+g <- sum(apply(s, 2, function(x) sum(x == 7 ))) # Anzahl günstige Fälle, d.h. ob 7 in Auswahl drin ist, 
 g/m #0.33333
 ```
 ### Ungeordnete Stichprobe mit Zurücklegen
@@ -268,8 +268,9 @@ $$\frac{(n+k-1)!}{k!(n-1)!}={n + k -1 \choose k}$$
 
 Die Frage ist äquivalent zur Anordnung von 3 "x" und 5 "|"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNz
-gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
-NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
-czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE3MDA4NDE3NywtODIwODUwOTA5LDE0ND
+U5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3
+MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MD
+I1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1
+OTRdfQ==
 -->
