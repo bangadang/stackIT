@@ -275,11 +275,17 @@ bsp: xx||x||| <-> 2 rote, 1 gelbes
 
 **Bsp**: Wie viele Möglichkeiten gibt es, aus 6 Früchtesorten einen Korb mit 20 Früchten zusammenstellen? n = 6, k = 20
 $${6+20-1 \choose 20} = \frac{25!}{20! \cdot 5!} = 53130$$
+```r
+library(partitions)
+t.comb <- compositions(n = 20, m = 6)
+rownames(t.comb) <- paste0("Sorte",1:6)
+ncol(t.comb) # Anz. Mögl. = Anz
+```
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE3MjIwNDIsLTc0MjQ4NDI5NywtOD
-IwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2
-MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LD
-I3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5
-MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTUxMTIyMDkyNSwtNzQyNDg0Mjk3LC04Mj
+A4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYx
+ODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1ODksMj
+cwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMDQzMDky
+Mzc0LDIxODY3NzU5NF19
 -->
