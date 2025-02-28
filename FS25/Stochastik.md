@@ -242,11 +242,11 @@ $$P(\text{in 3 mal finden})= 1-\frac{999 \cdot 998 \cdot 997}{1000 \cdot 999 \cd
 In einer Urne sind n = 6 verschieden farbige Smarties.
 Wir ziehen k = 3 mal ein Smartie. Wie viele solcher
 Auswahlen gibt es, wenn das Smartie nicht zurückgelegt wird.
-$$$$
+$${n \choose k} = {6 \choose 3}$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2NjA0MzI1LDE0NDU5NzkxOTgsMTE3OD
-E1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0
-LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3Nz
-MzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMjAwNDg3NDM0NCwxNDQ1OTc5MTk4LDExNz
+gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
+NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
+czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
