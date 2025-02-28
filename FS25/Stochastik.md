@@ -254,14 +254,15 @@ choose(n=9, k=3) #84
 s <- combn(x = 1:9, m = 3, simplify = FALSE) #alle Kombis auflisten
 
 #Wahrscheinlichkeit Nr. 7 im Testset zu haben
-(m <- dim(s)[2]) # Anzahl mögliche Fälle
-
+m <- dim(s)[2] # Anzahl mögliche Fälle
+g <- sum(apply(s, 2, function(x) sum(x == 7 ))) # Anzahl günstige Fälle
+g
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjAzNDkyNSwxNDQ1OTc5MTk4LDExNz
-gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
-NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
-czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE3Mjc2NTU5MTAsMTQ0NTk3OTE5OCwxMT
+c4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4
+NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUyODY3MywtMT
+c3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
 -->
