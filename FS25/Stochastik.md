@@ -164,9 +164,11 @@ Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** 
 | Auswahl k Reihenfolge unwichtig | $$N \choose k$$ | $$n+k-1 \choose k$$ |
 
 ### Produktregel
-
-
+Anzahl Möglichkeiten berechnet sich als **Produkt der Möglichkeiten pro Stufe**
+Bsp: Fuhrunternehmen mit 6 Chauffeuren, 4 Zugfahrzeugen und 8 Anhängern. Wie
+viele Kombinationen gibt es?
+$z=6\cdot 4 \cdot 8 = 192$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjA1MDU0LC0xNzczMzgwNzA0LDEwND
-MwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE4MzYyNzQwMzIsLTE3NzMzODA3MDQsMT
+A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
