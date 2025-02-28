@@ -221,12 +221,12 @@ Wie viele unterschiedliche Ziehungen gibt es?
 $$n^k=6\cdot 6\cdot6=6^3=216$$
 **Bsp**: Bei einem Kombinationsschloss sind die einzelnen Einstellungen durch 3-ziffrige Zahlen mit Ziffern aus 0 bis 9 möglich. Wie viele mögliche Einstellungen gibt es?
 $$10^3=1000$$
-Wie gross ist die W’keit, dass jemand beim ersten Versuch die richtige
-Kombination findet?
+Wie gross ist die W’keit, dass jemand beim ersten Versuch die richtige Kombination findet? $$P(A)=\frac{1}{1000}$$
+Wie gross ist die W’keit, dass jemand (nicht sehr  intelligent) durch 3x Probieren die Kombination findet?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxMjY1NjM3LDExNzgxNTQ2NjUsLTE3NT
-A2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4
-OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwND
-MwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE1Mzg2MDM5MTMsMTE3ODE1NDY2NSwtMT
+c1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQy
+NTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
+A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
