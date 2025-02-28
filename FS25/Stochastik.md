@@ -188,9 +188,24 @@ library(combinat)
 s <- permn(c("B","I","R","N","E"))
 length(s) # 120
 s[[1]] # "B" "I" "R" "N" "E"
-s[[2]]
+s[[2]] # "B" "I" "R" "E" "N"
 ```
+
+"ERBSE" Wie viele Möglichkeiten gibt es, die
+Buchstaben anzuordnen? Achtung E kommt zwei mal vor!
+```r
+s <- permn(c("E","R","B","S","E"))
+s[[1]]
+[1] "E" "R" "B" "S" "E"
+s[[2]]
+[1] "E" "R" "B" "E" "S"
+s[[3]]
+[1] "E" "R" "E" "B" "S"
+s[[4]]
+[1] "E" "E" "R" "B" "S"
+s[[5]] # identisch, wieso?
+[1] "E" "E" "R" "B" "S"
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTI3NTA4MywtMTc3MzM4MDcwNCwxMD
+eyJoaXN0b3J5IjpbLTY0MjA2ODcwMywtMTc3MzM4MDcwNCwxMD
 QzMDkyMzc0LDIxODY3NzU5NF19
 -->
