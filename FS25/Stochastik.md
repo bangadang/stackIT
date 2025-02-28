@@ -216,12 +216,13 @@ der 1. Klasse, 7 Wagen der 2. Klasse, 1 Speisewagen, 2 Gepäckwagen.
 Wie viele unterschiedliche Ziehungen gibt es?
 $$\frac{n!}{(n-k)!}=\frac{6 \cdot 5\cdot 4}{(6-3)!} = 120$$
 ### Geordnete Stichprobe mit Zurücklegen
-
-
+**Bsp** In einer Urne sind n = 6 verschieden farbige Smarties. Wir ziehen k = 3 Mal ein Smartie, notieren die Farbe und legen das Smartie jedes Mal wieder zurück. Die gezogene Farbenreihenfolge ist uns wichtig.
+Wie viele unterschiedliche Ziehungen gibt es?
+$$n^k=6\cdot 6\cdot6=6^3=216$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM4NTQyNzIsMTE3ODE1NDY2NSwtMT
-c1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQy
-NTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
-A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMTc0MzMzODUzMCwxMTc4MTU0NjY1LC0xNz
+UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
+ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
+QzMDkyMzc0LDIxODY3NzU5NF19
 -->
