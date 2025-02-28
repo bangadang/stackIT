@@ -174,6 +174,7 @@ Wie können wir in R alle 192 verschiedenen Züge generieren?
 zuege <- expand.grid(chauffeur=1:6,
 zugfahrzeug=1:4,
 anhaenger=1:8)
+n
 ```
 
 ### Permutationen 
@@ -201,6 +202,7 @@ length(unique(s)) # 60
 ```
 Formel: $\frac{n!}{k_1!\cdot...\cdot k_s!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNjcyNywtMTkwMjUyODY3MywtMTc3Mz
-M4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbLTExNjI1MjgwMjUsMjcwNjcyNywtMTkwMj
+UyODY3MywtMTc3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5
+NF19
 -->
