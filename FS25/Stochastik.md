@@ -242,13 +242,18 @@ $$P(\text{in 3 mal finden})= 1-\frac{999 \cdot 998 \cdot 997}{1000 \cdot 999 \cd
 In einer Urne sind n = 6 verschieden farbige Smarties.
 Wir ziehen k = 3 mal ein Smartie. Wie viele solcher
 Auswahlen gibt es, wenn das Smartie nicht zurückgelegt wird.
-Uns ist wichtig, welche Farben gezogen wurden, aber nicht in welcher Reihenfolge. {rot, blau, gelb} = {rot, gelb, blau} = {blau, rot,
+Uns ist wichtig, welche Farben gezogen wurden, aber nicht in welcher Reihenfolge. D.h. Es gäbe z = 6 · 5 · 4 = 120 Ziehungsmöglichkeiten. Jedoch müssen wir
+“identische” Ziehungen eliminieren.
+{rot, blau, gelb} = {rot, gelb, blau} = {blau, rot,
 gelb}
 $$\frac{n!}{(n-k)!\cdot k!}={n \choose k} =\frac{6\cdot 5 \cdot 4}{3!}= {6 \choose 3}$$
+```r
+combn(x = 1:9, m = 3, simplify = FALSE)
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjUxMzQ5MSwxNDQ1OTc5MTk4LDExNz
+eyJoaXN0b3J5IjpbLTIyNjkyNDc5MSwxNDQ1OTc5MTk4LDExNz
 gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
 NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
 czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
