@@ -195,17 +195,12 @@ s[[2]] # "B" "I" "R" "E" "N"
 Buchstaben anzuordnen? Achtung E kommt zwei mal vor!
 ```r
 s <- permn(c("E","R","B","S","E"))
-s[[1]]
-[1] "E" "R" "B" "S" "E"
-s[[2]]
-[1] "E" "R" "B" "E" "S"
-s[[3]]
-[1] "E" "R" "E" "B" "S"
-s[[4]]
-[1] "E" "E" "R" "B" "S"
-s[[5]] # identisch, wieso?
-[1] "E" "E" "R" "B" "S"
+s[[4]] # "E" "E" "R" "B" "S"
+s[[5]] # "E" "E" "R" "B" "S"
+length(unique(s)) # 60
+```
+$frac{}{}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjA2ODcwMywtMTc3MzM4MDcwNCwxMD
-QzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbMjEwMzAxMzcxLC0xNzczMzgwNzA0LDEwND
+MwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
