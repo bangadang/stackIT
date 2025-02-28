@@ -214,10 +214,14 @@ der 1. Klasse, 7 Wagen der 2. Klasse, 1 Speisewagen, 2 Gepäckwagen.
 ### Geordnete Stichprobe ohne Zurücklegen
 **Bsp**: In einer Urne befinden sich n = 6 verschieden farbigeSmarties. Wir ziehen 3 Mal ein Smartie, notieren die Farbe und legen es nicht zurück. Die gezogene Farbenreihenfolge ist uns wichtig.
 Wie viele unterschiedliche Ziehungen gibt es?
-$frac{6 \cdot 5\cdot 4}{(6-3)!} = 120$
+$$\frac{n!}{(n-k)!}=\frac{6 \cdot 5\cdot 4}{(6-3)!} = 120$$
+### Geordnete Stichprobe mit Zurücklegen
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODI4Nzg0NSwxMTc4MTU0NjY1LC0xNz
-UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
-ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
-QzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbLTE0MTM4NTQyNzIsMTE3ODE1NDY2NSwtMT
+c1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQy
+NTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
+A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
