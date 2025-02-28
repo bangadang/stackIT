@@ -180,12 +180,17 @@ anhaenger=1:8)
 Permutationen ist ein Aufzählen von Reihenfolgen
 Bsp: Es gibt 4 Flugzeuge und 4 Gates. Wie viele Möglichkeiten gibt es, die Flugzeuge an die Gates zu stellen?
 $s=4!$
- BIRNE" Wie viele Möglichkeiten gibt es, die
-Buchstaben anzuordnen? z = 5! = 5 · 4 · 3 · 2 · 1 = 120.
+ "BIRNE" Wie viele Möglichkeiten gibt es, die
+Buchstaben anzuordnen?
+$z = 5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$
 ```r
-
+library(combinat)
+s <- permn(c("B","I","R","N","E"))
+length(s) # 120
+s[[1]] # "B" "I" "R" "N" "E"
+s[[2]]
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4Njc4Mjk5LC0xNzczMzgwNzA0LDEwND
-MwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTc2NTI3NTA4MywtMTc3MzM4MDcwNCwxMD
+QzMDkyMzc0LDIxODY3NzU5NF19
 -->
