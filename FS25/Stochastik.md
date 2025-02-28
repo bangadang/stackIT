@@ -270,9 +270,11 @@ Die Frage ist äquivalent zur Anordnung von 3 "x" auf 5 Fächer
 --> 5 "|" machen 6 fächli für die Farben 
 R G  Gl B  P   O
 _ | _ | _ | _ | _ | _ |
-	
+--> Permutation von 3 "x" und 5 "|"
+bsp: xx||x||| <-> 2 rote, 1 gelbes
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTc3NDgwMCwtODIwODUwOTA5LDE0ND
+eyJoaXN0b3J5IjpbLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0ND
 U5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3
 MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MD
 I1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1
