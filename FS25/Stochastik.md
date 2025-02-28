@@ -233,10 +233,10 @@ Wie gross ist die Wahrscheinlichkeit, dass jemand (etwas intelligenter, d.h. ein
 Probieren die Kombination eines Zahlenschlosses findet?
 Anzahl günstiger Fälle (3x Nicht Finden): $999 \cdot 998 \cdot 997$
 Anzahl mögliche Fälle: $1000 \cdot 999 \cdot 998$
-$$P(\text{in 3 mal finden})= 1-\frac$$
+$$P(\text{in 3 mal finden})= 1-\frac{999 \cdot 998 \cdot 997}{1000 \cdot 999 \cdot 998}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzI0MjYwNiwxMTc4MTU0NjY1LC0xNz
-UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
-ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
-QzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbLTExODg2NzEzOTAsMTE3ODE1NDY2NSwtMT
+c1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQy
+NTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
+A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
