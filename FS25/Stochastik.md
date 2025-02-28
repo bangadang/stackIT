@@ -152,6 +152,9 @@ Jedem Ereignis $A \subseteq \Omega$ wird eine Zahl P(A) zugeordnet:
 4. Für jedes Ereignis **A** gilt $0 \leq P(A) \leq 1$
 5. $P(A_1 \cup A_2 \cup . . . \cup A_k ) = P(A_1) + P(A_2) + . . . + P(A_k )$, falls $A_i ∩ A_j = \emptyset , \forall i,j$
 6. **Additionssatz** $P(A \cup B) = P(A) + P(B) − P(A ∩ B)$ 
+
+## Kombinatorik
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
