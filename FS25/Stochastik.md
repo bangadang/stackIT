@@ -266,12 +266,15 @@ welche Farben gezogen wurden, aber nicht in welcher Reihenfolge.
 Wie viele unterschiedliche Ziehungsresultate gibt es?
 $$\frac{(n+k-1)!}{k!(n-1)!}={n + k -1 \choose k}$$
 
-Die Frage ist äquivalent zur Anordnung von 4 "x" und 5 "|"
---> 5 | machen 6 fächli für die Farben _ | _ | _ | _|_|_|
+Die Frage ist äquivalent zur Anordnung von 3 "x" auf 5 Fächer 
+--> 5 "|" machen 6 fächli für die Farben 
+R G  Gl B  P   O
+_ | _ | _ | _ | _ | _ |
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI4OTcyODUsLTgyMDg1MDkwOSwxND
-Q1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2
-NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOT
-AyNTI4NjczLC0xNzczMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3
-NTk0XX0=
+eyJoaXN0b3J5IjpbMTYwMTc3NDgwMCwtODIwODUwOTA5LDE0ND
+U5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3
+MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MD
+I1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1
+OTRdfQ==
 -->
