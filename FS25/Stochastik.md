@@ -168,7 +168,11 @@ Anzahl Möglichkeiten berechnet sich als **Produkt der Möglichkeiten pro Stufe*
 Bsp: Fuhrunternehmen mit 6 Chauffeuren, 4 Zugfahrzeugen und 8 Anhängern. Wie
 viele Kombinationen gibt es?
 $z=6\cdot 4 \cdot 8 = 192$
+
+### Permutationen 
+Permutationen ist ein Aufzählen von Reihenfolgen
+Bsp: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzYyNzQwMzIsLTE3NzMzODA3MDQsMT
-A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbOTE3NDc3MzA4LC0xNzczMzgwNzA0LDEwND
+MwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
