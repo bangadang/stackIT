@@ -279,13 +279,15 @@ $${6+20-1 \choose 20} = \frac{25!}{20! \cdot 5!} = 53130$$
 library(partitions)
 t.comb <- compositions(n = 20, m = 6)
 rownames(t.comb) <- paste0("Sorte",1:6)
-ncol(t.comb) # Anz. Mögl. = Anz
+ncol(t.comb) # Anz. Mögl. = Anz. Spalten 53130
 ```
+
+## Bedingte Wahrscheinlichkeiten
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTIyMDkyNSwtNzQyNDg0Mjk3LC04Mj
-A4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYx
-ODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1ODksMj
-cwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMDQzMDky
-Mzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMD
+g1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2NjE4
+MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OSwyNz
+A2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwNDMwOTIz
+NzQsMjE4Njc3NTk0XX0=
 -->
