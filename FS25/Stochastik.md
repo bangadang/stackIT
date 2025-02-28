@@ -267,10 +267,11 @@ Wie viele unterschiedliche Ziehungsresultate gibt es?
 $$\frac{(n+k-1)!}{k!(n-1)!}={n + k -1 \choose k}$$
 
 Die Frage ist äquivalent zur Anordnung von 4 "x" und 5 "|"
+--> 5 | machen 6 fächli für die Farben _ | _ | _ | _|_|_|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MjEwMTUwLC04MjA4NTA5MDksMTQ0NT
-k3OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2Njcw
-NCwzNDkzNDA4NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMj
-UyODY3MywtMTc3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5
-NF19
+eyJoaXN0b3J5IjpbLTE3MjI4OTcyODUsLTgyMDg1MDkwOSwxND
+Q1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2
+NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOT
+AyNTI4NjczLC0xNzczMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3
+NTk0XX0=
 -->
