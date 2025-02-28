@@ -161,9 +161,12 @@ Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** 
 |--|--|--|
 | Auswahl k = n Reihenfolge wichtig| $$n!$$ Permutation ohne Wiederholung| $$\frac{n!}{k_1!\cdot...\cdot k_s!}$$ Permutation ohne Wiederholung $$\text{}$$ Möglichkeiten, n Objekte, die sich in s Gruppen mit jeweils k1,…,ks identischen Objekten einteilen lassen, anzuordnen.|
 | Auswahl k Reihenfolge wichtig | $$\frac{n!}{(n-k)!}$$ | $$n^k$$ |
-| Auswahl k Reihenfolge unwichtig | $$N \choose k$$ |  |
+| Auswahl k Reihenfolge unwichtig | $$N \choose k$$ | $$n+k-1 \choose k$$ |
+
+### Produktregel
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTczOTkxMSwtMTc3MzM4MDcwNCwxMD
-QzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbLTg2MjA1MDU0LC0xNzczMzgwNzA0LDEwND
+MwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
