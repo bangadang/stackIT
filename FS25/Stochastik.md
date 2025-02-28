@@ -273,10 +273,11 @@ _ | _ | _ | _ | _ | _ |
 --> Permutation von 3 "x" und 5 "|"
 bsp: xx||x||| <-> 2 rote, 1 gelbes
 
-**Bsp**: Wie viele Möglichkeiten gibt es, aus 6 Früchtesorten einen Korb mit 20 Früchten zusammenstellen?
+**Bsp**: Wie viele Möglichkeiten gibt es, aus 6 Früchtesorten einen Korb mit 20 Früchten zusammenstellen? n = 6, k = 20
+$${6+20-1 \choose 20} = \frac{25!}{20! \cdot 5!} = 53130$$
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjY2NDY4MTIsLTc0MjQ4NDI5NywtOD
+eyJoaXN0b3J5IjpbLTEyMTE3MjIwNDIsLTc0MjQ4NDI5NywtOD
 IwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2
 MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LD
 I3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5
