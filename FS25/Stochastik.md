@@ -227,11 +227,11 @@ Wie gross ist die W’keit, dass jemand (nicht sehr  intelligent) durch 3x Probi
 $A^c$ = Nach drei mal raten nicht gefunden= $999^3$ 
 Anzahl mögliche Fälle = $1000^3$
 $$P(A)=1-P(A^c)= 1-\frac{999^3}{1000^3}\approx 0.003$$
-
+W'keit nach 1000 mal raten: $1-(\frac{999}{1000})^{1000}\approx 0.632$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MDk1NDQyLDExNzgxNTQ2NjUsLTE3NT
-A2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4
-OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwND
-MwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTEzMjkyODMwMTMsMTE3ODE1NDY2NSwtMT
+c1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQy
+NTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
+A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
