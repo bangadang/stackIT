@@ -235,9 +235,12 @@ Anzahl günstiger Fälle (3x Nicht Finden): $999 \cdot 998 \cdot 997$
 Anzahl mögliche Fälle: $1000 \cdot 999 \cdot 998$
 $$P(\text{in 3 mal finden})= 1-\frac{999 \cdot 998 \cdot 997}{1000 \cdot 999 \cdot 998}$$
 
-### Ungeordnete Stichprobe ohne 
+### Ungeordnete Stichprobe ohne Zurücklegen
+In einer Urne sind n = 6 verschieden farbige Smarties.
+Wir ziehen k = 3 mal ein Smartie. Wie viele solcher
+Auswahlen gibt es, wenn das Smartie nicht zurückgelegt wird.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDE3NzI0OCwxMTc4MTU0NjY1LC0xNz
+eyJoaXN0b3J5IjpbMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNz
 UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
 ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
 QzMDkyMzc0LDIxODY3NzU5NF19
