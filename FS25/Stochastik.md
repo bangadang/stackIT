@@ -223,10 +223,10 @@ $$n^k=6\cdot 6\cdot6=6^3=216$$
 $$10^3=1000$$
 Wie gross ist die W’keit, dass jemand beim ersten Versuch die richtige Kombination findet? $$P(A)=\frac{1}{1000}$$
 Wie gross ist die W’keit, dass jemand (nicht sehr  intelligent) durch 3x Probieren die Kombination findet?
-
+Über Gegenw'keit: Ereignis: Nach drei
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzg2MDM5MTMsMTE3ODE1NDY2NSwtMT
-c1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQy
-NTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
-A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTM1NTY1OTg2MSwxMTc4MTU0NjY1LC0xNz
+UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
+ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
+QzMDkyMzc0LDIxODY3NzU5NF19
 -->
