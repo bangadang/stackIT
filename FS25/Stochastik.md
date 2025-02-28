@@ -267,16 +267,16 @@ Wie viele unterschiedliche Ziehungsresultate gibt es?
 $$\frac{(n+k-1)!}{k!(n-1)!}={n + k -1 \choose k}$$
 
 Die Frage ist äquivalent zur Anordnung von 3 "x" auf 6 Fächer 
---> 5 "|" machen 6 fächli für die Farben --> 
+--> 5 "|" machen 6 fächli für die Farben --> daher kommt das -1
 R G  Gl B  P   O
 _ | _ | _ | _ | _ | _ |
 --> Permutation von 3 "x" und 5 "|"
 bsp: xx||x||| <-> 2 rote, 1 gelbes
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzEzMDA4OCwtNzQyNDg0Mjk3LC04Mj
-A4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYx
-ODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1ODksMj
-cwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMDQzMDky
-Mzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbLTE5Njk2OTY1NDYsLTc0MjQ4NDI5NywtOD
+IwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2
+MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LD
+I3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5
+MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
