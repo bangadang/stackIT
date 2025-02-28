@@ -213,9 +213,10 @@ Klasse nicht getrennt werden dürfen? -> 1Klasse Wagen als ein Element Betrachte
 - Was ist die Wahrscheinlichkeit bei einer zufälligen Anordnung der Wagen, dass
 alle Wagen der 1. Klasse zusammen sind? $3960/360360=0.011$
 
-#
+### Geordnete Stichprobe ohne Zurücklegen
+**Bsp**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzQyODIyNCwtMTc1MDY2MTgwMyw1NT
+eyJoaXN0b3J5IjpbMTE3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NT
 cwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3Mjcs
 LTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMT
 g2Nzc1OTRdfQ==
