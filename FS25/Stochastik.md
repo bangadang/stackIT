@@ -156,14 +156,14 @@ Jedem Ereignis $A \subseteq \Omega$ wird eine Zahl P(A) zugeordnet:
 ## Kombinatorik
 
 ### Urnenmodell
-Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** Objekten anzu
-|  |  |  |
+Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** Objekten anzuordnen/auszuwählen
+|  | Ohne Wiederholung/ Zurücklegen | Mit Wiederholung/ Zurücklegen |
 |--|--|--|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Auswahl k = n |  |  |
+| Auswahl k Reihenfolge wichtig |  |  |
+| Auswahl k Reihenfolge unwichtig |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODA4NjE1MiwxMDQzMDkyMzc0LDIxOD
+eyJoaXN0b3J5IjpbMTU4MTY4NzgxOSwxMDQzMDkyMzc0LDIxOD
 Y3NzU5NF19
 -->
