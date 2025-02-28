@@ -165,7 +165,7 @@ Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** 
 
 ### Produktregel
 Anzahl Möglichkeiten berechnet sich als **Produkt der Möglichkeiten pro Stufe**
-Bsp: Fuhrunternehmen mit 6 Chauffeuren, 4 Zugfahrzeugen und 8 Anhängern. Wie
+**Bsp**: Fuhrunternehmen mit 6 Chauffeuren, 4 Zugfahrzeugen und 8 Anhängern. Wie
 viele Kombinationen gibt es?
 $z=6\cdot 4 \cdot 8 = 192$
 
@@ -178,9 +178,9 @@ nrow(zuege) # 192
 ```
 
 ### Permutationen 
-Permutationen ist ein Aufzählen von Reihenfolgen
-Bsp: Es gibt 4 Flugzeuge und 4 Gates. Wie viele Möglichkeiten gibt es, die Flugzeuge an die Gates zu stellen?
-$s=4!$
+Permutationen ist ein **Aufzählen von Reihenfolgen**
+**Bsp**: Es gibt 4 Flugzeuge und 4 Gates. Wie viele Möglichkeiten gibt es, die Flugzeuge an die Gates zu stellen?
+$s=4!=4\cdot3\cdot2\cdot1$
  "BIRNE" Wie viele Möglichkeiten gibt es, die
 Buchstaben anzuordnen?
 $z = 5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$
@@ -202,7 +202,7 @@ length(unique(s)) # 60
 ```
 Formel: $\frac{n!}{k_1!\cdot...\cdot k_s!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMj
-UyODY3MywtMTc3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5
-NF19
+eyJoaXN0b3J5IjpbMTA2NzEyNjY0MiwtMjEyOTg0MjU4OSwyNz
+A2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwNDMwOTIz
+NzQsMjE4Njc3NTk0XX0=
 -->
