@@ -160,10 +160,10 @@ Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** 
 |  | Ohne Wiederholung/ Zurücklegen | Mit Wiederholung/ Zurücklegen |
 |--|--|--|
 | Auswahl k = n Reihenfolge wichtig| $$n!$$ Permutation ohne Wiederholung| $$\frac{n!}{k_1!\cdot...\cdot k_s!}$$ Permutation ohne Wiederholung $$\text{}$$ Möglichkeiten, n Objekte, die sich in s Gruppen mit jeweils k1,…,ks identischen Objekten einteilen lassen, anzuordnen.|
-| Auswahl k Reihenfolge wichtig |  |  |
+| Auswahl k Reihenfolge wichtig | $$\frac{N!}{(N-n)!}$$ |  |
 | Auswahl k Reihenfolge unwichtig |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgwMDQ4NDMsLTE3NzMzODA3MDQsMT
-A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTUzMDc3NTIxMSwtMTc3MzM4MDcwNCwxMD
+QzMDkyMzc0LDIxODY3NzU5NF19
 -->
