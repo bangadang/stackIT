@@ -169,10 +169,15 @@ Bsp: Fuhrunternehmen mit 6 Chauffeuren, 4 Zugfahrzeugen und 8 Anhängern. Wie
 viele Kombinationen gibt es?
 $z=6\cdot 4 \cdot 8 = 192$
 
+```r
+
+```
+
 ### Permutationen 
 Permutationen ist ein Aufzählen von Reihenfolgen
-Bsp: 
+Bsp: Es gibt 4 Flugzeuge und 4 Gates. Wie viele Möglichkeiten gibt es, die Flugzeuge an die Gates zu stellen?
+$s=4!$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE3NDc3MzA4LC0xNzczMzgwNzA0LDEwND
+eyJoaXN0b3J5IjpbNzIyOTI3ODcyLC0xNzczMzgwNzA0LDEwND
 MwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
