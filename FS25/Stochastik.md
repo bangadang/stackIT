@@ -255,14 +255,19 @@ s <- combn(x = 1:9, m = 3, simplify = FALSE) #alle Kombis auflisten
 
 #Wahrscheinlichkeit Nr. 7 im Testset zu haben
 m <- dim(s)[2] # Anzahl mögliche Fälle
-g <- sum(apply(s, 2, function(x) sum(x == 7 ))) # Anzahl günstige Fälle
-g
+g <- sum(apply(s, 2, function(x) sum(x == 7 ))) # Anzahl günstige Fälle, d.h. ob 7 in Auswahl drin ist
+g/m #0.33333
 ```
+### Ungeordnete Stichprobe mit Zurücklegen
 
+In einer Urne sind n = 6 verschieden farbige Smarties.
+Wir ziehen k = 3 Mal ein Smartie, notieren die Farbe und legen das Smartie wieder zurück. Uns ist wichtig,
+welche Farben gezogen wurden, aber nicht in welcher Reihenfolge.
+Wie viele unterschiedliche Ziehungsresultate gibt es?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc2NTU5MTAsMTQ0NTk3OTE5OCwxMT
-c4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4
-NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUyODY3MywtMT
-c3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbMTAxOTY5MDcwMSwxNDQ1OTc5MTk4LDExNz
+gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
+NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
+czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
