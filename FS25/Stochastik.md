@@ -159,9 +159,9 @@ Jedem Ereignis $A \subseteq \Omega$ wird eine Zahl P(A) zugeordnet:
 Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** Objekten anzuordnen/auszuwählen
 |  | Ohne Wiederholung/ Zurücklegen | Mit Wiederholung/ Zurücklegen |
 |--|--|--|
-| Auswahl k = n Reihenfolge wichtig| $$n!$$ Permutation ohne Wiederholung| $$\frac{n!}{k_1!\cdot...\cdot k_s!}$$ Permutation ohne Wiederholung $$\text{}$$ Möglichkeiten, n Objekte, die sich in s Gruppen mit jeweils k1,…,ks identischen Objekten einteilen lassen, anzuordnen.|
+| Auswahl k = n Reihenfolge wichtig| $$n!$$ Permutation ohne Wiederholung| $$\frac{n!}{k_1!\cdot...\cdot k_s!}$$ Permutation mit Wiederholung $$\text{}$$ Möglichkeiten, n Objekte, die sich in s Gruppen mit jeweils k1,…,ks identischen Objekten einteilen lassen, anzuordnen.|
 | Auswahl k Reihenfolge wichtig | $$\frac{n!}{(n-k)!}$$ | $$n^k$$ |
-| Auswahl k Reihenfolge unwichtig | $$N \choose k$$ | $$n+k-1 \choose k$$ |
+| Auswahl k Reihenfolge unwichtig | $$n \choose k$$ | $$n+k-1 \choose k$$ |
 
 ### Produktregel
 Anzahl Möglichkeiten berechnet sich als **Produkt der Möglichkeiten pro Stufe**
@@ -201,6 +201,6 @@ length(unique(s)) # 60
 ```
 Formel: $\frac{n!}{k_1!\cdot...\cdot k_s!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
-A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMjcwNjcyNywtMTkwMjUyODY3MywtMTc3Mz
+M4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
 -->
