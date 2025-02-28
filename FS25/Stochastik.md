@@ -204,8 +204,12 @@ s[[5]] # "E" "E" "R" "B" "S"
 length(unique(s)) # 60
 ```
 Formel: $\frac{n!}{n_1!\cdot...\cdot n_s!}$
+
+**Bsp**: Wir betrachten die Anordnung von Zugwagen: Ein Zug besteht aus 4 Wagen
+der 1. Klasse, 7 Wagen der 2. Klasse, 1 Speisewagen, 2 Gepäckwagen.
+- Wie viele unterschiedliche Wagenfolgen sind möglich? $\frac{14!}{4!\cdot 7! \cdot 1!\cdot 2!} = 360360$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOT
-g0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0
-LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTU5MTYyMDMwMSw1NTcwNjY3MDQsMzQ5Mz
+QwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMs
+LTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
