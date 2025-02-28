@@ -227,8 +227,9 @@ Wie gross ist die W’keit, dass jemand (nicht sehr  intelligent) durch 3x Probi
 $A^c$ = Nach drei mal raten nicht gefunden= $999^3$ 
 Anzahl mögliche Fälle = $1000^3$
 $$P(A)=1-P(A^c)= 1-\frac{999^3}{1000^3}\approx 0.003$$
-$$P(A)=\frac{}{}+\frac{}{}\cdot \frac{}{}+(\)$$
+$$P(A)=\frac{1}{1000}+\frac{999}{1000}\cdot \frac{1}{1000}+(\frac{999}{1000})^2 \cdot \frac{1}{1000}$$
 W'keit nach 1000 mal raten: $1-(\frac{999}{1000})^{1000}\approx 0.632$
+beim ersten mal erraten + beim zweiten mal erraten + beim dritten mal erraten 
 
 Wie gross ist die Wahrscheinlichkeit, dass jemand (etwas intelligenter, d.h. eine probierte Kombi wird nicht wieder verwendet) durch 3x
 Probieren die Kombination eines Zahlenschlosses findet?
@@ -242,7 +243,7 @@ Wir ziehen k = 3 mal ein Smartie. Wie viele solcher
 Auswahlen gibt es, wenn das Smartie nicht zurückgelegt wird.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMDQ5MzgxMiwxNDQ1OTc5MTk4LDExNz
+eyJoaXN0b3J5IjpbMTE5NDE5NzI1MywxNDQ1OTc5MTk4LDExNz
 gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
 NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
 czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
