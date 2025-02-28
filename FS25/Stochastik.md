@@ -181,6 +181,9 @@ nrow(zuege) # 192
 Permutationen ist ein **Aufzählen von Reihenfolgen**
 **Bsp**: Es gibt 4 Flugzeuge und 4 Gates. Wie viele Möglichkeiten gibt es, die Flugzeuge an die Gates zu stellen?
 $s=4!=4\cdot3\cdot2\cdot1$
+```r
+factorial(n)
+```
  "BIRNE" Wie viele Möglichkeiten gibt es, die
 Buchstaben anzuordnen?
 $z = 5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$
@@ -202,7 +205,7 @@ length(unique(s)) # 60
 ```
 Formel: $\frac{n!}{k_1!\cdot...\cdot k_s!}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzEyNjY0MiwtMjEyOTg0MjU4OSwyNz
-A2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwNDMwOTIz
-NzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MD
+Y3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3
+NCwyMTg2Nzc1OTRdfQ==
 -->
