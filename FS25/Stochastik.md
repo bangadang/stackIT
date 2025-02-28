@@ -159,11 +159,11 @@ Jedem Ereignis $A \subseteq \Omega$ wird eine Zahl P(A) zugeordnet:
 Gesucht ist die Anzahl Möglichkeiten eine Auswahl von **k** Objekten aus **n** Objekten anzuordnen/auszuwählen
 |  | Ohne Wiederholung/ Zurücklegen | Mit Wiederholung/ Zurücklegen |
 |--|--|--|
-| Auswahl k = n Reihenfolge wichtig|  |  |
+| Auswahl k = n Reihenfolge wichtig| n! | $\frac{n!}{k_1!}$ |
 | Auswahl k Reihenfolge wichtig |  |  |
 | Auswahl k Reihenfolge unwichtig |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMT
-g2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTEyODU0MzAyNiwtMTc3MzM4MDcwNCwxMD
+QzMDkyMzc0LDIxODY3NzU5NF19
 -->
