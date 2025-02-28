@@ -212,14 +212,12 @@ der 1. Klasse, 7 Wagen der 2. Klasse, 1 Speisewagen, 2 Gepäckwagen.
 - Was ist die Wahrscheinlichkeit bei einer zufälligen Anordnung der Wagen, dass alle Wagen der 1. Klasse zusammen sind? $3960/360360=0.011$
 
 ### Geordnete Stichprobe ohne Zurücklegen
-**Bsp**: In einer Urne befinden sich n = 6 verschieden farbige
-Smarties. Wir ziehen 3 Mal ein Smartie, notieren die
-Farbe und legen es nicht zurück. Die gezogene
-Farbenreihenfolge ist uns wichtig.
+**Bsp**: In einer Urne befinden sich n = 6 verschieden farbigeSmarties. Wir ziehen 3 Mal ein Smartie, notieren die Farbe und legen es nicht zurück. Die gezogene Farbenreihenfolge ist uns wichtig.
 Wie viele unterschiedliche Ziehungen gibt es?
+$frac{6 \cdot 5\cdot 4}{(6-3)!} = 120$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2MTI3OTc4LDExNzgxNTQ2NjUsLTE3NT
-A2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4
-OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwND
-MwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTUzODI4Nzg0NSwxMTc4MTU0NjY1LC0xNz
+UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
+ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
+QzMDkyMzc0LDIxODY3NzU5NF19
 -->
