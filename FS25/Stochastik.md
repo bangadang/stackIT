@@ -227,6 +227,7 @@ Wie gross ist die W’keit, dass jemand (nicht sehr  intelligent) durch 3x Probi
 $A^c$ = Nach drei mal raten nicht gefunden= $999^3$ 
 Anzahl mögliche Fälle = $1000^3$
 $$P(A)=1-P(A^c)= 1-\frac{999^3}{1000^3}\approx 0.003$$
+$$P(A)=\frac{}{}+\frac{}{}\cdot \frac{}{}+(\)$$
 W'keit nach 1000 mal raten: $1-(\frac{999}{1000})^{1000}\approx 0.632$
 
 Wie gross ist die Wahrscheinlichkeit, dass jemand (etwas intelligenter, d.h. eine probierte Kombi wird nicht wieder verwendet) durch 3x
@@ -239,9 +240,10 @@ $$P(\text{in 3 mal finden})= 1-\frac{999 \cdot 998 \cdot 997}{1000 \cdot 999 \cd
 In einer Urne sind n = 6 verschieden farbige Smarties.
 Wir ziehen k = 3 mal ein Smartie. Wie viele solcher
 Auswahlen gibt es, wenn das Smartie nicht zurückgelegt wird.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNz
-UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
-ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
-QzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbLTUzMDQ5MzgxMiwxNDQ1OTc5MTk4LDExNz
+gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
+NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
+czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
