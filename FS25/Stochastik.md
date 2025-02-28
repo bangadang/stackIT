@@ -247,14 +247,18 @@ Uns ist wichtig, welche Farben gezogen wurden, aber nicht in welcher Reihenfolge
 {rot, blau, gelb} = {rot, gelb, blau} = {blau, rot,
 gelb}
 $$\frac{n!}{(n-k)!\cdot k!}={n \choose k} =\frac{6\cdot 5 \cdot 4}{3!}= {6 \choose 3}$$
+
+**Bsp**
 ```r
-combn(x = 1:9, m = 3, simplify = FALSE)
+choose(n=9, k=3) #84
+combn(x = 1:9, m = 3, simplify = FALSE) #alle Kombis auflisten
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjkyNDc5MSwxNDQ1OTc5MTk4LDExNz
-gxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3
-NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNz
-czMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTEyNzcxMDU4NTMsMTQ0NTk3OTE5OCwxMT
+c4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4
+NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUyODY3MywtMT
+c3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
 -->
