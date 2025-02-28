@@ -210,9 +210,10 @@ der 1. Klasse, 7 Wagen der 2. Klasse, 1 Speisewagen, 2 Gepäckwagen.
 - Wie viele unterschiedliche Wagenfolgen sind möglich? $\frac{14!}{4!\cdot 7! \cdot 1!\cdot 2!} = 360360$
 - Wie viele unterschiedliche Wagenfolgen sind möglich, wenn die Wagen der 1.
 Klasse nicht getrennt werden dürfen? -> 1Klasse Wagen als ein Element Betrachten  $\frac{11!}{1!\cdot 7! \cdot 1!\cdot 2!} = 3960$
--
+- Was ist die Wahrscheinlichkeit bei einer zufälligen Anordnung der Wagen, dass
+alle Wagen der 1. Klasse zusammen sind? $3960/360360=0.011$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjE4NjAzMiw1NTcwNjY3MDQsMzQ5Mz
-QwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMs
-LTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OT
+M0MDg3NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4Njcz
+LC0xNzczMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
