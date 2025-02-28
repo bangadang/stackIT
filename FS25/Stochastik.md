@@ -266,17 +266,17 @@ welche Farben gezogen wurden, aber nicht in welcher Reihenfolge.
 Wie viele unterschiedliche Ziehungsresultate gibt es?
 $$\frac{(n+k-1)!}{k!(n-1)!}={n + k -1 \choose k}$$
 
-Die Frage ist äquivalent zur Anordnung von 3 "x" auf 5 Fächer 
---> 5 "|" machen 6 fächli für die Farben 
+Die Frage ist äquivalent zur Anordnung von 3 "x" auf 6 Fächer 
+--> 5 "|" machen 6 fächli für die Farben --> 
 R G  Gl B  P   O
 _ | _ | _ | _ | _ | _ |
 --> Permutation von 3 "x" und 5 "|"
 bsp: xx||x||| <-> 2 rote, 1 gelbes
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0ND
-U5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3
-MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MD
-I1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTU3NzEzMDA4OCwtNzQyNDg0Mjk3LC04Mj
+A4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYx
+ODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1ODksMj
+cwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMDQzMDky
+Mzc0LDIxODY3NzU5NF19
 -->
