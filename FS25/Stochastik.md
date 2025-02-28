@@ -219,10 +219,14 @@ $$\frac{n!}{(n-k)!}=\frac{6 \cdot 5\cdot 4}{(6-3)!} = 120$$
 **Bsp** In einer Urne sind n = 6 verschieden farbige Smarties. Wir ziehen k = 3 Mal ein Smartie, notieren die Farbe und legen das Smartie jedes Mal wieder zurück. Die gezogene Farbenreihenfolge ist uns wichtig.
 Wie viele unterschiedliche Ziehungen gibt es?
 $$n^k=6\cdot 6\cdot6=6^3=216$$
+**Bsp**: Bei einem Kombinationsschloss sind die einzelnen Einstellungen durch 3-ziffrige Zahlen mit Ziffern aus 0 bis 9 möglich. Wie viele mögliche Einstellungen gibt es?
+$$10^3=1000$$
+Wie gross ist die W’keit, dass jemand beim ersten Versuch die richtige
+Kombination findet?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzMzODUzMCwxMTc4MTU0NjY1LC0xNz
-UwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1
-ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMD
-QzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbNzkxMjY1NjM3LDExNzgxNTQ2NjUsLTE3NT
+A2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4
+OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwND
+MwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
