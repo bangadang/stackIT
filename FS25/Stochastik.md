@@ -229,9 +229,13 @@ Anzahl mögliche Fälle = $1000^3$
 $$P(A)=1-P(A^c)= 1-\frac{999^3}{1000^3}\approx 0.003$$
 W'keit nach 1000 mal raten: $1-(\frac{999}{1000})^{1000}\approx 0.632$
 
+Wie gross ist die Wahrscheinlichkeit, dass jemand (etwas intelligenter, d.h. eine probierte Kombi wird nicht wieder verwendet) durch 3x
+Probieren die Kombination eines Zahlenschlosses findet?
+Anzahl günstiger Fälle (3x Nicht Finden): $999 · 998 · 997$
+Anzahl mögliche Fälle: 1000 · 999 · 998
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkyODMwMTMsMTE3ODE1NDY2NSwtMT
-c1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQy
-NTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMT
-A0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMjkxMTYwMTU1LDExNzgxNTQ2NjUsLTE3NT
+A2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4
+OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwND
+MwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
