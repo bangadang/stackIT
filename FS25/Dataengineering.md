@@ -12,12 +12,12 @@
 |  | RegEx Intro: match, extract, find, replace with patterns |
 |06.03.25  | Reminder Relations and comparison to nested datastructres like json |
 |  | Data Processing |
-|  | Record Linkage |
+|  | Record Linkage: Ausgangslage: Wie findet man Duplikate in einem oder verschiedenen Datasets?, andere common names (fuzzy match, entitty resolution) |
 |  |  |
 |  |  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwMjQ5MDE2LDE5MDg3MzE4ODEsMjEzMz
+eyJoaXN0b3J5IjpbMzgwMjY0NjI1LDE5MDg3MzE4ODEsMjEzMz
 k1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
 -->
