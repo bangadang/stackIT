@@ -12,12 +12,12 @@
 |  | RegEx Intro: match, extract, find, replace with patterns |
 |06.03.25  | Reminder Relations and comparison to nested datastructres like json |
 |  | Data Processing |
-|  | Record Linkage: Ausgangslage: Wie findet man Duplikate in einem oder verschiedenen Datasets ohne key?[andere common names:fuzzy match, entitty resolution, entitity clustering usw.] --> Join  |
+|  | Record Linkage: Ausgangslage: Wie findet man Duplikate in einem oder verschiedenen Datasets ohne key?[andere common names:fuzzy match, entitty resolution, entitity clustering usw.] --> create join condition which is not too specific, too inclusive but matches approximating |
 |  |  |
 |  |  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjM3MzA0NiwxOTA4NzMxODgxLDIxMz
-M5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTE3NjQ5ODExNTQsMTkwODczMTg4MSwyMT
+MzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
