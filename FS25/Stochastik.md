@@ -281,6 +281,7 @@ t.comb <- compositions(n = 20, m = 6)
 rownames(t.comb) <- paste0("Sorte",1:6)
 ncol(t.comb) # Anz. Mögl. = Anz. Spalten 53130
 ```
+**Bps**: An einem Taxistand warten 6 Grossraumtaxis, die jeweils bis zu 7 Fahrgäste aufnehmen können. Wie viele Möglichkeiten gibt es, 5 Fahrgäste auf die Taxis aufzuteilen, wenn die Taxis, nicht jedoch die Fahrgäste unterschieden werden sollen?
 
 ## Bedingte Wahrscheinlichkeiten
  
@@ -301,9 +302,10 @@ Ein Pfad des Ereignisbaumes entspricht einem Elementarereignis des mehrstufigen 
 ### Beispiel Ziegenproblem
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0Mj
-Q4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2
-NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMT
-I5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3
-MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3Mz
+U0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5Nzkx
+OTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMz
+Q5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2
+NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ
+==
 -->
