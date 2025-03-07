@@ -340,15 +340,15 @@ simpel: $$P(B|A) = \frac{P(A|B)\cdot P(B)}{P(A)}$$
 allgemein: $$P(A) = \sum^k_{j=1}P(A|B_j)\cdot P(B_j)$$ daraus folgt **Satz von Bayes**:
 $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 
-****
+**Bsp** Ziegenproblem
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM1OTEwMTksLTM1ODIzNzEyNywtMT
-gxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4Njkw
-OTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2ND
-MsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1
-OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2Nz
-A0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAy
-NTI4NjczXX0=
+eyJoaXN0b3J5IjpbNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MT
+M1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5
+OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLD
+czNTQ1ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3
+OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNC
+wzNDkzNDA4NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUy
+ODY3M119
 -->
