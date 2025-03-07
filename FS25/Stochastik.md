@@ -312,13 +312,18 @@ Immer wechseln--> Gewinnchance von 2/3. Denn wenn man zuerst falschlag und wechs
 - hinter Tor 2, wenn B = Moderator Tor 1 öffnet
 - A = Klausur bestehen, wenn B = intensive Vorbereitung
 - A = Herzinfarkt, wenn B = Bluthochdruck
-Sei A und B zwei Ereignisse mit P(B) 
+Sei A und B zwei Ereignisse mit P(B) > 0, dann ist die bedingte W'keit von A gegeben B definiert als:
+$$P(A|B)=\frac{P(A \cap B)}{P(B)}$$
+Man sagt Wahrscheinlichkeit von A gegeben B.
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI4MDU2OTEsLTY1ODY5MDk5OCwtMT
-cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
-ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OC
-wxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkz
-NDA4NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUyODY3My
-wtMTc3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbMzMzNTg1Nzk5LC02NTg2OTA5OTgsLTE3MD
+k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
+NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMT
+E3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQw
+ODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLT
+E3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
