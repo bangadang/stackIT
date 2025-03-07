@@ -332,15 +332,15 @@ Sei $B_1, ..., B_k$ paarweise disjunkte Ereignisse und $B_1\cup ... \cup B_k = \
 $P(A)$
 **Bsp**:  Bei Niederschlag beträgt die Wahrscheinlichkeit, dass ein Flugzeug pünktlich ist 50%. Bei schönem Wetter ist das Flugzeug in 90% der Fälle pünktlich. Morgen wird es mit 70% Wahrscheinlichkeit schön sein.
 Wie gross ist die Wahrscheinlichkeit, dass morgen ein Flugzeug pünktlich eintreffen wird?
-P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(schlecht) = 0.9 *0.7 + 0.5 * 0.3 = 
+P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(schlecht) = 0.9 *0.7 + 0.5 * 0.3 = 0.78
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNjUzNjQ5LC0yMjA3NzY1NjUsNjIwNj
-Q2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLTIwMzAzMDc0
-NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4NDI5NywtOD
-IwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2
-MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LD
-I3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5
-MjM3NF19
+eyJoaXN0b3J5IjpbLTE4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2Mj
+A2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAzMDMw
+NzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0Mjk3LC
+04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUw
+NjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1OD
+ksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMDQz
+MDkyMzc0XX0=
 -->
