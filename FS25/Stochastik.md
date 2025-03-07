@@ -300,12 +300,15 @@ Bsp: Urne mit 4 roten, 3 gelben und 2 blauen Kugeln. Ziehe zwei Kugeln ohne Zur�
 Ein Pfad des Ereignisbaumes entspricht einem Elementarereignis des mehrstufigen Experiments
 
 ### Beispiel Ziegenproblem
-
+Der Gewinn ist hinter Tor 1, 2 oder 3.
+Der Kandidat wählt eine Tür.
+Der Moderator öffnet eine der nicht gewählten Toren.
+--> Lohnt es sich für den Kandidaten zu wechseln?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3Mz
-U0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5Nzkx
-OTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMz
-Q5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2
-NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ
-==
+eyJoaXN0b3J5IjpbLTIwNjg2OTczOTMsLTIwMzAzMDc0NjYsLT
+YwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUw
+OTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMy
+w1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3
+MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NC
+wyMTg2Nzc1OTRdfQ==
 -->
