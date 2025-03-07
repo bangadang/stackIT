@@ -330,14 +330,16 @@ Sei $B_1, ..., B_k$ paarweise disjunkte Ereignisse und $B_1\cup ... \cup B_k = \
 --> d.h. ein $B_i$ tritt immer ein.
 --> Jedes Ergebnis von einem weiteren Ereignis A liegt genau in einem $B_i$.
 $P(A)$
+**Bsp**:  Bei Niederschlag beträgt die Wahrscheinlichkeit, dass ein Flugzeug pünktlich ist 50%. Bei schönem Wetter ist das Flugzeug in 90% der Fälle pünktlich. Morgen wird es mit 70% Wahrscheinlichkeit schön sein.
+Wie gross ist die Wahrscheinlichkeit, dass morgen ein Flugzeug pünktlich eintreffen wird?
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkyNDg2NTc2LC0yMjA3NzY1NjUsNjIwNj
-Q2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLTIwMzAzMDc0
-NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4NDI5NywtOD
-IwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2
-MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LD
-I3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5
-MjM3NF19
+eyJoaXN0b3J5IjpbMTYwNTMxMDgzNCwtMjIwNzc2NTY1LDYyMD
+Y0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3
+NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLT
+gyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2
+NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OS
+wyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwNDMw
+OTIzNzRdfQ==
 -->
