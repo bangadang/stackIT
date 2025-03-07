@@ -333,12 +333,14 @@ $P(A)$
 **Bsp**:  Bei Niederschlag beträgt die Wahrscheinlichkeit, dass ein Flugzeug pünktlich ist 50%. Bei schönem Wetter ist das Flugzeug in 90% der Fälle pünktlich. Morgen wird es mit 70% Wahrscheinlichkeit schön sein.
 Wie gross ist die Wahrscheinlichkeit, dass morgen ein Flugzeug pünktlich eintreffen wird?
 P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(schlecht) = 0.9 *0.7 + 0.5 * 0.3 = 0.78
+--> gewichtete Wahrscheinlichkeit
 
 ### Satz von Bayes
+simpel
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODM2NjA4MCwtMTgxMzU4NDY4NiwtMj
+eyJoaXN0b3J5IjpbLTEwMDI4ODk3MiwtMTgxMzU4NDY4NiwtMj
 IwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4
 MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC
 03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgx
