@@ -315,15 +315,16 @@ Immer wechseln--> Gewinnchance von 2/3. Denn wenn man zuerst falschlag und wechs
 Sei A und B zwei Ereignisse mit P(B) > 0, dann ist die bedingte W'keit von A gegeben B definiert als:
 $$P(A|B)=\frac{P(A \cap B)}{P(B)}$$
 Man sagt Wahrscheinlichkeit von A gegeben B.
-
+**Spezialfälle**
+$A\subset B$ 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzNTg1Nzk5LC02NTg2OTA5OTgsLTE3MD
-k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
-NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMT
-E3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQw
-ODc0LC0yMTI5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLT
-E3NzMzODA3MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMTM3NTYzNDEzMSwtNjU4NjkwOTk4LC0xNz
+A5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4
+NDcwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LD
+ExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0
+MDg3NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC
+0xNzczMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
