@@ -336,11 +336,12 @@ P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(sc
 --> gewichtete Wahrscheinlichkeit
 
 ### Satz von Bayes
-simpel
+simpel: $$P(B|A) = \frac{P(A|B)\cdot P(B)}{P(A)}$$
+allgemein: $$P(A) = \sum^k_{j=1}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI4ODk3MiwtMTgxMzU4NDY4NiwtMj
+eyJoaXN0b3J5IjpbLTg0NDEyNTk1MCwtMTgxMzU4NDY4NiwtMj
 IwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4
 MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC
 03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgx
