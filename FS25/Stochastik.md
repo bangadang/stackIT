@@ -323,10 +323,14 @@ Man sagt Wahrscheinlichkeit von A gegeben B.
 
 ### Multiplikationssatz 
 $A \cap B=P(A|B)\cdot P(B)$
+Wahrscheinlichkeit, dass A und B zusammen eintreten (“der Fall sind”), ist das Produkt der Wahrscheinlichkeit von B und der bedingten Wahrscheinlichkeit von A gegeben B.
+
+### Satz der totalen Wahrscheinlichkeit
+Sei $B_1, ..., B_k$ paarweise disjunkte Ereignisse
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Mzk4MjkyMCwtMjIwNzc2NTY1LDYyMD
+eyJoaXN0b3J5IjpbMTAyODkxMjYyOSwtMjIwNzc2NTY1LDYyMD
 Y0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3
 NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLT
 gyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2
