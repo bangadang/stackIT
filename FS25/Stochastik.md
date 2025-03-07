@@ -304,12 +304,12 @@ Der Gewinn ist hinter Tor 1, 2 oder 3.
 Der Kandidat wählt eine Tür.
 Der Moderator öffnet eine der nicht gewählten Toren.
 --> Lohnt es sich für den Kandidaten zu wechseln?
-
+Wahrscheinlichkeit zu Gewinnen, wenn man  nie wechselt ist 1/3 weil
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk3MTgyMTEsLTIwMzAzMDc0NjYsLT
-YwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUw
-OTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMy
-w1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3
-MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3MDQsMTA0MzA5MjM3NC
-wyMTg2Nzc1OTRdfQ==
+eyJoaXN0b3J5IjpbMTY1MTUwMzgzLC0xNzA5NzE4MjExLC0yMD
+MwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQy
+OTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLT
+E3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0
+MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LD
+EwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
 -->
