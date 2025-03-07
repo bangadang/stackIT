@@ -334,13 +334,15 @@ $P(A)$
 Wie gross ist die Wahrscheinlichkeit, dass morgen ein Flugzeug pünktlich eintreffen wird?
 P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(schlecht) = 0.9 *0.7 + 0.5 * 0.3 = 0.78
 
+### Satz von Bayes
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2Mj
-A2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAzMDMw
-NzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0Mjk3LC
-04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUw
-NjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1OD
-ksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMDQz
-MDkyMzc0XX0=
+eyJoaXN0b3J5IjpbLTc4ODM2NjA4MCwtMTgxMzU4NDY4NiwtMj
+IwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4
+MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC
+03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgx
+NTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NC
+wtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzcz
+MzgwNzA0XX0=
 -->
