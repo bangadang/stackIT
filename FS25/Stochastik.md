@@ -337,15 +337,16 @@ P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(sc
 
 ### Satz von Bayes
 simpel: $$P(B|A) = \frac{P(A|B)\cdot P(B)}{P(A)}$$
-allgemein: $$P(A) = \sum^k_{j=1}$$
+allgemein: $$P(A) = \sum^k_{j=1}P(A|B_j)\cdot P(B_j)$$
+$$P(B_i|A)= $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDEyNTk1MCwtMTgxMzU4NDY4NiwtMj
-IwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4
-MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC
-03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgx
-NTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NC
-wtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzcz
-MzgwNzA0XX0=
+eyJoaXN0b3J5IjpbLTEzNTI0NzM2OTAsLTE4MTM1ODQ2ODYsLT
+IyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcx
+ODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MC
+wtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4
+MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4Nz
+QsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3
+MzM4MDcwNF19
 -->
