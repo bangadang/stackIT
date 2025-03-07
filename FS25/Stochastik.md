@@ -291,12 +291,14 @@ Bsp: Urne mit 4 roten, 3 gelben und 2 blauen Kugeln. Ziehe zwei Kugeln ohne Zur�
 
 ### Aufbau eines Ereignisbaums
 - Startpunkt: Wurzel
-- Zeichne je eine Kante für die Ausgänge der ersten Stufe. An jeder  Ka
+- Zeichne je eine Kante für die Ausgänge der ersten Stufe. An jeder  Kante wird eine Wahrscheinlichkeit notiert.
 - Jeder Knoten der ersten Stufe ist entweder ein Endknoten/ Blatt oder läuft weiter zum Ausgang der 2. Stufe.
 - Der Baum wird erweitert bis alle möglichen Teilausgänge aufgetragen sind.
+- Die Wahrscheinlichkeit eines Endknoten ist das Produkt der W'keiten entlang des Pfades.
+- Endwahrscheinlichkeiten aller Blätter addieren sich zu 1.
 Ein Pfad des Ereignisbaumes entspricht einem Elementarereignis des mehrstufigen Experiments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMzI3NDMzNCw3MzU0NTg0NzAsLTc0Mj
+eyJoaXN0b3J5IjpbMTg2Njc4MzQ1MCw3MzU0NTg0NzAsLTc0Mj
 Q4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2
 NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMT
 I5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3
