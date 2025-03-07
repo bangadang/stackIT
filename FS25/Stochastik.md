@@ -285,11 +285,13 @@ ncol(t.comb) # Anz. Mögl. = Anz. Spalten 53130
 ## Bedingte Wahrscheinlichkeiten
  
  ### Ereignisbäume
- 
+Mehrstufige Zufallsexperimente lassen sich nicht mehr durch Abzählen von güünstigen und möglichen Fällen bestimmen. 
+Bsp: Urne mit 4 roten, 3 gelben und 2 blauen Kugeln. Ziehe zwei Kugeln ohne Zurücklegen. Falls beide Kugeln dieselbe Farbe haben, dann ziehen wir noch eine Kugel. Sonst ziehen wir zwei weitere Kugeln.
+→ Zusfallsexperiment mit bis zu 4 Stufen.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2MzUwNzAsNzM1NDU4NDcwLC03NDI0OD
-QyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUs
-LTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOT
-g0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0
-LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbMTQxOTE3MDk3Nyw3MzU0NTg0NzAsLTc0Mj
+Q4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2
+NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMT
+I5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3
+MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
