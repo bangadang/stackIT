@@ -291,12 +291,14 @@ Bsp: Urne mit 4 roten, 3 gelben und 2 blauen Kugeln. Ziehe zwei Kugeln ohne Zur�
 
 ### Aufbau eines Ereignisbaums
 - Startpunkt: Wurzel
-- Zeichne je eine Kante für die Ausgänge der ersten Stufe. 
-- Jeder Knoten der ersten Stufe ist entweder ein
+- Zeichne je eine Kante für die Ausgänge der ersten Stufe. An jeder  Ka
+- Jeder Knoten der ersten Stufe ist entweder ein Endknoten/ Blatt oder läuft weiter zum Ausgang der 2. Stufe.
+- Der Baum wird erweitert bis alle möglichen Teilausgänge aufgetragen sind.
+Ein Pfad des Ereignisbaumes entspricht einem Elementarereignis des mehrstufigen Experiments
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MzE4Njg2LDczNTQ1ODQ3MCwtNzQyND
-g0Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1
-LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMj
-k4NDI1ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcw
-NCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
+eyJoaXN0b3J5IjpbLTcyMzI3NDMzNCw3MzU0NTg0NzAsLTc0Mj
+Q4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2
+NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMT
+I5ODQyNTg5LDI3MDY3MjcsLTE5MDI1Mjg2NzMsLTE3NzMzODA3
+MDQsMTA0MzA5MjM3NCwyMTg2Nzc1OTRdfQ==
 -->
