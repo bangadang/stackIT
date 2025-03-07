@@ -304,12 +304,14 @@ Der Gewinn ist hinter Tor 1, 2 oder 3.
 Der Kandidat wählt eine Tür.
 Der Moderator öffnet eine der nicht gewählten Toren.
 --> Lohnt es sich für den Kandidaten zu wechseln?
-Wahrscheinlichkeit zu Gewinnen, wenn man  nie wechselt ist 1/3 weil
+Wahrscheinlichkeit zu Gewinnen, wenn man nie wechselt ist 1/3 weil
+Immer wechseln--> Gewinnchance von 2/3. Denn wenn man zuerst falschlag und wechselt gewinnt man mit 100%. Wahrscheinlichkeit am anfang falsch zu liegen ist 2/3
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTUwMzgzLC0xNzA5NzE4MjExLC0yMD
-MwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQy
-OTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLT
-E3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0
-MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LD
-EwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMj
+AzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0
+Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC
+0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4
+NDI1ODksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNC
+wxMDQzMDkyMzc0LDIxODY3NzU5NF19
 -->
