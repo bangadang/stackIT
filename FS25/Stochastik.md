@@ -329,7 +329,7 @@ Wahrscheinlichkeit, dass A und B zusammen eintreten (“der Fall sind”), ist d
 Sei $B_1, ..., B_k$ paarweise disjunkte Ereignisse und $B_1\cup ... \cup B_k = \Omega$
 --> d.h. ein $B_i$ tritt immer ein.
 --> Jedes Ergebnis von einem weiteren Ereignis A liegt genau in einem $B_i$.
-$P(A)$
+$$P(A) = \sum^k_{j=1}P(A|B_j)\cdot P(B_j)$$
 **Bsp**:  Bei Niederschlag beträgt die Wahrscheinlichkeit, dass ein Flugzeug pünktlich ist 50%. Bei schönem Wetter ist das Flugzeug in 90% der Fälle pünktlich. Morgen wird es mit 70% Wahrscheinlichkeit schön sein.
 Wie gross ist die Wahrscheinlichkeit, dass morgen ein Flugzeug pünktlich eintreffen wird?
 P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(schlecht) = 0.9 *0.7 + 0.5 * 0.3 = 0.78
@@ -344,11 +344,11 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MT
-M1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5
-OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLD
-czNTQ1ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3
-OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNC
-wzNDkzNDA4NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUy
-ODY3M119
+eyJoaXN0b3J5IjpbLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1OD
+IzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5
+MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC
+02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1
+MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2NjE4MD
+MsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OSwyNzA2
+NzI3XX0=
 -->
