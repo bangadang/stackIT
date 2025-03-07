@@ -307,13 +307,18 @@ Der Moderator öffnet eine der nicht gewählten Toren.
 Wahrscheinlichkeit zu Gewinnen, wenn man nie wechselt ist 1/3 weil
 Immer wechseln--> Gewinnchance von 2/3. Denn wenn man zuerst falschlag und wechselt gewinnt man mit 100%. Wahrscheinlichkeit am anfang falsch zu liegen ist 2/3
 
-### W
+### Wahrscheinlichkeit A unter Geschehnis B
+**Bsp**: 
+- hinter Tor 2, wenn B = Moderator Tor 1 öffnet
+- A = Klausur bestehen, wenn B = intensive Vorbereitung
+- A = Herzinfarkt, wenn B = Bluthochdruck
+Sei A und B zwei Ereignisse mit P(B) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTM5MDA5NiwtNjU4NjkwOTk4LC0xNz
-A5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4
-NDcwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LD
-ExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0
-MDg3NCwtMjEyOTg0MjU4OSwyNzA2NzI3LC0xOTAyNTI4NjczLC
-0xNzczMzgwNzA0LDEwNDMwOTIzNzQsMjE4Njc3NTk0XX0=
+eyJoaXN0b3J5IjpbLTE0NzI4MDU2OTEsLTY1ODY5MDk5OCwtMT
+cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
+ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OC
+wxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkz
+NDA4NzQsLTIxMjk4NDI1ODksMjcwNjcyNywtMTkwMjUyODY3My
+wtMTc3MzM4MDcwNCwxMDQzMDkyMzc0LDIxODY3NzU5NF19
 -->
