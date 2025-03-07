@@ -304,8 +304,9 @@ Der Gewinn ist hinter Tor 1, 2 oder 3.
 Der Kandidat wählt eine Tür.
 Der Moderator öffnet eine der nicht gewählten Toren.
 --> Lohnt es sich für den Kandidaten zu wechseln?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjg2OTczOTMsLTIwMzAzMDc0NjYsLT
+eyJoaXN0b3J5IjpbLTE3MDk3MTgyMTEsLTIwMzAzMDc0NjYsLT
 YwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUw
 OTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NSwtMTc1MDY2MTgwMy
 w1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5ODQyNTg5LDI3MDY3
