@@ -319,16 +319,18 @@ Man sagt Wahrscheinlichkeit von A gegeben B.
 - $A\subset B$: $P(A|B)=\frac{P(A)}{P(B)}\ge P(A)$
 - $A \cap B = \empty$:  $P(A|B)=0$
 - $B\subset A$: $P(A|B)=\frac{P(B)}{P(B)}=1)$
-- $P(A^c|B)=1-P(A|B)$
+- $P(A^c|B)=1-P(A|B)$ aber $P(A|B^c)!=1-P(A|B)$
 
+### Multiplikationssatz 
+$A \cap B=P(A|B)\cdot P(B)$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE5NTY0NDIsLTIyMDc3NjU2NSw2Mj
-A2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAzMDMw
-NzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0Mjk3LC
-04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUw
-NjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4NDI1OD
-ksMjcwNjcyNywtMTkwMjUyODY3MywtMTc3MzM4MDcwNCwxMDQz
-MDkyMzc0XX0=
+eyJoaXN0b3J5IjpbLTc1Mzk4MjkyMCwtMjIwNzc2NTY1LDYyMD
+Y0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3
+NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLT
+gyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2
+NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OS
+wyNzA2NzI3LC0xOTAyNTI4NjczLC0xNzczMzgwNzA0LDEwNDMw
+OTIzNzRdfQ==
 -->
