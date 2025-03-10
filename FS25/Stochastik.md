@@ -342,10 +342,14 @@ allgemein: $$P(A) = \sum^k_{j=1}P(A|B_j)\cdot P(B_j)$$ daraus folgt **Satz von B
 $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 
 **Bsp** Ziegenproblem
+1. Ereignisse beschreiben:
+	- $G_i$ = Der Gewinn ist hinter Tor i
+	- $M_i$ = Der Moderator **hat** Tor i geö
+2.  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTY1NDgzOCwtODIxMjU0MjgyLDY4Mj
+eyJoaXN0b3J5IjpbLTI2NzAyNDYwMywtODIxMjU0MjgyLDY4Mj
 I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
 NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
 IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
