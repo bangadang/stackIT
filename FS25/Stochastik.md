@@ -336,6 +336,7 @@ P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(sc
 --> gewichtete Wahrscheinlichkeit
 
 ### Satz von Bayes
+Beschreibt die Beziehung zwischen der Umkehrung einer bedingten Wahrscheinlichkeit
 simpel: $$P(B|A) = \frac{P(A|B)\cdot P(B)}{P(A)}$$
 allgemein: $$P(A) = \sum^k_{j=1}P(A|B_j)\cdot P(B_j)$$ daraus folgt **Satz von Bayes**:
 $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
@@ -344,11 +345,11 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1OD
-IzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5
-MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC
-02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1
-MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3NTA2NjE4MD
-MsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0MjU4OSwyNzA2
-NzI3XX0=
+eyJoaXN0b3J5IjpbMTU2OTY1NDgzOCwtODIxMjU0MjgyLDY4Mj
+I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
+NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
+IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
+NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NS
+wtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5
+ODQyNTg5XX0=
 -->
