@@ -348,15 +348,16 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 2.  Situation betrachten
 	- Der Kandidat hat Tor 1 gewählt und der Moderator hat daraufhin das Tor 3 geöffnet.
 3. Frage mit einer bedingten Wahrscheinlichkeit betrachten:
-	- 
+	- Wie gross ist die Wahrscheinlichkeit, dass das Auto hinter Tor 2 ist, wenn der Moderator das dritte Tor geöffnet hat? Ergo, lohnt es sich für den Kandidaten zu wechseln? 
+	- $P(G_2|M_3)$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDQ5MzMyLC04MjEyNTQyODIsNjgyMj
-gwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2
-NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMj
-AzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0
-Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC
-0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4
-NDI1ODldfQ==
+eyJoaXN0b3J5IjpbMjkyMTM1NzYsLTgyMTI1NDI4Miw2ODIyOD
+A0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1
+LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMD
+MwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQy
+OTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLT
+E3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0
+MjU4OV19
 -->
