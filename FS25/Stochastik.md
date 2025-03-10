@@ -353,14 +353,15 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 4. Formel aufstellen:
 	- $P(G_2|M_3) = \frac{P(M_3|G_2)\cdot P(G_2)}{P(M_3)}$
 5. Einzelne Wahrscheinlichkeiten ausrechnen und in die Formel einsetzen:
-	- $P(G_1) = P(G_2) = P(G_3) = $
-
+	- $P(G_1) = P(G_2) = P(G_3) = \frac{1}{3}$
+	- $P(M_3|G_1) = \frac{1}{2}$
+	- $P(M_3|G_2)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDMwNjg1MzMsLTgyMTI1NDI4Miw2OD
-IyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2
-NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC
-0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0
-ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2Nj
-UsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEy
-OTg0MjU4OV19
+eyJoaXN0b3J5IjpbLTY3NzE3ODEyNiwtODIxMjU0MjgyLDY4Mj
+I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
+NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
+IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
+NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NS
+wtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5
+ODQyNTg5XX0=
 -->
