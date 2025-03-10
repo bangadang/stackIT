@@ -336,7 +336,7 @@ P(pünktlich) = P(pünktlich|schön) * p(schön) + P(pünktlich|schlecht) * p(sc
 --> gewichtete Wahrscheinlichkeit
 
 ### Satz von Bayes
-Beschreibt die Beziehung zwischen der Umkehrung einer bedingten Wahrscheinlichkeit
+Beschreibt die Beziehung zwischen der Umkehrung einer bedingten Wahrscheinlichkeit. Der Satz von Bayes erlaubt unterschiedliche sich gegenseitig ausschliessende Möglichkeiten Bi (Hypothesen) auf Grund von beobachteten Daten (A) zu  vergleichen.
 simpel: $$P(B|A) = \frac{P(A|B)\cdot P(B)}{P(A)}$$
 allgemein: $$P(A) = \sum^k_{j=1}P(A|B_j)\cdot P(B_j)$$ daraus folgt **Satz von Bayes**:
 $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
@@ -357,9 +357,11 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 	- $P(M_3|G_1) = \frac{1}{2}$
 	- $P(M_3|G_2) = 1$
 	- $P(M_3|G_3) = 0$
-6.  $P(G_2|M_3) = \frac{P(M_3|G_2)\cdot P(G_2)}{P(M_3)} = \frac{1 \cdot \frac{1}{3}}{\frac{1}{2}}$
+6.  $P(G_2|M_3) = \frac{P(M_3|G_2)\cdot P(G_2)}{P(M_3)} = \frac{1 \cdot \frac{1}{3}}{\frac{1}{2}} = \frac{2}{3}$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjcwNDY5NCwtODIxMjU0MjgyLDY4Mj
+eyJoaXN0b3J5IjpbMTQ2MzAzODY2MiwtODIxMjU0MjgyLDY4Mj
 I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
 NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
 IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
