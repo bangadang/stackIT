@@ -351,14 +351,16 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 	- Wie gross ist die Wahrscheinlichkeit, dass das Auto hinter Tor 2 ist, wenn der Moderator das dritte Tor geöffnet hat? Ergo, lohnt es sich für den Kandidaten zu wechseln? 
 	- $P(G_2|M_3)$
 4. Formel aufstellen:
-	- $P(G_2|M_3) = \frac{P(M_3)\cdot P()}{}$
+	- $P(G_2|M_3) = \frac{P(M_3|G_2)\cdot P(G_2)}{P(M_3)}$
+5. Einzelne Wahrscheinlichkeiten ausrechnen und in die Formel einsetzen:
+	- $P(G_1) = P(G_2) = P(G_3) = $
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NjkyMjUsLTgyMTI1NDI4Miw2ODIyOD
-A0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1
-LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMD
-MwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQy
-OTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLT
-E3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEyOTg0
-MjU4OV19
+eyJoaXN0b3J5IjpbLTE4MDMwNjg1MzMsLTgyMTI1NDI4Miw2OD
+IyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2
+NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC
+0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0
+ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2Nj
+UsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0MDg3NCwtMjEy
+OTg0MjU4OV19
 -->
