@@ -344,16 +344,19 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 **Bsp** Ziegenproblem
 1. Ereignisse beschreiben:
 	- $G_i$ = Der Gewinn ist hinter Tor i
-	- $M_i$ = Der Moderator **hat** Tor i geö
-2.  
+	- $M_i$ = Der Moderator **hat** Tor i geöffnet.
+2.  Situation betrachten
+	- Der Kandidat hat Tor 1 gewählt und der Moderator hat daraufhin das Tor 3 geöffnet.
+3. Frage mit einer bedingten Wahrscheinlichkeit betrachten:
+	- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzAyNDYwMywtODIxMjU0MjgyLDY4Mj
-I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
-NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
-IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
-NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3ODE1NDY2NS
-wtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQwODc0LC0yMTI5
-ODQyNTg5XX0=
+eyJoaXN0b3J5IjpbMTY0NDQ5MzMyLC04MjEyNTQyODIsNjgyMj
+gwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2
+NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMj
+AzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0
+Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC
+0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkzNDA4NzQsLTIxMjk4
+NDI1ODldfQ==
 -->
