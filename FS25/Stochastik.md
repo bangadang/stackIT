@@ -395,10 +395,13 @@ $$P(HIV^+ | ELISA^+)=\frac{P(ELISA^+|HIV^+)\cdot P(HIV^+) }{P(ELISA^+)}$$$$=\fra
 Die Chance trotz positivem Test doch nicht HIV-Positiv zu sein, ist relativ gross (nahezu 75%). 
 Solche Wahrscheinlichkeiten werden häufig (teilweise auch von Medizinern) falsch berechnet, weil unterschiedliche Wahrscheinlichkeiten verwechselt werden. So wird z.B. aus der Sensitivität von 99.7% fälschlicherweise gefolgert, dass ein positiver Test zu 99.7% bedeute, dass der Patient positiv sei. Man verwechselt die bedingten W'keiten.
 
+## Stochastische Unabhängigkeit
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2NTkyMzQwLDQzNTcxODQyNCwtODIxMj
+eyJoaXN0b3J5IjpbNDA1ODU5NTE1LDQzNTcxODQyNCwtODIxMj
 U0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2
 LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MD
 k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
