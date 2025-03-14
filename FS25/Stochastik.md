@@ -384,17 +384,17 @@ $P(ELISA^+|HIV^+) = \frac{4985}{5000} =99.7\%$
 $P(ELISA^-|HIV^-) = \frac{980075}{995000} =98.5\%$
 
 **Prävalenz**: Wahrscheinlichkeit, dass eine zufällig
-herausgegriffene Blutspende HIV-positiv ist. Wahrscheinlichkeit eines **true positive**
-$P(HIV^+) = 0.5\%$
+herausgegriffene Blutspende HIV-positiv ist. Wahrscheinlichkeit eines **true oder false positive**
+$P(HIV^+) = \frac{4985}{1000000} = 0.5\%$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTU1MjY2MCw0MzU3MTg0MjQsLTgyMT
-I1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4
-NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNz
-A5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4
-NDcwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LD
-ExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0
-MDg3NF19
+eyJoaXN0b3J5IjpbMjE2MzIyNjAzLDQzNTcxODQyNCwtODIxMj
+U0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2
+LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MD
+k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
+NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMT
+E3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQw
+ODc0XX0=
 -->
