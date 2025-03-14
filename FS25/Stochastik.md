@@ -408,7 +408,8 @@ Dasselbe gilt analog für $P(A) > 0$.
 
 **Beweis**: 
 Sind A und B disjunkt, so ist $P(A \cap B) = 0 \neq P(A) \cdot P(B)$, da $P(A) > 0$ und $P(B) > 0$. → Also **disjunkt ⇒ abhängig**.
-Umgekehrt: Sind A und B stochastisch unabhängig ($P(A) > 0$ und $P(B) > 0$), dann $P(A \cap B) = P(A) \cdot P(B) > 0$, d.h. $P(A \cap B) \neq 0$
+Umgekehrt: 
+Sind A und B stochastisch unabhängig ($P(A) > 0$ und $P(B) > 0$), dann $P(A \cap B) = P(A) \cdot P(B) > 0$, d.h. $P(A \cap B) \neq 0$
 (stochastisch unabhängig ⇒ nicht disjunkt)
 
 ### Stochastische Unabhängigkeit >2 Ereignisse
@@ -419,11 +420,11 @@ Die Formel impliziert unter anderem, dass jedes **Paar** von Ereignissen $A_i$ u
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsND
-M1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcx
-MjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLT
-Y1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAx
-ODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MD
-ksMTQ0NTk3OTE5OCwxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1
-NzA2NjcwNF19
+eyJoaXN0b3J5IjpbLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMT
+I3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0
+MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LD
+YyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMw
+MzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOT
+csLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3
+NTA2NjE4MDNdfQ==
 -->
