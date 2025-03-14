@@ -366,16 +366,20 @@ Es gibt zwei verschiedenartige mögliche Fehldiagnosen:
 1. **False positives**: Eine HIV **negative** Person erhält ein **positives** Resultat
 2. **False negatives**: Eine HIV **positive** Person erhält ein **negatives** Resultat
 Zahlen einer Studie:
-|  | poitives Resultat | negatives Resultat | Total |
+
+|  | positives Resultat | negatives Resultat | Total |
 |--|--|--|--|
 | HIV positiv | 4985 | 15 | 5000 |  
-| HIV negativ |  |  |  |  
-| Total |  |  |  |  
+| HIV negativ | 14925 | 980075 | 995000 |  
+| Total | 19910 | 980090 | 1000000 |  
+
+a) false positives: 14925
+b) 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjk1NzY2NzgsNDM1NzE4NDI0LC04Mj
+eyJoaXN0b3J5IjpbLTE5NTI5ODI5MjQsNDM1NzE4NDI0LC04Mj
 EyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2
 ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMT
 cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
