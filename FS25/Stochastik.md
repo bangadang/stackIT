@@ -404,14 +404,19 @@ $$P(A|B)=\frac{P(A\cap B)}{P(B)} = \frac{P(A)\cdot P(B)}{P(B)} = P(A)$$
 Dasselbe gilt analog für $P(A) > 0$.
 ### disjunkt ist NICHT gleich unabhängig
 - Zwei Ereignisse A, B sind disjunkt, wenn A ∩ B = ∅, d.h. sie treten nicht gemeinsam auf.
-- Falls P(A) > 0 und P(B) > 0 schliessen sich die Eigenschaften disjunkt und unabhängig aus
+- Falls P(A) > 0 und P(B) > 0 schliessen sich die Eigenschaften disjunkt und unabhängig aus. Ereignisse können nicht beide EIgenschaften besitzen.
+Beweis: Sind A und B disjunkt, so ist $P(A \cap B) = 0 \not P(A) · P(B)$, da P(A) > 0 und P(B) > 0. → Also disjunkt ⇒ abhängig.
+Umgekehrt: Sind A und B stochastisch unabhängig (P(A) > 0 und
+P(B) > 0), dann P(A ∩ B) = P(A) · P(B) > 0, d.h. P(A ∩ B) ̸= 0
+(stochastisch unabhängig ⇒ nicht disjunkt)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODMzMzg4MTMsNDM1NzE4NDI0LC04Mj
-EyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2
-ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMT
-cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
-ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OC
-wxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkz
-NDA4NzRdfQ==
+eyJoaXN0b3J5IjpbMTI3NjQ2NjY2LDQzNTcxODQyNCwtODIxMj
+U0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2
+LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MD
+k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
+NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMT
+E3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQw
+ODc0XX0=
 -->
