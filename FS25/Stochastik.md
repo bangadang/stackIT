@@ -403,14 +403,15 @@ Ist $P(B)>0$ aber die Ereignisse A und B sind **unabhängig**, sehen wir das B e
 $$P(A|B)=\frac{P(A\cap B)}{P(B)} = \frac{P(A)\cdot P(B)}{P(B)} = P(A)$$
 Dasselbe gilt analog für $P(A) > 0$.
 ### disjunkt ist NICHT gleich unabhängig
-
+- Zwei Ereignisse A, B sind disjunkt, wenn A ∩ B = ∅, d.h. sie treten nicht gemeinsam auf.
+- Falls P(A) > 0 und P(B) > 0 schliessen sich die Eigenschaften disjunkt und unabhängig aus
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTkzMjE2NSw0MzU3MTg0MjQsLTgyMT
-I1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4
-NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNz
-A5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4
-NDcwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LD
-ExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0
-MDg3NF19
+eyJoaXN0b3J5IjpbLTEzODMzMzg4MTMsNDM1NzE4NDI0LC04Mj
+EyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2
+ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMT
+cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
+ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OC
+wxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkz
+NDA4NzRdfQ==
 -->
