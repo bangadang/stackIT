@@ -412,12 +412,12 @@ Umgekehrt: Sind A und B stochastisch unabhängig ($P(A) > 0$ und $P(B) > 0$), da
 (stochastisch unabhängig ⇒ nicht disjunkt)
 
 ### Stochastische Unabhängigkeit >2 Ereignisse
-Mehr als zwei Ereignisse $A_1, ..., A_k$ heissen stochastisch unabhängig, wenn für 
-$$P(A_{})$$
+Mehr als zwei Ereignisse $A_1, ..., A_k$ heissen stochastisch unabhängig, wenn für jede Auswahl von Ereignissen $A_{i_1},..., A_{i_j}$ gilt:
+$$P(A_{i_1}\cap ... \cap A_{i_j})=P(A_{i_j})\cdot P()$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI4OTU4MTgsNDM1NzE4NDI0LC04Mj
+eyJoaXN0b3J5IjpbLTEyMDQyMDIyMDMsNDM1NzE4NDI0LC04Mj
 EyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2
 ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMT
 cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
