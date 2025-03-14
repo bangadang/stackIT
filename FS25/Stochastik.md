@@ -364,15 +364,20 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 **Bsp**: Aids-Test beim Blutspenden: Dazu wird das Blut mit dem ELISA-Test (Enzyme-linked-Immunosorbent Assay) auf HIV-Antikörper untersucht. Kein Test mit vernünftigem Aufwand ist perfekt, auch der ELISA-Test nicht.
 Es gibt zwei verschiedenartige mögliche Fehldiagnosen:
 1. **False positives**: Eine HIV **negative** Person erhält ein **positives** Resultat
-2. 1. **False positives**: Eine HIV **negative** Person erhält ein **positives** Resultat
+2. **False negatives**: Eine HIV **positive** Person erhält ein **negatives** Resultat
+Zahlen einer Studie:
+|  |  |  |  |
+|--|--|--|--|
+|  |  |
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY3ODUyNjAyLDQzNTcxODQyNCwtODIxMj
-U0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2
-LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MD
-k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
-NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMT
-E3ODE1NDY2NSwtMTc1MDY2MTgwMyw1NTcwNjY3MDQsMzQ5MzQw
-ODc0XX0=
+eyJoaXN0b3J5IjpbMTUyNzIyMzY3OCw0MzU3MTg0MjQsLTgyMT
+I1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4
+NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNz
+A5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4
+NDcwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LD
+ExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0
+MDg3NF19
 -->
