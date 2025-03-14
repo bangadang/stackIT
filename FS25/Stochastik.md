@@ -415,11 +415,11 @@ Umgekehrt: Sind A und B stochastisch unabhängig ($P(A) > 0$ und $P(B) > 0$), da
 Mehr als zwei Ereignisse $A_1, ..., A_k$ heissen stochastisch unabhängig, wenn für jede Auswahl von Ereignissen $A_{i_1},..., A_{i_j}$ gilt:
 $$P(A_{i_1}\cap ... \cap A_{i_j})=P(A_{i_1})\cdot ...\cdot P(A_{i_j})$$
 Die Formel impliziert unter anderem, dass jedes **Paar** von Ereignissen $A_i$ und $A_j$ unabhängig sein muss.
-**Aber** auch wenn mehrere Ereignisse paarweise unabhängig sind, heisst das **nicht** das alle Ereignisse zusammen stochastisch unabhängig sind. Schlussfolgerung ist geht **nicht** in beide Richtungen
+**Aber** auch wenn mehrere Ereignisse paarweise unabhängig sind, heisst das **nicht** das alle Ereignisse zusammen stochastisch unabhängig sind. Schlussfolgerung ist geht **nicht** in beide Richtungen.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIzOTg4NjQsLTEyNzQyMDM1MjEsND
+eyJoaXN0b3J5IjpbLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsND
 M1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcx
 MjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLT
 Y1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAx
