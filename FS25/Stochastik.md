@@ -376,12 +376,17 @@ Zahlen einer Studie:
 a) false positives: 14925
 b) false negatives: 15
 False negatives sind der schlimmere Fehler, Gefahr auf Weiteransteckung
-$P(ELISA^+|HIV^1) = \frac{}{} =99.7\%$
+### Begriffe
+**Sensitivität**:  Anteil der HIV-positiven Blutproben, welche durch den ELISA-Test erkannt werden.
+$P(ELISA^+|HIV^+) = \frac{4985}{5000} =99.7\%$
+
+**Spezifizität**: Anteil an HIV-negativen Personen ist, die auch einen
+negatives ELISA-Testresultat erhalten
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU4OTE4MTAsNDM1NzE4NDI0LC04Mj
+eyJoaXN0b3J5IjpbLTE0MzcwMjMxNjgsNDM1NzE4NDI0LC04Mj
 EyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2
 ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMT
 cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
