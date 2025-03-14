@@ -361,11 +361,14 @@ $$P(B_i|A)= \frac{P(A|B_j)\cdot P(B_i)}{\sum^k_{j=1}P(A|B_j)\cdot P(B_j)} $$
 6.  $P(G_2|M_3) = \frac{P(M_3|G_2)\cdot P(G_2)}{P(M_3)} = \frac{1 \cdot \frac{1}{3}}{\frac{1}{2}} = \frac{2}{3}$
 
 ### Diagnostische Tests
-**Bsp**: 
+**Bsp**: Aids-Test beim Blutspenden: Dazu wird das Blut mit dem ELISA-Test (Enzyme-linked-Immunosorbent Assay) auf HIV-Antikörper untersucht. Kein Test mit vernünftigem Aufwand ist perfekt, auch der ELISA-Test nicht.
+Es gibt zwei verschiedenartige mögliche Fehldiagnosen:
+1. **False positives**: Eine HIV **negative** Person erhält ein **positives** Resultat
+2. 1. **False positives**: Eine HIV **negative** Person erhält ein **positives** Resultat
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU4MDY2LDQzNTcxODQyNCwtODIxMj
+eyJoaXN0b3J5IjpbNjY3ODUyNjAyLDQzNTcxODQyNCwtODIxMj
 U0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2
 LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MD
 k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
