@@ -412,15 +412,16 @@ Umgekehrt: Sind A und B stochastisch unabhängig ($P(A) > 0$ und $P(B) > 0$), da
 (stochastisch unabhängig ⇒ nicht disjunkt)
 
 ### Stochastische Unabhängigkeit >2 Ereignisse
-
+Mehr als zwei Ereignisse $A_1, ..., A_k$ heissen stochastisch unabhängig, wenn für 
+$$P(A_{})$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDA0NDIwMiw0MzU3MTg0MjQsLTgyMT
-I1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4
-NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNz
-A5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4
-NDcwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LD
-ExNzgxNTQ2NjUsLTE3NTA2NjE4MDMsNTU3MDY2NzA0LDM0OTM0
-MDg3NF19
+eyJoaXN0b3J5IjpbLTEwNzI4OTU4MTgsNDM1NzE4NDI0LC04Mj
+EyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2
+ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMT
+cwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1
+ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3OTE5OC
+wxMTc4MTU0NjY1LC0xNzUwNjYxODAzLDU1NzA2NjcwNCwzNDkz
+NDA4NzRdfQ==
 -->
