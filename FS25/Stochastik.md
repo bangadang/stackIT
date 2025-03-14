@@ -387,10 +387,15 @@ $P(ELISA^-|HIV^-) = \frac{980075}{995000} =98.5\%$
 herausgegriffene Blutspende HIV-positiv ist. Wahrscheinlichkeit eines **true oder false positive**
 $P(HIV^+) = \frac{4985}{1000000} = 0.5\%$
 
+**Satz von Bayes**: Nun ist das Testergebnis einer Blutprobe aus dem Labor gerade eingetroffen: positiv! 
+Wie gross ist die Wahrscheinlichkeit, dass die Person, von der das Blut stammt, tatsächlich HIV-positiv ist?
+
+$P(HIV^+|ELISA^+)$
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2MzIyNjAzLDQzNTcxODQyNCwtODIxMj
+eyJoaXN0b3J5IjpbNjQ4MjI2ODk5LDQzNTcxODQyNCwtODIxMj
 U0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2
 LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MD
 k3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0
