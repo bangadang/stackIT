@@ -397,12 +397,13 @@ Solche Wahrscheinlichkeiten werden häufig (teilweise auch von Medizinern) falsc
 
 ## Stochastische Unabhängigkeit
 Zwei Ereignisse sind stochastisch unabhängig, wenn sie sich gegenseitig **nicht** beeinflussen.
-**Def.**: $$P(A \c)$$
+**Def.**: $$P(A \cap B)=P(A)\cdot P(B)$$
+D.h. Die Wahrscheinlichkeit das Ereignis A **und** B eintreffen ist das Produkt der W'keiten
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTYxOTQwOSw0MzU3MTg0MjQsLTgyMT
+eyJoaXN0b3J5IjpbMTU5NDA0NDQ2OSw0MzU3MTg0MjQsLTgyMT
 I1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4
 NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNz
 A5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4
