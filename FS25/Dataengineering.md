@@ -51,8 +51,8 @@
 | used to run a business | used to analyze a business |
 | focus on data in | focus on information out |
 | based on Entity Relationship Model | based on Star Schema or Snowflake Schema |
-|  |  |
-|  |  |
+| provides, primitive/ highly detailed/ flat relational view of data | provides summarized/ consolidated/ multidimensional view of data  |
+| thousand  |  |
 |  |  |
 |  |  |
 |  |  |
@@ -60,7 +60,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzAzMDEyNTAsMzI2ODY0NTg4LDE5MD
-g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
-fQ==
+eyJoaXN0b3J5IjpbMTEzODY3MDYxNiwzMjY4NjQ1ODgsMTkwOD
+czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
+
 -->
