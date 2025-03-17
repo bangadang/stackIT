@@ -17,10 +17,11 @@
 ||- copy character from s to t (cost = 0) - delete a character from s (cost = 1) 
 ||- insert a character into t (cost = 1) 
 ||- substitute one character for another (cost = 1)|
-|  |  |
+| 13.03.25 |  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMz
-k1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbLTExNTAyMDgzMTAsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
