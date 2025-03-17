@@ -17,11 +17,18 @@
 ||- copy character from s to t (cost = 0) - delete a character from s (cost = 1) 
 ||- insert a character into t (cost = 1) 
 ||- substitute one character for another (cost = 1)|
-| 13.03.25 |  |
+| 13.03.25 | advantages of storing data in relational systems: |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAyMDgzMTAsMzI2ODY0NTg4LDE5MD
-g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
-fQ==
+eyJoaXN0b3J5IjpbMTc5MzE3NDIxMywzMjY4NjQ1ODgsMTkwOD
+czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
+
 -->
