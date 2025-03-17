@@ -48,9 +48,9 @@
 |OLTP| OLAP |
 |--|--|
 | day2day processing | historical processing |
-|  |  |
-|  |  |
-|  |  |
+| used to run a business | used to analyze a business |
+| focus on data in | focus on information out |
+| based on Entity Relationship Model | based on Star Schema or Snowflake Schema |
 |  |  |
 |  |  |
 |  |  |
@@ -60,7 +60,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0Mzk5MTM3LDMyNjg2NDU4OCwxOTA4Nz
-MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
-
+eyJoaXN0b3J5IjpbLTE4NzAzMDEyNTAsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
