@@ -37,7 +37,7 @@
 |  | types of data warehouses: |
 |  | **information processing**: DW allow to process data stored within by means of querying, simple statistical analysis, table, charts, graphs |
 |  | **analytical processing**: data can be processedd by means of basic OLAP operations including slice-and-dice, drill down/up, pivoting |
-|  | **data mining**:  |
+|  | **data mining**: knowledge discovery by finding patterns and associations, performing classification and prediction through construced analytical models |
 |  |  |
 |  |  |
 |  |  |
@@ -46,7 +46,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MzgwOTkxNiwzMjY4NjQ1ODgsMTkwOD
-czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
-
+eyJoaXN0b3J5IjpbLTEwMzYzMDM5MjQsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
