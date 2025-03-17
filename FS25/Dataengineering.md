@@ -54,13 +54,18 @@
 | provides, primitive/ highly detailed/ flat relational view of data | provides summarized/ consolidated/ multidimensional view of data  |
 | thousand of active users on the system | hundreds of users on the system |
 | database size: 100MB-100GB | database size: 100GB-100TB |
-|  |  |
-|  |  |
+
+### Data Warehouse Architecture
+| Input:Data Sources | Staging |  |  |  |
+|--|--|--|--|--|
+|  |  |  |  |  |
+|  |  |  |  |  |
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjU0ODQ3NCwzMjY4NjQ1ODgsMTkwOD
-czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbMjU2Mjk3NjAyLDMyNjg2NDU4OCwxOTA4Nz
+MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 
 -->
