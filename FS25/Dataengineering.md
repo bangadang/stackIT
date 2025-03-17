@@ -17,18 +17,22 @@
 ||- copy character from s to t (cost = 0) - delete a character from s (cost = 1) 
 ||- insert a character into t (cost = 1) 
 ||- substitute one character for another (cost = 1)|
-| 13.03.25 | advantages of storing data in relational systems: |
+| 13.03.25 | **advantages of storing data in relational systems**: |
 |  | interfaces are well defined, data is well organized and structured |
 |  | schema provide meta-data |
 |  | synchronized multi-user support |
 |  | query processing engines do efficient preprocessing and deliver data as wanted/needed |
-|  | disadvantages: |
+|  | **disadvantages**: |
+|  | only scales to mediuim sized datasets |
+|  | limited functions for analytics |
+|  | problems occur for semi-/unstructured data |
+|  |  |
 |  |  |
 |  |  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMTg5MzI2LDMyNjg2NDU4OCwxOTA4Nz
-MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
-
+eyJoaXN0b3J5IjpbLTIxMDg4NTA0MTMsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
