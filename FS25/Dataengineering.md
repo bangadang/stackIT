@@ -31,12 +31,12 @@
 |  | stores **subject-oriented** information rather than processes (subjects like product, customer, sales etc.) |
 |  | **integrates** data from heterogenous sources |
 |  | **time-variant**: stored data is associatted with a time period, provides information from the historical point of view |
-|  | *non-volatile** |
-|  |  |
+|  | **non-volatile**: a data warehouse is kept separate from the operational database and new added data does not erase old data |
+|  | data warehouses are commenly used in: financial/ banking services, consumer goods, retail  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTMzMjI1NjYsMzI2ODY0NTg4LDE5MD
-g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
-fQ==
+eyJoaXN0b3J5IjpbODUxNTI5NDU2LDMyNjg2NDU4OCwxOTA4Nz
+MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+
 -->
