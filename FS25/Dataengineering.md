@@ -52,15 +52,15 @@
 | focus on data in | focus on information out |
 | based on Entity Relationship Model | based on Star Schema or Snowflake Schema |
 | provides, primitive/ highly detailed/ flat relational view of data | provides summarized/ consolidated/ multidimensional view of data  |
-| thousand  |  |
-|  |  |
+| thousand of active users on the system | hundreds of users on the system |
+| database size: 100MB-100GB | database size: 100GB-100TB |
 |  |  |
 |  |  |
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODY3MDYxNiwzMjY4NjQ1ODgsMTkwOD
+eyJoaXN0b3J5IjpbLTk5NjU0ODQ3NCwzMjY4NjQ1ODgsMTkwOD
 czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 
 -->
