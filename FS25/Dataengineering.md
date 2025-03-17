@@ -26,13 +26,13 @@
 |  | only scales to mediuim sized datasets |
 |  | limited functions for analytics |
 |  | problems occur for semi-/unstructured data |
-|  |  |
-|  |  |
-|  |  |
+|  | **data warehousing** |
+|  | Definition: a data warehouse is a collection of data in support of management’s decision-making process |
+|  | store subject-oriented information |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg4NTA0MTMsMzI2ODY0NTg4LDE5MD
+eyJoaXN0b3J5IjpbLTE0MDg5NjExMzUsMzI2ODY0NTg4LDE5MD
 g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
 fQ==
 -->
