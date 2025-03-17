@@ -20,15 +20,15 @@
 | 13.03.25 | advantages of storing data in relational systems: |
 |  | interfaces are well defined, data is well organized and structured |
 |  | schema provide meta-data |
-|  | symulti-user supprt |
-|  |  |
-|  |  |
+|  | synchronized multi-user support |
+|  | query processing engines do efficient preprocessing and deliver data as wanted/needed |
+|  | disadvantages: |
 |  |  |
 |  |  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDM1NTcwMCwzMjY4NjQ1ODgsMTkwOD
-czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbNDIxMTg5MzI2LDMyNjg2NDU4OCwxOTA4Nz
+MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 
 -->
