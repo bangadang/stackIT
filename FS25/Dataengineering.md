@@ -56,16 +56,16 @@
 | database size: 100MB-100GB | database size: 100GB-100TB |
 
 ### Data Warehouse Architecture
-| Input:Data Sources | Staging |  |  |  |
+| Input:Data Sources | **Staging** | **Integration** | **Enrichment** | **Analysis** | 
 |--|--|--|--|--|
-|  |  |  |  |  |
+|  | *Staging Area* | *Data Universe* | *Data Universe* |  |
 |  |  |  |  |  |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU2Mjk3NjAyLDMyNjg2NDU4OCwxOTA4Nz
-MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMTA2MzE4MzU1MSwzMjY4NjQ1ODgsMTkwOD
+czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 
 -->
