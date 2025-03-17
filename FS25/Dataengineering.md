@@ -18,9 +18,9 @@
 ||- insert a character into t (cost = 1) 
 ||- substitute one character for another (cost = 1)|
 | 13.03.25 | advantages of storing data in relational systems: |
-|  |  |
-|  |  |
-|  |  |
+|  | interfaces are well defined, data is well organized and structured |
+|  | schema provide meta-data |
+|  | symulti-user supprt |
 |  |  |
 |  |  |
 |  |  |
@@ -28,7 +28,7 @@
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzE3NDIxMywzMjY4NjQ1ODgsMTkwOD
+eyJoaXN0b3J5IjpbMTExMDM1NTcwMCwzMjY4NjQ1ODgsMTkwOD
 czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 
 -->
