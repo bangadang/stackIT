@@ -35,8 +35,8 @@
 |  | data warehouses support business executives to organize, analyze, and use their data for decision making |
 |  | data warehouses are commonly used in: financial/ banking services, consumer goods, retail sector, controlled manufacturing |
 |  | types of data warehouses: |
-|  |  |
-|  |  |
+|  | **information processing**: DW allow to process data stored within by means of querying, simple statistical analysis, table, charts, graphs |
+|  | **analytical process |
 |  |  |
 |  |  |
 |  |  |
@@ -46,7 +46,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTIwMzQ0MiwzMjY4NjQ1ODgsMTkwOD
+eyJoaXN0b3J5IjpbLTg3OTUyODY4OSwzMjY4NjQ1ODgsMTkwOD
 czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 
 -->
