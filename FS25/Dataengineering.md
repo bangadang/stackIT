@@ -44,9 +44,23 @@
 |  |  |
 |  |  |
 
+### Operational Database vs Data Warehouse
+|OLTP| OLAP |
+|--|--|
+| day2day processing | historical processing |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzYzMDM5MjQsMzI2ODY0NTg4LDE5MD
-g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
-fQ==
+eyJoaXN0b3J5IjpbNDY0Mzk5MTM3LDMyNjg2NDU4OCwxOTA4Nz
+MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+
 -->
