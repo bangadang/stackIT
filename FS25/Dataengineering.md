@@ -32,11 +32,21 @@
 |  | **integrates** data from heterogenous sources |
 |  | **time-variant**: stored data is associatted with a time period, provides information from the historical point of view |
 |  | **non-volatile**: a data warehouse is kept separate from the operational database and new added data does not erase old data |
-|  | data warehouses are commenly used in: financial/ banking services, consumer goods, retail  |
+|  | data warehouses support business executives to organize, analyze, and use their data for decision making |
+|  | data warehouses are commonly used in: financial/ banking services, consumer goods, retail sector, controlled manufacturing |
+|  | types of data warehouses: |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxNTI5NDU2LDMyNjg2NDU4OCwxOTA4Nz
-MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMTc3OTIwMzQ0MiwzMjY4NjQ1ODgsMTkwOD
+czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 
 -->
