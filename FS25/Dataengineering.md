@@ -57,15 +57,16 @@
 
 ### Data Warehouse Architecture
 | Input:Data Sources | **Staging** | **Integration** | **Enrichment** | **Analysis** | 
-|--|--|--|--|--|
-|  | *Staging Area* | *Data Universe* | *Data Universe* |  |
-|  |  |  |  |  |
+|--|--|--|--|--|--|--|--|
+|  | *Staging Area* | *Data Universe* | *Data Universe* | *Data Marts* | *Analysis Services* | *Presentation* | *Front End* |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzE4MzU1MSwzMjY4NjQ1ODgsMTkwOD
-czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4Nz
+MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 
 -->
