@@ -28,15 +28,15 @@
 |  | problems occur for semi-/unstructured data |
 |  | **data warehousing** |
 |  | Definition: a data warehouse is a collection of data in support of management’s decision-making process |
-|  | store **subject-oriented** information rather than processes (subjects like product, customer, sales etc.) |
+|  | stores **subject-oriented** information rather than processes (subjects like product, customer, sales etc.) |
 |  | **integrates** data from heterogenous sources |
-|  |  |
-|  |  |
+|  | **time-variant**: stored data is associatted with a time period, provides information from the historical point of view |
+|  | *non-volatile** |
 |  |  |
 |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyMTk3NjkzLDMyNjg2NDU4OCwxOTA4Nz
-MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
-
+eyJoaXN0b3J5IjpbLTE3OTMzMjI1NjYsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
