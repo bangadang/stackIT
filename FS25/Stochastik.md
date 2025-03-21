@@ -451,19 +451,21 @@ Je nach Ausprägung der Zufallsvariablen gibt es disrekte oder stetige W'keitsve
 
 ### diskrete W'keitsverteilung
 Die Wahrscheinlichkeitsfunktion einer diskreten Zufallsvariable gibt zu jedem möglichen Wert (Realisierung) $x_i$ die entsprechende Wahrscheinlichkeit $p_i$ an.
-|X| $x_1$  $x_2$ |
+|X| $x_1$  $x_2$ $...$ $x_N$|
 |--|--|
-|  |  |
+| $p(\cdot)$ | $p_1$  $p_2$ $...$ $p_N$ |
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzEyMDgxOSw5OTk4NTkxMSwtMjU3Nz
-k5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQy
-NCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xOD
-EzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5
-OTgsLTE3MDk3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0My
-w3MzU0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5
-NzkxOThdfQ==
+eyJoaXN0b3J5IjpbMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OT
+kxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0
+LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MT
+M1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5
+OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLD
+czNTQ1ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3
+OTE5OF19
 -->
