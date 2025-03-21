@@ -528,16 +528,17 @@ Anzahl Erfolge: $$P(X=k) = {n \choose k}\cdot p^k(1-p)^{n-k}$$
 $p^k(1-p)^{n-k}$ = Wahrscheinlichkeit für ein Ereignis mit k Erfolgen und n − k Misserfolgen.
 ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
-### EIgenschaften
-
+### Eigenschaften
+- Der E
+Erwartungswert 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEwMDc5MzMsMjA4NTUwNTE1LC04Mj
-Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
-NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
-I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
-MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNy
-wtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4
-NjkwOTk4XX0=
+eyJoaXN0b3J5IjpbNzA3NTIyNjYyLDIwODU1MDUxNSwtODI0OD
+c3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUy
+NTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNT
+c3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4
+NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLT
+E4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5
+MDk5OF19
 -->
