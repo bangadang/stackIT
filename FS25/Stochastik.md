@@ -445,12 +445,17 @@ Es ist demnach eine Quantifizierung des Zufallsexperiments mit Raum $\Omega$.
 - Überall wo gemessen wird: Länge, Gewicht, Temperatur
 
 ### Definition W'keitsverteilung
+Die Wahrscheinlichkeitsverteilung gibt an, welche Werte eine Zufallsvariable mit welcher Wahrscheinlichkeit annimmt.
+
+Je nach Ausprägung der Zufallsvariablen gibt es disrekte oder stetige W'keitsverteilungen
+
+### diskrete W'keitsverteilung
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA4OTI2MzAxLDk5OTg1OTExLC0yNTc3OT
+eyJoaXN0b3J5IjpbODA4NjQ1MzIxLDk5OTg1OTExLC0yNTc3OT
 kxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0
 LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MT
 M1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5
