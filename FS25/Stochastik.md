@@ -428,16 +428,19 @@ Bsp:
 
 ### Definition W'keitsmodell
 Ein Modell für den Zufall, dessen W'keiten sich immer auf **künftige** oder **unbekannte** Ereignisse beziehen. 
+Ziel: Ein Ergebnis eines Zufallsexperiments soll dur eine einzelne Zahl beschrieben werden.
 
 ### Definition Zufallsvariable
+Eine Grösse, die unter **bestimmten, konstanten Bedingungen** unterschiedliche, durch den Zufall bedingte Zahlenwerte annehmen kann, nennt man Zufallsvariable
+Mathematisch ist es eine Funkt
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNzAwMTA4NSwtMjU3Nzk5MTY4LC0xMj
-U0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0
-MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC
-0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3
-MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0Nz
-AsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3
-ODE1NDY2NV19
+eyJoaXN0b3J5IjpbLTIwNDkzNjU4OTEsLTI1Nzc5OTE2OCwtMT
+I1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1
+NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4Ni
+wtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5
+NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4ND
+cwLC03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDEx
+NzgxNTQ2NjVdfQ==
 -->
