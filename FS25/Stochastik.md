@@ -432,7 +432,7 @@ Ziel: Ein Ergebnis eines Zufallsexperiments soll dur eine einzelne Zahl beschrie
 
 ### Definition Zufallsvariable
 Eine Grösse, die unter **bestimmten, konstanten Bedingungen** unterschiedliche, durch den Zufall bedingte Zahlenwerte annehmen kann, nennt man Zufallsvariable
-Mathematisch ist es eine **Funktion $X: \Omega \mapsto \mathbb{R}$, die jedem Element des Ereignisraumes eine Zahl zuordnet.
+Mathematisch ist es eine **Funktion** $X: \Omega \mapsto \mathbb{R}$, die jedem Element des Ereignisraumes eine Zahl zuordnet.
 Es ist demnach eine Quantifizierung des Zufallsexperiments mit Raum $\Omega$.
 
 **X heisst Zufallsgrösse oder Zufallsvariable, weil die Werte, die X annehmen kann, vom Zufall abhängig sind (bzw. nicht deterministisch sind).**
@@ -491,7 +491,7 @@ $$Var(X) = E[(X- E[X])^2] = E[X^2]-E[X]^2$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDA0OTQyNCwtODI3NjIwNjk4LDE5MT
+eyJoaXN0b3J5IjpbMjEyMzM2MTE2OCwtODI3NjIwNjk4LDE5MT
 UxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcw
 LC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4Mj
 I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
