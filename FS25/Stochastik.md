@@ -499,17 +499,26 @@ Erfolg (Ja = 1) und Misserfolg (Nein = 0).
 |--|--|--|
 | $p(\cdot)$ | $1-p$| $p$ |
 
-p= P(X=1)
+p= P(X=1) ist die Erfolgswahrscheinlichkeit
+
+**Bsp**
+-Werfen einer Münze
+- Würfeln eines Sechsers
+- Bestehen einer Prüfung
+- Ein Swiss-Flug ist pünktlich
+
+### Kennwerte
+Erwartungswert $$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE4MjMzMjcsLTExMzEzOTk2NDQsLT
-E3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1
-MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MC
-wtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIy
-ODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NT
-Y1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0y
-MDMwMzA3NDY2XX0=
+eyJoaXN0b3J5IjpbLTM3NTA1NTYzNSwtMTEzMTM5OTY0NCwtMT
+czNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUx
+NTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC
+0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4
+MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1Nj
+UsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLTIw
+MzAzMDc0NjZdfQ==
 -->
