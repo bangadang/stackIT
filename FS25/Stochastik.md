@@ -420,12 +420,18 @@ Die Formel impliziert unter anderem, dass jedes **Paar** von Ereignissen $A_i$ u
 
 ## Wahrscheinlichkeitsverteilungen
 Grundfragestellung: Wie verteilen sich bei einem Zufallsexperiment die W'keiten auf die verschiedenen Ergebnisse?
+Bsp:
+- Würfelwurf bei physikalischen Modellen
+- Passagiere bei datengestützen Modellen
+- atomarer Störfall bei subjektiven Modellen
+**Mischform Modell & empirisch geschätze Parameter**
 
-**
+### Definition W'keitsmodell
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjEzMTk2OCwtMjU3Nzk5MTY4LC0xMj
+eyJoaXN0b3J5IjpbLTQzNjUyNzU0MCwtMjU3Nzk5MTY4LC0xMj
 U0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0
 MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC
 0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3
