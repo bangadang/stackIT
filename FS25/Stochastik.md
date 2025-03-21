@@ -522,18 +522,20 @@ $$p = \frac{109748}{140074}=0.7835$$
 
 ### Binomialverteilung
 Def.: n unabhängige Bernoulli Experimente mit jeweils konstanter Erfolgswahrscheinlichkeit p, die n-mal nacheinander ausgeführt wurden.
-Anzahl Erfolge: $P(X=k) = {n \choose k}\cdotp^k(1-p)^{n-k}$
-n und p sind fix gegeben
+Anzahl Erfolge: $P(X=k) = {n \choose k}\cdot p^k(1-p)^{n-k}$
+(n und p sind fix gegeben)
+$p^k(1-p)^{n-k}$ = Wahrscheinlichkeit für ein Ereignis mit k Erfolgen und n − k Misserfolgen.
+${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzMwMjk0MywyMDg1NTA1MTUsLTgyND
-g3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1
-MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMj
-U3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcx
-ODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC
-0xODEzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2
-OTA5OThdfQ==
+eyJoaXN0b3J5IjpbOTk0OTc0MDQ3LDIwODU1MDUxNSwtODI0OD
+c3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUy
+NTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNT
+c3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4
+NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLT
+E4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5
+MDk5OF19
 -->
