@@ -455,17 +455,20 @@ Die Wahrscheinlichkeitsfunktion einer diskreten Zufallsvariable gibt zu jedem m√
 |--|--|
 | $p(\cdot)$ | $p_1$  $p_2$ $...$ $p_N$ |
 
+- Die Summe aller $p_i$ ist gleich 1
+- Die Wahrscheinlichkeitsfunktion heisst diskrete Gleichverteilung, wenn alle $p_i$ gleich sind.
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OT
-kxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0
-LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MT
-M1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5
-OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNjAxODYxNjQzLD
-czNTQ1ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5MDksMTQ0NTk3
-OTE5OF19
+eyJoaXN0b3J5IjpbLTU2MDczNTk1MywxOTE1MTUwNDcsOTk5OD
+U5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUy
+MSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1OD
+IzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5
+MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC
+02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1
+MDkwOV19
 -->
