@@ -439,12 +439,15 @@ Es ist demnach eine Quantifizierung des Zufallsexperiments mit Raum $\Omega$.
 
 ### diskrete Zufallsvariablen
 - X nimmt endlich oder unendlich abzählbare viele Werte an
-- 
+- Überall wo gezählt wird: Anzahl Kunden, Fahrzeuge Unfälle etc.
+### stetige Zufallsvariablen
+- X kann jeden beliebigen Wert eines Intervalls annehmen
+- Ü
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDY5MzU1Miw5OTk4NTkxMSwtMjU3Nz
+eyJoaXN0b3J5IjpbMTk3NDAyMDE2Myw5OTk4NTkxMSwtMjU3Nz
 k5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQy
 NCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xOD
 EzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5
