@@ -522,17 +522,17 @@ $$p = \frac{109748}{140074}=0.7835$$
 
 ### Binomialverteilung
 Def.: n unabhängige Bernoulli Experimente mit jeweils konstanter Erfolgswahrscheinlichkeit p, die n-mal nacheinander ausgeführt wurden.
-Anzahl Erfolge: $P(X=k) = {n \choose k}\cdot$
+Anzahl Erfolge: $P(X=k) = {n \choose k}\cdotp^k(1-p)^{n-k}$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDA2MTQ5OSwtODI0ODc3MTM5LC0xMT
-MxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2
-MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLT
-EyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEy
-NTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2OD
-YsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMTcw
-OTcxODIxMV19
+eyJoaXN0b3J5IjpbMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMz
+EzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYy
+MDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMT
+I1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1
+NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4Ni
+wtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5
+NzE4MjExXX0=
 -->
