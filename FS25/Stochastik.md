@@ -513,17 +513,20 @@ Varianz $Var(X)= p\cdot (1-p)$
 
 **Anpassung der Verteilung**:
 Den Parameter p lässt sich aus vergangenen Daten schätzen.
-**Bsp**
+**Bsp**: Ein Swiss-Flug ist pünktlich:
+Im Jahr 2018 waren 109’748 von 140’074 Flügen pünktlich:
+$$p = \frac{109748}{140074}=0.7835$$
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzM5NjIxNiwtMTEzMTM5OTY0NCwtMT
-czNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUx
-NTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC
-0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4
-MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1Nj
-UsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLTIw
-MzAzMDc0NjZdfQ==
+eyJoaXN0b3J5IjpbMjAxMzMzMTQxLC0xMTMxMzk5NjQ0LC0xNz
+M1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1
+MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLT
+EyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgw
+NDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2NS
+w2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAz
+MDMwNzQ2Nl19
 -->
