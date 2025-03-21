@@ -529,16 +529,17 @@ $p^k(1-p)^{n-k}$ = Wahrscheinlichkeit für ein Ereignis mit k Erfolgen und n −
 ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
 ### Eigenschaften
-- Der E
-Erwartungswert 
+- Der **Ergebnisraum** einer binomialverteilten Zufallsvariable ist **endlich**
+- Eine binomialverteilte Zufallsgrösse kann auch als Summe S von n unabhängigen Wiederholungen einer bernouilliverteilte Zufallsgrösse $X_i$ mit Parameter p beschrieben werden, d.h. $$S = \Sigma{}$$
+Erwartungswert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA3NTIyNjYyLDIwODU1MDUxNSwtODI0OD
-c3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUy
-NTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNT
-c3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4
-NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLT
-E4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5
-MDk5OF19
+eyJoaXN0b3J5IjpbMjM3MDM1MTUsMjA4NTUwNTE1LC04MjQ4Nz
+cxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1
+NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nz
+c5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0
+MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMT
+gxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4Njkw
+OTk4XX0=
 -->
