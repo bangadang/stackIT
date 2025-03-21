@@ -473,19 +473,21 @@ Die kumulative Verteilungsfunktion gibt die Wahrscheinlichkeit an, mit welcher d
 Der Erwartungswert $E [X ]$ einer Zufallsvariable $X$ ist das, was man “im Schnitt” bei unendlich vielen Realisierungen von $X$ erhält. Er ist ein **Lagemass**
 des Wahrscheinlichkeitsmodells.
 
-**Erwartungswert für eine diskrete Zufallsvariable X**
-$$\mu = E[X] = \Sigma^{\inf}_{i=1}x_i p(x_i)$$
+### Erwartungswert für eine diskrete Zufallsvariable X
+$$\mu = E[X] = \Sigma^{\inf}_{i=1}x_i \cdot p_i = \Sigma^{\inf}_{i=1}x_i \cdot P(X=x_i)$$
+
+**Bsp** Würfeln $X ] = frac\ · 1 + 61 · 2 + 61 · 3 + 61 · 4 + 61 · 5 + 61 · 6 = 3.5$
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMyNTc2NjMsLTgyNzYyMDY5OCwxOT
-E1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3
-MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2OD
-IyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2
-NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC
-0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0
-ODQyOTddfQ==
+eyJoaXN0b3J5IjpbMTIzMTM3NTM5LC04Mjc2MjA2OTgsMTkxNT
+E1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAs
+LTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMj
+gwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2
+NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMj
+AzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0
+Mjk3XX0=
 -->
