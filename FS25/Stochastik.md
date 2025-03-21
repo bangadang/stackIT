@@ -518,9 +518,9 @@ Im Jahr 2018 waren 109’748 von 140’074 Flügen pünktlich:
 $$p = \frac{109748}{140074}=0.7835$$
 
 ### Mehrstufige Bernoulli Experimente
+**Bsp**. Galton-Brett
 
-
-### Binomialverteilung
+### Binomialverteilung N ~ Bin(n,p)
 Def.: n unabhängige Bernoulli Experimente mit jeweils konstanter Erfolgswahrscheinlichkeit p, die n-mal nacheinander ausgeführt wurden.
 Anzahl Erfolge: $P(X=k) = {n \choose k}\cdot p^k(1-p)^{n-k}$
 (n und p sind fix gegeben)
@@ -531,11 +531,11 @@ ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0OTc0MDQ3LDIwODU1MDUxNSwtODI0OD
-c3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUy
-NTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNT
-c3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4
-NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLT
-E4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIsLTY1ODY5
-MDk5OF19
+eyJoaXN0b3J5IjpbLTEzNjczMDU1OTcsMjA4NTUwNTE1LC04Mj
+Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
+NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
+I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
+MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNy
+wtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4
+NjkwOTk4XX0=
 -->
