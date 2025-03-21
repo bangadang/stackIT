@@ -478,7 +478,7 @@ $$\mu = E[X] = \Sigma^{\inf}_{i=1}x_i \cdot p_i = \Sigma^{\inf}_{i=1}x_i \cdot P
 
 **Bsp** Würfeln $E[X ] = \frac{1}{6} · 1 + \frac{1}{6} · 2 + \frac{1}{6} · 3 + \frac{1}{6} · 4 + \frac{1}{6} · 5 + \frac{1}{6} · 6 = 3.5$
 
-**Bsp** AB 5.1 E[X] = 0.3 * 4 + 0.1 * 
+**Bsp** AB 5.1 $E[X] = 0.3 \cdot 4 + 0.1 \cdot 4 + 0.6 \cdot -1$
 
 ### Varianz
 Die Varianz $Var (X )$ ist ein Streuungsmass einer Zufallsvariablen und gibt an, wie breit die angenommenen Werte des Wahrscheinlichkeitsmodells streuen.
@@ -494,7 +494,7 @@ $$$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjgwNzA4MSwtMjA1NDY1MjU0NiwtOD
+eyJoaXN0b3J5IjpbLTQ5NDIwMzI4MCwtMjA1NDY1MjU0NiwtOD
 I3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4
 LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtOD
 IxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0
