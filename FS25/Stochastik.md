@@ -465,18 +465,19 @@ Beim Würfeln hat X = "gewürfelte Augenzahl" eine diskrete Gleichverteilung $p_
 $$F(x) = P(X \leq x)$$
 Die kumulative Verteilungsfunktion gibt die Wahrscheinlichkeit an, mit welcher die Zufallsvariable X einen Wert annimmt, der kleiner oder gleich einem vorgegebenen Wert ist.
 **Eigenschaften**
-- $$ $$
+- $F(-\infty) = 0$ und $F(\infty) = 1$
+- 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTE1MTI0MCwxOTE1MTUwNDcsOTk5OD
-U5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUy
-MSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1OD
-IzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5
-MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC
-02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1
-MDkwOV19
+eyJoaXN0b3J5IjpbLTY4OTk3OTQsMTkxNTE1MDQ3LDk5OTg1OT
+ExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEs
+NDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgyMz
+cxMjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1OTIs
+LTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2NiwtNj
+AxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0Mjk3LC04MjA4NTA5
+MDldfQ==
 -->
