@@ -492,7 +492,8 @@ $E[X^2]=\frac{1}{6}\cdot 1^2 +\frac{1}{6}\cdot 3^2+\frac{1}{6}\cdot 4^2+\frac{1}
 $E[X^2]-E[X]^2=15.17-3.5^2=2.92$
 
 ## Diskrete W'keitsverteilungen
-### Bernoulli Verteilung X ~ Bernoulli(p)
+
+### Bernoulli Verteilung X ~ Bernoulli(_p)
 Ein Bernoulli-Zufallsexperiment ist ein Experiment mit zwei möglichen Ausgängen:
 Erfolg (Ja = 1) und Misserfolg (Nein = 0).
 |$X$| $x_1=0$ | $x_2=1$ |
@@ -532,7 +533,7 @@ ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE3NTA1MTYsMjA4NTUwNTE1LC04Mj
+eyJoaXN0b3J5IjpbLTE1NjEwMDc5MzMsMjA4NTUwNTE1LC04Mj
 Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
 NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
 I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
