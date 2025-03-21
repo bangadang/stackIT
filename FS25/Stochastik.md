@@ -523,12 +523,13 @@ $$p = \frac{109748}{140074}=0.7835$$
 ### Binomialverteilung
 Def.: n unabhängige Bernoulli Experimente mit jeweils konstanter Erfolgswahrscheinlichkeit p, die n-mal nacheinander ausgeführt wurden.
 Anzahl Erfolge: $P(X=k) = {n \choose k}\cdotp^k(1-p)^{n-k}$
+n und p sind fix gegeben
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDI0Nzg4MCwyMDg1NTA1MTUsLTgyND
+eyJoaXN0b3J5IjpbMjE0MzMwMjk0MywyMDg1NTA1MTUsLTgyND
 g3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1
 MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMj
 U3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcx
