@@ -530,16 +530,16 @@ ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
 ### Eigenschaften
 - Der **Ergebnisraum** einer binomialverteilten Zufallsvariable ist **endlich**
-- Eine binomialverteilte Zufallsgrösse kann auch als Summe S von n unabhängigen Wiederholungen einer bernouilliverteilte Zufallsgrösse $X_i$ mit Parameter p beschrieben werden, d.h. $$S = \Sigma{}$$
+- Eine binomialverteilte Zufallsgrösse kann auch als **Summe S von $n$ unabhängigen Wiederholungen einer bernouilliverteilte Zufallsgrösse $X_i$** mit Parameter p beschrieben werden, d.h. $$S = \Sigma^{n}_{i=1}X_i$$
 Erwartungswert
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3MDM1MTUsMjA4NTUwNTE1LC04MjQ4Nz
-cxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1
-NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nz
-c5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0
-MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMT
-gxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4Njkw
-OTk4XX0=
+eyJoaXN0b3J5IjpbMTAyNDc2NDg3MywyMDg1NTA1MTUsLTgyND
+g3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1
+MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMj
+U3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcx
+ODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC
+0xODEzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2
+OTA5OThdfQ==
 -->
