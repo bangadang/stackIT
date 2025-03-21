@@ -466,19 +466,22 @@ $$F(x) = P(X \leq x)$$
 Die kumulative Verteilungsfunktion gibt die Wahrscheinlichkeit an, mit welcher die Zufallsvariable X einen Wert annimmt, der kleiner oder gleich einem vorgegebenen Wert ist.
 **Eigenschaften**
 - $F(-\infty) = 0$ und $F(\infty) = 1$
-- Eine kumulative Verteilungsfunktion ist monoton wachsend, d.h. für $u \lt v$ gilt F (u) ≤ F (v ).
+- Eine kumulative Verteilungsfunktion ist monoton wachsend, d.h. für $u \lt v$ gilt $F (u) ≤ F (v )$.
 - Für diskrete Zufallsvariablen ist F(x) eine Treppenfunktion.
+
+### Erwartungswert
+Der
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5OD
-U5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUy
-MSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1OD
-IzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5
-MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC
-02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1
-MDkwOV19
+eyJoaXN0b3J5IjpbLTIwOTk2NDY3MiwtODI3NjIwNjk4LDE5MT
+UxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcw
+LC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4Mj
+I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
+NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
+IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
+NDI5N119
 -->
