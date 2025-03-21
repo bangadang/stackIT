@@ -437,14 +437,18 @@ Es ist demnach eine Quantifizierung des Zufallsexperiments mit Raum $\Omega$.
 
 **X heisst Zufallsgrösse oder Zufallsvariable, weil die Werte, die X annehmen kann, vom Zufall abhängig sind (bzw. nicht deterministisch sind).**
 
+### diskrete Zufallsvariablen
+- X nimmt endlich oder unendlich abzählbare viele Werte an
+- 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1ND
-M0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4
-Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMj
-IwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4
-MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC
-03NDI0ODQyOTcsLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgx
-NTQ2NjVdfQ==
+eyJoaXN0b3J5IjpbMTMxNDY5MzU1Miw5OTk4NTkxMSwtMjU3Nz
+k5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQy
+NCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xOD
+EzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5
+OTgsLTE3MDk3MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0My
+w3MzU0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5
+NzkxOThdfQ==
 -->
