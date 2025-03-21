@@ -522,16 +522,17 @@ $$p = \frac{109748}{140074}=0.7835$$
 
 ### Binomialverteilung N ~ Bin(n,p)
 Def.: n unabhängige Bernoulli Experimente mit jeweils konstanter Erfolgswahrscheinlichkeit p, die n-mal nacheinander ausgeführt wurden.
-Anzahl Erfolge: $P(X=k) = {n \choose k}\cdot p^k(1-p)^{n-k}$
+Anzahl Erfolge: $$P(X=k) = {n \choose k}\cdot p^k(1-p)^{n-k}$$
 (n und p sind fix gegeben)
 $p^k(1-p)^{n-k}$ = Wahrscheinlichkeit für ein Ereignis mit k Erfolgen und n − k Misserfolgen.
 ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
+### EIgenschaften
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjczMDU1OTcsMjA4NTUwNTE1LC04Mj
+eyJoaXN0b3J5IjpbLTIwMzE3NTA1MTYsMjA4NTUwNTE1LC04Mj
 Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
 NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
 I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
