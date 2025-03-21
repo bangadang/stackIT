@@ -470,18 +470,21 @@ Die kumulative Verteilungsfunktion gibt die Wahrscheinlichkeit an, mit welcher d
 - Für diskrete Zufallsvariablen ist F(x) eine Treppenfunktion.
 
 ### Erwartungswert
-Der
+Der Erwartungswert $E [X ]$ einer Zufallsvariable $X$ ist das, was man “im Schnitt” bei unendlich vielen Realisierungen von $X$ erhält. Er ist ein **Lagemass**
+des Wahrscheinlichkeitsmodells.
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTk2NDY3MiwtODI3NjIwNjk4LDE5MT
-UxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcw
-LC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4Mj
-I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
-NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
-IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
-NDI5N119
+eyJoaXN0b3J5IjpbNzcyNjE2NzIsLTgyNzYyMDY5OCwxOTE1MT
+UwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwt
+MTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyOD
+A0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1
+LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMD
+MwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQy
+OTddfQ==
 -->
