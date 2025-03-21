@@ -508,13 +508,18 @@ p= P(X=1) ist die Erfolgswahrscheinlichkeit
 - Ein Swiss-Flug ist pünktlich
 
 ### Kennwerte
-Erwartungswert $$
+Erwartungswert $E[X]= p$
+Varianz $Var(X)= p\cdot (1-p)$
+
+**Anpassung der Verteilung**:
+Den Parameter p lässt sich aus vergangenen Daten schätzen.
+**Bsp**
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTA1NTYzNSwtMTEzMTM5OTY0NCwtMT
+eyJoaXN0b3J5IjpbMTE5NzM5NjIxNiwtMTEzMTM5OTY0NCwtMT
 czNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUx
 NTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC
 0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4
