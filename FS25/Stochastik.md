@@ -461,19 +461,22 @@ Die Wahrscheinlichkeitsfunktion einer diskreten Zufallsvariable gibt zu jedem m�
 	- **Bsp**
 Beim Würfeln hat X = "gewürfelte Augenzahl" eine diskrete Gleichverteilung $p_i = \frac{1}{6}$
 
-### kumultative Verteilungsfunktion (diskreter) W'keitsverteilungen
-
+### kumulative Verteilungsfunktion (diskreter) W'keitsverteilungen
+$$F(x) = P(X \leq x)$$
+Die kumulative Verteilungsfunktion gibt die Wahrscheinlichkeit an, mit welcher die Zufallsvariable X einen Wert annimmt, der kleiner oder gleich einem vorgegebenen Wert ist.
+**Eigenschaften**
+- $$ $$
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIyMTE0MjMsMTkxNTE1MDQ3LDk5OT
-g1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1
-MjEsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNT
-gyMzcxMjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2NSw2MjA2NDY1
-OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMjAzMDMwNzQ2Ni
-wtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0Mjk3LC04MjA4
-NTA5MDldfQ==
+eyJoaXN0b3J5IjpbLTE1MTE1MTI0MCwxOTE1MTUwNDcsOTk5OD
+U5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUy
+MSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1OD
+IzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5
+MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC
+02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1
+MDkwOV19
 -->
