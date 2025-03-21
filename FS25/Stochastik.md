@@ -492,7 +492,7 @@ $E[X^2]=\frac{1}{6}\cdot 1^2 +\frac{1}{6}\cdot 3^2+\frac{1}{6}\cdot 4^2+\frac{1}
 $E[X^2]-E[X]^2=15.17-3.5^2=2.92$
 
 ## Diskrete W'keitsverteilungen
-### Bernoulli Verteilung
+### Bernoulli Verteilung X ~ Bernoulli(p)
 Ein Bernoulli-Zufallsexperiment ist ein Experiment mit zwei möglichen Ausgängen:
 Erfolg (Ja = 1) und Misserfolg (Nein = 0).
 |$X$| $x_1=0$ | $x_2=1$ |
@@ -528,11 +528,11 @@ Anzahl Erfolge: $P(X=k) = {n \choose k}\cdotp^k(1-p)^{n-k}$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMz
-EzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYy
-MDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMT
-I1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1
-NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4Ni
-wtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5
-NzE4MjExXX0=
+eyJoaXN0b3J5IjpbLTEwMDI0Nzg4MCwyMDg1NTA1MTUsLTgyND
+g3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1
+MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMj
+U3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcx
+ODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC
+0xODEzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2
+OTA5OThdfQ==
 -->
