@@ -458,17 +458,20 @@ Die Wahrscheinlichkeitsfunktion einer diskreten Zufallsvariable gibt zu jedem m�
 - Die Summe aller $p_i$ ist gleich 1
 - Die Wahrscheinlichkeitsfunktion heisst diskrete Gleichverteilung, wenn alle $p_i$ gleich sind.
 
+**Bsp**
+Beim Würfeln hat X = "gewürfelte Augenzahl" eine diskrete Gleichverteilung $p_i = \frac{1}{6}$
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MDczNTk1MywxOTE1MTUwNDcsOTk5OD
-U5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUy
-MSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1OD
-IzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5
-MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC
-02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOTcsLTgyMDg1
-MDkwOV19
+eyJoaXN0b3J5IjpbNjc5NTk4NTQ0LDE5MTUxNTA0Nyw5OTk4NT
+kxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIx
+LDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4Mj
+M3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTky
+LC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLTIwMzAzMDc0NjYsLT
+YwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4NDI5NywtODIwODUw
+OTA5XX0=
 -->
