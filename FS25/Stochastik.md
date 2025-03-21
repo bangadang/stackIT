@@ -478,7 +478,7 @@ $$\mu = E[X] = \Sigma^{\inf}_{i=1}x_i \cdot p_i = \Sigma^{\inf}_{i=1}x_i \cdot P
 
 **Bsp** Würfeln $E[X ] = \frac{1}{6} · 1 + \frac{1}{6} · 2 + \frac{1}{6} · 3 + \frac{1}{6} · 4 + \frac{1}{6} · 5 + \frac{1}{6} · 6 = 3.5$
 
-**Bsp** AB 5.1 $E[X] = 0.3 \cdot 4 + 0.1 \cdot 4 + 0.6 \cdot -1 = 1.2+0.4-0.6 =1$
+**Bsp** AB 5.1 $E[X] = 0.3 \cdot 4 + 0.1 \cdot -6 + 0.6 \cdot -1 = 1.2+0.4-0.6 =1$
 
 ### Varianz
 Die Varianz $Var (X )$ ist ein Streuungsmass einer Zufallsvariablen und gibt an, wie breit die angenommenen Werte des Wahrscheinlichkeitsmodells streuen.
@@ -494,11 +494,11 @@ $$$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLT
-gyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2
-OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLT
-gyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4
-NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC
-0xNzA5NzE4MjExLC0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1
-NDU4NDcwXX0=
+eyJoaXN0b3J5IjpbMTcxOTQxODExNSwtMTczNTMwOTQzMiwtMj
+A1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkx
+MSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLD
+QzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3
+MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1NjUsNjIwNjQ2NTkyLC
+02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLTIwMzAzMDc0NjYsLTYw
+MTg2MTY0M119
 -->
