@@ -418,13 +418,18 @@ $$P(A_{i_1}\cap ... \cap A_{i_j})=P(A_{i_1})\cdot ...\cdot P(A_{i_j})$$
 Die Formel impliziert unter anderem, dass jedes **Paar** von Ereignissen $A_i$ und $A_j$ unabhängig sein muss.
 **Aber** auch wenn mehrere Ereignisse paarweise unabhängig sind, heisst das **nicht** das alle Ereignisse zusammen stochastisch unabhängig sind. Schlussfolgerung ist geht **nicht** in beide Richtungen.
 
+## Wahrscheinlichkeitsverteilungen
+Grundfragestellung: Wie verteilen sich bei einem Zufallsexperiment die W'keiten auf die verschiedenen Ergebnisse?
+
+**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMT
-I3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0
-MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LD
-YyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMDMw
-MzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQyOT
-csLTgyMDg1MDkwOSwxNDQ1OTc5MTk4LDExNzgxNTQ2NjUsLTE3
-NTA2NjE4MDNdfQ==
+eyJoaXN0b3J5IjpbLTQzNjEzMTk2OCwtMjU3Nzk5MTY4LC0xMj
+U0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0
+MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC
+0yMjA3NzY1NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3
+MTgyMTEsLTIwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0Nz
+AsLTc0MjQ4NDI5NywtODIwODUwOTA5LDE0NDU5NzkxOTgsMTE3
+ODE1NDY2NV19
 -->
