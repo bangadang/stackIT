@@ -482,18 +482,18 @@ $$\mu = E[X] = \Sigma^{\inf}_{i=1}x_i \cdot p_i = \Sigma^{\inf}_{i=1}x_i \cdot P
 Die Varianz $Var (X )$ ist ein Streuungsmass einer Zufallsvariablen und gibt an, wie breit die angenommenen Werte des Wahrscheinlichkeitsmodells streuen.
 
 **Varianz für diskrete Zufallsvariable**
-
+$$Var(X) = E[(X- E[X])^2] = E[X^2]-E$$
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwOTA1ODU4LC04Mjc2MjA2OTgsMTkxNT
-E1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAs
-LTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMj
-gwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2ODYsLTIyMDc3NjU2
-NSw2MjA2NDY1OTIsLTY1ODY5MDk5OCwtMTcwOTcxODIxMSwtMj
-AzMDMwNzQ2NiwtNjAxODYxNjQzLDczNTQ1ODQ3MCwtNzQyNDg0
-Mjk3XX0=
+eyJoaXN0b3J5IjpbLTgwMjQ4OTc4NywtODI3NjIwNjk4LDE5MT
+UxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcw
+LC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4Mj
+I4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1
+NjUsNjIwNjQ2NTkyLC02NTg2OTA5OTgsLTE3MDk3MTgyMTEsLT
+IwMzAzMDc0NjYsLTYwMTg2MTY0Myw3MzU0NTg0NzAsLTc0MjQ4
+NDI5N119
 -->
