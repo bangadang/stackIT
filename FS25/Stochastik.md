@@ -473,18 +473,19 @@ Die kumulative Verteilungsfunktion gibt die Wahrscheinlichkeit an, mit welcher d
 Der Erwartungswert $E [X ]$ einer Zufallsvariable $X$ ist das, was man “im Schnitt” bei unendlich vielen Realisierungen von $X$ erhält. Er ist ein **Lagemass**
 des Wahrscheinlichkeitsmodells.
 
-
+**Erwartungswert für eine diskrete Zufallsvariable X**
+$$\mu = E[X] = \Sigma^{\inf}_{i=1}x_i p(x_i)$$
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNjE2NzIsLTgyNzYyMDY5OCwxOTE1MT
-UwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwt
-MTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyOD
-A0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2NTY1
-LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC0yMD
-MwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0ODQy
-OTddfQ==
+eyJoaXN0b3J5IjpbLTE4NTMyNTc2NjMsLTgyNzYyMDY5OCwxOT
+E1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3
+MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2OD
+IyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIwNzc2
+NTY1LDYyMDY0NjU5MiwtNjU4NjkwOTk4LC0xNzA5NzE4MjExLC
+0yMDMwMzA3NDY2LC02MDE4NjE2NDMsNzM1NDU4NDcwLC03NDI0
+ODQyOTddfQ==
 -->
