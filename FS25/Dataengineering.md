@@ -72,12 +72,17 @@
 ## ETL (extract, transform, load)
 most time consuming part od data warehousing, as there is no standard method or system but an abundance of different tools
  it it time intense because:
- - different data sources with heterogenity 
+ - different data sources with heterogeneity
+ - imense data volume
+ - the integration is complex, because of data cleaning and creating a schema and instance integration
+ 
+ ### extract
+ -  data is collected from one or sever
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDgwNTc3Nyw3MTk1MzYxMTgsMzI2OD
-Y0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQs
-NzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbOTIxMTM3MTAwLDcxOTUzNjExOCwzMjY4Nj
+Q1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3
+MDk4Mzc4OV19
 -->
