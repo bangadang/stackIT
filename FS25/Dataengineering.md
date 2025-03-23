@@ -56,17 +56,17 @@
 | database size: 100MB-100GB | database size: 100GB-100TB |
 
 ### Data Warehouse Architecture
-| Input:Data Sources | **Staging** | **Integration** | **Enrichment** | **Analysis** | 
-|--|--|--|--|--|--|--|--|
+| Input:Data Sources | **Staging** | **Integration** | **Enrichment** | **Analysis** | Analysis | Analysis | Analysis|
+|--|--|--|--|--|--|--|--| --|--|--|
 |  | *Staging Area* | *Data Universe* | *Data Universe* | *Data Marts* | *Analysis Services* | *Presentation* | *Front End* |
-|  | Structure the data in some form like a file, a database, XML or thelike |  | Applications: Aggregation, Calculations, Event detection, Reus |  |  |  |
+|  | Structure the data in some form like a file, a database, XML or thelike |  | Applications: Aggregation, Calculations, Event detection, Reusable Entities | Selection, Aggregation, Calculation |  |  |
 | Meta | data | man | age | ment |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjM5OTIzNiw3MTk1MzYxMTgsMzI2OD
+eyJoaXN0b3J5IjpbLTMzOTcyMjQ1Miw3MTk1MzYxMTgsMzI2OD
 Y0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQs
 NzA5ODM3ODldfQ==
 -->
