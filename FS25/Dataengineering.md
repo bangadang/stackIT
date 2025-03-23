@@ -59,14 +59,14 @@
 | Input:Data Sources | **Staging** | **Integration** | **Enrichment** | **Analysis** | 
 |--|--|--|--|--|--|--|--|
 |  | *Staging Area* | *Data Universe* | *Data Universe* | *Data Marts* | *Analysis Services* | *Presentation* | *Front End* |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+|  | Structure the data in some form like a file, a database, XML or thelike |  |  |  |  |  |
+| Me | ta | data | man | a |  |  |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4Nz
-MxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
-
+eyJoaXN0b3J5IjpbMjA0Mjk4NzUzMSw3MTk1MzYxMTgsMzI2OD
+Y0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQs
+NzA5ODM3ODldfQ==
 -->
