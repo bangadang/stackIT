@@ -75,12 +75,15 @@ most time consuming part od data warehousing, as there is no standard method or 
  - different data sources with heterogeneity
  - imense data volume
  - the integration is complex, because of data cleaning and creating a schema and instance integration
+ - There are two types of ETL
+	 - **batch processing**: data is processed in batches o defines size or time values and requires space for buffering
+	 - 
  
  ### extract
  -  data is collected from one or several sources and held in temporary storage
  - validation test are run on the data to ensure it conforms with its destinations requirements
  - its a task done regularly in order to supply updated data to da data warehouse
- - the data extracted is differentiable through a time setting and defined type of e
+ - the data extracted is differentiable through a time setting and defined type of extracted data
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 ### load 
@@ -89,7 +92,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTE5NzY5NSw3MTk1MzYxMTgsMzI2OD
-Y0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQs
-NzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbNTg5MDYyMDEyLDcxOTUzNjExOCwzMjY4Nj
+Q1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3
+MDk4Mzc4OV19
 -->
