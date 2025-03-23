@@ -84,7 +84,7 @@ most time consuming part od data warehousing, as there is no standard method or 
  - validation test are run on the data to ensure it conforms with its destinations requirements
  - its a task done regularly in order to supply updated data to da data warehouse
  - the data extracted is differentiable through a time setting and defined type of extracted data
-	 - time setting*
+	 - **time setting**:
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 ### load 
@@ -93,7 +93,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYyNTY1OTcsNzE5NTM2MTE4LDMyNj
-g2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0
-LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4Nj
+Q1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3
+MDk4Mzc4OV19
 -->
