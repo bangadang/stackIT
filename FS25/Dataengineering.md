@@ -59,14 +59,14 @@
 | Input:Data Sources | **Staging** | **Integration** | **Enrichment** | **Analysis** | 
 |--|--|--|--|--|--|--|--|
 |  | *Staging Area* | *Data Universe* | *Data Universe* | *Data Marts* | *Analysis Services* | *Presentation* | *Front End* |
-|  | Structure the data in some form like a file, a database, XML or thelike |  |  |  |  |  |
-| Me | ta | data | man | a |  |  |
+|  | Structure the data in some form like a file, a database, XML or thelike |  | Applications: Aggregation, Calculations, Event detection, Reus |  |  |  |
+| Meta | data | man | age | ment |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Mjk4NzUzMSw3MTk1MzYxMTgsMzI2OD
+eyJoaXN0b3J5IjpbMTE0NjM5OTIzNiw3MTk1MzYxMTgsMzI2OD
 Y0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQs
 NzA5ODM3ODldfQ==
 -->
