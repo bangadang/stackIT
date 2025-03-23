@@ -64,12 +64,17 @@
 
 
 ### Data Marts
-- is a data model, whicb is 
+- is a data model, which is ptimised for fast and efficient queries
+- does domain specific operations
+- presents views of the whole data warehouse
+- provides interfaces for analyzing and data mining tasks
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTgyNTg5Myw3MTk1MzYxMTgsMzI2OD
-Y0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQs
-NzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbLTE4NzcxODAwOTgsNzE5NTM2MTE4LDMyNj
+g2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0
+LDcwOTgzNzg5XX0=
 -->
