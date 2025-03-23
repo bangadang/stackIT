@@ -60,7 +60,7 @@
 |--|--|--|--|--|--|--|--| --|--|--|
 |  | *Staging Area* | *Data Universe* | *Data Universe* | *Data Marts* | *Analysis Services* | *Presentation* | *Front End* |
 |  | Structure the data in some form like a file, a database, XML or thelike |  | Applications: Aggregation, Calculations, Event detection, Reusable Entities | Selection, Aggregation, Calculation | Reporting OLAP Mining | Web/App Servers | GUI|
-| Meta | data | man | age | ment |
+| product data from different origins, like Singapore, New York and Zürich  | Data is being structured in a relation/ datab | man | age | ment |
 
 
 ### Data Marts
@@ -69,12 +69,12 @@
 - presents views of the whole data warehouse
 - provides interfaces for analyzing and data mining tasks
 
-
+### A simple example
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzcxODAwOTgsNzE5NTM2MTE4LDMyNj
-g2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0
-LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbNjgxNDMzNjIwLDcxOTUzNjExOCwzMjY4Nj
+Q1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3
+MDk4Mzc4OV19
 -->
