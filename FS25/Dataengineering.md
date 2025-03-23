@@ -79,14 +79,16 @@ most time consuming part od data warehousing, as there is no standard method or 
  ### extract
  -  data is collected from one or several sources and held in temporary storage
  - validation test are run on the data to ensure it conforms with its destinations requirements
+ - its a task done regularly in order to supply data to da data warehouse
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 ### load 
+- moves the transformed data into a permanent target database
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODIwMzUyOSw3MTk1MzYxMTgsMzI2OD
+eyJoaXN0b3J5IjpbMTc5Njc4MjIwMSw3MTk1MzYxMTgsMzI2OD
 Y0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQs
 NzA5ODM3ODldfQ==
 -->
