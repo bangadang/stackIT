@@ -107,11 +107,17 @@ most time consuming part od data warehousing, as there is no standard method or 
 - moves the transformed data into a permanent target database efficiently
 	- critical point:
 		- load routines can block the entire DB
+		- active triggers have to be managed
+		- integrity constraints have to be upheld
+		- Indexes have to be maintained
+		- update and inseration operations 
+	- **record basedd laoding**:
+		- uses standard 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM1MzE3NDMsMjIyODg0MDU5LDcxOT
-UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
-LDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbLTEwNTQyMzgzLDIyMjg4NDA1OSw3MTk1Mz
+YxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwy
+OTgyMzEwODQsNzA5ODM3ODldfQ==
 -->
