@@ -90,7 +90,10 @@ most time consuming part od data warehousing, as there is no standard method or 
 		 - asynchronous notification:
 			 - periodic: the sources generates an extraction on a regular basis or the DW extracts the updated data on a regular basis
 			 - event-driven: the DW extracts the updates at the end of a year or the sources notifies upon each X updates
-			 - query-driven: DW checks for new updates before extractio
+			 - query-driven: DW checks for new updates before accessing the data
+		 - **type of data**:
+			 - snapshots: the source delivers the complete dataset each time, like new pricing list or product catalog
+				 - requires an update
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 ### load 
@@ -99,7 +102,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjI3OTAzMiwyMjI4ODQwNTksNzE5NT
+eyJoaXN0b3J5IjpbLTEyODMzNDI0MywyMjI4ODQwNTksNzE5NT
 M2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAs
 Mjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
