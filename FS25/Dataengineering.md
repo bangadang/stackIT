@@ -115,14 +115,17 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- uses standard interfaces
 		- triggers, indices ad constraints can remain active all the time
 		- no longlasting locks
-	- **bulk loading**:
+	- **bulk loading**: standard of irl practice
 		- reuires DB specific extensions for loading large volumes
-		- runs in special context and loa
+		- runs in special context and loads complete tables or DB blocks
+		- ignores triggers and contraints
+		- indices are updated upon completion
+		- requires checkpoints for resuming
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcyNjcxNjEsMjIyODg0MDU5LDcxOT
-UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
-LDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbMTQ2MjY2ODY3MiwyMjI4ODQwNTksNzE5NT
+M2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAs
+Mjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
