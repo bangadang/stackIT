@@ -86,7 +86,9 @@ most time consuming part od data warehousing, as there is no standard method or 
  - the data extracted is differentiable through a time setting and defined type of extracted data
 	 - **time setting**:
 		 - synchronous notification:
-			 - the 
+			 - upon an update occurence at source the ddata extracton is triggered
+		 - asynchronous notification:
+			 - periodic: extraction
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 ### load 
@@ -95,7 +97,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjc1NDMzNjAsMjIyODg0MDU5LDcxOT
+eyJoaXN0b3J5IjpbLTE4NDk5MDMxOTMsMjIyODg0MDU5LDcxOT
 UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
 LDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
