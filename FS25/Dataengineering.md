@@ -104,7 +104,9 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- data is not in the target format of the DW or structured differently. Either the schema is close to thee source or the DW has a multidimensional schema --> data and schema heterogeneity
 		- aspects of the transformation: data and schema has to be transformed
 	- **heterogeinity**:
-		- primary (OLTP systems) and secondary sources provide either un-/semistructured
+		- primary (OLTP systems) and secondary sources provide either un-/semistructured data
+		- various data models which require mapping
+		- same reality is modeled differently (design autonomy)
 ### load 
 - moves the transformed data into a permanent target database efficiently
 	- critical point:
@@ -127,7 +129,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDU0NDUxLDIyMjg4NDA1OSw3MTk1Mz
-YxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwy
-OTgyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbLTE1MzM2OTc3NjMsMjIyODg0MDU5LDcxOT
+UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
+LDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
