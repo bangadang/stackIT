@@ -85,6 +85,8 @@ most time consuming part od data warehousing, as there is no standard method or 
  - its a task done regularly in order to supply updated data to da data warehouse
  - the data extracted is differentiable through a time setting and defined type of extracted data
 	 - **time setting**:
+		 - synchronous notification:
+			 - the 
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 ### load 
@@ -93,7 +95,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4Nj
-Q1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3
-MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbLTIwMjc1NDMzNjAsMjIyODg0MDU5LDcxOT
+UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
+LDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
