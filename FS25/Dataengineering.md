@@ -97,16 +97,18 @@ most time consuming part od data warehousing, as there is no standard method or 
 			 - logs: the ource logs each update operation on the data through transaction/appplication-driven logging
 				 - requires efficient update execution
 			 - netlogs: the source delivers net updates though catalog updates, snapshot deltas
-				 - it can 
+				 - source cannot offer a complete history but updating can be done efficiently
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
+	- problem:
+		- data is not in the target format of the DW or structured differently
 ### load 
 - moves the transformed data into a permanent target database
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzY0MDQ2MCwyMjI4ODQwNTksNzE5NT
+eyJoaXN0b3J5IjpbLTgyMDc3MzQwNiwyMjI4ODQwNTksNzE5NT
 M2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAs
 Mjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
