@@ -101,8 +101,10 @@ most time consuming part od data warehousing, as there is no standard method or 
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 	- problem:
-		- data is not in the target format of the DW or structured differently. Either the schema is close to thee source or the DW has a multidimensional schema
+		- data is not in the target format of the DW or structured differently. Either the schema is close to thee source or the DW has a multidimensional schema --> data and schema heterogeneity
 		- aspects of the transformation: data and schema has to be transformed
+	- **heterogeinity**:
+		- primary (OLTP systems) and secondary sources provide either un-/semistructured
 ### load 
 - moves the transformed data into a permanent target database efficiently
 	- critical point:
@@ -125,7 +127,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjY2ODY3MiwyMjI4ODQwNTksNzE5NT
-M2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAs
-Mjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTcxMDU0NDUxLDIyMjg4NDA1OSw3MTk1Mz
+YxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwy
+OTgyMzEwODQsNzA5ODM3ODldfQ==
 -->
