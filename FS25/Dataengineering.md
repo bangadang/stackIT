@@ -102,14 +102,16 @@ most time consuming part od data warehousing, as there is no standard method or 
 - the data is then processed. So its structures and values conform with its intended use case
 	- problem:
 		- data is not in the target format of the DW or structured differently. Either the schema is close to thee source or the DW has a multidimensional schema
-		- aspects of the transformation: data has
+		- aspects of the transformation: data and schema has to be transformed
 ### load 
-- moves the transformed data into a permanent target database
+- moves the transformed data into a permanent target database efficiently
+	- critical point:
+		- load routines can block the entire DB
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTg4NTY4MywyMjI4ODQwNTksNzE5NT
-M2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAs
-Mjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTEwMDM1MzE3NDMsMjIyODg0MDU5LDcxOT
+UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
+LDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
