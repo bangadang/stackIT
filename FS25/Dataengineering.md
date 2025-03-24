@@ -109,15 +109,20 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- load routines can block the entire DB
 		- active triggers have to be managed
 		- integrity constraints have to be upheld
-		- Indexes have to be maintained
+		- Indicies have to be maintained
 		- update and inseration operations 
 	- **record basedd laoding**:
-		- uses standard 
+		- uses standard interfaces
+		- triggers, indices ad constraints can remain active all the time
+		- no longlasting locks
+	- **bulk loading**:
+		- reuires DB specific extensions for loading large volumes
+		- runs in special context and loa
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQyMzgzLDIyMjg4NDA1OSw3MTk1Mz
-YxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwy
-OTgyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbLTE3NjcyNjcxNjEsMjIyODg0MDU5LDcxOT
+UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
+LDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
