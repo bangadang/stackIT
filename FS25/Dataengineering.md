@@ -94,7 +94,10 @@ most time consuming part od data warehousing, as there is no standard method or 
 		 - **type of data**:
 			 - snapshots: the source delivers the complete dataset each time, like new pricing list or product catalog
 				 - requires an update detection and capturing of the update history
-			 - logs: the ource logs each update operation on the data
+			 - logs: the ource logs each update operation on the data through transaction/appplication-driven logging
+				 - requires efficient update execution
+			 - netlogs: the source delivers net updates though catalog updates, snapshot deltas
+				 - it can 
 ### transform
 - the data is then processed. So its structures and values conform with its intended use case
 ### load 
@@ -103,7 +106,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5OTgxNTYsMjIyODg0MDU5LDcxOTUzNj
-ExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5
-ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbMTI2MzY0MDQ2MCwyMjI4ODQwNTksNzE5NT
+M2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAs
+Mjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
