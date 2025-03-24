@@ -41,14 +41,14 @@
 |  | Differences between operational DB and DW |
 |  | DW architecture |
 |  | Data Marts |
-|  |  |
+|  | ETL from source to staging area |
 |  |  |
 
 ### Operational Database vs Data Warehouse
 |OLTP| OLAP |
 |--|--|
 | day2day processing | historical processing |
-| used to run a business | used to analyze a business |
+| used to run a business | usedETL to analyze a business |
 | focus on data in | focus on information out |
 | based on Entity Relationship Model | based on Star Schema or Snowflake Schema |
 | provides, primitive/ highly detailed/ flat relational view of data | provides summarized/ consolidated/ multidimensional view of data  |
@@ -129,7 +129,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTE0MjQwOTgsMjIyODg0MDU5LDcxOT
+eyJoaXN0b3J5IjpbLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOT
 UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
 LDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
