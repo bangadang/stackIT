@@ -38,9 +38,9 @@
 |  | **information processing**: DW allow to process data stored within by means of querying, simple statistical analysis, table, charts, graphs |
 |  | **analytical processing**: data can be processedd by means of basic OLAP operations including slice-and-dice, drill down/up, pivoting |
 |  | **data mining**: knowledge discovery by finding patterns and associations, performing classification and prediction through construced analytical models |
-|  |  |
-|  |  |
-|  |  |
+|  | Differences between operational DB and DW |
+|  | DW architecture |
+|  | Data Marts |
 |  |  |
 |  |  |
 
@@ -106,7 +106,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- **heterogeinity**:
 		- primary (OLTP systems) and secondary sources provide either un-/semistructured data
 		- various data models which require mapping
-		- same reality is modeled differently (design autonomy)
+		- same reality is modeled differently (design autonomy, subjective modeling perspectives)
 ### load 
 - moves the transformed data into a permanent target database efficiently
 	- critical point:
@@ -129,7 +129,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzM2OTc3NjMsMjIyODg0MDU5LDcxOT
+eyJoaXN0b3J5IjpbLTIxMTE0MjQwOTgsMjIyODg0MDU5LDcxOT
 UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
 LDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
