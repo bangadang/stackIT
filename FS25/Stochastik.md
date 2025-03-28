@@ -530,6 +530,11 @@ ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
 ```r
 dbinom(x = 15, size = 20, prob = 0.684)
+
+#Ganze Verteilung plotten
+k <- 0:22
+pk <- dbinom(x = 0:22, size = 22, prob = 28/34)
+plot(k, pk, type = "h",main = "Bin(n=20, p=0.684)")
 ```
 
 ### Eigenschaften
@@ -540,7 +545,7 @@ dbinom(x = 15, size = 20, prob = 0.684)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzY4MzQ5NSwtMTI2MjU1NjYwNCwyMD
+eyJoaXN0b3J5IjpbLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMD
 g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
 OTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Ny
 w5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0
