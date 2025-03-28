@@ -493,7 +493,7 @@ $E[X^2]-E[X]^2=15.17-3.5^2=2.92$
 
 ## Diskrete W'keitsverteilungen
 
-### Bernoulli Verteilung X ~ Bernoulli(_p)
+## Bernoulli Verteilung X ~ Bernoulli(_p)
 Ein Bernoulli-Zufallsexperiment ist ein Experiment mit zwei möglichen Ausgängen:
 Erfolg (Ja = 1) und Misserfolg (Nein = 0).
 |$X$| $x_1=0$ | $x_2=1$ |
@@ -521,7 +521,7 @@ $$p = \frac{109748}{140074}=0.7835$$
 ### Mehrstufige Bernoulli Experimente
 **Bsp**. Galton-Brett
 
-### Binomialverteilung N ~ Bin(n,p)
+## Binomialverteilung N ~ Bin(n,p)
 Def.: n unabhängige Bernoulli Experimente mit jeweils konstanter Erfolgswahrscheinlichkeit p, die n-mal nacheinander ausgeführt wurden.
 Anzahl Erfolge: $$P(X=k) = {n \choose k}\cdot p^k(1-p)^{n-k}$$
 (n und p sind fix gegeben)
@@ -555,11 +555,16 @@ Umkehrfunktion der kumulativen Verteilungsfunktion
 ```r
 qbinom(alpha/bsp 0.25, size = n, prob = p)
 ```
+## Geometrische Verteilung
+Bsp: Eile mit Weile
+Um das Haus zu verlassen, muss eine 5 gewürfelt
+werden. X = “Anzahl Fehlwürfe, bis man das Haus
+verlassen kann.”
 
-
+P()
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI4MjczMDQsLTUxMzM3MjM1NCwtMT
+eyJoaXN0b3J5IjpbLTE5NjY1NzA5MTgsLTUxMzM3MjM1NCwtMT
 I2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5
 OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNj
 k4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0
