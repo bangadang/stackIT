@@ -579,13 +579,18 @@ $$P(X=k)=p\cdot (1-p)^k$$
 - Achtung: In vielen Büchern findet man eine etwas andere Definition, bei der nicht die Anzahl der Misserfolge bis zum ersten Erfolg, sondern die Anzahl der Versuche (einschliesslich des ersten Erfolgs) gezählt werden. Die Zufallsvariable ist dann um 1 verschoben, und die Formeln sind leicht anders. Achten Sie immer darauf, welche Definition verwendet wird!
 - Verteilung ist monoton abfallend, je grösser p desto abfallender
 
-``````
+```r
+dgeom(k, prob = p)
+```
+
+### kumulative Verteilung der geom. Verteilung
+ $$F(x)=P(X \le x)= \Sigma _{k=0}^K { p^k(1-p)^{n-k}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODQ1NTk3LC00NTUyOTQ4ODAsLTUxMz
-M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
-OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
-wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
-MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNC
-wtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEz
-NTg0Njg2XX0=
+eyJoaXN0b3J5IjpbLTcwMzQyNTY2MSwtNDU1Mjk0ODgwLC01MT
+MzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4Nzcx
+MzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1ND
+YsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5
+OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0Mj
+QsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgx
+MzU4NDY4Nl19
 -->
