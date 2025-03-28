@@ -571,14 +571,14 @@ Führen wir ein Bernoulli-Experiment mit Erfolgswahrscheinlichkeit p genauso lan
 vorgegebene Anzahl Wiederholungen wie im Falle der Binomialverteilung), erhalten wir die geometrische Verteilung
 
 Die Anzahl **Fehlversuche** vor dem **ersten** Erfolg X hat dann die Verteilung
-$$$$
+$$P(X=k)=p\cdot (1-p)^k$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTQ1NDc0LC01MTMzNzIzNTQsLTEyNj
-I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
-NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
-wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
-MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Mi
-w2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIw
-Nzc2NTY1XX0=
+eyJoaXN0b3J5IjpbLTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMj
+YyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5
+NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OT
+gsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQz
+NDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEyNTQyOD
+IsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2ODYsLTIy
+MDc3NjU2NV19
 -->
