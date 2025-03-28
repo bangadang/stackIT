@@ -618,14 +618,14 @@ rnbinom(n = , size = r, prob = p) # Zufallszahlen
 ```
 
 ## Hypergeometrische Verteilung
-Bsp: Wenn wir k Kugeln aus einer Urne mit m weissen und n schwarzen Kugeln ziehen, und wir nach jedem Zug die gezogene Kugel wieder in die Urne legen , dann gilt für die Anzahl X der weissen gezogenen Kugeln
-$$X $$
+Bsp: Wenn wir k Kugeln aus einer Urne mit m weissen und n schwarzen Kugeln ziehen, und wir nach jedem Zug die gezogene Kugel wieder in die Urne legen , dann gilt für die Anzahl X der weissen gezogenen Kugeln X ~ Bin($k, \frac{m}{n+m}$). Was ist, wenn wir die Kugeln **nicht** zurücklegen?
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU3NzcwMDc1LDE4OTIyMDg0MSwtNDU1Mj
-k0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1
-LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLT
-IwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5
-MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMS
-w0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIz
-NzEyN119
+eyJoaXN0b3J5IjpbMTczMjUxMDIwNywxODkyMjA4NDEsLTQ1NT
+I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
+NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
+0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
+OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1Mj
+EsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgy
+MzcxMjddfQ==
 -->
