@@ -595,7 +595,7 @@ qgeom(alpha, prob = 1/6) #quantile
 rgeom(1, prob = 1/6) #Erzeugen einer Zufallszahl in dieser Simulation Eile mit Weilegab es 2 Fehlwürfe
 ```
 
-## Negative Binomialverteilung
+## Negative Binomialverteilung X ∼ NBin(r , p)
 Die Anzahl der Misserfolge vor dem r-ten Erfolg, wobei die Erfolgswahrscheinlichkeit p konstant sei
 $$P(X = k) = {k + r -1 \choose k}p^r (1-p)^k$$
 
@@ -607,13 +607,14 @@ $$P(X = k) = {k + r -1 \choose k}p^r (1-p)^k$$
 ### Eigenschaften
 - Ergebnisraum ist unendlich abzählbar 
 - $E(X)= \frac{r \cdot (1-p)}{p}$
-- $Var(X) = $
+- $Var(X) = \frac{r \cdot (1-p)}{p^2 }$$
+- Wenn Y ~ Geom(p) dann ist Y ~
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTgwNzI1MCwxODkyMjA4NDEsLTQ1NT
-I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
-NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
-0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
-OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1Mj
-EsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgy
-MzcxMjddfQ==
+eyJoaXN0b3J5IjpbNjIwMTQyMTE4LDE4OTIyMDg0MSwtNDU1Mj
+k0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1
+LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLT
+IwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5
+MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMS
+w0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIz
+NzEyN119
 -->
