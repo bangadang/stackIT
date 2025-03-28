@@ -528,6 +528,10 @@ Anzahl Erfolge: $$P(X=k) = {n \choose k}\cdot p^k(1-p)^{n-k}$$
 $p^k(1-p)^{n-k}$ = Wahrscheinlichkeit für ein Ereignis mit k Erfolgen und n − k Misserfolgen.
 ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
+```r
+dbinom(x = 15, size = 20, prob = 0.684)
+```
+
 ### Eigenschaften
 - Der **Ergebnisraum** einer binomialverteilten Zufallsvariable ist **endlich**
 - Eine binomialverteilte Zufallsgrösse kann auch als **Summe S von $n$ unabhängigen Wiederholungen einer bernouilliverteilte Zufallsgrösse $X_i$** mit Parameter p beschrieben werden, d.h. $$S = \Sigma^{n}_{i=1}X_i$$
@@ -536,11 +540,11 @@ ${n \choose k}$ =  Anzahl Ereignisse mit k Erfolgen in n Versuchen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04Mj
-Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
-NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
-I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
-MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNy
-wtMTgxMzU4NDY4NiwtMjIwNzc2NTY1LDYyMDY0NjU5MiwtNjU4
-NjkwOTk4XX0=
+eyJoaXN0b3J5IjpbMTAwNzY4MzQ5NSwtMTI2MjU1NjYwNCwyMD
+g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
+OTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Ny
+w5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0
+MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMy
+wtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1NjUsNjIw
+NjQ2NTkyXX0=
 -->
