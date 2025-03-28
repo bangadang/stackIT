@@ -578,6 +578,7 @@ $$P(X=k)=p\cdot (1-p)^k$$
 - $Var(X) = \frac{(1-p)}{p^2}$
 - Achtung: In vielen Büchern findet man eine etwas andere Definition, bei der nicht die Anzahl der Misserfolge bis zum ersten Erfolg, sondern die Anzahl der Versuche (einschliesslich des ersten Erfolgs) gezählt werden. Die Zufallsvariable ist dann um 1 verschoben, und die Formeln sind leicht anders. Achten Sie immer darauf, welche Definition verwendet wird!
 - Verteilung ist monoton abfallend, je grösser p desto abfallender
+- $P(X > k+j | X \ge k)$
 
 ```r
 dgeom(k, prob = p)
@@ -589,15 +590,15 @@ dgeom(k, prob = p)
 ```r
 pgeom(x, prob=p)
 qgeom(alpha, prob = 1/6) #quantile
-rgeom(1, prob = 1/6) #Erzeugen einer ZufallszahlIn dieser Simulation Eile mit Weilegab es 2 Fehlwürfe
+rgeom(1, prob = 1/6) #Erzeugen einer Zufallszahl in dieser Simulation Eile mit Weilegab es 2 Fehlwürfe
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMjM0MjM1LC00NTUyOTQ4ODAsLTUxMz
-M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
-OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
-wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
-MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNC
-wtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEz
-NTg0Njg2XX0=
+eyJoaXN0b3J5IjpbLTk5NDExNjY0MCwtNDU1Mjk0ODgwLC01MT
+MzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4Nzcx
+MzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1ND
+YsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5
+OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0Mj
+QsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgx
+MzU4NDY4Nl19
 -->
