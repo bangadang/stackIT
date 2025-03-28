@@ -542,14 +542,15 @@ plot(k, pk, type = "h",main = "Bin(n=20, p=0.684)")
 - Eine binomialverteilte Zufallsgrösse kann auch als **Summe S von $n$ unabhängigen Wiederholungen einer bernouilliverteilte Zufallsgrösse $X_i$** mit Parameter p beschrieben werden, d.h. $$S = \Sigma^{n}_{i=1}X_i$$
 - Erwartungswert $E[S] = n\cdot p$
 - Varianz: $Var(S) = n\cdot p\cdot (1-p)$
+- Symmetrische Verteilung 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMD
-g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
-OTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Ny
-w5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0
-MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMy
-wtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0yMjA3NzY1NjUsNjIw
-NjQ2NTkyXX0=
+eyJoaXN0b3J5IjpbMTIzMjIwNTM1LC01MTMzNzIzNTQsLTEyNj
+I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
+NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
+wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
+MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Mi
+w2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIw
+Nzc2NTY1XX0=
 -->
