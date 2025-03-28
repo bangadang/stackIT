@@ -561,14 +561,17 @@ Um das Haus zu verlassen, muss eine 5 gewürfelt
 werden. X = “Anzahl Fehlwürfe, bis man das Haus
 verlassen kann.”
 
-P()
+P(0) = $\frac{1}{6}$
+P(1) = $\frac{5}{6}\cdot \frac{1}{6}$
+P(2) = $(\frac{5}{6})^2 \cdot \frac{1}{6}$
+P(k) = $(\frac{5}{6})^k \cdot \frac{1}{6}$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjY1NzA5MTgsLTUxMzM3MjM1NCwtMT
-I2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5
-OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNj
-k4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0
-MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIxMjU0Mj
-gyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEzNTg0Njg2LC0y
-MjA3NzY1NjVdfQ==
+eyJoaXN0b3J5IjpbMzI4NTMzNzEzLC01MTMzNzIzNTQsLTEyNj
+I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
+NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
+wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
+MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Mi
+w2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgxMzU4NDY4NiwtMjIw
+Nzc2NTY1XX0=
 -->
