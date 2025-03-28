@@ -623,12 +623,13 @@ Bsp: Wenn wir k Kugeln aus einer Urne mit m weissen und n schwarzen Kugeln ziehe
 ### Definition
 Ziehen ohne Zurücklegen von k Kugeln aus einer Urne mit m weissen und n schwarzen Kugeln, wobei die Zufallsvariable die Anzahl Erfolge in k Versuchen ist
 
+$$P(X=j)=P(A_j) = \frac{|A_j|}{|\Omega|}= \frac{{m \choose j}{}}{{}}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg1NTA5NzksMTg5MjIwODQxLC00NT
-UyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1
-MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMi
-wtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4
-NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNT
-IxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4
-MjM3MTI3XX0=
+eyJoaXN0b3J5IjpbMTg4ODE2MDUwNCwxODkyMjA4NDEsLTQ1NT
+I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
+NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
+0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
+OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1Mj
+EsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgy
+MzcxMjddfQ==
 -->
