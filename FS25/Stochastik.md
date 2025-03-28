@@ -580,7 +580,7 @@ $$P(X=k)=p\cdot (1-p)^k$$
 - Verteilung ist monoton abfallend, je grösser p desto abfallender
 - $P(X > k+j | X \ge k) = P(X > j)$
 	- geometrische Gedächtnislosigkeit
-	- 
+	- **Gedächtnislosigkeit**, d.h. Wahrscheinlichkeit dafür, dass der **erste Erfolg noch mindestens j weitere Fehlversuche lang auf sich warten lässt**, ist unabhängig davon, wie viele Misserfolge man schon beobachtet hat.
 
 ```r
 dgeom(k, prob = p)
@@ -595,8 +595,9 @@ qgeom(alpha, prob = 1/6) #quantile
 rgeom(1, prob = 1/6) #Erzeugen einer Zufallszahl in dieser Simulation Eile mit Weilegab es 2 Fehlwürfe
 ```
 
+## Negative Binomialverteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTg0Mzg3LC00NTUyOTQ4ODAsLTUxMz
+eyJoaXN0b3J5IjpbMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMz
 M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
 OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
 wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
