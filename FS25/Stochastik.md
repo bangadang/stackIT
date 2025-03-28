@@ -584,9 +584,14 @@ dgeom(k, prob = p)
 ```
 
 ### kumulative Verteilung der geom. Verteilung
- $$F(x)=P(X \le x)= \Sigma _{k=0}^K { p^k(1-p)^{n-k}$$
+ $$F(x)=P(X \le x)= \Sigma _{k=0}^K  p\cdot (1-p)^{k}$$
+
+```r
+pgeom(x, prob=p)
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzQyNTY2MSwtNDU1Mjk0ODgwLC01MT
+eyJoaXN0b3J5IjpbMjA0NDY4MDg4OSwtNDU1Mjk0ODgwLC01MT
 MzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4Nzcx
 MzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1ND
 YsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5
