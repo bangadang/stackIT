@@ -566,8 +566,15 @@ P(1) = $\frac{5}{6}\cdot \frac{1}{6}$
 P(2) = $(\frac{5}{6})^2 \cdot \frac{1}{6}$
 P(k) = $(\frac{5}{6})^k \cdot \frac{1}{6}$
 
+### Definition
+Führen wir ein Bernoulli-Experiment mit Erfolgswahrscheinlichkeit p genauso lange durch, bis wir den ersten Erfolg erzielen (also nicht mit einer
+vorgegebene Anzahl Wiederholungen wie im Falle der Binomialverteilung), erhalten wir die geometrische Verteilung
+
+Die Anzahl **Fehlversuche** vor dem **ersten** Erfolg X hat dann die Verteilung
+$$$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NTMzNzEzLC01MTMzNzIzNTQsLTEyNj
+eyJoaXN0b3J5IjpbLTIyOTQ1NDc0LC01MTMzNzIzNTQsLTEyNj
 I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
 NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
 wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
