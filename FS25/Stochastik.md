@@ -617,15 +617,19 @@ qnbinom(p = , size = r, prob = p) # Quantilfunktion
 rnbinom(n = , size = r, prob = p) # Zufallszahlen
 ```
 
-## Hypergeometrische Verteilung X ~Hyp(m,n,k)
+## Hypergeometrische Verteilung X ~ Hyp(m,n,k)
 Bsp: Wenn wir k Kugeln aus einer Urne mit m weissen und n schwarzen Kugeln ziehen, und wir nach jedem Zug die gezogene Kugel wieder in die Urne legen , dann gilt für die Anzahl X der weissen gezogenen Kugeln X ~ Bin($k, \frac{m}{n+m}$). Was ist, wenn wir die Kugeln **nicht** zurücklegen? Fall der Hypergeometrischen Verteilung
 
 ### Definition
 Ziehen ohne Zurücklegen von k Kugeln aus einer Urne mit m weissen und n schwarzen Kugeln, wobei die Zufallsvariable die Anzahl Erfolge in k Versuchen ist
 
-$$P(X=j)=P(A_j) = \frac{|A_j|}{|\Omega|}= \frac{{m \choose j}{}}{{}}$$
+$$P(X=j)=P(A_j) = \frac{|A_j|}{|\Omega|}= \frac{{m \choose j}{n \choose k-j}}{{n+m \choose k}}$$
+
+### Eigenschaften
+- Ergebnisraum ist unendlich abzählbar
+- $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODE2MDUwNCwxODkyMjA4NDEsLTQ1NT
+eyJoaXN0b3J5IjpbMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NT
 I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
 NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
 0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
