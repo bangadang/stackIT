@@ -549,9 +549,17 @@ plot(k, pk, type = "h",main = "Bin(n=20, p=0.684)")
 ```r
 pbinom(x, size = n, prob = p)
 ```
+### Quantile
+Umkehrfunktion der kumulativen Verteilungsfunktion
+
+```r
+qbinom(alpha/bsp 0.25, size = n, prob = p)
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjkxOTc5NDYsLTUxMzM3MjM1NCwtMT
+eyJoaXN0b3J5IjpbLTEzNTI4MjczMDQsLTUxMzM3MjM1NCwtMT
 I2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5
 OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNj
 k4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0
