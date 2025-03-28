@@ -606,8 +606,10 @@ $$P(X = k) = {k + r -1 \choose k}p^r (1-p)^k$$
 
 ### Eigenschaften
 - Ergebnisraum ist unendlich abzählbar 
+- $E(X)= \frac{r \cdot (1-p)}{p}$
+- $Var(X) = $
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjIwNjI1NywxODkyMjA4NDEsLTQ1NT
+eyJoaXN0b3J5IjpbLTc0MTgwNzI1MCwxODkyMjA4NDEsLTQ1NT
 I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
 NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
 0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
