@@ -573,12 +573,14 @@ vorgegebene Anzahl Wiederholungen wie im Falle der Binomialverteilung), erhalten
 Die Anzahl **Fehlversuche** vor dem **ersten** Erfolg X hat dann die Verteilung
 $$P(X=k)=p\cdot (1-p)^k$$
 
+### Eigenschaften
+- $E(X) = \fr()$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMj
-YyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5
-NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OT
-gsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQz
-NDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEyNTQyOD
-IsNjgyMjgwNDAzLC0zNTgyMzcxMjcsLTE4MTM1ODQ2ODYsLTIy
-MDc3NjU2NV19
+eyJoaXN0b3J5IjpbNTk4MzM5ODk0LC00NTUyOTQ4ODAsLTUxMz
+M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
+OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
+wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
+MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNC
+wtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEz
+NTg0Njg2XX0=
 -->
