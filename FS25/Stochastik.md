@@ -608,9 +608,18 @@ $$P(X = k) = {k + r -1 \choose k}p^r (1-p)^k$$
 - Ergebnisraum ist unendlich abzählbar 
 - $E(X)= \frac{r \cdot (1-p)}{p}$
 - $Var(X) = \frac{r \cdot (1-p)}{p^2 }$$
-- Wenn Y ~ Geom(p) dann ist Y ~
+- Wenn Y ~ Geom(p) dann ist Y ~ NBin(1, p)
+
+```r
+dnbinom(x = , size = r, prob = p) # Wahrscheinlichkeitsfunktion
+pnbinom(q = , size = r, prob = p) # Kum. Verteilungsfunktion
+qnbinom(p = , size = r, prob = p) # Quantilfunktion
+rnbinom(n = , size = r, prob = p) # Zufallszahlen
+```
+
+## Hypergeometrische Verteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwMTQyMTE4LDE4OTIyMDg0MSwtNDU1Mj
+eyJoaXN0b3J5IjpbLTk3Mzg5MzYxLDE4OTIyMDg0MSwtNDU1Mj
 k0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1
 LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLT
 IwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5
