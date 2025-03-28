@@ -596,12 +596,14 @@ rgeom(1, prob = 1/6) #Erzeugen einer Zufallszahl in dieser Simulation Eile mit W
 ```
 
 ## Negative Binomialverteilung
+Die Anzahl der Misserfolge vor dem r-ten Erfolg, wobei die Erfolgswahrscheinlichkeit p konstant sei
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMz
-M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
-OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
-wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
-MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNC
-wtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEz
-NTg0Njg2XX0=
+eyJoaXN0b3J5IjpbLTE1NjUzNjA2NjQsMTg5MjIwODQxLC00NT
+UyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1
+MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMi
+wtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4
+NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNT
+IxLDQzNTcxODQyNCwtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4
+MjM3MTI3XX0=
 -->
