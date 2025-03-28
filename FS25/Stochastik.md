@@ -584,18 +584,20 @@ dgeom(k, prob = p)
 ```
 
 ### kumulative Verteilung der geom. Verteilung
- $$F(x)=P(X \le x)= \Sigma _{k=0}^K  p\cdot (1-p)^{k}$$
+ $$F(x)=P(X \le x)= \Sigma _{k=0}^K  p\cdot (1-p)^{k} = 1-(1-p)^{K+1}$$
 
 ```r
 pgeom(x, prob=p)
+qgeom(alpha, prob = 1/6) #quantile
+rgeom(1, prob = 1/6) #Erzeugen einer ZufallszahlIn dieser Simulation Eile mit Weilegab es 2 Fehlwürfe
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDY4MDg4OSwtNDU1Mjk0ODgwLC01MT
-MzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4Nzcx
-MzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1ND
-YsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5
-OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0Mj
-QsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIzNzEyNywtMTgx
-MzU4NDY4Nl19
+eyJoaXN0b3J5IjpbMzkzMjM0MjM1LC00NTUyOTQ4ODAsLTUxMz
+M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
+OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
+wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
+MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNC
+wtODIxMjU0MjgyLDY4MjI4MDQwMywtMzU4MjM3MTI3LC0xODEz
+NTg0Njg2XX0=
 -->
