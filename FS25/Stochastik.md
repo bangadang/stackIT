@@ -618,8 +618,10 @@ rnbinom(n = , size = r, prob = p) # Zufallszahlen
 ```
 
 ## Hypergeometrische Verteilung
+Bsp: Wenn wir k Kugeln aus einer Urne mit m weissen und n schwarzen Kugeln ziehen, und wir nach jedem Zug die gezogene Kugel wieder in die Urne legen , dann gilt für die Anzahl X der weissen gezogenen Kugeln
+$$X $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Mzg5MzYxLDE4OTIyMDg0MSwtNDU1Mj
+eyJoaXN0b3J5IjpbNDU3NzcwMDc1LDE4OTIyMDg0MSwtNDU1Mj
 k0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1
 LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLT
 IwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5
