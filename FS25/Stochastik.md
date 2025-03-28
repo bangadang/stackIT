@@ -574,9 +574,14 @@ Die Anzahl **Fehlversuche** vor dem **ersten** Erfolg X hat dann die Verteilung
 $$P(X=k)=p\cdot (1-p)^k$$
 
 ### Eigenschaften
-- $E(X) = \fr()$
+- $E(X) = \frac{(1-p)}{p}$
+- $Var(X) = \frac{(1-p)}{p^2}$
+- Achtung: In vielen Büchern findet man eine etwas andere Definition, bei der nicht die Anzahl der Misserfolge bis zum ersten Erfolg, sondern die Anzahl der Versuche (einschliesslich des ersten Erfolgs) gezählt werden. Die Zufallsvariable ist dann um 1 verschoben, und die Formeln sind leicht anders. Achten Sie immer darauf, welche Definition verwendet wird!
+- Verteilung ist monoton abfallend, je grösser p desto abfallender
+
+``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk4MzM5ODk0LC00NTUyOTQ4ODAsLTUxMz
+eyJoaXN0b3J5IjpbMTM3ODQ1NTk3LC00NTUyOTQ4ODAsLTUxMz
 M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
 OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
 wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
