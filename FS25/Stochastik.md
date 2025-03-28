@@ -602,15 +602,16 @@ $$P(X = k) = {k + r -1 \choose k}p^r (1-p)^k$$
 - Serie der Experimente wird beim Eintritt des r-ten Erfolg abgebrochen
 - bei k Fehlversuchen gab es Gesamthaft k+r Versuche
 - Binomialkoeffizient gibt die Anzahl Möglichkeiten die ersten r-1 Erfolge und die k Fehlversuche anzuordnen
-- Jede Anordnung hat die Wahrscheinlichkeit pr−1(1 − p)k , die wir dann
-mit p multiplizieren müssen, da im k+r Versuch der r-te Erfolg auftreten
-soll.
+- Jede Anordnung hat die Wahrscheinlichkeit $p^{r−1}(1 − p)^k$ , die wir dann mit p multiplizieren müssen, da im k+r Versuch der r-te Erfolg auftreten soll.
+
+### Eigenschaften
+- Ergebnisraum ist unendlich abzählbar 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1Njg4NDA1LDE4OTIyMDg0MSwtNDU1Mj
-k0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1
-LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLT
-IwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5
-MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMS
-w0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIyODA0MDMsLTM1ODIz
-NzEyN119
+eyJoaXN0b3J5IjpbLTQ5MjIwNjI1NywxODkyMjA4NDEsLTQ1NT
+I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
+NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
+0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
+OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1Mj
+EsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgy
+MzcxMjddfQ==
 -->
