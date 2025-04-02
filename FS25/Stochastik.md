@@ -627,13 +627,29 @@ $$P(X=j)=P(A_j) = \frac{|A_j|}{|\Omega|}= \frac{{m \choose j}{n \choose k-j}}{{n
 
 ### Eigenschaften
 - Ergebnisraum ist unendlich abzählbar
-- $$
+- $E(X)=k\cdot \frac{m}{m+n}$
+- $Var(X) = k\cdot \frac{m}{m+n}\cdot (1-\frac{m}{m+n}\cdot \frac{n+m-k}{m+n-1}$
+```r
+dhyper(x = , m = m, n = n, k = k) # Wahrscheinlichkeitsfunktion
+phyper(q = , m = m, n = n, k = k) # Kum. Verteilungsfunktion
+qhyper(p = , m = m, n = n, k = k) # Quantilfunktion
+rhyper(n = , m = m, n = n, k = k) # Zufallszahlen
+```
+Bsp. : In einer Lieferung von 1000 Schrauben sind 27 defekt. Der Empfänger überprüft 30 zufällig ausgewählte Schrauben.
+m = 27
+n = 1000-27 = 973
+k = 30
+X ~ Hyp(27, 973, 30)
+Mit welcher Wahrscheinlichkeit sind die Schrauben in der Stichprobe alle in Ordnung?
+```
+dhyper(0, 27, 973, 30)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NT
-I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
-NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
-0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
-OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1Mj
-EsNDM1NzE4NDI0LC04MjEyNTQyODIsNjgyMjgwNDAzLC0zNTgy
-MzcxMjddfQ==
+eyJoaXN0b3J5IjpbMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OT
+IyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2
+MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLT
+E3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1
+MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MC
+wtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgyMTI1NDI4Miw2ODIy
+ODA0MDNdfQ==
 -->
