@@ -695,13 +695,17 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 - Anzahl Kunden, die einen Kredit beantragen pro Jahr (Poi).
 - Anzahl Fahrzeuge, die bei einer Kontrolle von 100 angehaltenen Fahrzeugen beanstandet werden müssen. (Bin)
 
-## Stetige Wahrscheinlichkeitsverteilung
+# Stetige Wahrscheinlichkeitsverteilung
+
+**Stetige Zufallsvariable**:
+- X kann jeden **beliebigen Wert** einer Intervalls annehmen
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMjA4NjcwLDEyMDM4NzczMzksMTI0ND
-IxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgw
-LC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04Mj
-Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
-NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
-I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
-MTg0MjRdfQ==
+eyJoaXN0b3J5IjpbMTQ3MDU2ODM3OCwxMjAzODc3MzM5LDEyND
+QyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4
+MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtOD
+I0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0
+NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC
+0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1
+NzE4NDI0XX0=
 -->
