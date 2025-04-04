@@ -770,12 +770,15 @@ $$\mu = E(X) = \int_{-\infty}^\infty x\cdot f_X(x) dx$$
 
 ### Varianz von $f_X(x)$
 Die varianz ist ein **Streuungsmass** einer Zufallsvariablen. Sie gibt die erwartete quadratische Abweichung der Zufallsvariable X von ihrem Erwartungswert an, d.h. es wird **durch die Breite der Verteilung** bestimmt.
+
+Sei X eine stetige Zufallsvariable mit Dichtefunktion f (x ) und Erwartungswert E (X ) = µ. Dann ist die Varianz definiert als
+$$Var(X)= E((X-E(X))^2)= \int_{-\infty}^\infty x\cdot f_X(x) dx$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NT
-Y1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcw
-NiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMj
-YyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5
-NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OT
-gsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQz
-NDE5NzBdfQ==
+eyJoaXN0b3J5IjpbNzkxNzU3NzkxLC0xNjIyMDg3NTM5LDU3MT
+AyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQw
+LDE1NDMyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMz
+M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
+OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
+wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
+MTY4XX0=
 -->
