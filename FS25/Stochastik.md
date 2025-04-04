@@ -727,9 +727,9 @@ Frage: Ist f(x) wirklich eine Dichte?
 - Fläche im Intervall [-1, 1] ist gleich 1
 
 ### Wahrscheinlichkeitsdichten über bestimmte Bereiche
-
+$$P(a \le X\le b)= \int^b_{a} f_X(x) dx$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA3OTgyNzcsMzY1NjU3Mjk4LDEyMD
+eyJoaXN0b3J5IjpbLTEyMTI3NjMwNzMsMzY1NjU3Mjk4LDEyMD
 M4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0
 MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMj
 A4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUz
