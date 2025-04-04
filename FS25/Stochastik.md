@@ -725,8 +725,11 @@ Frage: Ist f(x) wirklich eine Dichte?
 - Der Wertebereich von f ist grösser gleich 0
 - Funktion is stückweise stetig
 - Fläche im Intervall [-1, 1] ist gleich 1
+
+### Wahrscheinlichkeitsdichten über bestimmte Bereiche
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjY0MzYyNTcsMzY1NjU3Mjk4LDEyMD
+eyJoaXN0b3J5IjpbLTEzODA3OTgyNzcsMzY1NjU3Mjk4LDEyMD
 M4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0
 MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMj
 A4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUz
