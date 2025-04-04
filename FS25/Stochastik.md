@@ -763,9 +763,11 @@ F(x) = \begin{cases}
 $$
 
 ### Erwartungswert und Varianz von $f_X(x)$
-Der Erwartungswert für stetige Zufallsvariablen entspricht dem, was man im Schnitt, bei unendlich vielen Realisierungen, erhalten würde.
+Der Erwartungswert für stetige Zufallsvariablen entspricht dem, *was man im Schnitt, bei unendlich vielen Realisierungen, erhalten würde*.
+Er ist ein **Lagemass** für die Zufallsvariable und entspricht geometrisch dem **Schwerpunkt (in x-Richtung)** der Wahrscheinlichkeitsdichte.
+$$\mu = E(X) = \int_{-\infty}^\infty x\cdot f_X(x)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMTYzMjUyLDU3MTAyMzEwMiwzNjU2NT
+eyJoaXN0b3J5IjpbMzgyOTM3NTY2LDU3MTAyMzEwMiwzNjU2NT
 cyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYs
 MTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2Mj
 U1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0
