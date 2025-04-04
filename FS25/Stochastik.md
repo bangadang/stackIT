@@ -660,18 +660,24 @@ Die Rate mit welcher die Ereignisse, in vorgegebener Zeiteinheit und/oder Gebiet
 - Ergebnisraum ist abzählbar unendlich ohne klar definierte Obergrenze
 - $E(x) = \lambda$  innerhalb einer Zeit und/oder Flächen-Einheit λ Ereignissezu erwarten
 - $Var(x) = \lambda$
+- Für kleine λ stark rechtsschief.
+-  Je grösser λ, desto symmetrischer. Generell gute Symmetrie ab λ > 10
 
 **Bsp**:
 - Wenn X die Anzahl tödliche Verkehrsunfälle pro Jahr in der Schweiz beschreibt, so gilt bei durchschnittlich 230 tödlichen Unfällen
 X ∼ Pois(230).
 2) Wenn X die Anzahl Kunden am Postschalter pro Stunde beschreibt, so gilt bei durschnittlich 32 Kunden pro Stunde 
 X ∼ Pois(32)
+
+```r
+dpois(k, lambda = lambda)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzM2NTA1LDEyNDQyMTYyNDAsMTU0Mz
-IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
-LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMT
-MxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2
-MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLT
-EyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEy
-NTQyODJdfQ==
+eyJoaXN0b3J5IjpbLTIwMTE5NTExNDcsMTI0NDIxNjI0MCwxNT
+QzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIz
+NTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLT
+ExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgy
+NzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OC
+wtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgy
+MTI1NDI4Ml19
 -->
