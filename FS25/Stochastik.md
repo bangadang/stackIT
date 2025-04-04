@@ -737,9 +737,9 @@ $P(a \le X\lt b)=$
 $P(a \lt X\lt b)$
 
 ### Kumulative Verteilungsfunktion
-$$F_X(x = P(X \le x))$$
+$$F_X(x)= P(X \le x)=\int^x_{-\infty}f_X(z) dz$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4NzI0MTQ1LDU3MTAyMzEwMiwzNjU2NT
+eyJoaXN0b3J5IjpbOTE5OTY1Mzc3LDU3MTAyMzEwMiwzNjU2NT
 cyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYs
 MTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2Mj
 U1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0
