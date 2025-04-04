@@ -704,18 +704,20 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 **Stetige Wahrscheinlichkeitsverteilung**
 - nicht möglich einzelnen Ergebnissen eine W'keit zuzordnen, es geht nur noch **W'keiten für Intervalle**
 - Anstatt einer Wahrscheinlichkeitsfunktion p(x) gibt es eine **Dichtefunktion $f_X(x)$**
-	- Fläche unter der Wahrscheinlichkeitsdichte beträgt 1
+	- Fläche unter der Wahrscheinlichkeitsdichte beträgt 1 $\int^\infty_{-\infty} f_X(x) dx$
 	- Diese Dichten beschreiben die Verteilung unendlicher Ergebnisse
 	- Werte von $f_X(x)$ sind **keine** W'keiten sondern W'keitendichten! 
 	- $f_X(x)$ beschreibt die Form der Verteilung der ZV X
 	- Wenn X als steitg gilt, dann ist P(X=c) = 0für ein beliebiges c im Intervall von X
 	- $f_X(x) \ge 0$ kann Werte grösser als 1 annehmen, nimmt aber keine negative Werte an
+	- $f_X(x)$ ist stückweise stetig
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2OTE2MDU0LDEyMDM4NzczMzksMTI0ND
-IxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgw
-LC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04Mj
-Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
-NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
-I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
-MTg0MjRdfQ==
+eyJoaXN0b3J5IjpbMTY0MDQxNDk3MywxMjAzODc3MzM5LDEyND
+QyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4
+MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtOD
+I0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0
+NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC
+0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1
+NzE4NDI0XX0=
 -->
