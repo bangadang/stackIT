@@ -708,13 +708,14 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 	- Diese Dichten beschreiben die Verteilung unendlicher Ergebnisse
 	- Werte von $f_X(x)$ sind **keine** W'keiten sondern W'keitendichten! 
 	- $f_X(x)$ beschreibt die Form der Verteilung der ZV X
-	- 
+	- Wenn X als steitg gilt, dann ist P(X=c) = 0für ein beliebiges c im Intervall von X
+	- $f_X(x)$ kann Werte grösser als 1 annehmen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ0MDIxODAsMTIwMzg3NzMzOSwxMj
-Q0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4
-ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLT
-gyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1
-NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMS
-wtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQz
-NTcxODQyNF19
+eyJoaXN0b3J5IjpbMTI1NDQ2NTE1OCwxMjAzODc3MzM5LDEyND
+QyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4
+MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtOD
+I0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0
+NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC
+0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1
+NzE4NDI0XX0=
 -->
