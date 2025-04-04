@@ -727,7 +727,7 @@ Frage: Ist f(x) wirklich eine Dichte?
 - Funktion is stückweise stetig
 - Fläche im Intervall [-1, 1] ist gleich 1
 
-### Wahrscheinlichkeitsdichten über bestimmte Bereiche
+### Wahrscheinlichkeiten über bestimmte Bereiche
 Wahrscheinlichkeiten werden als Integrale über bestimmte Bereiche berechnet:
 $$P(a \le X\le b)= \int^b_{a} f_X(x) dx$$
 Für stetige Zufallsvariablen gilt:
@@ -780,11 +780,11 @@ mit $E(X^2)\int_{-\infty}^\infty x^2\cdot f_X(x) dx$
 ### Median F(x) = 0.5
 ### Modus $max(f_X(x))$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MT
-AyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQw
-LDE1NDMyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMz
-M3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEz
-OSwtMTEzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0Ni
-wtODI3NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5
-MTY4XX0=
+eyJoaXN0b3J5IjpbLTQ0ODg2OTkxNCw1NjA5MzM1MTksLTE2Mj
+IwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3MzM5
+LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NT
+I5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUx
+NSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC
+0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LDk5OTg1
+OTExXX0=
 -->
