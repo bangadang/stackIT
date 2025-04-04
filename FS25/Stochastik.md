@@ -738,12 +738,18 @@ $P(a \lt X\lt b)$
 
 ### Kumulative Verteilungsfunktion
 $$F_X(x)= P(X \le x)=\int^x_{-\infty}f_X(z) dz$$
+
+**Eigenschaften**:
+- Verteilungsfunktion ist für stetige Verteilungen stetig.
+- Die Dichtefunktion f(x) ergibt sich als Ableitung der Verteilungsfunktion F (in allen Punkten in denen diese
+differenzierbar ist):
+$$f_X(x) = F_X'()$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5OTY1Mzc3LDU3MTAyMzEwMiwzNjU2NT
-cyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYs
-MTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2Mj
-U1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0
-NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LD
-E5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQx
-OTcwXX0=
+eyJoaXN0b3J5IjpbMTM5ODM5OTY0Niw1NzEwMjMxMDIsMzY1Nj
+U3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2
+LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNj
+I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
+NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
+wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
+MTk3MF19
 -->
