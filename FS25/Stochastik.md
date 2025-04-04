@@ -674,6 +674,7 @@ X ∼ Pois(32)
 dpois(k, lambda = lambda)
 ppois(x, lambda = lambda) #Verteilugnsfunktion
 qpois(alpha, lambda)
+rpois(n-simulationen, lambda)
 #Wie gross ist die Wahrscheinlichkeit, dass in einer Stunde zwischen 30 und 35 Kunden am Postschalter eintreffen?
 sum(dpois(30:35, lambda = 32))
 #Welche Kundenanzahl (weniger oder gleich viel) treffen mit 10% Wahrscheinlichkeit in einer Stunde am Postschalter ein?
@@ -735,12 +736,14 @@ $P(a \lt X\le b)=$
 $P(a \le X\lt b)=$
 $P(a \lt X\lt b)$
 
+### Kumulative Verteilungsfunktion
+$$F_X(x = P(X \le x))$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzOD
-c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
-LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
-U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
-NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LD
-k5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQy
-MDM1MjFdfQ==
+eyJoaXN0b3J5IjpbMjc4NzI0MTQ1LDU3MTAyMzEwMiwzNjU2NT
+cyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYs
+MTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2Mj
+U1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0
+NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LD
+E5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQx
+OTcwXX0=
 -->
