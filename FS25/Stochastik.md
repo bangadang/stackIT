@@ -769,13 +769,13 @@ $$\mu = E(X) = \int_{-\infty}^\infty x\cdot f_X(x) dx$$
 (Im Vergleich zum diskreten Fall wurde die Summe durch ein Integral und die Wahrscheinlichkeitsfunktion p(x ) durch die Dichte f (x ) ersetzt.)
 
 ### Varianz von $f_X(x)$
-
+Die varianz ist ein **Streuungsmass** einer Zufallsvariablen. Sie gibt die erwartete quadratische Abweichung der Zufallsvariable X von ihrem Erwartungswert an, d.h. es wird **durch die Breite der Verteilung** bestimmt.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2OTY5NTA4Niw1NzEwMjMxMDIsMzY1Nj
-U3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2
-LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNj
-I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
-NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
-wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
-MTk3MF19
+eyJoaXN0b3J5IjpbLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NT
+Y1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcw
+NiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMj
+YyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5
+NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OT
+gsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQz
+NDE5NzBdfQ==
 -->
