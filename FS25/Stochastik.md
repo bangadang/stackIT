@@ -646,10 +646,15 @@ dhyper(0, 27, 973, 30)
 ```
 
 ### Poisson Verteilung
-Für Vorfälle, die im Laufe der Zeit eintreten und sich an einem bestimmten Ort ereignen
-
+Für Vorfälle, die im Laufe der Zeit eintreten und sich an einem bestimmten Ort ereignen.
+X = Anzahl Ereignisse pro Zeiteinheit/Gebiet
+Bsp:
+- Unfälle in einer Fabrik, auf Strassen, oder anderswo pro Jahr
+- Defekte in Geräten, an Fahr- oder Flugzeugen pro Woche
+- Das Eintreffen von Kunden an einem Schalter in einer Stunde
+$$$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzUxNzMyOCwxMjQ0MjE2MjQwLDE1ND
+eyJoaXN0b3J5IjpbLTYzMTcyMzg0NiwxMjQ0MjE2MjQwLDE1ND
 MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
 NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
 EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
