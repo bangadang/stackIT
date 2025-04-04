@@ -762,16 +762,20 @@ F(x) = \begin{cases}
 \end{cases}
 $$
 
-### Erwartungswert und Varianz von $f_X(x)$
+### Erwartungswert von $f_X(x)$
 Der Erwartungswert für stetige Zufallsvariablen entspricht dem, *was man im Schnitt, bei unendlich vielen Realisierungen, erhalten würde*.
 Er ist ein **Lagemass** für die Zufallsvariable und entspricht geometrisch dem **Schwerpunkt (in x-Richtung)** der Wahrscheinlichkeitsdichte.
-$$\mu = E(X) = \int_{-\infty}^\infty x\cdot f_X(x)$$
+$$\mu = E(X) = \int_{-\infty}^\infty x\cdot f_X(x) dx$$
+(Im Vergleich zum diskreten Fall wurde die Summe durch ein Integral und die Wahrscheinlichkeitsfunktion p(x ) durch die Dichte f (x ) ersetzt.)
+
+### Varianz von $f_X(x)$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyOTM3NTY2LDU3MTAyMzEwMiwzNjU2NT
-cyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYs
-MTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2Mj
-U1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0
-NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LD
-E5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQx
-OTcwXX0=
+eyJoaXN0b3J5IjpbMTQ2OTY5NTA4Niw1NzEwMjMxMDIsMzY1Nj
+U3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2
+LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNj
+I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
+NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
+wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
+MTk3MF19
 -->
