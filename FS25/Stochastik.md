@@ -658,13 +658,14 @@ $$P(X=k)=\frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 Die Rate mit welcher die Ereignisse, in vorgegebener Zeiteinheit und/oder Gebiet eintreffen
 ### Eigenschaften
 - Ergebnisraum ist abzählbar unendlich ohne klar definierte Obergrenze
+- $E(x) = \lambda$  innerhalb einer Zeit und/oder Flächen-Einheit λ Ereignissezu erwa
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTM2MzIzNCwxMjQ0MjE2MjQwLDE1ND
-MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
-NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
-EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
-NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC
-0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIx
-MjU0MjgyXX0=
+eyJoaXN0b3J5IjpbLTExNTA4ODQ3MjEsMTI0NDIxNjI0MCwxNT
+QzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIz
+NTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLT
+ExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgy
+NzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OC
+wtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgy
+MTI1NDI4Ml19
 -->
