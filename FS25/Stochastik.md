@@ -690,8 +690,12 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 | bekannte Anzahl von n Einzelversuchen, d.h. Wertebereich von X: {0, .., n} | Grösse der Population ist unbekannt, keine deinierte Obergrenze |
 | Erfolgswahrscheinlichkeit p für den Einzelnversuch | Rata $\llambda$, mit welcher das Ereignis auftritt |
 
+- Anzahl Wahlberechtigter, die bei einer Umfrage unter 5000 Personen eine Gesetzesvorlage befürworten. (Bin)
+- Anzahl Schadensfälle einer Versicherung pro Jahr. (Poi)
+- Anzahl Kunden, die einen Kredit beantragen pro Jahr (Poi).
+- Anzahl Fahrzeuge, die bei einer Kontrolle von 100 angehaltenen Fahrzeugen beanstandet werden müssen. (Bin)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0OTU1MDUwLDEyNDQyMTYyNDAsMTU0Mz
+eyJoaXN0b3J5IjpbODEyNDA1MzMxLDEyNDQyMTYyNDAsMTU0Mz
 IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
 LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMT
 MxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2
