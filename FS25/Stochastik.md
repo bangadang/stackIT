@@ -703,9 +703,10 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 
 **Stetige Wahrscheinlichkeitsverteilung**
 - nicht möglich einzelnen Ergebnissen eine W'keit zuzordnen, es geht nur noch **W'keiten für Intervalle**
-- Anstatt einer Wahrscheinlichkeitsfunktion p(x) gibt es eine Dichtefunktion $f_X(x)$
+- Anstatt einer Wahrscheinlichkeitsfunktion p(x) gibt es eine **Dichtefunktion $f_X(x)$**
+	- Fläche unter der Wahrscheinlichkeitsdichte beträgt 1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDg1ODg5LDEyMDM4NzczMzksMTI0ND
+eyJoaXN0b3J5IjpbMjY5MDQxMDkzLDEyMDM4NzczMzksMTI0ND
 IxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgw
 LC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04Mj
 Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
