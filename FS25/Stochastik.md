@@ -645,7 +645,7 @@ Mit welcher Wahrscheinlichkeit sind die Schrauben in der Stichprobe alle in Ordn
 dhyper(0, 27, 973, 30)
 ```
 
-## Poisson Verteilung X ~
+## Poisson Verteilung X ~ Pois($\lambda$)
 Für Vorfälle, die im Laufe der Zeit eintreten und sich an einem bestimmten Ort ereignen.
 X = Anzahl Ereignisse pro Zeiteinheit/Gebiet
 Bsp:
@@ -653,14 +653,16 @@ Bsp:
 - Defekte in Geräten, an Fahr- oder Flugzeugen pro Woche
 - Das Eintreffen von Kunden an einem Schalter in einer Stunde
 
-
 $$P(X=k)=\frac{\lambda ^k e^{(-\lambda)}}{k!}$$
+### Parameter $\lambda$
+Die Rate mit welcher die Ereignisse, in vorgegebener Zeiteinheit und/oder Gebiet eintreffen
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTkyMjM4NywxMjQ0MjE2MjQwLDE1ND
-MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
-NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
-EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
-NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC
-0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIx
-MjU0MjgyXX0=
+eyJoaXN0b3J5IjpbLTEwNDk1NjQwMzQsMTI0NDIxNjI0MCwxNT
+QzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIz
+NTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLT
+ExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgy
+NzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OC
+wtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgy
+MTI1NDI4Ml19
 -->
