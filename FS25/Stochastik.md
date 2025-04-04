@@ -757,12 +757,12 @@ $$
 $$
 F(x) = \begin{cases}
 0 & \text{falls } x < -1 \\
-\int_{-1}^{x} \left( -\frac{3}{4}z^2 + \frac{3}{4} \right) \, dz & \text{falls } -1 \leq x \leq 1 \\
+\frac{1}{4}(-x^3+3x+2) & \text{falls } -1 \leq x \leq 1 \\
 1 & \text{falls } x > 1
 \end{cases}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzYyNzg3MSw1NzEwMjMxMDIsMzY1Nj
+eyJoaXN0b3J5IjpbLTUyMTcyMDUwMiw1NzEwMjMxMDIsMzY1Nj
 U3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2
 LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNj
 I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
