@@ -673,13 +673,18 @@ X ∼ Pois(32)
 ```r
 dpois(k, lambda = lambda)
 ppois(x, lambda = lambda) #Verteilugnsfunktion
+qpois(alpha, lambda)
+#Wie gross ist die Wahrscheinlichkeit, dass in einer Stunde zwischen 30 und 35 Kunden am Postschalter eintreffen?
+sum(dpois(30:35, lambda = 32))
+#Welche Kundenanzahl (weniger oder gleich viel) treffen mit 10% Wahrscheinlichkeit in einer Stunde am Postschalter ein?
+qpois(0.1, lambda = 32)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTM0NDk0MTUsMTI0NDIxNjI0MCwxNT
-QzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIz
-NTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLT
-ExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgy
-NzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OC
-wtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3MTg0MjQsLTgy
-MTI1NDI4Ml19
+eyJoaXN0b3J5IjpbMTIzNjk3ODEzMSwxMjQ0MjE2MjQwLDE1ND
+MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
+NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
+EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
+NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC
+0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIx
+MjU0MjgyXX0=
 -->
