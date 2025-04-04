@@ -727,13 +727,17 @@ Frage: Ist f(x) wirklich eine Dichte?
 - Fläche im Intervall [-1, 1] ist gleich 1
 
 ### Wahrscheinlichkeitsdichten über bestimmte Bereiche
+Wahrscheinlichkeiten werden als Integrale über bestimmte Bereiche berechnet:
 $$P(a \le X\le b)= \int^b_{a} f_X(x) dx$$
+Für stetige Zufallsvariablen gilt:
+$P(a \le X\le b)=$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI3NjMwNzMsMzY1NjU3Mjk4LDEyMD
-M4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0
-MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMj
-A4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUz
-MDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwND
-csOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3
-NDIwMzUyMV19
+eyJoaXN0b3J5IjpbNjMzMDIzMTk2LDM2NTY1NzI5OCwxMjAzOD
+c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
+LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
+U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
+NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LD
+k5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQy
+MDM1MjFdfQ==
 -->
