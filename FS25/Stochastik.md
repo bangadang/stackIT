@@ -731,9 +731,12 @@ Wahrscheinlichkeiten werden als Integrale über bestimmte Bereiche berechnet:
 $$P(a \le X\le b)= \int^b_{a} f_X(x) dx$$
 Für stetige Zufallsvariablen gilt:
 $P(a \le X\le b)=$
+$P(a \lt X\le b)=$
+$P(a \le X\lt b)=$
+$P(a \lt X\lt b)$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMDIzMTk2LDM2NTY1NzI5OCwxMjAzOD
+eyJoaXN0b3J5IjpbNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzOD
 c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
 LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
 U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
