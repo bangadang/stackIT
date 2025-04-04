@@ -721,13 +721,16 @@ f(x) = \begin{cases}
 0 & \text{sonst}
 \end{cases}
 $$
-Frage is
+Frage: Ist f(x) wirklich eine Dichte?
+- Der Wertebereich von f ist grösser gleich 0
+- Funktion is stückweise stetig
+- Fläche im Intervall [-1, 1] ist gleich 1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjExNjIxNywzNjU2NTcyOTgsMTIwMz
-g3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQx
-LC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMD
-g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
-OTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Ny
-w5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0
-MjAzNTIxXX0=
+eyJoaXN0b3J5IjpbLTE2NjY0MzYyNTcsMzY1NjU3Mjk4LDEyMD
+M4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0
+MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMj
+A4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUz
+MDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwND
+csOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3
+NDIwMzUyMV19
 -->
