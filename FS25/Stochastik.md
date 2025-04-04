@@ -694,12 +694,14 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 - Anzahl Schadensfälle einer Versicherung pro Jahr. (Poi)
 - Anzahl Kunden, die einen Kredit beantragen pro Jahr (Poi).
 - Anzahl Fahrzeuge, die bei einer Kontrolle von 100 angehaltenen Fahrzeugen beanstandet werden müssen. (Bin)
+
+## Stetige Wahrscheinlichkeitsverteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyNDA1MzMxLDEyNDQyMTYyNDAsMTU0Mz
-IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
-LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMT
-MxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2
-MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLT
-EyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEy
-NTQyODJdfQ==
+eyJoaXN0b3J5IjpbMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1ND
+MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
+NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
+EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
+NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC
+0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIx
+MjU0MjgyXX0=
 -->
