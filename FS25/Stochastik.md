@@ -699,9 +699,12 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 
 **Stetige Zufallsvariable**:
 - X kann jeden **beliebigen Wert** einer Intervalls annehmen
-- 
+- Anwendung überall dort, wo gemessen wird
+
+**Stetige Wahrscheinlichkeitsverteilung**
+- nicht möglich einzelnen Ergebnissen eine W'keit zuzordnen, es geht nur noch **W'keiten für Intrvalle***
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDU2ODM3OCwxMjAzODc3MzM5LDEyND
+eyJoaXN0b3J5IjpbLTk5NTkzODg5NCwxMjAzODc3MzM5LDEyND
 QyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4
 MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtOD
 I0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0
