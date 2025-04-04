@@ -662,6 +662,7 @@ Die Rate mit welcher die Ereignisse, in vorgegebener Zeiteinheit und/oder Gebiet
 - $Var(x) = \lambda$
 - Für kleine λ stark rechtsschief.
 -  Je grösser λ, desto symmetrischer. Generell gute Symmetrie ab λ > 10
+- Verteilungsfunktion $F(x) = P(X \le x)= \Sigma^x_{k=0}\frac{\lambda ^k e^{(-\lambda)}}{k!}$
 
 **Bsp**:
 - Wenn X die Anzahl tödliche Verkehrsunfälle pro Jahr in der Schweiz beschreibt, so gilt bei durchschnittlich 230 tödlichen Unfällen
@@ -671,9 +672,10 @@ X ∼ Pois(32)
 
 ```r
 dpois(k, lambda = lambda)
+ppois(x, lambda = lambda) #Verteilugnsfunktion
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE5NTExNDcsMTI0NDIxNjI0MCwxNT
+eyJoaXN0b3J5IjpbLTE0MTM0NDk0MTUsMTI0NDIxNjI0MCwxNT
 QzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIz
 NTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLT
 ExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgy
