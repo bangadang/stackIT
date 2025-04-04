@@ -713,12 +713,21 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 	- $f_X(x)$ ist stückweise stetig
 
 **Bsp**:
+Sei X die Abweichung in cl beim Abfüllen einer 33cl Flasche.
+Wir nehmen an, dass X die folgende Dichte hat:
+$$
+f(x) = \begin{cases}
+-\frac{3}{4}x^2 + \frac{3}{4} & \text{für } -1 \leq x \leq 1 \\
+0 & \text{sonst}
+\end{cases}
+$$
+Frage is
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2MzA2NjA4LDM2NTY1NzI5OCwxMjAzOD
-c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
-LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
-U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
-NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LD
-k5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQy
-MDM1MjFdfQ==
+eyJoaXN0b3J5IjpbMTI4NjExNjIxNywzNjU2NTcyOTgsMTIwMz
+g3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQx
+LC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMD
+g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
+OTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LDE5MTUxNTA0Ny
+w5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQxOTcwLC0xMjc0
+MjAzNTIxXX0=
 -->
