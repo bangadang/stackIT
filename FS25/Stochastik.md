@@ -646,10 +646,10 @@ dhyper(0, 27, 973, 30)
 ```
 
 ### Poisson Verteilung
-
+Für Vorfälle, die im Laufe der Zeit eintreten und sich an einem bestimmten Ort ereignen
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTkyMDg5MywxMjQ0MjE2MjQwLDE1ND
+eyJoaXN0b3J5IjpbLTI5NzUxNzMyOCwxMjQ0MjE2MjQwLDE1ND
 MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
 NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
 EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
