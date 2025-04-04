@@ -744,12 +744,29 @@ $$F_X(x)= P(X \le x)=\int^x_{-\infty}f_X(z) dz$$
 - Die Dichtefunktion f(x) ergibt sich als Ableitung der Verteilungsfunktion F (in allen Punkten in denen diese
 differenzierbar ist):
 $$f_X(x) = F_X'(x) = \frac{d}{dx}F_X(x)$$
+
+**Bsp Flasche**:
+$$F_X(x) = P(X \le x)=\int^x_{-\infty}f_X(z) d$$
+$$
+F(x) = \begin{cases}
+0 & \text{falls } x < -1 \\
+\int_{-1}^{x} \left( -\frac{3}{4}z^2 + \frac{3}{4} \right) \, dz & \text{falls } -1 \leq x \leq 1 \\
+1 & \text{falls } x > 1
+\end{cases}
+$$
+$$
+F(x) = \begin{cases}
+0 & \text{falls } x < -1 \\
+\int_{-1}^{x} \left( -\frac{3}{4}z^2 + \frac{3}{4} \right) \, dz & \text{falls } -1 \leq x \leq 1 \\
+1 & \text{falls } x > 1
+\end{cases}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NzI4OTEzLDU3MTAyMzEwMiwzNjU2NT
-cyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYs
-MTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2Mj
-U1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0
-NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3NjIwNjk4LD
-E5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC0xMjU0MzQx
-OTcwXX0=
+eyJoaXN0b3J5IjpbMTIzNzYyNzg3MSw1NzEwMjMxMDIsMzY1Nj
+U3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2
+LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNj
+I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
+NDQsLTE3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OC
+wxOTE1MTUwNDcsOTk5ODU5MTEsLTI1Nzc5OTE2OCwtMTI1NDM0
+MTk3MF19
 -->
