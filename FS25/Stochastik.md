@@ -711,13 +711,14 @@ $$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
 	- Wenn X als steitg gilt, dann ist P(X=c) = 0für ein beliebiges c im Intervall von X
 	- $f_X(x) \ge 0$ kann Werte grösser als 1 annehmen, nimmt aber keine negative Werte an
 	- $f_X(x)$ ist stückweise stetig
-	- 
+
+**Bsp**:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NjU3Mjk4LDEyMDM4NzczMzksMTI0ND
-IxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgw
-LC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04Mj
-Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
-NTI1NDYsLTgyNzYyMDY5OCwxOTE1MTUwNDcsOTk5ODU5MTEsLT
-I1Nzc5OTE2OCwtMTI1NDM0MTk3MCwtMTI3NDIwMzUyMSw0MzU3
-MTg0MjRdfQ==
+eyJoaXN0b3J5IjpbNTM2MzA2NjA4LDM2NTY1NzI5OCwxMjAzOD
+c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
+LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
+U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
+NDMyLC0yMDU0NjUyNTQ2LC04Mjc2MjA2OTgsMTkxNTE1MDQ3LD
+k5OTg1OTExLC0yNTc3OTkxNjgsLTEyNTQzNDE5NzAsLTEyNzQy
+MDM1MjFdfQ==
 -->
