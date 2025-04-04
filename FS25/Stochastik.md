@@ -681,9 +681,12 @@ qpois(0.1, lambda = 32)
 ```
 **Bmk**:
 Was passiert mit der Binominal Verteilung wenn $n \rarr \infty$ und $p \rarr 0$
--Erwartungswert bleibt konstant $E(X) = $
+-Erwartungswert bleibt konstant $E(X) = n\cdot p = \lambda$
+$$\lim_{n \rarr \infty} P(X=k) = \frac{\lambda ^k e^{(-\lambda)}}{k!}$$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjMxNzkyOSwxMjQ0MjE2MjQwLDE1ND
+eyJoaXN0b3J5IjpbMTY3NzA1MDEzNSwxMjQ0MjE2MjQwLDE1ND
 MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
 NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
 EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
