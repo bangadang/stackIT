@@ -761,8 +761,10 @@ F(x) = \begin{cases}
 1 & \text{falls } x > 1
 \end{cases}
 $$
+
+### Erwarrtungswert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTcyMDUwMiw1NzEwMjMxMDIsMzY1Nj
+eyJoaXN0b3J5IjpbMTE1OTA0NjI5Nyw1NzEwMjMxMDIsMzY1Nj
 U3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2
 LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNj
 I1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2
