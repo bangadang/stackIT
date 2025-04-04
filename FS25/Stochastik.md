@@ -680,13 +680,14 @@ sum(dpois(30:35, lambda = 32))
 qpois(0.1, lambda = 32)
 ```
 **Bmk**:
-Was passiert wenn $n \rarr \$
+Was passiert mit der Binominal Verteilung wenn $n \rarr \infty$ und $p \rarr 0$
+-Erwartungswert bleibt konstant $E(X) = $
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Njc2NDk0LDEyNDQyMTYyNDAsMTU0Mz
-IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
-LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMT
-MxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2
-MjA2OTgsMTkxNTE1MDQ3LDk5OTg1OTExLC0yNTc3OTkxNjgsLT
-EyNTQzNDE5NzAsLTEyNzQyMDM1MjEsNDM1NzE4NDI0LC04MjEy
-NTQyODJdfQ==
+eyJoaXN0b3J5IjpbMTg4MjMxNzkyOSwxMjQ0MjE2MjQwLDE1ND
+MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
+NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
+EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
+NjIwNjk4LDE5MTUxNTA0Nyw5OTk4NTkxMSwtMjU3Nzk5MTY4LC
+0xMjU0MzQxOTcwLC0xMjc0MjAzNTIxLDQzNTcxODQyNCwtODIx
+MjU0MjgyXX0=
 -->
