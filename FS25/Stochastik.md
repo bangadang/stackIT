@@ -833,13 +833,19 @@ lambda <- 3.6/600 # umgerechnet auf 0.1s
 # Kunden pro Zehntelsekunde
 Kunden <- rpois(n, lambda = lambda)
 plot(1:n, Kunden, type = "h")
+
+# Wartezeit in Minuten
+Wartezeiten <- diff((1:n)[Kunden > 0])/600
+head(round(Wartezeiten,2))
+[1] 0.11 0.07 0.19 0.36 0.11 0.36
+hist(Wartezeiten, freq = FALSE)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjM2MDY4OCwxOTQ1MjExNDg5LDk5OD
-k5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5
-LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMz
-g3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQx
-LC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMD
-g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
-OTQzMl19
+eyJoaXN0b3J5IjpbMzgwMzk3NTI1LDE5NDUyMTE0ODksOTk4OT
+kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTks
+LTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzOD
+c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
+LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
+U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
+NDMyXX0=
 -->
