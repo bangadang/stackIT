@@ -817,13 +817,15 @@ runif(n= n, min = a, max = b)
 **Beispiele**
 - Regen fällt auf einen 100cm langen Randstein. Der Ort des Aufpralls X ∼ Unif([0,100])
 - Rundungsfehler bei der Zeugnisnote, d.h. wenn man auf halbe Noten genau rundet. Z = “Rundungsfehler.” Y ∼ Unif([-0.25,0.25])
+
 ## Exponentialverteilung
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mz
-c2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUz
-OSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzksMTI0ND
-IxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgw
-LC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUwNTE1LC04Mj
-Q4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUzMDk0MzIsLTIwNTQ2
-NTI1NDZdfQ==
+eyJoaXN0b3J5IjpbMzUyNTczODg1LDE5NDUyMTE0ODksOTk4OT
+kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTks
+LTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzOD
+c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
+LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
+U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
+NDMyXX0=
 -->
