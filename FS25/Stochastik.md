@@ -781,14 +781,14 @@ mit $E(X^2)\int_{-\infty}^\infty x^2\cdot f_X(x) dx$
 ### Modus $max(f_X(x))$
 
 ## Uniformverteilung
-
+Bei der Uniformverteilung (auch stetige Gleichverteilung) treten alle Werte gleich oft ein. 
 ## Exponentialverteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MD
-kzMzUxOSwtMTYyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4
-LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OT
-IyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2
-MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLT
-E3MzUzMDk0MzIsLTIwNTQ2NTI1NDYsLTgyNzYyMDY5OCwxOTE1
-MTUwNDddfQ==
+eyJoaXN0b3J5IjpbMTM4NDA2MjA5LDEyNTM3NjU1MSwtMTA1Mj
+YzMzY3NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAy
+LDM2NTY1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0Mz
+IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
+LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMT
+MxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2
+MjA2OThdfQ==
 -->
