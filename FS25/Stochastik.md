@@ -782,13 +782,22 @@ mit $E(X^2)\int_{-\infty}^\infty x^2\cdot f_X(x) dx$
 
 ## Uniformverteilung
 Bei der Uniformverteilung (auch stetige Gleichverteilung) treten alle Werte gleich oft ein. 
+- Dichtefunktion 
+$$
+f(x) = \begin{cases}
+0 & \text{falls } x < a \\
+\frac{1}{b-a} & \text{falls } a \leq x \leq b \\
+0 & \text{falls } x > b
+\end{cases}
+$$
+-Verteilungsfunktion
 ## Exponentialverteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDA2MjA5LDEyNTM3NjU1MSwtMTA1Mj
-YzMzY3NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAy
-LDM2NTY1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0Mz
-IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
-LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMT
-MxMzk5NjQ0LC0xNzM1MzA5NDMyLC0yMDU0NjUyNTQ2LC04Mjc2
-MjA2OThdfQ==
+eyJoaXN0b3J5IjpbMTYwMTkyNTM3NCwxMjUzNzY1NTEsLTEwNT
+I2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEw
+MiwzNjU2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1ND
+MyMzg3MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1
+NCwtMTI2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMT
+EzMTM5OTY0NCwtMTczNTMwOTQzMiwtMjA1NDY1MjU0NiwtODI3
+NjIwNjk4XX0=
 -->
