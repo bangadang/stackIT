@@ -850,18 +850,19 @@ f(x) = \begin{cases}
 \end{cases}
 $$
 - Je grösser $\lambda$ desto grösser ist der Abfall der exponentiellen Kurve
-- Verteilungsfunktion $$f(x) = \begin{cases}
-\lambda e^{-\lambda x} & \text{falls } x \geq 0 \\
+- Verteilungsfunktion $$F(x) = P(X\leq x) = \begin{cases}
+1- e^{-\lambda x} & \text{falls } x \geq 0 \\
 0 & \text{falls } x \lt 0 
 \end{cases}
 $$
+- Erwartungswert $E(X)=\$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OT
-g5OTM0NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUx
-OSwtMTYyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMD
-M4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0
-MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMj
-A4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUz
-MDk0MzJdfQ==
+eyJoaXN0b3J5IjpbLTQ0NzAzOTM2MywtMTQ0NTMxMDM4NiwxOT
+Q1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2
+NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNj
+U2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3
+MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMT
+I2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5
+OTY0NF19
 -->
