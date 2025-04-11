@@ -824,9 +824,18 @@ X = “Anzahl eintreffender Personen pro Minute” kann mit Pois(λ = 3.6)
 modelliert werden.
 **Gesucht: Y = “Zeitdauer bis nächste Person eintrifft”**
 Y ist eine stetige Zufallsvariable mit stetiger Verteilung.
-1. Wartezeit simulieren:  Eintreffen von Kunden (Pois(λ = 3.6)) in einer kleinen Zeiteinheit (Zehntelsekunde =0.1 s)
+
+Wartezeit simulieren:  Eintreffen von Kunden (Pois(λ = 3.6)) in einer kleinen Zeiteinheit von 0.1 s, s.d. nie 2 Kunden gleichzeitig eintreffen.  
+```r
+set.seed(11)
+n <- 20*60*10 # 20 Minuten in 0.1s
+lambda <- 3.6/600 # umgerechnet auf 0.1s
+# Kunden pro Zehntelsekunde
+Kunden <- rpois(n, lambda = lambda)
+plot(1:n, Kunden, type = "h")
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzg0NjQyOSwxOTQ1MjExNDg5LDk5OD
+eyJoaXN0b3J5IjpbLTQxMjM2MDY4OCwxOTQ1MjExNDg5LDk5OD
 k5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5
 LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMz
 g3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQx
