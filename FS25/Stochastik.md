@@ -855,14 +855,25 @@ $$
 0 & \text{falls } x \lt 0 
 \end{cases}
 $$
-- Erwartungswert $E(X)=\$
+- Erwartungswert $E(X)=\frac{1}{\lambda}$
+- Varianz$Var(X)=\frac{1}{\lambda ^2}$
 
+```r
+dexp(x = x, rate = lambda)
+# P(X ≤ x )
+# P(x ≤ X ≤ y ) :
+# P(X > x ) :
+
+pexp(q = x, rate = lambda)
+pexp(q = y, rate= lambda) - pexp(q= x, rate= lambda)
+1 - pexp(q = x, rate = lambda)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzAzOTM2MywtMTQ0NTMxMDM4NiwxOT
-Q1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2
-NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNj
-U2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3
-MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMT
-I2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5
-OTY0NF19
+eyJoaXN0b3J5IjpbLTIxMTg5ODEyODIsLTE0NDUzMTAzODYsMT
+k0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mzc2NTUxLC0xMDUyNjMz
+Njc0LDU2MDkzMzUxOSwtMTYyMjA4NzUzOSw1NzEwMjMxMDIsMz
+Y1NjU3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4
+NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLT
+EyNjI1NTY2MDQsMjA4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEz
+OTk2NDRdfQ==
 -->
