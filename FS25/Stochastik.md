@@ -819,13 +819,18 @@ runif(n= n, min = a, max = b)
 - Rundungsfehler bei der Zeugnisnote, d.h. wenn man auf halbe Noten genau rundet. Z = “Rundungsfehler.” Y ∼ Unif([-0.25,0.25])
 
 ## Exponentialverteilung
-
+**einleitendes Beispiel**: An einem Schalter (z.B. in der Bahnhof-Apotheke in Winterhur) treffen im langfristigen Schnitt 3.6 Personen pro Minute ein.
+X = “Anzahl eintreffender Personen pro Minute” kann mit Pois(λ = 3.6)
+modelliert werden.
+**Gesucht: Y = “Zeitdauer bis nächste Person eintrifft”**
+Y ist eine stetige Zufallsvariable mit stetiger Verteilung.
+1. Wartezeit simulieren:  Eintreffen von Kunden (Pois(λ = 3.6)) in einer kleinen Zeiteinheit (Zehntelsekunde =0.1 s)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNTczODg1LDE5NDUyMTE0ODksOTk4OT
-kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTks
-LTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzOD
-c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
-LTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwOD
-U1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5NjQ0LC0xNzM1MzA5
-NDMyXX0=
+eyJoaXN0b3J5IjpbMTUzMzg0NjQyOSwxOTQ1MjExNDg5LDk5OD
+k5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5
+LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMz
+g3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQx
+LC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMD
+g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
+OTQzMl19
 -->
