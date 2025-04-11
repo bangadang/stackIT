@@ -818,7 +818,7 @@ runif(n= n, min = a, max = b)
 - Regen fällt auf einen 100cm langen Randstein. Der Ort des Aufpralls X ∼ Unif([0,100])
 - Rundungsfehler bei der Zeugnisnote, d.h. wenn man auf halbe Noten genau rundet. Z = “Rundungsfehler.” Y ∼ Unif([-0.25,0.25])
 
-## Exponentialverteilung X~Exp($\lam$)
+## Exponentialverteilung X~Exp($\lambda$)
 **einleitendes Beispiel**: An einem Schalter (z.B. in der Bahnhof-Apotheke in Winterhur) treffen im langfristigen Schnitt 3.6 Personen pro Minute ein.
 X = “Anzahl eintreffender Personen pro Minute” kann mit Pois(λ = 3.6)
 modelliert werden.
@@ -843,19 +843,21 @@ hist(Wartezeiten, freq = FALSE)
 
 ### Definition
 geeignetes Modell für Wartezeiten zwischen dem unabhängigen Eintreffen von Ereignissen.
-- Dichtefunktion $$
+- Dichtefunktion mit Wertebereich [0,$\infty$[$$
 f(x) = \begin{cases}
 \lambda e^{-\lambda x} & \text{falls } x \geq 0 \\
 0 & \text{falls } x \lt 0 
 \end{cases}
 $$
+- Je grösser $\lambda$ desto grösser ist der Abfall der exponentiellen Kurve
+- Verteilungsfunktion 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQwNDM4NTksMTk0NTIxMTQ4OSw5OT
-g5OTM0NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUx
-OSwtMTYyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMD
-M4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0
-MSwtNDU1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMj
-A4NTUwNTE1LC04MjQ4NzcxMzksLTExMzEzOTk2NDQsLTE3MzUz
-MDk0MzJdfQ==
+eyJoaXN0b3J5IjpbLTgzNDYzNzc3MSwxOTQ1MjExNDg5LDk5OD
+k5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5
+LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMz
+g3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQx
+LC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMD
+g1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5OTY0NCwtMTczNTMw
+OTQzMl19
 -->
