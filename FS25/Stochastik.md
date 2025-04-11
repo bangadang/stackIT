@@ -857,7 +857,7 @@ $$
 $$
 - Erwartungswert $E(X)=\frac{1}{\lambda}$
 - Varianz$Var(X)=\frac{1}{\lambda ^2}$
-
+- Gedächtnislosigkeit auf, d.h. das Eintreffen des letzten Kunden hat keinen Einfluss auf das Eintreffen aller folgenden Kunden.
 ```r
 dexp(x = x, rate = lambda)
 # P(X ≤ x )
@@ -872,11 +872,11 @@ qexp(p = alpha, rate = lambda)
  rexp(n = n, rate = lambda)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjI1MTg2MSwtMTQ0NTMxMDM4NiwxOT
-Q1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2
-NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNj
-U2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3
-MDYsMTg5MjIwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMT
-I2MjU1NjYwNCwyMDg1NTA1MTUsLTgyNDg3NzEzOSwtMTEzMTM5
-OTY0NF19
+eyJoaXN0b3J5IjpbMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5ND
+UyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3
+NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NT
+Y1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcw
+NiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMj
+YyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5
+NjQ0XX0=
 -->
