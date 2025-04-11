@@ -840,8 +840,18 @@ head(round(Wartezeiten,2))
 [1] 0.11 0.07 0.19 0.36 0.11 0.36
 hist(Wartezeiten, freq = FALSE)
 ```
+
+### Definition
+geeignetes Modell für Wartezeiten zwischen dem unabhängigen Eintreffen von Ereignissen.
+- Dichtefunktion $$
+f(x) = \begin{cases}
+\lambda e^{-\lambda x} & \text{falls } x < -1 \\
+\frac{1}{4}(-x^3+3x+2) & \text{falls } -1 \leq x \leq 1 
+\end{cases}
+$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgwMzk3NTI1LDE5NDUyMTE0ODksOTk4OT
+eyJoaXN0b3J5IjpbMzQyMzE1ODM2LDE5NDUyMTE0ODksOTk4OT
 kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTks
 LTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzOD
 c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEs
