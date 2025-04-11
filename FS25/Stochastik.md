@@ -817,6 +817,7 @@ runif(n= n, min = a, max = b)
 **Beispiele**
 - Regen fällt auf einen 100cm langen Randstein. Der Ort des Aufpralls X ∼ Unif([0,100])
 - Rundungsfehler bei der Zeugnisnote, d.h. wenn man auf halbe Noten genau rundet. Z = “Rundungsfehler.” Y ∼ Unif([-0.25,0.25])
+- X = Wartezeit auf den Bus, welcher exakt alle 8 Minuten fährt. Intuitiv kann man sich überlegen, dass jede Wartezeit im Intervall [0,8] gleich häufig auftritt, wenn man zufällig an die Haltestelle kommt. Damit hat X eine Uniformverteilung: X ∼ Unif([0,8])
 
 ## Exponentialverteilung X~Exp($\lambda$)
 **einleitendes Beispiel**: An einem Schalter (z.B. in der Bahnhof-Apotheke in Winterhur) treffen im langfristigen Schnitt 3.6 Personen pro Minute ein.
@@ -872,11 +873,11 @@ qexp(p = alpha, rate = lambda)
  rexp(n = n, rate = lambda)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5ND
-UyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3
-NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NT
-Y1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcw
-NiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMj
-YyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3MTM5LC0xMTMxMzk5
-NjQ0XX0=
+eyJoaXN0b3J5IjpbLTE5MDc5MzIzOTEsMTkyNTcwNjQ2LC0xND
+Q1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1
+MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNT
+cxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYy
+NDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNT
+EzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1MDUxNSwtODI0ODc3
+MTM5XX0=
 -->
