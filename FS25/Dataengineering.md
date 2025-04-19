@@ -246,8 +246,13 @@ Most info resources are text based unstructured and big in scale
 prepositions, conjunctions, pronouns etc.
 - stopwords add nothing to the relevancy/meaning of a document
 - the removal reduces the size of the vocabulary
+
+### general IR model
+1. representation of a raw **query** text to be used for matching against documents in the collection 
+2. representation of a raw **document** text to be used for matching against the query. May be the same representation as the one used for query 
+3. a function for determining the relevance of documents for the query taking as input document and query representations from (1) and (2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjMyNzE5MiwtMTEwMzEzMDAxMywtMT
+eyJoaXN0b3J5IjpbLTk0NDk2NzU2NywtMTEwMzEzMDAxMywtMT
 k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
 Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OS
 w3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1
