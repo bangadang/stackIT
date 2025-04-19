@@ -246,11 +246,10 @@ Most info resources are text based unstructured and big in scale
 prepositions, conjunctions, pronouns etc.
 - stopwords add nothing to the relevancy/meaning of a document
 - the removal reduces the size of the vocabulary
-- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLT
-I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
-NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
-MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
-MDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTExNjMyNzE5MiwtMTEwMzEzMDAxMywtMT
+k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
+Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OS
+w3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1
+NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
 -->
