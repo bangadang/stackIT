@@ -179,11 +179,12 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- structures
 - the design is also based upon the available information
 	- qualitative data which is used as navigation structure
-	- quantitative data which represent 
+	- quantitative data which represent the subject of the analysis
+ ### dimensions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDU0OTk1MywtMjYyMzU2ODI0LDcwND
-g4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIw
-OTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MD
-g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
-fQ==
+eyJoaXN0b3J5IjpbLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MD
+Q4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3Nzcy
+MDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOT
+A4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5
+XX0=
 -->
