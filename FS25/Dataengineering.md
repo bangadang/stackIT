@@ -139,14 +139,15 @@ most time consuming part od data warehousing, as there is no standard method or 
 			- For example First + Lastname (breaks in case there are two people with the same name)
 		- unsharp dependiencies:  (or **approximate functional dependencies**) are relationships between columns that hold **most of the time**, but not always.
 			- For example a column with zip codes and one with city names. Eventhough often a case a zip code doesn't always represent a specific city. Like Zurich there are different zip codes representig different districts.
-
+	- functional dependencies: One attribute (or a set of attributes) uniquely determines another attribute.
+	- primary key candidates
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NzQ3OTk4OSwxNDg4NTA3Nzg5LC0xMD
-g1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYx
-MTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOT
-gyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwOD
+U0NDcxNTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjEx
+OCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5OD
+IzMTA4NCw3MDk4Mzc4OV19
 -->
