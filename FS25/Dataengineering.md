@@ -141,19 +141,18 @@ most time consuming part od data warehousing, as there is no standard method or 
 			- For example a column with zip codes and one with city names. Eventhough often a case a zip code doesn't always represent a specific city. Like Zurich there are different zip codes representig different districts.
 	- functional dependencies: One attribute (or a set of attributes) uniquely determines another attribute.
 	- primary key candidates
-	- necessity: -   **Measure how trustworthy a dependency is**  
-    → High necessity = good candidate for a business rule or constraint
+	- necessity: 
+		-    **Measure how trustworthy a dependency is** : High necessity = good candidate for a business rule or constraint
     
--   **Detect anomalies or data quality issues**  
-    → Low necessity might mean dirty or inconsistent data
+		-   **Detect anomalies or data quality issues**: Low necessity might mean dirty or inconsistent data
     
--   **Help build schema or transformations**  
-    → You might use a dependency with high necessity to deduplicate, normalize, or infer missing values
+		-   **Help build schema or transformations** :  You might use a dependency with high necessity to deduplicate, normalize, or infer missing values
+	- overlap bewtween attributes of different relations, in order to determine redundancies and possible foreign keys
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3Nzk2MTY1Nyw3MDQ4ODU4NDYsMTQ4OD
+eyJoaXN0b3J5IjpbLTE2ODQ1MDc4Miw3MDQ4ODU4NDYsMTQ4OD
 UwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQw
 NTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMz
 M5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
