@@ -135,13 +135,14 @@ most time consuming part od data warehousing, as there is no standard method or 
 	-  the content and structure of single attributes
 		- data ytpe, value, range, distribution/varinances, if attribute has NULL values, pattern occurences (date patterns)
 	- dependencies between attributes (of a relation):
+		- 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI3NzAwNDgsLTExNzc3MjA5NjYsMj
+eyJoaXN0b3J5IjpbLTEwODU0NDcxNTcsLTExNzc3MjA5NjYsMj
 IyODg0MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4
 MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
