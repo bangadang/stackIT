@@ -251,10 +251,21 @@ prepositions, conjunctions, pronouns etc.
 1. representation of a raw **query** text to be used for matching against documents in the collection 
 2. representation of a raw **document** text to be used for matching against the query. May be the same representation as the one used for query 
 3. a function for determining the relevance of documents for the query taking as input document and query representations from (1) and (2)
+
+formally a generalretrival model is a triple of functions
+1. $f_d$ is a function that maps documents (raw text) to their representation for retrieval, i.e., $f_d(d) = p_d$ , where $p_d$ is the retrieval representation of the document d
+2. fq is a function that maps queries (raw text) to their representation for 
+retrieval, i.e., fq(q) = sq , where sq is the retrieval representation of the 
+document q
+§ depending on the IR model, fd and fq may or may not be the same 
+function 
+3. r is a ranking function which computes a real number indicating the 
+potential relevance of document d for query q, using representations pd
+and sq: rel(d,q) = r(fd(d), fq(q)) = r(pd , sq )
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NDk2NzU2NywtMTEwMzEzMDAxMywtMT
-k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
-Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OS
-w3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1
-NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbNjg2Nzg0MDQsLTExMDMxMzAwMTMsLTE5Nz
+IyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4
+OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNz
+E5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1
+MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
