@@ -173,11 +173,11 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- statistical techniques (linear regression, neural networks )
 
 ## Data Warehouse modelling
-- A data model is designed with the needs of the analysis in mind. Since the analysis 
+- A data model is designed with the needs of the analysis in mind. Since the goal is to gain some knowledge for future (business decisions) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTg2ODI4OSwtMjYyMzU2ODI0LDcwND
-g4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIw
-OTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MD
-g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
-fQ==
+eyJoaXN0b3J5IjpbLTE1MzI2OTgyNjIsLTI2MjM1NjgyNCw3MD
+Q4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3Nzcy
+MDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOT
+A4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5
+XX0=
 -->
