@@ -234,9 +234,10 @@ Most info resources are text based unstructured and big in scale
 	- derivational normalization (destruction to destroy) most IR system do not erform derivational norm.
 
 ### Stemming 
-- stemming is the procedure of reducing the word to its grammatical (morphosyntactic) root ()
+- stemming is the procedure of reducing the word to its grammatical (morphosyntactic) root („recognized” -> „recogniz”, „incredibly” -> „incredibl”) by removing prefixes and suffixes
+	- most common algorithm for stemming is **Porter's algorithm** which consists of different rules to t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMzQ0MzE5LC0xOTcyMjY0ODA2LC0yNj
+eyJoaXN0b3J5IjpbNzE1MzMxMTc0LC0xOTcyMjY0ODA2LC0yNj
 IzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcx
 NTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMj
 Y4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4
