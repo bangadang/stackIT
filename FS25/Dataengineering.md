@@ -204,11 +204,14 @@ Most info resources are text based unstructured and big in scale
 	- Is fast and simple and still yields fairly good results and is the standard of IR represenATION
 - **weakly structured representation**
 	- certain groups of terms receive a weight/ importance, like nouns or named entities and other terms are downgraded or simply ignored like stopwords
-	- uses part of speech tagging or named entitiy re
+	- uses part of speech tagging or named entity recognition 
+	- is more costly as it uses additional preprocessing of the information resurce
+- **structured representation** 
+	- information resoource representat as graphs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDg0NTExMjksLTE5NzIyNjQ4MDYsLT
-I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
-NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
-MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
-MDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTc0ODM4MjE0MCwtMTk3MjI2NDgwNiwtMj
+YyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3
+MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMz
+I2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEw
+ODQsNzA5ODM3ODldfQ==
 -->
