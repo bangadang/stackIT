@@ -239,9 +239,14 @@ Most info resources are text based unstructured and big in scale
 
 ### Expansion  of the query
 - use alternate form of the query words
-	- ery: window search: window, Windows, windows 
+	- query: window search: window, Windows, windows 
+
+### Stopword removal 
+- removal of semantically poor terms such as articles, 
+prepositions, conjunctions, pronouns etc.
+- stopwords add nothing to the relevancy/meaning of a document a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMzcwNjU4NSwtMTk3MjI2NDgwNiwtMj
+eyJoaXN0b3J5IjpbMjA0MDcxOTYzMiwtMTk3MjI2NDgwNiwtMj
 YyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3
 MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMz
 I2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEw
