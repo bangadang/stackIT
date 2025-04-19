@@ -177,11 +177,13 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- performance indicators
 	- measurments of different perspectives/ dimensions
 	- structures
-- the design is also based upon the available infor
+- the design is also based upon the available information
+	- qualitative data which is used as navigation structure
+	- quantitative data which represent 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNDI5MDcxLC0yNjIzNTY4MjQsNzA0OD
-g1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNTcsLTExNzc3MjA5
-NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMTkwOD
-czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
-
+eyJoaXN0b3J5IjpbMTM3NDU0OTk1MywtMjYyMzU2ODI0LDcwND
+g4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIw
+OTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
