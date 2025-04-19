@@ -165,10 +165,11 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- find the missing values by:
 		- analysis and comparison with expected values, 
 		- check if the values are in an expected range
-		- truncat
-
+		- truncate values wih certain if/else conditions
+	- handle the missing values:
+		- estimate a missing value by cho
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTAwMDI5NSwtMjYyMzU2ODI0LDcwND
+eyJoaXN0b3J5IjpbMjEyNDQwNzMzOSwtMjYyMzU2ODI0LDcwND
 g4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIw
 OTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MD
 g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
