@@ -171,10 +171,13 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- estimate a missing value by choosing sth which does not change the average and standard deviation
 		- through attribute dependencies/relationships
 		- statistical techniques (linear regression, neural networks )
+
+## Data Warehouse modelling
+- A data model is designed with the needs of the analysis in mind. Since the analysis 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjU0MDY1OTcsLTI2MjM1NjgyNCw3MD
-Q4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3Nzcy
-MDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOT
-A4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5
-XX0=
+eyJoaXN0b3J5IjpbLTg2MTg2ODI4OSwtMjYyMzU2ODI0LDcwND
+g4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIw
+OTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
