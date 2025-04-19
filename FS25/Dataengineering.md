@@ -235,11 +235,15 @@ Most info resources are text based unstructured and big in scale
 
 ### Stemming 
 - stemming is the procedure of reducing the word to its grammatical (morphosyntactic) root („recognized” -> „recogniz”, „incredibly” -> „incredibl”) by removing prefixes and suffixes
-	- most common algorithm for stemming is **Porter's algorithm** which consists of different rules to t
+	- most common algorithm for stemming is **Porter's algorithm** which consists of different rules to reduce a word
+
+### Expansion  of the query
+- use alternate form of the query words
+	- ery: window search: window, Windows, windows 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1MzMxMTc0LC0xOTcyMjY0ODA2LC0yNj
-IzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcx
-NTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMj
-Y4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4
-NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbMTAwMzcwNjU4NSwtMTk3MjI2NDgwNiwtMj
+YyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3
+MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMz
+I2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEw
+ODQsNzA5ODM3ODldfQ==
 -->
