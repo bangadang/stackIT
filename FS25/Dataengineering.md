@@ -207,11 +207,13 @@ Most info resources are text based unstructured and big in scale
 	- uses part of speech tagging or named entity recognition 
 	- is more costly as it uses additional preprocessing of the information resurce
 - **structured representation** 
-	- information resoource representat as graphs
+	- information resource represented as graphs, terms as nodes and semantic relation as branches
+	- very costly and virtually not used in IR
+	- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODM4MjE0MCwtMTk3MjI2NDgwNiwtMj
-YyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3
-MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMz
-I2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEw
-ODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbMzQwNDUzNzM5LC0xOTcyMjY0ODA2LC0yNj
+IzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcx
+NTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMj
+Y4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4
+NCw3MDk4Mzc4OV19
 -->
