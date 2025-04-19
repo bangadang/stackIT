@@ -42,6 +42,7 @@
 |  | DW architecture |
 |  | Data Marts |
 |  | ETL from source to staging area |
+| 20.03.25 |  |
 |  |  |
 
 ### Operational Database vs Data Warehouse
@@ -128,8 +129,10 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxMDU0NDcxLC0xMTc3NzIwOTY2LDIyMj
-g4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEs
-MjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbLTM5ODYxODg1MywtMTE3NzcyMDk2NiwyMj
+I4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgx
+LDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
