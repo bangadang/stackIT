@@ -138,14 +138,14 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- unsharp keys: a potential or candidate key in a dataset that **almost uniquely identifies** records — but **not perfectly**. It looks like a key, acts like a key in most cases, but breaks the rule in some edge cases.
 			- For example First + Lastname (breaks in case there are two people with the same name)
 		- unsharp dependiencies:  (or **approximate functional dependencies**) are relationships between columns that hold **most of the time**, but not always.
-		- For example a 
+		- For example a column with zip codes and one with city names. Eventhough often a case a zip code doesn't always represent a specific city. Like Zurich there are different zip codes representig different districts.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Nzk4MTE3NCwtMTA4NTQ0NzE1NywtMT
+eyJoaXN0b3J5IjpbMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMT
 E3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4
 OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOT
 gzNzg5XX0=
