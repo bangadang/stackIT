@@ -262,10 +262,14 @@ formally a generalretrival model is a triple of functions
 - index terms are all unique terms in the vocabulary
 - each term $k_i$ for each document $d_j$ is assigned a weight $w_{ij}$ if a term doesn't appear in a document the weight is 0
 - a document $d_j$ ist represented by a term vector of the weights
+
+### Boolean retrieval
+- queries are boolean expression like “aliens” AND “swords” AND NOT “wizards” 
+- search engine returns all documents from the collection that satisfy the Boolean expression
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY3MzE5MDUsMjQ2NDIzOTc3LC0xMT
-AzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1
-ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNTcsLTExNzc3MjA5Nj
-YsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMTkwODcz
-MTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMD
+MxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4
+NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2Ni
+wyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMx
+ODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
