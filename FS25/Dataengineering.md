@@ -229,11 +229,13 @@ Most info resources are text based unstructured and big in scale
 - Error/Spelling correction
 - making all letters lower case (case folding)
 - word disambiguation
-- morpholocigal normalization by reducing different 
+- morpholocigal normalization by reducing different forms of the same word into a common representative form 
+	- inflectional normalization (houses to house, tried to try,)
+	- derivational normalization (destruction to destroy) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTY4MjUxMjEsLTE5NzIyNjQ4MDYsLT
-I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
-NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
-MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
-MDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMTQzNTI1NDkzNiwtMTk3MjI2NDgwNiwtMj
+YyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3
+MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMz
+I2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEw
+ODQsNzA5ODM3ODldfQ==
 -->
