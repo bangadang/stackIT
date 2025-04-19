@@ -256,12 +256,11 @@ formally a generalretrival model is a triple of functions
 1. $f_d$ is a function that maps documents (raw text) to their representation for retrieval, i.e., $f_d(d) = p_d$ , where $p_d$ is the retrieval representation of the document d
 2. $f_q$ is a function that maps queries (raw text) to their representation for retrieval, i.e., $f_q(q) = s_q$ , where $s_q$ is the retrieval representation of the document q
 !depending on the IR model, $f_d$ and $f_q$ may be the same function 
-3. $r$ is a ranking function which computes a real number indicating the potential relevance of document $d$ for query $q$, using representations $p_d$
-and sq: rel(d,q) = r(fd(d), fq(q)) = r(pd , sq )
+3. $r$ is a ranking function which computes a real number indicating the potential relevance of document $d$ for query $q$, using representations $p_d$ and $s_q$: $rel(d,q) = r(f_d(d), f_q(q)) = r(p_d , s_q )$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI2OTEzNjgsLTExMDMxMzAwMTMsLT
-E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
-Nzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNT
-ksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5
-NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOT
+cyMjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3
+ODksLTEwODU0NDcxNTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LD
+cxOTUzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0
+NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
