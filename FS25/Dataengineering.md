@@ -64,7 +64,7 @@
 
 
 ### Data Marts
-- is a data model, which is ptimised for fast and efficient queries
+- is a data model, which is optimised for fast and efficient queries
 - does domain specific operations
 - presents views of the whole data warehouse
 - provides interfaces for analyzing and data mining tasks
@@ -129,7 +129,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOT
-UzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIw
-LDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbNzAxMDU0NDcxLC0xMTc3NzIwOTY2LDIyMj
+g4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEs
+MjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
 -->
