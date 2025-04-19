@@ -254,18 +254,14 @@ prepositions, conjunctions, pronouns etc.
 
 formally a generalretrival model is a triple of functions
 1. $f_d$ is a function that maps documents (raw text) to their representation for retrieval, i.e., $f_d(d) = p_d$ , where $p_d$ is the retrieval representation of the document d
-2. fq is a function that maps queries (raw text) to their representation for 
-retrieval, i.e., fq(q) = sq , where sq is the retrieval representation of the 
-document q
-§ depending on the IR model, fd and fq may or may not be the same 
-function 
-3. r is a ranking function which computes a real number indicating the 
-potential relevance of document d for query q, using representations pd
+2. $f_q$ is a function that maps queries (raw text) to their representation for retrieval, i.e., $f_q(q) = s_q$ , where $s_q$ is the retrieval representation of the document q
+!depending on the IR model, $f_d$ and $f_q$ may be the same function 
+3. $r$ is a ranking function which computes a real number indicating the potential relevance of document $d$ for query $q$, using representations $p_d$
 and sq: rel(d,q) = r(fd(d), fq(q)) = r(pd , sq )
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg2Nzg0MDQsLTExMDMxMzAwMTMsLTE5Nz
-IyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4
-OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNz
-E5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1
-MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTEwMzI2OTEzNjgsLTExMDMxMzAwMTMsLT
+E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
+Nzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNT
+ksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5
+NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
