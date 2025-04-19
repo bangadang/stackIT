@@ -209,11 +209,13 @@ Most info resources are text based unstructured and big in scale
 - **structured representation** 
 	- information resource represented as graphs, terms as nodes and semantic relation as branches
 	- very costly and virtually not used in IR
-	- 
+
+### Text preprocessing for unstructured text representations
+- text is represented as unoredred set of terms (BoW) and has to be preprocessed 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNDUzNzM5LC0xOTcyMjY0ODA2LC0yNj
-IzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcx
-NTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMj
-Y4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4
-NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbLTEzMDMyNDUwOTQsLTE5NzIyNjQ4MDYsLT
+I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
+NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
+MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
+MDg0LDcwOTgzNzg5XX0=
 -->
