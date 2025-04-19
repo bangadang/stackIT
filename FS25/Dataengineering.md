@@ -211,9 +211,15 @@ Most info resources are text based unstructured and big in scale
 	- very costly and virtually not used in IR
 
 ### Text preprocessing for unstructured text representations
-- text is represented as unoredred set of terms (BoW) and has to be preprocessed 
+- text is represented as unoredred set of terms (BoW) and has to be preprocessed:
+ 1. extracting pure textual content (e.g., from HTML, PDF, Word) 
+2. language detection , Optional – if you’re dealing with multilingual document collections
+3.  tokenization (separating text into character sequences) 
+4. morphological normalization (lemmatization or stemming)
+5. stopword removal
+- after preprocessing the text/document is ready to be indexed
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMyNDUwOTQsLTE5NzIyNjQ4MDYsLT
+eyJoaXN0b3J5IjpbLTE3MDc5NDEzMDcsLTE5NzIyNjQ4MDYsLT
 I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
 NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
 MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
