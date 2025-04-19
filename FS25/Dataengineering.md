@@ -189,9 +189,11 @@ the information retrival process includes:
 - information needs (queries)
 - (mostly unstructured) information resources 
 - a system to identify relevant (re)sources for a given information need (query)
-- 
+
+### information need
+Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. Information needs (conscious or unconscious) are expressed as queries
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1MjM2NDg5LC0xOTcyMjY0ODA2LC0yNj
+eyJoaXN0b3J5IjpbODg0MjY3NDU1LC0xOTcyMjY0ODA2LC0yNj
 IzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcx
 NTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMj
 Y4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4
