@@ -181,10 +181,14 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- qualitative data which is used as navigation structure
 	- quantitative data which represent the subject of the analysis
  ### dimensions
+ needs to be finished (lecture 5)
+## Unstructured Data
+### information retrival
+isth
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MD
-Q4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3Nzcy
-MDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOT
-A4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5
-XX0=
+eyJoaXN0b3J5IjpbMTE3MDYxMDczOSwtMTk3MjI2NDgwNiwtMj
+YyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3
+MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMz
+I2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEw
+ODQsNzA5ODM3ODldfQ==
 -->
