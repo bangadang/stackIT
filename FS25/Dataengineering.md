@@ -155,11 +155,14 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- if a data or input error occured through sorting/ similarity tests or manual checking
 	- deduplicate the data/ attributes
 
-
+### data cleansing
+- part of the ETL process, which recgonizes and eliminiates inconsistencies, contradictions and errors in the data in order to i mprove quality
+- takes up a
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4OD
-UwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQw
-NTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMz
-M5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMTkxNDI1MjE4OSwtMjYyMzU2ODI0LDcwND
+g4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIw
+OTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
