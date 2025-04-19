@@ -148,11 +148,14 @@ most time consuming part od data warehousing, as there is no standard method or 
     
 		-   **Help build schema or transformations** :  You might use a dependency with high necessity to deduplicate, normalize, or infer missing values
 	- overlap bewtween attributes of different relations, in order to determine redundancies and possible foreign keys
+- the process of profiling can be used to find:
+	-  missing or invalid values
+	- actual vs expected cardinality
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQ1MDc4Miw3MDQ4ODU4NDYsMTQ4OD
+eyJoaXN0b3J5IjpbMTI1NDg4NDc5MSw3MDQ4ODU4NDYsMTQ4OD
 UwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQw
 NTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMz
 M5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
