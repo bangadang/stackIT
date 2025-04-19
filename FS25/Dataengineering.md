@@ -225,9 +225,13 @@ Most info resources are text based unstructured and big in scale
 - process is ambiguous and not always clear how to split a string, as possible information loss can occur. 
 	- Should you split a birthdate/ phonenumber/ multiword words etc.
 	- different languages have different rules of tokenization
-	- 
+### Normalization (of tokens)
+- Error/Spelling correction
+- making all letters lower case (case folding)
+- word disambiguation
+- morpholocigal normalization by reducing different 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIxMDE2MzcsLTE5NzIyNjQ4MDYsLT
+eyJoaXN0b3J5IjpbLTEzMTY4MjUxMjEsLTE5NzIyNjQ4MDYsLT
 I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
 NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
 MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
