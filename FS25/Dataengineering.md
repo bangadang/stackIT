@@ -162,12 +162,15 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- setting datepatterns, unify currencies, normalize and tokenize text
 - deals with missing values on instance level (values, records sub-relations) dealing with NULL values and schemalevel with missing attributes. 
 	- causes distortion and noise (bias) even error in calculations
-	- find
+	- find the missing values by:
+		- analysis and comparison with expected values, 
+		- check if the values are in an expected range
+		- truncat
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxOTk4MDgwLC0yNjIzNTY4MjQsNzA0OD
-g1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNTcsLTExNzc3MjA5
-NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMTkwOD
-czMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
-
+eyJoaXN0b3J5IjpbLTUwNTAwMDI5NSwtMjYyMzU2ODI0LDcwND
+g4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIw
+OTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MD
+g3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODld
+fQ==
 -->
