@@ -201,9 +201,12 @@ Most info resources are text based unstructured and big in scale
 	- text erpresented as bag of words (unordered set of words)
 	- syntax, semantics, pragmatics of text are ignored
 		- A query like "Revenue of apple" could retrieve a result like  "Apple pencil did xy." and "Microsofts revenue .."
-	- Is fast and simple and still yields fairly good results and is the standard of IR represent
+	- Is fast and simple and still yields fairly good results and is the standard of IR represenATION
+- **weakly structured representation**
+	- certain groups of terms receive a weight/ importance, like nouns or named entities and other terms are downgraded or simply ignored like stopwords
+	- uses part of speech tagging or named entitiy re
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYwMzI3NjAsLTE5NzIyNjQ4MDYsLT
+eyJoaXN0b3J5IjpbLTEwMDg0NTExMjksLTE5NzIyNjQ4MDYsLT
 I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
 NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
 MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
