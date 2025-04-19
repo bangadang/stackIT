@@ -44,6 +44,9 @@
 |  | ETL from source to staging area |
 | 20.03.25 |  |
 |  |  |
+|  |  |
+|  |  |
+|  |  |
 
 ### Operational Database vs Data Warehouse
 |OLTP| OLAP |
@@ -127,12 +130,16 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- indices are updated upon completion
 		- requires checkpoints for resuming
 
+### profiling
+- a task within the ETL process which analyzes:
+	-  the content and structure of single attributes.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODYxODg1MywtMTE3NzcyMDk2NiwyMj
+eyJoaXN0b3J5IjpbMTcyMDg1OTAzOCwtMTE3NzcyMDk2NiwyMj
 I4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgx
 LDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
