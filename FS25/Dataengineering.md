@@ -220,11 +220,13 @@ Most info resources are text based unstructured and big in scale
 - after preprocessing the text/document is ready to be indexed
 
 ### Tokenization
-- A token is an instance of a word or term in a text/ document (numbers, punctuation and special chars arre also token)
+- A token is an instance of a word or term in a text/ document (numbers, punctuation and special chars are also tokens)
+- tokenization is the process of breaking down a text into tokens through a rule based heuristic approach or a ML model approach
+- process is ambiguous and not always clear how to split 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3ODE2MjAyLC0xOTcyMjY0ODA2LC0yNj
-IzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcx
-NTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMj
-Y4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4
-NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbLTEwNjY1MDA2MzcsLTE5NzIyNjQ4MDYsLT
+I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
+NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
+MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
+MDg0LDcwOTgzNzg5XX0=
 -->
