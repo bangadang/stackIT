@@ -218,10 +218,13 @@ Most info resources are text based unstructured and big in scale
 4. morphological normalization (lemmatization or stemming)
 5. stopword removal
 - after preprocessing the text/document is ready to be indexed
+
+### Tokenization
+- A token is an instance of a word or term in a text/ document (numbers, punctuation and special chars arre also token)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDc5NDEzMDcsLTE5NzIyNjQ4MDYsLT
-I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
-NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LD
-MyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMx
-MDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMjU3ODE2MjAyLC0xOTcyMjY0ODA2LC0yNj
+IzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcx
+NTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMj
+Y4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4
+NCw3MDk4Mzc4OV19
 -->
