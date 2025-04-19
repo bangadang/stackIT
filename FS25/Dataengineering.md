@@ -260,11 +260,12 @@ formally a generalretrival model is a triple of functions
 
 ### Index terms and index weights
 - index terms are all unique terms in the vocabulary
-- each term $k_i$ is assigned a weight $w_i$
+- each term $k_i$ for each document is assigned a weight $w_i$ if a term doesn't appear in a document the weight is 0
+- a document $d_j$ ist represented by a term vector 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkzOTc3MTMsMjQ2NDIzOTc3LC0xMT
-AzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1
-ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNTcsLTExNzc3MjA5Nj
-YsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMTkwODcz
-MTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
+eyJoaXN0b3J5IjpbMzc5NTAzODY3LDI0NjQyMzk3NywtMTEwMz
+EzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0
+NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LD
+IyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4
+ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
 -->
