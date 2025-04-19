@@ -199,9 +199,10 @@ Most info resources are text based unstructured and big in scale
 
 - **unstructured representation**
 	- text erpresented as bag of words (unordered set of words)
-	- 
+	- (syntax, semantics, pragmatics of text are ignored)
+		- A query like "Revenue of apple" could retrieve a result like  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODM0NTUzNCwtMTk3MjI2NDgwNiwtMj
+eyJoaXN0b3J5IjpbLTgyMTcyNDkwOCwtMTk3MjI2NDgwNiwtMj
 YyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3
 MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMz
 I2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEw
