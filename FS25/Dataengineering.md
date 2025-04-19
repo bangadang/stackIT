@@ -150,13 +150,16 @@ most time consuming part od data warehousing, as there is no standard method or 
 	- overlap bewtween attributes of different relations, in order to determine redundancies and possible foreign keys
 - the process of profiling can be used to find:
 	-  missing or invalid values
-	- actual vs expected cardinality
+	- actual vs expected cardinality (like number of stores, customers genders)
+	- number of nulls as well as keyfigures like min/max, variance etc.
+	- if a data or input error occured through sorting/ similarity tests or manual checking
+	- deduplicate the data/ att
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDg4NDc5MSw3MDQ4ODU4NDYsMTQ4OD
-UwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQw
-NTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMz
-M5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTIxMzY5MzA0NTYsNzA0ODg1ODQ2LDE0OD
+g1MDc3ODksLTEwODU0NDcxNTcsLTExNzc3MjA5NjYsMjIyODg0
+MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMTkwODczMTg4MSwyMT
+MzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4OV19
 -->
