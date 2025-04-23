@@ -307,8 +307,28 @@ The data flow in Scrapy is controlled by the execution engine, and goes like thi
 8.  The  [Engine](https://docs.scrapy.org/en/latest/topics/architecture.html#component-engine)  sends processed items to  [Item Pipelines](https://docs.scrapy.org/en/latest/topics/architecture.html#component-pipelines), then send processed Requests to the  [Scheduler](https://docs.scrapy.org/en/latest/topics/architecture.html#component-scheduler)  and asks for possible next Requests to crawl.
     
 9.  The process repeats (from step 3) until there are no more requests from the  [Scheduler](https://docs.scrapy.org/en/latest/topics/architecture.html#component-scheduler).
+
+### Scrapy Engine[¶](https://docs.scrapy.org/en/latest/topics/architecture.html#scrapy-engine "Permalink to this heading")
+
+The engine is responsible for controlling the data flow between all components of the system, and triggering events when certain actions occur. See the  [Data Flow](https://docs.scrapy.org/en/latest/topics/architecture.html#data-flow)  section above for more details.
+
+### Scheduler[¶](https://docs.scrapy.org/en/latest/topics/architecture.html#scheduler "Permalink to this heading")
+
+The  [scheduler](https://docs.scrapy.org/en/latest/topics/scheduler.html#topics-scheduler)  receives requests from the engine and enqueues them for feeding them later (also to the engine) when the engine requests them.
+
+### Downloader[¶](https://docs.scrapy.org/en/latest/topics/architecture.html#downloader "Permalink to this heading")
+
+The Downloader is responsible for fetching web pages and feeding them to the engine which, in turn, feeds them to the spiders.
+
+### Spiders[¶](https://docs.scrapy.org/en/latest/topics/architecture.html#spiders "Permalink to this heading")
+
+Spiders are custom classes written by Scrapy users to parse responses and extract  [items](https://docs.scrapy.org/en/latest/topics/items.html#topics-items)  from them or additional requests to follow. For more information see  [Spiders](https://docs.scrapy.org/en/latest/topics/spiders.html#topics-spiders).
+
+### Item Pipeline[¶](https://docs.scrapy.org/en/latest/topics/architecture.html#item-pipeline "Permalink to this heading")
+
+The Item Pipeline is responsible for processing the items once they have been extracted (or scraped) by the spiders. Typical tasks include cleansing, validation and persistence (like storing the item in a database). For more information see  [Item Pipeline](https://docs.scrapy.org/en/latest/topics/item-pipeline.html#topics-item-pipeline). 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjc4MDE0ODgsMTc4NzQ5OTY5MCwyMD
+eyJoaXN0b3J5IjpbLTE0Mjg4MjA0NzYsMTc4NzQ5OTY5MCwyMD
 ExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2
 NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC
 0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1
