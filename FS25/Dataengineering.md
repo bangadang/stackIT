@@ -282,11 +282,13 @@ Google, Bing, Duckduckgo are common search engines which crawl for indexing page
 
 ### Process of a search algorithm
 - pages are ranked through relevance, backlinks, freshness, metatags/keywords
-- they are 
+- pages are connected to a location, language
+- search history can also play a role
 
-### Crawling for Scraping
+### Crawling with Scrapy
+Scrapy is an open source tool which allows for customization
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTEzNzEwNCwyMDExMDYxNTYzLDI0Nj
+eyJoaXN0b3J5IjpbMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0Nj
 QyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2
 ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC
 0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0
