@@ -274,14 +274,18 @@ The web is crawled to find new links, which are then analyzed and added to the d
 An algorithm is used to rank the pages stored in the database according to different factors to determine their importance by a seaarch query. In order to present the pages which the user was most likely searrching for
 Google, Bing, Duckduckgo are common search engines which crawl for indexing pages and links to further webpages. 
 
-### 
+### Creating a search index
+- Obtain URL/ Sitemaps
+- crawl by following connecting links
+- process the contents of the pages (not a public process and unique to each search engine)
+- index the processed information
 
 ### Crawling for Scraping
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjEzNTk0OSwyMDExMDYxNTYzLDI0Nj
-QyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2
-ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC
-0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0
-NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNz
-A5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbLTE0NDE3NzY3MDQsMjAxMTA2MTU2MywyND
+Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
+NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1Ny
+wtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2
+NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LD
+cwOTgzNzg5XX0=
 -->
