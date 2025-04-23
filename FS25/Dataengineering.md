@@ -266,10 +266,17 @@ formally a generalretrival model is a triple of functions
 ### Boolean retrieval
 - queries are boolean expression like “aliens” AND “swords” AND NOT “wizards” 
 - search engine returns all documents from the collection that satisfy the Boolean expression
+
+
+## Webcrawling
+### Crawling for Search Engines
+
+### Crawling for Scraping
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMD
-MxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4
-NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2Ni
-wyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMx
-ODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbLTEyODUwMTE3NjAsMjAxMTA2MTU2MywyND
+Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
+NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1Ny
+wtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2
+NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LD
+cwOTgzNzg5XX0=
 -->
