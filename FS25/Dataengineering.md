@@ -300,9 +300,9 @@ The data flow in Scrapy is controlled by the execution engine, and goes like thi
     
 5.  Once the page finishes downloading the  [Downloader](https://docs.scrapy.org/en/latest/topics/architecture.html#component-downloader)  generates a Response (with that page) and sends it to the Engine, passing through the  [Downloader Middlewares](https://docs.scrapy.org/en/latest/topics/architecture.html#component-downloader-middleware) 
     
-6.  The  [Engine](https://docs.scrapy.org/en/latest/topics/architecture.html#component-engine)  receives the Response from the  [Downloader](https://docs.scrapy.org/en/latest/topics/architecture.html#component-downloader)  and sends it to the  [Spider](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spiders)  for processing, passing through the  [Spider Middleware](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spider-middleware)  (see  [`process_spider_input()`](https://docs.scrapy.org/en/latest/topics/spider-middleware.html#scrapy.spidermiddlewares.SpiderMiddleware.process_spider_input "scrapy.spidermiddlewares.SpiderMiddleware.process_spider_input")).
+6.  The  [Engine](https://docs.scrapy.org/en/latest/topics/architecture.html#component-engine)  receives the Response from the  [Downloader](https://docs.scrapy.org/en/latest/topics/architecture.html#component-downloader)  and sends it to the  [Spider](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spiders)  for processing, passing through the  [Spider Middleware](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spider-middleware) 
     
-7.  The  [Spider](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spiders)  processes the Response and returns scraped items and new Requests (to follow) to the  [Engine](https://docs.scrapy.org/en/latest/topics/architecture.html#component-engine), passing through the  [Spider Middleware](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spider-middleware)  (see  [`process_spider_output()`](https://docs.scrapy.org/en/latest/topics/spider-middleware.html#scrapy.spidermiddlewares.SpiderMiddleware.process_spider_output "scrapy.spidermiddlewares.SpiderMiddleware.process_spider_output")).
+7.  The  [Spider](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spiders)  processes the Response and returns scraped items and new Requests (to follow) to the  [Engine](https://docs.scrapy.org/en/latest/topics/architecture.html#component-engine), passing through the  [Spider Middleware](https://docs.scrapy.org/en/latest/topics/architecture.html#component-spider-middleware) 
     
 8.  The  [Engine](https://docs.scrapy.org/en/latest/topics/architecture.html#component-engine)  sends processed items to  [Item Pipelines](https://docs.scrapy.org/en/latest/topics/architecture.html#component-pipelines), then send processed Requests to the  [Scheduler](https://docs.scrapy.org/en/latest/topics/architecture.html#component-scheduler)  and asks for possible next Requests to crawl.
     
@@ -330,10 +330,10 @@ The Item Pipeline is responsible for processing the items once they have been ex
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDU5OTQxMiwyMDk2NzIzNjAsMTc4Nz
-Q5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAx
-MywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxND
-g4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4
-NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMj
-EzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3OD
+c0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAw
+MTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMT
+Q4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4
+ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLD
+IxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
