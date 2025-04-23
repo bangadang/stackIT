@@ -270,13 +270,14 @@ formally a generalretrival model is a triple of functions
 
 ## Webcrawling
 ### Crawling for Search Engines
-
+The web is crawled to find new links, which are then analyzed and added to the database. The database can be accessed by a user when searching in a search engine.
+An algorithm is used to ranke the pages stored in the databse
 ### Crawling for Scraping
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUwMTE3NjAsMjAxMTA2MTU2MywyND
-Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
-NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1Ny
-wtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2
-NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LD
-cwOTgzNzg5XX0=
+eyJoaXN0b3J5IjpbMTg0MzE1ODQwNiwyMDExMDYxNTYzLDI0Nj
+QyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2
+ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC
+0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0
+NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNz
+A5ODM3ODldfQ==
 -->
