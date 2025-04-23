@@ -271,10 +271,11 @@ formally a generalretrival model is a triple of functions
 ## Webcrawling
 ### Crawling for Search Engines
 The web is crawled to find new links, which are then analyzed and added to the database. The database can be accessed by a user when searching in a search engine.
-An algorithm is used to ranke the pages stored in the databse
+An algorithm is used to rank the pages stored in the database according to different factors to determine their importance by a seaarch query. In order to present the pages which the user was most likely searrching for
+
 ### Crawling for Scraping
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzE1ODQwNiwyMDExMDYxNTYzLDI0Nj
+eyJoaXN0b3J5IjpbLTY0NjkzNjU0OSwyMDExMDYxNTYzLDI0Nj
 QyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2
 ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC
 0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0
