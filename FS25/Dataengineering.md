@@ -326,12 +326,14 @@ Spiders are custom classes written by Scrapy users to parse responses and extrac
 
 ### Item Pipeline[¶](https://docs.scrapy.org/en/latest/topics/architecture.html#item-pipeline "Permalink to this heading")
 
-The Item Pipeline is responsible for processing the items once they have been extracted (or scraped) by the spiders. Typical tasks include cleansing, validation and persistence (like storing the item in a database). For more information see  [Item Pipeline](https://docs.scrapy.org/en/latest/topics/item-pipeline.html#topics-item-pipeline). 
+The Item Pipeline is responsible for processing the items once they have been extracted (or scraped) by the spiders. Typical tasks include cleansing, validation and persistence (like storing the item in a database). For more information see  [Item Pipeline](https://docs.scrapy.org/en/latest/topics/item-pipeline.html#topics-item-pipeline).
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg4MjA0NzYsMTc4NzQ5OTY5MCwyMD
-ExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2
-NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC
-0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1
-MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMC
-wyOTgyMzEwODQsNzA5ODM3ODldfQ==
+eyJoaXN0b3J5IjpbMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMT
+A2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4
+MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMT
+A4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2
+MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMj
+k4MjMxMDg0LDcwOTgzNzg5XX0=
 -->
