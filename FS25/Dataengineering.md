@@ -341,14 +341,19 @@ advantages of databeses:
 - well defined sql interfaces
 - well organized and structured
 - synchronization among many users
+
+### the basic 4 V's
+### volume
+- scale and dimension of data is enormous
+- need of the ability to process l
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDI4MDM1NCwtMTE3MjExOTg0NywyMD
-k2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3
-NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LD
-cwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3
-NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LD
-E5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTIxMDExODExNzksLTExNzIxMTk4NDcsMj
+A5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5
+NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNC
+w3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3
+NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OC
+wxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgz
+Nzg5XX0=
 -->
