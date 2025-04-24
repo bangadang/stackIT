@@ -329,12 +329,14 @@ Spiders are custom classes written by Scrapy users to parse responses and extrac
 The Item Pipeline is responsible for processing the items once they have been extracted (or scraped) by the spiders. Typical tasks include cleansing, validation and persistence (like storing the item in a database). For more information see  [Item Pipeline](https://docs.scrapy.org/en/latest/topics/item-pipeline.html#topics-item-pipeline).
 
  ## Big Data
+Traditional databases do not scale for big data and adding faster or larger hardware does not suffice. Another probem is that most data is unstructured but databses store them structured. 
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjE5Mjk3NywtMTE3MjExOTg0NywyMD
-k2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3
-NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LD
-cwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3
-NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LD
-E5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3
-ODldfQ==
+eyJoaXN0b3J5IjpbNDAyNzQxOTEsLTExNzIxMTk4NDcsMjA5Nj
+cyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5Nzcs
+LTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MD
+Q4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3Nzcy
+MDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOT
+A4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgzNzg5
+XX0=
 -->
