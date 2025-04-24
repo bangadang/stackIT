@@ -329,14 +329,20 @@ Spiders are custom classes written by Scrapy users to parse responses and extrac
 The Item Pipeline is responsible for processing the items once they have been extracted (or scraped) by the spiders. Typical tasks include cleansing, validation and persistence (like storing the item in a database). For more information see  [Item Pipeline](https://docs.scrapy.org/en/latest/topics/item-pipeline.html#topics-item-pipeline).
 
  ## Big Data
-Traditional databases do not scale for big data and adding faster or larger hardware does not suffice. Another probem is that most data is unstructured but databses store them structured. A new solution is to use NOSQL solutions, where horizontal scalability is possible as only limited relational database system operations are supported. Rather than s
+Traditional databases do not scale for big data and adding faster or larger hardware does not suffice. Another probem is that most data is unstructured but databses store them structured. A new solution is to use NOSQL solutions, where horizontal scalability is possible as only limited relational database system operations are supported. Rather than storing the data in tables, data is stored as key value pairs.
+
+Why should we a databse instead of files?
+- files are only easy to access sequentially,
+- there is no optimized access in files
+- there is no consistency
+- there is no  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg0MjQyOTgsLTExNzIxMTk4NDcsMj
-A5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5
-NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNC
-w3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3
-NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OC
-wxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgz
-Nzg5XX0=
+eyJoaXN0b3J5IjpbLTQ5NTk4MjEyNSwtMTE3MjExOTg0NywyMD
+k2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3
+NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LD
+cwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3
+NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LD
+E5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3
+ODldfQ==
 -->
