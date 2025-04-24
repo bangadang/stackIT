@@ -335,10 +335,16 @@ Why should we a databse instead of files?
 - files are only easy to access sequentially,
 - there is no optimized access in files
 - there is no consistency
-- there is no  
+- there is no efficient way to only access a subset of information in a file without reading everything first
+
+advantages of databeses:
+- well defined sql interfaces
+- well organized and structured
+- synchronization among many users
+ 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTk4MjEyNSwtMTE3MjExOTg0NywyMD
+eyJoaXN0b3J5IjpbLTYwNDI4MDM1NCwtMTE3MjExOTg0NywyMD
 k2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3
 NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LD
 cwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3
