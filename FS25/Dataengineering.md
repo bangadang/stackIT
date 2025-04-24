@@ -342,30 +342,36 @@ advantages of databeses:
 - well organized and structured
 - synchronization among many users
 
-### the basic 4 V's
-### volume
+### the basic 4 V's + 2 V's
+### 1. volume
 - scale and dimension of data is enormous
 - need of the ability to process large amounts of data at once
-### variety 
+### 2. variety 
 - data is in many forms of different complexity
 - there is no fixed struture 
 - data is not immediately ready to be processed
 - no uniformity or monotony
 - data can be highly, semi- or unstructured
-### velocity
+### 3. velocity
 - constantly new incoming data
-### veracity
+### 4. veracity
 - trustworthiness of data sources
 - data consistency of sources
-- 
+- results can be mostly only be considered as probable
+### 5. visibility 
+- importance of having a full picture of data in order to make 
+informative decision
+- clarity of data, so as to perform analytic operations on it
+### 6. value
+- having access to Big Data is irrele
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUwOTEzNDAsLTExNzIxMTk4NDcsMj
-A5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5
-NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNC
-w3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3
-NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OC
-wxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgz
-Nzg5XX0=
+eyJoaXN0b3J5IjpbMTY0MDg4MjMwNSwtMTE3MjExOTg0NywyMD
+k2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3
+NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LD
+cwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3
+NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LD
+E5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgyMzEwODQsNzA5ODM3
+ODldfQ==
 -->
