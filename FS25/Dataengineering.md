@@ -353,14 +353,19 @@ advantages of databeses:
 - no uniformity or monotony
 - data can be highly, semi- or unstructured
 ### velocity
+- constantly new incoming data
+### veracity
+- trustworthiness of data sources
+- data consistency of sources
+- 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwODA2NTk1LC0xMTcyMTE5ODQ3LDIwOT
-Y3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMjQ2NDIzOTc3
-LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIzNTY4MjQsNz
-A0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNTcsLTExNzc3
-MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMT
-kwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIzMTA4NCw3MDk4Mzc4
-OV19
+eyJoaXN0b3J5IjpbLTExMzUwOTEzNDAsLTExNzIxMTk4NDcsMj
+A5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5
+NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNC
+w3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3
+NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OC
+wxOTA4NzMxODgxLDIxMzM5NTQ1MjAsMjk4MjMxMDg0LDcwOTgz
+Nzg5XX0=
 -->
