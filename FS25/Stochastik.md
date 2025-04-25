@@ -887,13 +887,14 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 - NICHT gedächtnislos, Zeitfaktor spielt eine Rolle
 	- W’keit, dass ein Handy noch 1 Jahr funktioniert ist bei Occasion Handys (>2Jahrealt) kleiner als bei neuen Handys (>1 Monat alt).
 	- W’keit, dass ein Kartenhaus die nächsten 10 Sekunden hält ist bei Kartenhäusern, die bereits 15 Sekunden stehen (> 15 Sekunden) grösser als bei Kartenhäusern, die eben erstellt wurden (> 0.5 Sekunden).
+- Verteilungsfunktion: $$$$
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMzQ5MDgyLC0xOTA3OTMyMzkxLDE5Mj
-U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
-MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNj
-IyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMz
-OSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQxLC00NT
-UyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTgzNTMzNDM1OSwtMTkwNzkzMjM5MSwxOT
+I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
+NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
+YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
+MzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtND
+U1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUw
+NTE1XX0=
 -->
