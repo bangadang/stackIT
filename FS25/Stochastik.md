@@ -887,10 +887,14 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 - NICHT gedächtnislos, Zeitfaktor spielt eine Rolle
 	- W’keit, dass ein Handy noch 1 Jahr funktioniert ist bei Occasion Handys (>2Jahrealt) kleiner als bei neuen Handys (>1 Monat alt).
 	- W’keit, dass ein Kartenhaus die nächsten 10 Sekunden hält ist bei Kartenhäusern, die bereits 15 Sekunden stehen (> 15 Sekunden) grösser als bei Kartenhäusern, die eben erstellt wurden (> 0.5 Sekunden).
-- Verteilungsfunktion: $$$$
+- Verteilungsfunktion: $$F(x) = \begin{cases}
+1- e^{-(\lambda x)^\beta} & \text{falls } x \geq 0 \\
+0 & \text{falls } x \lt 0 
+\end{cases}$$
+- Erwartungswert: $$E(X) = \frac{1}{\lambda}\Gamma()$$
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTMzNDM1OSwtMTkwNzkzMjM5MSwxOT
+eyJoaXN0b3J5IjpbMTMxODM1Mzc0NiwtMTkwNzkzMjM5MSwxOT
 I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
 NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
 YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
