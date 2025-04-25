@@ -966,12 +966,14 @@ Die Summe unabhängiger, exponentialverteilter Zufallsvariablen ist Gamma vertei
 	- $\lambda$ ist die Rate bzw. $\frac{1}{\lambda}$ der Skalenparametern
 - Eine Summe von unabhängigen exponentialverteilen Zufallsvariablen $X_i$~Exp($\lambda$), i = 1,...,k ist gleich der Gammaverteilung
 - Formuliert wird die Exponentialverteilung für Wartezeiten für das Eintreffen eines Ereignisses verwendet, d.h. die Gammaverteilung ist die Wartezeit bis das k-te Ereigniseingetreten ist.
+- Erwartungswert: $$E(Y) = \frac{k}{\lambda}$$
+- Varainz: $$Var(Y)=\frac{k}{\lambda^2}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NTA1ODczNCwxNDI4MDQ1OTMzLDI4Mj
-M2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEs
-LTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NT
-MxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEs
-LTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MT
-AyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQw
-XX0=
+eyJoaXN0b3J5IjpbLTE0NTgzNTkyODEsMTQyODA0NTkzMywyOD
+IzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkx
+LC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYsLTE0ND
+UzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mzc2NTUx
+LC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUzOSw1Nz
+EwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0
+MF19
 -->
