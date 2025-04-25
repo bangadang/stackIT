@@ -1009,9 +1009,24 @@ den Wert verkleinern und zum Teil vergrössern.
 - es gibt **keine** “Formel” für die Verteilungsfunktion, bzw man kann sie nicht in geschlossener Form angeben. Sie muss nummerissch mit dem Computer ermittelt werden. $$F(x) = \frac{1}{\sigma \sqrt{2\pi}}\int_{-\infty}^x exp(-\frac{(z-\mu)^2}{2\sigma^2})dz$$
 
 ```r
+# mean = µ und sd = σ.
+Werte der Dichtefunktion an der Stelle x
+dnorm(x = x, mean = mu, sd = sigma)
+• Kumulative Verteilungsfunktion und Wahrscheinlichkeiten
+# P(X <= x):
+pnorm(q = x, mean = mu, sd = sigma)
+# P(a <= X <= b) = P(X <= b) - P(X <= a):
+pnorm(q = b, mean = mu, sd = sigma) -
+pnorm(q = a, mean = mu, sd = sigma)
+# P(X > x):
+1 - pnorm(q = x, mean = mu, sd = sigma)
+# oder pnorm(q = x, mean = mu, sd = sigma, lower.tail = F)
+• Quantile: gesucht ist k, so dass P(X ≤ k) = α
+qnorm(alpha, mean = mu, sd = sigma)
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTgyNzYwNiwxNjAyNzM4ODQxLDE0Mj
+eyJoaXN0b3J5IjpbLTk0MDE4MjM0MiwxNjAyNzM4ODQxLDE0Mj
 gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
 Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
 cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
