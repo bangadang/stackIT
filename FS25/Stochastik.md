@@ -901,9 +901,9 @@ Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. S
 **Eigenschaften**:
 - $\Gamma(\alpha)=(\alpha -1)\Gamma(\alpha-1)$
 - für $\alpha = 1$ $\Gamma(1) = 1$
-- Für $n\in \N$ gilt: 
+- Für $n\in \N$ gilt: $\Gamma(n)=(n-1)!$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNTc3NjIyNCwtMTkwNzkzMjM5MSwxOT
+eyJoaXN0b3J5IjpbLTI5MTkwNjg5NywtMTkwNzkzMjM5MSwxOT
 I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
 NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
 YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
