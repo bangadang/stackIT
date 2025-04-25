@@ -928,12 +928,16 @@ pdf <- matrix(NA, nrow = length(beta_vec), ncol = length(x))
 for (i in 1:length(beta_vec)){
 pdf[i,] <- dweibull(x, shape = beta_vec[i], scale = scale_vec[i])
 ```
+
+```r
+# scale = 1/lambda,
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNT
-czMjUsLTE5MDc5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2
-LDE5NDUyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1Mj
-YzMzY3NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAy
-LDM2NTY1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0Mz
-IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
+eyJoaXN0b3J5IjpbLTgzNjg0OTAzNCwtODQ3NjU4NTMzLDYwMz
+gxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYs
+LTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mz
+c2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUz
+OSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzksMTI0ND
+IxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgw
 XX0=
 -->
