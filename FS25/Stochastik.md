@@ -900,8 +900,9 @@ Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. S
 
 **Eigenschaften**:
 - $\Gamma(\alpha)=(\alpha -1)\Gamma(\alpha-1)$
+- für $\alpha = 1$ $\Gamme$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY1NDM5NDEsLTE5MDc5MzIzOTEsMT
+eyJoaXN0b3J5IjpbLTEwNTk1NzAxMDMsLTE5MDc5MzIzOTEsMT
 kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
 NDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLT
 E2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3
