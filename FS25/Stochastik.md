@@ -884,13 +884,13 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 	- $\beta \lt 1$: Fehlerrate abnehmend
 	- $\beta = 1$: Fehlerrate konstant
 	- $\beta \gt 1$: Fehlerrate zunehmend
-
+- NICHT gedächntnislos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk0Mzk1MzMsLTE5MDc5MzIzOTEsMT
-kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
-NDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLT
-E2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3
-MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLT
-Q1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1
-MDUxNV19
+eyJoaXN0b3J5IjpbMTQ1NjQ3MjUxLC0xOTA3OTMyMzkxLDE5Mj
+U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
+MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNj
+IyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMz
+OSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQxLC00NT
+UyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1
+MTVdfQ==
 -->
