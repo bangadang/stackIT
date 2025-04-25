@@ -988,8 +988,15 @@ rgamma(n, shape = k, rate = lambda)
 ## Normalverteilung/ Gaussverteilung X~$\Nu(\mu,\sigma^2)$
 
 Die Verteilung der Mittelwerte von Zufallszahlen nimmt mit zunehmender Stichprobengrösse - unabhängig von der ursprünglichen Verteilung! - immer mehr die Form einer Glockenkurve an.
+- bei empirischen Grössen gibt es oft viele kleine Einflüsse, die zum Teil
+den Wert verkleinern und zum Teil vergrössern.
+- Betrachtet man die Verteilung von vielen Messwerten, so ergibt sich häufig eine symmetrische, glockenförmige Verteilung.
+- Auch viele diskrete Verteilungen zeigen bei entsprechender Wahl der Parameter eine Glockenkurve.
+
+**Eigenschaften**
+- Dichtefunktion: $$f(x)= \frac{}{}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODY5NzQyNSwxNjAyNzM4ODQxLDE0Mj
+eyJoaXN0b3J5IjpbLTg2NzYxMzkzNSwxNjAyNzM4ODQxLDE0Mj
 gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
 Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
 cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
