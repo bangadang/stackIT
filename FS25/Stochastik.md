@@ -1001,8 +1001,11 @@ den Wert verkleinern und zum Teil vergrössern.
 	- $\sigma$ bestimmt die Form der Dichtefunktion. Je kleiner $\sigma$ desto steiler/gestauchter ist f(x). Je grösser, desto flacher.
 - Erwartungswert $E(X)=\mu$
 - Varianz $Var(X)=\sigma^2$
+- $\Nu$(0,1) ist die Standard Normalverteilung
+- 68-95.99.7 Regel
+	-   Innerhalb [µ − σ, µ + σ] befinden sich ca. 68% der Wahrscheinlichkeitsmasse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM3MDkyMSwxNjAyNzM4ODQxLDE0Mj
+eyJoaXN0b3J5IjpbMTYyMTMzNzY4NCwxNjAyNzM4ODQxLDE0Mj
 gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
 Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
 cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
