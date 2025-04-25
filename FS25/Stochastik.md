@@ -1010,27 +1010,25 @@ den Wert verkleinern und zum Teil vergrössern.
 
 ```r
 # mean = µ und sd = σ.
-Werte der Dichtefunktion an der Stelle x
+#Werte der Dichtefunktion an der Stelle x
 dnorm(x = x, mean = mu, sd = sigma)
-• Kumulative Verteilungsfunktion und Wahrscheinlichkeiten
-# P(X <= x):
+#Kumulative Verteilungsfunktion und Wahrscheinlichkeiten P(X <= x):
 pnorm(q = x, mean = mu, sd = sigma)
 # P(a <= X <= b) = P(X <= b) - P(X <= a):
-pnorm(q = b, mean = mu, sd = sigma) -
-pnorm(q = a, mean = mu, sd = sigma)
+pnorm(q = b, mean = mu, sd = sigma) - pnorm(q = a, mean = mu, sd = sigma)
 # P(X > x):
 1 - pnorm(q = x, mean = mu, sd = sigma)
 # oder pnorm(q = x, mean = mu, sd = sigma, lower.tail = F)
-• Quantile: gesucht ist k, so dass P(X ≤ k) = α
+# Quantile: gesucht ist k, so dass P(X ≤ k) = α
 qnorm(alpha, mean = mu, sd = sigma)
-
 ```
+## Lognormal-Verteilung 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDE4MjM0MiwxNjAyNzM4ODQxLDE0Mj
-gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
-Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
-cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
-LDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLTE2Mj
-IwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3MzM5
-XX0=
+eyJoaXN0b3J5IjpbLTU3NzEwODYzLDE2MDI3Mzg4NDEsMTQyOD
+A0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMz
+LDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1Nz
+A2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIs
+MTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMj
+A4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzld
+fQ==
 -->
