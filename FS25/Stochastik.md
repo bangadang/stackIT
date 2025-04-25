@@ -998,9 +998,11 @@ den Wert verkleinern und zum Teil vergrössern.
 	- f(x) ist symmterisch um x=$\mu$
 	- auf beiden Seiten nähert sie sich asymptotisch an 0 heran
 	- $\mu$ verschiebt die Glockenkurve entlang der x-Achse und hat bei $\mu$ ihr Maximum
-- Erwartungswert $E(X)$
+	- $\sigma$ bestimmt die Form der Dichtefunktion. Je kleiner $\sigma$ desto steiler/gestauchter ist f(x). Je grösser, desto flacher.
+- Erwartungswert $E(X)=\mu$
+- Varianz $Var(X)=\sigma^2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzQzODE4MiwxNjAyNzM4ODQxLDE0Mj
+eyJoaXN0b3J5IjpbLTExMTM3MDkyMSwxNjAyNzM4ODQxLDE0Mj
 gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
 Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
 cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
