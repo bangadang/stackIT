@@ -906,13 +906,16 @@ Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. S
 - Für $n\in \N$ gilt: $\Gamma(n)=(n-1)!$
 
 ### Beispiel Weibull
-
+Wir betrachten eine Population von Geräten, deren mittlere Lebensdauer bekannt sei, nämlich 3 Jahre. Je nachdem, ob die Population eher durch Geräte mit Kinderkrankheiten (β < 1) oder Geräte mit Alterserscheinungen (β > 1) charakterisiert ist, sieht die Verteilung der Lebenszeiten der Geräte in dieser Population unterschiedlich aus.
+Die mittlere Lebensdauer einer Weibull-Verteilten Population ist (1/λ)Gamma(1 + 1/β).
+```r
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Nzg3MzE3OCwtNjQxNTczMjUsLTE5MD
-c5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0
-ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1Nj
-A5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5
-OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxOD
-kyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2
-NjA0XX0=
+eyJoaXN0b3J5IjpbNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OT
+MyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5
+LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOT
+MzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgs
+MTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5Mj
+IwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYw
+NF19
 -->
