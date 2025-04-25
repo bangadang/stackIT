@@ -909,13 +909,31 @@ Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. S
 Wir betrachten eine Population von Geräten, deren mittlere Lebensdauer bekannt sei, nämlich 3 Jahre. Je nachdem, ob die Population eher durch Geräte mit Kinderkrankheiten (β < 1) oder Geräte mit Alterserscheinungen (β > 1) charakterisiert ist, sieht die Verteilung der Lebenszeiten der Geräte in dieser Population unterschiedlich aus.
 Die mittlere Lebensdauer einer Weibull-Verteilten Population ist (1/λ)Gamma(1 + 1/β).
 ```r
+# Erwartungswert der Weibull-Verteilung
+expected_val <- 3
+
+# Raster von shapes: von "hält länger, je länger schon gehalten" (beta <1) zu
+# "hält weniger lang, je länger schon gehalten" (beta >1). Wir erstellen ein
+# exponential-verteiltes beta-Raster
+beta_vec <- c(0.4, 1, 7)
+
+# Definiere scale (=1/lambda) so, dass der Erwartungswert der Weibull-Verteilung =
+# `expected_val` ist
+scale_vec <- expected_val / gamma(1 + 1/beta_vec)
+
+# Berechnung der Dichten
+x <- seq(0,10,.05)
+# Hier werden die theoretischen Dichteverteilungen abgelegt
+pdf <- matrix(NA, nrow = length(beta_vec), ncol = length(x))
+for (i in 1:length(beta_vec)){
+pdf[i,] <- dweibull(x, shape = beta_vec[i], scale = scale_vec[i])
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OT
-MyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5
-LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOT
-MzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgs
-MTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5Mj
-IwODQxLC00NTUyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYw
-NF19
+eyJoaXN0b3J5IjpbLTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNT
+czMjUsLTE5MDc5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2
+LDE5NDUyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1Mj
+YzMzY3NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAy
+LDM2NTY1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0Mz
+IzODcwNiwxODkyMjA4NDEsLTQ1NTI5NDg4MCwtNTEzMzcyMzU0
+XX0=
 -->
