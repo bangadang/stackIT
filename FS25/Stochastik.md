@@ -1023,12 +1023,14 @@ pnorm(q = b, mean = mu, sd = sigma) - pnorm(q = a, mean = mu, sd = sigma)
 qnorm(alpha, mean = mu, sd = sigma)
 ```
 ## Lognormal-Verteilung log$\Nu$($\mu$, $\sigma^2$)
+
+geeignet für steige Variablen die nur positive Werte annehmen und eine Rechtsschiefe 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MD
-Q1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMs
-NjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MD
-Y0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2Miwx
-MjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMD
-g3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOV19
+eyJoaXN0b3J5IjpbMTQzODkxOTc2NCw0ODEzNjkyOCwxNjAyNz
+M4ODQxLDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQs
+LTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5Mz
+IzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODks
+OTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5Mz
+M1MTksLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OF19
 
 -->
