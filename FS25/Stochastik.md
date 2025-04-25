@@ -874,7 +874,8 @@ qexp(p = alpha, rate = lambda)
 ```
 
 ## Weibullverteilung X ~ Weibull($\beta$, $\lambda$)
-Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den Betrachtungzeitpunkt berücksichtig und daher gedächntnisbehaftet ist.
+Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den Betrachtungszeitpunkt berücksichtig und daher gedächntnisbehaftet ist.
+Oft verwendet für verbleibende Lebensdauern 
 
 - Dichtefunktion $$f(x) = \begin{cases}
 \lambda \cdot \beta \cdot (\lambda \cdot x)^{(\beta -1)} \cdot e^{-(\lambda x)^\beta} & \text{falls } x \geq 0 \\
@@ -898,9 +899,9 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. Sie ist für $\alpha > 0$ definiert als: $$\Gamma(\alpha)=\int_0^\infty t^{\alpha-1}e^{-t}dt$$
 
 **Eigenschaften**:
-- 
+- $\Gamma(\alpha)=(\alpha -1)\Gamma(\alpha-1)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjI1MzE2ODYsLTE5MDc5MzIzOTEsMT
+eyJoaXN0b3J5IjpbLTIxMDY1NDM5NDEsLTE5MDc5MzIzOTEsMT
 kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
 NDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLT
 E2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3
