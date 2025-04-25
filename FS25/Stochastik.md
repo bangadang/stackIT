@@ -1027,13 +1027,14 @@ qnorm(alpha, mean = mu, sd = sigma)
 geeignet für steige Variablen die nur positive Werte annehmen und eine rechtsschiefe Verteilung annehmen, da sie durch eine Log-Transformation eine Normalverteilung annehmen
 Es gilt: X~ log$\Nu$($\mu$, $\sigma^2$), falls log(X)~$\Nu$($\mu$, $\sigma^2$),
 **Eigenschaften**:
-- Erwartungswert: 
+- Erwartungswert: $$E(X)= e^{(\mu + \frac{\sigma^2}{2})}$$
+- Varianz: $$Var(X)=e^{(2\mu+\sigma^2)}(e^\sigma)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAyMjU4MzUsLTE3NTg3MTkxMzksND
-gxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0
-NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MT
-U3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4
-NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNT
-I2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEw
-Ml19
+eyJoaXN0b3J5IjpbOTAyMTQ0NTYsLTE3NTg3MTkxMzksNDgxMz
+Y5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0Nywt
+NDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3Mz
+I1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4Niwx
+OTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2Mz
+M2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMl19
+
 -->
