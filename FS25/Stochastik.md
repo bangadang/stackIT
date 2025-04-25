@@ -1006,12 +1006,13 @@ den Wert verkleinern und zum Teil vergrössern.
 	- Innerhalb [$\mu-\sigma$, $\mu+\sigma$] befinden sich ca. 68% der Wahrscheinlichkeitsmasse
 	- Innerhalb [$\mu-2\sigma$, $\mu+2\sigma$] befinden sich ca. 95% der Wahrscheinlichkeitsmasse
 	- Innerhalb [$\mu-3\sigma$, $\mu+3\sigma$] befinden sich ca. 99.7% der Wahrscheinlichkeitsmasse
+- es gibt **keine** “Formel” für die Verteilungsfunktion, bzw man kann sie nicht in geschlossener Form angeben. Sie muss nummerissch mit dem Computer ermittelt werden.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcwMTg5MDUwLDE2MDI3Mzg4NDEsMTQyOD
-A0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMz
-LDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1Nz
-A2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIs
-MTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMj
-A4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzld
-fQ==
+eyJoaXN0b3J5IjpbMTYyMTI2Mzg3OCwxNjAyNzM4ODQxLDE0Mj
+gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
+Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
+cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
+LDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLTE2Mj
+IwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3MzM5
+XX0=
 -->
