@@ -895,13 +895,16 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 - Varianz: $$Var(X)= \frac{1}{\lambda^2}[\Gamma(1 + \frac{2}{\beta})-\Gamma^2(1 + \frac{1}{\beta})]$$	
 
 ### Exkurs Gammafunktion
-Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. Sie ist für $\alpha > 0$ definiert als: $$\Gamma(\alpha)=\int_0^\infty$$
+Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. Sie ist für $\alpha > 0$ definiert als: $$\Gamma(\alpha)=\int_0^\infty t^{\alpha-1}e^{-t}dt$$
+
+**Eigenschaften**:
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTYzNDA3OSwtMTkwNzkzMjM5MSwxOT
-I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
-NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
-YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
-MzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtND
-U1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUw
-NTE1XX0=
+eyJoaXN0b3J5IjpbLTE0NjI1MzE2ODYsLTE5MDc5MzIzOTEsMT
+kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
+NDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLT
+E2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3
+MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLT
+Q1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1
+MDUxNV19
 -->
