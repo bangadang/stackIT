@@ -1022,13 +1022,13 @@ pnorm(q = b, mean = mu, sd = sigma) - pnorm(q = a, mean = mu, sd = sigma)
 # Quantile: gesucht ist k, so dass P(X ≤ k) = α
 qnorm(alpha, mean = mu, sd = sigma)
 ```
-## Lognormal-Verteilung 
+## Lognormal-Verteilung log$\Nu$($\mu$, $\sigma^2$)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzEwODYzLDE2MDI3Mzg4NDEsMTQyOD
-A0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMz
-LDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1Nz
-A2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIs
-MTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMj
-A4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzld
-fQ==
+eyJoaXN0b3J5IjpbNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MD
+Q1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMs
+NjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MD
+Y0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2Miwx
+MjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMD
+g3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOV19
+
 -->
