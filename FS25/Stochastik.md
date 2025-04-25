@@ -963,13 +963,13 @@ Die Summe unabhängiger, exponentialverteilter Zufallsvariablen ist Gamma vertei
 
 - Dichtefunktion für y > 0 $$f(y) = e^{-\lambda y}\cdot y^{k-1}\cdot \frac{\lambda^k}{\Gamma(k)}$$ 
 	- k > 0 ist der Formparameter
-	- $\lambda$ ist die Rate bzw. $\frac{1}{\lamda}$ der Skalenparametern
+	- $\lambda$ ist die Rate bzw. $\frac{1}{\lambda}$ der Skalenparametern
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMT
-EzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwt
-MTkwNzkzMjM5MSwxOTI1NzA2NDYsLTE0NDUzMTAzODYsMTk0NT
-IxMTQ4OSw5OTg5OTM0NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0
-LDU2MDkzMzUxOSwtMTYyMjA4NzUzOSw1NzEwMjMxMDIsMzY1Nj
-U3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2
+eyJoaXN0b3J5IjpbMjEzNzczMDkyOSwxNDI4MDQ1OTMzLDI4Mj
+M2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEs
+LTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NT
+MxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEs
+LTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MT
+AyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQw
 XX0=
 -->
