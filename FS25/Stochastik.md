@@ -947,9 +947,12 @@ Sie haben eine Taschenlampe und eine
 Ersatztaschenlampe für eine Höhlenexpedition eingepackt. Die Lebensdauer der einzelnen Batterien ist exponentialverteilt mit $\lambda = \frac{1}{24}$ Stunden.
 Wie gross ist die Wahrscheinlichkeit, dass beide Taschenlampen zusammen für mindestens 1 Tag Höhlenexpedition reichen?
 $T_1 =$ Lebensdauer Taschenlampe
-$T_2 =$ Lebe
+$T_2 =$ Lebensdauer Ersatztaschenlampe
+Lebensdauer beider Taschenlampe $T=T_1+T_2$
+Gesucht ist $P(T\gt 24)$
+``````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDcyMzY2LDI4MjM2OTg0NywtNDMxMT
+eyJoaXN0b3J5IjpbNTIzODY3MjIyLDI4MjM2OTg0NywtNDMxMT
 MyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0x
 OTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1Mj
 ExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQs
