@@ -1024,13 +1024,14 @@ qnorm(alpha, mean = mu, sd = sigma)
 ```
 ## Lognormal-Verteilung log$\Nu$($\mu$, $\sigma^2$)
 
-geeignet für steige Variablen die nur positive Werte annehmen und eine Rechtsschiefe 
+geeignet für steige Variablen die nur positive Werte annehmen und eine rechtsschiefe Verteilung annehmen, da sie durch eine Log-Transformation eine Normalverteilung annehmen
+Es gitlt: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODkxOTc2NCw0ODEzNjkyOCwxNjAyNz
-M4ODQxLDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQs
-LTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5Mz
-IzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODks
-OTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5Mz
-M1MTksLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OF19
-
+eyJoaXN0b3J5IjpbLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMj
+czODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0
+LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OT
+MyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5
+LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOT
+MzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOThd
+fQ==
 -->
