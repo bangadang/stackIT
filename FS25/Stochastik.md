@@ -1029,9 +1029,9 @@ Es gilt: X~ log$\Nu$($\mu$, $\sigma^2$), falls log(X)~$\Nu$($\mu$, $\sigma^2$),
 **Eigenschaften**:
 - Erwartungswert: $$E(X)= e^{(\mu + \frac{\sigma^2}{2})}$$
 - Varianz: $$Var(X)=e^{(2\mu+\sigma^2)}(e^{\sigma^2}-1)$$
-- Für die logarithmierte Zufallsvariable gilt $E(log(X))=\$
+- Für die logarithmierte Zufallsvariable gilt $E(log(X))=\mu$ und $Var(log(X))=\sigma^2$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDIzNzUzNTIsLTE3NTg3MTkxMzksND
+eyJoaXN0b3J5IjpbLTE5MjkxODE5MDgsLTE3NTg3MTkxMzksND
 gxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0
 NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MT
 U3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4
