@@ -906,8 +906,9 @@ Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. S
 - Für $n\in \N$ gilt: $\Gamma(n)=(n-1)!$
 
 ### Beispiel Weibull
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjY5OTI4NCwtNjQxNTczMjUsLTE5MD
+eyJoaXN0b3J5IjpbMTc0Nzg3MzE3OCwtNjQxNTczMjUsLTE5MD
 c5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0
 ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1Nj
 A5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5
