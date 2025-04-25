@@ -877,15 +877,16 @@ qexp(p = alpha, rate = lambda)
 Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den Betrachtungzeitpunkt berücksichtig und daher gedächntnisbehaftet ist.
 
 - Dichtefunktion $$f(x) = \begin{cases}
-\lambda \cdot \beta \cdot (\lambda \cdot x)^{(\beta -1)} \cdot e^{} & \text{falls } x \geq 0 \\
+\lambda \cdot \beta \cdot (\lambda \cdot x)^{(\beta -1)} \cdot e^{-(\lambda x)^\beta} & \text{falls } x \geq 0 \\
 0 & \text{falls } x \lt 0 
 \end{cases}$$
+- $\beta$ ist der Formparameeter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMwMTY3MywtMTkwNzkzMjM5MSwxOT
-I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
-NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
-YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
-MzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtND
-U1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUw
-NTE1XX0=
+eyJoaXN0b3J5IjpbNDU3NDg4NTAyLC0xOTA3OTMyMzkxLDE5Mj
+U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
+MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNj
+IyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMz
+OSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDYsMTg5MjIwODQxLC00NT
+UyOTQ4ODAsLTUxMzM3MjM1NCwtMTI2MjU1NjYwNCwyMDg1NTA1
+MTVdfQ==
 -->
