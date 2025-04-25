@@ -965,8 +965,9 @@ Die Summe unabhängiger, exponentialverteilter Zufallsvariablen ist Gamma vertei
 	- k > 0 ist der Formparameter
 	- $\lambda$ ist die Rate bzw. $\frac{1}{\lambda}$ der Skalenparametern
 - Eine Summe von unabhängigen exponentialverteilen Zufallsvariablen $X_i$~Exp($\lambda$), i = 1,...,k ist gleich der Gammaverteilung
+- Formuliert wird die Exponentialverteilung für Wartezeiten für das Eintreffen eines Ereignisses verwendet, d.h. die Gammaverteilung ist die Wartezeit bis das k-te Ereigniseingetreten ist.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMTQ3Mzk2NywxNDI4MDQ1OTMzLDI4Mj
+eyJoaXN0b3J5IjpbLTM1NTA1ODczNCwxNDI4MDQ1OTMzLDI4Mj
 M2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEs
 LTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NT
 MxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEs
