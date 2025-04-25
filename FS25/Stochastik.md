@@ -886,9 +886,10 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 	- $\beta \gt 1$: Fehlerrate zunehmend
 - NICHT gedächtnislos, Zeitfaktor spielt eine Rolle
 	- W’keit, dass ein Handy noch 1 Jahr funktioniert ist bei Occasion Handys (>2Jahrealt) kleiner als bei neuen Handys (>1 Monat alt).
+	- W’keit, dass ein Kartenhaus die nächsten 10 Sekunden hält ist bei Kartenhäusern, die bereits 15 Sekunden stehen (> 15 Sekunden) grösser als bei Kartenhäusern, die eben erstellt wurden (> 0.5 Sekunden).
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwODY1MjI3LC0xOTA3OTMyMzkxLDE5Mj
+eyJoaXN0b3J5IjpbNzcxMzQ5MDgyLC0xOTA3OTMyMzkxLDE5Mj
 U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
 MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNj
 IyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMz
