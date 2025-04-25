@@ -1036,12 +1036,20 @@ Es gilt: X~ log$\Nu$($\mu$, $\sigma^2$), falls log(X)~$\Nu$($\mu$, $\sigma^2$),
 Nachbilden eines zufallsbedingten Prozesses, dessen:
 - Einflussfaktoren des Systems können nur mit Messfehlern behaftet erhoben werden
 - Deterministische Phänomene sind zu komplex für eine exakte Modellierung
+
+### Allgemeines Vorgehen
+1. Fragestellung, d.h. Zielgrösse definieren
+2. Wesentliche Einflussgrössen des Systems identifizieren
+3. Gegenseitige Beziehung der Einflussgrössen und Zielgrösse bestimmen
+4. Implementierung des stochastischen Modells
+5. Erzeugung einer Stichprobe für die Zielgrösse
+6. Ergebnisbeurteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDYxNTQxODEsNzE3NzAxNjI5LC0xNz
-U4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMTQyODA0NTkz
-MywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMz
-gxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYs
-LTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mz
-c2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUz
-OV19
+eyJoaXN0b3J5IjpbMjA0NDEyNTY2MSw3MTc3MDE2MjksLTE3NT
+g3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMz
+LDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzOD
+E1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0Niwt
+MTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNz
+Y1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5
+XX0=
 -->
