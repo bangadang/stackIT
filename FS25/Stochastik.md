@@ -995,12 +995,16 @@ den Wert verkleinern und zum Teil vergrössern.
 
 **Eigenschaften**
 - Dichtefunktion: $$f(x)= \frac{1}{\sigma \sqrt{2\pi}}exp(-\frac{(x-\mu)^2}{2\sigma^2})$$
+	- f(x) ist symmterisch um x=$\mu$
+	- auf beiden Seiten nähert sie sich asymptotisch an 0 heran
+	- $\mu$ verschiebt die Glockenkurve entlang der x-Achse und hat bei $\mu$ ihr Maximum
+- Erwartungswert $E(X)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTAzMTkzMjYsMTYwMjczODg0MSwxND
-I4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1
-MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5Mj
-U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
-MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNj
-IyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMz
-OV19
+eyJoaXN0b3J5IjpbLTY4NzQzODE4MiwxNjAyNzM4ODQxLDE0Mj
+gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
+Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
+cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
+LDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLTE2Mj
+IwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3MzM5
+XX0=
 -->
