@@ -877,7 +877,7 @@ qexp(p = alpha, rate = lambda)
 Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den Betrachtungszeitpunkt berücksichtig und daher gedächntnisbehaftet ist.
 Oft verwendet für verbleibende Lebensdauern oder Fehlerraten über Zeit
 
-###Eigenschaften
+### Eigenschaften
 - Dichtefunktion $$f(x) = \begin{cases}
 \lambda \cdot \beta \cdot (\lambda \cdot x)^{(\beta -1)} \cdot e^{-(\lambda x)^\beta} & \text{falls } x \geq 0 \\
 0 & \text{falls } x \lt 0 
@@ -930,10 +930,18 @@ pdf[i,] <- dweibull(x, shape = beta_vec[i], scale = scale_vec[i])
 ```
 
 ```r
-# scale = 1/lambda,
+# scale = 1/lambda, shabe = beta
+# Werte der Dichtefunktion an der Stelle x
+dweibull(x, shape = beta, scale = 1/lambda)
+# Kumulative Verteilungsfunktion P(X <= x):
+pweibull(q, shape = beta, scale = 1/lambda)
+# Quantile: gesucht ist k, so dass P(X ≤ k) = α
+qweibull(p, shape = beta, scale = 1/lambda)
+# Simulation von n Weibull verteilten Zufallszahlen
+rweibull(n, shape = beta, scale = 1/lambda)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjg0OTAzNCwtODQ3NjU4NTMzLDYwMz
+eyJoaXN0b3J5IjpbLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMz
 gxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYs
 LTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mz
 c2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUz
