@@ -891,10 +891,10 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 1- e^{-(\lambda x)^\beta} & \text{falls } x \geq 0 \\
 0 & \text{falls } x \lt 0 
 \end{cases}$$
-- Erwartungswert: $$E(X) = \frac{1}{\lambda}\Gamma()$$
-	
+- Erwartungswert: $$E(X) = \frac{1}{\lambda}\Gamma(1 + \frac{1}{\beta})$$
+- Varianz: $$Var(X)= \frac{1}{\lambda^2}[\Gamma()-\Gamma^2(1 + \frac{1}{\beta})]$$	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODM1Mzc0NiwtMTkwNzkzMjM5MSwxOT
+eyJoaXN0b3J5IjpbLTY3MDU0MjI2NCwtMTkwNzkzMjM5MSwxOT
 I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
 NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
 YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
