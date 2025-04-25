@@ -1031,12 +1031,15 @@ Es gilt: X~ log$\Nu$($\mu$, $\sigma^2$), falls log(X)~$\Nu$($\mu$, $\sigma^2$),
 - Varianz: $$Var(X)=e^{(2\mu+\sigma^2)}(e^{\sigma^2}-1)$$
 - Für die logarithmierte Zufallsvariable gilt $E(log(X))=\mu$ und $Var(log(X))=\sigma^2$
 - Für R ```lnorm(.., meanlog = mu, sdlog = sigma)```
+
+# Stochastische Simulation
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MT
-M2OTI4LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcs
-LTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02NDE1Nz
-MyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYsLTE0NDUzMTAzODYs
-MTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mzc2NTUxLC0xMDUyNj
-MzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUzOSw1NzEwMjMxMDJd
-fQ==
+eyJoaXN0b3J5IjpbMTYwMjkzNDY2Niw3MTc3MDE2MjksLTE3NT
+g3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMz
+LDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzOD
+E1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0Niwt
+MTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNz
+Y1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5
+XX0=
 -->
