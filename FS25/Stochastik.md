@@ -1007,8 +1007,11 @@ den Wert verkleinern und zum Teil vergrössern.
 	- Innerhalb [$\mu-2\sigma$, $\mu+2\sigma$] befinden sich ca. 95% der Wahrscheinlichkeitsmasse
 	- Innerhalb [$\mu-3\sigma$, $\mu+3\sigma$] befinden sich ca. 99.7% der Wahrscheinlichkeitsmasse
 - es gibt **keine** “Formel” für die Verteilungsfunktion, bzw man kann sie nicht in geschlossener Form angeben. Sie muss nummerissch mit dem Computer ermittelt werden. $$F(x) = \frac{1}{\sigma \sqrt{2\pi}}\int_{-\infty}^x exp(-\frac{(z-\mu)^2}{2\sigma^2})dz$$
+
+```r
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODU1MTk1NCwxNjAyNzM4ODQxLDE0Mj
+eyJoaXN0b3J5IjpbLTI4OTgyNzYwNiwxNjAyNzM4ODQxLDE0Mj
 gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
 Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
 cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
