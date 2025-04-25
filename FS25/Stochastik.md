@@ -880,13 +880,17 @@ Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den B
 \lambda \cdot \beta \cdot (\lambda \cdot x)^{(\beta -1)} \cdot e^{-(\lambda x)^\beta} & \text{falls } x \geq 0 \\
 0 & \text{falls } x \lt 0 
 \end{cases}$$
-- $\beta$ ist der Formparameeter
+- $\beta$ ist der Formparameter
+	- $\beta \lt 1$: Fehlerrate abnehmend
+	- $\beta = 1$: Fehlerrate konstant
+	- $\beta \gt 1$: Fehlerrate zunehmend
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Nzg5NjM2NiwtMTkwNzkzMjM5MSwxOT
-I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
-NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
-YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
-MzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtND
-U1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUw
-NTE1XX0=
+eyJoaXN0b3J5IjpbLTE1NDk0Mzk1MzMsLTE5MDc5MzIzOTEsMT
+kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
+NDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLT
+E2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3
+MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLT
+Q1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1
+MDUxNV19
 -->
