@@ -942,13 +942,18 @@ rweibull(n, shape = beta, scale = 1/lambda)
 
 ## Gammaverteilung X~G(k,$\lambda$)
 
-###
+### Beispiel Höhlenexpedition
+Sie haben eine Taschenlampe und eine
+Ersatztaschenlampe für eine Höhlenexpedition eingepackt. Die Lebensdauer der einzelnen Batterien ist exponentialverteilt mit $\lambda = \frac{1}{24}$ Stunden.
+Wie gross ist die Wahrscheinlichkeit, dass beide Taschenlampen zusammen für mindestens 1 Tag Höhlenexpedition reichen?
+$T_1 =$ Lebensdauer Taschenlampe
+$T_2 =$ Lebe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTc2Nzk2MDgsMjgyMzY5ODQ3LC00Mz
-ExMzIwMjQsLTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUs
-LTE5MDc5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5ND
-UyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3
-NCw1NjA5MzM1MTksLTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NT
-Y1NzI5OCwxMjAzODc3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcw
-Nl19
+eyJoaXN0b3J5IjpbLTMyNDcyMzY2LDI4MjM2OTg0NywtNDMxMT
+MyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0x
+OTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1Mj
+ExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQs
+NTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MTAyMzEwMiwzNjU2NT
+cyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQwLDE1NDMyMzg3MDZd
+fQ==
 -->
