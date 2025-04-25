@@ -986,12 +986,14 @@ rgamma(n, shape = k, rate = lambda)
 ```
 
 ## Normalverteilung/ Gaussverteilung X~$\Nu(\mu,\sigma^2)$
+
+Die Verteilung der Mittelwerte von Zufallszahlen nimmt mit zunehmender Stichprobengrösse - unabhängig von der ursprünglichen Verteilung! - immer mehr die Form einer Glockenkurve an.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4Mj
-M2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEs
-LTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NT
-MxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEs
-LTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MT
-AyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQw
+eyJoaXN0b3J5IjpbMTEzODY5NzQyNSwxNjAyNzM4ODQxLDE0Mj
+gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
+Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
+cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
+LDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLTE2Mj
+IwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3MzM5
 XX0=
 -->
