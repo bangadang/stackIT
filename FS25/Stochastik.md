@@ -968,12 +968,20 @@ Die Summe unabhängiger, exponentialverteilter Zufallsvariablen ist Gamma vertei
 - Formuliert wird die Exponentialverteilung für Wartezeiten für das Eintreffen eines Ereignisses verwendet, d.h. die Gammaverteilung ist die Wartezeit bis das k-te Ereigniseingetreten ist.
 - Erwartungswert: $$E(Y) = \frac{k}{\lambda}$$
 - Varainz: $$Var(Y)=\frac{k}{\lambda^2}$$
+- Die Gamma-Verteilung eignet sich zur Modellierung von positiven Grössen wie Überlebenszeiten, Wartezeiten, Schadenshöhen oder allgemein Kosten
+	- Reparaturzeit eines Systems (Reliability Theory)
+	- Zeit bis ein Kunde bedient wird (Warteschlangen)
+	- Schadenshöhe bei Versicherungen (Actuarial modelling)
+	- Kosten eines Patienten in der Reha (Econometrics)
+
+```r
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTgzNTkyODEsMTQyODA0NTkzMywyOD
-IzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkx
-LC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYsLTE0ND
-UzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mzc2NTUx
-LC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUzOSw1Nz
-EwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzksMTI0NDIxNjI0
-MF19
+eyJoaXN0b3J5IjpbMTQ4NDMyMzMyNSwxNDI4MDQ1OTMzLDI4Mj
+M2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEs
+LTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NT
+MxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEs
+LTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5LDU3MT
+AyMzEwMiwzNjU2NTcyOTgsMTIwMzg3NzMzOSwxMjQ0MjE2MjQw
+XX0=
 -->
