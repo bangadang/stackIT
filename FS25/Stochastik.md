@@ -877,11 +877,11 @@ qexp(p = alpha, rate = lambda)
 Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den Betrachtungzeitpunkt berücksichtig und daher gedächntnisbehaftet ist.
 
 - Dichtefunktion $$f(x) = \begin{cases}
-1- e^{-\lambda x} & \text{falls } x \geq 0 \\
+\lambda \cdot \beta \cdot (\lambda \cdot x)^{(\beta -1)} \cdot e^{} & \text{falls } x \geq 0 \\
 0 & \text{falls } x \lt 0 
 \end{cases}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTM1MzM1MSwtMTkwNzkzMjM5MSwxOT
+eyJoaXN0b3J5IjpbLTExNTMwMTY3MywtMTkwNzkzMjM5MSwxOT
 I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
 NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
 YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
