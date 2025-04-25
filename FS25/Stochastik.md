@@ -875,7 +875,7 @@ qexp(p = alpha, rate = lambda)
 
 ## Weibullverteilung X ~ Weibull($\beta$, $\lambda$)
 Die Weibullverteilung  ist eine Erweiterung der Exponentialverteilung, die den Betrachtungszeitpunkt berücksichtig und daher gedächntnisbehaftet ist.
-Oft verwendet für verbleibende Lebensdauern 
+Oft verwendet für verbleibende Lebensdauern oder Fehlerraten über Zeit
 
 - Dichtefunktion $$f(x) = \begin{cases}
 \lambda \cdot \beta \cdot (\lambda \cdot x)^{(\beta -1)} \cdot e^{-(\lambda x)^\beta} & \text{falls } x \geq 0 \\
@@ -900,13 +900,14 @@ Die Gammafunktion ist eine Verallgemeinerung der Fakultät für reelle Zahlen. S
 
 **Eigenschaften**:
 - $\Gamma(\alpha)=(\alpha -1)\Gamma(\alpha-1)$
-- für $\alpha = 1$ $\Gamme$
+- für $\alpha = 1$ $\Gamma(1) = 1$
+- Für $n\in \N$ gilt: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk1NzAxMDMsLTE5MDc5MzIzOTEsMT
-kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
-NDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTksLT
-E2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzODc3
-MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDEsLT
-Q1NTI5NDg4MCwtNTEzMzcyMzU0LC0xMjYyNTU2NjA0LDIwODU1
-MDUxNV19
+eyJoaXN0b3J5IjpbMjAwNTc3NjIyNCwtMTkwNzkzMjM5MSwxOT
+I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
+NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMT
+YyMjA4NzUzOSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4Nzcz
+MzksMTI0NDIxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtND
+U1Mjk0ODgwLC01MTMzNzIzNTQsLTEyNjI1NTY2MDQsMjA4NTUw
+NTE1XX0=
 -->
