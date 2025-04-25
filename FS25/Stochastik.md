@@ -975,9 +975,19 @@ Die Summe unabhängiger, exponentialverteilter Zufallsvariablen ist Gamma vertei
 	- Kosten eines Patienten in der Reha (Econometrics)
 
 ```r
+# Werte der Dichtefunktion an der Stelle x
+dgamma(x, shape = k, rate = lamda)
+# Kumulative Verteilungsfunktion P(X <= q):
+pgamma(q, shape = k, rate = lambda)
+# Quantile: gesucht ist k, so dass P(X ≤ k) = k
+qgamma(p, shape = k, rate = lambda)
+# Simulation von n Gamma verteilten Zufallszahlen
+rgamma(n, shape = k, rate = lambda)
 ```
+
+## Normalverteilung/ Gaussverteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NDMyMzMyNSwxNDI4MDQ1OTMzLDI4Mj
+eyJoaXN0b3J5IjpbMTQzODYzMjA3MiwxNDI4MDQ1OTMzLDI4Mj
 M2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEs
 LTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NT
 MxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEs
