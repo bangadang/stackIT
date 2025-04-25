@@ -913,8 +913,7 @@ Die mittlere Lebensdauer einer Weibull-Verteilten Population ist (1/λ)Gamma(1 +
 expected_val <- 3
 
 # Raster von shapes: von "hält länger, je länger schon gehalten" (beta <1) zu
-# "hält weniger lang, je länger schon gehalten" (beta >1). Wir erstellen ein
-# exponential-verteiltes beta-Raster
+# "hält weniger lang, je länger schon gehalten" (beta >1). Wir erstellen ein exponential-verteiltes beta-Raster
 beta_vec <- c(0.4, 1, 7)
 
 # Definiere scale (=1/lambda) so, dass der Erwartungswert der Weibull-Verteilung =
@@ -941,11 +940,11 @@ qweibull(p, shape = beta, scale = 1/lambda)
 rweibull(n, shape = beta, scale = 1/lambda)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMz
-gxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYs
-LTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0NjIsMTI1Mz
-c2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOSwtMTYyMjA4NzUz
-OSw1NzEwMjMxMDIsMzY1NjU3Mjk4LDEyMDM4NzczMzksMTI0ND
-IxNjI0MCwxNTQzMjM4NzA2LDE4OTIyMDg0MSwtNDU1Mjk0ODgw
-XX0=
+eyJoaXN0b3J5IjpbMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
+Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
+MTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OT
+kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTks
+LTE2MjIwODc1MzksNTcxMDIzMTAyLDM2NTY1NzI5OCwxMjAzOD
+c3MzM5LDEyNDQyMTYyNDAsMTU0MzIzODcwNiwxODkyMjA4NDFd
+fQ==
 -->
