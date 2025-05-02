@@ -1076,9 +1076,9 @@ Die Verteilung des Profits ergibt sich aus folgender Funktion:
 	- Wenn g **streng monoton zunehmend** ist ($u \gt v \Rightarrow g(u)\gt g(v)$), dann ist $g^{-1}$ die Umkehrfunktion von g ($y = g(x)$ und $x = g^{-1}(y)$), daraus folgt: $$F^Y(y= P(Y\le y) = P(g(X)\le y)$$$$P(g^{-1}(g(X))\le g^{-1}(y)) = P(X\le g^{-1}(y))$$$$F^Y(y) = F^X(g^{-1}(y))$$
 
 Beispiel quadratische Transformation
-
+$y=g(x)=x^2$ und $g^{1}(y)=\sqrt{y}$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjgwMzY0NCwyMDQ0MTI1NjYxLDcxNz
+eyJoaXN0b3J5IjpbMTI2MjI5NTY0OCwyMDQ0MTI1NjYxLDcxNz
 cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
 LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
 Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
