@@ -1047,9 +1047,15 @@ Nachbilden eines zufallsbedingten Prozesses, dessen:
 
 # Transformationen
 ### Nutzen
-- Änder
+- Änderungen von Masseinheiten
+- Informativiere Darstellung
+- Einfachere Analyse
+- Behebung von Schiefe
+- Standardisierung für Vergleiche von Variablen
+
+Häufig ist die Verteilung einer Zufallsvariable X bekannt, man ist jedoch an der Verteilung einer anderen Zufallsvariable Y interessiert
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzkxNjQ2MSwyMDQ0MTI1NjYxLDcxNz
+eyJoaXN0b3J5IjpbLTUzNzMyMTY2MCwyMDQ0MTI1NjYxLDcxNz
 cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
 LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
 Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
