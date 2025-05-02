@@ -1102,11 +1102,13 @@ $F^Y(4)=1-F^X(-4)$
 Die Dichte entspricht der Ableitung der Verteilungsfunktion
 $$f(x)=F'(x)=\frac{d}{dx}F(x)$$
 Daraus lässt sich eine Formel für die Dichte durch Ableiten der Gleichung $F^Y(y)=F^X(g^{-1}(y))$ herleiten 
-$$f^Y(y) = \frac{d}{dy}F^Y(y)$$$$=\frac{d}{dy}F^X(g^{-1}(y))$$$$=\frac{d}{d(g^{-1}(y))}F^X(g^{-1}(y))\cdot\frac{d}{dy}g^{-1}(y)\text{ || Verkettungsregel}$$$$f^X(g^{-1}(y))\cdot|\frac{d}{dy}g^{-1}(y)| = f^Y(y)\text{  ||Betrag damit f^Y}$$
+$$f^Y(y) = \frac{d}{dy}F^Y(y)$$$$=\frac{d}{dy}F^X(g^{-1}(y))$$$$=\frac{d}{d(g^{-1}(y))}F^X(g^{-1}(y))\cdot\frac{d}{dy}g^{-1}(y)\text{ || Verkettungsregel}$$$$f^X(g^{-1}(y))\cdot|\frac{d}{dy}g^{-1}(y)| = f^Y(y)\text{  || Betrag damit } f^y\text{ positiv ist}$$
+
+Beispiel:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjEyMDQyNSwtMTAzOTk1OTkyMCwxND
+eyJoaXN0b3J5IjpbLTU5ODQ0NjcyNywtMTAzOTk1OTkyMCwxND
 cyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5
 MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyOD
 IzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkx
