@@ -1061,9 +1061,14 @@ gegebene Funktion des Umsatzes X.
 Die Verteilung des **Umsatzes** ist
 bekannt: $\Nu$(105, 202)
 Die Verteilung des Profits ergibt sich aus folgender Funktion:
-Profit = 0.1 · Umsatz - 10
+**Profit** = 0.1 · **Umsatz** - 10
+
+### Verteilung transformierter Zufallsvariablen
+- Gegeben:
+	- X Zufallsvariable
+	- Verteilungsfunktion von X, F(x)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODU0ODM2MiwyMDQ0MTI1NjYxLDcxNz
+eyJoaXN0b3J5IjpbMjAzMTE5MDg1NywyMDQ0MTI1NjYxLDcxNz
 cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
 LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
 Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
