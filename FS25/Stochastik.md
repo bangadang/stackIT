@@ -1096,15 +1096,19 @@ $$F^Y(y) = \begin{cases}
 
 Beispiel linear abnehmende Transformation:
 $y=g(x)=-x$ und $g^{-1}(y)=-y$
-$F^Y(4)=1-F$
+$F^Y(4)=1-F^X(-4)$
+
+## Transformation der Dichte
+Die Dichte entspricht der Ableitung der Verteilungsfunktion
+$$f(x)=F'(x)=frac{d}{dx}F(x)$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTU2OTAyOCwxNDcyNDA3MDc4LDIwND
-QxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4
-LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMT
-EzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwt
-MTkwNzkzMjM5MSwxOTI1NzA2NDYsLTE0NDUzMTAzODYsMTk0NT
-IxMTQ4OSw5OTg5OTM0NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0
-XX0=
+eyJoaXN0b3J5IjpbMzU5MjkyMzY1LDE0NzI0MDcwNzgsMjA0ND
+EyNTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMzksNDgxMzY5Mjgs
+MTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMT
+MyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0x
+OTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1Mj
+ExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzRd
+fQ==
 -->
