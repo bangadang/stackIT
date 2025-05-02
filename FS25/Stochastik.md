@@ -1070,15 +1070,16 @@ Die Verteilung des Profits ergibt sich aus folgender Funktion:
 	- Transformationsfunktion g
 - Ziel: aus X und g die Verteilung der Zufallsvariable Y = g(X) zu bestimmen.
 - Variante numerisch:
-	- Zu jeder Zufallszahl x aus der Verteilung von X kann man y = g(x )
-bestimmen. Wiederholt man das “unendlich oft” zeigen die y-Werte die
-Verteilung von Y.
+	- Zu jeder Zufallszahl x aus der Verteilung von X kann man y = g(x) bestimmen. Wiederholt man das “unendlich oft” zeigen die y-Werte die Verteilung von Y.
+- Variante formal:
+	- Die kumulative Verteilungsfunktion F Y lässt sich aus F X bestimmen
+	- Wenn g **streng monoton zunehmend** ist ($u \gt v \then$)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjE0MTc4MCwyMDQ0MTI1NjYxLDcxNz
-cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
-LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
-Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
-MTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OT
-kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTld
-fQ==
+eyJoaXN0b3J5IjpbLTEzMTM4MjA5MTgsMjA0NDEyNTY2MSw3MT
+c3MDE2MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0
+MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04ND
+c2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkx
+LDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5OD
+k5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5
+XX0=
 -->
