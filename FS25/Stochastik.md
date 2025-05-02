@@ -1108,11 +1108,13 @@ Beispiel: Transformation der Dichte mit quadratischer Transformation
 ## Transformation von Kennzahlen
 ### Erwartungswert
 - allgemein diskreter Fall $$E(Y)=E(g(X))=\Sigma_i g(x_i)P(X=x_i)$$
-- allgemein stetiger Fall $$E(Y)$$
+- allgemein stetiger Fall $$E(Y)=E(g(X))=\int_{-\infty}^\infty g(x)f(x)dx$$
+### Varianz
+$$Var(Y)=E[Y]$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5Nzg5MjQ3LC0xOTk1NDk5MTA5LC0xMD
+eyJoaXN0b3J5IjpbOTI5ODg4NzI1LC0xOTk1NDk5MTA5LC0xMD
 M5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2
 MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxND
 I4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1
