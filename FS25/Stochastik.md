@@ -1122,15 +1122,16 @@ $$E(Y) = a\cdot E(X)+b$$
 - Zweck: Vergleich zweier Zufallsvariablen
 	-	Anwendung bei vielen statistischen und Machine Learning Methoden
 -	Gegeben für Standardisierung von X:
-	-	Erwartungswert $E(X)
+	-	Erwartungswert $E(X)=\mu$
+	-	Varianz $Var(X)=\sigma^2$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkxMTY1MTEsLTE5OTU0OTkxMDksLT
-EwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcw
-MTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLD
-E0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1
-ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMT
-kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
-NDYyXX0=
+eyJoaXN0b3J5IjpbMTkxNjQ2MzAxNiwtMTk5NTQ5OTEwOSwtMT
+AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
+NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
+QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
+NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOT
+I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
+NjJdfQ==
 -->
