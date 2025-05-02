@@ -1094,11 +1094,13 @@ $$F^Y(y) = \begin{cases}
 0 & \text{falls }  x \lt 0
 \end{cases}$$
 
-Beispiel linear abhnehmende Transformation
+Beispiel linear abnehmende Transformation:
+$y=g(x)=-x$ und $g^{-1}(y)=-y$
+$F^Y(4)=1-F$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDY5NjY5MiwxNDcyNDA3MDc4LDIwND
+eyJoaXN0b3J5IjpbLTkwNTU2OTAyOCwxNDcyNDA3MDc4LDIwND
 QxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4
 LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMT
 EzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwt
