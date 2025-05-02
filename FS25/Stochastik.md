@@ -1077,13 +1077,16 @@ Die Verteilung des Profits ergibt sich aus folgender Funktion:
 
 Beispiel quadratische Transformation
 $y=g(x)=x^2$ und $g^{-1}(y)=\sqrt{y}$
-$F^Y(4)=P(Y\le4)=P(X^2\le4)=P(\sqrt{X^2}\le\sqrt4)=$
+$F^Y(4)=P(Y\le4)=P(X^2\le4)=P(\sqrt{X^2}\le\sqrt4)$
+$=P(X\le2)=F^X(2)$
+
+Wichtig Grenzen der Verteilungsfunktio
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDM2MDcxMiwyMDQ0MTI1NjYxLDcxNz
-cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
-LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
-Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
-MTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OT
-kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTld
-fQ==
+eyJoaXN0b3J5IjpbODYzNDIwMDc1LDIwNDQxMjU2NjEsNzE3Nz
+AxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEs
+MTQyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3Nj
+U4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwx
+OTI1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OT
+M0NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOV19
+
 -->
