@@ -1155,13 +1155,13 @@ Nur in Ausnahmefällen ist es möglich aus bekannten Verteilungen X und Y die Ve
 - X, Y sind binomialverteilt mit gleichem p $\Rightarrow$ S ~ Bin$(n_x+n_y,p)$
 - X,Y sind exponentialverteilt mit gleichem $\lambda$ $\Rightarrow$ S ~ G(2,$\lambda$)
 
-In Normalfällen muss simuliert werden. Einfacher ist es die Kenngrössen Erwartungswer und Varian
+In Normalfällen muss simuliert werden. Einfacher ist es die Kenngrössen Erwartungswer und Varianz zu berechnen. DIese lassen sich für lineare Transformationen, wie Summen, einfach angeben.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDM0MzgxMSwtMTk5NTQ5OTEwOSwtMT
-AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
-NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
-QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
-NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOT
-I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
-NjJdfQ==
+eyJoaXN0b3J5IjpbOTY4OTg3NTUsLTE5OTU0OTkxMDksLTEwMz
+k5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYy
+OSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLDE0Mj
+gwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUz
+Myw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNT
+cwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYy
+XX0=
 -->
