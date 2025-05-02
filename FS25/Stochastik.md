@@ -1125,11 +1125,12 @@ $$E(Y) = a\cdot E(X)+b$$
 	-	Erwartungswert $E(X)=\mu$
 	-	Varianz $Var(X)=\sigma^2$
 -	Behauptung
-	-	Transformiert man X mit der linearen Transformation $g(x)=\frac{x-\mu}{\sigma}$ erhält man die gewünschte Zufallsvariable
+	-	Transformiert man X mit der linearen Transformation $g(x)=\frac{x-\mu}{\sigma}$ mit $a=\frac{1}{\sigma}$ und $b=-\mu$, erhält man die gewünschte Zufallsvariable Z
+	-	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjc4MzkxMCwtMTk5NTQ5OTEwOSwtMT
+eyJoaXN0b3J5IjpbLTQ5Mjg3NjM5OCwtMTk5NTQ5OTEwOSwtMT
 AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
 NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
 QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
