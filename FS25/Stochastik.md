@@ -1124,10 +1124,12 @@ $$E(Y) = a\cdot E(X)+b$$
 -	Gegeben für Standardisierung von X:
 	-	Erwartungswert $E(X)=\mu$
 	-	Varianz $Var(X)=\sigma^2$
+-	Behauptung
+	-	Transformiert man X mit der linearen Transformation $g(x)=\frac{x-\mu}{\sigma}$ erhält man die gewünschte Zufallsvariable
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjQ2MzAxNiwtMTk5NTQ5OTEwOSwtMT
+eyJoaXN0b3J5IjpbLTEzMjc4MzkxMCwtMTk5NTQ5OTEwOSwtMT
 AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
 NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
 QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
