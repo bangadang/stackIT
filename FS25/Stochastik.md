@@ -1160,15 +1160,18 @@ Seien a unb b skalare Grössen und S = X + Y Zufallsvariablen. Dann gelen die fo
 - Erwartungswert $$E(S)=E(X)+E(Y)$$$$E(aX+b)=a\cdot E(X)+b$$
 - Varianz$$Var(S)=Var(X)+Var(Y)+2\cdot Cov(X,Y)$$$$Var(a\cdot X+b) = a^2\cdot Var(X)$$
 Der Term Cov(X,Y) beschreibt den linearen Zusammenhang der beiden Zufallsvariablen.
+
 $Cov(X,Y):= E[(X-E(X))\cdot (Y-E(Y))]$
+
  Er ist nur in Ausnahmefällen gleich null, z.B.  wenn X und Y unabhängig sind.
-Achtung Var(X-Y)=Var (X ) + Var (Y ) = Var (X + Y )
+ 
+Achtung $Var(X-Y)=Var(X ) + Var (Y) = Var (X + Y )$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzU2NzYyOSwyNjgwODEwMzEsLTE5OT
-U0OTkxMDksLTEwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1
-NjYxLDcxNzcwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNj
-AyNzM4ODQxLDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIw
-MjQsLTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MD
-c5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0
-ODldfQ==
+eyJoaXN0b3J5IjpbMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5NT
+Q5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2
+NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MD
+I3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAy
+NCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNz
+kzMjM5MSwxOTI1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4
+OV19
 -->
