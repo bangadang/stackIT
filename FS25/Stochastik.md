@@ -1137,10 +1137,11 @@ Beispiel: EIne beliebige Normalverteilung $\Nu(\mu,\sigma^2)$ lässt sich mit de
 
 Die Verteilungsfunktion der Standardnormalverteilung wird meist mit $\phi$ bezeichnet.
 - $\phi$ ist punktsymmetrisch, d.h. $\phi(-x)=1-\phi(x)$
-- Eine beliebige Verteilungsfunktion einer Normalverteilung $\Nu(\mu,\sigma^2)$, lässt sich schreiben als: $$F^Y(y)=P(Y\le y)=\phi(\frac{y-\mu}{\sigma})$$
+- Eine beliebige Verteilungsfunktion einer Normalverteilung $\Nu(\mu,\sigma^2)$, lässt sich schreiben als: $$F^Y(y)=P(\frac{Y-\mu}{\sigma}\le \frac{y-\mu}{\sigma})=P(Y\le y)=\phi(\frac{y-\mu}{\sigma})$$
 
+Beispiel Wie viel ist mein IQ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwNDQwOTY3LC0xOTk1NDk5MTA5LC0xMD
+eyJoaXN0b3J5IjpbNzY0Njg0MTY5LC0xOTk1NDk5MTA5LC0xMD
 M5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2
 MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxND
 I4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1
