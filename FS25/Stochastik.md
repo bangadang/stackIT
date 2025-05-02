@@ -1100,11 +1100,12 @@ $F^Y(4)=1-F^X(-4)$
 
 ## Transformation der Dichte
 Die Dichte entspricht der Ableitung der Verteilungsfunktion
-$$f(x)=F'(x)=frac{d}{dx}F(x)$$
+$$f(x)=F'(x)=\frac{d}{dx}F(x)$$
+Daraus lässt sich eine Formel für die Dichte durch Ableiten der Gleichung $F^Y(y)=F^X(g^{-1}(y)) herleiten$ 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU5MjkyMzY1LDE0NzI0MDcwNzgsMjA0ND
+eyJoaXN0b3J5IjpbODc1MTA5NDUyLDE0NzI0MDcwNzgsMjA0ND
 EyNTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMzksNDgxMzY5Mjgs
 MTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMT
 MyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0x
