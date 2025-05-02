@@ -1044,12 +1044,16 @@ Nachbilden eines zufallsbedingten Prozesses, dessen:
 4. Implementierung des stochastischen Modells
 5. Erzeugung einer Stichprobe für die Zielgrösse
 6. Ergebnisbeurteilung
+
+# Transformationen
+### Nutzen
+- Änder
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDEyNTY2MSw3MTc3MDE2MjksLTE3NT
-g3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMz
-LDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzOD
-E1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0Niwt
-MTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNz
-Y1NTEsLTEwNTI2MzM2NzQsNTYwOTMzNTE5LC0xNjIyMDg3NTM5
-XX0=
+eyJoaXN0b3J5IjpbMTM5MzkxNjQ2MSwyMDQ0MTI1NjYxLDcxNz
+cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
+LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
+Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
+MTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OT
+kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTld
+fQ==
 -->
