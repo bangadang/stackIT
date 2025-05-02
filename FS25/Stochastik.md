@@ -1066,9 +1066,15 @@ Die Verteilung des Profits ergibt sich aus folgender Funktion:
 ### Verteilung transformierter Zufallsvariablen
 - Gegeben:
 	- X Zufallsvariable
-	- Verteilungsfunktion von X, F(x)
+	- Verteilungsfunktion von X, F(x) = P(X <= x)
+	- Transformationsfunktion g
+- Ziel: aus X und g die Verteilung der Zufallsvariable Y = g(X) zu bestimmen.
+- Variante numerisch:
+	- Zu jeder Zufallszahl x aus der Verteilung von X kann man y = g(x )
+bestimmen. Wiederholt man das “unendlich oft” zeigen die y-Werte die
+Verteilung von Y.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTE5MDg1NywyMDQ0MTI1NjYxLDcxNz
+eyJoaXN0b3J5IjpbMTY2NjE0MTc4MCwyMDQ0MTI1NjYxLDcxNz
 cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
 LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
 Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
