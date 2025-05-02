@@ -1083,12 +1083,18 @@ $=P(X\le2)=F^X(2)$
 
 Wichtig Grenzen der Verteilungsfunktion müssen ebenfalls transformiert werden!
 
-$$F(x) = \begin{cases}
+$$F^X(x) = \begin{cases}
 1 & \text{falls } x \gt 10 \\
-\frac{x}{10} & \text{falls } x \lt 0 
+\frac{x}{10} & \text{falls } 0\lt x \lt 10 \\
+0 & \text{falls }  x \lt 0
+\end{cases}$$
+$$F^Y(y) = \begin{cases}
+1 & \text{falls } x \gt 10 \\
+\frac{x}{10} & \text{falls } 0\lt x \lt 10 \\
+0 & \text{falls }  x \lt 0
 \end{cases}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTIxMDY2NiwxNDcyNDA3MDc4LDIwND
+eyJoaXN0b3J5IjpbMTUzMjU0NjA1NiwxNDcyNDA3MDc4LDIwND
 QxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4
 LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMT
 EzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwt
