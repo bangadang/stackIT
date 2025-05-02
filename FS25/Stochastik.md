@@ -1073,13 +1073,16 @@ Die Verteilung des Profits ergibt sich aus folgender Funktion:
 	- Zu jeder Zufallszahl x aus der Verteilung von X kann man y = g(x) bestimmen. Wiederholt man das “unendlich oft” zeigen die y-Werte die Verteilung von Y.
 - Variante formal:
 	- Die kumulative Verteilungsfunktion F Y lässt sich aus F X bestimmen
-	- Wenn g **streng monoton zunehmend** ist ($u \gt v \Rightarrow g(u)\gt g(v)$), dann ist $g^{-1}$ die Umkehrfunktion von g ($y = g(x)$ und $x = g^{-1}(y)$), daraus folgt: $$F^Y(y= P(Y\le y) = P(g(X)\le y)$$$$P(g^{-1}(g(X))\le g^{-1}(y))$$
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NzM2NTE0LDIwNDQxMjU2NjEsNzE3Nz
-AxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEs
-MTQyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3Nj
-U4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwx
-OTI1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OT
-M0NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOV19
+	- Wenn g **streng monoton zunehmend** ist ($u \gt v \Rightarrow g(u)\gt g(v)$), dann ist $g^{-1}$ die Umkehrfunktion von g ($y = g(x)$ und $x = g^{-1}(y)$), daraus folgt: $$F^Y(y= P(Y\le y) = P(g(X)\le y)$$$$P(g^{-1}(g(X))\le g^{-1}(y)) = P(X\le g^{-1}(y))$$$$F^Y(y) = F^X(g^{-1}(y))$$
 
+Beispiel quadratische Transformation
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTgyNjgwMzY0NCwyMDQ0MTI1NjYxLDcxNz
+cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
+LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
+Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
+MTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OT
+kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTld
+fQ==
 -->
