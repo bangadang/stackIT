@@ -1113,14 +1113,17 @@ Beispiel: Transformation der Dichte mit quadratischer Transformation
 $$Var(Y)=E[Y-E(Y)^2]=E[g(X)-E(g(X))^2]$$$$ = E(g(X)^2)-E(g(X))^2$$
 
 Im Normalfall lassen sich diese Formel nicht vereinfachen. Ausnahme bilden **lineare** Transformationen
+- Erwartungswert linearer Transf.
+$$E(Y) = a\cdot E(X)+b$$
+- 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA5ODYxMDAsLTE5OTU0OTkxMDksLT
-EwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcw
-MTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLD
-E0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1
-ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMT
-kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
-NDYyXX0=
+eyJoaXN0b3J5IjpbLTIwOTY3NTcyNCwtMTk5NTQ5OTEwOSwtMT
+AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
+NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
+QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
+NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOT
+I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
+NjJdfQ==
 -->
