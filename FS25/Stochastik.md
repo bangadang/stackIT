@@ -1101,15 +1101,15 @@ $F^Y(4)=1-F^X(-4)$
 ## Transformation der Dichte
 Die Dichte entspricht der Ableitung der Verteilungsfunktion
 $$f(x)=F'(x)=\frac{d}{dx}F(x)$$
-Daraus lässt sich eine Formel für die Dichte durch Ableiten der Gleichung $F^Y(y)=F^X(g^{-1}(y)) herleiten$ 
+Daraus lässt sich eine Formel für die Dichte durch Ableiten der Gleichung $F^Y(y)=F^X(g^{-1}(y))$ herleiten 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc1MTA5NDUyLDE0NzI0MDcwNzgsMjA0ND
-EyNTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMzksNDgxMzY5Mjgs
-MTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMT
-MyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0x
-OTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1Mj
-ExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTEsLTEwNTI2MzM2NzRd
-fQ==
+eyJoaXN0b3J5IjpbLTEwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMD
+Q0MTI1NjYxLDcxNzcwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjky
+OCwxNjAyNzM4ODQxLDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00Mz
+ExMzIwMjQsLTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUs
+LTE5MDc5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5ND
+UyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3
+NF19
 -->
