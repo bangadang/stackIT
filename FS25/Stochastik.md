@@ -1058,10 +1058,12 @@ $$Y=g(X)$$
 Beispiel:
 Der Profit einer Firma ist eine
 gegebene Funktion des Umsatzes X.
-Die Verteilung des Umsatzes ist
-bekannt: $$(105, 202)
+Die Verteilung des **Umsatzes** ist
+bekannt: $\Nu$(105, 202)
+Die Verteilung des Profits ergibt sich aus folgender Funktion:
+Profit = 0.1 · Umsatz - 10
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzM5NjUzMSwyMDQ0MTI1NjYxLDcxNz
+eyJoaXN0b3J5IjpbLTgxODU0ODM2MiwyMDQ0MTI1NjYxLDcxNz
 cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
 LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
 Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
