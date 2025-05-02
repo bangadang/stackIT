@@ -1053,9 +1053,15 @@ Nachbilden eines zufallsbedingten Prozesses, dessen:
 - Behebung von Schiefe
 - Standardisierung für Vergleiche von Variablen
 
-Häufig ist die Verteilung einer Zufallsvariable X bekannt, man ist jedoch an der Verteilung einer anderen Zufallsvariable Y interessiert
+Häufig ist die Verteilung einer Zufallsvariable X bekannt, man ist jedoch an der Verteilung einer anderen Zufallsvariable Y interessiert, die über eine Transformationsfunktion g mit X verknüpft ist.
+$$Y=g(X)$$
+Beispiel:
+Der Profit einer Firma ist eine
+gegebene Funktion des Umsatzes X.
+Die Verteilung des Umsatzes ist
+bekannt: $$(105, 202)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzMyMTY2MCwyMDQ0MTI1NjYxLDcxNz
+eyJoaXN0b3J5IjpbMTkzNzM5NjUzMSwyMDQ0MTI1NjYxLDcxNz
 cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
 LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
 Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
