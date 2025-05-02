@@ -1140,13 +1140,14 @@ Die Verteilungsfunktion der Standardnormalverteilung wird meist mit $\phi$ bezei
 - Eine beliebige Verteilungsfunktion einer Normalverteilung $\Nu(\mu,\sigma^2)$, lässt sich schreiben als: $$F^Y(y)=P(\frac{Y-\mu}{\sigma}\le \frac{y-\mu}{\sigma})=P(Y\le y)=\phi(\frac{y-\mu}{\sigma})$$
 
 Beispiel Wie viel ist mein IQ über/unter dem Durchschnitt. IQ Normalverteilt mit $\Nu(100,15^2)$
-$F(115)=P(X\le$
+$F(115)=P(X\le 115) = P(Z \le \frac{115-100}{15})=\phi(1)=0.84$
+$F(115)=P(X\le 115) = P(Z \le \frac{85-100}{15})=1-\phi(1)=0.16$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzYyMDc4NywtMTk5NTQ5OTEwOSwtMT
-AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
-NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
-QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
-NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOT
-I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
-NjJdfQ==
+eyJoaXN0b3J5IjpbLTE4NjA3MTgxNTIsLTE5OTU0OTkxMDksLT
+EwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcw
+MTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLD
+E0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1
+ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMT
+kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
+NDYyXX0=
 -->
