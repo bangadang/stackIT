@@ -1127,15 +1127,16 @@ $$E(Y) = a\cdot E(X)+b$$
 -	Behauptung
 	-	Transformiert man X mit der linearen Transformation $g(x)=\frac{x-\mu}{\sigma}$ mit $a=\frac{1}{\sigma}$ und $b=-\frac{\mu}{\sigma}$, erhält man die gewünschte Zufallsvariable Z
 
-$E(Z)= a\cdot E(X)+b = \frac{1}{\sigma}\cdot E(X)-\frac{1}{\sigma}$	
+$E(Z)= a\cdot E(X)+b = \frac{1}{\sigma}\cdot E(X)-\frac{\mu}{\sigma}$
+$=\frac{1}{\sigma}(E(X)-\mu)=\frac{1}{\sigma}(\mu-\mu)=0$	
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEyMjEzNjEsLTE5OTU0OTkxMDksLT
-EwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcw
-MTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLD
-E0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1
-ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMT
-kyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkz
-NDYyXX0=
+eyJoaXN0b3J5IjpbNjU5Njk4NzY5LC0xOTk1NDk5MTA5LC0xMD
+M5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2
+MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxND
+I4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1
+MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5Mj
+U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
+Ml19
 -->
