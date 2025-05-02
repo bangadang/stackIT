@@ -1153,9 +1153,11 @@ Nur in Ausnahmefällen ist es möglich aus bekannten Verteilungen X und Y die Ve
 - X, Y sind normalverteilt $\Rightarrow$ S ~ $\Nu(\mu_x+\mu_y,\sigma_x^2+\sigma_y^2)$
 - X, Y sind poisson-verteilt $\Rightarrow$ S ~ Pois$(\lambda_x+\lambda_y)$
 - X, Y sind binomialverteilt mit gleichem p $\Rightarrow$ S ~ Bin$(n_x+n_y,p)$
-- X,Y sind exponentialverteilt mit gleichem $\lambda$ $\Rightarrow$
+- X,Y sind exponentialverteilt mit gleichem $\lambda$ $\Rightarrow$ S ~ G(2,$\lambda$)
+
+In Normalfällen muss simuliert werden. Einfacher ist es die Kenngrössen Erwartungswer und Varian
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Njc1NDk5NCwtMTk5NTQ5OTEwOSwtMT
+eyJoaXN0b3J5IjpbLTUyNDM0MzgxMSwtMTk5NTQ5OTEwOSwtMT
 AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
 NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
 QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
