@@ -1106,15 +1106,16 @@ $$f^Y(y) = \frac{d}{dy}F^Y(y)$$$$=\frac{d}{dy}F^X(g^{-1}(y))$$$$=\frac{d}{d(g^{-
 
 Beispiel: Transformation der Dichte mit quadratischer Transformation
 ## Transformation von Kennzahlen
-
+### Erwartungswert
+- allgemein diskreter Fall
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjQ0MDIzLC0xOTk1NDk5MTA5LC0xMD
-M5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2
-MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxND
-I4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1
-MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5Mj
-U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
-Ml19
+eyJoaXN0b3J5IjpbLTc1NDI3NTc2NSwtMTk5NTQ5OTEwOSwtMT
+AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
+NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
+QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
+NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOT
+I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
+NjJdfQ==
 -->
