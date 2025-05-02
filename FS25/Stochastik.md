@@ -1149,9 +1149,13 @@ Oft ist man an der Summe von zwei beliebigen Zufallsvariablen interessiert. S = 
 - Anzahl Unfälle in zwei Stadtteilen
 - Anzahl Kunden in zwei Postfilialen
 
-Nur in Ausnahmefällen ist es möglich aus bekannten Verteilungen X und Y die Verteilung ihrer Summe zu bestimmen (gilt auch für mehr als zwei Zufallsvariablen
+Nur in Ausnahmefällen ist es möglich aus bekannten Verteilungen X und Y die Verteilung ihrer Summe zu bestimmen (gilt auch für mehr als zwei Zufallsvariablen)
+- X, Y sind normalverteilt
+- X, Y sind poisson-verteilt
+- X, Y sind binomialverteilt mit gleichem p
+- X,Y sind exponentialverteilt mit gleichem $\lambda$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODM5MjM4MiwtMTk5NTQ5OTEwOSwtMT
+eyJoaXN0b3J5IjpbMTUwMjQwMzIxOSwtMTk5NTQ5OTEwOSwtMT
 AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
 NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
 QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
