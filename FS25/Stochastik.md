@@ -1144,8 +1144,10 @@ $F(115)=P(X\le 115) = P(Z \le \frac{115-100}{15})=\phi(1)=0.84$
 $F(85)=P(X\le85) = P(Z \le \frac{85-100}{15})=1-\phi(1)=0.16$
 
 # Summe von Zufallszahlen
+Oft ist man an der Summe von zwei beliebigen Zufallsvariablen interessiert. S = X + Y
+- Augenzahl von 2 Wrfelwurfen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODkxMzU2NCwtMTk5NTQ5OTEwOSwtMT
+eyJoaXN0b3J5IjpbLTI0MDkwNjgwNCwtMTk5NTQ5OTEwOSwtMT
 AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
 NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
 QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
