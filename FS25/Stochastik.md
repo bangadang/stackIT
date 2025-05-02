@@ -1158,13 +1158,13 @@ Nur in Ausnahmefällen ist es möglich aus bekannten Verteilungen X und Y die Ve
 In Normalfällen muss simuliert werden. Einfacher ist es die Kenngrössen Erwartungswer und Varianz zu berechnen. DIese lassen sich für **lineare Transformationen**, wie Summen, einfach angeben.
 Seien a unb b skalare Grössen und S = X + Y Zufallsvariablen. Dann gelen die folgenden Rechenregeln immer (auch für mehrere ZV)
 - Erwartungswert $$E(S)=E(X)+E(Y)$$$$E(aX+b)=a\cdot E(X)+b$$
-- VArianz
+- Varianz$$Var(S)=Var(X)+Var(Y)+2\cdot Cov(X,Y)$$$$Var(a\cdot X+b) = a^2\cdot Var(X$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc4MTQ5NzQsMjY4MDgxMDMxLC0xOT
-k1NDk5MTA5LC0xMDM5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEy
-NTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMT
-YwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMy
-MDI0LC04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOT
-A3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjEx
-NDg5XX0=
+eyJoaXN0b3J5IjpbLTUzMjg5NzkyMiwyNjgwODEwMzEsLTE5OT
+U0OTkxMDksLTEwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1
+NjYxLDcxNzcwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNj
+AyNzM4ODQxLDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIw
+MjQsLTg0NzY1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MD
+c5MzIzOTEsMTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0
+ODldfQ==
 -->
