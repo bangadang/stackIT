@@ -1102,15 +1102,15 @@ $F^Y(4)=1-F^X(-4)$
 Die Dichte entspricht der Ableitung der Verteilungsfunktion
 $$f(x)=F'(x)=\frac{d}{dx}F(x)$$
 Daraus lässt sich eine Formel für die Dichte durch Ableiten der Gleichung $F^Y(y)=F^X(g^{-1}(y))$ herleiten 
-$$f^Y(y) = \frac{d}{dy}F^Y(y)$$
+$$f^Y(y) = \frac{d}{dy}F^Y(y)$$$$=\frac{d}{dy}F^X(g^{-1}(y))$$$$\frax{}{}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTg1ODg4OTYsLTEwMzk5NTk5MjAsMT
-Q3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYyOSwtMTc1ODcx
-OTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLDE0MjgwNDU5MzMsMj
-gyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUzMyw2MDM4MTU5
-MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNTcwNjQ2LC0xND
-Q1MzEwMzg2LDE5NDUyMTE0ODksOTk4OTkzNDYyLDEyNTM3NjU1
-MV19
+eyJoaXN0b3J5IjpbODk0MDQyMzg5LC0xMDM5OTU5OTIwLDE0Nz
+I0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLTE3NTg3MTkx
+MzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4Mj
+M2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNjAzODE1OTEs
+LTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0NiwtMTQ0NT
+MxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2MiwxMjUzNzY1NTFd
+fQ==
 -->
