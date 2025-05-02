@@ -1074,19 +1074,21 @@ Die Verteilung des Profits ergibt sich aus folgender Funktion:
 - Variante formal:
 	- Die kumulative Verteilungsfunktion F Y lässt sich aus F X bestimmen
 	- Wenn g **streng monoton zunehmend** ist ($u \gt v \Rightarrow g(u)\gt g(v)$), dann ist $g^{-1}$ die Umkehrfunktion von g ($y = g(x)$ und $x = g^{-1}(y)$), daraus folgt: $$F^Y(y= P(Y\le y) = P(g(X)\le y)$$$$P(g^{-1}(g(X))\le g^{-1}(y)) = P(X\le g^{-1}(y))$$$$F^Y(y) = F^X(g^{-1}(y))$$
-
+	- Wenn g **streng monoton abnehmend** ist
 Beispiel quadratische Transformation
 $y=g(x)=x^2$ und $g^{-1}(y)=\sqrt{y}$
 $F^Y(4)=P(Y\le4)=P(X^2\le4)=P(\sqrt{X^2}\le\sqrt4)$
 $=P(X\le2)=F^X(2)$
 
-Wichtig Grenzen der Verteilungsfunktio
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNDIwMDc1LDIwNDQxMjU2NjEsNzE3Nz
-AxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEs
-MTQyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3Nj
-U4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwx
-OTI1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OT
-M0NjIsMTI1Mzc2NTUxLC0xMDUyNjMzNjc0LDU2MDkzMzUxOV19
+Wichtig Grenzen der Verteilungsfunktion müssen ebenfalls transformiert werden!
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNz
+cwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQx
+LDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0Nz
+Y1ODUzMyw2MDM4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEs
+MTkyNTcwNjQ2LC0xNDQ1MzEwMzg2LDE5NDUyMTE0ODksOTk4OT
+kzNDYyLDEyNTM3NjU1MSwtMTA1MjYzMzY3NCw1NjA5MzM1MTld
+fQ==
 -->
