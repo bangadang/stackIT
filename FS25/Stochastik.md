@@ -1110,15 +1110,15 @@ Beispiel: Transformation der Dichte mit quadratischer Transformation
 - allgemein diskreter Fall $$E(Y)=E(g(X))=\Sigma_i g(x_i)P(X=x_i)$$
 - allgemein stetiger Fall $$E(Y)=E(g(X))=\int_{-\infty}^\infty g(x)f(x)dx$$
 ### Varianz
-$$Var(Y)=E[Y]$$
+$$Var(Y)=E[Y-E(Y)^2]=E[g(X)-E(g(X))^2] = E(g(X)^2)-E(g(X))^2$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5ODg4NzI1LC0xOTk1NDk5MTA5LC0xMD
-M5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2
-MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxND
-I4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1
-MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5Mj
-U3MDY0NiwtMTQ0NTMxMDM4NiwxOTQ1MjExNDg5LDk5ODk5MzQ2
-Ml19
+eyJoaXN0b3J5IjpbLTU3MDAzNDE0OCwtMTk5NTQ5OTEwOSwtMT
+AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
+NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
+QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
+NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOT
+I1NzA2NDYsLTE0NDUzMTAzODYsMTk0NTIxMTQ4OSw5OTg5OTM0
+NjJdfQ==
 -->
