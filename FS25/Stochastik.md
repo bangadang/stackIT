@@ -1118,11 +1118,12 @@ $$E(Y) = a\cdot E(X)+b$$
 - $$Var(Y)=a^2\cdot Var(X)$$
 
 ## Standardisierung als Anwendung der Transformation
-
+- Ziel: Transformierte Zufallsvariable mit E(Z)=0 und Var(Z)=1
+- Zweck: Vergleich zweier Zufallsvariablen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTk0NTY3NSwtMTk5NTQ5OTEwOSwtMT
+eyJoaXN0b3J5IjpbLTIxMjA4NjE1NSwtMTk5NTQ5OTEwOSwtMT
 AzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAx
 NjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMT
 QyODA0NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4
