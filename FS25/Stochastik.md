@@ -1074,9 +1074,9 @@ Die Verteilung des Profits ergibt sich aus folgender Funktion:
 - Variante formal:
 	- Die kumulative Verteilungsfunktion F Y lässt sich aus F X bestimmen
 	- Wenn g **streng monoton zunehmend** ist ($u \gt v \Rightarrow g(u)\gt g(v)$), dann ist $g^{-1}$ die Umkehrfunktion von g ($y = g(x)$ und $x = g^{-1}(y)$), daraus folgt: $$F^Y(y= P(Y\le y) = P(g(X)\le y)$$$$P(g^{-1}(g(X))\le g^{-1}(y)) = P(X\le g^{-1}(y))$$$$F^Y(y) = F^X(g^{-1}(y))$$
-	- Wenn g **streng monoton abnehmend** ist  ($u \gt v \Rightarrow g(u)\lt g(v)$), dann gilt: $$F^Y(y)=P(Y\le y) = P(g(X)\le y)$$$$=P(g^{-1}(g(X))\ge g^{-1}(y))$$$$=P(X\ge g^{-1}(y)) = 1 -=P(X\le g^{-1}(y))$$
+	- Wenn g **streng monoton abnehmend** ist  ($u \gt v \Rightarrow g(u)\lt g(v)$), dann gilt: $$F^Y(y)=P(Y\le y) = P(g(X)\le y)$$$$=P(g^{-1}(g(X))\ge g^{-1}(y))$$$$=P(X\ge g^{-1}(y)) = 1 -P(X\le g^{-1}(y))$$$$1-F^X(g^{-1}(y))$$
 
-Beispiel quadratische Transformation
+Beispiel quadratische Transformation (monoton zunehmend)
 $y=g(x)=x^2$ und $g^{-1}(y)=\sqrt{y}$
 $F^Y(4)=P(Y\le4)=P(X^2\le4)=P(\sqrt{X^2}\le\sqrt4)$
 $=P(X\le2)=F^X(2)$
@@ -1094,9 +1094,11 @@ $$F^Y(y) = \begin{cases}
 0 & \text{falls }  x \lt 0
 \end{cases}$$
 
+Beispiel linear abhnehmende Transformation
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NzA0NTA3OCwxNDcyNDA3MDc4LDIwND
+eyJoaXN0b3J5IjpbLTIzNDY5NjY5MiwxNDcyNDA3MDc4LDIwND
 QxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4
 LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMT
 EzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02NDE1NzMyNSwt
