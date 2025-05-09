@@ -1171,16 +1171,16 @@ Achtung $Var(X-Y)=Var(X ) + Var (Y) = Var (X + Y )$
 
 ## Verteilungen uniform transfomiert 
 Jede stetige Zufallsvariable X kann so transformiert werden, dass eine uniform verteilte Zufallsvariable entsteht. Das funktioniert auch umgekehrt.
-
+**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2OD
-A4MTAzMSwtMTk5NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3
-MDc4LDIwNDQxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LD
-Q4MTM2OTI4LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4
-NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMzgxNTkxLC02ND
-E1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2NDYsLTE0NDUzMTAz
-ODZdfQ==
+eyJoaXN0b3J5IjpbNDM3NjM3NDcxLC0xNzU3OTI0MDAxLDE4OD
+cxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLTEwMzk5NTk5
+MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYyOSwtMT
+c1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLDE0MjgwNDU5
+MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUzMyw2MD
+M4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNTcwNjQ2
+XX0=
 -->
