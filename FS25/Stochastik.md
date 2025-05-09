@@ -1195,13 +1195,13 @@ Erzeugen von Zufallszahlen einer stetigen Zufallsvariable aus uniformverteilten 
 Das Gesetz der grossen Zahlen besagt, dass sich das arithmetische Mittel mit wachsendem n = Stichprobengrösse dem Erwartungswert nähert.
 Def. Sei $X_1,X_2,...$ eine Folge von Zufallsvariablem mit $E(X_i)=\mu$ und $Var(X_i)= \sigma ^2$ für alle i. Zusätzlich sind alle Zufallsvariablen unabhängig.
 Der Erwartungswert des arithmetischen Mittels ist für jedes n gleich dem Erwartungswert der einzelnen Zufallsvariablen:
-$$$$
+$$E(X_n) = E[\frac{1}{n}\Sigma^n_{i=1}X_i]=\frac{1}{n}\Sigma$$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3Nzk0NDMwLDg4MzY0MzkxOSwtMjEwMz
+eyJoaXN0b3J5IjpbOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMz
 kxMTc1NSwtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0
 MDAxLDE4ODcxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLT
 EwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcw
