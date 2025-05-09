@@ -1170,12 +1170,13 @@ Achtung $Var(X-Y)=Var(X ) + Var (Y) = Var (X + Y )$
 # Simulation von Zufallszahlen
 
 ## Verteilungen uniform transfomiert 
-Jede stetige Zufallsvariable X kann so transformiert werden, dass eine uniform verteilte Zufallsvariable entsteht. Das funkti
+Jede stetige Zufallsvariable X kann so transformiert werden, dass eine uniform verteilte Zufallsvariable entsteht. Das funktioniert auch umgekehrt.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODExOTE5OTEsMTg4NzE4MDQ1LDI2OD
+eyJoaXN0b3J5IjpbLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2OD
 A4MTAzMSwtMTk5NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3
 MDc4LDIwNDQxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LD
 Q4MTM2OTI4LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4
