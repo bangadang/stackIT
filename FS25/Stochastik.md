@@ -1231,15 +1231,17 @@ für grosses n, wobei $\mu = E(X_i)$ und $\sigma^2=Var(X_i)$
 d.h. für grosses n ist $\bar X_n$ approximativ normalverteilt
 Der Zentrale Grenzwertsatz gilt im Wesentlichen unabhängig von der Verteilung der $X_i$ !
 
+# Multivariante Verteilung
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLT
-EyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQz
-OTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMz
-gsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5
-NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMj
-U2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2
-MDI3Mzg4NDFdfQ==
+eyJoaXN0b3J5IjpbLTExOTc3MzgxNTksLTE0MzE4NTcwMDgsLT
+E2MzI5ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMx
+NDk2MDAsODgzNjQzOTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3Nj
+E5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2
+ODA4MTAzMSwtMTk5NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyND
+A3MDc4LDIwNDQxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5
+LDQ4MTM2OTI4XX0=
 -->
