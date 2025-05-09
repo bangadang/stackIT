@@ -1182,12 +1182,14 @@ Exponentialverteilung $F_Y(y)=1-e^{-\lambda x}$
 $g(x) = \frac{ln(1-x}{-\lambda}$ x ist uniformverteilt
 ```r
 x <- runif(1000)
+tranformation <- function(p,lambda){-log(1-p)/lambda}
+y <- transformation(x, lambda=4)
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDk0MDE4OSwtMTc1NzkyNDAwMSwxOD
+eyJoaXN0b3J5IjpbMTk3NDg2MTI3NiwtMTc1NzkyNDAwMSwxOD
 g3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5
 OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLT
 E3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1
