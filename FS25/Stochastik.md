@@ -1186,14 +1186,19 @@ tranformation <- function(p,lambda){-log(1-p)/lambda}
 y <- transformation(x, lambda=4)
 ```
 ### Rezept Inversionsmethode
+Erzeugen von Zufallszahlen einer stetigen Zufallsvariable aus uniformverteilten Zufallszahlen
+1. Umkehrfunktion für die gewünschte stetige kumulative Verteilung erstellen.
+2. Zufallszahl aus der uniformverteilte Verteilung ziehen (in R mittels runif)
+3. Zufallszahl aus der uniformverteilte Verteilung in die Umkehrfunktion einsetzen
 
+# Gesetz der grossen Zahlen 
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzI4MDk0MywtMTc1NzkyNDAwMSwxOD
+eyJoaXN0b3J5IjpbMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxOD
 g3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5
 OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLT
 E3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1
