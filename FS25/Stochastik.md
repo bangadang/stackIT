@@ -1201,13 +1201,16 @@ Die Varianz des arithmetischen Mittels ist für feste n proportional zu $\sigma^
 Formel (Gleichheit in der Mittet wegen Unabhängigkeit aller Zufallsvariablen)
 $$Var(\frac{1}{n}\Sigma^n_{i=1}X_i) = \frac{\sigma^2}{n}$$
 
-## Tscheb
+$\Rightarrow$ Der Mittelwert $\bar X$ hat denselben Erwartungswert wie $X$ , aber seine Varianz
+nimmt mit n ab!
+
+## Tschebyscheff-Ungleichung
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NTIxMTkzLDk4MzE0OTYwMCw4ODM2ND
+eyJoaXN0b3J5IjpbLTgxODYzNDYzLDk4MzE0OTYwMCw4ODM2ND
 M5MTksLTIxMDM5MTE3NTUsLTEwNTE3Njc2MTksMTI1NzI3MzMz
 OCwtMTc1NzkyNDAwMSwxODg3MTgwNDUsMjY4MDgxMDMxLC0xOT
 k1NDk5MTA5LC0xMDM5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEy
