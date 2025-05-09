@@ -1220,15 +1220,18 @@ obere Schranke auf der rechten Seite.
 Das Gesetz der grossen Zahlen ist auch die Rechtfertigung für Simulationen.
 Kurz: Mittelwerte nähern sich mit zunehmendem n immer mehr dem Erwartungswert an.
 
+# Zentraler Grenzwertsatz
+Während das Gesetz der grossen Zahlen “nur” aussagt, dass das arithmetische Mittel für grosse n nahe beim Erwartungswert liegt, macht der Zentrale Grenzwertsatz (kurz: ZGWS) eine Aussage über die Verteilung.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTkwNTc0MywxMjgwMTUzOTEzLDk4Mz
-E0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEwNTE3Njc2
-MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxODg3MTgwNDUsMj
-Y4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5OTIwLDE0NzI0
-MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMz
-ksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2
-OTg0N119
+eyJoaXN0b3J5IjpbLTE1MDUyNTIyOTcsMTI4MDE1MzkxMyw5OD
+MxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3
+NjE5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LD
+I2ODA4MTAzMSwtMTk5NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcy
+NDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MT
+M5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIz
+Njk4NDddfQ==
 -->
