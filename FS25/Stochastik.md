@@ -1195,7 +1195,7 @@ Erzeugen von Zufallszahlen einer stetigen Zufallsvariable aus uniformverteilten 
 Das Gesetz der grossen Zahlen besagt, dass sich das arithmetische Mittel mit wachsendem n = Stichprobengrösse dem Erwartungswert nähert. 
 Def. Sei $X_1,X_2,...$ eine Folge von Zufallsvariablem mit $E(X_i)=\mu$ und $Var(X_i)= \sigma ^2$ für alle i. Zusätzlich sind alle Zufallsvariablen unabhängig.
 Der Erwartungswert des arithmetischen Mittels ist für jedes n gleich dem Erwartungswert der einzelnen Zufallsvariablen:
-$$E(\bar X_n) = E[\frac{1}{n}\Sigma^n_{i=1}X_i]=\frac{1}{n}\Sigma^n_{i=1}E(X_i) 0 \frac{1}{n}\cdot n\cdot \mu = \mu$$
+$$E(\bar X_n) = E[\frac{1}{n}\Sigma^n_{i=1}X_i]=\frac{1}{n}\Sigma^n_{i=1}E(X_i) = \frac{1}{n}\cdot n\cdot \mu = \mu$$
 
 Die Varianz des arithmetischen Mittels ist für feste n proportional zu $\sigma^2$ und wird mit wachsendem n kleiner.
 Formel (Gleichheit in der Mittet wegen Unabhängigkeit aller Zufallsvariablen)
@@ -1235,11 +1235,11 @@ Der Zentrale Grenzwertsatz gilt im Wesentlichen unabhängig von der Verteilung d
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI5ODg3MzksLTEyMjg4ODk4ODgsMT
-I4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTEx
-NzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMD
-EsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5NTQ5OTEwOSwtMTAz
-OTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAxNj
-I5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMTQy
-ODA0NTkzM119
+eyJoaXN0b3J5IjpbLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLT
+EyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQz
+OTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMz
+gsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5
+NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMj
+U2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2
+MDI3Mzg4NDFdfQ==
 -->
