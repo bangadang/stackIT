@@ -1217,15 +1217,18 @@ und nicht die Verteilung bekannt ist.
 die Wahrscheinlichkeit auf der linken Seite sind oft viel kleiner als die
 obere Schranke auf der rechten Seite.
 
+Das Gesetz der grossen Zahlen ist auch die Rechtfertigung für Simulationen.
+Kurz: Mittelwerte nähern sich mit zunehmendem n immer mehr dem Erwartungswert an.
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTEwMDg0LDEyODAxNTM5MTMsOTgzMT
-Q5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1MTc2NzYx
-OSwxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4ODcxODA0NSwyNj
-gwODEwMzEsLTE5OTU0OTkxMDksLTEwMzk5NTk5MjAsMTQ3MjQw
-NzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYyOSwtMTc1ODcxOTEzOS
-w0ODEzNjkyOCwxNjAyNzM4ODQxLDE0MjgwNDU5MzMsMjgyMzY5
-ODQ3XX0=
+eyJoaXN0b3J5IjpbMTE0OTkwNTc0MywxMjgwMTUzOTEzLDk4Mz
+E0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEwNTE3Njc2
+MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxODg3MTgwNDUsMj
+Y4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5OTIwLDE0NzI0
+MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMz
+ksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2
+OTg0N119
 -->
