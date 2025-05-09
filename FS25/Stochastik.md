@@ -1216,7 +1216,7 @@ und nicht die Verteilung bekannt ist.
 - Die obere Schranke kann dafür sehr grob sein – d.h. die exakte Werte für
 die Wahrscheinlichkeit auf der linken Seite sind oft viel kleiner als die
 obere Schranke auf der rechten Seite.
-
+ 
 Das Gesetz der grossen Zahlen ist auch die Rechtfertigung für Simulationen.
 Kurz: Mittelwerte nähern sich mit zunehmendem n immer mehr dem Erwartungswert an.
 
@@ -1226,13 +1226,13 @@ Der ZGWS besagt:
 Das arithmetische Mittel von $X_1, X_2, . . . , X_n$ verhält sich mit zunehmenden
 n wie eine **normalverteilte Zufallsvariable** mit dem Erwartungswert gleich
 dem Erwartungswert der einzelnen $X_i$ und einer gegen 0 gehenden Varianz.
-$$\Rightarrow \bar X_n$$
+$$\Rightarrow \bar X_n\text{} \tilde$$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgxMjQ5MDMsLTEyMjg4ODk4ODgsMT
+eyJoaXN0b3J5IjpbLTEyNzU3NDIxNzQsLTEyMjg4ODk4ODgsMT
 I4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTEx
 NzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMD
 EsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5NTQ5OTEwOSwtMTAz
