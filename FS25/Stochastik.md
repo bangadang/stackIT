@@ -1198,17 +1198,20 @@ Der Erwartungswert des arithmetischen Mittels ist für jedes n gleich dem Erwart
 $$E(\bar X_n) = E[\frac{1}{n}\Sigma^n_{i=1}X_i]=\frac{1}{n}\Sigma^n_{i=1}E(X_i) 0 \frac{1}{n}\cdot n\cdot \mu = \mu$$
 
 Die Varianz des arithmetischen Mittels ist für feste n proportional zu $\sigma^2$ und wird mit wachsendem n kleiner.
-Formel (Gleichheit in der Mittet wegen Unabhängig
+Formel (Gleichheit in der Mittet wegen Unabhängigkeit aller Zufallsvariablen)
+$$Var(\frac{1}{n}\Sigma^n_{i=1}X_i) = \frac{\sigma^2}{n}$$
+
+## Tscheb
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAyMDgzNzEsOTgzMTQ5NjAwLDg4Mz
-Y0MzkxOSwtMjEwMzkxMTc1NSwtMTA1MTc2NzYxOSwxMjU3Mjcz
-MzM4LC0xNzU3OTI0MDAxLDE4ODcxODA0NSwyNjgwODEwMzEsLT
-E5OTU0OTkxMDksLTEwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0
-MTI1NjYxLDcxNzcwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOC
-wxNjAyNzM4ODQxLDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzEx
-MzIwMjRdfQ==
+eyJoaXN0b3J5IjpbNzY1NTIxMTkzLDk4MzE0OTYwMCw4ODM2ND
+M5MTksLTIxMDM5MTE3NTUsLTEwNTE3Njc2MTksMTI1NzI3MzMz
+OCwtMTc1NzkyNDAwMSwxODg3MTgwNDUsMjY4MDgxMDMxLC0xOT
+k1NDk5MTA5LC0xMDM5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEy
+NTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMT
+YwMjczODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMy
+MDI0XX0=
 -->
