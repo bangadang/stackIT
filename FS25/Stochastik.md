@@ -1206,15 +1206,15 @@ nimmt mit n ab!
 
 ## Tschebyscheff-Ungleichung
 
-- Für jedes fest $\epislon \gt 0$: $$P(|X$$
+- Für jedes fest $\epislon \gt 0$: $$P(|X-\mu| \gt \epsilon) \le \frac{\sigma^2}{\epsilon^2}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE3MzczMTAsOTgzMTQ5NjAwLDg4Mz
-Y0MzkxOSwtMjEwMzkxMTc1NSwtMTA1MTc2NzYxOSwxMjU3Mjcz
-MzM4LC0xNzU3OTI0MDAxLDE4ODcxODA0NSwyNjgwODEwMzEsLT
-E5OTU0OTkxMDksLTEwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0
-MTI1NjYxLDcxNzcwMTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOC
-wxNjAyNzM4ODQxLDE0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzEx
-MzIwMjRdfQ==
+eyJoaXN0b3J5IjpbMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNj
+QzOTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMz
+MzgsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMT
+k5NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQx
+MjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LD
+E2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMTEz
+MjAyNF19
 -->
