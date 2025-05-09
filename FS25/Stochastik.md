@@ -1193,17 +1193,17 @@ Erzeugen von Zufallszahlen einer stetigen Zufallsvariable aus uniformverteilten 
 
 # Gesetz der grossen Zahlen 
 Das Gesetz der grossen Zahlen besagt, dass sich das arithmetische Mittel mit wachsendem n = Stichprobengrösse dem Erwartungswert nähert.
-Def. Sei $X_1,X_2,...$ eine Folge von Zufallsvariablem mit $E(X_i)=\mu$ und $Var(X_i)= \sigma ^2$
+Def. Sei $X_1,X_2,...$ eine Folge von Zufallsvariablem mit $E(X_i)=\mu$ und $Var(X_i)= \sigma ^2$ für alle ii 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzNjQzOTE5LC0yMTAzOTExNzU1LC0xMD
-UxNzY3NjE5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMDEsMTg4NzE4
-MDQ1LDI2ODA4MTAzMSwtMTk5NTQ5OTEwOSwtMTAzOTk1OTkyMC
-wxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAxNjI5LC0xNzU4
-NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMTQyODA0NTkzMy
-wyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMzLDYwMzgx
-NTkxXX0=
+eyJoaXN0b3J5IjpbOTYxODI4MjA1LDg4MzY0MzkxOSwtMjEwMz
+kxMTc1NSwtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0
+MDAxLDE4ODcxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLT
+EwMzk5NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcw
+MTYyOSwtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLD
+E0MjgwNDU5MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1
+ODUzM119
 -->
