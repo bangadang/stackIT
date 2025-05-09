@@ -1226,17 +1226,18 @@ Der ZGWS besagt:
 Das arithmetische Mittel von $X_1, X_2, . . . , X_n$ verhält sich mit zunehmenden
 n wie eine **normalverteilte Zufallsvariable** mit dem Erwartungswert gleich
 dem Erwartungswert der einzelnen $X_i$ und einer gegen 0 gehenden Varianz.
-$$\Rightarrow \bar X_n  \Nu$$
+$\Rightarrow \bar X_n$~$\Nu(\mu,\frac{\sigma^2}{n})$
+für grosses n, wobei µ = E [Xi ] und σ2 = Var (Xi)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNzU5NDI2LC0xMjI4ODg5ODg4LDEyOD
-AxNTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1
-NSwtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0MDAxLD
-E4ODcxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLTEwMzk5
-NTk5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYyOS
-wtMTc1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLDE0Mjgw
-NDU5MzNdfQ==
+eyJoaXN0b3J5IjpbLTI2MjkyNTM3NCwtMTIyODg4OTg4OCwxMj
+gwMTUzOTEzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3
+NTUsLTEwNTE3Njc2MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMS
+wxODg3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5
+OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2Mj
+ksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4
+MDQ1OTMzXX0=
 -->
