@@ -1204,17 +1204,28 @@ $$Var(\frac{1}{n}\Sigma^n_{i=1}X_i) = \frac{\sigma^2}{n}$$
 $\Rightarrow$ Der Mittelwert $\bar X$ hat denselben Erwartungswert wie $X$ , aber seine Varianz
 nimmt mit n ab!
 
+
+
 ## Tschebyscheff-Ungleichung
 
 - Für jedes fest $\epislon \gt 0$: $$P(|X-\mu| \gt \epsilon) \le \frac{\sigma^2}{\epsilon^2}$$
+Ungleichung gilt für alle Zufallsvariablen mit existierender Varianz.
+- Die Verteilung geht auf der rechten Seite nur durch die Varianz ein.
+- Ungleichung ist also auch dann anwendbar, wenn man nur die Varianz
+und nicht die Verteilung bekannt ist.
+- Die obere Schranke kann dafür sehr grob sein – d.h. die exakte Werte für
+die Wahrscheinlichkeit auf der linken Seite sind oft viel kleiner als die
+obere Schranke auf der rechten Seite.
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNj
-QzOTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMz
-MzgsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMT
-k5NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQx
-MjU2NjEsNzE3NzAxNjI5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LD
-E2MDI3Mzg4NDEsMTQyODA0NTkzMywyODIzNjk4NDcsLTQzMTEz
-MjAyNF19
+eyJoaXN0b3J5IjpbLTcxOTEwMDg0LDEyODAxNTM5MTMsOTgzMT
+Q5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1MTc2NzYx
+OSwxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4ODcxODA0NSwyNj
+gwODEwMzEsLTE5OTU0OTkxMDksLTEwMzk5NTk5MjAsMTQ3MjQw
+NzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYyOSwtMTc1ODcxOTEzOS
+w0ODEzNjkyOCwxNjAyNzM4ODQxLDE0MjgwNDU5MzMsMjgyMzY5
+ODQ3XX0=
 -->
