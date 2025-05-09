@@ -1185,11 +1185,15 @@ x <- runif(1000)
 tranformation <- function(p,lambda){-log(1-p)/lambda}
 y <- transformation(x, lambda=4)
 ```
+### Rezept Inversionsmethode
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDg2MTI3NiwtMTc1NzkyNDAwMSwxOD
+eyJoaXN0b3J5IjpbLTMwNzI4MDk0MywtMTc1NzkyNDAwMSwxOD
 g3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5
 OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLT
 E3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1
