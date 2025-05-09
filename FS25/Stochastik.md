@@ -1192,17 +1192,18 @@ Erzeugen von Zufallszahlen einer stetigen Zufallsvariable aus uniformverteilten 
 3. Zufallszahl aus der uniformverteilte Verteilung in die Umkehrfunktion einsetzen
 
 # Gesetz der grossen Zahlen 
-
+Das Gesetz der grossen Zahlen besagt, dass sich das arithmetische Mittel mit wachsendem n = Stichprobengrösse dem Erwartungswert nähert.
+Def. Sei $X_1,X_2,...$ eine Folge von Zufallsvarriablem mit $$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxOD
-g3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5
-OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLT
-E3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1
-OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNj
-AzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0
-Nl19
+eyJoaXN0b3J5IjpbLTEwNTE3Njc2MTksMTI1NzI3MzMzOCwtMT
+c1NzkyNDAwMSwxODg3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5
+MTA5LC0xMDM5OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MS
+w3MTc3MDE2MjksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjcz
+ODg0MSwxNDI4MDQ1OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC
+04NDc2NTg1MzMsNjAzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMy
+MzkxXX0=
 -->
