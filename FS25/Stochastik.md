@@ -1172,17 +1172,19 @@ Achtung $Var(X-Y)=Var(X ) + Var (Y) = Var (X + Y )$
 ## Verteilungen uniform transfomiert 
 Jede stetige Zufallsvariable X kann so transformiert werden, dass eine uniform verteilte Zufallsvariable entsteht. Das funktioniert auch umgekehrt.
 **Bsp**:
+Exponential zu Uniform
 $F_X(x) = 1-e^{-\lambda x} \Rightarrow g(x)= 1-e^{-\lambda x}$
 $F_Y(y) = F_X(g^{-1}(y))$ Transformationsformel
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTExMzA2ODAsLTE3NTc5MjQwMDEsMT
-g4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5NTQ5OTEwOSwtMTAzOTk1
-OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAxNjI5LC
-0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMTQyODA0
-NTkzMywyODIzNjk4NDcsLTQzMTEzMjAyNCwtODQ3NjU4NTMzLD
-YwMzgxNTkxLC02NDE1NzMyNSwtMTkwNzkzMjM5MSwxOTI1NzA2
-NDZdfQ==
+eyJoaXN0b3J5IjpbMTEyMzc0MTY1OCwtMTc1NzkyNDAwMSwxOD
+g3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5
+OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLT
+E3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1
+OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNj
+AzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0
+Nl19
 -->
