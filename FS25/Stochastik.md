@@ -1228,16 +1228,18 @@ n wie eine **normalverteilte Zufallsvariable** mit dem Erwartungswert gleich
 dem Erwartungswert der einzelnen $X_i$ und einer gegen 0 gehenden Varianz.
 $\Rightarrow \bar X_n$~$\Nu(\mu,\frac{\sigma^2}{n})$
 für grosses n, wobei $\mu = E(X_i)$ und $\sigma^2=Var(X_i)$
+d.h. für grosses n ist $\bar X_n$ approximativ normalverteilt
+Der Zentrale Grenzwertsatz gilt im Wesentlichen unabhängig von der Verteilung der $X_i$ !
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzkwMTkwOCwtMTIyODg4OTg4OCwxMj
-gwMTUzOTEzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3
-NTUsLTEwNTE3Njc2MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMS
-wxODg3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5
-OTU5OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2Mj
-ksLTE3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4
-MDQ1OTMzXX0=
+eyJoaXN0b3J5IjpbLTE2MzI5ODg3MzksLTEyMjg4ODk4ODgsMT
+I4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTEx
+NzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMD
+EsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5NTQ5OTEwOSwtMTAz
+OTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEsNzE3NzAxNj
+I5LC0xNzU4NzE5MTM5LDQ4MTM2OTI4LDE2MDI3Mzg4NDEsMTQy
+ODA0NTkzM119
 -->
