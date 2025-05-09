@@ -1176,15 +1176,18 @@ Exponential zu Uniform
 $F_X(x) = 1-e^{-\lambda x} \Rightarrow g(x)= 1-e^{-\lambda x}$
 $F_Y(y) = F_X(g^{-1}(y))$ Transformationsformel
 
+Für uniformverteilte Verteilungen ist es möglich sie softwareunabhängig zu transformieren.
+**Bsp ** 
+Exponentialverteilung $F_Y(y)$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzc0MTY1OCwtMTc1NzkyNDAwMSwxOD
-g3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5
-OTIwLDE0NzI0MDcwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLT
-E3NTg3MTkxMzksNDgxMzY5MjgsMTYwMjczODg0MSwxNDI4MDQ1
-OTMzLDI4MjM2OTg0NywtNDMxMTMyMDI0LC04NDc2NTg1MzMsNj
-AzODE1OTEsLTY0MTU3MzI1LC0xOTA3OTMyMzkxLDE5MjU3MDY0
-Nl19
+eyJoaXN0b3J5IjpbNzY4NzcwNDM0LC0xNzU3OTI0MDAxLDE4OD
+cxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLTEwMzk5NTk5
+MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYyOSwtMT
+c1ODcxOTEzOSw0ODEzNjkyOCwxNjAyNzM4ODQxLDE0MjgwNDU5
+MzMsMjgyMzY5ODQ3LC00MzExMzIwMjQsLTg0NzY1ODUzMyw2MD
+M4MTU5MSwtNjQxNTczMjUsLTE5MDc5MzIzOTEsMTkyNTcwNjQ2
+XX0=
 -->
