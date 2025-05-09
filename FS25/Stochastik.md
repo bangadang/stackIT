@@ -1227,13 +1227,13 @@ Das arithmetische Mittel von $X_1, X_2, . . . , X_n$ verhält sich mit zunehmend
 n wie eine **normalverteilte Zufallsvariable** mit dem Erwartungswert gleich
 dem Erwartungswert der einzelnen $X_i$ und einer gegen 0 gehenden Varianz.
 $\Rightarrow \bar X_n$~$\Nu(\mu,\frac{\sigma^2}{n})$
-für grosses n, wobei µ = E [Xi ] und σ2 = Var (Xi)
+für grosses n, wobei $\mu = E(X_i)$ und $\sigma^2=Var(X_i)$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MjkyNTM3NCwtMTIyODg4OTg4OCwxMj
+eyJoaXN0b3J5IjpbMjA2MzkwMTkwOCwtMTIyODg4OTg4OCwxMj
 gwMTUzOTEzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3
 NTUsLTEwNTE3Njc2MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMS
 wxODg3MTgwNDUsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5
