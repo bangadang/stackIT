@@ -1208,7 +1208,7 @@ nimmt mit n ab!
 
 ## Tschebyscheff-Ungleichung
 
-- Für jedes fest $\epislon \gt 0$: $$P(|X-\mu| \gt \epsilon) \le \frac{\sigma^2}{\epsilon^2}$$
+- Für jedes fest $\epsilon \gt 0$ : $$P(|X-\mu| \gt \epsilon) \le \frac{\sigma^2}{\epsilon^2}$$
 Ungleichung gilt für alle Zufallsvariablen mit existierender Varianz.
 - Die Verteilung geht auf der rechten Seite nur durch die Varianz ein.
 - Ungleichung ist also auch dann anwendbar, wenn man nur die Varianz
@@ -1238,11 +1238,11 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMT
-YzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0
-OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEwNTE3Njc2MT
-ksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxODg3MTgwNDUsMjY4
-MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5OTIwLDE0NzI0MD
-cwNzgsMjA0NDEyNTY2MSw3MTc3MDE2MjksLTE3NTg3MTkxMzks
-NDgxMzY5MjhdfQ==
+eyJoaXN0b3J5IjpbMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xND
+MxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAx
+NTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NS
+wtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4
+ODcxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLTEwMzk5NT
+k5MjAsMTQ3MjQwNzA3OCwyMDQ0MTI1NjYxLDcxNzcwMTYyOSwt
+MTc1ODcxOTEzOV19
 -->
