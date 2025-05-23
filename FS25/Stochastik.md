@@ -1244,18 +1244,20 @@ Wie lassen sich beide Maschinen zusammen betrachten? Bzw. wie würde eine bivari
 
 für M1 und M2 unabhängig:
 $$f_M(m_1,m_2) = \frac{1}{2\pi\sqrt{\sigma_1^2\sigma_2^2}}exp(-\frac{(m_1-\mu_1)^2}{2\sigma_1^2}-\frac{(m_2-\mu_2)^2}{2\sigma_2^2})$$
-$$=f_{m_1}$$
+$$=f_{M_1}(m_1)\cdot f_{M_2}(m_2)$$
+
+Was wenn keine Unabhängigkeit
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkyMDA2MTAsLTkyNTE3MjMyNSwtMj
-A0OTAxNDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYw
-NCwtMjYzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMT
-QzMTg1NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgw
-MTUzOTEzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NT
-UsLTEwNTE3Njc2MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwx
-ODg3MTgwNDVdfQ==
+eyJoaXN0b3J5IjpbMTcwNzkyODQ2NywtOTI1MTcyMzI1LC0yMD
+Q5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0
+LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xND
+MxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAx
+NTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NS
+wtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4
+ODcxODA0NV19
 -->
