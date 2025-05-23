@@ -1240,18 +1240,21 @@ Bsp: Eine Produktionskette besteht aus zwei voneinander unabhängigen Maschinen.
 $M_1 =$ Abweichungen vom Soll-Wert bei M1 ~ $\Nu(\mu_1,\sigma_1^2)$
 $M_2 =$ Abweichungen vom Soll-Wert bei M2 ~ $\Nu(\mu_2,\sigma_2^2)$
 
-Wie lassen sich beide Maschinen zusammen betrachten? Bzw. wie würde eine bivariate Dichte von (M1,M2) ausseh
+Wie lassen sich beide Maschinen zusammen betrachten? Bzw. wie würde eine bivariate Dichte von (M1,M2) aussehen?
+
+für M1 und M2 unabhängig:
+$$f_M(m_1,m_2) = \frac{1}{2\pi\sqrt{\sigma_1^2\sigma_2^2}}ex$$
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODQ5NjQ0NywtOTI1MTcyMzI1LC0yMD
-Q5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0
-LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xND
-MxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAx
-NTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NS
-wtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4
-ODcxODA0NV19
+eyJoaXN0b3J5IjpbLTIxMzM5NDU5OTksLTkyNTE3MjMyNSwtMj
+A0OTAxNDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYw
+NCwtMjYzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMT
+QzMTg1NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgw
+MTUzOTEzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NT
+UsLTEwNTE3Njc2MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwx
+ODg3MTgwNDVdfQ==
 -->
