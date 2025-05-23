@@ -1234,16 +1234,19 @@ Der Zentrale Grenzwertsatz gilt im Wesentlichen unabhängig von der Verteilung d
 # Multivariante Verteilung
 Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung (Bsp. ML Diskriminanzanalyse oder Modellbasiertes Clustering)
 
+## Bivariate Normalverteilung
+
+Bsp: Eine Produktionskette
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3Mzk4MzA0LC0yMDQ5MDE0NjYsLTM3Mj
-c5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgs
-MTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3MDA4LC0xNj
-MyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAxNTM5MTMsOTgzMTQ5
-NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1MTc2NzYxOS
-wxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4ODcxODA0NSwyNjgw
-ODEwMzFdfQ==
+eyJoaXN0b3J5IjpbMTQ4OTEyMjg1MiwtMjA0OTAxNDY2LC0zNz
+I3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4
+LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMT
+YzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0
+OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEwNTE3Njc2MT
+ksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxODg3MTgwNDUsMjY4
+MDgxMDMxXX0=
 -->
