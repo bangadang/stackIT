@@ -1237,17 +1237,21 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung (Bsp.
 ## Bivariate Normalverteilung
 
 Bsp: Eine Produktionskette besteht aus zwei voneinander unabhängigen Maschinen. Die univariaten Verteilungen lassen uns jeweils die Abweichungen der einzelnen Maschinen beschreiben:
-$M_1 =$ Abweichungen vom Soll-Wert bei M1 ~ $\Nu(\mu_1,\sigma_1^2$ 
+$M_1 =$ Abweichungen vom Soll-Wert bei M1 ~ $\Nu(\mu_1,\sigma_1^2)$
+$M_2 =$ Abweichungen vom Soll-Wert bei M2 ~ $\Nu(\mu_2,\sigma_2^2)$
+
+Wie lassen sich beide Maschinen zusammen betrachten? Bzw. wie würde eine bivariate Dichte von (M1,M2) ausseh
+ 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2NjE5NDAzLC05MjUxNzIzMjUsLTIwND
-kwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQs
-LTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0Mz
-E4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1
-MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTExNzU1LC
-0xMDUxNzY3NjE5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMDEsMTg4
-NzE4MDQ1XX0=
+eyJoaXN0b3J5IjpbMTQxODQ5NjQ0NywtOTI1MTcyMzI1LC0yMD
+Q5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0
+LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xND
+MxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAx
+NTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NS
+wtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4
+ODcxODA0NV19
 -->
