@@ -1236,13 +1236,13 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung (Bsp.
 
 ## Bivariate Normalverteilung
 
-Bsp: Eine Produktionskette
+Bsp: Eine Produktionskette besteht aus zwei Maschinen. Die univariaten Verteilungen lassen uns jeweils die Abweichungen der einzelnen Maschinen beschreiben:
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTEyMjg1MiwtMjA0OTAxNDY2LC0zNz
+eyJoaXN0b3J5IjpbLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNz
 I3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4
 LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMT
 YzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0
