@@ -1246,14 +1246,14 @@ für M1 und M2 unabhängig:
 $$f_M(m_1,m_2) = \frac{1}{2\pi\sqrt{\sigma_1^2\sigma_2^2}}exp(-\frac{(m_1-\mu_1)^2}{2\sigma_1^2}-\frac{(m_2-\mu_2)^2}{2\sigma_2^2})$$
 $$=f_{M_1}(m_1)\cdot f_{M_2}(m_2)$$
 
-Was wenn keine Unabhängigkeit
+Was wenn keine Unabhängigkeit besteht? Kovarianz spielt eine Rolle
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzkyODQ2NywtOTI1MTcyMzI1LC0yMD
+eyJoaXN0b3J5IjpbMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMD
 Q5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0
 LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xND
 MxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAx
