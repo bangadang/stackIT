@@ -1182,7 +1182,7 @@ Exponentialverteilung $F_Y(y)=1-e^{-\lambda x}$
 $g(x) = \frac{ln(1-x}{-\lambda}$ x ist uniformverteilt
 ```r
 x <- runif(1000)
-tranformation <- function(p,lambda){-log(1-p)/lambda}
+transformation <- function(p,lambda){-log(1-p)/lambda}
 y <- transformation(x, lambda=4)
 ```
 ### Rezept Inversionsmethode
@@ -1238,11 +1238,11 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5ND
-Y0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4
-ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC
-0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMzgsLTE3
-NTc5MjQwMDEsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5NTQ5OT
-EwOSwtMTAzOTk1OTkyMCwxNDcyNDA3MDc4LDIwNDQxMjU2NjEs
-NzE3NzAxNjI5XX0=
+eyJoaXN0b3J5IjpbMTE1NzQyOTM5LC0yNjM2NDM0MDgsMTAxOT
+k4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4
+NzM5LC0xMjI4ODg5ODg4LDEyODAxNTM5MTMsOTgzMTQ5NjAwLD
+g4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1MTc2NzYxOSwxMjU3
+MjczMzM4LC0xNzU3OTI0MDAxLDE4ODcxODA0NSwyNjgwODEwMz
+EsLTE5OTU0OTkxMDksLTEwMzk5NTk5MjAsMTQ3MjQwNzA3OCwy
+MDQ0MTI1NjYxXX0=
 -->
