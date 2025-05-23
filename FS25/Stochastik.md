@@ -1224,8 +1224,7 @@ Kurz: Mittelwerte nähern sich mit zunehmendem n immer mehr dem Erwartungswert a
 # Zentraler Grenzwertsatz
 Während das Gesetz der grossen Zahlen “nur” aussagt, dass das arithmetische Mittel für grosse n nahe beim Erwartungswert liegt, macht der Zentrale Grenzwertsatz (kurz: ZGWS) eine Aussage über die Verteilung.
 Der ZGWS besagt:
-Das arithmetische Mittel von $X_1, X_2, . . . , X_n$ verhält sich mit zunehmenden
-n wie eine **normalverteilte Zufallsvariable** mit dem Erwartungswert gleich
+Das arithmetische Mittel von $X_1, X_2, . . . , X_n$ verhält sich mit zunehmenden n (i.d.R $n\ge 25$) wie eine **normalverteilte Zufallsvariable** mit dem Erwartungswert gleich
 dem Erwartungswert der einzelnen $X_i$ und einer gegen 0 gehenden Varianz.
 $\Rightarrow \bar X_n$~$\Nu(\mu,\frac{\sigma^2}{n})$
 für grosses n, wobei $\mu = E(X_i)$ und $\sigma^2=Var(X_i)$
@@ -1239,11 +1238,11 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NT
-g5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAw
-LC0xNDMxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LD
-EyODAxNTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkx
-MTc1NSwtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0MD
-AxLDE4ODcxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLTEw
-Mzk5NTk5MjBdfQ==
+eyJoaXN0b3J5IjpbLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLDE4MT
+YzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0MjYy
+LDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLT
+EyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQz
+OTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMz
+gsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2ODA4MTAzMSwtMTk5
+NTQ5OTEwOV19
 -->
