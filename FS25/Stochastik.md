@@ -1236,17 +1236,17 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung (Bsp.
 
 ## Bivariate Normalverteilung
 
-Bsp: Eine Produktionskette besteht aus zwei Maschinen. Die univariaten Verteilungen lassen uns jeweils die Abweichungen der einzelnen Maschinen beschreiben:
+Bsp: Eine Produktionskette besteht aus zwei  Maschinen. Die univariaten Verteilungen lassen uns jeweils die Abweichungen der einzelnen Maschinen beschreiben:
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNz
-I3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4
-LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMT
-YzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0
-OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEwNTE3Njc2MT
-ksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxODg3MTgwNDUsMjY4
-MDgxMDMxXX0=
+eyJoaXN0b3J5IjpbNjE1NjEyNjUzLC05MjUxNzIzMjUsLTIwND
+kwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQs
+LTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0Mz
+E4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1
+MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTExNzU1LC
+0xMDUxNzY3NjE5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMDEsMTg4
+NzE4MDQ1XX0=
 -->
