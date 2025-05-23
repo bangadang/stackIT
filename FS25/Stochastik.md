@@ -1208,7 +1208,7 @@ $\Rightarrow$ Der Mittelwert $\bar X$ hat denselben Erwartungswert wie $X$ , abe
 
 
 ## Tschebyscheff-Ungleichung
-
+Sie liefert eine **obere Schranke dafür, wie wahrscheinlich es ist, dass eine Zufallsvariable stark von ihrem Erwartungswert abweicht**, basierend auf ihrer Varianz. ($\mu = E[X]$ und $\sigma = Var[X]$)
 - Für jedes fest $\epsilon \gt 0$ : $$P(|X-\mu| \gt \epsilon) \le \frac{\sigma^2}{\epsilon^2}$$
 Ungleichung gilt für alle Zufallsvariablen mit existierender Varianz.
 - Die Verteilung geht auf der rechten Seite nur durch die Varianz ein.
@@ -1239,11 +1239,11 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNj
-QzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1NzAw
-OCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOTEzLD
-k4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEwNTE3
-Njc2MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxODg3MTgwND
-UsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5OTIwLDE0
-NzI0MDcwNzhdfQ==
+eyJoaXN0b3J5IjpbLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NT
+g5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAw
+LC0xNDMxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LD
+EyODAxNTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkx
+MTc1NSwtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3OTI0MD
+AxLDE4ODcxODA0NSwyNjgwODEwMzEsLTE5OTU0OTkxMDksLTEw
+Mzk5NTk5MjBdfQ==
 -->
