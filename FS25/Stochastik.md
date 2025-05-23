@@ -1232,18 +1232,18 @@ d.h. für grosses n ist $\bar X_n$ approximativ normalverteilt
 Der Zentrale Grenzwertsatz gilt im Wesentlichen unabhängig von der Verteilung der $X_i$ !
 
 # Multivariante Verteilung
-Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung
+Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung (Bsp. ML Diskriminanzanalyse oder Modellbasiertes Clustering)
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDMxOTQ3OTYsLTIwNDkwMTQ2NiwtMz
-cyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQw
-OCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLT
-E2MzI5ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMx
-NDk2MDAsODgzNjQzOTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3Nj
-E5LDEyNTcyNzMzMzgsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2
-ODA4MTAzMV19
+eyJoaXN0b3J5IjpbMjQ3Mzk4MzA0LC0yMDQ5MDE0NjYsLTM3Mj
+c5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgs
+MTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3MDA4LC0xNj
+MyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAxNTM5MTMsOTgzMTQ5
+NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1MTc2NzYxOS
+wxMjU3MjczMzM4LC0xNzU3OTI0MDAxLDE4ODcxODA0NSwyNjgw
+ODEwMzFdfQ==
 -->
