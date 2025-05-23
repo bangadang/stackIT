@@ -1194,7 +1194,8 @@ Erzeugen von Zufallszahlen einer stetigen Zufallsvariable aus uniformverteilten 
 # Gesetz der grossen Zahlen 
 Das Gesetz der grossen Zahlen besagt, dass sich das arithmetische Mittel mit wachsender n = Stichprobengrösse dem Erwartungswert nähert. 
 
-Def. Sei $X_1,X_2,...$ eine Folge von Zufallsvariablem mit $E(X_i)=\mu$ und $Var(X_i)= \sigma ^2$ für alle i. Zusätzlich sind alle Zufallsvariablen unabhängig.
+Def. Sei $X_1,X_2,...$ eine Folge von Zufallsvariablem mit $E(X_i)=\mu$ und $Var(X_i)= \sigma ^2$ für alle i. Zusätzlich sind alle Zufallsvariablen unabhängig (Grund warum man Summe aus dem Erwartungswert ziehen kann <-> keine Kovarianz).
+
 Der Erwartungswert des arithmetischen Mittels ist für jedes n gleich dem Erwartungswert der einzelnen Zufallsvariablen:
 $$E(\bar X_n) = E[\frac{1}{n}\Sigma^n_{i=1}X_i]=\frac{1}{n}\Sigma^n_{i=1}E(X_i) = \frac{1}{n}\cdot n\cdot \mu = \mu$$
 
@@ -1202,8 +1203,7 @@ Die Varianz des arithmetischen Mittels ist für feste n proportional zu $\sigma^
 Formel (Gleichheit in der Mittet wegen Unabhängigkeit aller Zufallsvariablen)
 $$Var(\frac{1}{n}\Sigma^n_{i=1}X_i) = \frac{\sigma^2}{n}$$
 
-$\Rightarrow$ Der Mittelwert $\bar X$ hat denselben Erwartungswert wie $X$ , aber seine Varianz
-nimmt mit n ab!
+$\Rightarrow$ Der Mittelwert $\bar X$ hat denselben Erwartungswert wie $X$ , aber seine Varianz nimmt mit n ab!
 
 
 
@@ -1239,11 +1239,11 @@ Modellierung mehrerer Zufallsgrössen und ihrer **gemeinsamer** Verteilung
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OT
-g0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3
-MzksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsOD
-gzNjQzOTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcy
-NzMzMzgsLTE3NTc5MjQwMDEsMTg4NzE4MDQ1LDI2ODA4MTAzMS
-wtMTk5NTQ5OTEwOSwtMTAzOTk1OTkyMCwxNDcyNDA3MDc4LDIw
-NDQxMjU2NjFdfQ==
+eyJoaXN0b3J5IjpbMTgxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNj
+QzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1NzAw
+OCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOTEzLD
+k4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEwNTE3
+Njc2MTksMTI1NzI3MzMzOCwtMTc1NzkyNDAwMSwxODg3MTgwND
+UsMjY4MDgxMDMxLC0xOTk1NDk5MTA5LC0xMDM5OTU5OTIwLDE0
+NzI0MDcwNzhdfQ==
 -->
