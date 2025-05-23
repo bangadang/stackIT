@@ -1243,14 +1243,15 @@ $M_2 =$ Abweichungen vom Soll-Wert bei M2 ~ $\Nu(\mu_2,\sigma_2^2)$
 Wie lassen sich beide Maschinen zusammen betrachten? Bzw. wie würde eine bivariate Dichte von (M1,M2) aussehen?
 
 für M1 und M2 unabhängig:
-$$f_M(m_1,m_2) = \frac{1}{2\pi\sqrt{\sigma_1^2\sigma_2^2}}ex$$
+$$f_M(m_1,m_2) = \frac{1}{2\pi\sqrt{\sigma_1^2\sigma_2^2}}exp(-\frac{(m_1-\mu_1)^2}{2\sigma_1^2}-\frac{(m_2-\mu_2)^2}{2\sigma_2^2})$$
+$$=f_{m_1}$$
  
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzM5NDU5OTksLTkyNTE3MjMyNSwtMj
+eyJoaXN0b3J5IjpbLTIxMjkyMDA2MTAsLTkyNTE3MjMyNSwtMj
 A0OTAxNDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYw
 NCwtMjYzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMT
 QzMTg1NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgw
