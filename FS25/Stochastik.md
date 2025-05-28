@@ -1315,17 +1315,22 @@ pmvnorm(lower=c(-1,-1), upper=c(1,1), mean = mu, sigma = sigma, keepAttr = FALSE
 
 # äquikoordinate Quantile P(X1 ≤ a,X2 ≤ a) = alpha
 qmvnorm(p = 0.9, mean = mu, sigma = sigma, tail = "both")$quantile
-#
+
+# Simulation
+rmvnorm(1, mean = mu, sigma = sigma)
+
+x <- rmvnorm(1000, mean = mu, sigma = sigma)
+plot(x, las=1)
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDg0MDIyMSwxMzUxNjM5MjEwLDEyMD
-U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
-OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
-E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
-MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3Mz
-ksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgz
-NjQzOTE5XX0=
+eyJoaXN0b3J5IjpbMTcwMTQ5NDc3LDEzNTE2MzkyMTAsMTIwNT
+gwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5
+NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMT
+gxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQy
+NjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOS
+wtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0OTYwMCw4ODM2
+NDM5MTldfQ==
 -->
