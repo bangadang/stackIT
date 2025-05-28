@@ -1336,9 +1336,11 @@ Es gilt:
 Wenn $(X_1,X_2)\sim\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}, \begin{pmatrix} \sigma_1^2 & \rho\sigma_1\sigma_2 \\ \rho\sigma_1\sigma_2 & \sigma_2^2 \end{pmatrix})$, dann ist $X_1\sim\Nu(\mu_1,\sigma_1^2)$ und $X_2\sim\Nu(\mu_2,\sigma_2^2)$
 
 ### Beispiel Produktionsmaschinen
-Annahme die Fehler der Maschinen $M=(M_1,M_2)$ sei $$\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}), \begin{pmatrix} \sigma_1^2 & \rho\sigma_1\sigma_2 \\ \rho\sigma_1\sigma_2 & \sigma_2^2 \end{pmatrix}
+Annahme die Fehler der Maschinen $M=(M_1,M_2)$ sei $\Nu(\begin{pmatrix}0 \\ 0 \end{pmatrix}), \begin{pmatrix} 1 & 0.4 \\ 0.4 & 1 \end{pmatrix}$ verteilt.
+
+Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bedingte Verteillung der Abweichu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzEzMzA0OCwxMzUxNjM5MjEwLDEyMD
+eyJoaXN0b3J5IjpbLTIyODU3ODE2OSwxMzUxNjM5MjEwLDEyMD
 U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
 OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
 E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
