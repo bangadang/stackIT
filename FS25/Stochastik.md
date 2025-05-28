@@ -1366,12 +1366,13 @@ $p_Y(3)=\frac{1}{37}$
 
 ### Randverteilung Allgemein
 Die sogenannte Randverteilung von Y erhält man durch das Summieren der Spalten der Tabelle
-$$p_Y(y)=P(Y=y)=\sum_{x_i}P(X=x_i,Y=y)$$
+$$p_Y(y)=P(Y=y)=\sum_{x_i}p_{XY}(X=x_i,Y=y)$$
 Die Randverteilung von X erhält man analog durch summieren der Zeilen der Tabelle
+$$p_X(x)=P(X=x)=\sum_{y_j}p_{XY}(X=x,Y=y_j)$$
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDk5MzUwNzMsMTI4MzU2ODYxMCwxOD
+eyJoaXN0b3J5IjpbLTEyNjA5Mjc3NzEsMTI4MzU2ODYxMCwxOD
 k1NTUwNTMsNjM3NjM1MDAxLDEzNTE2MzkyMTAsMTIwNTgwMTQ3
 OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5NjgsLT
 kyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMTgxNjMx
