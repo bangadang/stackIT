@@ -1409,14 +1409,14 @@ mit $f_{X|Y}(x|y)=0$, falls $f_Y(y)=0$
 
 ## Unabhängigkeit
 Beliebig viele Zufallsvariable heissen stochastisch unabhängig, wenn die gemeinsame Verteilungsfunktion das Produkt der Randverteilungsfunktionen ist:
-$$F_{X_1,...,X_n}(x_1,...,x_n)=$$
+$$F_{X_1,...,X_n}(x_1,...,x_n)=F_{X_1}(x_1)\cdot ... \cdot F_{X_n}(x_n)$$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDA5MDc4NywtODUxNzc5MjQ3LC0xMj
-gwNjk5MDI2LDEyODM1Njg2MTAsMTg5NTU1MDUzLDYzNzYzNTAw
-MSwxMzUxNjM5MjEwLDEyMDU4MDE0NzksLTE3NjIxMjg3MjUsLT
-E3MDk1NjIyNiwxNDU1NDEzOTY4LC05MjUxNzIzMjUsLTIwNDkw
-MTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQsLT
-I2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4
-NTcwMDhdfQ==
+eyJoaXN0b3J5IjpbNjAxMTE5NDcsLTg1MTc3OTI0NywtMTI4MD
+Y5OTAyNiwxMjgzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUwMDEs
+MTM1MTYzOTIxMCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC0xNz
+A5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0
+NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNj
+M2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3
+MDA4XX0=
 -->
