@@ -1377,9 +1377,13 @@ $$p_{X|Y}(x_i|y_i)=P(X=x_i|Y=y_i)=\frac{P(X=x_i,Y=y_i)}{P(Y=y_i)}=\frac{p_{XY}(x
 $p_{X|Y}(x=rot|y=gerade)= \frac{p_{XY}(x=rot,y=gerade)}{p_Y(y=gerade)}=\frac{\frac{8}{37}}{\frac{18}{37}}= \frac{8}{18}$
 
  ## stetige gemeinsame Verteilung
- 
+ Sind X und Y zwei stetige Zufallsvariablen, so kann ihre Verteilung durch ihre
+gemeinsame Dichtefunktion beschrieben werden. Dies ist eine nicht
+negative Funktion $f_{XY}$ , für die gilt:
+$$P(X \in [a, b],\, Y \in [c, d]) = \int_a^b \int_c^d f_{XY}(x, y) \, dy \, dx = \int_c^d \int_a^b f_{XY}(x, y) \, dy \, dx
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjQ2MDAwOSwtMTI4MDY5OTAyNiwxMj
+eyJoaXN0b3J5IjpbMTAwNTEyNDAwNywtMTI4MDY5OTAyNiwxMj
 gzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIx
 MCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMT
 Q1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5
