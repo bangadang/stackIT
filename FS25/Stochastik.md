@@ -1347,12 +1347,13 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
  ## diskrete gemeinsame Verteilung
  Seien X, Y zwei diskrete Zufallsvariablen die bestimmte Werte annehmen können. Neben der Vertei 
  ## stetige gemeinsame Verteilung
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3NjM1MDAxLDEzNTE2MzkyMTAsMTIwNT
-gwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5
-NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMT
-gxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQy
-NjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOS
-wtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0OTYwMCw4ODM2
-NDM5MTldfQ==
+eyJoaXN0b3J5IjpbMTg5NTU1MDUzLDYzNzYzNTAwMSwxMzUxNj
+M5MjEwLDEyMDU4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIy
+NiwxNDU1NDEzOTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMz
+cyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQw
+OCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLT
+E2MzI5ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMx
+NDk2MDBdfQ==
 -->
