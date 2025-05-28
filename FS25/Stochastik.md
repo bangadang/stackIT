@@ -1330,9 +1330,12 @@ $X_1|X_2=x_2)\sim \Nu(\mu_1+\rho\frac{\sigma_1}{\sigma_2}, \sigma_1^2(1-\rho^2)$
 ### Randdichte (Marginalverteilung)
 Verteilung, wenn die Realisationen der anderen Variablen nicht berücksichtigt wird.
 Randverteilung von X1 kann man aus der gemeinsamen Dichte bestimmen, indem man über alle Werte von X2 integriert:
-$$f_{(X_1)}(x_1)=\int_{-\infty}^\infty$$
+$$f_{(X_1)}(x_1)=\int_{-\infty}^\infty f_X(x_1,x_2)dx_2$$
+
+Es gilt:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjU1NDAyMiwxMzUxNjM5MjEwLDEyMD
+eyJoaXN0b3J5IjpbLTM1OTk2MDAyMiwxMzUxNjM5MjEwLDEyMD
 U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
 OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
 E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
