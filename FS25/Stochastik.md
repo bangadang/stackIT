@@ -1348,11 +1348,13 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
  Seien X, Y zwei diskrete Zufallsvariablen die bestimmte Werte annehmen können. Neben der Verteilungsfunktion gibt es auch eine gemeinsame Wahrscheinlichkeitsfunktion. 
  $$p(x_i, y_i)=P(X=x_i, Y=y_i)$$
  Diese gibt für jedes Paar $(x_i,y_i)$ die Wahrscheinlichkeit an.
- 
+ Es gilt:
+- $\sum_{i=1}^{\infty} \sum_{j=1}^{\infty} p(x_i, y_j) = 1$
+- 
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0ODUwMTA5OCwxMjgzNTY4NjEwLDE4OT
+eyJoaXN0b3J5IjpbLTI5MDQ2NTA1NiwxMjgzNTY4NjEwLDE4OT
 U1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5
 LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOT
 I1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEz
