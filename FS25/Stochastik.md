@@ -1333,9 +1333,12 @@ Randverteilung von X1 kann man aus der gemeinsamen Dichte bestimmen, indem man Ã
 $$f_{(X_1)}(x_1)=\int_{-\infty}^\infty f_X(x_1,x_2)dx_2$$
 
 Es gilt:
-Wenn $(X_1,X_2)\sim\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}, \begin{pmatrix} \sigma_1^2 & \rho\sigma_1\sigma_2 \\ \rho\sigma_1\sigma_2 & \sigma_2^2 \end{pmatrix})$, dann ist $X_1\sim\Nu(\mu_1,\sigma_1^2)$ und $X_1\sim\Nu(\mu_1,\sigma_1^2)$
+Wenn $(X_1,X_2)\sim\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}, \begin{pmatrix} \sigma_1^2 & \rho\sigma_1\sigma_2 \\ \rho\sigma_1\sigma_2 & \sigma_2^2 \end{pmatrix})$, dann ist $X_1\sim\Nu(\mu_1,\sigma_1^2)$ und $X_2\sim\Nu(\mu_2,\sigma_2^2)$
+
+### Beispiel Produktionsmaschinen
+Annahme die Fehler der Maschinen $M=(M_1,M_2)$ sei $$\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}), \begin{pmatrix} \sigma_1^2 & \rho\sigma_1\sigma_2 \\ \rho\sigma_1\sigma_2 & \sigma_2^2 \end{pmatrix}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzA5NzY4NywxMzUxNjM5MjEwLDEyMD
+eyJoaXN0b3J5IjpbMTMzNzEzMzA0OCwxMzUxNjM5MjEwLDEyMD
 U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
 OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
 E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
