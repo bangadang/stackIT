@@ -1420,9 +1420,12 @@ Falls keine Unabhängigkeit besteht, gibt es Kovarianz/Korrelation
 Zwei Studierende gehen unabhängig voneinander zu einem zufällig gleichverteilten Zeitpunkt zwischen 12 und 13 Uhr zur Mensa. Sie haben ausgemacht, dass jeder nach der Ankunft 10 Minuten auf den Anderen wartet.
 Kommt dieser innerhalb der 10 Minuten, so essen sie gemeinsam zu Mittag.
 Wie gross ist die Wahrscheinlichkeit, dass die Studenten zusammen essen?
-$X\sim$
+$X\sim Unif[0,1]$ (Zeit ab 12 Uhr)
+$Y \sim Unif[0,1]$
+Die gemeinsame Dichte ergibt sich als
+$f_{XY}(x,y)=f_X(x)\cdot f_Y(y)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMTAzOTM4LC04NTE3NzkyNDcsLTEyOD
+eyJoaXN0b3J5IjpbOTkxNjQzNzE1LC04NTE3NzkyNDcsLTEyOD
 A2OTkwMjYsMTI4MzU2ODYxMCwxODk1NTUwNTMsNjM3NjM1MDAx
 LDEzNTE2MzkyMTAsMTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMT
 cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
