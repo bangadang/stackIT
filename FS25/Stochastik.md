@@ -1369,10 +1369,13 @@ Die sogenannte Randverteilung von Y erhält man durch das Summieren der Spalten 
 $$p_Y(y)=P(Y=y)=\sum_{x_i}p_{XY}(X=x_i,Y=y)$$
 Die Randverteilung von X erhält man analog durch summieren der Zeilen der Tabelle
 $$p_X(x)=P(X=x)=\sum_{y_j}p_{XY}(X=x,Y=y_j)$$
+### bedingte Verteilung
+Die bedingte Verteilung von X gegeben Y gibt die Verteilung der Zufallsvariablen X an, wenn schon bekannt ist, welchen Wert Y angenommen hat.
+$$p_{X|Y}$$
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA5Mjc3NzEsMTI4MzU2ODYxMCwxOD
+eyJoaXN0b3J5IjpbLTE4MDg0NTgxNTAsMTI4MzU2ODYxMCwxOD
 k1NTUwNTMsNjM3NjM1MDAxLDEzNTE2MzkyMTAsMTIwNTgwMTQ3
 OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5NjgsLT
 kyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMTgxNjMx
