@@ -1260,32 +1260,33 @@ Es gilt:
 
 $X=(X_1,X_2)$
 $$f_{(X)}(x_1,x_2)=\frac{1}{2\pi\sqrt{det(\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$$
-$x = \begin{pmatrix}
+$$x = \begin{pmatrix}
  x_1 \\
 x_2
-\end{pmatrix}$ 
-$E[X] =\mu = \begin{pmatrix}
+\end{pmatrix}$$ 
+$$E[X] =\mu = \begin{pmatrix}
  \mu_1 \\
 \mu_2
-\end{pmatrix}$
-$\Sigma =  \begin{pmatrix}
+\end{pmatrix}$$
+$$\Sigma =  \begin{pmatrix}
  Var(X_1) & Cov (X_1,X_2) \\
 Cov (X_1,X_2) & Var(X_2)
 \end{pmatrix} = \begin{pmatrix}
  \sigma_1^2 & \rho\sigma_1\sigma_2 \\
 \rho\sigma_1\sigma_2 & \sigma_2^2
-\end{pmatrix}$
-$der(\Sigma)=\sigma_1^2\sigma_2^2-\rho^2\sigma_1^2\sigma_2^2$
+\end{pmatrix}$$
+$$det(\Sigma)=\sigma_1^2\sigma_2^2-\rho^2\sigma_1^2\sigma_2^2$$
+$$\Sigma^{-1}=\frac{1}{det(\Sigma)$$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDA0Njk0NSwtMTc2MjEyODcyNSwtMT
-cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
-NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
-YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
-NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOT
-EzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEw
-NTE3Njc2MTldfQ==
+eyJoaXN0b3J5IjpbNzc0NjE1ODkyLC0xNzYyMTI4NzI1LC0xNz
+A5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0
+NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNj
+M2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3
+MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAxNTM5MT
+MsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1
+MTc2NzYxOV19
 -->
