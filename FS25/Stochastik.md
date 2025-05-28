@@ -1280,17 +1280,20 @@ $$\Sigma^{-1}=\frac{1}{det(\Sigma)}\begin{pmatrix}
  \sigma_2^2 & -\rho\sigma_1\sigma_2 \\
 -\rho\sigma_1\sigma_2 & \sigma_1^2
 \end{pmatrix}$$
-### Kurznotation $(X_1,X_2)$~
+### Kurznotation $(X_1,X_2)$~$\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}), \begin{pmatrix}
+ \sigma_1^2 & \rho\sigma_1\sigma_2 \\
+\rho\sigma_1\sigma_2 & \sigma_2^2
+\end{pmatrix}$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTQ4NjY5NSwtMTc2MjEyODcyNSwtMT
-cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
-NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
-YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
-NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOT
-EzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEw
-NTE3Njc2MTldfQ==
+eyJoaXN0b3J5IjpbLTEyMjQyODAyNjEsLTE3NjIxMjg3MjUsLT
+E3MDk1NjIyNiwxNDU1NDEzOTY4LC05MjUxNzIzMjUsLTIwNDkw
+MTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQsLT
+I2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4
+NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1Mz
+kxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTExNzU1LC0x
+MDUxNzY3NjE5XX0=
 -->
