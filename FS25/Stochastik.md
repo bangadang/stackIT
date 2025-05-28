@@ -1354,18 +1354,18 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
 ### Beispiel Roulette
 |  | rot | schwarz | 0 |
 |--|--|--|--|
-| gerade | $\frac$ |  |
-| ungerade |  |  |
-| 0 |  |  |
+| **gerade** | $\frac{8}{37}$ | $\frac{10}{37}$ | 0
+| **ungerade** | $\frac{10}{37}$ | $\frac{8}{37}$ | 0
+| **0** | 0 | 0 | $\frac{1}{37}$
 
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDAzNjc5NywxMjgzNTY4NjEwLDE4OT
-U1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5
-LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOT
-I1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEz
-MTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOT
-Q2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4
-ODg5ODg4XX0=
+eyJoaXN0b3J5IjpbNzEyOTMxMzg4LDEyODM1Njg2MTAsMTg5NT
+U1MDUzLDYzNzYzNTAwMSwxMzUxNjM5MjEwLDEyMDU4MDE0Nzks
+LTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEzOTY4LC05Mj
+UxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMx
+OTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5ND
+Y0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4
+ODk4ODhdfQ==
 -->
