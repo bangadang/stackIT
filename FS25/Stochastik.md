@@ -1385,14 +1385,15 @@ $$
 Es gilt:
 - $\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{XY}(x, y) \, dy \, dx = 1$
 - Verteilungsfunktion: $F_{XY}(x, y) = P(X \leq x,\, Y \leq y) = \int_{-\infty}^{x} \int_{-\infty}^{y} f_{XY}(x, y) \, dy \, dx$
-- Zusammenhang Dichte & Verteilungsfunktion: $$
+- Zusammenhang Dichte & Verteilungsfunktion: $f_{XY} = \frac{\partial^2 F_{XY}(x, y)}{\partial x \, \partial y}
+$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTc3OTI0NywtMTI4MDY5OTAyNiwxMj
-gzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIx
-MCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMT
-Q1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5
-NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgsMT
-AxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMy
-OTg4NzM5XX0=
+eyJoaXN0b3J5IjpbLTEyMDQwNzY5MDAsLTg1MTc3OTI0NywtMT
+I4MDY5OTAyNiwxMjgzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUw
+MDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC
+0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5
+MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC
+0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMx
+ODU3MDA4XX0=
 -->
