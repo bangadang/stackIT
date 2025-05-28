@@ -1258,25 +1258,26 @@ Es gilt:
 
 ### Allgemeine Formulierung der bivariaten Normalverteilung
 
+$X=(X_1,X_2)$
 $$f_{(X)}(x_1,x_2)=\frac{1}{2\pi\sqrt{det(\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$$
-$$x = \begin{pmatrix}
+$x = \begin{pmatrix}
  x_1 \\
-x_1
-\end{pmatrix}$$
-$$x = \begin{pmatrix}
+x_2
+\end{pmatrix}$ 
+$E[X] =\mu = \begin{pmatrix}
  \mu_1 \\
-x_1
-\end{pmatrix}$$
+\mu_2
+\end{pmatrix}$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MDI5MDM5LC0xNzYyMTI4NzI1LC0xNz
-A5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0
-NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNj
-M2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3
-MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAxNTM5MT
-MsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1
-MTc2NzYxOV19
+eyJoaXN0b3J5IjpbLTE4OTAzMDI0OTgsLTE3NjIxMjg3MjUsLT
+E3MDk1NjIyNiwxNDU1NDEzOTY4LC05MjUxNzIzMjUsLTIwNDkw
+MTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQsLT
+I2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4
+NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1Mz
+kxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAzOTExNzU1LC0x
+MDUxNzY3NjE5XX0=
 -->
