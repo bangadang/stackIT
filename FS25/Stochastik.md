@@ -1371,15 +1371,15 @@ Die Randverteilung von X erhält man analog durch summieren der Zeilen der Tabel
 $$p_X(x)=P(X=x)=\sum_{y_j}p_{XY}(X=x,Y=y_j)$$
 ### bedingte Verteilung
 Die bedingte Verteilung von X gegeben Y gibt die Verteilung der Zufallsvariablen X an, wenn schon bekannt ist, welchen Wert Y angenommen hat.
-$$p_{X|Y}(x_i|y_i)=P(X=x_i|Y=y_i)=\frac{P(X=x_i,Y=y_i)}{P(Y=y_i)}$$
+$$p_{X|Y}(x_i|y_i)=P(X=x_i|Y=y_i)=\frac{P(X=x_i,Y=y_i)}{P(Y=y_i)}=$$
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA2OTkwMjYsMTI4MzU2ODYxMCwxOD
-k1NTUwNTMsNjM3NjM1MDAxLDEzNTE2MzkyMTAsMTIwNTgwMTQ3
-OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5NjgsLT
-kyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMTgxNjMx
-MzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQyNjIsMT
-k0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOSwtMTIy
-ODg4OTg4OF19
+eyJoaXN0b3J5IjpbNTkzMzk1MjMsLTEyODA2OTkwMjYsMTI4Mz
+U2ODYxMCwxODk1NTUwNTMsNjM3NjM1MDAxLDEzNTE2MzkyMTAs
+MTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NT
+U0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1
+OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMT
+k5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4
+ODczOV19
 -->
