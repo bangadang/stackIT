@@ -1273,14 +1273,15 @@ $\Sigma =  \begin{pmatrix}
 Cov (X_1,X_2) & Var(X_2)
 \end{pmatrix} = \begin{pmatrix}
  \sigma_1^2 & \rho\sigma_1\sigma_2 \\
-\rho\sigma_1\sigma_2 & Var(X_2)
+\rho\sigma_1\sigma_2 & \sigma_2^2
 \end{pmatrix}$
+$der(\Sigma)=\sigma_1^2\sigma_2^2-\rho^2\sigma_1^2\sigma_2^2$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTQ4MjU0MiwtMTc2MjEyODcyNSwtMT
+eyJoaXN0b3J5IjpbMTE2NDA0Njk0NSwtMTc2MjEyODcyNSwtMT
 cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
 NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
 YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
