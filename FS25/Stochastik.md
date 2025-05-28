@@ -1295,13 +1295,16 @@ x1 <- seq(-4,4,0.1)
 x2 <- seq(-4,4,0.1)
 z <- expand.grid(x1=x1,x2=x2)
 f <- dmvnorm(z, mean = mu, sigma = sigma)
-
+fz <- matrix(f, nrow = length(x1), ncol = length(x2))
+# Möglichkeit 1 als Kontourplot
+image(x1,x2,fz, las=1)
+contour(x1,x2,fz, add=TRUE)
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MjMyMDM3NywxMjA1ODAxNDc5LC0xNz
+eyJoaXN0b3J5IjpbMTM1MTYzOTIxMCwxMjA1ODAxNDc5LC0xNz
 YyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcy
 MzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LD
 g4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4
