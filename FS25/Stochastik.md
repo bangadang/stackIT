@@ -1281,12 +1281,13 @@ $$\Sigma^{-1}=\frac{1}{det(\Sigma)}\begin{pmatrix}
 -\rho\sigma_1\sigma_2 & \sigma_1^2
 \end{pmatrix}$$
 ### Kurznotation $(X_1,X_2)$~$\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}), \begin{pmatrix} \sigma_1^2 & \rho\sigma_1\sigma_2 \\ \rho\sigma_1\sigma_2 & \sigma_2^2 \end{pmatrix}$
-Falls die zwei Zufallsvariablen unkorreliert sind, d.h. unabhängig voneinander ist die Kurznotation ein 
+Falls die zwei Zufallsvariablen unkorreliert sind, d.h. unabhängig voneinander ist die Kurznotation ein Spezialfall da $\rho = 0$ ist:
+$(X_1,X_2)$~$\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}), \begin{pmatrix} \sigma_1^2 & 0 \\ 0 & \sigma_2^2 \end{pmatrix}$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTM1MDE0NywtMTc2MjEyODcyNSwtMT
+eyJoaXN0b3J5IjpbMTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMT
 cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
 NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
 YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
