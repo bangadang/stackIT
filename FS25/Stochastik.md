@@ -1276,17 +1276,21 @@ Cov (X_1,X_2) & Var(X_2)
 \rho\sigma_1\sigma_2 & \sigma_2^2
 \end{pmatrix}$$
 $$det(\Sigma)=\sigma_1^2\sigma_2^2-\rho^2\sigma_1^2\sigma_2^2$$
-$$\Sigma^{-1}=\frac{1}{det(\Sigma)$$
+$$\Sigma^{-1}=\frac{1}{det(\Sigma)}\begin{pmatrix}
+ \sigma_2^2 & -\rho\sigma_1\sigma_2 \\
+-\rho\sigma_1\sigma_2 & \sigma_1^2
+\end{pmatrix}$$
+### Kurznotation $(X_1,X_2)$~
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0NjE1ODkyLC0xNzYyMTI4NzI1LC0xNz
-A5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0
-NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNj
-M2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3
-MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5ODg4LDEyODAxNTM5MT
-MsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEwMzkxMTc1NSwtMTA1
-MTc2NzYxOV19
+eyJoaXN0b3J5IjpbLTY4NTQ4NjY5NSwtMTc2MjEyODcyNSwtMT
+cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
+NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
+YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
+NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOT
+EzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEw
+NTE3Njc2MTldfQ==
 -->
