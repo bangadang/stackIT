@@ -1256,15 +1256,17 @@ Es gilt:
 - $-1\le Cor(X,Y)\le1$, sofern $Var(X)\gt 0$ und $Var(Y)\gt 0$
 - $|Cor(X,Y)|=1$, gdw. Y eine linerare Transformation von X ist oder umgekehrt. $Y=a\cdot X + b$ mit $a \ne 0$
 
+### Allgemeine Formulierung der bivariaten Normalverteilung
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNDk2NTEsMTQ1NTQxMzk2OCwtOTI1MT
-cyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0
-LDg4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2ND
-M4NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5
-ODg4LDEyODAxNTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMj
-EwMzkxMTc1NSwtMTA1MTc2NzYxOSwxMjU3MjczMzM4LC0xNzU3
-OTI0MDAxXX0=
+eyJoaXN0b3J5IjpbLTE3MDk1NjIyNiwxNDU1NDEzOTY4LC05Mj
+UxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMx
+OTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5ND
+Y0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4
+ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC
+0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEyNTcyNzMzMzgsLTE3
+NTc5MjQwMDFdfQ==
 -->
