@@ -1385,11 +1385,11 @@ $$
 Es gilt:
 - $\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{XY}(x, y) \, dy \, dx = 1$
 - Verteilungsfunktion: $F_{XY}(x, y) = P(X \leq x,\, Y \leq y) = \int_{-\infty}^{x} \int_{-\infty}^{y} f_{XY}(x, y) \, dy \, dx$
-- Zusammenhang Dichte & Verteilungsfunktion: $f_{XY} = \frac{\partial^2 F_{XY}(x, y)}{\partial x \, \partial y}
-$
+- Zusammenhang Dichte & Verteilungsfunktion: $f_{XY} = \frac{\partial^2 F_{XY}(x, y)}{\partial x \, \partial y}$
+### Beispiel erster Regentropfen auf Tischplatte (2x1m)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQwNzY5MDAsLTg1MTc3OTI0NywtMT
+eyJoaXN0b3J5IjpbLTE5NDAyMjY1NzYsLTg1MTc3OTI0NywtMT
 I4MDY5OTAyNiwxMjgzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUw
 MDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC
 0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5
