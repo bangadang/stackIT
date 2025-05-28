@@ -1271,13 +1271,16 @@ $E[X] =\mu = \begin{pmatrix}
 $\Sigma =  \begin{pmatrix}
  Var(X_1) & Cov (X_1,X_2) \\
 Cov (X_1,X_2) & Var(X_2)
+\end{pmatrix} = \begin{pmatrix}
+ \sigma_1^2 & \rho\sigma_1\sigma_2 \\
+\rho\sigma_1\sigma_2 & Var(X_2)
 \end{pmatrix}$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjAxNTI5NSwtMTc2MjEyODcyNSwtMT
+eyJoaXN0b3J5IjpbLTU3OTQ4MjU0MiwtMTc2MjEyODcyNSwtMT
 cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
 NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
 YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
