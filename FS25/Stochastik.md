@@ -1387,13 +1387,19 @@ Es gilt:
 - Verteilungsfunktion: $F_{XY}(x, y) = P(X \leq x,\, Y \leq y) = \int_{-\infty}^{x} \int_{-\infty}^{y} f_{XY}(x, y) \, dy \, dx$
 - Zusammenhang Dichte & Verteilungsfunktion: $f_{XY} = \frac{\partial^2 F_{XY}(x, y)}{\partial x \, \partial y}$
 ### Beispiel erster Regentropfen auf Tischplatte (2x1m)
-
+- gemeinsame Dichte: $$f(x, y) = 
+\begin{cases}
+\frac{1}{2} & \text{für } 0 \leq x \leq 2,\; 0 \leq y \leq 1 \\
+0 & \text{sonst}
+\end{cases}
+$$
+- Verteilung
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDAyMjY1NzYsLTg1MTc3OTI0NywtMT
-I4MDY5OTAyNiwxMjgzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUw
-MDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC
-0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5
-MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC
-0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMx
-ODU3MDA4XX0=
+eyJoaXN0b3J5IjpbNTQ5NjcxMTczLC04NTE3NzkyNDcsLTEyOD
+A2OTkwMjYsMTI4MzU2ODYxMCwxODk1NTUwNTMsNjM3NjM1MDAx
+LDEzNTE2MzkyMTAsMTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMT
+cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
+NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
+YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
+NzAwOF19
 -->
