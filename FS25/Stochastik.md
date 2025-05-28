@@ -1286,17 +1286,20 @@ $(X_1,X_2)$~$\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}), \begin{pmatrix} \
 
 ```r
 library(mvtnorm)
-mu
+mu <- c(2,0)
+sigma <- matrix(c(1, 0.5, 0.5, 1), nrow=2)
+#Werte der Dichtefunktion an der Stelle (0,0)
+dmvnorm(c(0, 0), mean = mu, sigma = sigma)
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MDMxNjUyLDEyMDU4MDE0NzksLTE3Nj
-IxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEzOTY4LC05MjUxNzIz
-MjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsOD
-g1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0
-MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4ODk4OD
-gsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAz
-OTExNzU1XX0=
+eyJoaXN0b3J5IjpbLTI3MTk5ODEwNSwxMjA1ODAxNDc5LC0xNz
+YyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcy
+MzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LD
+g4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4
+NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4ODg5OD
+g4LDEyODAxNTM5MTMsOTgzMTQ5NjAwLDg4MzY0MzkxOSwtMjEw
+MzkxMTc1NV19
 -->
