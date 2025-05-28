@@ -1301,12 +1301,12 @@ image(x1,x2,fz, las=1)
 contour(x1,x2,fz, add=TRUE)
 ```
 ### Volumenverteilungsfunktion
-$$P(X_1\le a, X_2\le b) =\int_$$
+$$P(X_1\le a, X_2\le b) =\int_{-\infty}^a\int_{-\infty}^bf_{(X_1,X_2)}(x_1,x_2)dx_1dx_2$$
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTUwNTMwMywxMzUxNjM5MjEwLDEyMD
+eyJoaXN0b3J5IjpbMTQ4NTQ4ODk0NCwxMzUxNjM5MjEwLDEyMD
 U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
 OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
 E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
