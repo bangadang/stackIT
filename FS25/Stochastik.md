@@ -1350,15 +1350,20 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
  Diese gibt für jedes Paar $(x_i,y_i)$ die Wahrscheinlichkeit an.
  Es gilt:
 - $\sum_{i=1}^{\infty} \sum_{j=1}^{\infty} p(x_i, y_j) = 1$
-- 
+- $F_{XY}(x, y) = P(X \leq x, Y \leq y) = \sum_{x_i \leq x,\, y_j \leq y} p(x_i, y_j)$
+### Beispiel Roulette
+|  |  |
+|--|--|
+|  |  |
+
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDQ2NTA1NiwxMjgzNTY4NjEwLDE4OT
-U1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5
-LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOT
-I1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEz
-MTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOT
-Q2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4
-ODg5ODg4XX0=
+eyJoaXN0b3J5IjpbOTUzMjM3OTkxLDEyODM1Njg2MTAsMTg5NT
+U1MDUzLDYzNzYzNTAwMSwxMzUxNjM5MjEwLDEyMDU4MDE0Nzks
+LTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEzOTY4LC05Mj
+UxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMx
+OTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5ND
+Y0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4
+ODk4ODhdfQ==
 -->
