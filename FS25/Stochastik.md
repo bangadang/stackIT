@@ -1361,10 +1361,16 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
 
 Roulette Randverteilungen
 $p_Y(1)=P(Y=1)=\sum_{x_i}P(X=x_i,Y=1)=\frac{8}{37}+\frac{10}{37}+0$
+$=p_Y(2)$
+$p_Y(3)=\frac{1}{37}$
+
+### Randverteilung Allgemein
+Die sogenannte Randverteilung von Y erhält man durch das Summieren der Spalten der Tabelle
+
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjQ4ODQ4OCwxMjgzNTY4NjEwLDE4OT
+eyJoaXN0b3J5IjpbLTM5NDgxNjMzOSwxMjgzNTY4NjEwLDE4OT
 U1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5
 LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOT
 I1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEz
