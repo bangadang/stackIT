@@ -1303,10 +1303,22 @@ contour(x1,x2,fz, add=TRUE)
 ### Volumenverteilungsfunktion
 $$P(X_1\le a, X_2\le b) =\int_{-\infty}^a\int_{-\infty}^bf_{(X_1,X_2)}(x_1,x_2)dx_1dx_2$$
 
+```r
+#P(X1 ≤ 0 & X2 ≤ 0)
+pmvnorm(lower=c(-Inf,-Inf), upper=c(0,0), mean = mu, sigma = sigma, keepAttr = FALSE)
+
+#P(X1 ≤ 2 & X2 ≤ 0)
+pmvnorm(lower=c(-Inf,-Inf), upper=c(2,0), mean = mu, sigma = sigma, keepAttr = FALSE)
+
+#P(−1 ≤ X1 ≤ 1 & − 1 ≤ X2 ≤ 1)
+pmvnorm(lower=c(-1,-1), upper=c(1,1), mean = mu, sigma = sigma, keepAttr = FALSE)
+# äquikoordinate
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTQ4ODk0NCwxMzUxNjM5MjEwLDEyMD
+eyJoaXN0b3J5IjpbMTEwMzI2MzE5NywxMzUxNjM5MjEwLDEyMD
 U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
 OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
 E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
