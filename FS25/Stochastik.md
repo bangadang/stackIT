@@ -1312,13 +1312,16 @@ pmvnorm(lower=c(-Inf,-Inf), upper=c(2,0), mean = mu, sigma = sigma, keepAttr = F
 
 #P(−1 ≤ X1 ≤ 1 & − 1 ≤ X2 ≤ 1)
 pmvnorm(lower=c(-1,-1), upper=c(1,1), mean = mu, sigma = sigma, keepAttr = FALSE)
-# äquikoordinate
+
+# äquikoordinate Quantile P(X1 ≤ a,X2 ≤ a) = alpha
+qmvnorm(p = 0.9, mean = mu, sigma = sigma, tail = "both")$quantile
+#
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzI2MzE5NywxMzUxNjM5MjEwLDEyMD
+eyJoaXN0b3J5IjpbMTU1MDg0MDIyMSwxMzUxNjM5MjEwLDEyMD
 U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
 OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
 E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
