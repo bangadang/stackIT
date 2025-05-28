@@ -1259,13 +1259,13 @@ Es gilt:
 ### Allgemeine Formulierung der bivariaten Normalverteilung
 
 $$f_{(X)}(x_1,x_2)=\frac{1}{2\pi\sqrt{det(\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$$
-$$x = \$$
+$$x = \[ x_1 \\ x_2$$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzQwOTczMCwtMTc2MjEyODcyNSwtMT
+eyJoaXN0b3J5IjpbMTMwMzMyMDM0OCwtMTc2MjEyODcyNSwtMT
 cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
 NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
 YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
