@@ -1342,13 +1342,13 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
 
 # Gemeinsame Verteilung
  Seinen X, Y zwei Zufallsvariablen, dann ist ihre gemeinsame Verteilungsfunktion $F_{XY}(x,y):\R\rarr[0,1]$ definiert als:
- $$F_{XY}(x,y)$$
+ $$F_{XY}(x,y)=P(X\le x,Y\le y)=P(X\le x\cap \{Y\le y})$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzQxMDQzOTYsMTM1MTYzOTIxMCwxMj
-A1ODAxNDc5LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQx
-Mzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5My
-wxODE2MzEzMTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4
-NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4Nz
-M5LC0xMjI4ODg5ODg4LDEyODAxNTM5MTMsOTgzMTQ5NjAwLDg4
-MzY0MzkxOV19
+eyJoaXN0b3J5IjpbLTI1MTYxNzQ4LDEzNTE2MzkyMTAsMTIwNT
+gwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5
+NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMT
+gxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQy
+NjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOS
+wtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0OTYwMCw4ODM2
+NDM5MTldfQ==
 -->
