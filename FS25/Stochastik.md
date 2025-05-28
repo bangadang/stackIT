@@ -1341,13 +1341,14 @@ Annahme die Fehler der Maschinen $M=(M_1,M_2)$ sei $\Nu(\begin{pmatrix}0 \\ 0 \e
 Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bedingte Verteilung der Abweichung von Maschine 1 $M_1 \sim \Nu (−0.2, 0.84)$
 
 # Gemeinsame Verteilung
- Seinen X,
+ Seinen X, Y zwei Zufallsvariablen, dann ist ihre gemeinsame Verteilungsfunktion $F_{XY}(x,y):\R\rarr[0,1]$ definiert als:
+ $$F_{XY}(x,y)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMjY1ODU1LDEzNTE2MzkyMTAsMTIwNT
-gwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5
-NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMT
-gxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQy
-NjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOS
-wtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0OTYwMCw4ODM2
-NDM5MTldfQ==
+eyJoaXN0b3J5IjpbLTEwMzQxMDQzOTYsMTM1MTYzOTIxMCwxMj
+A1ODAxNDc5LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQx
+Mzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5My
+wxODE2MzEzMTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4
+NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4Nz
+M5LC0xMjI4ODg5ODg4LDEyODAxNTM5MTMsOTgzMTQ5NjAwLDg4
+MzY0MzkxOV19
 -->
