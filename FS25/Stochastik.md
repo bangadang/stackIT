@@ -1413,13 +1413,20 @@ $$F_{X_1,...,X_n}(x_1,...,x_n)=F_{X_1}(x_1)\cdot ... \cdot F_{X_n}(x_n)$$
 Analog gilt das im diskreten Fall für die gemeinsame Wahrscheinlichkeitsfunktion 
 $$p_{X_1,...,X_n}(x_1,...,x_n)=p_{X_1}(x_1)\cdot ... \cdot p_{X_n}(x_n)$$
 und im stetigen Fall für die Dichte
-$$F_{X_1,...,X_n}(x_1,...,x_n)=F_{X_1}(x_1)\cdot ... \cdot F_{X_n}(x_n)$$
+$$f_{X_1,...,X_n}(x_1,...,x_n)=f_{X_1}(x_1)\cdot ... \cdot f_{X_n}(x_n)$$
+Falls keine Unabhängigkeit besteht, gibt es Kovarianz/Korrelation
+
+### Beispiel
+Zwei Studierende gehen unabhängig voneinander zu einem zufällig gleichverteilten Zeitpunkt zwischen 12 und 13 Uhr zur Mensa. Sie haben ausgemacht, dass jeder nach der Ankunft 10 Minuten auf den Anderen wartet.
+Kommt dieser innerhalb der 10 Minuten, so essen sie gemeinsam zu Mittag.
+Wie gross ist die Wahrscheinlichkeit, dass die Studenten zusammen essen?
+$X\sim$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg2OTEwNDIsLTg1MTc3OTI0NywtMT
-I4MDY5OTAyNiwxMjgzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUw
-MDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC
-0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5
-MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC
-0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMx
-ODU3MDA4XX0=
+eyJoaXN0b3J5IjpbMzMwMTAzOTM4LC04NTE3NzkyNDcsLTEyOD
+A2OTkwMjYsMTI4MzU2ODYxMCwxODk1NTUwNTMsNjM3NjM1MDAx
+LDEzNTE2MzkyMTAsMTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMT
+cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
+NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
+YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
+NzAwOF19
 -->
