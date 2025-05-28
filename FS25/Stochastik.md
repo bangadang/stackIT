@@ -1338,13 +1338,16 @@ Wenn $(X_1,X_2)\sim\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}, \begin{pmatr
 ### Beispiel Produktionsmaschinen
 Annahme die Fehler der Maschinen $M=(M_1,M_2)$ sei $\Nu(\begin{pmatrix}0 \\ 0 \end{pmatrix}), \begin{pmatrix} 1 & 0.4 \\ 0.4 & 1 \end{pmatrix}$ verteilt.
 
-Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bedingte Verteillung der Abweichu
+Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bedingte Verteilung der Abweichung von Maschine 1 $M_1 \sim \Nu (−0.2, 0.84)$
+
+# Gemeinsame Verteilung
+ Seinen X,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODU3ODE2OSwxMzUxNjM5MjEwLDEyMD
-U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
-OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
-E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
-MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3Mz
-ksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgz
-NjQzOTE5XX0=
+eyJoaXN0b3J5IjpbNTYyMjY1ODU1LDEzNTE2MzkyMTAsMTIwNT
+gwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5
+NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMT
+gxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQy
+NjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOS
+wtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0OTYwMCw4ODM2
+NDM5MTldfQ==
 -->
