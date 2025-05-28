@@ -1290,12 +1290,18 @@ mu <- c(2,0)
 sigma <- matrix(c(1, 0.5, 0.5, 1), nrow=2)
 #Werte der Dichtefunktion an der Stelle (0,0)
 dmvnorm(c(0, 0), mean = mu, sigma = sigma)
+# Visualisierung
+x1 <- seq(-4,4,0.1)
+x2 <- seq(-4,4,0.1)
+z <- expand.grid(x1=x1,x2=x2)
+f <- dmvnorm(z, mean = mu, sigma = sigma)
+
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTk5ODEwNSwxMjA1ODAxNDc5LC0xNz
+eyJoaXN0b3J5IjpbMTM2MjMyMDM3NywxMjA1ODAxNDc5LC0xNz
 YyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOTI1MTcy
 MzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEzMTk0LD
 g4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOTQ2NDM4
