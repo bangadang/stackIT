@@ -1327,13 +1327,16 @@ plot(x, las=1)
 
 Verteilung von X1, wenn schon bekannt ist, welchen Wert X2 angenommen hat.
 $X_1|X_2=x_2)\sim \Nu(\mu_1+\rho\frac{\sigma_1}{\sigma_2}, \sigma_1^2(1-\rho^2)$
-### Randdichte (Marginalverteilung
+### Randdichte (Marginalverteilung)
+Verteilung, wenn die Realisationen der anderen Variablen nicht berücksichtigt wird.
+Randverteilung von X1 kann man aus der gemeinsamen Dichte bestimmen, indem man über alle Werte von X2 integriert:
+$$f_{(X_1)}(x_1)=\int_{-\infty}^\infty$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MTk2ODgyLDEzNTE2MzkyMTAsMTIwNT
-gwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5
-NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMT
-gxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQy
-NjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOS
-wtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0OTYwMCw4ODM2
-NDM5MTldfQ==
+eyJoaXN0b3J5IjpbMTQzNjU1NDAyMiwxMzUxNjM5MjEwLDEyMD
+U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
+OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
+E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
+MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3Mz
+ksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgz
+NjQzOTE5XX0=
 -->
