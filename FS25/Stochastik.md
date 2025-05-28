@@ -1249,12 +1249,14 @@ $$=f_{M_1}(m_1)\cdot f_{M_2}(m_2)$$
 Was wenn keine Unabhängigkeit besteht? Kovarianz spielt eine Rolle!
 $$Cov(X,Y) = E[(X-E[X])(Y-E[Y])]$$
  
+ Um ein besser interpretierbares Mass zu erhalten, wird die Kovarianz oft standardisiert.
+ $$\rho = Cor(X,Y) =\frac{Cov(X,Y}{\sqrt{Var(X)Var(Y)}}$$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA3MTY2NywxNDU1NDEzOTY4LC05Mj
+eyJoaXN0b3J5IjpbLTg5NTc5NDk5MywxNDU1NDEzOTY4LC05Mj
 UxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMx
 OTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5ND
 Y0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4
