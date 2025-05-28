@@ -1342,13 +1342,15 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
 
 # Gemeinsame Verteilung
  Seinen X, Y zwei Zufallsvariablen, dann ist ihre gemeinsame Verteilungsfunktion $F_{XY}(x,y):\R\rarr[0,1]$ definiert als:
- $$F_{XY}(x,y)=P(X\le x,Y\le y)=P(X\le x\cap \{Y\le y})$$
+ $$F_{XY}(x,y)=P(X\le x,Y\le y)=P(\{X\le x\}\cap \{Y\le y\})$$
+ Analog ist die Verteilungsfunktion von n beliebigen Zufallsvariablen definiert.Diese Definitionen sind unabhängig davon, ob die einzelnen Zufallsvariablen alle stetig, alle diskret oder einige stetig und einige diskret sind.
+ ##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTYxNzQ4LDEzNTE2MzkyMTAsMTIwNT
-gwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LDE0NTU0MTM5
-NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3OTU1OTMsMT
-gxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LDEwMTk5ODQy
-NjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYzMjk4ODczOS
-wtMTIyODg4OTg4OCwxMjgwMTUzOTEzLDk4MzE0OTYwMCw4ODM2
-NDM5MTldfQ==
+eyJoaXN0b3J5IjpbLTUyNzYxOTQ4OCwxMzUxNjM5MjEwLDEyMD
+U4MDE0NzksLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEz
+OTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLD
+E4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0
+MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3Mz
+ksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgz
+NjQzOTE5XX0=
 -->
