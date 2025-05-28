@@ -1398,13 +1398,17 @@ $$
 = \int_{0}^{x} \frac{y}{2} \, dx 
 = \frac{xy}{2}
 $$
-### Randdichte
+### Randdichte von X
+$$f_X(x)=\int_{-\infty}^\infty f_{XY}(x,y)dy$$
+### Randdichte von Y
+$$f_Y(y)=\int_{-\infty}^\infty f_{XY}(x,y)dy$$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTgwMzI0NywtODUxNzc5MjQ3LC0xMj
-gwNjk5MDI2LDEyODM1Njg2MTAsMTg5NTU1MDUzLDYzNzYzNTAw
-MSwxMzUxNjM5MjEwLDEyMDU4MDE0NzksLTE3NjIxMjg3MjUsLT
-E3MDk1NjIyNiwxNDU1NDEzOTY4LC05MjUxNzIzMjUsLTIwNDkw
-MTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQsLT
-I2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4
-NTcwMDhdfQ==
+eyJoaXN0b3J5IjpbMjE1MDM3NjEzLC04NTE3NzkyNDcsLTEyOD
+A2OTkwMjYsMTI4MzU2ODYxMCwxODk1NTUwNTMsNjM3NjM1MDAx
+LDEzNTE2MzkyMTAsMTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMT
+cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
+NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
+YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
+NzAwOF19
 -->
