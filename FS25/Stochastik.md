@@ -1345,15 +1345,15 @@ Wenn man weiss, dass die Maschine 2 einen Fehler von -0.5 mach, dann ist die bed
  $$F_{XY}(x,y)=P(X\le x,Y\le y)=P(\{X\le x\}\cap \{Y\le y\})$$
  Analog ist die Verteilungsfunktion von n beliebigen Zufallsvariablen definiert.Diese Definitionen sind unabhängig davon, ob die einzelnen Zufallsvariablen alle stetig, alle diskret oder einige stetig und einige diskret sind.
  ## diskrete gemeinsame Verteilung
- Seien X, Y zwei diskrete Zufallsvariablen die bestimmte Werte annehmen können. Neben der Verteilungsfunktion gibt es  
+ Seien X, Y zwei diskrete Zufallsvariablen die bestimmte Werte annehmen können. Neben der Verteilungsfunktion gibt es auch eine 
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzU2ODYxMCwxODk1NTUwNTMsNjM3Nj
-M1MDAxLDEzNTE2MzkyMTAsMTIwNTgwMTQ3OSwtMTc2MjEyODcy
-NSwtMTcwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMj
-A0OTAxNDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYw
-NCwtMjYzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMT
-QzMTg1NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgw
-MTUzOTEzXX0=
+eyJoaXN0b3J5IjpbMTU5OTY5NDk1OCwxMjgzNTY4NjEwLDE4OT
+U1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIxMCwxMjA1ODAxNDc5
+LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMTQ1NTQxMzk2OCwtOT
+I1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5NTU5MywxODE2MzEz
+MTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgsMTAxOTk4NDI2MiwxOT
+Q2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMyOTg4NzM5LC0xMjI4
+ODg5ODg4XX0=
 -->
