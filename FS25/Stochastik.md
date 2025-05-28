@@ -1258,17 +1258,18 @@ Es gilt:
 
 ### Allgemeine Formulierung der bivariaten Normalverteilung
 
-$$f_{(X)}(x_1,x_2)=\frac{1}{2\pi\sqrt{det(\Sigma)}}exp(-\frac{1}{2}())$$
+$$f_{(X)}(x_1,x_2)=\frac{1}{2\pi\sqrt{det(\Sigma)}}exp(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))$$
+$$x = \$$
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjIxMjg3MjUsLTE3MDk1NjIyNiwxND
-U1NDEzOTY4LC05MjUxNzIzMjUsLTIwNDkwMTQ2NiwtMzcyNzk1
-NTkzLDE4MTYzMTMxOTQsODg1ODk2MDQsLTI2MzY0MzQwOCwxMD
-E5OTg0MjYyLDE5NDY0Mzg0MDAsLTE0MzE4NTcwMDgsLTE2MzI5
-ODg3MzksLTEyMjg4ODk4ODgsMTI4MDE1MzkxMyw5ODMxNDk2MD
-AsODgzNjQzOTE5LC0yMTAzOTExNzU1LC0xMDUxNzY3NjE5LDEy
-NTcyNzMzMzhdfQ==
+eyJoaXN0b3J5IjpbMTM3MzQwOTczMCwtMTc2MjEyODcyNSwtMT
+cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
+NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
+YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
+NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOT
+EzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEw
+NTE3Njc2MTldfQ==
 -->
