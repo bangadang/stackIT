@@ -1384,10 +1384,11 @@ $$P(X \in [a, b],\, Y \in [c, d]) = \int_a^b \int_c^d f_{XY}(x, y) \, dy \, dx =
 $$
 Es gilt:
 - $\int_{-\infty}^{\infty} \int_{-\infty}^{\infty} f_{XY}(x, y) \, dy \, dx = 1$
-- 
+- Verteilungsfunktion: $F_{XY}(x, y) = P(X \leq x,\, Y \leq y) = \int_{-\infty}^{x} \int_{-\infty}^{y} f_{XY}(x, y) \, dy \, dx$
+- Zusammenhang Dichte & Verteilungsfunktion: $$
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzE2ODUwMiwtMTI4MDY5OTAyNiwxMj
+eyJoaXN0b3J5IjpbLTg1MTc3OTI0NywtMTI4MDY5OTAyNiwxMj
 gzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIx
 MCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMT
 Q1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5
