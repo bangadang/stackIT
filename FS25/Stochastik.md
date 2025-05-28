@@ -1284,14 +1284,19 @@ $$\Sigma^{-1}=\frac{1}{det(\Sigma)}\begin{pmatrix}
 Falls die zwei Zufallsvariablen unkorreliert sind, d.h. unabhängig voneinander ist die Kurznotation ein Spezialfall da $\rho = 0$ ist:
 $(X_1,X_2)$~$\Nu(\begin{pmatrix}\mu_1 \\ \mu_2 \end{pmatrix}), \begin{pmatrix} \sigma_1^2 & 0 \\ 0 & \sigma_2^2 \end{pmatrix}$
 
+```r
+library(mvtnorm)
+mu
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMT
-cwOTU2MjI2LDE0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAx
-NDY2LC0zNzI3OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMj
-YzNjQzNDA4LDEwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1
-NzAwOCwtMTYzMjk4ODczOSwtMTIyODg4OTg4OCwxMjgwMTUzOT
-EzLDk4MzE0OTYwMCw4ODM2NDM5MTksLTIxMDM5MTE3NTUsLTEw
-NTE3Njc2MTldfQ==
+eyJoaXN0b3J5IjpbMjE4MDMxNjUyLDEyMDU4MDE0NzksLTE3Nj
+IxMjg3MjUsLTE3MDk1NjIyNiwxNDU1NDEzOTY4LC05MjUxNzIz
+MjUsLTIwNDkwMTQ2NiwtMzcyNzk1NTkzLDE4MTYzMTMxOTQsOD
+g1ODk2MDQsLTI2MzY0MzQwOCwxMDE5OTg0MjYyLDE5NDY0Mzg0
+MDAsLTE0MzE4NTcwMDgsLTE2MzI5ODg3MzksLTEyMjg4ODk4OD
+gsMTI4MDE1MzkxMyw5ODMxNDk2MDAsODgzNjQzOTE5LC0yMTAz
+OTExNzU1XX0=
 -->
