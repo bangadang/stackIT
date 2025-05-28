@@ -1374,15 +1374,16 @@ Die bedingte Verteilung von X gegeben Y gibt die Verteilung der Zufallsvariablen
 $$p_{X|Y}(x_i|y_i)=P(X=x_i|Y=y_i)=\frac{P(X=x_i,Y=y_i)}{P(Y=y_i)}=\frac{p_{XY}(x_i,y_i)}{p_Y(y_i)}$$
 
 **Bsp Wahrscheinlichkeit für rote gegeben gerade Zahl**
-$p_{X|Y}(x=rot|y=gerade)= \frac{p_{XY}(x=rot,y=gerade)}{p_Y(y=gerade)}=\frac{}{}$
+$p_{X|Y}(x=rot|y=gerade)= \frac{p_{XY}(x=rot,y=gerade)}{p_Y(y=gerade)}=\frac{\frac{8}{37}}{\frac{18}{37}}= \frac{8}{18}$
+
  ## stetige gemeinsame Verteilung
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkwNTQxNTIsLTEyODA2OTkwMjYsMT
-I4MzU2ODYxMCwxODk1NTUwNTMsNjM3NjM1MDAxLDEzNTE2Mzky
-MTAsMTIwNTgwMTQ3OSwtMTc2MjEyODcyNSwtMTcwOTU2MjI2LD
-E0NTU0MTM5NjgsLTkyNTE3MjMyNSwtMjA0OTAxNDY2LC0zNzI3
-OTU1OTMsMTgxNjMxMzE5NCw4ODU4OTYwNCwtMjYzNjQzNDA4LD
-EwMTk5ODQyNjIsMTk0NjQzODQwMCwtMTQzMTg1NzAwOCwtMTYz
-Mjk4ODczOV19
+eyJoaXN0b3J5IjpbMTI4MjQ2MDAwOSwtMTI4MDY5OTAyNiwxMj
+gzNTY4NjEwLDE4OTU1NTA1Myw2Mzc2MzUwMDEsMTM1MTYzOTIx
+MCwxMjA1ODAxNDc5LC0xNzYyMTI4NzI1LC0xNzA5NTYyMjYsMT
+Q1NTQxMzk2OCwtOTI1MTcyMzI1LC0yMDQ5MDE0NjYsLTM3Mjc5
+NTU5MywxODE2MzEzMTk0LDg4NTg5NjA0LC0yNjM2NDM0MDgsMT
+AxOTk4NDI2MiwxOTQ2NDM4NDAwLC0xNDMxODU3MDA4LC0xNjMy
+OTg4NzM5XX0=
 -->
