@@ -371,7 +371,7 @@ informative decision
 ## consistent hashing
 
 # NoSQL
-Not on
+Not only SQL (non relational) databases focus on horizontal scalability, where data is stored with key-value pairs rather than tables.
 ## Fundamentals
 ## Different NoSQL Systems
 ## Document data model
@@ -382,11 +382,11 @@ Not on
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk3Njk3MDMsMTgyNjc0NzUxMSwtMT
-E3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYx
-NTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNi
-wtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1
-NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMT
-gsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1NDUyMCwyOTgy
-MzEwODRdfQ==
+eyJoaXN0b3J5IjpbMTY0NjIwNTc1NywxODI2NzQ3NTExLC0xMT
+cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
+NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC
+0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0
+NDcxNTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOC
+wzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIz
+MTA4NF19
 -->
