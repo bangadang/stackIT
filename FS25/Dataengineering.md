@@ -404,7 +404,10 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 ### Column-Family model (Cassandra, Google Cloud Bigtable)
 - documents are stored based on a column family and key
 - system is aware of the structure of the column family
-- system uses 
+- system uses column family information to replicate and distribute data
+- queries are expressed with keys and column family
+- secondary indexes per column are supported
+
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -412,11 +415,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDg5MjA4MzQsLTYwNzE5ODcwLDE4OD
-U1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIz
-NjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMT
-EwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4
-NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOT
-Y2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3
-MzE4ODFdfQ==
+eyJoaXN0b3J5IjpbMjQwNzE2MjQ5LC02MDcxOTg3MCwxODg1NT
+gwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYw
+LDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMD
+MxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4
+NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2Ni
+wyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMx
+ODgxXX0=
 -->
