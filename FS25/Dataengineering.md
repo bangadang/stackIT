@@ -441,7 +441,8 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 	 - if an update affects **multiple aggregates** (e.g., updating two documents), there is no cross-aggregate transaction and no guaranteed read consistency between them. So during this update there is an inconsistency window where clients might read one updated/stale document.
 	 - results in an misleading view
 ### Replication consistency
--problem: different values from different replicas/
+- problem: different values from different replicas/nodes because 
+- Many NoSQL systems **replicate data** across multiple nodes (for availability/fault tolerance).
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -472,11 +473,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjc2NDA2MjIsMTcxMjI4MDU0OSwtMz
-kwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcs
-LTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4OD
-U1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIz
-NjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMT
-EwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4
-NTg0Nl19
+eyJoaXN0b3J5IjpbMTcwMjg4MTIyMCwxNzEyMjgwNTQ5LC0zOT
+A4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywt
+MjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzAsMTg4NT
+U4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5ODQ3LDIwOTY3MjM2
+MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMjQ2NDIzOTc3LC0xMT
+AzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1
+ODQ2XX0=
 -->
