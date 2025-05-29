@@ -380,10 +380,9 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - achieve faster insight into the data after the data acquisition
 - have an efficient use of distributed indexes and RAM for data storage
 - have the ability to dynamically add new attributes to data records
-## Consistenc
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
-
+## Consistency Models
 ### ACID
 database systems typically implement ACID transactions 
 - **atomicity**: “all or nothing” 
@@ -453,7 +452,7 @@ database systems typically implement ACID transactions
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzI0OTA2NzIsMjExOTU0ODQzLDg4ND
+eyJoaXN0b3J5IjpbLTIwOTQ2MTE3MjcsMjExOTU0ODQzLDg4ND
 Q1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgz
 MzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLT
 ExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2
