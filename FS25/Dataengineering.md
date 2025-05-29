@@ -414,8 +414,8 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 
 | strong c | weak c | eventual c |
 |--|--|--|
-| after an update is committed, each subsequent access will return the updated value | the systems does not guarantee that subsequent accesses will return the updated value | if no new updates are made, eventually all accesses will return the last updated values | 
-|  |inconsistency window: period between update and the point in time when every access is guaranteed to return the updated value|in the absence of failures, the maximum size of the inconsistency window can be determined based on §communication delays § system load § number of replicas|
+| after an update is committed, each subsequent access will return the updated value | the systems does not guarantee that subsequent accesses will return the updated value | if no new updates are made, eventually all accesses will return the last updated values (specific form of weak c) | 
+|  |inconsistency window: period between update and the point in time when every access is guaranteed to return the updated value|in the absence of failures, the maximum size of the inconsistency window can be determined based on: communication delays, system load, number of replicas etc.|
 
 ## Different NoSQL Systems
 ### key value data model (Redis)
@@ -447,11 +447,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTgzNDUxMiwyMTE5NTQ4NDMsODg0ND
-U2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMz
-NTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMT
-E3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYx
-NTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNi
-wtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1
-NDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTE5NjU3MTA1NTIsMjExOTU0ODQzLDg4ND
+Q1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgz
+MzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLT
+ExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2
+MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MD
+YsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4
+NTQ0NzE1N119
 -->
