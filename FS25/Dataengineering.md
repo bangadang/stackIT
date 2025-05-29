@@ -402,7 +402,8 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - critisism of the CAP theorem
 	- C is a property of the system in general
 	- A is a property of the system only when there is a partition (=> CA=CP)
-	- overhead of synchronization schemes ()
+	- overhead of synchronization schemes
+		- **extra time, resources, and complexity required** to keep multiple copies of data perfectly in sync across nodes or data centers.
 	- C & A are not "all or nothing" because how long does it take to achieve consistency or respond to a request? -> Latency
 		-**Strong consistency** increases **latency**, because:
 	    - The system must coordinate between multiple nodes before confirming a write or read.
@@ -440,7 +441,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTA3ODg0OCwtMjA4NTA0MTMyOSwtMT
+eyJoaXN0b3J5IjpbLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMT
 EyNDE4MzM1MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3
 NTExLC0xMTcyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLD
 IwMTEwNjE1NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcy
