@@ -373,7 +373,7 @@ informative decision
 # NoSQL
 Not only SQL (non relational) databases focus on horizontal scalability, where data is stored with key-value pairs rather than tables.
 ## Fundamentals
-It's a flexible data model
+It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading
 ## Different NoSQL Systems
 ## Document data model
 ## MongoDB
@@ -383,7 +383,7 @@ It's a flexible data model
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDcwNzU5OSwxODI2NzQ3NTExLC0xMT
+eyJoaXN0b3J5IjpbMTcxOTIxNDYxNSwxODI2NzQ3NTExLC0xMT
 cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
 NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC
 0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0
