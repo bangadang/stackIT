@@ -466,7 +466,10 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 	- nodes are retrieved through attributes and edges through start/end node and/or attributes
 - secondary indexes for nodes and edges are supported
 ## Document Stores
-- Documents are hierarchical tree data structures, which can consist of maps, collections, scalar values, nested
+- Documents are hierarchical tree data structures, which can consist of maps, collections, scalar values, nested documents etc.
+- Documents in a collection have similar structure
+- the schema of documents can differ
+- document databases store documents 
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -474,11 +477,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzcyNzcyMSw3NDA3MTIxNjYsMTcxMj
-I4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04
-MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNz
-E5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0
-NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0Nj
-QyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2
-ODI0XX0=
+eyJoaXN0b3J5IjpbLTE5Mzc3MjIzNDksNzQwNzEyMTY2LDE3MT
+IyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwt
+ODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MD
+cxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4
+NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyND
+Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
+NjgyNF19
 -->
