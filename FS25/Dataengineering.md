@@ -371,6 +371,10 @@ informative decision
 ## consistent hashing
 
 # NoSQL
+NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed to:
+-   Run across many servers and locations
+-   Scale horizontally (add more machines easily)
+-   Handle massive amounts of data with low latency
 Not only SQL (non relational) databases focus on horizontal scalability, where data is stored with key-value pairs rather than tables.
 ## Fundamentals
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
@@ -379,6 +383,9 @@ Not only SQL (non relational) databases focus on horizontal scalability, where d
 	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases).
 	2.  **Availability** – Every request gets a response (even if it’s not the most recent data).
 	3.  **Partition Tolerance** – The system continues to function despite network partitions (communication failures between nodes).
+	- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
+		-   **In a strongly consistent system**: Node B would wait (or fail) until it has the latest data.
+		-   **In an eventually consistent system** (like most NoSQL DBs): Node B responds immediately with the latest data _it knows_, even if it’s slightly outdated.
 ## Different NoSQL Systems
 ## Document data model
 ## MongoDB
@@ -388,7 +395,7 @@ Not only SQL (non relational) databases focus on horizontal scalability, where d
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyODMwMTM4LDE4ODU1ODAwMTUsMTgyNj
+eyJoaXN0b3J5IjpbODI2OTUwMTg0LDE4ODU1ODAwMTUsMTgyNj
 c0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5
 MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMT
 k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
