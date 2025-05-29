@@ -375,6 +375,10 @@ Not only SQL (non relational) databases focus on horizontal scalability, where d
 ## Fundamentals
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
+	- **CAP theorem** states that in a distributed data system, you can only guarantee two of the following three properties at the same time:
+	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases).
+	2.  **Availability** – Every request gets a response (even if it’s not the most recent data).
+	3.  **Partition Tolerance** – The system continues to function despite network partitions (communication failures between nodes).
 ## Different NoSQL Systems
 ## Document data model
 ## MongoDB
@@ -384,11 +388,11 @@ Not only SQL (non relational) databases focus on horizontal scalability, where d
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDM5NjQ1MiwxODg1NTgwMDE1LDE4Mj
-Y3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2
-OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLT
-E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
-Nzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNT
-ksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5
-NTQ1MjBdfQ==
+eyJoaXN0b3J5IjpbNzEyODMwMTM4LDE4ODU1ODAwMTUsMTgyNj
+c0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5
+MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMT
+k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
+Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OS
+w3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1
+NDUyMF19
 -->
