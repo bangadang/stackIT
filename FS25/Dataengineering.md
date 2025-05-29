@@ -383,17 +383,20 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 ## Fundamentals
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
+### ACID
+database systems typically implement ACID transactions 
+- **atomicity: “all or nothing” 
+- consistency: transactions never observe or result in inconsistent data 
+- isolation: transactions are not aware of concurrent transactions 
+- durability: once committed, the state of a transaction is permanent
+
 ### CAP
-- **CAP theorem** states that in a distributed data system, you can only guarantee two of the following three properties at the same time:
+ **CAP theorem** states that in a distributed data system, you can only guarantee two of the following three properties at the same time:
 	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases). Clients will see the same data at the same time. Achieved by data in a write to one node is isntantly forwarded or replicated across all other nodes
 	2.  **Availability** – Every clients request gets a response even if it’s not the most recent data or the nodes are down. Achieved by replicating data across different servers.
 	3.  **Partition Tolerance** – The system continues to function despite network partitions (partition:=communication failures between nodes). Data is replicated across nodes and networks to maintain the system during an outage.
-		- database systems typically implement ACID transactions 
-			- atomicity: “all or nothing” 
-			- consistency: transactions never observe or result in inconsistent data 
-			- isolation: transactions are not aware of concurrent transactions 
-			- durability: once committed, the state of a transaction is permanent
-	- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
+		
+- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
 		-   **In a strongly consistent system**: Node B would wait (or fail) until it has the latest data.
 		-   **In an eventually consistent system** (like most NoSQL DBs): Node B responds immediately with the latest data _it knows_, even if it’s slightly outdated.
 
@@ -448,7 +451,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Njk4Njg4OSwyMTE5NTQ4NDMsODg0ND
+eyJoaXN0b3J5IjpbMTM5NDUwMTA5OSwyMTE5NTQ4NDMsODg0ND
 U2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMz
 NTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMT
 E3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYx
