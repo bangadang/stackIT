@@ -394,9 +394,10 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - data is stored on programmer-defined keys
 - queries are expressed in terms of keys
 - indexes are defiend over keys
-	- some systems support secondary i
+	- some systems support secondary indexes over (parts of) the value
 ## Different NoSQL Systems
 ## Document data model
+documents (data) is sto
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -404,11 +405,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTE0MTc4NiwxODg1NTgwMDE1LDE4Mj
-Y3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2
-OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLT
-E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
-Nzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNT
-ksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5
-NTQ1MjBdfQ==
+eyJoaXN0b3J5IjpbODg4Nzk1MjMwLDE4ODU1ODAwMTUsMTgyNj
+c0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5
+MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMT
+k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
+Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OS
+w3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1
+NDUyMF19
 -->
