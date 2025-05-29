@@ -384,7 +384,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
 	- **CAP theorem** states that in a distributed data system, you can only guarantee two of the following three properties at the same time:
-	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases).
+	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases). Clients will see the same data at the same time. Achieved b
 	2.  **Availability** – Every request gets a response (even if it’s not the most recent data).
 	3.  **Partition Tolerance** – The system continues to function despite network partitions (communication failures between nodes).
 	- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
@@ -420,11 +420,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4OD
-U1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIz
-NjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMT
-EwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4
-NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOT
-Y2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3
-MzE4ODFdfQ==
+eyJoaXN0b3J5IjpbMjA0MDkxODc2MSwtMTEyNDE4MzM1MSwtNj
+A3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5
+ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMj
+Q2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIz
+NTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNT
+csLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4
+NjQ1ODhdfQ==
 -->
