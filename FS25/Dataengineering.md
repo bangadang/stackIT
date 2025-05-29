@@ -386,7 +386,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 	- **CAP theorem** states that in a distributed data system, you can only guarantee two of the following three properties at the same time:
 	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases). Clients will see the same data at the same time. Achieved by data in a write to one node is isntantly forwarded or replicated across all other nodes
 	2.  **Availability** – Every clients request gets a response even if it’s not the most recent data or the nodes are down. Achieved by replicating data across different servers.
-	3.  **Partition Tolerance** – The system continues to function despite network partitions (communication failures between nodes).
+	3.  **Partition Tolerance** – The system continues to function despite network partitions (partition:=communication failures between nodes). Data is replicated across nodes and networks to maintain the system during an outage.
 	- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
 		-   **In a strongly consistent system**: Node B would wait (or fail) until it has the latest data.
 		-   **In an eventually consistent system** (like most NoSQL DBs): Node B responds immediately with the latest data _it knows_, even if it’s slightly outdated.
@@ -420,11 +420,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4MTQ5OTIzLC0xMTI0MTgzMzUxLC02MD
-cxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4
-NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyND
-Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
-NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1Ny
-wtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2
-NDU4OF19
+eyJoaXN0b3J5IjpbLTE5NjY3OTA3OTYsLTExMjQxODMzNTEsLT
+YwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjEx
+OTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLD
+I0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYy
+MzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MT
+U3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2
+ODY0NTg4XX0=
 -->
