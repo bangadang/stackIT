@@ -372,10 +372,11 @@ informative decision
 
 # NoSQL
 NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed to:
--   Run across many servers and locations
--   Scale horizontally (add more machines easily)
--   Handle massive amounts of data with low latency
-Not only SQL (non relational) databases focus on horizontal scalability, where data is stored with key-value pairs rather than tables.
+- Run across many servers and locations
+- Scale horizontally (add more machines easily)
+- Handle massive amounts of data with low latency
+- Data is stored with key-value pairs rather than tables.
+- 
 ## Fundamentals
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
@@ -395,11 +396,11 @@ Not only SQL (non relational) databases focus on horizontal scalability, where d
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2OTUwMTg0LDE4ODU1ODAwMTUsMTgyNj
-c0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5
-MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMT
-k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
-Nzg5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OS
-w3MTk1MzYxMTgsMzI2ODY0NTg4LDE5MDg3MzE4ODEsMjEzMzk1
-NDUyMF19
+eyJoaXN0b3J5IjpbLTk3MDkwNDY5NywxODg1NTgwMDE1LDE4Mj
+Y3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2
+OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLT
+E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
+Nzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNT
+ksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5
+NTQ1MjBdfQ==
 -->
