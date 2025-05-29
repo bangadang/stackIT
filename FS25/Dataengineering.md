@@ -492,17 +492,18 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 - each MongoDB instance has multiple databases 
 - each database can have multiple collections 
 - when we store a document, we have to choose database and collection
+- documents have a flexible schema
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTU0MTU0MCw3NDA3MTIxNjYsMTcxMj
-I4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04
-MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNz
-E5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0
-NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0Nj
-QyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2
-ODI0XX0=
+eyJoaXN0b3J5IjpbLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MT
+IyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwt
+ODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MD
+cxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4
+NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyND
+Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
+NjgyNF19
 -->
