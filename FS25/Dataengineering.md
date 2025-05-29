@@ -392,17 +392,19 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 		-   **In an eventually consistent system** (like most NoSQL DBs): Node B responds immediately with the latest data _it knows_, even if it’s slightly outdated.
 ## Different NoSQL Systems
 ### key value data model (Redis)
-- data is stored on programmer-defined keys
+- data is stored based on programmer-defined keys
 - queries are expressed in terms of keys
 - indexes are defiend over keys
 	- some systems support secondary indexes over (parts of) the value
 ### Document data model (MongoDB, CouchDB)
-- documents (data) is stored on programmer defined keys
+- documents (data) is stored based on programmer defined keys
 - system is aware of the document structure (json, xml etc)
 - queries are expressed  in terms of keys
 - suppoort key-based indexes and secondary indexes
 ### Column-Family model (Cassandra, Google Cloud Bigtable)
-- documen
+- documents are stored based on a column family and key
+- system is aware of the structure of the column family
+- system uses 
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -410,7 +412,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE1ODM4NDIsLTYwNzE5ODcwLDE4OD
+eyJoaXN0b3J5IjpbLTIwNDg5MjA4MzQsLTYwNzE5ODcwLDE4OD
 U1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIz
 NjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMT
 EwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4
