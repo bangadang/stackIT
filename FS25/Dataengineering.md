@@ -384,8 +384,8 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
 	- **CAP theorem** states that in a distributed data system, you can only guarantee two of the following three properties at the same time:
-	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases). Clients will see the same data at the same time. Achieved b
-	2.  **Availability** – Every request gets a response (even if it’s not the most recent data).
+	1.  **Consistency** – Every read receives the most recent write (like in traditional relational databases). Clients will see the same data at the same time. Achieved by data in a write to one node is isntantly forwarded or replicated across all other nodes
+	2.  **Availability** – Every request gets a response (even if it’s not the most recent data or the nodes are down).
 	3.  **Partition Tolerance** – The system continues to function despite network partitions (communication failures between nodes).
 	- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
 		-   **In a strongly consistent system**: Node B would wait (or fail) until it has the latest data.
@@ -420,11 +420,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDkxODc2MSwtMTEyNDE4MzM1MSwtNj
-A3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5
-ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMj
-Q2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIz
-NTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNT
-csLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4
-NjQ1ODhdfQ==
+eyJoaXN0b3J5IjpbMTAxODg0MDYwLC0xMTI0MTgzMzUxLC02MD
+cxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4
+NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyND
+Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
+NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1Ny
+wtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2
+NDU4OF19
 -->
