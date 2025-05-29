@@ -432,17 +432,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 ### read consistency
 - problem: read-write conflict, one user reads while the other writes
 - Relational databases solve this using **ACID transactions**:
-
--   Transactions **isolate** reads and writes to prevent inconsistent views.
-    
--   A reader either:
-    
-    -   Sees **the data as it was before the write** (snapshot isolation), or
-        
+	- Transactions **isolate** reads and writes to prevent inconsistent views.
+    - A reader either:
+    - Sees **the data as it was before the write** (snapshot isolation), or
     -   Waits until the write is **fully completed**.
-        
-
-This ensures **strong read consistency**.
+ - This ensures **strong read consistency**.
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -473,11 +467,11 @@ This ensures **strong read consistency**.
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjkyNzk0NjcsMTcxMjI4MDU0OSwtMz
-kwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcs
-LTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4OD
-U1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIz
-NjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMT
-EwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4
-NTg0Nl19
+eyJoaXN0b3J5IjpbMTA4MzgxNjcwOCwxNzEyMjgwNTQ5LC0zOT
+A4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywt
+MjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzAsMTg4NT
+U4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5ODQ3LDIwOTY3MjM2
+MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMjQ2NDIzOTc3LC0xMT
+AzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1
+ODQ2XX0=
 -->
