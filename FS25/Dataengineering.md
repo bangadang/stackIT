@@ -402,7 +402,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - critisism of the CAP theorem
 	- C is a property of the system in general
 	- A is a property of the system only when there is a partition (=> CA=CP)
-	- C
+	- C & A are not "all or nothing" because how long does it take to achieve consistency or respond to a request? -> Latency
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -433,11 +433,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjgzNDU4MSwtMjA4NTA0MTMyOSwtMT
-EyNDE4MzM1MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3
-NTExLC0xMTcyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLD
-IwMTEwNjE1NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcy
-MjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3OD
-ksLTEwODU0NDcxNTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcx
-OTUzNjExOF19
+eyJoaXN0b3J5IjpbLTEzMjE1NzEyNDIsLTIwODUwNDEzMjksLT
+ExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0
+NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MC
+wyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3
+MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nz
+g5LC0xMDg1NDQ3MTU3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3
+MTk1MzYxMThdfQ==
 -->
