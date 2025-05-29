@@ -408,8 +408,10 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - queries are expressed with keys and column family
 - secondary indexes per column are supported
 ### Graph data model (Neo4j, ArangoDB)
--data is stores in terms of nodes and (typed) edges and both of them can have attributes
-- qu
+- data is stores in terms of nodes and (typed) edges and both of them can have attributes
+- queries are expressed with system id, when no indexes exist
+	- no
+- secondary indexes for nodes and edges are supported
 
 ## MongoDB
 ## BaseX, XPath, XQuery
@@ -418,11 +420,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMDQ5MjYyLC02MDcxOTg3MCwxODg1NT
-gwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYw
-LDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMD
-MxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4
-NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2Ni
-wyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMx
-ODgxXX0=
+eyJoaXN0b3J5IjpbMTcyMjM5NDM5NywtNjA3MTk4NzAsMTg4NT
+U4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5ODQ3LDIwOTY3MjM2
+MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMjQ2NDIzOTc3LC0xMT
+AzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1
+ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNTcsLTExNzc3MjA5Nj
+YsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4NjQ1ODgsMTkwODcz
+MTg4MV19
 -->
