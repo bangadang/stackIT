@@ -375,8 +375,9 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - Run across many servers and locations
 - Scale horizontally (add more machines easily)
 - Handle massive amounts of data with low latency
-- Data is stored with key-value pairs rather than tables.
-- 
+- store data with key-value pairs rather than tables.
+- to have low software costs
+- achieve faster insight into the data after the data ac
 ## Fundamentals
 - It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
@@ -396,7 +397,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MDkwNDY5NywxODg1NTgwMDE1LDE4Mj
+eyJoaXN0b3J5IjpbMTgxNzcwMjA5NCwxODg1NTgwMDE1LDE4Mj
 Y3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2
 OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLT
 E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
