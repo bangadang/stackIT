@@ -399,7 +399,9 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 | available-partition-tolerant | consistent-available | consistent-partition-tolerant |
 |--|--|--|
 | CouchDB, Cassandra | RDBMS | MongoDB, Redis |
-
+- critisism of the CAP theorem
+	- C is a property of the system in general
+	- A is
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -430,7 +432,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNzQ0ODkxNywtMTEyNDE4MzM1MSwtNj
+eyJoaXN0b3J5IjpbMTI1MDgyMDU5MywtMTEyNDE4MzM1MSwtNj
 A3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5
 ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMj
 Q2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIz
