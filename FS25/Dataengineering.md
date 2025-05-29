@@ -390,6 +390,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 	- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
 		-   **In a strongly consistent system**: Node B would wait (or fail) until it has the latest data.
 		-   **In an eventually consistent system** (like most NoSQL DBs): Node B responds immediately with the latest data _it knows_, even if it’s slightly outdated.
+
 | available-partition-tolerant | consistent-available | consistent-partition-tolerant |
 |--|--|--|
 | CouchDB, Cassandra | RDBMS | MongoDB, Redis |
@@ -424,11 +425,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MzY2NjcwLC0xMTI0MTgzMzUxLC02MD
-cxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4
-NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyND
-Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
-NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0NzE1Ny
-wtMTE3NzcyMDk2NiwyMjI4ODQwNTksNzE5NTM2MTE4LDMyNjg2
-NDU4OF19
+eyJoaXN0b3J5IjpbLTE2MDc2NzYzMjAsLTExMjQxODMzNTEsLT
+YwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjEx
+OTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLD
+I0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYy
+MzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MT
+U3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2
+ODY0NTg4XX0=
 -->
