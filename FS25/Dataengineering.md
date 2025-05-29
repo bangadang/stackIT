@@ -428,8 +428,9 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 ### write (update) consistency
 - problem: write-write conflict, two user want to update the same record
 - pessimistic solution: prevent any such conflicts from occuring at all
-- optimistic solution: detec
+- optimistic solution: detects and sorts out this conflict, after letting it happen
 ### read consistency
+- problem: read-write conflict
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -460,11 +461,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjAzOTk0OSwyMTE5NTQ4NDMsODg0ND
-U2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMz
-NTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMT
-E3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYx
-NTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNi
-wtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1
-NDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1Nj
+MzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUx
+LC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNz
+IxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2
+MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLT
+I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
+NzE1N119
 -->
