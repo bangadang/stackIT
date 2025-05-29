@@ -373,7 +373,8 @@ informative decision
 # NoSQL
 Not only SQL (non relational) databases focus on horizontal scalability, where data is stored with key-value pairs rather than tables.
 ## Fundamentals
-It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
+- It's a flexible data model as it doesn't require the design of a schema first and there is no need for data cleansing/ ETL or loading.
+- relaxed consistency models CAP (trade consistency for availability and eventual consistency)
 ## Different NoSQL Systems
 ## Document data model
 ## MongoDB
@@ -383,11 +384,11 @@ It's a flexible data model as it doesn't require the design of a schema first an
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
-cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
-NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC
-0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0
-NDcxNTcsLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOC
-wzMjY4NjQ1ODgsMTkwODczMTg4MSwyMTMzOTU0NTIwLDI5ODIz
-MTA4NF19
+eyJoaXN0b3J5IjpbLTUxMDM5NjQ1MiwxODg1NTgwMDE1LDE4Mj
+Y3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2
+OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLT
+E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
+Nzc4OSwtMTA4NTQ0NzE1NywtMTE3NzcyMDk2NiwyMjI4ODQwNT
+ksNzE5NTM2MTE4LDMyNjg2NDU4OCwxOTA4NzMxODgxLDIxMzM5
+NTQ1MjBdfQ==
 -->
