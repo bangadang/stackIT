@@ -411,9 +411,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 		- **High availability** systems tend to respond quickly (low latency), but may return **stale data** (eventual consistency).
 		- **Strong Consistency = Higher Latency**  
 		-  **Eventual Consistency = Lower Latency**
+
 | strong c | weak c | eventual c |
 |--|--|--|
-| after an update is committed, each subsequent access will return the updated value |  |  |
+| after an update is committed, each subsequent access will return the updated value | the systems does not guarantee that subsequent accesses will return the updated value |  |
+|  |inconsistency window: period between update and the point in time when every access is guaranteed to return the updated value||
 
 ## Different NoSQL Systems
 ### key value data model (Redis)
@@ -445,11 +447,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTA3MjEyNzIsMjExOTU0ODQzLDg4ND
-Q1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgz
-MzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLT
-ExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2
-MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MD
-YsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4
-NTQ0NzE1N119
+eyJoaXN0b3J5IjpbLTQ5NzE2ODcyLDIxMTk1NDg0Myw4ODQ0NT
+YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
+MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
+cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
+NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC
+0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0
+NDcxNTddfQ==
 -->
