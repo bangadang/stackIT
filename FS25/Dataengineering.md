@@ -479,7 +479,9 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  - usecases:
 	 - event logging
 	 - content management systems, blogging platforms
-	 - web/ real-time analy
+	 - web/ real-time analytics
+	 - e-commerce application
+	 - everything that requires atomic cross-document oerations or queries aganst varying aggregate structures
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -487,7 +489,7 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODgzOTI0NSw3NDA3MTIxNjYsMTcxMj
+eyJoaXN0b3J5IjpbMTg1OTgwOTQwNCw3NDA3MTIxNjYsMTcxMj
 I4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04
 MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNz
 E5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0
