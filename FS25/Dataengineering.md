@@ -426,7 +426,9 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 - **soft state**: the system is flux and non deterministic, so changes occur all the time, even without new input. This happens because different parts of the system converge to a consistent state asynchronously.
 - **eventual consistency**: at some point in the future the system will be in a consistent state
 ### write (update) consistency
-
+- problem: write-write conflict, two user want to update the same record
+- pessimistic solution: prevent any such conflicts from occuring at all
+- optimistic solution: detec
 ### read consistency
 ## Different NoSQL Systems
 ### key value data model (Redis)
@@ -458,11 +460,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2MzM3MDQ2LDIxMTk1NDg0Myw4ODQ0NT
-YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
-MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
-cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
-NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC
-0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0
-NDcxNTddfQ==
+eyJoaXN0b3J5IjpbLTk2NjAzOTk0OSwyMTE5NTQ4NDMsODg0ND
+U2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMz
+NTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMT
+E3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYx
+NTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNi
+wtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1
+NDQ3MTU3XX0=
 -->
