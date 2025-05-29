@@ -430,7 +430,7 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 - pessimistic solution: prevent any such conflicts from occuring at all
 - optimistic solution: detects and sorts out this conflict, after letting it happen
 ### read consistency
-- problem: read-write conflict
+- problem: read-write conflict, on
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -461,11 +461,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1Nj
-MzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUx
-LC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNz
-IxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2
-MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLT
-I2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4NTQ0
-NzE1N119
+eyJoaXN0b3J5IjpbMTc3ODgwODE0NywtMzkwODkyOCwyMTE5NT
+Q4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjks
+LTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNj
+c0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5
+MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMT
+k3MjI2NDgwNiwtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3
+Nzg5XX0=
 -->
