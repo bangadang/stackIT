@@ -390,9 +390,9 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 	- Example: Suppose a write happens on Node A, and a read comes to Node B before the data is replicated:
 		-   **In a strongly consistent system**: Node B would wait (or fail) until it has the latest data.
 		-   **In an eventually consistent system** (like most NoSQL DBs): Node B responds immediately with the latest data _it knows_, even if it’s slightly outdated.
-| available-partition-tolerant |  |  |
+| available-partition-tolerant | consistent-available | consistent-partition-tolerant |
 |--|--|--|
-| CouchDB, Cassandra |  |  |
+| CouchDB, Cassandra | RDBMS | MongoDB, Redis |
 
 ## Different NoSQL Systems
 ### key value data model (Redis)
@@ -424,7 +424,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1OTM5MzgwLC0xMTI0MTgzMzUxLC02MD
+eyJoaXN0b3J5IjpbOTU4MzY2NjcwLC0xMTI0MTgzMzUxLC02MD
 cxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4
 NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyND
 Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
