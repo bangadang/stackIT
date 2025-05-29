@@ -436,7 +436,8 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
     - A reader either:
     - Sees **the data as it was before the write** (snapshot isolation), or
     -   Waits until the write is **fully completed**.
- - This ensures **strong read consistency**.
+	 - This ensures **strong read consistency**.
+ - NoSQL databases often **relax consistency** to improve scalability and availability. 
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -467,11 +468,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MzgxNjcwOCwxNzEyMjgwNTQ5LC0zOT
-A4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywt
-MjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzAsMTg4NT
-U4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5ODQ3LDIwOTY3MjM2
-MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMjQ2NDIzOTc3LC0xMT
-AzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIzNTY4MjQsNzA0ODg1
-ODQ2XX0=
+eyJoaXN0b3J5IjpbMjgzMTYxNTA2LDE3MTIyODA1NDksLTM5MD
+g5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0y
+MDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MCwxODg1NT
+gwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYw
+LDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMD
+MxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4
+NDZdfQ==
 -->
