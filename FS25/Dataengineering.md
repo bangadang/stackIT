@@ -401,7 +401,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 | CouchDB, Cassandra | RDBMS | MongoDB, Redis |
 - critisism of the CAP theorem
 	- C is a property of the system in general
-	- A is
+	- A is a property of the system only when there is a partition (=> CA=CP)
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -432,11 +432,11 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDgyMDU5MywtMTEyNDE4MzM1MSwtNj
-A3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5
-ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1NjMsMj
-Q2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC0yNjIz
-NTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0NDcxNT
-csLTExNzc3MjA5NjYsMjIyODg0MDU5LDcxOTUzNjExOCwzMjY4
-NjQ1ODhdfQ==
+eyJoaXN0b3J5IjpbLTIwODUwNDEzMjksLTExMjQxODMzNTEsLT
+YwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjEx
+OTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLD
+I0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYy
+MzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1NDQ3MT
+U3LC0xMTc3NzIwOTY2LDIyMjg4NDA1OSw3MTk1MzYxMTgsMzI2
+ODY0NTg4XX0=
 -->
