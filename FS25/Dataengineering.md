@@ -384,7 +384,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - relaxed consistency models CAP (trade consistency for availability and eventual consistency)
 ## Consistency Models
 ### ACID
-database systems typically implement ACID transactions 
+traditional relational database systems typically implement ACID transactions 
 - **atomicity**: “all or nothing” 
 - **consistency**: transactions never observe or result in inconsistent data 
 - **isolation**: transactions are not aware of concurrent transactions 
@@ -421,7 +421,7 @@ database systems typically implement ACID transactions
 | after an update is committed, each subsequent access will return the updated value | the systems does not guarantee that subsequent accesses will return the updated value | if no new updates are made, eventually all accesses will return the last updated values (specific form of weak c) | 
 |  |inconsistency window: period between update and the point in time when every access is guaranteed to return the updated value|in the absence of failures, the maximum size of the inconsistency window can be determined based on: communication delays, system load, number of replicas etc.|
 ### BASE
-leads to levels of scalability that cannot be obtained with ACID, at the cost of (strong) consistency. Relaxed version of ACID wh
+leads to levels of scalability that cannot be obtained with ACID, at the cost of (strong) consistency. High **availability** and **scalability** are prioritized over strict **consistency**. Relaxed version of ACID which is used in NoSQL and distributed systems
 - **basically available**: the system works basically all the time with possible partial failures occuring, but there is never a complete system failure.
 - **soft state**: the system is flux and non deterministic, so changes occur all the time
 - **eventual consistency**: at some point in the future the system will be in a consistent state
@@ -455,11 +455,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ2MDY3OCwyMTE5NTQ4NDMsODg0ND
-U2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMz
-NTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMT
-E3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYx
-NTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNi
-wtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1
-NDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbNTkzMDQwNDcwLDIxMTk1NDg0Myw4ODQ0NT
+YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
+MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
+cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
+NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0ODA2LC
+0yNjIzNTY4MjQsNzA0ODg1ODQ2LDE0ODg1MDc3ODksLTEwODU0
+NDcxNTddfQ==
 -->
