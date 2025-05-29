@@ -422,7 +422,9 @@ database systems typically implement ACID transactions
 |  |inconsistency window: period between update and the point in time when every access is guaranteed to return the updated value|in the absence of failures, the maximum size of the inconsistency window can be determined based on: communication delays, system load, number of replicas etc.|
 ### BASE
 leads to levels of scalability that cannot be obtained with ACID, at the cost of (strong) consistency
-- **basically available**: the system works basically all the time with possible partial failures occuring, but there is never a complet
+- **basically available**: the system works basically all the time with possible partial failures occuring, but there is never a complete system failure.
+- **soft state**: the system is flux and non deterministic, so changes occur all the time
+- **eventual consistency**: at some point in the future the system will be in co
 ## Different NoSQL Systems
 ### key value data model (Redis)
 - data is stored based on programmer-defined keys
@@ -453,11 +455,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDY1NzgyMCwyMTE5NTQ4NDMsODg0ND
-U2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMz
-NTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMT
-E3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYx
-NTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNi
-wtMjYyMzU2ODI0LDcwNDg4NTg0NiwxNDg4NTA3Nzg5LC0xMDg1
-NDQ3MTU3XX0=
+eyJoaXN0b3J5IjpbLTE3NTIyOTgyOTAsMjExOTU0ODQzLDg4ND
+Q1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgz
+MzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLT
+ExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2
+MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MD
+YsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUwNzc4OSwtMTA4
+NTQ0NzE1N119
 -->
