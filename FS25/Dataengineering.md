@@ -402,6 +402,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - queries are expressed  in terms of keys
 - suppoort key-based indexes and secondary indexes
 ### Column-Family model
+- d
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -409,7 +410,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NTAyNjc4MiwxODg1NTgwMDE1LDE4Mj
+eyJoaXN0b3J5IjpbLTU2MTUyNTg0MywxODg1NTgwMDE1LDE4Mj
 Y3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2
 OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLT
 E5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4NDYsMTQ4ODUw
