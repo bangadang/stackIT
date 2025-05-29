@@ -465,7 +465,8 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 - queries are expressed with system id, when no indexes exist
 	- nodes are retrieved through attributes and edges through start/end node and/or attributes
 - secondary indexes for nodes and edges are supported
-
+## Document Stores
+- Documents are hierarchical tree data structures, which can consist of maps, collections, scalar values, nested
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -473,11 +474,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MD
-g5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0y
-MDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MCwxODg1NT
-gwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYw
-LDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMD
-MxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4
-NDZdfQ==
+eyJoaXN0b3J5IjpbMTI3MzcyNzcyMSw3NDA3MTIxNjYsMTcxMj
+I4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04
+MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNz
+E5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0
+NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0Nj
+QyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2NDgwNiwtMjYyMzU2
+ODI0XX0=
 -->
