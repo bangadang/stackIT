@@ -475,8 +475,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 - document databases store documents in the value of the key-value store, which is examinable
 	- The **key** identifies the document (e.g., a unique ID)
 	- The **value** is the document itself — and it's **examinable**, meaning:
-    
     -   It can be **parsed, queried, and indexed**
+ - usecases:
+	 - event logging
+	 - content management systems, blogging platforms
+	 - web/ real-time analy
 ## MongoDB
 ## BaseX, XPath, XQuery
 
@@ -484,7 +487,7 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Mzg2NjAxNSw3NDA3MTIxNjYsMTcxMj
+eyJoaXN0b3J5IjpbLTQ2ODgzOTI0NSw3NDA3MTIxNjYsMTcxMj
 I4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04
 MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNz
 E5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0
