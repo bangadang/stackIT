@@ -407,6 +407,9 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 - system uses column family information to replicate and distribute data
 - queries are expressed with keys and column family
 - secondary indexes per column are supported
+### Graph data model (Neo4j, ArangoDB)
+-data is stores in terms of nodes and (typed) edges and both of them can have attributes
+- qu
 
 ## MongoDB
 ## BaseX, XPath, XQuery
@@ -415,7 +418,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwNzE2MjQ5LC02MDcxOTg3MCwxODg1NT
+eyJoaXN0b3J5IjpbLTgyMDQ5MjYyLC02MDcxOTg3MCwxODg1NT
 gwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYw
 LDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5NzcsLTExMD
 MxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1NjgyNCw3MDQ4ODU4
