@@ -544,6 +544,8 @@ A database and its replicas can have only one primary and if this primary become
 - all members of a replica set can veto an election, e.g., 
 	- if the member seeking an election is not up-to-date with the most recent operation accessible in the replica set 
 	- if the member seeking an election has a lower priority than another member in the set that is also eligible for election
+	- **arbiters** are special nodes which do not contain any data but have voting power in case of an election is the replica set has an equal amount of members (can never be primary)
+	- **
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
@@ -612,11 +614,11 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
-gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
-NzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0OD
-QzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0x
-MTI0MTgzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3ND
-c1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTBd
-fQ==
+eyJoaXN0b3J5IjpbLTE0NzA2NTQ0NjUsODc5MDU3MTc3LDQ0Mz
+EzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIs
+LTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MD
+g5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0y
+MDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MCwxODg1NT
+gwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYw
+XX0=
 -->
