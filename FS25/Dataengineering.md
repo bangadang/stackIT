@@ -568,6 +568,7 @@ Sharding is used when a **single server can't handle**:
 - **query routers**: interface with client application, which direct the queries or operations to the appropriate shard and return the result to the user. Usually also more than one to divide the request load
 - **config servers**: Store metadata about which shard holds which piece of data. MongoDB requires three config servers in a sharded cluster.
 ### data modification
+
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
 **remove (all/ first) document** which have a the same key-value pair of the filter
@@ -635,11 +636,11 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Nj
-c2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2
-LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNz
-EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4
-NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MT
-gzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTFd
+eyJoaXN0b3J5IjpbLTUxMjc0NDY5MCwtOTQxODc0MjA4LDE5Mz
+gyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4
+LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
+k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
+MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
+EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTVd
 fQ==
 -->
