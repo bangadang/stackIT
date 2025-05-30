@@ -635,17 +635,18 @@ indexes store a portion of a collection in an easy traversable form. They are st
 ## Graph Databases
 These DB store entities and relationships between these entities. They consist of nodes and edges. A node is an instance of an object and has properties (e.g. name). Edges have a directional significance and have a type describing the relationship (e.g. friend, married). The nodes are usually organized by relationships, which allow us to find interesting pattern. (Can be traversed by DFS, BFS)
 
-**Examlpe** (Person({name: Alice, ..}) )
+**Examlpe** 
+((Person({name: Alice, ..}) --[loves]-->(Person({name: Bob, ..})))
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTkzNjE3NCwtOTQxODc0MjA4LDE5Mz
-gyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4
-LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
-k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
-MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
-EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTVd
-fQ==
+eyJoaXN0b3J5IjpbNTM4MjAyMTI4LC05NDE4NzQyMDgsMTkzOD
+I1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgs
+LTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOT
+Y5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIx
+MTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MT
+MyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzAsMTg4NTU4MDAxNV19
+
 -->
