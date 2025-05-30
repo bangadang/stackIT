@@ -525,15 +525,15 @@ Most real-world MongoDB designs use a **mix**:
 ### data modification
 - update, create, delete
 - modify data of single collection
-data insertion
-`db.i`
+data insertion into an existing collection. If _id is not specified or nonexistent a new entry is created
+`db.collectionName.save({document})`
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDE0MDU5Myw2MzExNTU1MiwtMTQwMT
+eyJoaXN0b3J5IjpbLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
 k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
 MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
 EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUs
