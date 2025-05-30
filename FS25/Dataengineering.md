@@ -632,15 +632,18 @@ indexes store a portion of a collection in an easy traversable form. They are st
 - hash index (supports only equality matches, as it hashes the value)
 ## BaseX, XPath, XQuery
 
+## Graph Databases
+These DB store entities and relationships between these entities. They consist of nodes and edges. A node is an instance of an object and has properties
+
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk2OTk4MTAsLTk0MTg3NDIwOCwxOT
-M4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1
-OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MD
-E5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5Mjgs
-MjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MD
-QxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1
-XX0=
+eyJoaXN0b3J5IjpbLTQzODQ5NjA1MSwtOTQxODc0MjA4LDE5Mz
+gyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4
+LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
+k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
+MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
+EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTVd
+fQ==
 -->
