@@ -496,19 +496,22 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 	- collection do not enforce a specific structure of data
 - To design document structure one need balance:
 	- application needs (how is data used, what data needs to be grouped together)
-	- database performance (size of documents, indexing, how sho
+	- database performance (size of documents, indexing, how should a collection be stored)
+	- retrieval patterns (is data fetched together or separately? how many joins are needed)
 - key decision:
+	- Embedded documents, related data is stored in a single document
+		- 
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MjA0MDgxLC0xNDAxOTY5MjcyLDc0MD
-cxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4
-ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyND
-E4MzM1MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTEx
-LC0xMTcyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMT
-EwNjE1NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0
-ODA2XX0=
+eyJoaXN0b3J5IjpbLTIwODY1MTc3MjgsLTE0MDE5NjkyNzIsNz
+QwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQz
+LDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMT
+I0MTgzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1
+MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMj
+AxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIy
+NjQ4MDZdfQ==
 -->
