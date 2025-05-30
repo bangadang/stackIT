@@ -734,16 +734,20 @@ RETURN DISTINCT fof.name
 	- adding/changing/removing a property of a node/relationship
 	- creating/deleting a node (lock on a specific node)
 	- creating/deleting a relationship (lock on relationship an all its nodes)
-- deadlocks can occur and
+- deadlocks can occur and throw an exception
+
+### indexing
+- nodes and edges are indexed with a user-specific name
+- index
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODg2MDEwODMsMjI1MTc2ODk5LDIxOD
-I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
-NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
-k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
-LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
-g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
+eyJoaXN0b3J5IjpbOTM0Mjc5MTA5LDIyNTE3Njg5OSwyMTgyNT
+Q3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUs
+LTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5OD
+IzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3
+NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4ND
+MsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjldfQ==
 
 -->
