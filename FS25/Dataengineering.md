@@ -685,24 +685,25 @@ v_n: [[v_j, w_j], ...,]}
 - easy readable query language
 
 **data model**
-- entities = nodes/vertices
+- **entities** = nodes/vertices
 	- can have property as key value pair
 	- null is not a valid property
-- relationship = directed edges
-	- can have a not null property as key value par
+- **relationship** = directed edges
+	- can have a not null property as key value pair
 	- are well traversed in both directions no need to model undiercted graphs with extra effort/ direction can be ignored when not needed
 	- alwas have a start end node
 	- can be recursive
+- **path**
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQxODA0MSwtNTQ5OTMzMDk3LC05ND
-E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
-Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
-E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
-LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0Nz
-MxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzBd
-fQ==
+eyJoaXN0b3J5IjpbMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MT
+g3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3
+LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMT
+U1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDks
+LTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3Mz
+E3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MF19
+
 -->
