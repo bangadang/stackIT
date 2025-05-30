@@ -746,9 +746,9 @@ RETURN DISTINCT fof.name
 - caues fault-tolerant architecture
 	- ability of a system to continue operating correctly even when part of it fails.
 - Replication several (slave/ follower) databases can be configured to be exact replicas of a single (master/leader) database. 
-- There is always one leaderand 0 or more slaves
-	- write on master propagate sto slaves
-	- write on slave synchronizes immediatel ywith master
+- There is always one leader and 0 or more followers
+	- write on leader propagates to followers
+	- write on followers synchronizes immediately with master
 - enables a horizontally scaling read-mostly architecture. more than a single instance could handle--> replicas needed
 - transactions are still atomic, consistent and durable, but eventually propagated out to other slaves
 - easy to transition from single to multi machine
@@ -775,11 +775,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2ODUyNzA5LDIyNTE3Njg5OSwyMTgyNT
-Q3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUs
-LTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5OD
-IzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3
-NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4ND
-MsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjldfQ==
+eyJoaXN0b3J5IjpbLTY0MzUxMjExMCwyMjUxNzY4OTksMjE4Mj
+U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
+LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
+gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
+NzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0OD
+QzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5XX0=
 
 -->
