@@ -541,6 +541,9 @@ A database and its replicas can have only one primary and if this primary become
 **mechanism**
 - the replica set elects an eligible member with the highest priority value as primary
 - the first member to receive the majority of votes becomes primary
+- all members of a replica set can veto an election, e.g., 
+	- if the member seeking an election is not up-to-date with the most recent operation accessible in the replica set 
+	- if the member seeking an election has a lower priority than another member in the set that is also eligible for election
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
@@ -609,7 +612,7 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYxNDkwMTU1LC0xOTA5ODIzNzYsLTc2Nz
+eyJoaXN0b3J5IjpbNDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2Nz
 U5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYs
 MTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2Mz
 M5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEs
