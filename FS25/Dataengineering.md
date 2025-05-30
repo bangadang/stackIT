@@ -724,15 +724,17 @@ RETURN DISTINCT fof.name
 	1. begin transaction create read lock
 	2. operating on the graph performing write operations
 	3. mark the transaction a successful or not
-	4. finish the transaction, by releasing locks
+	4. finish the transaction, by releasing locks and save the transaction in memory
 - read operations read the last commited value
 - reads do not create an locks only writes do
-- 
+	- can be set explicitly
+- non repeatable reads can occur
+- all transactions are stored in memory
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NDQ5OTA1NywyMjUxNzY4OTksMjE4Mj
+eyJoaXN0b3J5IjpbMTIwOTQ3Mjc5MCwyMjUxNzY4OTksMjE4Mj
 U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
 LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
 gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
