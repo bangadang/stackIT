@@ -528,13 +528,15 @@ Most real-world MongoDB designs use a **mix**:
 **remove (all/ first) document** which have a the same key-value pair of the filter
 `db.collectionName.remove({key: value})`
 `db.collectionName.remove({key: value}, 1)`
+**update documents**
+`db.collectionName.update({}, {},)`
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxNjk3NTY2LC03Njc1OTE4ODcsNjMxMT
+eyJoaXN0b3J5IjpbOTI2NzAyMjEwLC03Njc1OTE4ODcsNjMxMT
 U1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDks
 LTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3Mz
 E3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MCwx
