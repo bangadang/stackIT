@@ -523,21 +523,20 @@ Most real-world MongoDB designs use a **mix**:
     
 -   **Reference** if the relationship is **1:many** or **many:many**, or if the related data is large or frequently updated separately
 ### data modification
-- update, create, delete
-- modify data of single collection
-data insertion into an existing collection. If _id is not specified or nonexistent a new entry is created
+**document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
+**remove document**
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
-k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
-MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
-EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUs
-MTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4Nz
-Q5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAx
-M119
+eyJoaXN0b3J5IjpbMTIwNzgyODIsLTc2NzU5MTg4Nyw2MzExNT
+U1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwt
+MzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMT
+csLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4
+ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2Nz
+IzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3N119
+
 -->
