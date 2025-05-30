@@ -557,7 +557,7 @@ Sharding is used when a **single server can't handle**:
 **components**
 - **shard**: each shard is a subset of the data which is a replica set which store the data. (can be a single node for testing purposes)
 - **shard key**: determines how data is split/partitioned across shards. Choosing a good key is critical so the data can be split evenly into subsets
-	- **partitioning** can be range or hash based and when a shard exceeds its size it is split up again. Small shards support even distribution but cause a greater expense with more frequent migration
+	- **partitioning** can be range or hash based and when a shard exceeds its size it is split up again. Small shards support even distribution but cause a greater expense with more frequent migration(=splitting=moving the data across shard to maintain shard size)
 - **query routers**: interface with client application, which direct the queries or operations to the appropriate shard and return the result to the user. Usually also more than one to divide the request load
 - **config servers**: Store metadata about which shard holds which piece of data. MongoDB requires three config servers in a sharded cluster.
 ### data modification
@@ -628,11 +628,11 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OT
-A1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3
-LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMj
-gwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgz
-MjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MT
-k4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMTcyMTE5ODQ3
-XX0=
+eyJoaXN0b3J5IjpbMTA4NTA1MjYxLDE5MzgyNTg0OTUsLTk2Nz
+Y4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYs
+LTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MT
+IxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0
+NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxOD
+MzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMV19
+
 -->
