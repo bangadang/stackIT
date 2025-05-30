@@ -707,20 +707,27 @@ CREATE (bob)-[:FRIENDS_WITH]->(carol)
 START user=node(1,2,3)
 /* or 
 START p = node:node_auto_index(key=value)*/
-// find
+// find alices friends
 MATCH (a:Person {name: 'Alice'})-[:FRIENDS_WITH]->(friend)
 RETURN friend.name, friend.email
-```
 
+// find all frinds of friends
+MATCH (a:Person {name: 'Alice'})-[:FRIENDS_WITH]->(friend)-[:FRIENDS_WITH]->(fof)
+WHERE NOT (a)-[:FRIENDS_WITH]->(fof) AND a <> fof
+RETURN DISTINCT fof.name
+```
+### transaction management
+- ACID conform
+- all operation
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTYxODMyNDAsMjI1MTc2ODk5LDIxOD
-I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
-NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
-k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
-LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
-g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
+eyJoaXN0b3J5IjpbLTYxNDc1NjQ1MiwyMjUxNzY4OTksMjE4Mj
+U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
+LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
+gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
+NzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0OD
+QzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5XX0=
 
 -->
