@@ -557,8 +557,8 @@ Sharding is used when a **single server can't handle**:
 **components**
 - **shard**: each shard is a subset of the data which is a replica set which store the data. (can be a single node for testing purposes)
 - **shard key**: determines how data is split/partitioned into chunks within a shard. Choosing a good key is critical so the data can be split evenly.
-	- **Chunk**: unit of migration
-	- **partitioning** can be range or hash based and when a chunk exceeds its size it is split up again. Small shards support even distribution but cause a greater expense with more frequent migration(=splitting=moving the data across shards to maintain shard size)
+	- **Chunk**: unit of migration, 64MB by standard
+	- **partitioning** can be range or hash based and when a chunk exceeds its size it is split up again. Small chunks support even distribution but cause a greater expense with more frequent migration(=splitting=moving the data across shards to maintain shard size)
 - **query routers**: interface with client application, which direct the queries or operations to the appropriate shard and return the result to the user. Usually also more than one to divide the request load
 - **config servers**: Store metadata about which shard holds which piece of data. MongoDB requires three config servers in a sharded cluster.
 ### data modification
@@ -629,11 +629,11 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM3MDM5MTgxLDE5MzgyNTg0OTUsLTk2Nz
-Y4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYs
-LTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MT
-IxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0
-NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxOD
-MzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMV19
-
+eyJoaXN0b3J5IjpbMTc5MDYyNjkyNywxOTM4MjU4NDk1LC05Nj
+c2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2
+LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNz
+EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4
+NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MT
+gzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTFd
+fQ==
 -->
