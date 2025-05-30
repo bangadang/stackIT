@@ -522,6 +522,8 @@ Most real-world MongoDB designs use a **mix**:
 -   **Embed** if the relationship is **1:1** or **1:few** and always accessed together
     
 -   **Reference** if the relationship is **1:many** or **many:many**, or if the related data is large or frequently updated separately
+
+
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
@@ -590,7 +592,7 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTkwNDMwOCwtMTkwOTgyMzc2LC03Nj
+eyJoaXN0b3J5IjpbMTI1NTQxMjk3NiwtMTkwOTgyMzc2LC03Nj
 c1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2
 LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1Nj
 MzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUx
