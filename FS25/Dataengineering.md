@@ -655,16 +655,20 @@ RDBMS can only store a single type of relationship unlike GraphDB. In order to a
 - recommendation engines
 **unsuitable use cases**:
 - if all entities/ a property of all entities have to be updated on a regular basis (no straight forward operation)
+- big loads of data 
+
+### Graph Theory
+G = (
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDMwMzg5MjEsLTU0OTkzMzA5NywtOT
-QxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcx
-NzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2Mz
-ExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0
-OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0ND
-czMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcw
-XX0=
+eyJoaXN0b3J5IjpbOTc4MDg4MjE2LC01NDk5MzMwOTcsLTk0MT
+g3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3
+LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMT
+U1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDks
+LTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3Mz
+E3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MF19
+
 -->
