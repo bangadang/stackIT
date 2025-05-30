@@ -637,17 +637,18 @@ These DB store entities and relationships between these entities. They consist o
 Common GraphDB are Neo4j, FlockDB, ArangoDB
 **Example** 
 ((Person({name: Alice, ..}) --[loves]-->(Person({name: Bob, ..})))
-RDBMS can only store a single type of relationship. In order to add another the schema has to change and data has to be moved. RDBMS are design with the data able to be retrieved ()in mind
+RDBMS can only store a single type of relationship. In order to add another the schema has to change and data has to be moved. RDBMS are design with the data able to be retrieved (
+)in mind
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5Mz
-gyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4
-LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
-k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
-MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
-EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTVd
-fQ==
+eyJoaXN0b3J5IjpbLTE5NDM1NTUzODcsLTU0OTkzMzA5NywtOT
+QxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcx
+NzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2Mz
+ExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0
+OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0ND
+czMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcw
+XX0=
 -->
