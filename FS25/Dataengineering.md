@@ -668,14 +668,16 @@ m = |E|
 	- retrival of neighbouring nodes takes linear time $O(n)$
 - adjacency list
 	- a set of lists where each accounts for the neighbors of one node (a vector of n pointers to adjacency lists)
-{v1: [[v_i, w_i], ...,],
-vn}
+	- easy to obtain neighbours of a node or add a node to the structure. 
+{v_1: [[v_i, w_i], ...,],
+...,
+v_n: [[v_j, w_j], ...,]}
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDYwMDAzNywtNTQ5OTMzMDk3LC05ND
+eyJoaXN0b3J5IjpbMjAxMjM1OTMyNywtNTQ5OTMzMDk3LC05ND
 E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
 Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
 E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
