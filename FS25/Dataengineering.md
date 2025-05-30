@@ -738,16 +738,21 @@ RETURN DISTINCT fof.name
 
 ### indexing
 - nodes and edges are indexed with a user-specific name
-- index
+- index = any number of properties of a node/edge
+- automatic index can be turned on
+- index can be quried as well
+
+### high availability of Neo4j
+-fault
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0Mjc5MTA5LDIyNTE3Njg5OSwyMTgyNT
-Q3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUs
-LTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5OD
-IzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3
-NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4ND
-MsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjldfQ==
+eyJoaXN0b3J5IjpbLTIxMjYxMzY0MzcsMjI1MTc2ODk5LDIxOD
+I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
+NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
+k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
+LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
+g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
 
 -->
