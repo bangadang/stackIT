@@ -663,17 +663,21 @@ n = |V|
 m = |E|
 (weighted) Graphs can be visualized through:
 - adjacency matrix
-	- easy to add rem
+	- easy to add remove edges or check if vertices are connected.
+	- they take a lot of storage space $O(n^2)$ and usually have a lot of sparse space
+	- retrival of neighbouring nodes takes linear time $O(n)$
+- adjacency list
+	- 
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3MzczNTYsLTU0OTkzMzA5NywtOTQxOD
-c0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcs
-NDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNT
-U1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwt
-MzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMT
-csLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwXX0=
-
+eyJoaXN0b3J5IjpbLTc1MzcwMzAwMiwtNTQ5OTMzMDk3LC05ND
+E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
+Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
+E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
+LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0Nz
+MxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzBd
+fQ==
 -->
