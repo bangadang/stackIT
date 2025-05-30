@@ -549,7 +549,12 @@ db.collectionName.save(
 db.collectionName.find({query criteria/filer}).#modifier()
 # all docs where key field has said value
 db.collectionName.find({key: value})
-#all docs where key field has one of 
+#all docs where key field has one of many values
+db.collectionName.find(
+	{key: { $in: [value1, .., value_n]})
+#all docs wher key1 has certain value and other key is lt
+db.collectionName.find(
+	{key1: { $in: [value1, .., value_n]})
 ```
 ## BaseX, XPath, XQuery
 
@@ -557,11 +562,11 @@ db.collectionName.find({key: value})
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDgzMzI3MTcsLTE5MDk4MjM3NiwtNz
-Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
-NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NT
-YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
-MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
-cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
-NjNdfQ==
+eyJoaXN0b3J5IjpbMTIzNzE2Njc0MSwtMTkwOTgyMzc2LC03Nj
+c1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2
+LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1Nj
+MzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUx
+LC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNz
+IxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2
+M119
 -->
