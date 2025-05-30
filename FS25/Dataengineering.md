@@ -649,21 +649,22 @@ RDBMS can only store a single type of relationship unlike GraphDB. In order to a
 | high transaction performance for | normal transactions | simple transactions | complex transaction |
 | deep analytics performance | poor | poor | high |
 
-**usecases**:
+**use cases**:
 - connected data (social networks, link rich domains) 
 - routing, dispatch, location-based services (delivery systems)
 - recommendation engines
-**unsuitable usec
+**unsuitable use cases**:
+- if all entities/ a property of all entities have to be updated on a regular basis (no straight forward operation)
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxODM2MTUwMCwtNTQ5OTMzMDk3LC05ND
-E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
-Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
-E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
-LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0Nz
-MxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzBd
-fQ==
+eyJoaXN0b3J5IjpbLTExNDMwMzg5MjEsLTU0OTkzMzA5NywtOT
+QxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcx
+NzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2Mz
+ExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0
+OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0ND
+czMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcw
+XX0=
 -->
