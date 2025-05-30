@@ -494,6 +494,9 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 - when we store a document, we have to choose database and collection
 - documents have a flexible schema
 	- collection do not enforce a specific structure of data
+- To design document structure one need balance:
+	- application needs (how is data used, what data needs to be grouped together)
+	- database performance (size of documents, indexing, how sho
 - key decision:
 ## BaseX, XPath, XQuery
 
@@ -501,11 +504,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNjYzMDYsLTE0MDE5NjkyNzIsNzQwNz
-EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4
-NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MT
-gzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEs
-LTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMT
-A2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4
-MDZdfQ==
+eyJoaXN0b3J5IjpbOTc4MjA0MDgxLC0xNDAxOTY5MjcyLDc0MD
+cxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4
+ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyND
+E4MzM1MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTEx
+LC0xMTcyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMT
+EwNjE1NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0
+ODA2XX0=
 -->
