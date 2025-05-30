@@ -669,15 +669,20 @@ m = |E|
 - adjacency list
 	- a set of lists where each accounts for the neighbors of one node (a vector of n pointers to adjacency lists)
 	- easy to obtain neighbours of a node or add a node to the structure. 
+	- more compact that the matrix
+	- it takes a long time to check if there is an edge between two nodes (can be optimized with sorted lists)
 {v_1: [[v_i, w_i], ...,],
 ...,
 v_n: [[v_j, w_j], ...,]}
+
+## NEO4j
+main
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjM1OTMyNywtNTQ5OTMzMDk3LC05ND
+eyJoaXN0b3J5IjpbMTYyMzU0MjMwNCwtNTQ5OTMzMDk3LC05ND
 E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
 Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
 E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
