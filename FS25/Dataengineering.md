@@ -529,7 +529,9 @@ Most real-world MongoDB designs use a **mix**:
 	2. MongoDB records the operations to the primary’s oplog 
 	3. secondary members replicate oplog + apply the operations to their data sets
 - **read**
-	- all
+	- all members of the replica set/nodes accept read requests
+	- all read requests are directed to the primary by the application. It guarantees lastest version and decreases read throughput
+	- 
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
@@ -598,11 +600,11 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyMzUwNzUyLC0xOTA5ODIzNzYsLTc2Nz
-U5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYs
-MTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2Mz
-M5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEs
-LTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3Mj
-ExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYz
-XX0=
+eyJoaXN0b3J5IjpbLTEzMTYwMzU0ODIsLTE5MDk4MjM3NiwtNz
+Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
+NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NT
+YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
+MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
+cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
+NjNdfQ==
 -->
