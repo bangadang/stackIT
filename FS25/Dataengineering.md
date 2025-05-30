@@ -547,7 +547,7 @@ A database and its replicas can have only one primary and if this primary become
 	- **arbiters** are special nodes which do not contain any data but have voting power in case of an election is the replica set has an equal amount of members (can never be primary)
 	- **secondaries** are a standby instance of a node whit a certain delay. They are used as a historical snapshot to recover from errors (unintentional databases). They do not have read access and have priority 0/ can never be primary
 ### Sharding
-Its a concept to design the 
+Its a databse architecture technique how to design a bigger DB design
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
@@ -616,11 +616,11 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjQ1NTgzODAsODc5MDU3MTc3LDQ0Mz
-EzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIs
-LTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MD
-g5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0y
-MDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MCwxODg1NT
-gwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYw
-XX0=
+eyJoaXN0b3J5IjpbNjMxMDQ2MjA5LDg3OTA1NzE3Nyw0NDMxMz
+A5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0x
+NDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OT
+I4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4
+NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzAsMTg4NTU4MD
+AxNSwxODI2NzQ3NTExLC0xMTcyMTE5ODQ3LDIwOTY3MjM2MF19
+
 -->
