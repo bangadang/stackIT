@@ -743,13 +743,15 @@ RETURN DISTINCT fof.name
 - index can be quried as well
 
 ### high availability of Neo4j
-- caues fault-tolerant architecture, but several (slave) databases can be configured to be exact replicas of a single (master) database.
-- enables a horizontally scaling read-mostly architecture. more than
+- caues fault-tolerant architecture, but several (slave) databases can be configured to be exact replicas of a single (master) database. There is always one master and 0 or more slaves
+- enables a horizontally scaling read-mostly architecture. more than a single instance could handle--> replicas needed
+- transactions are still atomic, consistent and durable, but eventually propagated out to other slaves
+- easy to transition from single to multi machine
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMzkyODk5LDIyNTE3Njg5OSwyMTgyNT
+eyJoaXN0b3J5IjpbMzU4NjkyNjE1LDIyNTE3Njg5OSwyMTgyNT
 Q3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUs
 LTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5OD
 IzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3
