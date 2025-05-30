@@ -548,8 +548,16 @@ A database and its replicas can have only one primary and if this primary become
 	- **secondaries** are a standby instance of a node whit a certain delay. They are used as a historical snapshot to recover from errors (unintentional databases). They do not have read access and have priority 0/ can never be primary
 ### Sharding
 Its a databse architecture technique to scale out a db by  **horizontally partitioning data** across multiple **servers** or **nodes**. It split a big DB into smaller more managable pieces which are stored on separate servers(shard)
+
+Sharding is used when a **single server can't handle**:
+-   The **data volume** (too much data to store)
+-   The **query load** (too many reads/writes)
+-   The **performance requirements** (slow responses due to bottlenecks)
+
+**components**
 - **shard**: each shard is a replica set which store the data. (can be a single node for testing purposes)
-- **query routers**: interface with client application, which direct the queries or operations to the appropriate shard and return the result to the user. Usually also more than one to divide request load
+- **query routers**: interface with client application, which direct the queries or operations to the appropriate shard and return the result to the user. Usually also more than one to divide the request load
+- **config servers**
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
@@ -618,7 +626,7 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NTk2NDY4NSw4NzkwNTcxNzcsNDQzMT
+eyJoaXN0b3J5IjpbMTkyNjEyODYyMCw4NzkwNTcxNzcsNDQzMT
 MwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1Miwt
 MTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwOD
 kyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIw
