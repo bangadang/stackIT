@@ -493,17 +493,19 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 - each database can have multiple collections 
 - when we store a document, we have to choose database and collection
 - documents have a flexible schema
+	- collection do not enforce a specific structure of data
+- key decision:
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MT
-IyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwt
-ODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MD
-cxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4
-NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyND
-Y0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4MDYsLTI2MjM1
-NjgyNF19
+eyJoaXN0b3J5IjpbOTgyNjYzMDYsLTE0MDE5NjkyNzIsNzQwNz
+EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4
+NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MT
+gzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEs
+LTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMT
+A2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4
+MDZdfQ==
 -->
