@@ -744,7 +744,7 @@ RETURN DISTINCT fof.name
 
 ### high availability of Neo4j
 - caues fault-tolerant architecture
-- several (slave) databases can be configured to be exact replicas of a single (master) database. There is always one master and 0 or more slaves
+- several (slave/ follower) databases can be configured to be exact replicas of a single (master/leader) database. There is always one master and 0 or more slaves
 	- write on master propagate sto slaves
 	- write on slave synchronizes immediatel with master
 - enables a horizontally scaling read-mostly architecture. more than a single instance could handle--> replicas needed
@@ -773,11 +773,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODk3MzcxMSwyMjUxNzY4OTksMjE4Mj
-U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
-LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
-gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
-NzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0OD
-QzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5XX0=
+eyJoaXN0b3J5IjpbLTEyMzY4NTM1NTYsMjI1MTc2ODk5LDIxOD
+I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
+NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
+k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
+LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
+g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
 
 -->
