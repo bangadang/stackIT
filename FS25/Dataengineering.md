@@ -743,7 +743,8 @@ RETURN DISTINCT fof.name
 - index can be quried as well
 
 ### high availability of Neo4j
-- caues fault-tolerant architecture, but several (slave) databases can be configured to be exact replicas of a single (master) database. There is always one master and 0 or more slaves
+- caues fault-tolerant architecture
+- several (slave) databases can be configured to be exact replicas of a single (master) database. There is always one master and 0 or more slaves
 	- write on master propagate sto slaves
 	- write on slave synchronizes immediatel with master
 - enables a horizontally scaling read-mostly architecture. more than a single instance could handle--> replicas needed
@@ -767,10 +768,12 @@ Neo4j was originally a **single-node** graph database but now supports a **distr
 updates will **eventually** reach all nodes, but **no guarantees on order** or timing.
 
 ### casual consistency
- 
- 
+ -   Guarantees that **effects follow causes**.
+-   A client sees changes **it has made or been told about** before seeing later updates.
+-   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
+- example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDIxMDcyMiwyMjUxNzY4OTksMjE4Mj
+eyJoaXN0b3J5IjpbMTI1ODk3MzcxMSwyMjUxNzY4OTksMjE4Mj
 U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
 LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
 gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
