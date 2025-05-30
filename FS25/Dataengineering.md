@@ -683,13 +683,19 @@ v_n: [[v_j, w_j], ...,]}
 - scalable, embeddable and fast
 - highly available for request when distributed across multiple machines
 - easy readable query language
-- 
+
+**data model**
+- entities = nodes/vertices
+	- can have property as key value pair
+	- null is not a valid property
+- relationship = edges
+	- can have 
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjgxMjAzNCwtNTQ5OTMzMDk3LC05ND
+eyJoaXN0b3J5IjpbMTExNTE1NTk3MiwtNTQ5OTMzMDk3LC05ND
 E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
 Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
 E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
