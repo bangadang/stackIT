@@ -753,11 +753,17 @@ RETURN DISTINCT fof.name
 - failure on master causes an election
 
 ### sharding
+-   Multiple graph databases run independently (called **shards** or **subgraphs**).
+-   A **"Fabric" layer** sits on top and enables **global queries** across these shards.
+- example : `user-db-eu`, `user-db-us`, `user-db-asia` as separate databases (shards).
+
+### distributed architectue
+Neo4j was originally a **single-node** graph database.
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjExMjczODUsMjI1MTc2ODk5LDIxOD
+eyJoaXN0b3J5IjpbLTEzMDgyNTU0MjcsMjI1MTc2ODk5LDIxOD
 I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
 NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
 k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
