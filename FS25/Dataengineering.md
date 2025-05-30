@@ -530,24 +530,29 @@ Most real-world MongoDB designs use a **mix**:
 `db.collectionName.remove({key: value}, 1)`
 **update documents**
 finds all documents with filter key-value pair, modifies alls keys according to set operation and operation value
-```db.collectionName.update(
+```python
+db.collectionName.update(
 		{key: value}, #filter
 		{$operator: { key: operator_value}}, 
 		{multi: true})
 ```
 **replace existing document**
-
+```
+db.collectionName.save(
+	{
+	})
+```
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY0NTY0MDYsLTE5MDk4MjM3NiwtNz
-Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
-NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NT
-YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
-MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
-cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
-NjNdfQ==
+eyJoaXN0b3J5IjpbLTcwMjI4NjY1LC0xOTA5ODIzNzYsLTc2Nz
+U5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYs
+MTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2Mz
+M5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEs
+LTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3Mj
+ExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYz
+XX0=
 -->
