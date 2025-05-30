@@ -667,13 +667,14 @@ m = |E|
 	- they take a lot of storage space $O(n^2)$ and usually have a lot of sparse space
 	- retrival of neighbouring nodes takes linear time $O(n)$
 - adjacency list
-	- 
+	- a set of lists where each accounts for the neighbors of one node (a vector of n pointers to adjacency lists)
+		- {0: []}
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzcwMzAwMiwtNTQ5OTMzMDk3LC05ND
+eyJoaXN0b3J5IjpbMTA2NDc2MjUyNCwtNTQ5OTMzMDk3LC05ND
 E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
 Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
 E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
