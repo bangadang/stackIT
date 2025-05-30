@@ -500,10 +500,10 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 	- retrieval patterns (is data fetched together or separately? how many joins are needed)
 - key decision:
 	- ***References***, split data into different documents and reference them via id
-		- **pros**: flexible especially for reused data, easier to update
-		- **cons**: requires manual joins within application
+		- **pros**: flexible especially for reused data, easier to update, smaller documents
+		- **cons**: requires manual joins within application, more queries and aggregation lookups are needed, slower read performance for related data
 	- ***Embedded documents***, related data is stored in a single document
-		- **pros**: fast reads (all in one), no joins needed
+		- **pros**: fast reads for related data (all in one), no joins needed
 		- **cons**: document size limit, data duplication if reused elsewhere, harder to update frequently
 ```
 {
@@ -515,7 +515,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
   ]
  }
 ```
+Most real-world MongoDB designs use a **mix**:
 
+-   **Embed** if the relationship is **1:1** or **1:few** and always accessed together
+    
+-   **Reference** if the relationship is **1:many** or **many:many**, or if the related data is large or frequently updated separately
 
 ## BaseX, XPath, XQuery
 
@@ -523,11 +527,11 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDQ5Mzg1MSwtMTQwMTk2OTI3Miw3ND
-A3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMs
-ODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMj
-QxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUx
-MSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMD
-ExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2
-NDgwNl19
+eyJoaXN0b3J5IjpbLTE0NDk2NDI2MzQsLTE0MDE5NjkyNzIsNz
+QwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQz
+LDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMT
+I0MTgzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1
+MTEsLTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMj
+AxMTA2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIy
+NjQ4MDZdfQ==
 -->
