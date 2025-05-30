@@ -547,6 +547,9 @@ db.collectionName.save(
 **queries**
 ```
 db.collectionName.find({query criteria/filer}).#modifier()
+# all docs where key field has said value
+db.collectionName.find({key: value})
+#all docs where key field has one of 
 ```
 ## BaseX, XPath, XQuery
 
@@ -554,7 +557,7 @@ db.collectionName.find({query criteria/filer}).#modifier()
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ0NzI5NTUsLTE5MDk4MjM3NiwtNz
+eyJoaXN0b3J5IjpbLTE2NDgzMzI3MTcsLTE5MDk4MjM3NiwtNz
 Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
 NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NT
 YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
