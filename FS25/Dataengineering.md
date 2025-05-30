@@ -560,7 +560,8 @@ Sharding is used when a **single server can't handle**:
 	- **Chunk**: unit of migration, 64MB by standard
 	- **partitioning** can be range or hash based and when a chunk exceeds its size it is split up again. Small chunks support even distribution but cause a greater expense with more frequent migration(=splitting=moving the data across shards to maintain shard size)
 		- **range**:  documents with “close” shard key values are likely to be in the same chunk. Can result in an uneven distribution of data.
-		- **hash**:
+		- **hash**: hash of a field’s value is comuted to ensure a more random ditribution of the data. A range query may target all/many shards
+	- **balancer**
 - **query routers**: interface with client application, which direct the queries or operations to the appropriate shard and return the result to the user. Usually also more than one to divide the request load
 - **config servers**: Store metadata about which shard holds which piece of data. MongoDB requires three config servers in a sharded cluster.
 ### data modification
@@ -631,7 +632,7 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDA3Mjc3OCwxOTM4MjU4NDk1LC05Nj
+eyJoaXN0b3J5IjpbLTIwNTY2OTM5MCwxOTM4MjU4NDk1LC05Nj
 c2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2
 LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNz
 EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4
