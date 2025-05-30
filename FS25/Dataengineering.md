@@ -580,14 +580,16 @@ indexes store a portion of a collection in an easy traversable form. They are st
 - default _id index
 - single field index defined by user
 - compound index on multiple fields defined by user
-- multike
+- multikey index to index content stored in arrays, indexes every element of an array
+- geospatial field index for 2 dimensional data
+- text index
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTcxMDUwNDgsLTE5MDk4MjM3NiwtNz
+eyJoaXN0b3J5IjpbLTE0NzMyNDE5NzksLTE5MDk4MjM3NiwtNz
 Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
 NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NT
 YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
