@@ -523,18 +523,20 @@ Most real-world MongoDB designs use a **mix**:
     
 -   **Reference** if the relationship is **1:many** or **many:many**, or if the related data is large or frequently updated separately
 ### data modification
-
+- update, create, delete
+- modify data of single collection
+- 
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNz
-EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4
-NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MT
-gzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEs
-LTExNzIxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMT
-A2MTU2MywyNDY0MjM5NzcsLTExMDMxMzAwMTMsLTE5NzIyNjQ4
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTU3NjE2MjIyMiw2MzExNTU1MiwtMTQwMT
+k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
+MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
+EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUs
+MTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4Nz
+Q5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAx
+M119
 -->
