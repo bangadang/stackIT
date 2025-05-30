@@ -576,18 +576,22 @@ db.collectionName.find( {key1: value, #and
 						})
 ```
 **indexes**
-indexes store a portion of a collection in an easy traversable form. They are stored at collection level and speed up queries
+indexes store a portion of a collection in an easy traversable form. They are stored at collection level and speed up queries. There are:
+- default _id index
+- single field index defined by user
+- compound index on multiple fields defined by user
+- multike
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTI0MTQ1NywtMTkwOTgyMzc2LC03Nj
-c1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2
-LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1Nj
-MzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUx
-LC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNz
-IxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2
-M119
+eyJoaXN0b3J5IjpbLTIwMTcxMDUwNDgsLTE5MDk4MjM3NiwtNz
+Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
+NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NT
+YzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1
+MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTExLC0xMT
+cyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMTEwNjE1
+NjNdfQ==
 -->
