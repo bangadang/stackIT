@@ -650,17 +650,20 @@ RDBMS can only store a single type of relationship unlike GraphDB. In order to a
 | deep analytics performance | poor | poor | high |
 
 **usecases**:
-- connected data (social networks) 
+- connected data (social networks, link rich domains) 
+- routing, dispatch, location-based services (delivery systems)
+- recommendation engines
+**unsuitable usec
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYyODU1NTcsLTU0OTkzMzA5NywtOT
-QxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcx
-NzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2Mz
-ExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0
-OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0ND
-czMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcw
-XX0=
+eyJoaXN0b3J5IjpbLTMxODM2MTUwMCwtNTQ5OTMzMDk3LC05ND
+E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
+Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
+E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
+LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0Nz
+MxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzBd
+fQ==
 -->
