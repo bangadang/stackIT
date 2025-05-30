@@ -633,7 +633,10 @@ indexes store a portion of a collection in an easy traversable form. They are st
 ## BaseX, XPath, XQuery
 
 ## Graph Databases
-These DB store entities and relationships between these entities. They consist of nodes and edges. A node is an instance of an object and has properties (e.g. name). Edges have a directional significance and have a type describing the relationship (e.g. friend, married). The nodes are usually organized by relationships, which allow us to find interesting pattern. (Can be traversed by DFS, BFS)
+These DB store entities and relationships between these entities. They consist of nodes and edges. 
+- A node is an instance of an object and has properties (e.g. name)
+- Edges have a directional significance and have a type describing the relationship (e.g. friend, married). 
+- The nodes are usually organized by relationships, which allow us to find interesting pattern. (Can be traversed by DFS, BFS)
 Common GraphDB are Neo4j, FlockDB, ArangoDB
 **Example** 
 ((Person({name: Alice, ..}) --[loves]-->(Person({name: Bob, ..})))
@@ -642,15 +645,15 @@ RDBMS can only store a single type of relationship unlike GraphDB. In order to a
 |  | RDB | Key-Val-DB | Graph DB |
 |--|--|--|--|
 | Schema | rigid | not needed/highly fluid | flexible |
-| high transaction performance |  |  |  |
-| deep analytics performance |  |  |  |
+| high transaction performance for | normal transactions | simple transactions | complex transaction |
+| deep analytics performance | poor | poor | high |
 
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1OTE4Mzg0NiwtNTQ5OTMzMDk3LC05ND
+eyJoaXN0b3J5IjpbLTc4OTc3MzI3OSwtNTQ5OTMzMDk3LC05ND
 E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
 Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
 E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
