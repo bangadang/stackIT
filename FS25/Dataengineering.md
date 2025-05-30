@@ -500,14 +500,26 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 	- retrieval patterns (is data fetched together or separately? how many joins are needed)
 - key decision:
 	- Embedded documents, related data is stored in a single document
-		- 
+	- p
+```
+{
+  "_id": 1,
+  "name": "Alice",
+  "orders": [
+    { "item": "Book", "qty": 1 },
+    { "item": "Pen", "qty": 3 }
+  ]
+ }
+  ```
+
+
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY1MTc3MjgsLTE0MDE5NjkyNzIsNz
+eyJoaXN0b3J5IjpbLTExNDQxNzExNzEsLTE0MDE5NjkyNzIsNz
 QwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQz
 LDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMT
 I0MTgzMzUxLC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1
