@@ -524,7 +524,7 @@ Most real-world MongoDB designs use a **mix**:
 -   **Reference** if the relationship is **1:many** or **many:many**, or if the related data is large or frequently updated separately
 
 ### Replication
-A database can have only one primary and if this primary becomes unavailable, a process called **election** selects a primary 
+A database and its replicas can have only one primary and if this primary becomes unavailable, a process called **election** selects a primary. If there is no primary no write request are accepted.
 - **write**
 	1. MongoDB applies write operations on the primary 
 	2. MongoDB records the operations to the primary’s oplog 
@@ -532,7 +532,7 @@ A database can have only one primary and if this primary becomes unavailable, a 
 - **read**
 	- all members of the replica set/nodes accept read requests
 	- all read requests are directed to the primary by the application. It guarantees lastest version and decreases read throughput
-	- 
+### election
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
@@ -601,11 +601,11 @@ indexes store a portion of a collection in an easy traversable form. They are st
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE0MjQwNiwtMTkwOTgyMzc2LC03Nj
-c1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2
-LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1Nj
-MzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUx
-LC02MDcxOTg3MCwxODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNz
-IxMTk4NDcsMjA5NjcyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2
-M119
+eyJoaXN0b3J5IjpbNTEwMzI3ODE5LC0xOTA5ODIzNzYsLTc2Nz
+U5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYs
+MTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2Mz
+M5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEs
+LTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3Mj
+ExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYz
+XX0=
 -->
