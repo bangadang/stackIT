@@ -525,18 +525,20 @@ Most real-world MongoDB designs use a **mix**:
 ### data modification
 **document insertion** into an existing collection. If _id is not specified or nonexistent a new entry is created
 `db.collectionName.save({document})`
-**remove document**
+**remove (all/ first) document** which have a the same key-value pair of the filter
+`db.collectionName.remove({key: value})`
+`db.collectionName.remove({key: value}, 1)`
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzgyODIsLTc2NzU5MTg4Nyw2MzExNT
-U1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwt
-MzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMT
-csLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4
-ODU1ODAwMTUsMTgyNjc0NzUxMSwtMTE3MjExOTg0NywyMDk2Nz
-IzNjAsMTc4NzQ5OTY5MCwyMDExMDYxNTYzLDI0NjQyMzk3N119
-
+eyJoaXN0b3J5IjpbNzMxNjk3NTY2LC03Njc1OTE4ODcsNjMxMT
+U1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDks
+LTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3Mz
+E3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MCwx
+ODg1NTgwMDE1LDE4MjY3NDc1MTEsLTExNzIxMTk4NDcsMjA5Nj
+cyMzYwLDE3ODc0OTk2OTAsMjAxMTA2MTU2MywyNDY0MjM5Nzdd
+fQ==
 -->
