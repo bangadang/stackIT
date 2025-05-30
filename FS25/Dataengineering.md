@@ -704,7 +704,10 @@ CREATE (carol:Person {name: 'Carol', age: 29, email: 'carol@example.com'})
 CREATE (alice)-[:FRIENDS_WITH]->(bob)
 CREATE (bob)-[:FRIENDS_WITH]->(carol)
 
-START user=node();
+START user=node(1,2,3)
+/* or 
+START p = node:node_auto_index(key=value)*/
+// find
 MATCH (a:Person {name: 'Alice'})-[:FRIENDS_WITH]->(friend)
 RETURN friend.name, friend.email
 ```
@@ -713,10 +716,11 @@ RETURN friend.name, friend.email
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzMjU3NjcsMjI1MTc2ODk5LDIxODI1ND
-cxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwt
-OTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4Mj
-M3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0
-MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0My
-w4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
+eyJoaXN0b3J5IjpbLTEwOTYxODMyNDAsMjI1MTc2ODk5LDIxOD
+I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
+NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
+k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
+LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
+g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
+
 -->
