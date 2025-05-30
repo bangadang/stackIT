@@ -637,7 +637,8 @@ These DB store entities and relationships between these entities. They consist o
 - A node is an instance of an object and has properties (e.g. name)
 - Edges have a directional significance and have a type describing the relationship (e.g. friend, married). 
 - The nodes are usually organized by relationships, which allow us to find interesting pattern. (Can be traversed by DFS, BFS)
-Common GraphDB are Neo4j, FlockDB, ArangoDB
+- Common GraphDB are Neo4j, FlockDB, ArangoDB
+
 **Example** 
 ((Person({name: Alice, ..}) --[loves]-->(Person({name: Bob, ..})))
 RDBMS can only store a single type of relationship unlike GraphDB. In order to add another the schema has to change and data has to be moved. GraphDB can dynamically add and delete relationships. RDBMS are design with the data able to be retrieved in mind otherwise we work with a lot of join operations. GraphDB can be traversed with different algos from different sources to retrieve the data wanted. Since the relationships are stored within the DB they speed up the queries.
@@ -648,16 +649,18 @@ RDBMS can only store a single type of relationship unlike GraphDB. In order to a
 | high transaction performance for | normal transactions | simple transactions | complex transaction |
 | deep analytics performance | poor | poor | high |
 
+**usecases**:
+- connected data (social networks) 
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTc3MzI3OSwtNTQ5OTMzMDk3LC05ND
-E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
-Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
-E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
-LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0Nz
-MxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1MSwtNjA3MTk4NzBd
-fQ==
+eyJoaXN0b3J5IjpbLTE5NjYyODU1NTcsLTU0OTkzMzA5NywtOT
+QxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcx
+NzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2Mz
+ExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0
+OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0ND
+czMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcw
+XX0=
 -->
