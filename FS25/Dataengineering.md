@@ -676,13 +676,18 @@ m = |E|
 v_n: [[v_j, w_j], ...,]}
 
 ## NEO4j
-main
+**main features**
+- intuitive when data needs to be represented visually
+- reliable as it conforms with ACID transactions
+- durable and fast as it is disk based
+- scalable
+- highly available for request when distributed across mult
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzU0MjMwNCwtNTQ5OTMzMDk3LC05ND
+eyJoaXN0b3J5IjpbLTE0ODE0MTc0MCwtNTQ5OTMzMDk3LC05ND
 E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
 Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
 E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
