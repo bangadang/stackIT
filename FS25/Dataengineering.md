@@ -551,18 +551,21 @@ db.collectionName.find({query criteria/filer}).#modifier()
 db.collectionName.find({key: value})
 #all docs where key field has one of many values
 db.collectionName.find(
-	{key: { $in: [value1, .., value_n]})
+	{key: { $in: [value1, .., value_n]}})
 #all docs wher key1 has certain value and other key is lt
 db.collectionName.find(
-	{key1: { $in: [value1, .., value_n]})
+	{key1: value,
+	 key2: {$lt : value})
 ```
+**logical query _or**
+
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzE2Njc0MSwtMTkwOTgyMzc2LC03Nj
+eyJoaXN0b3J5IjpbLTQ3NTAwNDU5MywtMTkwOTgyMzc2LC03Nj
 c1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2
 LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1Nj
 MzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUx
