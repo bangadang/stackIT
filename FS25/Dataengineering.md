@@ -525,14 +525,15 @@ Most real-world MongoDB designs use a **mix**:
 ### data modification
 - update, create, delete
 - modify data of single collection
-- 
+data insertion
+`db.i`
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NjE2MjIyMiw2MzExNTU1MiwtMTQwMT
+eyJoaXN0b3J5IjpbMTMwMDE0MDU5Myw2MzExNTU1MiwtMTQwMT
 k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
 MTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwND
 EzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUs
