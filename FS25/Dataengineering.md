@@ -658,17 +658,22 @@ RDBMS can only store a single type of relationship unlike GraphDB. In order to a
 - big loads of data 
 
 ### Graph Theory
-G = (
+G = (V, E)
+n = |V|
+m = |E|
+(weighted) Graphs can be visualized through:
+- adjacency matrix
+	- easy to add rem
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4MDg4MjE2LC01NDk5MzMwOTcsLTk0MT
-g3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3
-LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMT
-U1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDks
-LTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3Mz
-E3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MF19
+eyJoaXN0b3J5IjpbMzg3MzczNTYsLTU0OTkzMzA5NywtOTQxOD
+c0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcs
+NDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNT
+U1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwt
+MzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMT
+csLTIwODUwNDEzMjksLTExMjQxODMzNTEsLTYwNzE5ODcwXX0=
 
 -->
