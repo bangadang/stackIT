@@ -633,13 +633,13 @@ indexes store a portion of a collection in an easy traversable form. They are st
 ## BaseX, XPath, XQuery
 
 ## Graph Databases
-These DB store entities and relationships between these entities. They consist of nodes and edges. A node is an instance of an object and has properties
+These DB store entities and relationships between these entities. They consist of nodes and edges. A node is an instance of an object and has properties (e.g. name). Edges have a directional significance and have a type describing the relationship (e.g. friend, married). The nodes are usually organized by relationships, which allow us to find interesting pattern
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODQ5NjA1MSwtOTQxODc0MjA4LDE5Mz
+eyJoaXN0b3J5IjpbLTU4NDIzMzYxMywtOTQxODc0MjA4LDE5Mz
 gyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4
 LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
 k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwy
