@@ -721,14 +721,18 @@ RETURN DISTINCT fof.name
 - all operation must be performed in a transaction, where nested transaction are possible
 	- rollback of a nested transaction invokes a rollback of the whole transaction
 - steps:
-	1. begin transaction
+	1. begin transaction create read lock
 	2. operating on the graph performing write operations
-	3. 
+	3. mark the transaction a successful or not
+	4. finish the transaction, by releasing locks
+- read operations read the last commited value
+- reads do not create an locks only writes do
+- 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzMyNzE3NCwyMjUxNzY4OTksMjE4Mj
+eyJoaXN0b3J5IjpbLTQ1NDQ5OTA1NywyMjUxNzY4OTksMjE4Mj
 U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
 LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
 gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
