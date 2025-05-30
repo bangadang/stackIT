@@ -688,14 +688,17 @@ v_n: [[v_j, w_j], ...,]}
 - entities = nodes/vertices
 	- can have property as key value pair
 	- null is not a valid property
-- relationship = edges
-	- can have 
+- relationship = directed edges
+	- can have a not null property as key value par
+	- are well traversed in both directions no need to model undiercted graphs with extra effort/ direction can be ignored when not needed
+	- alwas have a start end node
+	- can be recursive
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTE1NTk3MiwtNTQ5OTMzMDk3LC05ND
+eyJoaXN0b3J5IjpbLTExOTQxODA0MSwtNTQ5OTMzMDk3LC05ND
 E4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3
 Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMT
 E1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5
