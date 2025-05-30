@@ -730,15 +730,20 @@ RETURN DISTINCT fof.name
 	- can be set explicitly
 - non repeatable reads can occur
 - all transactions are stored in memory
+- locks are created for:
+	- adding/changing/removing a property of a node/relationship
+	- creating/deleting a node (lock on a specific node)
+	- creating/deleting a relationship (lock on relationship an all its nodes)
+- deadlocks can occur and
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQ3Mjc5MCwyMjUxNzY4OTksMjE4Mj
-U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
-LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
-gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
-NzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0OD
-QzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5XX0=
+eyJoaXN0b3J5IjpbLTExODg2MDEwODMsMjI1MTc2ODk5LDIxOD
+I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
+NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
+k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
+LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
+g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
 
 -->
