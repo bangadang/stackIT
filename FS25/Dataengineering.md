@@ -693,17 +693,17 @@ v_n: [[v_j, w_j], ...,]}
 	- are well traversed in both directions no need to model undiercted graphs with extra effort/ direction can be ignored when not needed
 	- alwas have a start end node
 	- can be recursive
-- **path**
+- **path**: one or more nodes with a connectin relationship
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MT
-g3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3
-LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMT
-U1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDks
-LTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3Mz
-E3LC0yMDg1MDQxMzI5LC0xMTI0MTgzMzUxLC02MDcxOTg3MF19
-
+eyJoaXN0b3J5IjpbMTk5NjcwNTg3MywyMTgyNTQ3MTAsLTU0OT
+kzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1
+OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLTc2Nz
+U5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIxNjYs
+MTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMsODg0NDU2Mz
+M5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMjQxODMzNTFd
+fQ==
 -->
