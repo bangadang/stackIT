@@ -1,54 +1,6 @@
 # Dataengineering 
 
-## Lessons Learned
-|Date| Sumamary |
-|--|--|
-| 20.02.25 | Data engineering is an essential step in order to train models (Big Data) |
-| |5V of Big Data (Volume, Velocity, Variety, Veracity, Value)  |
-| |Challenges (heterogenity, inconsistency/-completeness/ scaleability, timeliness, data ownership) |
-| |intro to pandas |
-| 27.02.25 | reasons for data quality issues : a lot of different data sources, data can be falsely measured, extracted or entered etc., variety of formats (export errors) |
-|  | to avoid issues: domain knowledge, clean data |
-|  | RegEx Intro: match, extract, find, replace with patterns |
-|06.03.25  | Reminder Relations and comparison to nested datastructres like json |
-|  | Data Processing |
-|  | Record Linkage: Ausgangslage: Wie findet man Duplikate in einem oder verschiedenen Datasets ohne key?[andere common names:fuzzy match, entitty resolution, entitity clustering usw.] --> create join condition which is not too specific, too inclusive but matches approximating |
-|  | levensthein distance: the minimum number of character edit operations needed to turn one string into the other. 
-||- copy character from s to t (cost = 0) - delete a character from s (cost = 1) 
-||- insert a character into t (cost = 1) 
-||- substitute one character for another (cost = 1)|
-| 13.03.25 | **advantages of storing data in relational systems**: |
-|  | interfaces are well defined, data is well organized and structured |
-|  | schema provide meta-data |
-|  | synchronized multi-user support |
-|  | query processing engines do efficient preprocessing and deliver data as wanted/needed |
-|  | **disadvantages**: |
-|  | only scales to mediuim sized datasets |
-|  | limited functions for analytics |
-|  | problems occur for semi-/unstructured data |
-|  | **data warehousing** |
-|  | Definition: a data warehouse is a collection of data in support of management’s decision-making process |
-|  | stores **subject-oriented** information rather than processes (subjects like product, customer, sales etc.) |
-|  | **integrates** data from heterogenous sources |
-|  | **time-variant**: stored data is associatted with a time period, provides information from the historical point of view |
-|  | **non-volatile**: a data warehouse is kept separate from the operational database and new added data does not erase old data |
-|  | data warehouses support business executives to organize, analyze, and use their data for decision making |
-|  | data warehouses are commonly used in: financial/ banking services, consumer goods, retail sector, controlled manufacturing |
-|  | types of data warehouses: |
-|  | **information processing**: DW allow to process data stored within by means of querying, simple statistical analysis, table, charts, graphs |
-|  | **analytical processing**: data can be processedd by means of basic OLAP operations including slice-and-dice, drill down/up, pivoting |
-|  | **data mining**: knowledge discovery by finding patterns and associations, performing classification and prediction through construced analytical models |
-|  | Differences between operational DB and DW |
-|  | DW architecture |
-|  | Data Marts |
-|  | ETL from source to staging area |
-| 20.03.25 |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-### Operational Database vs Data Warehouse
+## Operational Database vs Data Warehouse
 |OLTP| OLAP |
 |--|--|
 | day2day processing | historical processing |
@@ -775,11 +727,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MzUxMjExMCwyMjUxNzY4OTksMjE4Mj
-U0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1
-LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOT
-gyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIs
-NzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0OD
-QzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3LC0yMDg1MDQxMzI5XX0=
+eyJoaXN0b3J5IjpbLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxOD
+I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
+NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
+k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
+LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
+g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
 
 -->
