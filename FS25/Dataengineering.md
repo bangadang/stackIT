@@ -696,17 +696,27 @@ v_n: [[v_j, w_j], ...,]}
 - **path**: one or more nodes with a connectin relationship
 
 **example**
-``````
+```
+CREATE (alice:Person {name: 'Alice', age: 30, email: 'alice@example.com'})
+CREATE (bob:Person {name: 'Bob', age: 32, email: 'bob@example.com'})
+CREATE (carol:Person {name: 'Carol', age: 29, email: 'carol@example.com'})
+
+CREATE (alice)-[:FRIENDS_WITH]->(bob)
+CREATE (bob)-[:FRIENDS_WITH]->(carol)
+
+CREATE (post1:Post {content: 'Hello world!', timestamp: datetime()})
+CREATE (alice)-[:CREATED]->(post1)
+```
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OT
-MzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5
-LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NT
-kxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2Niwx
-NzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMz
-ksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyNDE4MzM1MV19
+eyJoaXN0b3J5IjpbLTEwMDAxMzE2MzUsMjI1MTc2ODk5LDIxOD
+I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
+NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
+k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
+LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
+g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
 
 -->
