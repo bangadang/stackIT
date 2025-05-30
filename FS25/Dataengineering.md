@@ -499,7 +499,10 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 	- database performance (size of documents, indexing, how should a collection be stored)
 	- retrieval patterns (is data fetched together or separately? how many joins are needed)
 - key decision:
-	- Embedded documents, related data is stored in a single document
+	- ***References***, split data into different documents and reference them via id
+		- **pros**: flexible especially for reused data, easier to update
+		- **cons**: requires manual joins within application
+	- ***Embedded documents***, related data is stored in a single document
 		- **pros**: fast reads (all in one), no joins needed
 		- **cons**: document size limit, data duplication if reused elsewhere, harder to update frequently
 ```
@@ -513,19 +516,18 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
  }
 ```
 
-	- References, split data into different documents and reference them via id
-	- 
+
 ## BaseX, XPath, XQuery
 
 
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzU0MDA5LC0xNDAxOTY5MjcyLDc0MD
-cxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4
-ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOSwtMTEyND
-E4MzM1MSwtNjA3MTk4NzAsMTg4NTU4MDAxNSwxODI2NzQ3NTEx
-LC0xMTcyMTE5ODQ3LDIwOTY3MjM2MCwxNzg3NDk5NjkwLDIwMT
-EwNjE1NjMsMjQ2NDIzOTc3LC0xMTAzMTMwMDEzLC0xOTcyMjY0
-ODA2XX0=
+eyJoaXN0b3J5IjpbLTMyMDQ5Mzg1MSwtMTQwMTk2OTI3Miw3ND
+A3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDMs
+ODg0NDU2MzM5LC04MzI0NDczMTcsLTIwODUwNDEzMjksLTExMj
+QxODMzNTEsLTYwNzE5ODcwLDE4ODU1ODAwMTUsMTgyNjc0NzUx
+MSwtMTE3MjExOTg0NywyMDk2NzIzNjAsMTc4NzQ5OTY5MCwyMD
+ExMDYxNTYzLDI0NjQyMzk3NywtMTEwMzEzMDAxMywtMTk3MjI2
+NDgwNl19
 -->
