@@ -337,9 +337,13 @@ The Item Pipeline is responsible for processing the items once they have been ex
 ### 5. visibility 
 - making data comprehensible and accessible. 
 - importance of having a full picture of data in order to make  informative decision
-- clarity of data, so as to perform analytic operations on it
+	- enables better monitoring, decision-making, and compliance with regulations
+- clarity of data to perform analytic operations on it
+	- transforming data into **clear insights** through tools
 ### 6. value
+- The ultimate goal: extracting **meaningful insights** and **business value** from large datasets.
 - having access to Big Data is irrelevant if no value can be derived from it
+	- processing and analysis are needed to extract useful patterns or predictions
 
 ## Scalability
 ## Sharding
@@ -751,11 +755,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MjQ3ODQwLC05OTgyODkyODYsNzIwMj
-Y5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAs
-LTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2Nz
-Y4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYs
-LTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MT
-IxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDNdfQ==
+eyJoaXN0b3J5IjpbMTQ0MTE3NDQ2OSwtOTk4Mjg5Mjg2LDcyMD
+I2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEw
+LC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Nj
+c2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2
+LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNz
+EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzXX0=
 
 -->
