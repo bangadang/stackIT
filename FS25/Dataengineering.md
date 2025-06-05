@@ -440,7 +440,8 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 		- if a node fails it can be reconstructed from other nodes
 		- most complicated to implement
 ## Consistent hashing
-
+- Instead of mapping keys directly to nodes (which can cause major reshuffling when nodes change), **consistent hashing** maps both **keys** and **nodes** onto a circular **hash ring** (from 0° to 360°).
+- **How it works
 # NoSQL
 NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed to:
 - Run across many servers and locations
@@ -846,7 +847,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTEwMDQ4OSwxMDI5NjU0Mzk2LC02Mz
+eyJoaXN0b3J5IjpbLTU0Njg5NzYyNCwxMDI5NjU0Mzk2LC02Mz
 MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
 OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
 05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
