@@ -330,11 +330,13 @@ The Item Pipeline is responsible for processing the items once they have been ex
 ### 4. veracity
 - Reflects the accuracy, quality, and reliability a.k.a. the trustworthiness of data sources
 - Data may be incomplete, inconsistent, or noisy, affecting downstream analysis
-- data consistency of sources
+	- data consistency of sources
 - results can be mostly only be considered as probable
+- Trust in data depends on data lineage, source credibility, and validation techniques
+- Poor veracity leads to poor decisions; hence data cleaning, deduplication, and validationare essential steps.
 ### 5. visibility 
-- importance of having a full picture of data in order to make 
-informative decision
+- making data comprehensible and accessible. 
+- importance of having a full picture of data in order to make  informative decision
 - clarity of data, so as to perform analytic operations on it
 ### 6. value
 - having access to Big Data is irrelevant if no value can be derived from it
@@ -749,11 +751,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYxMjgyMzAsLTk5ODI4OTI4Niw3Mj
-AyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcx
-MCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOT
-Y3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3
-NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MD
-cxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0M119
+eyJoaXN0b3J5IjpbOTk4MjQ3ODQwLC05OTgyODkyODYsNzIwMj
+Y5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAs
+LTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2Nz
+Y4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYs
+LTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MT
+IxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDNdfQ==
 
 -->
