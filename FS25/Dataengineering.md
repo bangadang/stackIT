@@ -354,7 +354,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- The machine often only work with special formats
 	- if the data grows further it can outgrow the machines (**data growth**)
 	- the magnitude of growth is hardly predictable, when starting an application (**proactive provisioning**)
-### horizontal scaling
+### horizontal scaling (scaling out)
+- systems are distributed across different machines/ nodes
+- normal performing machine are okay to store the shards of data --> machines are more cost effective
+- no limit to just add new machines 
 ## Sharding
 ## Replication
 ## consistent hashing
@@ -764,11 +767,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQyNTE1MDA2LC05OTgyODkyODYsNzIwMj
-Y5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAs
-LTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2Nz
-Y4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYs
-LTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MT
-IxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDNdfQ==
+eyJoaXN0b3J5IjpbLTE0NTQ5MjkwNTksLTk5ODI4OTI4Niw3Mj
+AyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcx
+MCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOT
+Y3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3
+NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MD
+cxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0M119
 
 -->
