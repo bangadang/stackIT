@@ -368,7 +368,9 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- Moving large data sets can be slow and costly, so data compression and locality matter
 - Networks are not secure, as data in motion can be intercepted or tampered with
 	- Encryption, firewalls and secure authentication are important between nodes
-- 
+- Topology is dynamic, nodes can be added removed or fail at any time
+	- the system must be adaptable 
+- There isn't just one admin, as distributed systems are often managed by teams
 ## Sharding
 ## Replication
 ## consistent hashing
@@ -778,7 +780,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyODU3NzUwNiwtMTQyMTc3NTkyNiwtOT
+eyJoaXN0b3J5IjpbLTc5NTE4MzAyNCwtMTQyMTc3NTkyNiwtOT
 k4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4
 OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOT
 M4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1
