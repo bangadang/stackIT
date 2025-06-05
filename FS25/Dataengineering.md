@@ -425,12 +425,13 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 		- ideal for read intensive requests
 	- all updates are made to the master, which propagates the changes to the slaves
 	- there is only one write request processed at once
+	- consistency issues with read requests when updates are still propagated to all the slaves
 - **peer-2-peer**
 	- requests are sent to all nodes, because they have equal roles /responisbilities
 	- all nodes contain identical data
 	- all kind of requests can be handles by every node --> no bottleneck
-	- read/wwrite requests can be scaled
-	- consistency issues with several write requests, hence synchronis
+	- read/write requests can be scaled
+	- consistency issues with several write requests, hence synchronization is required to avoid conflicts
 ## consistent hashing
 
 # NoSQL
@@ -838,11 +839,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1ODAxMjIzMCwxMDI5NjU0Mzk2LC02Mz
-MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
-OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
-05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
-Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LD
-E5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMw
-OTU4XX0=
+eyJoaXN0b3J5IjpbNjg5MDUwMDUyLDEwMjk2NTQzOTYsLTYzMz
+IwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5
+Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLT
+k5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2
+ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMT
+kzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5
+NThdfQ==
 -->
