@@ -413,6 +413,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- nodes may have incomplete cluster knowledge, which could end in network messages not being delivered eventhough they are sent
 ### Replication
 - the same data is stored on different nodes 
+	- replica 
 - it helps in case of errors and failures
 - replication is mostly used together with sharding
 ## consistent hashing
@@ -822,11 +823,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNj
-g3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUw
-NSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LD
-cyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0
-NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC
-05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgy
-Mzc2XX0=
+eyJoaXN0b3J5IjpbLTExNzE0ODUxNTEsMTAyOTY1NDM5NiwtNj
+MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
+OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
+wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
+NzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOC
+wxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEz
+MDk1OF19
 -->
