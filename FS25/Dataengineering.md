@@ -6,9 +6,9 @@
 | Many transactions|Few transactions|
 |latency sensitive|throughput sensitive|
 |small payloads|large return payloads|
-|balanced read/writes| heavy read workloads|
-| day2day processing | historical processing |
-| used to run a business (money transfer in banking systems, point of sales systems, order processing, inventory managemen) | uses ETL to analyze a business |
+|balanced read/writes, ensures ACID| heavy read workloads|
+| day2day processing (INSERT, UPDATE, DELETE) | historical processing |
+| used to run a business (money transfer in banking systems, point of sales systems, order processing, inventory management) | uses ETL to analyze a business |
 | focus on data in | focus on information out |
 | based on Entity Relationship Model | based on Star Schema or Snowflake Schema |
 | provides, primitive/ highly detailed/ flat relational view of data | provides summarized/ consolidated/ multidimensional view of data  |
@@ -731,11 +731,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNDcyNzYxLC0xNTczOTQyMjE1LDIyNT
-E3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4
-LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMT
-MwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1Miwt
-MTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwOD
-kyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTddfQ==
+eyJoaXN0b3J5IjpbLTE4NzUyMjc4NDcsLTE1NzM5NDIyMTUsMj
+I1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQy
+MDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0ND
+MxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUy
+LC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOT
+A4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxN119
 
 -->
