@@ -3,8 +3,12 @@
 ## Operational Database vs Data Warehouse
 |OLTP| OLAP |
 |--|--|
+| Many transactions|Few transactions|
+|latency sensitive|throughput sensitive|
+|small pa||
+|||
 | day2day processing | historical processing |
-| used to run a business | usedETL to analyze a business |
+| used to run a business | uses ETL to analyze a business |
 | focus on data in | focus on information out |
 | based on Entity Relationship Model | based on Star Schema or Snowflake Schema |
 | provides, primitive/ highly detailed/ flat relational view of data | provides summarized/ consolidated/ multidimensional view of data  |
@@ -727,11 +731,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxOD
-I1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5
-NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MD
-k4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5Mjcy
-LDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4LDIxMTk1ND
-g0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxNywtMjA4NTA0MTMyOV19
+eyJoaXN0b3J5IjpbLTE5ODg2NTMxMTMsLTE1NzM5NDIyMTUsMj
+I1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQy
+MDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0ND
+MxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUy
+LC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOT
+A4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzksLTgzMjQ0NzMxN119
 
 -->
