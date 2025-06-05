@@ -364,7 +364,11 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 		- network failures have to be accomodated with retries, timeouts and replication
 - Latency (Delay) is not zero. Even on fast networks there is a delay in data transmission
 	- batch request, caching and reduced round trips help
-- Bandwidth is not infinite. There are limits to how much data can be transferred 
+- Bandwidth is not infinite. There are limits to how much data can be transferred per second.
+	- Moving large data sets can be slow and costly, so data compression and locality matter
+- Networks are not secure, as data in motion can be intercepted or tampered with
+	- Encryption, firewalls and secure authentication are important between nodes
+- 
 ## Sharding
 ## Replication
 ## consistent hashing
@@ -774,11 +778,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDQ0ODI3ODMsLTE0MjE3NzU5MjYsLT
-k5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2
-ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMT
-kzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5
-NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xND
-AxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4
-XX0=
+eyJoaXN0b3J5IjpbMTIyODU3NzUwNiwtMTQyMTc3NTkyNiwtOT
+k4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4
+OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOT
+M4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1
+OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MD
+E5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5Mjhd
+fQ==
 -->
