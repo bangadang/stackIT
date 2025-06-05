@@ -439,7 +439,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- combined with sharding:
 		- if a node fails it can be reconstructed from other nodes
 		- most complicated to implement
-## consistent hashing
+## Consistent hashing
 
 # NoSQL
 NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed to:
@@ -846,11 +846,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQxMjE3NTEsMTAyOTY1NDM5NiwtNj
-MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
-OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
-wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
-NzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOC
-wxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEz
-MDk1OF19
+eyJoaXN0b3J5IjpbMTgyOTEwMDQ4OSwxMDI5NjU0Mzk2LC02Mz
+MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
+OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
+05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
+Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LD
+E5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMw
+OTU4XX0=
 -->
