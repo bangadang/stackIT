@@ -441,7 +441,11 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 		- most complicated to implement
 ## Consistent hashing
 - Instead of mapping keys directly to nodes (which can cause major reshuffling when nodes change), **consistent hashing** maps both **keys** and **nodes** onto a circular **hash ring** (from 0° to 360°).
-- **How it works
+- **How it works**:
+	- **1. Hash the keys and nodes**:
+	- Each key (like `"john"`, `"kate"`, etc.) is hashed to a numerical value.
+	- This value is converted into a **position on a circle**, measured in degrees (0°–360°).
+	- **2. Places nod**
 # NoSQL
 NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed to:
 - Run across many servers and locations
@@ -847,11 +851,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Njg5NzYyNCwxMDI5NjU0Mzk2LC02Mz
-MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
-OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
-05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
-Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LD
-E5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMw
-OTU4XX0=
+eyJoaXN0b3J5IjpbMzYyMDk2MTg1LDEwMjk2NTQzOTYsLTYzMz
+IwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5
+Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLT
+k5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2
+ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMT
+kzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5
+NThdfQ==
 -->
