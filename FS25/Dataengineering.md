@@ -419,9 +419,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 - **master-slave** architecture (leader follower)
 	- all the nodes contain identical data
 	- requests are only sent to the primary (master) as it bearss all the management responsibility
-		- there is a standby master in case the primary fails
+		- there is a standby master in case the primary fails. read requests can still be processed
 		- the rest of nodes are secondary (slaves)
-	- 
+	- read request can be handles by all nodes
+		- ideal for read intensive requests
 - **peer-2-peer**
 	- requests are sent to all nodes
 ## consistent hashing
@@ -831,7 +832,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODQwNTUyNSwxMDI5NjU0Mzk2LC02Mz
+eyJoaXN0b3J5IjpbMTQyOTc2OTU4OCwxMDI5NjU0Mzk2LC02Mz
 MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
 OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
 05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
