@@ -359,7 +359,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 - normal performing machine are okay to store the shards of data --> machines are more cost effective
 - no limit to just add new machines if dataloads outgrow current system
 - data distribution, synchronization of nodes, data consistency and recovery present new issues/challanges in this type of scaling
-- false assumption/ fallacies when designing or scaling distributed systems
+- false assumption/ fallacies when designing or scaling distributed systems:
+	- newtworks are not always reliable, they can fail. 
+		- network failures have to be accomodated with retries, timeouts and replication
+- Latency (Delay) is not zero
 ## Sharding
 ## Replication
 ## consistent hashing
@@ -769,7 +772,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODg5MTUzOSwtMTQyMTc3NTkyNiwtOT
+eyJoaXN0b3J5IjpbLTcxMTI3MjcwOSwtMTQyMTc3NTkyNiwtOT
 k4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4
 OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOT
 M4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1
