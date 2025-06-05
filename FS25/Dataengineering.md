@@ -381,8 +381,12 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 
 ## Distribution models
 ### Sharding
-- different data on d
+- different data on different nodes
+- by distributiong increasing data volumes on different nodes can enhance the performance
 ### Replication
+- the same data is on different nodes
+- it helps in case of errors and failures
+- replication is mostly used tog
 ## consistent hashing
 
 # NoSQL
@@ -790,11 +794,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1NjI3MTUyLC0xNDIxNzc1OTI2LC05OT
-gyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5
-OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5Mz
-gyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4
-LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
-k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOF19
-
+eyJoaXN0b3J5IjpbLTE2MzU4NTIyNjEsLTE0MjE3NzU5MjYsLT
+k5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2
+ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMT
+kzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5
+NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUyLC0xND
+AxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMjgwNTQ5LC0zOTA4OTI4
+XX0=
 -->
