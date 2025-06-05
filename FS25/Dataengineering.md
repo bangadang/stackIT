@@ -357,7 +357,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 ### horizontal scaling (scaling out)
 - systems are distributed across different machines/ nodes
 - normal performing machine are okay to store the shards of data --> machines are more cost effective
-- no limit to just add new machines 
+- no limit to just add new machines if data 
 ## Sharding
 ## Replication
 ## consistent hashing
@@ -767,7 +767,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ5MjkwNTksLTk5ODI4OTI4Niw3Mj
+eyJoaXN0b3J5IjpbLTE0MjE3NzU5MjYsLTk5ODI4OTI4Niw3Mj
 AyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcx
 MCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOT
 Y3Njg0MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3
