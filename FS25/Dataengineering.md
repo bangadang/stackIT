@@ -381,7 +381,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 
 ## Distribution models
 ### Sharding
-- different data on different nodes
+- different data on different nodes in different physical locations
+	- goal to have uniform data distribution
+	- goal to achieve balance workload (read/write)
+	- often combined with replication
 - by distributiong increasing data volumes on different nodes can enhance the performance
 - different users are accessing different parts of the dataset
 - there is no ideal distribution of data, it should be distributed to query needs
@@ -801,11 +804,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2MjQ3MDYyLDU2NTAwMzUwNSwtMTI1OD
-cyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3
-MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01ND
-k5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQy
-NTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Nj
-c1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2
-XX0=
+eyJoaXN0b3J5IjpbLTE0NDI4MzE0NjIsNTY1MDAzNTA1LC0xMj
+U4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5
+MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAsLT
+U0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4
+NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLT
+c2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIx
+NjZdfQ==
 -->
