@@ -408,6 +408,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- its in general more deterministic and scalable
 	- but it can lead to uneven distributions, and range based hashing can be imbalanced if the data is skewed
 - **difficulties**
+	- we need to know on what shard which data is stored, also in order where to i
 ### Replication
 - the same data is on different nodes
 - it helps in case of errors and failures
@@ -819,11 +820,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05ND
-gzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1
-OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LD
-IyNTE3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0
-MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsND
-QzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1
-Ml19
+eyJoaXN0b3J5IjpbNjQ1MjkzMjQ3LC0xNjg3NzE5OTUwLDczMD
+kyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1
+OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMT
+U3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMw
+OTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQyNTksOD
+c5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4
+ODddfQ==
 -->
