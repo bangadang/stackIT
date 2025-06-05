@@ -408,7 +408,9 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- its in general more deterministic and scalable
 	- but it can lead to uneven distributions, and range based hashing can be imbalanced if the data is skewed
 - **difficulties**
-	- we need to know on what shard which data is stored, also in order where to i
+	- we need to know on what shard which data is stored, in order to know where new data should be inserted or where to retrieve requested data
+	- cluster structures can change and have to be accommodated for, (node sizes, added or removed nodes
+	- 
 ### Replication
 - the same data is on different nodes
 - it helps in case of errors and failures
@@ -820,7 +822,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1MjkzMjQ3LC0xNjg3NzE5OTUwLDczMD
+eyJoaXN0b3J5IjpbLTEzNDMyMjM4LC0xNjg3NzE5OTUwLDczMD
 kyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1
 OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMT
 U3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMw
