@@ -317,11 +317,13 @@ The Item Pipeline is responsible for processing the items once they have been ex
 ### 2. variety 
 - data comes in multiple formats of different complexity
 	- structured: databases
-	- semi-structured: JSON, XM
-- there is no fixed struture 
+	- semi-structured: JSON, XML
+	- unstructured: videos, images, emails, text
+- there is no fixed structure 
 - data is not immediately ready to be processed
-- no uniformity or monotony
-- data can be highly, semi- or unstructured
+- heterogenity <-> no uniformity or monotony
+	- makes integration complex
+	- flexible tools needed for ingestion and transformation
 ### 3. velocity
 - constantly new incoming data
 ### 4. veracity
@@ -745,7 +747,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTMxMDYxNiw3MjAyNjkzNzEsLTE1Nz
+eyJoaXN0b3J5IjpbMTY4ODgzNTc3OCw3MjAyNjkzNzEsLTE1Nz
 M5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3
 LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OT
 A1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3
