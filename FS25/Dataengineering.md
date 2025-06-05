@@ -409,10 +409,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- but it can lead to uneven distributions, and range based hashing can be imbalanced if the data is skewed
 - **difficulties**
 	- we need to know on what shard which data is stored, in order to know where new data should be inserted or where to retrieve requested data
-	- cluster structures can change and have to be accommodated for, (node sizes, added or removed nodes
-	- 
+	- cluster structures can change and have to be accommodated for, (node sizes, added or removed nodes, failing nodes)
+	- nodes may have incomplete cluster knowledge, which could end in network messages not being delivered eventhough they are sent
 ### Replication
-- the same data is on different nodes
+- the same data is stored on different nodes
 - it helps in case of errors and failures
 - replication is mostly used together with sharding
 ## consistent hashing
@@ -822,11 +822,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDMyMjM4LC0xNjg3NzE5OTUwLDczMD
-kyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1
-OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMT
-U3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMw
-OTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQyNTksOD
-c5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4
-ODddfQ==
+eyJoaXN0b3J5IjpbLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3Mz
+A5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIx
+NTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLT
+E1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMz
+MDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LD
+g3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkx
+ODg3XX0=
 -->
