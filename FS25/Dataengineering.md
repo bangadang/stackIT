@@ -398,7 +398,13 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- the mapping on which shard/node the data is stored, has to be maintained, which is usually done with a centralized index structure
 		- a centralized index is a single point of failure and can become a performance bottleneck
 - **general rules**
-	- each shard store a certain type of data
+	- each shard store a certain type of data with algorithmic rules
+		- hash partitioning
+			- a hash function is applied to a key, which determines the shards
+		- range partitioning
+			- 
+		- geographic/semantic rules
+	
 ### Replication
 - the same data is on different nodes
 - it helps in case of errors and failures
@@ -810,11 +816,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODQ1MjM3NCw3MzA5Mjk4OTYsLTk0OD
-M2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5
-MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMj
-I1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQy
-MDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0ND
-MxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUy
-XX0=
+eyJoaXN0b3J5IjpbLTIwMzA3MzUxNzEsNzMwOTI5ODk2LC05ND
+gzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1
+OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LD
+IyNTE3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0
+MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsND
+QzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1
+Ml19
 -->
