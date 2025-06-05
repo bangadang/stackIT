@@ -406,7 +406,8 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 		- geographic/semantic rules
 	- no need for a centralized index, which makes it easier to rescale shards and optimize query routing
 	- its in general more deterministic and scalable
-	- but it can lead to uneven distributions
+	- but it can lead to uneven distributions, and range based hashing can be imbalanced if the data is skewed
+- **difficulties**
 ### Replication
 - the same data is on different nodes
 - it helps in case of errors and failures
@@ -818,11 +819,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMTQwNTcwNyw3MzA5Mjk4OTYsLTk0OD
-M2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5
-MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMj
-I1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQy
-MDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OTA1NzE3Nyw0ND
-MxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3LDYzMTE1NTUy
-XX0=
+eyJoaXN0b3J5IjpbLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05ND
+gzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1
+OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LD
+IyNTE3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0
+MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsND
+QzMTMwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1
+Ml19
 -->
