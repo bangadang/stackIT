@@ -446,6 +446,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- Each key (like `"john"`, `"kate"`, etc.) is hashed to a numerical value.
 	- This value is converted into a **position on a circle**, measured in degrees (0°–360°).
 	- **2. Places nodes on the circle**
+	- 
 # NoSQL
 NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed to:
 - Run across many servers and locations
@@ -851,7 +852,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDMyMTgzNSwxMDI5NjU0Mzk2LC02Mz
+eyJoaXN0b3J5IjpbLTExMTg2MDUzMCwxMDI5NjU0Mzk2LC02Mz
 MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
 OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
 05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
