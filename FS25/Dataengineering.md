@@ -350,9 +350,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 ### vertical scaling (scaling up)
 - traditional way of scalining by involving larger more powerful machines/server or chips
 - but there are not many vendors of such machines, so the availability can be scarce and pricey. 
-	- higher costs
+	- **higher costs**
 	- The machine often only work with special formats
-	- if the data grows further it can outgrow the machines
+	- if the data grows further it can outgrow the machines (**data growth**)
+	- the magnitude of growth is hardly predictable, when starting an application (**proactive provisioning**)
 ### horizontal scaling
 ## Sharding
 ## Replication
@@ -763,11 +764,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDc5NDY0OSwtOTk4Mjg5Mjg2LDcyMD
-I2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEw
-LC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Nj
-c2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2
-LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNz
-EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzXX0=
+eyJoaXN0b3J5IjpbMjQyNTE1MDA2LC05OTgyODkyODYsNzIwMj
+Y5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAs
+LTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2Nz
+Y4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYs
+LTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MT
+IxNjYsMTcxMjI4MDU0OSwtMzkwODkyOCwyMTE5NTQ4NDNdfQ==
 
 -->
