@@ -393,8 +393,9 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 #### sharding strategies
 - **mapping structures**
 	- data is places on shards in random fashion
-	- 
+	- the mapping on which shard/node the data is store has to be maintained, which is usually done with a centralized index structure
 - **general rules**
+	- each shard store a certain type of data
 ### Replication
 - the same data is on different nodes
 - it helps in case of errors and failures
@@ -806,11 +807,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNT
-g3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkz
-NzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNT
-Q5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0
-MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNz
-Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
-Nl19
+eyJoaXN0b3J5IjpbNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MD
+AzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODky
+ODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMT
+gyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0
+OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOT
+A5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3
+Ml19
 -->
