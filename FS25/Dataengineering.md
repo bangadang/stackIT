@@ -310,11 +310,14 @@ The Item Pipeline is responsible for processing the items once they have been ex
 ## the basic 4 V's + 2 V's
 ### 1. volume
 - refers to the sheer scale and dimension of data, which is enormous and often measured in tera/petabytes
+	- these volumes introduce challanges in data transfer, indexing & retrieval speed
 - need of the ability to process large amounts of data at once
-- requires scalable st
+- requires scalable storage and distributed processing systems
 - the data comes from different sources
 ### 2. variety 
-- data is in many forms of different complexity
+- data comes in multiple formats of different complexity
+	- structured: databases
+	- semi-structured: JSON, XM
 - there is no fixed struture 
 - data is not immediately ready to be processed
 - no uniformity or monotony
@@ -742,10 +745,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMDIwMTczLDcyMDI2OTM3MSwtMTU3Mz
-k0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcs
-LTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MD
-U3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcs
-NjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyOD
-A1NDksLTM5MDg5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOV19
+eyJoaXN0b3J5IjpbMTU2MTMxMDYxNiw3MjAyNjkzNzEsLTE1Nz
+M5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3
+LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OT
+A1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3
+LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMj
+gwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzldfQ==
+
 -->
