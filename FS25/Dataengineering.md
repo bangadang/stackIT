@@ -303,7 +303,9 @@ The Item Pipeline is responsible for processing the items once they have been ex
 - synchronization among many users
 - optimized query processing engines
 ### disadvantages of databases:
--
+- only scales to medium-sized data sets
+- does not scale out well
+- problems handling semi structured data
 
 ## the basic 4 V's + 2 V's
 ### 1. volume
@@ -738,7 +740,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NDIwMTM2Myw3MjAyNjkzNzEsLTE1Nz
+eyJoaXN0b3J5IjpbMTc4NTEyOTk1OSw3MjAyNjkzNzEsLTE1Nz
 M5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3
 LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OT
 A1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3
