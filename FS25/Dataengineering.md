@@ -326,6 +326,7 @@ The Item Pipeline is responsible for processing the items once they have been ex
 	- flexible tools needed for ingestion and transformation
 ### 3. velocity
 - Refers to the speed of data generation and processing to meet real-time or near-real-time demands
+- High velocity challenges include **data ingestion speed**, **latency**, and **real-time analytics**.
 ### 4. veracity
 - trustworthiness of data sources
 - data consistency of sources
@@ -747,11 +748,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1Nz
-M5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3
-LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0MjU5LDg3OT
-A1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNzY3NTkxODg3
-LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2NiwxNzEyMj
-gwNTQ5LC0zOTA4OTI4LDIxMTk1NDg0Myw4ODQ0NTYzMzldfQ==
+eyJoaXN0b3J5IjpbLTcwMzk0MzE0MiwtOTk4Mjg5Mjg2LDcyMD
+I2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEw
+LC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Nj
+c2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2
+LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MDE5NjkyNzIsNzQwNz
+EyMTY2LDE3MTIyODA1NDksLTM5MDg5MjgsMjExOTU0ODQzXX0=
 
 -->
