@@ -392,6 +392,8 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 - horizontal shards: rows are split
 #### sharding strategies
 - **mapping structures**
+	- data is places on shards in random fashion
+	- 
 - **general rules**
 ### Replication
 - the same data is on different nodes
@@ -804,11 +806,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI4MzE0NjIsNTY1MDAzNTA1LC0xMj
-U4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5
-MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAsLT
-U0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4
-NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4LC0xOTA5ODIzNzYsLT
-c2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMTk2OTI3Miw3NDA3MTIx
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNT
+g3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkz
+NzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNT
+Q5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3Njg0
+MjU5LDg3OTA1NzE3Nyw0NDMxMzA5NTgsLTE5MDk4MjM3NiwtNz
+Y3NTkxODg3LDYzMTE1NTUyLC0xNDAxOTY5MjcyLDc0MDcxMjE2
+Nl19
 -->
