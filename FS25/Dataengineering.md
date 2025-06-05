@@ -448,9 +448,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- **2. Places nodes on the circle**
 	- Nodes (servers) are also hashed and placed on the same ring.
 	- **3. Assign keys to nodes**
-	- A key is assigned to the **first node found by moving clockwise** around the circle from its position.
+	- A key is assigned to the **first node found by moving clockwise** or counterclockwise around the circle from its position.
 	-  If a key hashes to `58.8°` (like `"john"`), it gets stored on the node that is at or after that point (say, the “John” server if he is at `60°`).
 - **Benefits:**
+	- Ensure object keys are evenly distributed among servers
 	- Minimizes data movement
 		- When a node joins or leaves, only a small portion of keys need to be remapped.
 		- basic hash variants cause massive shuffling
@@ -862,7 +863,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDQ2OTY2MzAsMTAyOTY1NDM5NiwtNj
+eyJoaXN0b3J5IjpbLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNj
 MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
 OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
 wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
