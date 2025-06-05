@@ -359,7 +359,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 - normal performing machine are okay to store the shards of data --> machines are more cost effective
 - no limit to just add new machines if dataloads outgrow current system
 - data distribution, synchronization of nodes, data consistency and recovery present new issues/challanges in this type of scaling
-- 
+- false assumption/ fallacies when designing or scaling distributed systems
 ## Sharding
 ## Replication
 ## consistent hashing
@@ -769,11 +769,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxMzY0MTcxLC0xNDIxNzc1OTI2LC05OT
-gyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5
-OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5Mz
-gyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMwOTU4
-LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1MiwtMTQwMT
-k2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwODkyOF19
-
+eyJoaXN0b3J5IjpbMTkwODg5MTUzOSwtMTQyMTc3NTkyNiwtOT
+k4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4
+OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOT
+M4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1
+OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIsLTE0MD
+E5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MDg5Mjhd
+fQ==
 -->
