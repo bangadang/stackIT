@@ -349,7 +349,10 @@ The Item Pipeline is responsible for processing the items once they have been ex
 Describes the capability of a system to handle growing amounts of data/ quereis without losing performance
 ### vertical scaling (scaling up)
 - traditional way of scalining by involving larger more powerful machines/server or chips
-- but there are not many vendors of such machines, so the availability
+- but there are not many vendors of such machines, so the availability can be scarce and pricey. 
+	- higher costs
+	- The machine often only work with special formats
+	- if the data grows further it can outgrow the machines
 ### horizontal scaling
 ## Sharding
 ## Replication
@@ -760,7 +763,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODEyOTUyOSwtOTk4Mjg5Mjg2LDcyMD
+eyJoaXN0b3J5IjpbMTM0NDc5NDY0OSwtOTk4Mjg5Mjg2LDcyMD
 I2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEw
 LC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Nj
 c2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1OCwtMTkwOTgyMzc2
