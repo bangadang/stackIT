@@ -404,6 +404,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 		- range partitioning
 			- shards are responsible for a specific range of values
 		- geographic/semantic rules
+		- consistent hashing operates independently of the number of servers or objects in a distributed hash table by assigning them a position on an abstract circle or hash ring
 	- no need for a centralized index, which makes it easier to rescale shards and optimize query routing
 	- its in general more deterministic and scalable
 	- but it can lead to uneven distributions, and range based hashing can be imbalanced if the data is skewed
@@ -437,6 +438,7 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 	- consistency issues with several write requests, hence synchronization is required to avoid conflicts
 	- combined with sharding:
 		- if a node fails it can be reconstructed from other nodes
+		- most complicated to implement
 ## consistent hashing
 
 # NoSQL
@@ -844,11 +846,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3Mzc2ODY1NiwxMDI5NjU0Mzk2LC02Mz
-MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
-OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
-05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
-Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LD
-E5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMw
-OTU4XX0=
+eyJoaXN0b3J5IjpbLTIwMzQxMjE3NTEsMTAyOTY1NDM5NiwtNj
+MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
+OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
+wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
+NzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOC
+wxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEz
+MDk1OF19
 -->
