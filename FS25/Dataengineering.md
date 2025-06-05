@@ -285,15 +285,18 @@ Spiders are custom classes written by Scrapy users to parse responses and extrac
 The Item Pipeline is responsible for processing the items once they have been extracted (or scraped) by the spiders. Typical tasks include cleansing, validation and persistence (like storing the item in a database). For more information see  [Item Pipeline](https://docs.scrapy.org/en/latest/topics/item-pipeline.html#topics-item-pipeline).
 
  # Big Data
-Traditional databases do not scale for big data and adding faster or larger hardware does not suffice. Another probem is that most data is unstructured but databses store them structured. A new solution is to use NOSQL solutions, where horizontal scalability is possible as only limited relational database system operations are supported. Rather than storing the data in tables, data is stored as key value pairs.
+- Traditional databases do not scale for big data and adding faster or larger hardware does not suffice. 
+- Most data is unstructured but databases store them structured. 
+- A new solution is to use NOSQL solutions, where horizontal scalability is possible as only limited relational database system operations are supported. 
+- Rather than storing the data in tables, data is stored as key value pairs.
 
-Why should we a databsse instead of files?
+### Why should we a databsse instead of files?
 - files are only easy to access sequentially,
 - there is no optimized access in files
 - there is no consistency
 - there is no efficient way to only access a subset of information in a file without reading everything first
 
-advantages of databases:
+### advantages of databases:
 - well defined sql interfaces
 - well organized and structured
 - synchronization among many users
@@ -731,7 +734,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwNTc1NTU1LC0xNTczOTQyMjE1LDIyNT
+eyJoaXN0b3J5IjpbNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNT
 E3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4
 LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMT
 MwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1Miwt
