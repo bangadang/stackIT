@@ -287,13 +287,13 @@ The Item Pipeline is responsible for processing the items once they have been ex
  # Big Data
 Traditional databases do not scale for big data and adding faster or larger hardware does not suffice. Another probem is that most data is unstructured but databses store them structured. A new solution is to use NOSQL solutions, where horizontal scalability is possible as only limited relational database system operations are supported. Rather than storing the data in tables, data is stored as key value pairs.
 
-Why should we a databse instead of files?
+Why should we a databsse instead of files?
 - files are only easy to access sequentially,
 - there is no optimized access in files
 - there is no consistency
 - there is no efficient way to only access a subset of information in a file without reading everything first
 
-advantages of databeses:
+advantages of databases:
 - well defined sql interfaces
 - well organized and structured
 - synchronization among many users
@@ -731,11 +731,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTM4ODY1NiwtMTU3Mzk0MjIxNSwyMj
-UxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIw
-OCwxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0Mz
-EzMDk1OCwtMTkwOTgyMzc2LC03Njc1OTE4ODcsNjMxMTU1NTIs
-LTE0MDE5NjkyNzIsNzQwNzEyMTY2LDE3MTIyODA1NDksLTM5MD
-g5MjgsMjExOTU0ODQzLDg4NDQ1NjMzOSwtODMyNDQ3MzE3XX0=
+eyJoaXN0b3J5IjpbOTgwNTc1NTU1LC0xNTczOTQyMjE1LDIyNT
+E3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4
+LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMT
+MwOTU4LC0xOTA5ODIzNzYsLTc2NzU5MTg4Nyw2MzExNTU1Miwt
+MTQwMTk2OTI3Miw3NDA3MTIxNjYsMTcxMjI4MDU0OSwtMzkwOD
+kyOCwyMTE5NTQ4NDMsODg0NDU2MzM5LC04MzI0NDczMTddfQ==
 
 -->
