@@ -373,6 +373,11 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 - There isn't just one admin, as distributed systems are often managed by teams, departments or different organizations, which means conflicting changes or misconfiguration can happen
 - Transport costs are not zero, as moving data across machines or regions cost money and time
 - The network is not homogeneous, different nodes can have different hardware, network quality can differ by location which impacts performance 
+## Cluster
+- a collection of interconnected nodes
+- each node (Knoten) has their own CPU, harddrive and memory and OS
+- nodes send messages to interact with each other
+- 
 ## Sharding
 ## Replication
 ## consistent hashing
@@ -782,7 +787,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNTA3NDc0MCwtMTQyMTc3NTkyNiwtOT
+eyJoaXN0b3J5IjpbMjEyMDk5ODA3NiwtMTQyMTc3NTkyNiwtOT
 k4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4
 OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOT
 M4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEzMDk1
