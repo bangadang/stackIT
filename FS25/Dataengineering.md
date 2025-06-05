@@ -453,7 +453,10 @@ Describes the capability of a system to handle growing amounts of data/ quereis 
 - **Benefits:**
 	- Minimizes data movement
 		- When a node joins or leaves, only a small portion of keys need to be remapped.
-		- basic hash 
+		- basic hash variants cause massive shuffling
+	- Scalability
+	- Supports fault tolerance
+		- Nodes can be replicated, and consistent hashing makes it easier to spread and recover data.
 # NoSQL
 NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed to:
 - Run across many servers and locations
@@ -859,11 +862,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNTkzNjI3MiwxMDI5NjU0Mzk2LC02Mz
-MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
-OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
-05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
-Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LD
-E5MzgyNTg0OTUsLTk2NzY4NDI1OSw4NzkwNTcxNzcsNDQzMTMw
-OTU4XX0=
+eyJoaXN0b3J5IjpbLTE4NDQ2OTY2MzAsMTAyOTY1NDM5NiwtNj
+MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
+OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
+wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
+NzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOC
+wxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEz
+MDk1OF19
 -->
