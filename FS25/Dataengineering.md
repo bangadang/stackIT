@@ -346,7 +346,8 @@ The Item Pipeline is responsible for processing the items once they have been ex
 	- processing and analysis are needed to extract useful patterns or predictions
 
 ## Scalability
-Describes the capability of a system to handle growing amounts of data/ quereis without losing performance
+Describes the capability of a system to handle growing amounts of data/ queries
+ without losing performance
 ### vertical scaling (scaling up)
 - traditional way of scalining by involving larger more powerful machines/server or chips
 - but there are not many vendors of such machines, so the availability can be scarce and pricey. 
@@ -863,11 +864,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNj
-MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
-OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
-wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
-NzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOC
-wxOTM4MjU4NDk1LC05Njc2ODQyNTksODc5MDU3MTc3LDQ0MzEz
-MDk1OF19
+eyJoaXN0b3J5IjpbMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMD
+I5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5
+ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC
+0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTcz
+OTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5Ny
+wtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2NzY4NDI1OSw4Nzkw
+NTcxNzddfQ==
 -->
