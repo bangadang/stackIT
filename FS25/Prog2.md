@@ -160,16 +160,19 @@ df["Alter"].value_counts()   # Häufigkeiten
 df.groupby("Stadt").mean()          # Mittelwert nach Gruppe
 df.groupby("Stadt")["Alter"].sum()  # Summe für eine Spalte
 ```
-**fehlende Werte**
+**fehlende/doppelte Werte**
 ```python
 df.isnull(), df.notnull()          # Prüfen
 df.dropna()                        # Zeilen mit NaN entfernen
 df.fillna(0)                       # NaN ersetzen
+df.duplicated()
+df.drop_duplicates()
 ```
 **Daten umstrukturieren**
 ```python
 df.T                           # Transponieren
 df.sort_values("Alter")       # Sortieren
+df.sort_index()
 df.rename(columns={"Name": "Vorname"})
 df.set_index("Name")          # Index setzen
 df.reset_index()              # Index zurücksetzen
@@ -192,6 +195,7 @@ df["Datum"] = pd.to_datetime(df["Datum"])
 df["Jahr"] = df["Datum"].dt.year
 df["Monat"] = df["Datum"].dt.month
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzQzMjc2NF19
+eyJoaXN0b3J5IjpbNDU4NDgyMjA5XX0=
 -->
