@@ -319,7 +319,12 @@ def __instancecheck__(self, instance): pass       # isinstance(obj, cls)
 def __subclasscheck__(self, subclass): pass       # issubclass(sub, cls)
 ```
 ### Files lesen und bearbeiten
+```python
+with open("datei.txt", "r", encoding="utf-8") as f:
+    inhalt = f.read()
+'''Zeilenweise lesen'''
 
+```
 ### API Calls
 ```python
 import urllib.request
@@ -419,6 +424,6 @@ class Requester:
         self._data_retrieved = False
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzQwMjE1OSwtMTA5MTgyMTk0Miw1Mz
-Q2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbNjIyMTc2NTQsLTEwOTE4MjE5NDIsNTM0Nj
+YwNTU4LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
 -->
