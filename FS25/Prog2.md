@@ -318,8 +318,8 @@ def __class_getitem__(cls, key): pass             # Für generische Typen: MyCla
 def __instancecheck__(self, instance): pass       # isinstance(obj, cls)
 def __subclasscheck__(self, subclass): pass       # issubclass(sub, cls)
 ```
-
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMj
-U0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbLTIwNzgyNjY1MjUsNTM0NjYwNTU4LC0yMT
+M4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
 -->
