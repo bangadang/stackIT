@@ -383,7 +383,15 @@ df = pd.read_excel("datei.xlsx")
 df["Alter"] += 1
 df.to_excel("neu.xlsx", index=False)
 ```
-**BinärDateien**
+**Binärdateien**
+```python
+'''Lesen'''
+with open("bild.jpg", "rb") as f:
+    inhalt = f.read()
+'''Schreiben'''
+with open("bild.jpg", "rb") as f:
+    inhalt = f.read()
+```
 ### API Calls
 ```python
 import urllib.request
@@ -483,6 +491,6 @@ class Requester:
         self._data_retrieved = False
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NTk3NDU5LC0xMDkxODIxOTQyLDUzND
+eyJoaXN0b3J5IjpbMzgzMzE1Mjk3LC0xMDkxODIxOTQyLDUzND
 Y2MDU1OCwtMjEzODY1MTc0NCwtMTI1NDM4MjAyM119
 -->
