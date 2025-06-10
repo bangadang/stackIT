@@ -96,8 +96,22 @@ df = pd.DataFrame({
     "Alter": [25, 30]
 })
 
+df.columns     # Spaltennamen
+df.index       # Zeilenindex
+df.dtypes      # Datentypen pro Spalte
+df.shape       # (2, 2)
+df.values      # NumPy-Array-Daten
+```
+**Daten einlesen & exportieren**
+```python
+pd.read_json()
+pd.read_csv("daten.csv"/api url, sep=";")    # CSV-Datei
+pd.read_excel("daten.xlsx")          # Excel-Datei
+pd.read
+df.to_csv("ausgabe.csv", index=False)
+df.to_excel("ausgabe.xlsx")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDk2NDE0OTRdfQ==
+eyJoaXN0b3J5IjpbLTQxNzQwMjY4MV19
 -->
