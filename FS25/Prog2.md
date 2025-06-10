@@ -101,6 +101,21 @@ df.index       # Zeilenindex
 df.dtypes      # Datentypen pro Spalte
 df.shape       # (2, 2)
 df.values      # NumPy-Array-Daten
+
+df.head(), df.tail()                # Erste/letzte Zeilen
+df.info()                           # Strukturinfo
+df.apply(func)                      # Funktion auf Zeile/Spalte
+df["Name"].str.upper()              # String-Methoden
+df["Datum"] = pd.to_datetime(df["Datum"])  # Datetime-Konvertierung
+
+df.head(), df.tail()                # Erste/letzte Zeilen
+df.info()                           # Strukturinfo
+df.apply(func)                      # Funktion auf Zeile/Spalte
+df["Name"].str.upper()              # String-Methoden
+df["Datum"] = pd.to_datetime(df["Datum"])  # Datetime-Konvertierung
+
+df["Alter"] = df["Alter"].astype(int)
+
 ```
 **Daten einlesen & exportieren**
 ```python
@@ -167,5 +182,5 @@ pd.merge(df1, df2, on="ID")        # SQL-Join
 df.append(neue_zeile, ignore_index=True)  # Zeile hinzufügen
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNDMzNjA4Nl19
+eyJoaXN0b3J5IjpbLTEwMDE1ODk4MjldfQ==
 -->
