@@ -104,15 +104,12 @@ df.values      # NumPy-Array-Daten
 
 df.head(), df.tail()                # Erste/letzte Zeilen
 df.info()                           # Strukturinfo
+df.describe()                 # Statistische Zusammenfassung
 df.apply(func)                      # Funktion auf Zeile/Spalte
 df["Name"].str.upper()              # String-Methoden
 df["Datum"] = pd.to_datetime(df["Datum"])  # Datetime-Konvertierung
-
-df.head(), df.tail()                # Erste/letzte Zeilen
-df.info()                           # Strukturinfo
-df.apply(func)                      # Funktion auf Zeile/Spalte
-df["Name"].str.upper()              # String-Methoden
-df["Datum"] = pd.to_datetime(df["Datum"])  # Datetime-Konvertierung
+df.columns.tolist()          # Liste der Spaltennamen
+df.index.tolist()            # Liste der Zeilen-IDs
 
 df["Alter"] = df["Alter"].astype(int) #Typenkonvertierung
 
@@ -185,7 +182,16 @@ df.append(neue_zeile, ignore_index=True)  # Zeile hinzufügen
 ```
 **Strings bearbeiten**
 ```python
+df["Spalte"].str.lower()
+df["Spalte"].str.contains("abc")
+df["Spalte"].str.replace("alt", "neu")
+```
+**Datum/Zeit bearbeiten**
+```python
+df["Datum"] = pd.to_datetime(df["Datum"])
+df["Jahr"] = df["Datum"].dt.year
+df["Monat"] = df["Datum"].dt.month
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDIxNjIwOF19
+eyJoaXN0b3J5IjpbMTQ2NzQzMjc2NF19
 -->
