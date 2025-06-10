@@ -490,7 +490,10 @@ class Requester:
         self._last_retrieval_date = None  
         self._data_retrieved = False
 ```
+### Optimization
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgzMzE1Mjk3LC0xMDkxODIxOTQyLDUzND
-Y2MDU1OCwtMjEzODY1MTc0NCwtMTI1NDM4MjAyM119
+eyJoaXN0b3J5IjpbLTQwOTc0Mzk0OSwzODMzMTUyOTcsLTEwOT
+E4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMjU0Mzgy
+MDIzXX0=
 -->
