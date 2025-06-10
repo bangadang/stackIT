@@ -52,9 +52,8 @@ a[[0, 2, 4]]   # [1 3 5]
 a[0] = 100          # Einzelnes Element ändern
 b[:, 1] = 9         # Ganze Spalte ersetzen
 a[a > 3] = 0        # Alle Elemente >3 auf 0 setzen
-
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NTA2NDU3M119
+eyJoaXN0b3J5IjpbLTM3ODgyNTgxM119
 -->
