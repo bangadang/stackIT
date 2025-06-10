@@ -327,9 +327,14 @@ url = "https://api.example.com/data"
 with urllib.request.urlopen(url) as response:
     data = response.read().decode("utf-8")
     print(data)
+    # data is json format
+    data = json.loads(raw_data)
+	#data is csv format
+	csv_file = io.StringIO(data)
+    reader = csv.reader(csv_file)
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwNzI4NjU0LDUzNDY2MDU1OCwtMjEzOD
-Y1MTc0NCwtMTI1NDM4MjAyM119
+eyJoaXN0b3J5IjpbMTAxODk0MTUwOSw1MzQ2NjA1NTgsLTIxMz
+g2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
