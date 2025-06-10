@@ -200,7 +200,34 @@ df["Monat"] = df["Datum"].dt.month
 df["Neu"] = np.where(df["Wert"] > 10, "hoch", "niedrig")
 df["Kategorie"] = df["Wert"].apply(lambda x: "gut" if x > 80 else "ok")
 ```
+### OOP
+```python
+class A:
+    def __init__(self):
+        print("A", end="")
 
+class B(A):
+    def __init__(self):
+        print("B", end="")
+        super().__init__()
+
+class C(A):
+    def __init__(self):
+        print("C", end="")
+        super().__init__()
+
+class D(B, C):
+    def __init__(self):
+        print("D", end="")
+        super().__init__()
+
+if __name__ == "__main__":
+    o = D()
+```
+```css
+# D.__mro__()
+D → B → C → A
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4OTcyMTU1XX0=
+eyJoaXN0b3J5IjpbMTMwODA5Mjg0MF19
 -->
