@@ -408,17 +408,15 @@ class Requester:
                 self._failed_requests += 1  
   
   def return_data(self):  
-
         return self._data  
   
-    def set_new_request(self, new_url):  
-        """Resets the internal state and sets a new URL for a fresh request."""  
+    def set_new_request(self, new_url): 
 		self._URL = new_url  
         self._data = None  
         self._last_retrieval_date = None  
         self._data_retrieved = False
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyMTQ5NjkyLC0xMDkxODIxOTQyLDUzND
-Y2MDU1OCwtMjEzODY1MTc0NCwtMTI1NDM4MjAyM119
+eyJoaXN0b3J5IjpbMTM2MDM2NjI1MCwtMTA5MTgyMTk0Miw1Mz
+Q2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
