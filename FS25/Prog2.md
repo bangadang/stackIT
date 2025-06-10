@@ -238,7 +238,85 @@ if __name__ == "__main__":
 D → B → C → A
 ```
 **Magic Methods**
+```python
+# Konstruktion & Zerstörung
+def __new__(cls, *args, **kwargs): pass           # Erstellt eine neue Instanz (vor __init__)
+def __init__(self, *args, **kwargs): pass         # Initialisiert das Objekt
+def __del__(self): pass                           # Wird beim Löschen des Objekts aufgerufen
+
+# String-Darstellung
+def __str__(self): pass                           # Für str(obj), print(obj)
+def __repr__(self): pass                          # Für repr(obj), Entwickler-Repräsentation
+def __format__(self, format_spec): pass           # Für format(obj, "spec")
+def __bytes__(self): pass                         # Für bytes(obj)
+
+# Numerische Operatoren
+def __add__(self, other): pass                    # obj + other
+def __sub__(self, other): pass                    # obj - other
+def __mul__(self, other): pass                    # obj * other
+def __truediv__(self, other): pass                # obj / other
+def __floordiv__(self, other): pass               # obj // other
+def __mod__(self, other): pass                    # obj % other
+def __pow__(self, other): pass                    # obj ** other
+def __neg__(self): pass                           # -obj
+def __pos__(self): pass                           # +obj
+def __abs__(self): pass                           # abs(obj)
+def __round__(self): pass                         # round(obj)
+
+# Reversed / Reflected Operatoren
+def __radd__(self, other): pass                   # other + obj (wenn left operand kein __add__ hat)
+# ... analog für __rsub__, __rmul__, etc.
+
+# In-Place Operatoren
+def __iadd__(self, other): pass                   # obj += other
+def __isub__(self, other): pass                   # obj -= other
+# ... analog für __imul__, __itruediv__, etc.
+
+# Vergleichsoperatoren
+def __eq__(self, other): pass                     # obj == other
+def __ne__(self, other): pass                     # obj != other
+def __lt__(self, other): pass                     # obj < other
+def __le__(self, other): pass                     # obj <= other
+def __gt__(self, other): pass                     # obj > other
+def __ge__(self, other): pass                     # obj >= other
+
+# Typumwandlung
+def __bool__(self): pass                          # bool(obj)
+def __int__(self): pass                           # int(obj)
+def __float__(self): pass                         # float(obj)
+def __complex__(self): pass                       # complex(obj)
+
+# Container-Protokoll
+def __len__(self): pass                           # len(obj)
+def __getitem__(self, key): pass                  # obj[key]
+def __setitem__(self, key, value): pass           # obj[key] = value
+def __delitem__(self, key): pass                  # del obj[key]
+def __contains__(self, item): pass                # item in obj
+def __iter__(self): pass                          # iter(obj)
+def __next__(self): pass                          # next(obj)
+def __reversed__(self): pass                      # reversed(obj)
+
+# Kontextmanager
+def __enter__(self): pass                         # with obj as x: ...
+def __exit__(self, exc_type, exc_val, exc_tb): pass # Nach dem Verlassen des with-Blocks
+
+# Aufrufbares Objekt
+def __call__(self, *args, **kwargs): pass         # obj() – macht das Objekt aufrufbar
+
+# Attributzugriff
+def __getattr__(self, name): pass                 # Wenn Attribut nicht existiert
+def __getattribute__(self, name): pass            # Wird bei jedem Attributzugriff aufgerufen
+def __setattr__(self, name, value): pass          # obj.name = value
+def __delattr__(self, name): pass                 # del obj.name
+def __dir__(self): pass                           # dir(obj)
+
+# Klassenverhalten
+def __class_getitem__(cls, key): pass             # Für generische Typen: MyClass[int]
+def __instancecheck__(self, instance): pass       # isinstance(obj, cls)
+def __subclasscheck__(self, subclass): pass       # issubclass(sub, cls)
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ
+==
 -->
