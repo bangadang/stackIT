@@ -339,9 +339,28 @@ with urllib.request.urlopen(url) as response:
 
 ```
 **Beispiel Code mit Erweiterungen**
-````python
+```python
+	try:  
+	    headers = {  
+	        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '  
+	 'AppleWebKit/537.36 (KHTML, like Gecko) ' 'Chrome/122.0.0.0 Safari/537.36'  }  
+	      
+	    req = ur.Request(self._url, headers=headers)  
+	  
+	    s = ur.urlopen(req).read().decode("utf-8")  
+	  
+	    exchange_rate_info = json.loads(s)  
+	  
+	    with open(self.latest_version_path, "w") as f:  
+	        json.dump(exchange_rate_info, f)  
+	    return exchange_rate_info  
+	  
+	except:   
+	    with open(self.latest_version_path, "r") as f:  
+	        exchange_rate_info = json.load(f)  
+	    return exchange_rate_info
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMT
-M4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbLTE3NjE2NjQ5OTcsLTEwOTE4MjE5NDIsNT
+M0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
 -->
