@@ -320,9 +320,22 @@ def __subclasscheck__(self, subclass): pass       # issubclass(sub, cls)
 ```
 ### Files lesen und bearbeiten
 ```python
+'''lesen'''
 with open("datei.txt", "r", encoding="utf-8") as f:
     inhalt = f.read()
+
 '''Zeilenweise lesen'''
+with open("datei.txt", "r") as f:
+    for zeile in f:
+        print(zeile.strip())
+
+'''Scheiben (überschreibt Datei)'''
+with open("datei.txt", "w", encoding="utf-8") as f:
+    f.write("Neuer Inhalt")
+
+'''Schreiben (an Datei anhängen)'''
+with open("datei.txt", "a") as f:
+    f.write("Neuer Inhalt")
 
 ```
 ### API Calls
@@ -424,6 +437,6 @@ class Requester:
         self._data_retrieved = False
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMTc2NTQsLTEwOTE4MjE5NDIsNTM0Nj
-YwNTU4LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbMTk2MzcxNzA2MywtMTA5MTgyMTk0Miw1Mz
+Q2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
