@@ -63,7 +63,23 @@ np.mean(a)         # Mittelwert
 np.sum(a, axis=0)  # Summieren entlang Achse
 np.dot(a, b)       # Matrixprodukt (1D/2D)
 
+a.reshape(2, 3)       # Form ändern
+a.flatten()           # 1D machen
+np.concatenate([a, b], axis=0)  # Verbinden
+np.split(a, 2)        # Aufteilen
+np.transpose(a)       # Transponieren
+
+np.where(a > 0, 1, 0)         # Konditional (if/else)
+np.unique(a)                  # Einzigartige Werte
+np.isin(a, [1, 2])            # Elemente prüfen
+np.argmax(a), np.argmin(a)   # Index max/min
+``` 
+**Referenz vs. Kopie**
+```python
+a = np.array([1, 2, 3])
+b = a                # Referenz (Änderung betrifft beide)
+c = a.copy()         # Echte Kopie
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4NjM0ODIzNF19
+eyJoaXN0b3J5IjpbLTE4NDU5ODkyOV19
 -->
