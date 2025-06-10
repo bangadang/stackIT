@@ -202,6 +202,11 @@ df["Kategorie"] = df["Wert"].apply(lambda x: "gut" if x > 80 else "ok")
 ```
 ### OOP
 ```python
+class ClassName(Class2InheritFrom):
+	def __init__(self):
+```
+
+```python
 class A:
     def __init__(self):
         print("A", end="")
@@ -229,5 +234,5 @@ if __name__ == "__main__":
 D → B → C → A
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODA5Mjg0MF19
+eyJoaXN0b3J5IjpbLTExMDA0MTEzODddfQ==
 -->
