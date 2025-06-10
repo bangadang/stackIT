@@ -195,7 +195,12 @@ df["Datum"] = pd.to_datetime(df["Datum"])
 df["Jahr"] = df["Datum"].dt.year
 df["Monat"] = df["Datum"].dt.month
 ```
+**bedingte Logik**
+```python
+df["Neu"] = np.where(df["Wert"] > 10, "hoch", "niedrig")
+df["Kategorie"] = df["Wert"].apply(lambda x: "gut" if x > 80 else "ok")
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4NDgyMjA5XX0=
+eyJoaXN0b3J5IjpbNzI4OTcyMTU1XX0=
 -->
