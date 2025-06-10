@@ -336,8 +336,34 @@ with open("datei.txt", "w", encoding="utf-8") as f:
 '''Schreiben (an Datei anhängen)'''
 with open("datei.txt", "a") as f:
     f.write("Neuer Inhalt")
-
 ```
+**CSV Dateien**
+```python
+import csv
+
+with open("daten.csv", newline='', encoding="utf-8") as f:
+    reader = csv.reader(f)
+    for zeile in reader:
+        print(zeile)
+
+'''als Dictionary einlesen'''
+with open("daten.csv", newline='') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        print(row["Name"], row["Alter"])
+
+'''Schreiben'''
+daten = [
+    ["Name", "Alter"],
+    ["Alice", 30],
+    ["Bob", 25]
+]
+
+with open("daten.csv", "w", newline='', encoding="utf-8") as f:
+    writer = csv.writer(f)
+    writer.writerows(daten)
+```
+**JSON**
 ### API Calls
 ```python
 import urllib.request
@@ -437,6 +463,6 @@ class Requester:
         self._data_retrieved = False
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzcxNzA2MywtMTA5MTgyMTk0Miw1Mz
-Q2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbNzc0ODI5NTU5LC0xMDkxODIxOTQyLDUzND
+Y2MDU1OCwtMjEzODY1MTc0NCwtMTI1NDM4MjAyM119
 -->
