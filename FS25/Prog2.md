@@ -363,7 +363,27 @@ with open("daten.csv", "w", newline='', encoding="utf-8") as f:
     writer = csv.writer(f)
     writer.writerows(daten)
 ```
-**JSON**
+**JSON Dateien**
+```python
+import json
+'''Lesen'''
+with open("daten.json", "r", encoding="utf-8") as f:
+    daten = json.load(f)
+    print(daten)
+
+'''Schreiben'''
+with open("daten.json", "w", encoding="utf-8") as f:
+    json.dump(daten, f, indent=4)
+```
+**Excel Dateien**
+```python
+import pandas as pd
+
+df = pd.read_excel("datei.xlsx")
+df["Alter"] += 1
+df.to_excel("neu.xlsx", index=False)
+```
+**BinärDateien**
 ### API Calls
 ```python
 import urllib.request
@@ -463,6 +483,6 @@ class Requester:
         self._data_retrieved = False
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0ODI5NTU5LC0xMDkxODIxOTQyLDUzND
+eyJoaXN0b3J5IjpbMzA3NTk3NDU5LC0xMDkxODIxOTQyLDUzND
 Y2MDU1OCwtMjEzODY1MTc0NCwtMTI1NDM4MjAyM119
 -->
