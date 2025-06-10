@@ -146,8 +146,26 @@ df["Alter"].value_counts()   # Häufigkeiten
 df.groupby("Stadt").mean()          # Mittelwert nach Gruppe
 df.groupby("Stadt")["Alter"].sum()  # Summe für eine Spalte
 ```
-
-
+**fehlende Werte**
+```python
+df.isnull(), df.notnull()          # Prüfen
+df.dropna()                        # Zeilen mit NaN entfernen
+df.fillna(0)                       # NaN ersetzen
+```
+**Daten umstrukturieren**
+```python
+df.T                           # Transponieren
+df.sort_values("Alter")       # Sortieren
+df.rename(columns={"Name": "Vorname"})
+df.set_index("Name")          # Index setzen
+df.reset_index()              # Index zurücksetzen
+```
+**Dataframes zusammenführen**
+```python
+pd.concat([df1, df2])              # Zeilen anhängen
+pd.merge(df1, df2, on="ID")        # SQL-Join
+df.append(neue_zeile, ignore_index=True)  # Zeile hinzufügen
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDMxMzMwM119
+eyJoaXN0b3J5IjpbMTUxNDMzNjA4Nl19
 -->
