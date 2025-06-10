@@ -318,8 +318,18 @@ def __class_getitem__(cls, key): pass             # Für generische Typen: MyCla
 def __instancecheck__(self, instance): pass       # isinstance(obj, cls)
 def __subclasscheck__(self, subclass): pass       # issubclass(sub, cls)
 ```
-###
+### API Calls
+```python
+import urllib.request
+
+url = "https://api.example.com/data"
+
+with urllib.request.urlopen(url) as response:
+    data = response.read().decode("utf-8")
+    print(data)
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzgyNjY1MjUsNTM0NjYwNTU4LC0yMT
-M4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbODUwNzI4NjU0LDUzNDY2MDU1OCwtMjEzOD
+Y1MTc0NCwtMTI1NDM4MjAyM119
 -->
