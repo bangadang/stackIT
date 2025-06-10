@@ -80,6 +80,8 @@ a = np.array([1, 2, 3])
 b = a                # Referenz (Änderung betrifft beide)
 c = a.copy()         # Echte Kopie
 ```
+### Pandas
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU5ODkyOV19
+eyJoaXN0b3J5IjpbLTEwNDcyNTQ0NDNdfQ==
 -->
