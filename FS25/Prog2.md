@@ -107,11 +107,16 @@ df.values      # NumPy-Array-Daten
 pd.read_json()
 pd.read_csv("daten.csv"/api url, sep=";")    # CSV-Datei
 pd.read_excel("daten.xlsx")          # Excel-Datei
-pd.read
+pd.read_html()
 df.to_csv("ausgabe.csv", index=False)
 df.to_excel("ausgabe.xlsx")
 ```
-
+**Datenzugriff**
+```python
+#SPALTENUGRIFF
+df["Name"]        # Als Series
+df.Name           # Kurzschreibweise (wenn kein Leerzeichen o. Sonderzeichen)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNzQwMjY4MV19
+eyJoaXN0b3J5IjpbOTk0OTM4MDY4XX0=
 -->
