@@ -128,7 +128,8 @@ df.iat[0, 0]
 df[ df["Alter"] > 25 ]      # Filter mit Bedingung
 df.loc[0:1, ["Name"]]       # Zeilen + Spalten
 ```
+*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTYzMDM1MF19
+eyJoaXN0b3J5IjpbLTM1MjE0Mjg3NF19
 -->
