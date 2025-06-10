@@ -342,8 +342,9 @@ with urllib.request.urlopen(url) as response:
 ```python
 	try:  
 	    headers = {  
-	        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '  
-	 'AppleWebKit/537.36 (KHTML, like Gecko) ' 'Chrome/122.0.0.0 Safari/537.36'  }  
+	        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+	        'AppleWebKit/537.36 (KHTML, like Gecko) ' 
+			'Chrome/122.0.0.0 Safari/537.36'  }  
 	      
 	    req = ur.Request(self._url, headers=headers)  
 	  
@@ -360,7 +361,69 @@ with urllib.request.urlopen(url) as response:
 	        exchange_rate_info = json.load(f)  
 	    return exchange_rate_info
 ```
+```python
+import datetime  
+import time  
+import urllib.request as ur  
+import json  
+  
+class Requester:  
+  MAX_REQUESTS = 5  
+  _HEADERS = {  
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '  
+					  'AppleWebKit/537.36 (KHTML, like Gecko) ' 
+					  'Chrome/122.0.0.0 Safari/537.36',  
+        'Accept': 'application/json'  
+  }  
+  
+    def __init__(self):  
+		self._URL = ""  
+	    self._data_retrieved = False  
+	    self._last_retrieval_date = None  
+	    self._data = None  
+	  self._failed_requests = 0  
+  
+  def set_url(self,url):  
+        """sets given url"""  
+  self._URL = url  
+  
+    def request_data(self):  
+        """  
+ Attempts to retrieve JSON data from the set URL.  
+ Retries the request up to MAX_REQUESTS times in case of failure, with exponential timeout. On success, stores the retrieved data and the current timestamp. """  while not self._data_retrieved and self._failed_requests < self.MAX_REQUESTS:  
+            try:  
+                req = ur.Request(self._URL, headers=self._HEADERS,  
+                                 method="GET")  
+                with ur.urlopen(req) as response:  
+                    #print(f"HTTP Status: {response.status}")  
+  s = response.read().decode("utf-8")  
+                    # print("Raw Response:\n",  
+ #       s[:500])  
+  self._data = json.loads(s)  
+                    self._data_retrieved = True  
+  self._last_retrieval_date = datetime.datetime.now()  
+                    self._failed_requests = 0  
+  # s = ur.urlopen(req).read().decode("utf-8")  
+ # self._data = json.loads(s) # self._data_retrieved = True # self._last_retrieval_date = datetime.datetime.now() # self._failed_requests = 0  
+  except Exception as e:  
+                print("Request failed because: ")  
+                print(f"{e}")  
+                print(f"Will reuqest again in {2 ** self._failed_requests}s")  
+                time.sleep(2 ** self._failed_requests)  
+                self._failed_requests += 1  
+  
+  def return_data(self):  
+        """returns requested data"""  
+  return self._data  
+  
+    def set_new_request(self, new_url):  
+        """Resets the internal state and sets a new URL for a fresh request."""  
+  self._URL = new_url  
+        self._data = None  
+  self._last_retrieval_date = None  
+  self._data_retrieved = False
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjE2NjQ5OTcsLTEwOTE4MjE5NDIsNT
-M0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbLTgwNTkyMDY0MiwtMTA5MTgyMTk0Miw1Mz
+Q2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
