@@ -53,7 +53,17 @@ a[0] = 100          # Einzelnes Element ändern
 b[:, 1] = 9         # Ganze Spalte ersetzen
 a[a > 3] = 0        # Alle Elemente >3 auf 0 setzen
 ```
+**Operationen**
+```python
+a + b              # Elementweise Addition
+a * 2              # Skalare Multiplikation
+np.add(a, b)       # Alternativ als Funktion
+np.sqrt(a)         # Wurzel
+np.mean(a)         # Mittelwert
+np.sum(a, axis=0)  # Summieren entlang Achse
+np.dot(a, b)       # Matrixprodukt (1D/2D)
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODgyNTgxM119
+eyJoaXN0b3J5IjpbMTI4NjM0ODIzNF19
 -->
