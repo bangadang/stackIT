@@ -128,8 +128,26 @@ df.iat[0, 0]
 df[ df["Alter"] > 25 ]      # Filter mit Bedingung
 df.loc[0:1, ["Name"]]       # Zeilen + Spalten
 ```
-*
+**Daten bearbeiten**
+```python
+df["Stadt"] = ["Berlin", "München"]       # Neue Spalte
+df.loc[1, "Alter"] = 35                   # Einzelwert ändern
+df["Alter"] = df["Alter"] + 1            # Spalte verändern
+```
+**Aggregation und Statistiken**
+```python
+df.mean(), df["Alter"].mean()
+df.sum(), df.min(), df.max()
+df.describe()                # Zusammenfassung
+df["Alter"].value_counts()   # Häufigkeiten
+```
+**Gruppieren**
+```python
+df.groupby("Stadt").mean()          # Mittelwert nach Gruppe
+df.groupby("Stadt")["Alter"].sum()  # Summe für eine Spalte
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjE0Mjg3NF19
+eyJoaXN0b3J5IjpbLTYzNDMxMzMwM119
 -->
