@@ -209,7 +209,7 @@ class ClassName(Class2InheritFrom):
 	def methods(self):
 		#do sth
 ```
-**Inheritance and Method Resolution Order**
+**Inheritance und Method Resolution Order**
 ```python
 class A:
     def __init__(self):
@@ -237,6 +237,8 @@ if __name__ == "__main__":
 # D.__mro__()
 D → B → C → A
 ```
+**Magic Methods**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDU5NjY1Nl19
+eyJoaXN0b3J5IjpbLTEyNTQzODIwMjNdfQ==
 -->
