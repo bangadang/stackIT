@@ -81,7 +81,23 @@ b = a                # Referenz (Änderung betrifft beide)
 c = a.copy()         # Echte Kopie
 ```
 ### Pandas
+**Series und Dataframe**
+```python
+import pandas as pd
+s = pd.Series([10, 20, 30], index=["a", "b", "c"])
+
+s.index      # Indexobjekt
+s.values     # NumPy-Array
+s.dtype      # Datentyp
+s.shape      # (3,)
+
+df = pd.DataFrame({
+    "Name": ["Alice", "Bob"],
+    "Alter": [25, 30]
+})
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDcyNTQ0NDNdfQ==
+eyJoaXN0b3J5IjpbLTE3MDk2NDE0OTRdfQ==
 -->
