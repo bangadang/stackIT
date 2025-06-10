@@ -124,8 +124,11 @@ df.at[0, "Name"]
 df.iat[0, 0]
 ```
 **Slicing und Filtern**
-```python```
+```python
+df[ df["Alter"] > 25 ]      # Filter mit Bedingung
+df.loc[0:1, ["Name"]]       # Zeilen + Spalten
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Njc3OTIzXX0=
+eyJoaXN0b3J5IjpbLTY1MTYzMDM1MF19
 -->
