@@ -381,31 +381,26 @@ class Requester:
 	    self._data_retrieved = False  
 	    self._last_retrieval_date = None  
 	    self._data = None  
-	  self._failed_requests = 0  
+	    self._failed_requests = 0  
   
   def set_url(self,url):  
-        """sets given url"""  
-  self._URL = url  
+	  self._URL = url  
   
     def request_data(self):  
-        """  
- Attempts to retrieve JSON data from the set URL.  
- Retries the request up to MAX_REQUESTS times in case of failure, with exponential timeout. On success, stores the retrieved data and the current timestamp. """  while not self._data_retrieved and self._failed_requests < self.MAX_REQUESTS:  
+        while not self._data_retrieved and self._failed_requests < self.MAX_REQUESTS:  
             try:  
-                req = ur.Request(self._URL, headers=self._HEADERS,  
+                req = ur.Request(self._URL, 
+				                 headers=self._HEADERS,  
                                  method="GET")  
                 with ur.urlopen(req) as response:  
                     #print(f"HTTP Status: {response.status}")  
-  s = response.read().decode("utf-8")  
-                    # print("Raw Response:\n",  
- #       s[:500])  
-  self._data = json.loads(s)  
-                    self._data_retrieved = True  
-  self._last_retrieval_date = datetime.datetime.now()  
-                    self._failed_requests = 0  
-  # s = ur.urlopen(req).read().decode("utf-8")  
- # self._data = json.loads(s) # self._data_retrieved = True # self._last_retrieval_date = datetime.datetime.now() # self._failed_requests = 0  
-  except Exception as e:  
+				    s = response.read().decode("utf-8")  
+                  
+				self._data = json.loads(s)  
+                self._data_retrieved = True  
+                self._last_retrieval_date = datetime.datetime.now()  
+                self._failed_requests = 0  
+	    except Exception as e:  
                 print("Request failed because: ")  
                 print(f"{e}")  
                 print(f"Will reuqest again in {2 ** self._failed_requests}s")  
@@ -413,17 +408,17 @@ class Requester:
                 self._failed_requests += 1  
   
   def return_data(self):  
-        """returns requested data"""  
-  return self._data  
+
+        return self._data  
   
     def set_new_request(self, new_url):  
         """Resets the internal state and sets a new URL for a fresh request."""  
-  self._URL = new_url  
+		self._URL = new_url  
         self._data = None  
-  self._last_retrieval_date = None  
-  self._data_retrieved = False
+        self._last_retrieval_date = None  
+        self._data_retrieved = False
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTkyMDY0MiwtMTA5MTgyMTk0Miw1Mz
-Q2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbNDQyMTQ5NjkyLC0xMDkxODIxOTQyLDUzND
+Y2MDU1OCwtMjEzODY1MTc0NCwtMTI1NDM4MjAyM119
 -->
