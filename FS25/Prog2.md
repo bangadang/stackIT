@@ -114,15 +114,17 @@ df.apply(func)                      # Funktion auf Zeile/Spalte
 df["Name"].str.upper()              # String-Methoden
 df["Datum"] = pd.to_datetime(df["Datum"])  # Datetime-Konvertierung
 
-df["Alter"] = df["Alter"].astype(int)
+df["Alter"] = df["Alter"].astype(int) #Typenkonvertierung
 
 ```
 **Daten einlesen & exportieren**
 ```python
-pd.read_json()
+pd.read_json("daten.json")  
 pd.read_csv("daten.csv"/api url, sep=";")    # CSV-Datei
 pd.read_excel("daten.xlsx")          # Excel-Datei
-pd.read_html()
+pd.read_html("https://...") 
+
+df.to_json("ausgabe.json")
 df.to_csv("ausgabe.csv", index=False)
 df.to_excel("ausgabe.xlsx")
 ```
@@ -181,6 +183,9 @@ pd.concat([df1, df2])              # Zeilen anhängen
 pd.merge(df1, df2, on="ID")        # SQL-Join
 df.append(neue_zeile, ignore_index=True)  # Zeile hinzufügen
 ```
+**Strings bearbeiten**
+```python
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE1ODk4MjldfQ==
+eyJoaXN0b3J5IjpbLTQ0MDIxNjIwOF19
 -->
