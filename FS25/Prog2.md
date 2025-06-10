@@ -1,3 +1,6 @@
+### Basics
+-   **Immutable (unveränderlich)**: `int`, `float`, `complex`, `bool`, `str`, `tuple`, `range`, `frozenset`, `bytes`, `NoneType`
+-   **Mutable (veränderlich)**: `list`, `set`, `dict`, `bytearray`, `memoryview`, `function*`, `module*`
 ### Numpy 
 **Erzeugung**
 ```python
@@ -317,6 +320,6 @@ def __subclasscheck__(self, subclass): pass       # issubclass(sub, cls)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ
-==
+eyJoaXN0b3J5IjpbNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMj
+U0MzgyMDIzXX0=
 -->
