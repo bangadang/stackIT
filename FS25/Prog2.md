@@ -558,45 +558,30 @@ Jedes Element wird an der richtigen Stelle in die bereits sortierte Teilliste ei
 | Fall | Laufzeit |
 |--|--|
 | Best Case | O(n) (bereits sortiert) |
-|  |  |
-|  |  |
-O(n²)
+| Average Case | O(n²) |
+| Worst Case | O(n²) (umgekehrt sortiert) |
 
-Worst Case
-
-O(n²) (umgekehrt sortiert)
-
-**Praxisbeispiel:**
-
--   Sehr langsam bei großen Datenmengen.
-    
+-   Sehr langsam bei großen Datenmengen.    
 -   Schnell für kleine, fast sortierte Listen.
-    
 
-----------
-
-## 2️⃣ **Quicksort**
-
+**Quicksort**
 **Idee:**  
 Ein Divide-and-Conquer-Algorithmus. Nutzt ein „Pivot“-Element zum Aufteilen der Liste in kleinere (kleiner als Pivot) und größere (größer als Pivot) Teile, die rekursiv sortiert werden.
-
 **Ablauf:**
-
 1.  Wähle zufällig ein Pivot-Element.
-    
 2.  Teile Liste in:
-    
     -   links: ≤ Pivot
-        
     -   rechts: > Pivot
-        
 3.  Sortiere beide Seiten rekursiv.
-    
 4.  (Keine Kombination notwendig, da In-place-Sortierung)
     
 
 **Komplexität:**
-
+| Fall | Laufzeit |
+|--|--|
+| Best Case | O(n) (bereits sortiert) |
+| Average Case | O(n²) |
+| Worst Case | O(n²) (umgekehrt sortiert) |
 Fall
 
 Laufzeit
@@ -753,7 +738,7 @@ O(n + k)
 ✅ Ja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzEyNjk2NywxODI2ODcxODIsLTQwOT
+eyJoaXN0b3J5IjpbMTU1OTEwODg5NywxODI2ODcxODIsLTQwOT
 c0Mzk0OSwzODMzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4
 LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
 -->
