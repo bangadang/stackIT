@@ -658,9 +658,23 @@ Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, w
 -   Keine Vergleichsoperationen nötig → extrem schnell.
  
  ### Testing
- **Assertions
+ **Assertions**
+Prüfen **logische Bedingungen** während der Laufzeit
+```python
+assert a < 10, "a ist zu groß"
+assert abs(a**2 + b**2 - c**2) < 1e-5  # Pythagoras-Check
+assert isinstance(p, Person)
+```
+**Unit Testing**
+```python
+import unittest
+
+class TestSum(unittest.TestCase):
+    def test_sum(self):
+        self.assertEqual(sum([1, 2, 3]), 6)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzgwMjE0OSwxNjI1NzM3NTc5LDE5Nz
+eyJoaXN0b3J5IjpbMTI1OTkxOTk2NCwxNjI1NzM3NTc5LDE5Nz
 U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
 LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
 I1NDM4MjAyM119
