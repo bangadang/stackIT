@@ -1,6 +1,10 @@
 ### Basics
 -   **Immutable (unveränderlich)**: `int`, `float`, `complex`, `bool`, `str`, `tuple`, `range`, `frozenset`, `bytes`, `NoneType`
 -   **Mutable (veränderlich)**: `list`, `set`, `dict`, `bytearray`, `memoryview`, `function*`, `module*`
+
+**String formatting**
+
+
 ### Numpy 
 **Erzeugung**
 ```python
@@ -329,7 +333,7 @@ with open("datei.txt", "r") as f:
     for zeile in f:
         print(zeile.strip())
 
-'''Scheiben (überschreibt Datei)'''
+'''Schreiben (überschreibt Datei)'''
 with open("datei.txt", "w", encoding="utf-8") as f:
     f.write("Neuer Inhalt")
 
@@ -636,7 +640,8 @@ Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, w
 -   Keine Vergleichsoperationen nötig → extrem schnell.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTg2MjExMSwxODI2ODcxODIsLTQwOT
-c0Mzk0OSwzODMzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4
-LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbMTYyNTczNzU3OSwxOTc1ODYyMTExLDE4Mj
+Y4NzE4MiwtNDA5NzQzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0
+Miw1MzQ2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ
+==
 -->
