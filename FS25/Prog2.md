@@ -233,6 +233,9 @@ df = pd.DataFrame({
 })
 df.plot()
 df.plot(kind="line", title="Line Plot", figsize=(8, 4), legend=True)
+
+df.plot.scatter(x="A", y="B", c="C", colormap="viridis")
+df.plot.hist(alpha=0.5, bins=10)
 ```
 
 | Plot Type         | Syntax Example                               | Description                      |
@@ -246,6 +249,15 @@ df.plot(kind="line", title="Line Plot", figsize=(8, 4), legend=True)
 | `area`            | `df.plot(kind="area")`                        | Area chart                       |
 | `pie`             | `df["A"].plot(kind="pie")`                    | Pie chart (Series only)          |
 | `scatter`         | `df.plot.scatter(x="A", y="B")`               | Scatter plot
+
+| Parameter        | Purpose                                |
+|------------------|----------------------------------------|
+| `title`          | Set plot title                         |
+| `figsize`        | Size in inches `(width, height)`       |
+| `color`          | Set color(s)                           |
+| `legend`         | Show legend                            |
+| `grid`           | Show grid lines                        |
+| `xlabel`, `ylabel` | Set axis labels                     |
 
 
 ### OOP
@@ -697,8 +709,8 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum([1, 2, 3]), 6)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMjc5NTkwLDE2MjU3Mzc1NzksMTk3NT
-g2MjExMSwxODI2ODcxODIsLTQwOTc0Mzk0OSwzODMzMTUyOTcs
-LTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMj
-U0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbMTg5OTg2NTA5MiwxNjI1NzM3NTc5LDE5Nz
+U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
+LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
+I1NDM4MjAyM119
 -->
