@@ -491,9 +491,14 @@ class Requester:
         self._data_retrieved = False
 ```
 ### Optimization
+**Datenverarbeitung**
+|  |  |  |
+|--|--|--|
+|  |  |
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTc0Mzk0OSwzODMzMTUyOTcsLTEwOT
-E4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMjU0Mzgy
-MDIzXX0=
+eyJoaXN0b3J5IjpbLTE2OTE0MTY1MjMsLTQwOTc0Mzk0OSwzOD
+MzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUx
+NzQ0LC0xMjU0MzgyMDIzXX0=
 -->
