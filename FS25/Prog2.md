@@ -232,7 +232,21 @@ df = pd.DataFrame({
     "B": [4, 2, 1]
 })
 df.plot()
+df.plot(kind="line", title="Line Plot", figsize=(8, 4), legend=True)
 ```
+
+| Plot Type         | Syntax Example                               | Description                      |
+|-------------------|----------------------------------------------|----------------------------------|
+| `line`            | `df.plot(kind="line")`                        | Default; for trends              |
+| `bar`             | `df.plot(kind="bar")`                         | Vertical bar chart               |
+| `barh`            | `df.plot(kind="barh")`                        | Horizontal bar chart             |
+| `hist`            | `df.plot(kind="hist")`                        | Histogram                        |
+| `box`             | `df.plot(kind="box")`                         | Box plot                         |
+| `kde` / `density` | `df.plot(kind="kde")`                         | Kernel Density Estimation        |
+| `area`            | `df.plot(kind="area")`                        | Area chart                       |
+| `pie`             | `df["A"].plot(kind="pie")`                    | Pie chart (Series only)          |
+| `scatter`         | `df.plot.scatter(x="A", y="B")`               | Scatter plot
+
 
 ### OOP
 ```python
@@ -683,8 +697,8 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum([1, 2, 3]), 6)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyODc0NTU2OCwxNjI1NzM3NTc5LDE5Nz
-U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
-LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
-I1NDM4MjAyM119
+eyJoaXN0b3J5IjpbNDgyMjc5NTkwLDE2MjU3Mzc1NzksMTk3NT
+g2MjExMSwxODI2ODcxODIsLTQwOTc0Mzk0OSwzODMzMTUyOTcs
+LTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMj
+U0MzgyMDIzXX0=
 -->
