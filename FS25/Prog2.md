@@ -625,48 +625,20 @@ Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, w
     
 
 **Komplexität:**
-
-Fall
-
-Laufzeit
-
-Immer
-
-O(n + k)
-
+| Fall | Laufzeit |
+|--|--|
+| Immer | O(n + k) |
 -   `n`: Anzahl der Elemente
-    
 -   `k`: Bereich der Werte (maximaler Wert)
-    
-
-**Praxiswerte (gemessen):**
-
-Elemente
-
-Zeit
-
-1.000
-
-0.009 s
-
-10.000
-
-0.002 s
-
-1.000.000
-
-0.4 s
 
 **Voraussetzung:**
-
 -   Wertebereich muss klein und positiv sein.
-    
 -   Keine Vergleichsoperationen nötig → extrem schnell.
-    
-
-----------
-
-## 🔢 **Vergleich aller Sortierverfahren**
+ 
+**Vergleich aller Sortierverfahren**
+|  |  |
+|--|--|
+|  |  |
 
 Algorithmus
 
@@ -723,7 +695,7 @@ O(n + k)
 ✅ Ja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5MjIyNDA2LDE4MjY4NzE4MiwtNDA5Nz
-QzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgs
-LTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbODk0MzQ5NDMsMTgyNjg3MTgyLC00MDk3ND
+M5NDksMzgzMzE1Mjk3LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwt
+MjEzODY1MTc0NCwtMTI1NDM4MjAyM119
 -->
