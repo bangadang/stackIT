@@ -575,7 +575,6 @@ Ein Divide-and-Conquer-Algorithmus. Nutzt ein „Pivot“-Element zum Aufteilen 
 3.  Sortiere beide Seiten rekursiv.
 4.  (Keine Kombination notwendig, da In-place-Sortierung)
     
-
 **Komplexität:**
 | Fall | Laufzeit |
 |--|--|
@@ -583,9 +582,12 @@ Ein Divide-and-Conquer-Algorithmus. Nutzt ein „Pivot“-Element zum Aufteilen 
 | Average Case | O(n log n) |
 | Worst Case | O(n²) (schlechtes Pivot) |
 
+Ein **"schlechter Pivot"** ist ein Wert, der beim Partitionieren eine **extrem ungleichmäßige Aufteilung** erzeugt.
+
 **Besonderheit:**
 -   Schneller als InsertionSort für große Listen.
 -   Wird häufig verwendet (z. B. Python's `sorted()` basiert auf TimSort, was Quicksort-ähnlich ist).
+
 ```python
 import random
 
@@ -612,18 +614,13 @@ def partition(arr, start, end):
     arr[i + 1], arr[end] = arr[end], arr[i + 1]
     return i + 1
 ```
-
 **Count Sort**
-
 **Idee:**  
 Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, wenn **alle Werte in einem kleinen, bekannten Bereich liegen**.
 
 **Ablauf:**
-
 1.  Erstelle ein Zählarray der Größe `max+1`.
-    
 2.  Iteriere durch die Eingabe und erhöhe den jeweiligen Zähler.
-    
 3.  Erzeuge daraus die sortierte Liste.
     
 
@@ -726,7 +723,7 @@ O(n + k)
 ✅ Ja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzA5MDY1NCwxODI2ODcxODIsLTQwOT
-c0Mzk0OSwzODMzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4
-LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbNDQ5MjIyNDA2LDE4MjY4NzE4MiwtNDA5Nz
+QzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgs
+LTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
