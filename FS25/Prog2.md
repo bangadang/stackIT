@@ -544,9 +544,227 @@ Ausgabe enthält:
 **Nachteile**:
 -   Nicht 100 % kompatibel mit allen Bibliotheken
 -   Manche Pakete wie NumPy schlechter unterstützt
+### Sorting Algos und Performance
+## **Insertion Sort (auch: „Card Sort“)**
+
+**Idee:**  
+Jedes Element wird an der richtigen Stelle in die bereits sortierte Teilliste eingefügt. Ähnlich wie Kartensortieren mit der Hand.
+
+**Ablauf:**
+
+-   Iteriere durch die Liste von links nach rechts.
+    
+-   Vergleiche jedes Element rückwärts mit dem bereits sortierten Teil.
+    
+-   Füge es an der korrekten Stelle ein (mittels Austausch).
+    
+
+**Komplexität:**
+
+Fall
+
+Laufzeit
+
+Best Case
+
+O(n) (bereits sortiert)
+
+Average Case
+
+O(n²)
+
+Worst Case
+
+O(n²) (umgekehrt sortiert)
+
+**Praxisbeispiel:**
+
+-   Sehr langsam bei großen Datenmengen.
+    
+-   Schnell für kleine, fast sortierte Listen.
+    
+
+----------
+
+## 2️⃣ **Quicksort**
+
+**Idee:**  
+Ein Divide-and-Conquer-Algorithmus. Nutzt ein „Pivot“-Element zum Aufteilen der Liste in kleinere (kleiner als Pivot) und größere (größer als Pivot) Teile, die rekursiv sortiert werden.
+
+**Ablauf:**
+
+1.  Wähle zufällig ein Pivot-Element.
+    
+2.  Teile Liste in:
+    
+    -   links: ≤ Pivot
+        
+    -   rechts: > Pivot
+        
+3.  Sortiere beide Seiten rekursiv.
+    
+4.  (Keine Kombination notwendig, da In-place-Sortierung)
+    
+
+**Komplexität:**
+
+Fall
+
+Laufzeit
+
+Best Case
+
+O(n log n)
+
+Average Case
+
+O(n log n)
+
+Worst Case
+
+O(n²) (schlechtes Pivot)
+
+**Praxiswerte (gemessen):**
+
+Elemente
+
+Zeit
+
+1.000
+
+0.013 s
+
+10.000
+
+0.144 s
+
+1.000.000
+
+120 s (2 min)
+
+**Besonderheit:**
+
+-   Schneller als InsertionSort für große Listen.
+    
+-   Wird häufig verwendet (z. B. Python's `sorted()` basiert auf TimSort, was Quicksort-ähnlich ist).
+    
+
+----------
+
+## 3️⃣ **Count Sort**
+
+**Idee:**  
+Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, wenn **alle Werte in einem kleinen, bekannten Bereich liegen**.
+
+**Ablauf:**
+
+1.  Erstelle ein Zählarray der Größe `max+1`.
+    
+2.  Iteriere durch die Eingabe und erhöhe den jeweiligen Zähler.
+    
+3.  Erzeuge daraus die sortierte Liste.
+    
+
+**Komplexität:**
+
+Fall
+
+Laufzeit
+
+Immer
+
+O(n + k)
+
+-   `n`: Anzahl der Elemente
+    
+-   `k`: Bereich der Werte (maximaler Wert)
+    
+
+**Praxiswerte (gemessen):**
+
+Elemente
+
+Zeit
+
+1.000
+
+0.009 s
+
+10.000
+
+0.002 s
+
+1.000.000
+
+0.4 s
+
+**Voraussetzung:**
+
+-   Wertebereich muss klein und positiv sein.
+    
+-   Keine Vergleichsoperationen nötig → extrem schnell.
+    
+
+----------
+
+## 🔢 **Vergleich aller Sortierverfahren**
+
+Algorithmus
+
+Strategie
+
+Beste Laufzeit
+
+Durchschnitt
+
+Schlechteste
+
+Stabil?
+
+Voraussetzung
+
+Insertion Sort
+
+Vergleichsbasiert
+
+O(n)
+
+O(n²)
+
+O(n²)
+
+✅ Ja
+
+Gut für kleine Listen
+
+Quicksort
+
+Divide & Conquer
+
+O(n log n)
+
+O(n log n)
+
+O(n²)
+
+❌ Nein
+
+Pivotwahl ist kritisch
+
+Count Sort
+
+Zählverfahren
+
+O(n + k)
+
+O(n + k)
+
+O(n + k)
+
+✅ Ja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMz
-E1Mjk3LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0
-NCwtMTI1NDM4MjAyM119
+eyJoaXN0b3J5IjpbNjY4OTAzODEyLDE4MjY4NzE4MiwtNDA5Nz
+QzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgs
+LTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
