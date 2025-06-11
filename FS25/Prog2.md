@@ -492,23 +492,31 @@ class Requester:
 ```
 ### Optimization
 **Datenverarbeitung**
-
 ```python 
 '''SLOW: Standard-Loop'''
 newlist = []
 for word in oldlist:
     newlist.append(word)
 
-'''FASTER: map Funktio'''
+'''FASTER: map Funktion'''
 newlist = map(str, oldlist)
 
-'''FASTEST'''
+'''FASTEST in place list comprehension'''
 newlist = [s.upper() for s in oldlist]
+```
+**Imports**
+```python
+'''SLOW: Imports in Loops/Funktionen'''
+def func():
+    import math
+    math.sqrt(4)
+
+'''FAST: Import am Dateianfang'''
 
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTU5NzkxMSwtNDA5NzQzOTQ5LDM4Mz
-MxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgsLTIxMzg2NTE3
-NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbLTEwMTczMTY5MjUsLTQwOTc0Mzk0OSwzOD
+MzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUx
+NzQ0LC0xMjU0MzgyMDIzXX0=
 -->
