@@ -3,7 +3,7 @@
 -   **Mutable (veränderlich)**: `list`, `set`, `dict`, `bytearray`, `memoryview`, `function*`, `module*`
 
 **String formatting**
-
+````
 
 ### Numpy 
 **Erzeugung**
@@ -640,8 +640,8 @@ Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, w
 -   Keine Vergleichsoperationen nötig → extrem schnell.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTczNzU3OSwxOTc1ODYyMTExLDE4Mj
-Y4NzE4MiwtNDA5NzQzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0
-Miw1MzQ2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ
-==
+eyJoaXN0b3J5IjpbMTQ3NDM4NTI1OSwxNjI1NzM3NTc5LDE5Nz
+U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
+LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
+I1NDM4MjAyM119
 -->
