@@ -579,47 +579,12 @@ Ein Divide-and-Conquer-Algorithmus. Nutzt ein „Pivot“-Element zum Aufteilen 
 **Komplexität:**
 | Fall | Laufzeit |
 |--|--|
-| Best Case | O(n) (bereits sortiert) |
-| Average Case | O(n²) |
-| Worst Case | O(n²) (umgekehrt sortiert) |
-Fall
-
-Laufzeit
-
-Best Case
-
-O(n log n)
-
-Average Case
-
-O(n log n)
-
-Worst Case
-
-O(n²) (schlechtes Pivot)
-
-**Praxiswerte (gemessen):**
-
-Elemente
-
-Zeit
-
-1.000
-
-0.013 s
-
-10.000
-
-0.144 s
-
-1.000.000
-
-120 s (2 min)
+| Best Case | O(n log n)  |
+| Average Case | O(n log n) |
+| Worst Case | O(n²) (schlechtes Pivot) |
 
 **Besonderheit:**
-
 -   Schneller als InsertionSort für große Listen.
-    
 -   Wird häufig verwendet (z. B. Python's `sorted()` basiert auf TimSort, was Quicksort-ähnlich ist).
     
 
@@ -738,7 +703,7 @@ O(n + k)
 ✅ Ja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTEwODg5NywxODI2ODcxODIsLTQwOT
-c0Mzk0OSwzODMzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4
-LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbNjg4OTM5NDU2LDE4MjY4NzE4MiwtNDA5Nz
+QzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgs
+LTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
