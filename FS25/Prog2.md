@@ -492,13 +492,14 @@ class Requester:
 ```
 ### Optimization
 **Datenverarbeitung**
-|  |  |  |
-|--|--|--|
-|  |  |
-
+- slow:
+	- ```python 
+	newlist = []
+for word in oldlist:
+    newlist.append(word)```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE0MTY1MjMsLTQwOTc0Mzk0OSwzOD
+eyJoaXN0b3J5IjpbLTE4MTM2MTQyNDEsLTQwOTc0Mzk0OSwzOD
 MzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUx
 NzQ0LC0xMjU0MzgyMDIzXX0=
 -->
