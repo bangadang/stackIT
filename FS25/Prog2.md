@@ -3,7 +3,26 @@
 -   **Mutable (veränderlich)**: `list`, `set`, `dict`, `bytearray`, `memoryview`, `function*`, `module*`
 
 **String formatting**
-````
+```python
+"Hallo, {}!".format("Alice")                        # Standard
+"Hallo, {0}. Du bist {1} Jahre alt.".format("Bob", 30)
+"Hallo, {name}!".format(name="Alice")              # Schlüsselwortargumente
+"{:>10}".format("Text")                             # rechtsbündig
+"{:.2f}".format(3.14159)                            # Rundung
+
+{:<10}   # linksbündig
+{:>10}   # rechtsbündig
+{:^10}   # zentriert
+{:.2f}   # 2 Nachkommastellen
+{:,}     # Tausendertrennzeichen
+
+name = "Alice"
+age = 30
+f"Hallo, {name}. Du bist {age} Jahre alt."
+f"Nächstes Jahr wirst du {age + 1} sein."
+f"{3.14159:.2f}"       # Formatierung innerhalb des Platzhalters
+
+```
 
 ### Numpy 
 **Erzeugung**
@@ -640,8 +659,8 @@ Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, w
 -   Keine Vergleichsoperationen nötig → extrem schnell.
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDM4NTI1OSwxNjI1NzM3NTc5LDE5Nz
-U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
-LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
-I1NDM4MjAyM119
+eyJoaXN0b3J5IjpbMzM1Mzg4Nzg1LDE2MjU3Mzc1NzksMTk3NT
+g2MjExMSwxODI2ODcxODIsLTQwOTc0Mzk0OSwzODMzMTUyOTcs
+LTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMj
+U0MzgyMDIzXX0=
 -->
