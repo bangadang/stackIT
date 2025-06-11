@@ -545,32 +545,21 @@ Ausgabe enthält:
 -   Nicht 100 % kompatibel mit allen Bibliotheken
 -   Manche Pakete wie NumPy schlechter unterstützt
 ### Sorting Algos und Performance
-## **Insertion Sort (auch: „Card Sort“)**
-
+**Insertion Sort (auch: „Card Sort“)**
 **Idee:**  
 Jedes Element wird an der richtigen Stelle in die bereits sortierte Teilliste eingefügt. Ähnlich wie Kartensortieren mit der Hand.
 
 **Ablauf:**
-
--   Iteriere durch die Liste von links nach rechts.
-    
--   Vergleiche jedes Element rückwärts mit dem bereits sortierten Teil.
-    
--   Füge es an der korrekten Stelle ein (mittels Austausch).
-    
-
+-   Iteriere durch die Liste von links nach rechts. 
+-   Vergleiche jedes Element rückwärts mit dem bereits sortierten Teil. 
+-   Füge es an der korrekten Stelle ein (mittels Austausch)
 **Komplexität:**
 
-Fall
-
-Laufzeit
-
-Best Case
-
-O(n) (bereits sortiert)
-
-Average Case
-
+| Fall | Laufzeit |
+|--|--|
+| Best Case | O(n) (bereits sortiert) |
+|  |  |
+|  |  |
 O(n²)
 
 Worst Case
@@ -764,7 +753,7 @@ O(n + k)
 ✅ Ja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY4OTAzODEyLDE4MjY4NzE4MiwtNDA5Nz
-QzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgs
-LTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbMTg0NzEyNjk2NywxODI2ODcxODIsLTQwOT
+c0Mzk0OSwzODMzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4
+LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
 -->
