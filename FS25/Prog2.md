@@ -225,6 +225,14 @@ df["Monat"] = df["Datum"].dt.month
 df["Neu"] = np.where(df["Wert"] > 10, "hoch", "niedrig")
 df["Kategorie"] = df["Wert"].apply(lambda x: "gut" if x > 80 else "ok")
 ```
+**Plotting**
+```python
+df = pd.DataFrame({
+    "A": [1, 2, 3],
+    "B": [4, 2, 1]
+})
+df.plot()
+```
 
 ### OOP
 ```python
@@ -675,8 +683,8 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum([1, 2, 3]), 6)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODI4MzgsMTYyNTczNzU3OSwxOTc1OD
-YyMTExLDE4MjY4NzE4MiwtNDA5NzQzOTQ5LDM4MzMxNTI5Nywt
-MTA5MTgyMTk0Miw1MzQ2NjA1NTgsLTIxMzg2NTE3NDQsLTEyNT
-QzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbMTUyODc0NTU2OCwxNjI1NzM3NTc5LDE5Nz
+U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
+LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
+I1NDM4MjAyM119
 -->
