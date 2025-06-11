@@ -531,9 +531,17 @@ val += func(i, i + 1)
 import profile
 profile.run('quicksort(my_list, 0, len(my_list)-1)')
 ```
+Ausgabe enthält:
+-   `ncalls`: wie oft Funktion aufgerufen 
+-   `tottime`: reine Zeit in dieser Funktion
+-   `cumtime`: Zeit inklusive aufgerufener Subfunktionen
+-   `percall`: Zeit pro Aufruf
+ 
+ Ein Programm kann auch mit einem Alternativen Interpreter 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc3MDUxOTgsLTQwOTc0Mzk0OSwzOD
-MzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUx
-NzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbMTczMjE3Nzg1NCwtNDA5NzQzOTQ5LDM4Mz
+MxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgsLTIxMzg2NTE3
+NDQsLTEyNTQzODIwMjNdfQ==
 -->
