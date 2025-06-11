@@ -21,7 +21,6 @@ age = 30
 f"Hallo, {name}. Du bist {age} Jahre alt."
 f"Nächstes Jahr wirst du {age + 1} sein."
 f"{3.14159:.2f}"       # Formatierung innerhalb des Platzhalters
-
 ```
 
 ### Numpy 
@@ -658,9 +657,11 @@ Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, w
 -   Wertebereich muss klein und positiv sein.
 -   Keine Vergleichsoperationen nötig → extrem schnell.
  
+ ### Testing
+ **Assertions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1Mzg4Nzg1LDE2MjU3Mzc1NzksMTk3NT
-g2MjExMSwxODI2ODcxODIsLTQwOTc0Mzk0OSwzODMzMTUyOTcs
-LTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUxNzQ0LC0xMj
-U0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbLTM5MzgwMjE0OSwxNjI1NzM3NTc5LDE5Nz
+U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
+LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
+I1NDM4MjAyM119
 -->
