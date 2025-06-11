@@ -537,11 +537,16 @@ Ausgabe enthält:
 -   `cumtime`: Zeit inklusive aufgerufener Subfunktionen
 -   `percall`: Zeit pro Aufruf
  
- Ein Programm kann auch mit einem Alternativen Interpreter 
-
+ Ein Programm kann auch mit einem Alternativen Interpreter wie PyPy verschnellert werden.
+ **Vorteile**:
+ - Just-in-Time Compiler → viel schnellere Ausführung
+-  Kein Code muss geändert werden
+**Nachteile**:
+-   Nicht 100 % kompatibel mit allen Bibliotheken
+-   Manche Pakete wie NumPy schlechter unterstützt
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjE3Nzg1NCwtNDA5NzQzOTQ5LDM4Mz
-MxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgsLTIxMzg2NTE3
-NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMz
+E1Mjk3LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0
+NCwtMTI1NDM4MjAyM119
 -->
