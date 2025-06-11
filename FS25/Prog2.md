@@ -512,11 +512,28 @@ def func():
     math.sqrt(4)
 
 '''FAST: Import am Dateianfang'''
+import math
+def func():
+    math.sqrt(4)
+```
+**Funktionsaufrufe**
+Funktionsaufrufe kosten Performance, besonders bei vielen Wiederholungen.
+```python
+# Direkt in der Schleife (schneller)
+val += i + i + 1
 
+# Durch Funktion (langsamer)
+def func(a, b): return a + b
+val += func(i, i + 1)
+```
+### Profiling
+```python
+import profile
+profile.run('quicksort(my_list, 0, len(my_list)-1)')
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTczMTY5MjUsLTQwOTc0Mzk0OSwzOD
+eyJoaXN0b3J5IjpbLTE4MDc3MDUxOTgsLTQwOTc0Mzk0OSwzOD
 MzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUx
 NzQ0LC0xMjU0MzgyMDIzXX0=
 -->
