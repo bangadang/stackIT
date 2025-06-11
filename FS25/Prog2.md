@@ -492,14 +492,23 @@ class Requester:
 ```
 ### Optimization
 **Datenverarbeitung**
-- slow:
-	- ```python 
-	newlist = []
+
+```python 
+'''SLOW: Standard-Loop'''
+newlist = []
 for word in oldlist:
-    newlist.append(word)```
+    newlist.append(word)
+
+'''FASTER: map Funktio'''
+newlist = map(str, oldlist)
+
+'''FASTEST'''
+newlist = [s.upper() for s in oldlist]
+
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM2MTQyNDEsLTQwOTc0Mzk0OSwzOD
-MzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4LC0yMTM4NjUx
-NzQ0LC0xMjU0MzgyMDIzXX0=
+eyJoaXN0b3J5IjpbMTIzMTU5NzkxMSwtNDA5NzQzOTQ5LDM4Mz
+MxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgsLTIxMzg2NTE3
+NDQsLTEyNTQzODIwMjNdfQ==
 -->
