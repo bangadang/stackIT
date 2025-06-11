@@ -586,11 +586,34 @@ Ein Divide-and-Conquer-Algorithmus. Nutzt ein „Pivot“-Element zum Aufteilen 
 **Besonderheit:**
 -   Schneller als InsertionSort für große Listen.
 -   Wird häufig verwendet (z. B. Python's `sorted()` basiert auf TimSort, was Quicksort-ähnlich ist).
-    
+```python
+import random
 
-----------
+def quicksort(arr, start, end):
+    if start < end:
+        pivot_index = partition(arr, start, end)
+        quicksort(arr, start, pivot_index - 1)
+        quicksort(arr, pivot_index + 1, end)
 
-## 3️⃣ **Count Sort**
+def partition(arr, start, end):
+    # Zufälliges Pivot auswählen
+    pivot_index = random.randint(start, end)
+    pivot = arr[pivot_index]
+    # Pivot ans Ende tauschen
+    arr[pivot_index], arr[end] = arr[end], arr[pivot_index]
+
+    i = start - 1
+    for j in range(start, end):
+        if arr[j] <= pivot:
+            i += 1
+            arr[i], arr[j] = arr[j], arr[i]
+
+    # Pivot an die richtige Stelle setzen
+    arr[i + 1], arr[end] = arr[end], arr[i + 1]
+    return i + 1
+```
+
+**Count Sort**
 
 **Idee:**  
 Zählt die Anzahl der Vorkommen von Elementen in einer Liste – nur sinnvoll, wenn **alle Werte in einem kleinen, bekannten Bereich liegen**.
@@ -703,7 +726,7 @@ O(n + k)
 ✅ Ja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4OTM5NDU2LDE4MjY4NzE4MiwtNDA5Nz
-QzOTQ5LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgs
-LTIxMzg2NTE3NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbMTYxNzA5MDY1NCwxODI2ODcxODIsLTQwOT
+c0Mzk0OSwzODMzMTUyOTcsLTEwOTE4MjE5NDIsNTM0NjYwNTU4
+LC0yMTM4NjUxNzQ0LC0xMjU0MzgyMDIzXX0=
 -->
