@@ -105,6 +105,25 @@ a = np.array([1, 2, 3])
 b = a                # Referenz (Änderung betrifft beide)
 c = a.copy()         # Echte Kopie
 ```
+**Beispiel Code Probeprüfung**
+```python
+def percentarray(arr):  
+    arr2 = arr.copy()  
+    sum = arr.sum()  
+    arr2 = arr2/sum  
+    assert arr2.sum() == 1  
+  return arr2  
+  
+if __name__ == "__main__":  
+    arr = np.array([[1,2,3,4,5],  
+                    [6,7,8,9,10],  
+                    [11,12,13,14,15]])  
+    print(percentarray(arr))  
+    my_arr = my_array = np.array([[1,2,3],[4,5,6],[7,8,9]])  
+    my_bool_arr = my_arr > 5  
+  print(my_bool_arr)
+```
+
 ### Pandas
 **Series und Dataframe**
 ```python
@@ -709,8 +728,8 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum([1, 2, 3]), 6)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTg2NTA5MiwxNjI1NzM3NTc5LDE5Nz
-U4NjIxMTEsMTgyNjg3MTgyLC00MDk3NDM5NDksMzgzMzE1Mjk3
-LC0xMDkxODIxOTQyLDUzNDY2MDU1OCwtMjEzODY1MTc0NCwtMT
-I1NDM4MjAyM119
+eyJoaXN0b3J5IjpbOTkyODk4MzE1LDE4OTk4NjUwOTIsMTYyNT
+czNzU3OSwxOTc1ODYyMTExLDE4MjY4NzE4MiwtNDA5NzQzOTQ5
+LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgsLTIxMz
+g2NTE3NDQsLTEyNTQzODIwMjNdfQ==
 -->
