@@ -488,6 +488,51 @@ with urllib.request.urlopen(url) as response:
 	    print(row)
 
 ```
+**Beispiel mit Queue und Threads**
+```python
+import urllib.request
+import json
+import threading
+import queue
+
+class NewsFetcher:
+    def __init__(self, url):
+        self.url = url
+        self.news_queue = queue.Queue()
+        self.thread = threading.Thread(target=self.get_news)
+        self.thread.daemon = True  # Thread beendet sich mit dem Hauptprogramm
+
+    def start(self):
+        self.thread.start()
+
+    def get_news(self):
+        try:
+            with urllib.request.urlopen(self.url) as response:
+                data = response.read()
+                json_data = json.loads(data)
+                # Wenn die JSON-Daten eine Liste von Nachrichten enthalten:
+                for item in json_data:
+                    self.news_queue.put(item)
+                # Signal, dass keine weiteren Daten folgen
+                self.news_queue.put(None)
+        except Exception as e:
+            print(f"Fehler beim Laden der Daten: {e}")
+            self.news_queue.put(None)
+
+    def process_news(self):
+        while True:
+            item = self.news_queue.get()
+            if item is None:
+                break
+            print("Verarbeite Nachricht:", item)  # hier würde echte Verarbeitung stattfinden
+
+# Beispielverwendung
+if __name__ == "__main__":
+    url = "https://example.com/news.json"  # Beispiel-URL, durch echte ersetzen
+    fetcher = NewsFetcher(url)
+    fetcher.start()
+    fetcher.process_news()
+```
 **Beispiel Code mit Erweiterungen**
 ```python
 	try:  
@@ -728,8 +773,8 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum([1, 2, 3]), 6)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyODk4MzE1LDE4OTk4NjUwOTIsMTYyNT
-czNzU3OSwxOTc1ODYyMTExLDE4MjY4NzE4MiwtNDA5NzQzOTQ5
-LDM4MzMxNTI5NywtMTA5MTgyMTk0Miw1MzQ2NjA1NTgsLTIxMz
-g2NTE3NDQsLTEyNTQzODIwMjNdfQ==
+eyJoaXN0b3J5IjpbMTA0ODg0NTkwNyw5OTI4OTgzMTUsMTg5OT
+g2NTA5MiwxNjI1NzM3NTc5LDE5NzU4NjIxMTEsMTgyNjg3MTgy
+LC00MDk3NDM5NDksMzgzMzE1Mjk3LC0xMDkxODIxOTQyLDUzND
+Y2MDU1OCwtMjEzODY1MTc0NCwtMTI1NDM4MjAyM119
 -->
