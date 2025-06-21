@@ -189,7 +189,7 @@ The IR process includes:
 - word disambiguation
 - morpholocigal normalization by reducing different forms of the same word into a common representative form 
 	- inflectional normalization (houses to house, tried to try,)
-	- derivational normalization (destruction to destroy) most IR system do not erform derivational norm.
+	- derivational normalization (destruction to destroy) most IR system do not perform derivational norm.
 
 ### Stemming 
 - stemming is the procedure of reducing the word to its grammatical (morphosyntactic) root („recognized” -> „recogniz”, „incredibly” -> „incredibl”) by removing prefixes and suffixes
@@ -254,35 +254,10 @@ Most info resources are text based unstructured and big in scale
 	- information resource represented as graphs, terms as nodes and semantic relation as branches
 	- very costly and virtually not used in IR
 
-### Text preprocessing for unstructured text representations
-- text is represented as unoredred set of terms (BoW) and has to be preprocessed:
- 1. extracting pure textual content (e.g., from HTML, PDF, Word) 
-2. language detection , Optional – if you’re dealing with multilingual document collections
-3.  tokenization (separating text into character sequences) 
-4. morphological normalization (lemmatization or stemming)
-5. stopword removal
-- after preprocessing the text/document is ready to be indexed
-
-
-### Normalization (of tokens)
-- Error/Spelling correction
-- making all letters lower case (case folding)
-- word disambiguation
-- morpholocigal normalization by reducing different forms of the same word into a common representative form 
-	- inflectional normalization (houses to house, tried to try,)
-	- derivational normalization (destruction to destroy) most IR system do not erform derivational norm.
-
-
-
 ### Expansion  of the query
 - use alternate form of the query words
 	- query: window search: window, Windows, windows 
 
-### Stopword removal 
-- removal of semantically poor terms such as articles, 
-prepositions, conjunctions, pronouns etc.
-- stopwords add nothing to the relevancy/meaning of a document
-- the removal reduces the size of the vocabulary
 
 ### general IR model
 1. representation of a raw **query** text to be used for matching against documents in the collection 
@@ -964,11 +939,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMjAwMjQ1MCwtNTE4NjQ2NjQsMTMxMz
-c5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5
-NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNT
-Y1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgy
-ODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OS
-wyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5Mzgy
-NTg0OTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjIxNzMxMjIsLTUxODY0NjY0LDEzMT
+M3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5
+OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLD
+U2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4
+Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OT
+ksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4
+MjU4NDk1XX0=
 -->
