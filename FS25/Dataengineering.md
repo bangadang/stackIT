@@ -165,15 +165,15 @@ The IR process includes:
 	- uses part of speech tagging or named entity recognition 
 	- is more costly as it uses additional preprocessing of the information resurce
 - **structured representation** 
-	- information resource represented as graphs, terms as nodes and semantic relation as branches
+	- information resource/ terms are represented as ==graphs, terms as nodes and semantic relationships as branches==
 	- very costly and virtually not used in IR
 
 ### Text preprocessing for unstructured text representations
 - text is represented as unoredred set of terms (BoW) and has to be preprocessed:
- 1. extracting pure textual content (e.g., from HTML, PDF, Word) 
+ 1. extracting raw text / pure textual content (e.g., from HTML, PDF, Word) 
 2. language detection , Optional – if you’re dealing with multilingual document collections
 3.  tokenization (separating text into character sequences) 
-4. morphological normalization (lemmatization or stemming)
+4. morphological normalization (lemmatization or stemming, spelling corection, case folding)
 5. stopword removal
 - after preprocessing the text/document is ready to be indexed
 
@@ -967,11 +967,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDQ5MjkyOSwtNTE4NjQ2NjQsMTMxMz
-c5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5
-NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNT
-Y1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgy
-ODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OS
-wyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5Mzgy
-NTg0OTVdfQ==
+eyJoaXN0b3J5IjpbLTEyMTQ2MDUwNjMsLTUxODY0NjY0LDEzMT
+M3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5
+OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLD
+U2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4
+Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OT
+ksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4
+MjU4NDk1XX0=
 -->
