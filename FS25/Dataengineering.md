@@ -234,6 +234,7 @@ formally a general retrieval model is a triple of functions
     -   Ranking
     -   Flexibility
     -   Relevance degrees
+- simple and efficient, but there is no ranking, sometimes unintuitive query formations and binary results only
 ###  Inverted Index
 -   Efficient data structure:  
     - For each term → list of documents where it appears (posting list)
@@ -242,6 +243,8 @@ formally a general retrieval model is a triple of functions
 **Merge Operation**
 -   Finds intersection of posting lists
 -   Complexity: **O(x + y)** if lists are sorted
+- Merge **shortest** posting lists first → fewer comparisons   
+-   Order of operations affects performance
 
 # Webcrawling
 ### Crawling for Search Engines
@@ -902,11 +905,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc2NTU1NjMsNDMxMjc3NTE1LC01MT
-g2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQz
-OTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLT
-k0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3
-NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMT
-UsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4
-NzQyMDhdfQ==
+eyJoaXN0b3J5IjpbLTI4NTUxNzg5OSw0MzEyNzc1MTUsLTUxOD
+Y0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5
+NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOT
+Q4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3
+NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNS
+wyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3
+NDIwOF19
 -->
