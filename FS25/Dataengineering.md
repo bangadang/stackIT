@@ -242,7 +242,11 @@ Google, Bing, Duckduckgo are common search engines which crawl for indexing page
 - search history can also play a role
 
 ### Challenges of crawling
-- Data is not standardized/ structured. Or there is inf
+- Data is not standardized/ structured. Or there is information missing
+- technical problems:
+	- long loading time
+	- scaling when there are a lot of pages to crawl
+	- unstable network connections
 
 ### Crawling with Scrapy
 Scrapy is an open source tool for webcrawling which allows customization
@@ -867,11 +871,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjEzNjE4NzEsMTMxMzc5NDY3NSwtMT
-AxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3
-MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC
-0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIw
-MjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MT
-AsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2
-NzY4NDI1OV19
+eyJoaXN0b3J5IjpbNjE5MTUyNTkzLDEzMTM3OTQ2NzUsLTEwMT
+MyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5
+OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMT
+I1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2
+OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC
+01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2
+ODQyNTldfQ==
 -->
