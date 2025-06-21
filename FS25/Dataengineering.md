@@ -235,11 +235,17 @@ formally a general retrieval model is a triple of functions
     -   Flexibility
     -   Relevance degrees
 - PROs: simple and efficient
-- CONsthere is no ranking, sometimes unintuitive query formations and binary results only
+- CONS:
+	- there is no ranking,
+	-  sometimes unintuitive query formations 
+	- binary results only
+	- Not good for vague/incomplete info needs
+	- Doesn't reflect partial matches or term importance
 
 ###  Inverted Index
 -   Efficient data structure:  
     - For each term → list of documents where it appears (posting list)
+	    - `“Frodo” → [1, 2, 7, 210]`
 	-  Enables quick Boolean query evaluation
 
 	**Merge Operation**
@@ -921,7 +927,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTI0MzY4NywtMTI1NTEwMDM2Miw0Mz
+eyJoaXN0b3J5IjpbMTE3OTk3ODIxMywtMTI1NTEwMDM2Miw0Mz
 EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
 ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
 czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
