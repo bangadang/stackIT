@@ -252,10 +252,13 @@ formally a general retrieval model is a triple of functions
  - **Feast or famine** problem: too many or too few results
 - Users don’t want to write Boolean queries
 -   Need ranking to:
-    
     -   Prioritize more relevant documents
-        
     -   Handle large result sets
+   - Ranking principles:
+	   - RP1: Term occurrence (term exists in document)
+	   - RP2: Term frequency (how often term appears)
+	   - RP3 Term rarity (rare terms more significant)
+	   - RP4: Distance between query terms in document
 
 # Webcrawling
 ### Crawling for Search Engines
@@ -916,11 +919,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc3ODU0OTM1LDQzMTI3NzUxNSwtNTE4Nj
-Q2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2
-LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05ND
-gzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1
-OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LD
-IyNTE3Njg5OSwyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0
-MjA4XX0=
+eyJoaXN0b3J5IjpbLTE4NjY2NDE5OTksNDMxMjc3NTE1LC01MT
+g2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQz
+OTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLT
+k0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3
+NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMT
+UsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4
+NzQyMDhdfQ==
 -->
