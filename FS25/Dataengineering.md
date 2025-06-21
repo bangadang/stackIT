@@ -178,11 +178,11 @@ The IR process includes:
 - after preprocessing the text/document is ready to be indexed
 
 ### Tokenization
-- A token is an instance of a word or term in a text/ document (numbers, punctuation and special chars are also tokens)
-- tokenization is the process of breaking down a text into tokens through a rule based heuristic approach or a ML model approach
-- process is ambiguous and not always clear how to split a string, as possible information loss can occur. 
-	- Should you split a birthdate/ phonenumber/ multiword words etc.
-	- different languages have different rules of tokenization
+- A ==token is an instance of a word== or term in a text/ document (numbers, punctuation and special chars are also tokens)
+- ==tokenization is the process of breaking down a text into tokens== through a rule based heuristic approach or a ML model approach
+	- process is ambiguous and not always clear how to split a string, as possible information loss can occur. 
+		- Should you split a birthdate/ phonenumber/ multiword words etc.
+		- different languages have different rules of tokenization
 ### Normalization (of tokens)
 - Error/Spelling correction
 - making all letters lower case (case folding)
@@ -967,7 +967,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQ2MDUwNjMsLTUxODY0NjY0LDEzMT
+eyJoaXN0b3J5IjpbLTEwMjMzMDUwNTUsLTUxODY0NjY0LDEzMT
 M3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5
 OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLD
 U2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4
