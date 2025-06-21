@@ -298,7 +298,10 @@ formally a general retrieval model is a triple of functions
 $$
 tf(t, d) = \frac{\text{Number of occurrences of } t \text{ in } d}{\text{Total number of terms in } d}
 $$
-- **IDF (Inverse)
+- **IDF (Inverse term frequency))**
+$$
+idf(t) = log(\frac{
+$$
 # Webcrawling
 ### Crawling for Search Engines
 The web is crawled to find new links, which are then analyzed and added to the database. The database can be accessed by a user when searching in a search engine.
@@ -958,7 +961,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk4MjYwNSwtMTI1NTEwMDM2Miw0Mz
+eyJoaXN0b3J5IjpbMTIwMjQ4MDIyNCwtMTI1NTEwMDM2Miw0Mz
 EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
 ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
 czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
