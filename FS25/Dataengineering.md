@@ -139,7 +139,90 @@ most time consuming part od data warehousing, as there is no standard method or 
  ### dimensions
  needs to be finished (lecture 5)
 # Unstructured Data
-### information retrival
+### Information # Unstructured Data
+### information retrieval IR
+The activity of obtaining information resources relevant for an user's information need from a collection of information resources.
+The IR process includes:
+- information needs (queries)
+- (mostly **unstructured) information** resources (text images videos)
+- a system to identify relevant (re)sources for a given information need (query)
+
+### information need
+Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. Information needs (conscious or unconscious) are expressed as queries
+Such queries are usually words/phrases retireving text information. --> Text information retrival
+Most info resources are text based unstructured and big in scale 
+
+### Text representation in info retrieval
+
+- **unstructured representation**
+	- text erpresented as bag of words (unordered set of words)
+	- syntax, semantics, pragmatics of text are ignored
+		- A query like "Revenue of apple" could retrieve a result like  "Apple pencil did xy." and "Microsofts revenue .."
+	- Is fast and simple and still yields fairly good results and is the standard of IR represenATION
+- **weakly structured representation**
+	- certain groups of terms receive a weight/ importance, like nouns or named entities and other terms are downgraded or simply ignored like stopwords
+	- uses part of speech tagging or named entity recognition 
+	- is more costly as it uses additional preprocessing of the information resurce
+- **structured representation** 
+	- information resource represented as graphs, terms as nodes and semantic relation as branches
+	- very costly and virtually not used in IR
+
+### Text preprocessing for unstructured text representations
+- text is represented as unoredred set of terms (BoW) and has to be preprocessed:
+ 1. extracting pure textual content (e.g., from HTML, PDF, Word) 
+2. language detection , Optional – if you’re dealing with multilingual document collections
+3.  tokenization (separating text into character sequences) 
+4. morphological normalization (lemmatization or stemming)
+5. stopword removal
+- after preprocessing the text/document is ready to be indexed
+
+### Tokenization
+- A token is an instance of a word or term in a text/ document (numbers, punctuation and special chars are also tokens)
+- tokenization is the process of breaking down a text into tokens through a rule based heuristic approach or a ML model approach
+- process is ambiguous and not always clear how to split a string, as possible information loss can occur. 
+	- Should you split a birthdate/ phonenumber/ multiword words etc.
+	- different languages have different rules of tokenization
+### Normalization (of tokens)
+- Error/Spelling correction
+- making all letters lower case (case folding)
+- word disambiguation
+- morpholocigal normalization by reducing different forms of the same word into a common representative form 
+	- inflectional normalization (houses to house, tried to try,)
+	- derivational normalization (destruction to destroy) most IR system do not erform derivational norm.
+
+### Stemming 
+- stemming is the procedure of reducing the word to its grammatical (morphosyntactic) root („recognized” -> „recogniz”, „incredibly” -> „incredibl”) by removing prefixes and suffixes
+	- most common algorithm for stemming is **Porter's algorithm** which consists of different rules to reduce a word
+
+### Expansion  of the query
+- use alternate form of the query words
+	- query: window search: window, Windows, windows 
+
+### Stopword removal 
+- removal of semantically poor terms such as articles, 
+prepositions, conjunctions, pronouns etc.
+- stopwords add nothing to the relevancy/meaning of a document
+- the removal reduces the size of the vocabulary
+
+### general IR model
+1. representation of a raw **query** text to be used for matching against documents in the collection 
+2. representation of a raw **document** text to be used for matching against the query. May be the same representation as the one used for query 
+3. a function for determining the relevance of documents for the query taking as input document and query representations from (1) and (2)
+
+formally a generalretrival model is a triple of functions
+1. $f_d$ is a function that maps documents (raw text) to their representation for retrieval, i.e., $f_d(d) = p_d$ , where $p_d$ is the retrieval representation of the document d
+2. $f_q$ is a function that maps queries (raw text) to their representation for retrieval, i.e., $f_q(q) = s_q$ , where $s_q$ is the retrieval representation of the document q
+!depending on the IR model, $f_d$ and $f_q$ may be the same function 
+3. $r$ is a ranking function which computes a real number indicating the potential relevance of document $d$ for query $q$, using representations $p_d$ and $s_q$: $rel(d,q) = r(f_d(d), f_q(q)) = r(p_d , s_q )$
+
+### Index terms and index weights
+- index terms are all unique terms in the vocabulary
+- each term $k_i$ for each document $d_j$ is assigned a weight $w_{ij}$ if a term doesn't appear in a document the weight is 0
+- a document $d_j$ ist represented by a term vector of the weights
+
+### Boolean retrieval
+- queries are boolean expression like “aliens” AND “swords” AND NOT “wizards” 
+- search engine returns all documents from the collection that satisfy the Boolean expression
 is the activity of obtaining information resources relevant for an user's information need from a collection of information resources.
 the information retrival process includes:
 - information needs (queries)
@@ -883,11 +966,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMT
-MyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5
-OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMT
-I1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2
-OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC
-01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2
-ODQyNTldfQ==
+eyJoaXN0b3J5IjpbLTEzNTU5OTQzMTQsLTUxODY0NjY0LDEzMT
+M3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5
+OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLD
+U2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4
+Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OT
+ksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4
+MjU4NDk1XX0=
 -->
