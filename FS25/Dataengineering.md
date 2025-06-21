@@ -247,8 +247,12 @@ formally a general retrieval model is a triple of functions
     - For each term → list of documents where it appears (posting list)
 	    - `“Frodo” → [1, 2, 7, 210]`
 	-  Enables quick Boolean query evaluation
-
-	**Merge Operation**
+	- space-efficient than a full term-document incidence matrix.
+- **Merge Operation**
+	- To process queries like `"Sam" AND "Frodo"`:
+		1.  Retrieve both posting lists
+		2.  **Merge (intersect)** the lists
+		3.  Result = documents containing both terms
 -   Finds intersection of posting lists
 -   Complexity: **O(x + y)** if lists are sorted
 - Merge **shortest** posting lists first → fewer comparisons   
@@ -927,11 +931,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3OTk3ODIxMywtMTI1NTEwMDM2Miw0Mz
-EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
-ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
-czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
-MjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MS
-wtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5
-MzMwOTddfQ==
+eyJoaXN0b3J5IjpbLTE4MDg4MzI4NDEsLTEyNTUxMDAzNjIsND
+MxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEz
+Mjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MC
+w3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3
+MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNz
+EsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5
+OTMzMDk3XX0=
 -->
