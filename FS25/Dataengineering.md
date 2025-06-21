@@ -293,6 +293,10 @@ formally a general retrieval model is a triple of functions
     
 -   Smaller angle → higher similarity
 
+### TFF-IDF: Weighting Terms
+- **Term Frequency**
+$$tf(t, d) = \frac{\text{number of occurrences of } t \text{ in } d}{\text{Total # of terms in } d}$$
+
 # Webcrawling
 ### Crawling for Search Engines
 The web is crawled to find new links, which are then analyzed and added to the database. The database can be accessed by a user when searching in a search engine.
@@ -952,11 +956,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwOTc0MDYxMCwtMTI1NTEwMDM2Miw0Mz
-EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
-ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
-czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
-MjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MS
-wtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5
-MzMwOTddfQ==
+eyJoaXN0b3J5IjpbMjk1NjQ5ODg4LC0xMjU1MTAwMzYyLDQzMT
+I3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4
+NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNz
+MwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIy
+MTU4LC0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC
+0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAsLTU0OTkz
+MzA5N119
 -->
