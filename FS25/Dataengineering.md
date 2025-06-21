@@ -265,6 +265,7 @@ formally a general retrieval model is a triple of functions
 	 - **More skips**: faster skip potential, but more pointer comparisons and memory usage.
 	 - **Fewer skips**: less overhead, but reduced skip opportunities.
 	- Place √L **evenly spaced** skips in a list of length L (heuristic for read-only indices)
+	- 
 ### Ranked retrieval
  Chosen strategy because:
  - **Feast or famine** problem: too many or too few results
@@ -276,8 +277,9 @@ formally a general retrieval model is a triple of functions
 	   - RP1: Term occurrence (term exists in document)
 	   - RP2: Term frequency (how often term appears)
 	   - RP3 Term rarity (rare terms more significant)
-	   - RP4: Distance between query terms in document
-	   - RP5: Position of terms in document
+	   - RP4: Term proximity: Distance between query terms in document
+	   - RP5: Term Position: Position of terms in document
+  - 
 
 # Webcrawling
 ### Crawling for Search Engines
@@ -938,7 +940,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDU0MDQzNywtMTI1NTEwMDM2Miw0Mz
+eyJoaXN0b3J5IjpbMTE5NjAxMzYwNywtMTI1NTEwMDM2Miw0Mz
 EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
 ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
 czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
