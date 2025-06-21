@@ -230,55 +230,12 @@ formally a general retrieval model is a triple of functions
 ### Boolean retrieval
 - queries are boolean expression like “aliens” AND “swords” AND NOT “wizards” 
 - search engine returns all documents from the collection that satisfy the Boolean expression
-is the activity of obtaining information resources relevant for an user's information need from a collection of information resources.
-the information retrival process includes:
-- information needs (queries)
-- (mostly unstructured) information resources 
-- a system to identify relevant (re)sources for a given information need (query)
-
-### information need
-Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. Information needs (conscious or unconscious) are expressed as queries
-Such queries are usually words/phrases retireving text information. --> Text information retrival
-Most info resources are text based unstructured and big in scale 
-
-### Text representation in info retrieval
-
-- **unstructured representation**
-	- text erpresented as bag of words (unordered set of words)
-	- syntax, semantics, pragmatics of text are ignored
-		- A query like "Revenue of apple" could retrieve a result like  "Apple pencil did xy." and "Microsofts revenue .."
-	- Is fast and simple and still yields fairly good results and is the standard of IR represenATION
-- **weakly structured representation**
-	- certain groups of terms receive a weight/ importance, like nouns or named entities and other terms are downgraded or simply ignored like stopwords
-	- uses part of speech tagging or named entity recognition 
-	- is more costly as it uses additional preprocessing of the information resurce
-- **structured representation** 
-	- information resource represented as graphs, terms as nodes and semantic relation as branches
-	- very costly and virtually not used in IR
-
-
-
-
-
-### general IR model
-1. representation of a raw **query** text to be used for matching against documents in the collection 
-2. representation of a raw **document** text to be used for matching against the query. May be the same representation as the one used for query 
-3. a function for determining the relevance of documents for the query taking as input document and query representations from (1) and (2)
-
-formally a generalretrival model is a triple of functions
-1. $f_d$ is a function that maps documents (raw text) to their representation for retrieval, i.e., $f_d(d) = p_d$ , where $p_d$ is the retrieval representation of the document d
-2. $f_q$ is a function that maps queries (raw text) to their representation for retrieval, i.e., $f_q(q) = s_q$ , where $s_q$ is the retrieval representation of the document q
-!depending on the IR model, $f_d$ and $f_q$ may be the same function 
-3. $r$ is a ranking function which computes a real number indicating the potential relevance of document $d$ for query $q$, using representations $p_d$ and $s_q$: $rel(d,q) = r(f_d(d), f_q(q)) = r(p_d , s_q )$
-
-### Index terms and index weights
-- index terms are all unique terms in the vocabulary
-- each term $k_i$ for each document $d_j$ is assigned a weight $w_{ij}$ if a term doesn't appear in a document the weight is 0
-- a document $d_j$ ist represented by a term vector of the weights
-
-### Boolean retrieval
-- queries are boolean expression like “aliens” AND “swords” AND NOT “wizards” 
-- search engine returns all documents from the collection that satisfy the Boolean expression
+- Simple but lacks:
+    -   Ranking
+        
+    -   Flexibility
+        
+    -   Relevance degrees
 
 
 # Webcrawling
@@ -940,7 +897,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIzODUxNDIsNDMxMjc3NTE1LC01MT
+eyJoaXN0b3J5IjpbLTIwMDE2NjM0MjAsNDMxMjc3NTE1LC01MT
 g2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQz
 OTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLT
 k0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3
