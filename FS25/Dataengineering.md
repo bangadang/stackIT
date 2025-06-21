@@ -148,18 +148,19 @@ The IR process includes:
 - a **IR system/model** to identify relevant (re)sources for a given information need (query)
 
 ### Information need
-Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. Information needs (conscious or unconscious) are expressed as queries.
+- Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. 
+- Information needs (conscious or unconscious) are expressed as queries.
 - Such queries are usually words/phrases retrieving text information. --> Text information retrieval
 - Most info resources are text based unstructured and big in scale 
 
 ### Text representation in info retrieval
 
-- **unstructured representation**
-	- text erpresented as bag of words (unordered set of words)
+- **Unstructured representation (Bag of Words - BoW)** 
+	- text represented as bag of words (unordered set of words/terms)
 	- syntax, semantics, pragmatics of text are ignored
 		- A query like "Revenue of apple" could retrieve a result like  "Apple pencil did xy." and "Microsofts revenue .."
 	- Is fast and simple and still yields fairly good results and is the standard of IR represenATION
-- **weakly structured representation**
+- **Weakly structured representation**
 	- certain groups of terms receive a weight/ importance, like nouns or named entities and other terms are downgraded or simply ignored like stopwords
 	- uses part of speech tagging or named entity recognition 
 	- is more costly as it uses additional preprocessing of the information resurce
@@ -966,11 +967,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MTA4OTE0LC01MTg2NDY2NCwxMzEzNz
-k0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0
-OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1Nj
-UwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4
-OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LD
-IxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1
-ODQ5NV19
+eyJoaXN0b3J5IjpbLTYzMTM1NTE0MiwtNTE4NjQ2NjQsMTMxMz
+c5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5
+NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNT
+Y1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgy
+ODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OS
+wyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5Mzgy
+NTg0OTVdfQ==
 -->
