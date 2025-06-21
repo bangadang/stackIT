@@ -195,6 +195,8 @@ The IR process includes:
 - stemming is the procedure of reducing the word to its grammatical (morphosyntactic) root („recognized” -> „recogniz”, „incredibly” -> „incredibl”) by removing prefixes and suffixes
 	- most common algorithm for stemming is **Porter's algorithm** which consists of different rules to reduce a word
 
+### Lemmatization
+Lemmatization is  a text processing technique used in natural language processing (NLP) to reduce a word to its base or dictionary form, known as a lemma. This process considers the word's meaning and context to identify the correct lemma. For example, "running," "ran," and "runs" would all be lemmatized to "run".
 ### Expansion  of the query
 - use alternate form of the query words
 	- query: window search: window, Windows, windows 
@@ -967,11 +969,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjMzMDUwNTUsLTUxODY0NjY0LDEzMT
-M3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5
-OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLD
-U2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4
-Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OT
-ksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4
-MjU4NDk1XX0=
+eyJoaXN0b3J5IjpbLTIyMzU0Mjk4NywtNTE4NjQ2NjQsMTMxMz
+c5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5
+NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNT
+Y1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgy
+ODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OS
+wyMTgyNTQ3MTAsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5Mzgy
+NTg0OTVdfQ==
 -->
