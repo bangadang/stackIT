@@ -253,10 +253,12 @@ formally a general retrieval model is a triple of functions
 		1.  Retrieve both posting lists
 		2.  **Merge (intersect)** the lists
 		3.  Result = documents containing both terms
--   Finds intersection of posting lists
--   Complexity: **O(x + y)** if lists are sorted
-- Merge **shortest** posting lists first → fewer comparisons   
--   Order of operations affects performance
+-   Complexity: **O(x + y)** if lists are sorted, O(x*y) for unsorted posting lists
+- For queries with multiple terms (e.g., `"Frodo" AND "Sam" AND "blue"`):
+	-   Always start merging from the **shortest posting lists**
+	-   Minimizes comparisons and improves speed
+	-   Order of operations affects performance
+- 
 
 ### Ranked retrieval
  Chosen strategy because:
@@ -931,7 +933,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg4MzI4NDEsLTEyNTUxMDAzNjIsND
+eyJoaXN0b3J5IjpbLTE5OTE1MTQ1MDcsLTEyNTUxMDAzNjIsND
 MxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEz
 Mjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MC
 w3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3
