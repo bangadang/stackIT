@@ -232,11 +232,16 @@ formally a general retrieval model is a triple of functions
 - search engine returns all documents from the collection that satisfy the Boolean expression
 - Simple but lacks:
     -   Ranking
-        
     -   Flexibility
-        
     -   Relevance degrees
+###  Inverted Index
+-   Efficient data structure:  
+    - For each term → list of documents where it appears (posting list)
+	-  Enables quick Boolean query evaluation
 
+**Merge Operation**
+-   Finds intersection of posting lists
+-   Complexity: **O(x + y)** if lists are sorted
 
 # Webcrawling
 ### Crawling for Search Engines
@@ -897,7 +902,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE2NjM0MjAsNDMxMjc3NTE1LC01MT
+eyJoaXN0b3J5IjpbLTE1NDc2NTU1NjMsNDMxMjc3NTE1LC01MT
 g2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQz
 OTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLT
 k0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3
