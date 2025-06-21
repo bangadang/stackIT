@@ -223,9 +223,9 @@ formally a general retrieval model is a triple of functions
 ### Index terms and index weights
 - index terms are all unique terms in the vocabulary
 - each term $k_i$ for each document $d_j$ is assigned a weight $w_{ij}$ if a term doesn't appear in a document the weight is 0
-- a document $d_j$ is a vector of weights for terms  $k_i:  
-If term not present → weight = 0  
-Function `g(k_i, d_j)` computes the weight `w_ij`
+- a document $d_j$ is a vector of weights for terms  $k_i$:  
+	-	If term not present → weight = 0  
+	- Function $g(k_i, d_j)$ computes the weight $w_{ij}$
 
 ### Boolean retrieval
 - queries are boolean expression like “aliens” AND “swords” AND NOT “wizards” 
@@ -940,11 +940,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTI2MzAwNiw0MzEyNzc1MTUsLTUxOD
-Y0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5
-NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOT
-Q4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3
-NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNS
-wyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3
-NDIwOF19
+eyJoaXN0b3J5IjpbLTEwOTIzODUxNDIsNDMxMjc3NTE1LC01MT
+g2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQz
+OTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLT
+k0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3
+NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMT
+UsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4
+NzQyMDhdfQ==
 -->
