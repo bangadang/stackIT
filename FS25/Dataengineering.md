@@ -227,8 +227,13 @@ formally a generalretrival model is a triple of functions
 # Webcrawling
 ### Crawling for Search Engines
 The web is crawled to find new links, which are then analyzed and added to the database. The database can be accessed by a user when searching in a search engine.
-An algorithm is used to rank the pages stored in the database according to different factors to determine their importance by a seaarch query. In order to present the pages which the user was most likely searrching for
+An algorithm is used to rank the pages stored in the database according to different factors to determine their importance by a search query. In order to present the pages which the user was most likely searching for
 Google, Bing, Duckduckgo are common search engines which crawl for indexing pages and links to further webpages. 
+
+### General workflow
+- Input URLS or Sitemaps
+- Processing: Crawler + Parser
+- Output: Structured data (JSON, DB)
 
 ### Creating a search index
 - Obtain URL/ Sitemaps
@@ -871,11 +876,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5MTUyNTkzLDEzMTM3OTQ2NzUsLTEwMT
-MyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5
-OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMT
-I1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2
-OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC
-01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2
-ODQyNTldfQ==
+eyJoaXN0b3J5IjpbLTEwOTc2MzUxMjAsMTMxMzc5NDY3NSwtMT
+AxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3
+MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC
+0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIw
+MjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MT
+AsLTU0OTkzMzA5NywtOTQxODc0MjA4LDE5MzgyNTg0OTUsLTk2
+NzY4NDI1OV19
 -->
