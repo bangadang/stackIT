@@ -213,11 +213,8 @@ The IR process includes:
 - the removal reduces the size of the vocabulary and avoids false matches
 
 ### General IR model
-1. representation of a raw **query** text to be used for matching against documents in the collection 
-2. representation of a raw **document** text to be used for matching against the query. May be the same representation as the one used for query 
-3. a function for determining the relevance of documents for the query taking as input document and query representations from (1) and (2)
 
-formally a generalretrival model is a triple of functions
+formally a general retrieval model is a triple of functions
 1. $f_d$ is a function that maps documents (raw text) to their representation for retrieval, i.e., $f_d(d) = p_d$ , where $p_d$ is the retrieval representation of the document d
 2. $f_q$ is a function that maps queries (raw text) to their representation for retrieval, i.e., $f_q(q) = s_q$ , where $s_q$ is the retrieval representation of the document q
 !depending on the IR model, $f_d$ and $f_q$ may be the same function 
@@ -941,11 +938,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMjc3NTE1LC01MTg2NDY2NCwxMzEzNz
-k0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0
-OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1Nj
-UwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4
-OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LD
-IxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1
-ODQ5NV19
+eyJoaXN0b3J5IjpbMTgwMjQ0NDkwNCw0MzEyNzc1MTUsLTUxOD
+Y0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5
+NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOT
+Q4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3
+NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNS
+wyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3
+NDIwOF19
 -->
