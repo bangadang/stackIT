@@ -279,7 +279,19 @@ formally a general retrieval model is a triple of functions
 	   - RP3 Term rarity (rare terms more significant)
 	   - RP4: Term proximity: Distance between query terms in document
 	   - RP5: Term Position: Position of terms in document
-  - 
+ - **Basic Idea**
+-   Represent documents and queries as **vectors** in a high-dimensional space.
+-   Each dimension = an index term.
+- **Vector Construction**
+
+-   Document = `[w₁, w₂, ..., w_t]`  
+    where `wᵢ` is the **weight** of term `kᵢ` in the document 
+-   Query = vector in same space
+- **Similarity Computation**
+-   Use **cosine similarity**:
+    ''
+    sim(d,q)=d⋅q∥d∥∥q∥\text{sim}(d, q) = \frac{d \cdot q}{\|d\| \|q\|}sim(d,q)=∥d∥∥q∥d⋅q​
+-   Smaller angle → higher similarity
 
 # Webcrawling
 ### Crawling for Search Engines
@@ -940,11 +952,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjAxMzYwNywtMTI1NTEwMDM2Miw0Mz
-EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
-ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
-czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
-MjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MS
-wtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5
-MzMwOTddfQ==
+eyJoaXN0b3J5IjpbMzM5MjU2MzM4LC0xMjU1MTAwMzYyLDQzMT
+I3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4
+NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNz
+MwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIy
+MTU4LC0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC
+0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgyNTQ3MTAsLTU0OTkz
+MzA5N119
 -->
