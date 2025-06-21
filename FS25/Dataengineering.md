@@ -140,17 +140,17 @@ most time consuming part od data warehousing, as there is no standard method or 
  needs to be finished (lecture 5)
 # Unstructured Data
 ### Information # Unstructured Data
-### information retrieval IR
+### Information retrieval IR
 The activity of obtaining information resources relevant for an user's information need from a collection of information resources.
 The IR process includes:
 - information needs (**queries**)
 - (mostly **unstructured) information** resources (text images videos)
 - a **IR system/model** to identify relevant (re)sources for a given information need (query)
 
-### information need
-Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. Information needs (conscious or unconscious) are expressed as queries
-Such queries are usually words/phrases retireving text information. --> Text information retrival
-Most info resources are text based unstructured and big in scale 
+### Information need
+Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. Information needs (conscious or unconscious) are expressed as queries.
+- Such queries are usually words/phrases retrieving text information. --> Text information retrieval
+- Most info resources are text based unstructured and big in scale 
 
 ### Text representation in info retrieval
 
@@ -966,7 +966,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTc1NTc1LC01MTg2NDY2NCwxMzEzNz
+eyJoaXN0b3J5IjpbNTk1MTA4OTE0LC01MTg2NDY2NCwxMzEzNz
 k0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0
 OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1Nj
 UwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4
