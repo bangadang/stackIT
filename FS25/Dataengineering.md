@@ -240,8 +240,13 @@ Google, Bing, Duckduckgo are common search engines which crawl for indexing page
 - crawl by following connecting links
 - process the contents of the pages (not a public process and unique to each search engine)
 - index the processed information / add them to the search engine
-- ranking based on relevance
-	- c
+- ranking based on relevance according to factors like:
+	- backlinks
+	- relevance to searchquery
+	- freshness, when was it published
+	- metatags, keywords
+	- locality and language of the user
+	- search history
 
 ### Process of a search algorithm
 - pages are ranked through relevance, backlinks, freshness, metatags/keywords
@@ -878,11 +883,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODM2MjA0MCwxMzEzNzk0Njc1LC0xMD
-EzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMTY4Nzcx
-OTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLT
-EyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAy
-NjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1NDcxMC
-wtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1ODQ5NSwtOTY3
-Njg0MjU5XX0=
+eyJoaXN0b3J5IjpbLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMT
+MyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5
+OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMT
+I1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2
+OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC
+01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4MjU4NDk1LC05Njc2
+ODQyNTldfQ==
 -->
