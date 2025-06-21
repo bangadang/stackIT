@@ -234,7 +234,8 @@ formally a general retrieval model is a triple of functions
     -   Ranking
     -   Flexibility
     -   Relevance degrees
-- simple and efficient, but there is no ranking, sometimes unintuitive query formations and binary results only
+- PROs: simple and efficient
+- CONsthere is no ranking, sometimes unintuitive query formations and binary results only
 
 ###  Inverted Index
 -   Efficient data structure:  
@@ -920,11 +921,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MT
-g2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQz
-OTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLT
-k0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3
-NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMT
-UsMjI1MTc2ODk5LDIxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4
-NzQyMDhdfQ==
+eyJoaXN0b3J5IjpbMTUyMTI0MzY4NywtMTI1NTEwMDM2Miw0Mz
+EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
+ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
+czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
+MjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MS
+wtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5
+MzMwOTddfQ==
 -->
