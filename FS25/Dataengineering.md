@@ -139,7 +139,7 @@ most time consuming part od data warehousing, as there is no standard method or 
  ### dimensions
  needs to be finished (lecture 5)
 # Unstructured Data
-### Information # Unstructured Data
+
 ### Information retrieval IR
 The activity of obtaining information resources relevant for an user's information need from a collection of information resources.
 The IR process includes:
@@ -973,7 +973,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjIwMjM2NCwtMTI1NTEwMDM2Miw0Mz
+eyJoaXN0b3J5IjpbMTg4NzY3OTA5NCwtMTI1NTEwMDM2Miw0Mz
 EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
 ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
 czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
