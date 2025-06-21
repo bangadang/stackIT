@@ -143,9 +143,9 @@ most time consuming part od data warehousing, as there is no standard method or 
 ### information retrieval IR
 The activity of obtaining information resources relevant for an user's information need from a collection of information resources.
 The IR process includes:
-- information needs (queries)
+- information needs (**queries**)
 - (mostly **unstructured) information** resources (text images videos)
-- a system to identify relevant (re)sources for a given information need (query)
+- a **IR system/model** to identify relevant (re)sources for a given information need (query)
 
 ### information need
 Information need is a desire to locate and obtain information to satisfy a conscious or unconscious need. Information needs (conscious or unconscious) are expressed as queries
@@ -966,11 +966,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTU5OTQzMTQsLTUxODY0NjY0LDEzMT
-M3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5
-OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLD
-U2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4
-Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OT
-ksMjE4MjU0NzEwLC01NDk5MzMwOTcsLTk0MTg3NDIwOCwxOTM4
-MjU4NDk1XX0=
+eyJoaXN0b3J5IjpbLTYyOTc1NTc1LC01MTg2NDY2NCwxMzEzNz
+k0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0
+OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1Nj
+UwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4
+OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LD
+IxODI1NDcxMCwtNTQ5OTMzMDk3LC05NDE4NzQyMDgsMTkzODI1
+ODQ5NV19
 -->
