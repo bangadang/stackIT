@@ -168,7 +168,14 @@
 		- Location dimension: store, region country
 - **Measures**
 	- Numeric values in the fact table, used for analysis (e.g., sum of sales, average revenue).
-
+- **Schema/ Model types**
+	1. **Star Schema** ⭐
+    -   Fact table in the center with dimension tables radiating outward.
+    -   Simple and fast for querying.
+        
+	2.   **Snowflake Schema** ❄️
+    -   Dimensions are normalized (split into sub-dimensions).
+    -   More storage-efficient but slightly slower for querying.
 ### Data warehouse
 - A data model/centralized system is designed with the needs of analysis in mind. Since the goal is to gain some knowledge for future (business) decisions through:
 	- performance indicators
@@ -1014,11 +1021,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE1MDAyMTcsNTM1ODg3MjM2LDE4OD
-c2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2
-NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLT
-YzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2
-Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5Mj
-YsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1
-MTc2ODk5XX0=
+eyJoaXN0b3J5IjpbMTA2NzM0ODcyNCw1MzU4ODcyMzYsMTg4Nz
+Y3OTA5NCwtMTI1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0
+LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNj
+MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
+OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
+wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
+NzY4OTldfQ==
 -->
