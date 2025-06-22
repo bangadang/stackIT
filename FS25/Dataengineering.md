@@ -174,7 +174,7 @@
 - No double counting (**disjointness**)
 - All data levels can be aggregated (**completeness**)
 - **Dimension tables**
-	- Contain descriptive attributes (context) related to facts.
+	- Contain descriptive attributes (context) related to facts (n >=2).
 	- Help to slice and dice the data.
 	- serve for orthogonal structuring of the dataspace 
 	- Example:
@@ -182,7 +182,15 @@
 		- Product dimension: product name, category brand
 		- Location dimension: store, region country
 - **Dimension hierarchies**
-	- 
+	- nodes of a classification hierarchy
+	- classification level describes granularity
+	- representation of dimensions via a classification schema
+	- **simple hierarchies**
+	- higher hierarchy level contains the aggregated 
+values of exactly one lower hierarchy level 
+§ top node (= root): contains a single 
+aggregated value for the entire dimension (= 
+ALL) 
 - **Facts**
 	- specific event/ transaction
 - **Measures**
@@ -1050,11 +1058,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNzQ4OTEsNTM1ODg3MjM2LDE4ODc2Nz
-kwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2NCwx
-MzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMz
-IwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5
-Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLT
-k5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2
-ODk5XX0=
+eyJoaXN0b3J5IjpbLTE0MzMxMDM3ODcsNTM1ODg3MjM2LDE4OD
+c2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2
+NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLT
+YzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2
+Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5Mj
+YsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1
+MTc2ODk5XX0=
 -->
