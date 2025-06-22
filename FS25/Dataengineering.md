@@ -49,12 +49,11 @@
 - provides interfaces for analyzing and data mining tasks
 
 ## ETL (extract, transform, load)
-Source to staging
-most time consuming part of data warehousing, as there is no standard method or system but an abundance of different tools
- it it time intense because:
- - different data sources with heterogeneity
- - imense data volume
- - the integration is complex, because of data cleaning and creating a schema and instance integration
+- most time consuming part of data warehousing, as there is no standard method or system but an abundance of different tools
+-  it it time intense because:
+	 - different data sources with heterogeneity
+	 - imense data volume
+	 - the integration is complex, because of data cleaning and creating a schema and instance integration
  - There are two types of ETL
 	 - **batch processing**: data is processed in batches o defines size or time values and requires space for buffering
 	 - **real time processing**: data is processeed item by item continuously. Every item can only be seen once.
@@ -994,11 +993,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODMxMjkxOCwxODg3Njc5MDk0LC0xMj
-U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
-NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
-E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
-NTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyOD
-YsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgy
-NTQ3MTBdfQ==
+eyJoaXN0b3J5IjpbLTE3NzgzNzE3NDMsMTg4NzY3OTA5NCwtMT
+I1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2
+NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC
+0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAw
+MzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mj
+g2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4
+MjU0NzEwXX0=
 -->
