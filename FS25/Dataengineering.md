@@ -209,6 +209,9 @@
 	2.   **Snowflake Schema** ❄️
 	- mapping of classifications : separate table for each 
 classification level (e.g., product, product group, etc.)
+	- dimension table include ID, characteristic attributes, foreign keys
+	- fact table include foreign key referencing bottom-level category of each dimension
+	- set of all foreign keys
     -   Dimensions are normalized (split into sub-dimensions).
     -   More storage-efficient but slightly slower for querying.
  
@@ -1066,7 +1069,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU1MDkwNDYsLTgwODIwMjA5Myw1Mz
+eyJoaXN0b3J5IjpbLTE1NzgxMzkxNTEsLTgwODIwMjA5Myw1Mz
 U4ODcyMzYsMTg4NzY3OTA5NCwtMTI1NTEwMDM2Miw0MzEyNzc1
 MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMT
 AyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDky
