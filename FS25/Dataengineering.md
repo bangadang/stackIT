@@ -176,10 +176,13 @@
 - **Dimension tables**
 	- Contain descriptive attributes (context) related to facts.
 	- Help to slice and dice the data.
+	- serve for orthogonal structuring of the dataspace 
 	- Example:
 		- Time dimension: day, month, quarter, year
 		- Product dimension: product name, category brand
 		- Location dimension: store, region country
+- **Dimension hierarchies**
+	- 
 - **Facts**
 	- specific event/ transaction
 - **Measures**
@@ -1047,11 +1050,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTU3ODI4Niw1MzU4ODcyMzYsMTg4Nz
-Y3OTA5NCwtMTI1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0
-LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNj
-MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
-OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
-wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
-NzY4OTldfQ==
+eyJoaXN0b3J5IjpbNzAxNzQ4OTEsNTM1ODg3MjM2LDE4ODc2Nz
+kwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2NCwx
+MzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMz
+IwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5
+Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLT
+k5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2
+ODk5XX0=
 -->
