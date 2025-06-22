@@ -1,5 +1,19 @@
 # Dataengineering 
-## Data 
+## Data Sources
+- are nosiey (many errors: data entry, measurement, extraction)
+- variety of formats
+- typical issues:
+	- parsing text into fields (separator issues)
+§ naming conventions: NYC vs New York
+§ missing required field (e.g., no SSN)
+§ different representations (2 vs Two)
+§ fields too long (get truncated)
+§ primary key violation (two people with the same social security 
+number)
+§ redundant records (exact match or other)
+§ formatting issues – especially dates
+§ licensing issues or privacy keep you from using the data as you 
+would like
 ## Operational Database vs Data Warehouse
 ### OLTP
 - Online Transaction Processing. 
@@ -1071,11 +1085,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcxMjA1MDksLTgwODIwMjA5Myw1MzU4OD
-cyMzYsMTg4NzY3OTA5NCwtMTI1NTEwMDM2Miw0MzEyNzc1MTUs
-LTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOT
-Y1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5
-NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMT
-QyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0
-MjIxNV19
+eyJoaXN0b3J5IjpbMTUwMzEyMjI0NCwtODA4MjAyMDkzLDUzNT
+g4NzIzNiwxODg3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUx
+NSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMD
+I5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5
+ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC
+0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTcz
+OTQyMjE1XX0=
 -->
