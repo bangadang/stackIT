@@ -141,15 +141,15 @@
 	- setting date patterns, unify currencies, normalize and tokenize text
 - deals with missing values on instance level (values, records sub-relations) dealing with NULL values and schema level with missing attributes. 
 	- causes distortion and noise (bias) even error in calculations
-	- find the missing values by:
+	- **find the missing values** by/recognition:
 		- analysis and comparison with expected values, 
-		- check if the values are in an expected range
+		- check if the values are in an expected range/order
 		- truncate values wih certain if/else conditions
 	- handle the missing values:
 		- estimate a missing value by choosing sth which does not change the average and standard deviation
 		- through attribute dependencies/relationships
 		- statistical techniques (linear regression, neural networks )
-- missing da
+
 
 ## Data Warehouse modelling
 - A data model/centralized system is designed with the needs of analysis in mind. Since the goal is to gain some knowledge for future (business) decisions through:
@@ -996,11 +996,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NDgwNTU1NSwxODg3Njc5MDk0LC0xMj
-U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
-NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
-E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
-NTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyOD
-YsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgy
-NTQ3MTBdfQ==
+eyJoaXN0b3J5IjpbNTEyNzQzODU0LDE4ODc2NzkwOTQsLTEyNT
+UxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1
+LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMT
+Y4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1
+MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Ni
+w3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1
+NDcxMF19
 -->
