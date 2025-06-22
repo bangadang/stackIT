@@ -13,7 +13,7 @@
 
 |OLTP| OLAP |
 |--|--|
-||
+|Entity Relationship model| Star/ Snowflake model
 | Many transactions|Few transactions|
 |latency sensitive|throughput sensitive|
 |small payloads|large return payloads|
@@ -49,7 +49,8 @@
 - provides interfaces for analyzing and data mining tasks
 
 ## ETL (extract, transform, load)
-most time consuming part od data warehousing, as there is no standard method or system but an abundance of different tools
+Source to staging
+most time consuming part of data warehousing, as there is no standard method or system but an abundance of different tools
  it it time intense because:
  - different data sources with heterogeneity
  - imense data volume
@@ -57,7 +58,8 @@ most time consuming part od data warehousing, as there is no standard method or 
  - There are two types of ETL
 	 - **batch processing**: data is processed in batches o defines size or time values and requires space for buffering
 	 - **real time processing**: data is processeed item by item continuously. Every item can only be seen once.
- - a variation of ETL ist ELT where the data transformatoin is done withing the warehouse, after loading. the goal is to to do the transformation using sql statements
+ - a variation of ETL ist ELT where the data transformatoin is done within the warehouse, after loading. 
+ - The goal is to to do the transformation using sql statements
  
  ### extract
  -  data is collected from one or several sources and held in temporary storage
@@ -992,7 +994,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTIyMjM2NywxODg3Njc5MDk0LC0xMj
+eyJoaXN0b3J5IjpbLTMwODMxMjkxOCwxODg3Njc5MDk0LC0xMj
 U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
 NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
 E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
