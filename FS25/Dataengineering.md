@@ -58,6 +58,8 @@
 	 - **batch processing**: data is processed in batches o defines size or time values and requires space for buffering
 	 - **real time processing**: data is processeed item by item continuously. Every item can only be seen once.
  - a variation of ETL ist ELT where the data transformatoin is done within the warehouse, after loading. 
+	 -  Leverages SQL and DB engine
+	-   Avoids external ETL tools
  - The goal is to to do the transformation using sql statements
  
  ### extract (source to staging)
@@ -993,11 +995,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg5MTkzNjksMTg4NzY3OTA5NCwtMT
-I1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2
-NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC
-0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAw
-MzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mj
-g2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4
-MjU0NzEwXX0=
+eyJoaXN0b3J5IjpbLTQwNDg2Nzg1NywxODg3Njc5MDk0LC0xMj
+U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
+NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
+E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
+NTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyOD
+YsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgy
+NTQ3MTBdfQ==
 -->
