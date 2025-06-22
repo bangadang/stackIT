@@ -33,6 +33,14 @@ $$
 \end{cases} & \text{otherwise}
 \end{cases}
 $$
+
+Let:
+-   `a` and `b` be two strings
+-   `i` be the length of the prefix of `a` you're considering (first `i` characters)
+-   `j` be the length of the prefix of `b` you're considering
+-   `lev_{a,b}(i,j)` be the Levenshtein distance between those prefixes
+
+
 ## Operational Database vs Data Warehouse
 ### OLTP
 - Online Transaction Processing. 
@@ -1104,11 +1112,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTUwODA3MywtODA4MjAyMDkzLDUzNT
-g4NzIzNiwxODg3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUx
-NSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMD
-I5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5
-ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC
-0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTcz
-OTQyMjE1XX0=
+eyJoaXN0b3J5IjpbMTE0Njc3MTk3NSwtNzM5NTA4MDczLC04MD
+gyMDIwOTMsNTM1ODg3MjM2LDE4ODc2NzkwOTQsLTEyNTUxMDAz
+NjIsNDMxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMD
+EzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMTY4Nzcx
+OTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLT
+EyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAy
+NjkzNzFdfQ==
 -->
