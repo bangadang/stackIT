@@ -171,8 +171,6 @@
 -  Faster query performance through optimized structures.
 -   Intuitive data exploration for business users (e.g., “Show sales by region and month”).
 -   Easy aggregation (sum, average, count) across dimensions.
-- No double counting (**disjointness**)
-- All data levels can be aggregated (**completeness**)
 - **Dimension tables**
 	- Contain descriptive attributes (context) related to facts (n >=2).
 	- Help to slice and dice the data.
@@ -192,14 +190,16 @@
 	- **parallel hierarchies**
 		- multiple independent grouping options are possible within the same dimension
 	- no hierarchical relationship between parallel branches
-	parallel hierarchy
-§ a path in the classification schema
-§ a consolidation path 
+	- parallel hierarchy
+		- a path in the classification schema
+		- a consolidation path 
 - **Facts**
 	- specific event/ transaction
+	- basis measure
 - **Measures**
-	- aggregated/ calculated quantity
+	- aggregated/ calculated quantity by applying arithmetic operation on facts
 	- Numeric values in the fact table, used for analysis (e.g., sum of sales, average revenue).
+	- **
 - **Schema/ Model types**
 	1. **Star Schema** ⭐
     -   Fact table in the center with dimension tables radiating outward.
@@ -1062,7 +1062,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE5MTE1MDY3LDUzNTg4NzIzNiwxODg3Nj
+eyJoaXN0b3J5IjpbNjkyNDk0MDIwLDUzNTg4NzIzNiwxODg3Nj
 c5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQs
 MTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02Mz
 MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
