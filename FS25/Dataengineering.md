@@ -16,6 +16,14 @@
 | database size: 100MB-100GB | database size: 100GB-100TB |
 
 ### Data Warehouse Architecture
+-   **Data Sources**: Files, XML, DBs, APIs
+-   **Staging Area**: Cleansing, transformation, integration  
+-   **Integration Layer**: Data unified across systems
+-   **Data Marts**: Domain-specific, optimized for fast querying
+-   **Presentation Layer**: OLAP, reporting, data mining
+    
+-   **Metadata Management**: Maintains schema and lineage
+
 | Input:Data Sources | **Staging** | **Integration** | **Enrichment** | **Analysis** | Analysis | Analysis | Analysis|
 |--|--|--|--|--|--|--|--| --|--|--|
 |  | *Staging Area* | *Data Universe* | *Data Universe* | *Data Marts* | *Analysis Services* | *Presentation* | *Front End* |
@@ -973,7 +981,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzEyOTQ1NCwxODg3Njc5MDk0LC0xMj
+eyJoaXN0b3J5IjpbMTg3ODg3MjM2MywxODg3Njc5MDk0LC0xMj
 U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
 NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
 E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
