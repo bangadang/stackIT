@@ -204,9 +204,11 @@
 		- All data levels can be aggregated (**completeness**)
 - **Schema/ Model types**
 	1. **Star Schema** ⭐
+	- Schema is normalized to avoid update anomalies 
     -   Fact table in the center with dimension tables radiating outward.
-    -   Simple and fast for querying.
-	2.   **Snowflake Schema** ❄️
+    - single dimension table per dimension
+    -   Simple and fast for querying because of redundancies in the dimension table.
+	3.   **Snowflake Schema** ❄️
 	- mapping of classifications : separate table for each 
 classification level (e.g., product, product group, etc.)
 	- dimension table include ID, characteristic attributes, foreign keys
@@ -1069,11 +1071,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1MTI0NzkzLC04MDgyMDIwOTMsNTM1OD
-g3MjM2LDE4ODc2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1
-LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMj
-k2NTQzOTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4
-OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLT
-E0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5
-NDIyMTVdfQ==
+eyJoaXN0b3J5IjpbMTc3NzQwMjQwNywtODA4MjAyMDkzLDUzNT
+g4NzIzNiwxODg3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUx
+NSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMD
+I5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5
+ODk2LC05NDgzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC
+0xNDIxNzc1OTI2LC05OTgyODkyODYsNzIwMjY5MzcxLC0xNTcz
+OTQyMjE1XX0=
 -->
