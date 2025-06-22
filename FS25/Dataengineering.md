@@ -138,7 +138,7 @@
 - part of the ETL process, which recgonizes and eliminiates inconsistencies, contradictions and errors in the data in order to improve quality
 - takes up about 80% of the total workload in data warehouse projects
 - standardization and normalization of the data
-	- setting datepatterns, unify currencies, normalize and tokenize text
+	- setting date patterns, unify currencies, normalize and tokenize text
 - deals with missing values on instance level (values, records sub-relations) dealing with NULL values and schemalevel with missing attributes. 
 	- causes distortion and noise (bias) even error in calculations
 	- find the missing values by:
@@ -995,7 +995,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDg2Nzg1NywxODg3Njc5MDk0LC0xMj
+eyJoaXN0b3J5IjpbLTgyNDkxMzIzMSwxODg3Njc5MDk0LC0xMj
 U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
 NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
 E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
