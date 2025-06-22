@@ -129,7 +129,7 @@ most time consuming part od data warehousing, as there is no standard method or 
 		- statistical techniques (linear regression, neural networks )
 
 ## Data Warehouse modelling
-- A data model is designed with the needs of the analysis in mind. Since the goal is to gain some knowledge for future (business) decisions through:
+- A data model/centralized system is designed with the needs of analysis in mind. Since the goal is to gain some knowledge for future (business) decisions through:
 	- performance indicators
 	- measurments of different perspectives/ dimensions
 	- structures
@@ -973,11 +973,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzY3OTA5NCwtMTI1NTEwMDM2Miw0Mz
-EyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMy
-ODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLD
-czMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcy
-MjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MS
-wtMTU3Mzk0MjIxNSwyMjUxNzY4OTksMjE4MjU0NzEwLC01NDk5
-MzMwOTddfQ==
+eyJoaXN0b3J5IjpbLTM1MzEyOTQ1NCwxODg3Njc5MDk0LC0xMj
+U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
+NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
+E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
+NTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyOD
+YsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgy
+NTQ3MTBdfQ==
 -->
