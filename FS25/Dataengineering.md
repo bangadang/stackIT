@@ -10,6 +10,15 @@
 - Online Analytical Processing, 
 - Technologie zur Analyse großer Datenmengen, die in Data Warehouses oder anderen Datenspeichern liegen. 
 - Ermöglicht eine multidimensionale Sicht auf Daten und unterstützt komplexe Abfragen und Berichte, die für Entscheidungsfindungen relevant sind.
+- **Operations**
+	- Pivot: rotate cube axes
+	- Roll-Up: Aggregate data to higher level
+	- Drill-Down: Expand to lower-level details
+	- Drill-Across: Compa
+	- Slice
+	- Dice
+	- Ranking
+	- Push/Pull
 
 |OLTP| OLAP |
 |--|--|
@@ -1033,7 +1042,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODgyMzg0MTIsNTM1ODg3MjM2LDE4OD
+eyJoaXN0b3J5IjpbLTE0MzYzMzkwMTUsNTM1ODg3MjM2LDE4OD
 c2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2
 NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLT
 YzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2
