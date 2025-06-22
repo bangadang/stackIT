@@ -186,11 +186,15 @@
 	- classification level describes granularity
 	- representation of dimensions via a classification schema
 	- **simple hierarchies**
-	- higher hierarchy level contains the aggregated 
-values of exactly one lower hierarchy level 
-§ top node (= root): contains a single 
-aggregated value for the entire dimension (= 
-ALL) 
+		- higher hierarchy level contains the aggregated values of exactly one lower hierarchy level 
+		- top node (= root): contains a single aggregated value for the entire dimension (= ALL) 
+		- country -> city-> store
+	- **parallel hierarchies**
+		- multiple independent grouping options are possible within the same dimension
+	- no hierarchical relationship between parallel branches
+	parallel hierarchy
+§ a path in the classification schema
+§ a consolidation path 
 - **Facts**
 	- specific event/ transaction
 - **Measures**
@@ -1058,11 +1062,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzMxMDM3ODcsNTM1ODg3MjM2LDE4OD
-c2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2
-NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLT
-YzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2
-Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5Mj
-YsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1
-MTc2ODk5XX0=
+eyJoaXN0b3J5IjpbNjE5MTE1MDY3LDUzNTg4NzIzNiwxODg3Nj
+c5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQs
+MTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02Mz
+MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
+OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
+05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
+Njg5OV19
 -->
