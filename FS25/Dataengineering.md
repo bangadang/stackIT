@@ -4,16 +4,17 @@
 - variety of formats
 - typical issues:
 	- parsing text into fields (separator issues)
-§ naming conventions: NYC vs New York
-§ missing required field (e.g., no SSN)
-§ different representations (2 vs Two)
-§ fields too long (get truncated)
-§ primary key violation (two people with the same social security 
-number)
-§ redundant records (exact match or other)
-§ formatting issues – especially dates
-§ licensing issues or privacy keep you from using the data as you 
-would like
+	-  naming conventions: NYC vs New York
+	-  missing required field (e.g., no SSN)
+	- different representations (2 vs Two)
+	- fields too long (get truncated)
+	- primary key violation (two people with the same social security 
+	number)
+	- redundant records (exact match or other)
+	- formatting issues – especially dates
+	- licensing issues or privacy keep you from using the data as you 
+	would like
+## Levensthein distance Shortest Edit Distance
 ## Operational Database vs Data Warehouse
 ### OLTP
 - Online Transaction Processing. 
@@ -1085,7 +1086,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzEyMjI0NCwtODA4MjAyMDkzLDUzNT
+eyJoaXN0b3J5IjpbLTU5MDcyMzExNSwtODA4MjAyMDkzLDUzNT
 g4NzIzNiwxODg3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUx
 NSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMD
 I5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5
