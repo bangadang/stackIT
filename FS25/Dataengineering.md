@@ -60,7 +60,7 @@
  - a variation of ETL ist ELT where the data transformatoin is done within the warehouse, after loading. 
  - The goal is to to do the transformation using sql statements
  
- ### extract
+ ### extract (source to staging)
  -  data is collected from one or several sources and held in temporary storage
  - validation test are run on the data to ensure it conforms with its destinations requirements
  - its a task done regularly in order to supply updated data to da data warehouse
@@ -993,7 +993,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgzNzE3NDMsMTg4NzY3OTA5NCwtMT
+eyJoaXN0b3J5IjpbLTEzNzg5MTkzNjksMTg4NzY3OTA5NCwtMT
 I1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2
 NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC
 0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAw
