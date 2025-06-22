@@ -1,6 +1,8 @@
 # Dataengineering 
 
 ## Operational Database vs Data Warehouse
+### OLTP
+- Online Transaction Processing. Es ist ein System zur Verarbeitung von Datenbanktransaktionen, das in Echtzeit und von vielen Benutzern gleichzeitig durchgeführt wird, typischerweise über das Internet. OLTP-Systeme sind darauf ausgelegt, eine grosse Anzahl kurzer, datenbankbasierter Transaktionen effizient zu verarbeiten, wie z.B. bei Online-Banking oder E-Commerce.
 |OLTP| OLAP |
 |--|--|
 | Many transactions|Few transactions|
@@ -981,11 +983,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3ODg3MjM2MywxODg3Njc5MDk0LC0xMj
-U1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3
-NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLT
-E2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNTY1MDAz
-NTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgyODkyOD
-YsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3Njg5OSwyMTgy
-NTQ3MTBdfQ==
+eyJoaXN0b3J5IjpbNDIwOTQ1Nzc2LDE4ODc2NzkwOTQsLTEyNT
+UxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1
+LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMT
+Y4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1
+MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Ni
+w3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1
+NDcxMF19
 -->
