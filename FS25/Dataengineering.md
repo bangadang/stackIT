@@ -145,10 +145,11 @@
 		- analysis and comparison with expected values, 
 		- check if the values are in an expected range/order
 		- truncate values wih certain if/else conditions
-	- handle the missing values:
+	- **handle the missing values**:
 		- estimate a missing value by choosing sth which does not change the average and standard deviation
 		- through attribute dependencies/relationships
 		- statistical techniques (linear regression, neural networks )
+	
 
 
 ## Data Warehouse modelling
@@ -996,7 +997,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNzQzODU0LDE4ODc2NzkwOTQsLTEyNT
+eyJoaXN0b3J5IjpbNTM1ODg3MjM2LDE4ODc2NzkwOTQsLTEyNT
 UxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1
 LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMT
 Y4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1
