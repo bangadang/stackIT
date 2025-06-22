@@ -211,7 +211,7 @@
 classification level (e.g., product, product group, etc.)
 	- dimension table include ID, characteristic attributes, foreign keys
 	- fact table include foreign key referencing bottom-level category of each dimension
-	- set of all foreign keys
+	- set of all foreign keys produce primary key for fact table
     -   Dimensions are normalized (split into sub-dimensions).
     -   More storage-efficient but slightly slower for querying.
  
@@ -1069,11 +1069,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzgxMzkxNTEsLTgwODIwMjA5Myw1Mz
-U4ODcyMzYsMTg4NzY3OTA5NCwtMTI1NTEwMDM2Miw0MzEyNzc1
-MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMT
-AyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDky
-OTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OC
-wtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3
-Mzk0MjIxNV19
+eyJoaXN0b3J5IjpbMjY1MTI0NzkzLC04MDgyMDIwOTMsNTM1OD
+g3MjM2LDE4ODc2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1
+LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMj
+k2NTQzOTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4
+OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLT
+E0MjE3NzU5MjYsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5
+NDIyMTVdfQ==
 -->
