@@ -153,6 +153,9 @@
 
 
 ## Data Warehouse modelling
+### **Multidimensional Data Model?**
+
+It organizes data into **facts** and **dimensions**, resembling a **data cube**. This cube allows users to analyze data from multiple perspectives or dimensions (e.g., time, geography, product).
 - A data model/centralized system is designed with the needs of analysis in mind. Since the goal is to gain some knowledge for future (business) decisions through:
 	- performance indicators
 	- measurments of different perspectives/ dimensions
@@ -997,11 +1000,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM1ODg3MjM2LDE4ODc2NzkwOTQsLTEyNT
-UxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1
-LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMT
-Y4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1
-MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5MjYsLTk5ODI4OTI4Ni
-w3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1MTc2ODk5LDIxODI1
-NDcxMF19
+eyJoaXN0b3J5IjpbLTIxMTgzOTY0MzksNTM1ODg3MjM2LDE4OD
+c2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2
+NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLT
+YzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2
+Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5Mj
+YsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1
+MTc2ODk5XX0=
 -->
