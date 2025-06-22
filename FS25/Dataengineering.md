@@ -56,7 +56,7 @@ If both `i > 0` and `j > 0`, then we look at the **minimum** of the following th
     Replace the character `a_i` with `b_j`, **only if they're different**:
     $lev_{a,b}​(i−1,j−1)+1_{(ai​\neq bj​)}​$
     
-    The $1_{(a_i \ne b_j)}$means:
+    The $1_{(a_i \ne b_j)}$means:.öööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööööm 
     -   Add 0 if the characters are the same
     -   Add 1 if they’re different
 ## Operational Database vs Data Warehouse
@@ -1130,11 +1130,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExMjgxNjQ2LC03Mzk1MDgwNzMsLTgwOD
-IwMjA5Myw1MzU4ODcyMzYsMTg4NzY3OTA5NCwtMTI1NTEwMDM2
-Miw0MzEyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2NzUsLTEwMT
-MyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC0xNjg3NzE5
-OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAwMzUwNSwtMT
-I1ODcyMjE1OCwtMTQyMTc3NTkyNiwtOTk4Mjg5Mjg2LDcyMDI2
-OTM3MV19
+eyJoaXN0b3J5IjpbLTg2Mzg4NjM5MSw0MTEyODE2NDYsLTczOT
+UwODA3MywtODA4MjAyMDkzLDUzNTg4NzIzNiwxODg3Njc5MDk0
+LC0xMjU1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMz
+c5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5
+NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5OTIsNT
+Y1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC05OTgy
+ODkyODZdfQ==
 -->
