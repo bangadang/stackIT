@@ -48,14 +48,14 @@ Recursive Case:
 If both `i > 0` and `j > 0`, then we look at the **minimum** of the following three operations:
 1.  **Deletion**:  
     Delete a character from `a`:
-    $lev_{a,b}(i−1,j)+1\text{lev}_{a,b}(i-1,j) + 1leva,b​(i−1,j)+1$
+    $lev_{a,b}(i−1,j)+1$
 2.  **Insertion**:  
     Insert a character into `a`:
-    leva,b(i,j−1)+1\text{lev}_{a,b}(i,j-1) + 1leva,b​(i,j−1)+1
+	$lev_{a,b}​(i,j−1)+1$
 3.  **Substitution**:  
     Replace the character `a_i` with `b_j`, **only if they're different**:
     
-    leva,b(i−1,j−1)+1(ai≠bj)\text{lev}_{a,b}(i-1,j-1) + 1_{(a_i \ne b_j)}leva,b​(i−1,j−1)+1(ai​=bj​)​
+    $leva,b​(i−1,j−1)+1(ai​=bj​)​$
     
     The `1_{(a_i \ne b_j)}` means:
     
@@ -1133,7 +1133,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjc5MjkzNjEsLTczOTUwODA3MywtOD
+eyJoaXN0b3J5IjpbLTIwMzY2NjE0OTcsLTczOTUwODA3MywtOD
 A4MjAyMDkzLDUzNTg4NzIzNiwxODg3Njc5MDk0LC0xMjU1MTAw
 MzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMT
 AxMzIxMzI4NywxMDI5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3
