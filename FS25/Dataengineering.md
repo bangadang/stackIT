@@ -157,8 +157,11 @@
 - Organizes data into facts and dimensions, resembling a data cube.
 - Allows users to analyze data from multiple perspectives or dimensions (e.g., time, geography, product).
 - designed to support efficient querying and reporting, particularly for OLAP
-- Contains measurable, quantitative data**
+- Contains measurable, quantitative data
 - Usually contains foreign keys to dimension tables and facts (measures).
+-  Faster query performance through optimized structures.
+-   Intuitive data exploration for business users (e.g., “Show sales by region and month”).
+-   Easy aggregation (sum, average, count) across dimensions.
 - **Dimension tables**
 	- Contain descriptive attributes (context) related to facts.
 	- Help to slice and dice the data.
@@ -1021,11 +1024,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzM0ODcyNCw1MzU4ODcyMzYsMTg4Nz
-Y3OTA5NCwtMTI1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0
-LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNj
-MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
-OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
-wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
-NzY4OTldfQ==
+eyJoaXN0b3J5IjpbLTEyMTUyMTE3ODYsNTM1ODg3MjM2LDE4OD
+c2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2
+NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLT
+YzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2
+Mzk5Miw1NjUwMDM1MDUsLTEyNTg3MjIxNTgsLTE0MjE3NzU5Mj
+YsLTk5ODI4OTI4Niw3MjAyNjkzNzEsLTE1NzM5NDIyMTUsMjI1
+MTc2ODk5XX0=
 -->
