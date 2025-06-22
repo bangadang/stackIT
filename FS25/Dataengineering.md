@@ -15,6 +15,7 @@
 	- licensing issues or privacy keep you from using the data as you 
 	would like
 ## Levensthein distance Shortest Edit Distance
+- the minimum number of character edit operations needed to turn one string into the other
 ## Operational Database vs Data Warehouse
 ### OLTP
 - Online Transaction Processing. 
@@ -1086,7 +1087,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDcyMzExNSwtODA4MjAyMDkzLDUzNT
+eyJoaXN0b3J5IjpbMTU5ODE3MTUwMywtODA4MjAyMDkzLDUzNT
 g4NzIzNiwxODg3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUx
 NSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMD
 I5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5
