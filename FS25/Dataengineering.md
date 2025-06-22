@@ -154,11 +154,16 @@
 
 ## Data Warehouse modelling
 ### Multidimensional Data Model
-- Organizes data into **facts** and **dimensions**, resembling a **data cube**.
+- Organizes data into facts and dimensions, resembling a data cube.
 - Allows users to analyze data from multiple perspectives or dimensions (e.g., time, geography, product).
-- designed to support efficient querying and reporting, particularly for **OLAP**
-- Contains **measurable, quantitative data**
-- Usually contains **foreign keys** to dimension tables and **facts (measures)**.
+- designed to support efficient querying and reporting, particularly for OLAP
+- Contains measurable, quantitative data**
+- Usually contains foreign keys to dimension tables and facts (measures).
+- **Dimension tables**
+	- Contain descriptive attributes (context) related to facts.
+	- Help to slice and dice the data.
+	- Example:
+		- Time dimension: dayy, month, 
 
 ### Data warehouse
 - A data model/centralized system is designed with the needs of analysis in mind. Since the goal is to gain some knowledge for future (business) decisions through:
@@ -1005,7 +1010,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTU1NzgxMTYsNTM1ODg3MjM2LDE4OD
+eyJoaXN0b3J5IjpbLTEyNTMyMTMzOTMsNTM1ODg3MjM2LDE4OD
 c2NzkwOTQsLTEyNTUxMDAzNjIsNDMxMjc3NTE1LC01MTg2NDY2
 NCwxMzEzNzk0Njc1LC0xMDEzMjEzMjg3LDEwMjk2NTQzOTYsLT
 YzMzIwOTk0OCwtMTY4NzcxOTk1MCw3MzA5Mjk4OTYsLTk0ODM2
