@@ -199,7 +199,9 @@
 - **Measures**
 	- aggregated/ calculated quantity by applying arithmetic operation on facts
 	- Numeric values in the fact table, used for analysis (e.g., sum of sales, average revenue).
-	- **
+	- **Other properties**
+		-  No double counting (**disjointness**)
+		- All data levels can be aggregated (**completeness**)
 - **Schema/ Model types**
 	1. **Star Schema** ⭐
     -   Fact table in the center with dimension tables radiating outward.
@@ -1062,11 +1064,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNDk0MDIwLDUzNTg4NzIzNiwxODg3Nj
-c5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2NjQs
-MTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC02Mz
-MyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgzNjM5
-OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIxNzc1OTI2LC
-05OTgyODkyODYsNzIwMjY5MzcxLC0xNTczOTQyMjE1LDIyNTE3
-Njg5OV19
+eyJoaXN0b3J5IjpbLTgwODIwMjA5Myw1MzU4ODcyMzYsMTg4Nz
+Y3OTA5NCwtMTI1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0
+LDEzMTM3OTQ2NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNj
+MzMjA5OTQ4LC0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYz
+OTkyLDU2NTAwMzUwNSwtMTI1ODcyMjE1OCwtMTQyMTc3NTkyNi
+wtOTk4Mjg5Mjg2LDcyMDI2OTM3MSwtMTU3Mzk0MjIxNSwyMjUx
+NzY4OTldfQ==
 -->
