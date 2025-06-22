@@ -22,7 +22,16 @@
 	- insert a character into t (cost = 1) 
 	- substitute one character for another (cost = 1)
 $$
-
+\text{lev}_{a,b}(i,j) = 
+\begin{cases} 
+\max(i,j) & \text{if } \min(i,j) = 0, \\
+\min 
+\begin{cases}
+\text{lev}_{a,b}(i-1,j) + 1 \\
+\text{lev}_{a,b}(i,j-1) + 1 \\
+\text{lev}_{a,b}(i-1,j-1) + 1_{(a_i \ne b_j)}
+\end{cases} & \text{otherwise}
+\end{cases}
 $$
 ## Operational Database vs Data Warehouse
 ### OLTP
@@ -1095,7 +1104,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjM5MzEyMSwtODA4MjAyMDkzLDUzNT
+eyJoaXN0b3J5IjpbLTczOTUwODA3MywtODA4MjAyMDkzLDUzNT
 g4NzIzNiwxODg3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUx
 NSwtNTE4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMD
 I5NjU0Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5
