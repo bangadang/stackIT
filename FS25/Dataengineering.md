@@ -128,16 +128,16 @@ If both `i > 0` and `j > 0`, then we look at the **minimum** of the following th
  - a variation of ETL ist ELT where the data transformatoin is done within the warehouse, after loading. 
 	 -  Leverages SQL and DB engine
 	-   Avoids external ETL tools
- - The goal is to to do the transformation using sql statements
+	 - The goal is to to do the transformation using sql statements
  
  ### extract (source to staging)
  -  data is collected from one or several sources and held in temporary storage
  - validation test are run on the data to ensure it conforms with its destinations requirements
- - its a task done regularly in order to supply updated data to da data warehouse
+ - its a task done regularly in order to supply updated data to the data warehouse
  - the data extracted is differentiable through a time setting and defined type of extracted data
 	 - **time setting**:
 		 - synchronous notification:
-			 - upon an update occurence at source the ddata extracton is triggered
+			 - upon an update occurence at source the data extraction is triggered
 		 - asynchronous notification:
 			 - periodic: the sources generates an extraction on a regular basis or the DW extracts the updated data on a regular basis
 			 - event-driven: the DW extracts the updates at the end of a year or the sources notifies upon each X updates
@@ -1130,11 +1130,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQ0OTM5NjYsLTg2Mzg4NjM5MSw0MT
-EyODE2NDYsLTczOTUwODA3MywtODA4MjAyMDkzLDUzNTg4NzIz
-NiwxODg3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUxNSwtNT
-E4NjQ2NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0
-Mzk2LC02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC
-05NDgzNjM5OTIsNTY1MDAzNTA1LC0xMjU4NzIyMTU4LC0xNDIx
-Nzc1OTI2XX0=
+eyJoaXN0b3J5IjpbMTYzMTk0NzI5NywtMTQ4NDQ5Mzk2NiwtOD
+YzODg2MzkxLDQxMTI4MTY0NiwtNzM5NTA4MDczLC04MDgyMDIw
+OTMsNTM1ODg3MjM2LDE4ODc2NzkwOTQsLTEyNTUxMDAzNjIsND
+MxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEz
+Mjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MC
+w3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3
+MjIxNThdfQ==
 -->
