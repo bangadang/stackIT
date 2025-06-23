@@ -740,7 +740,7 @@ NoSQL systems (like Cassandra, MongoDB, Couchbase, DynamoDB) are often designed 
 ## Consistency Models
 ### ACID
 traditional relational database systems typically implement ACID transactions 
-- **atomicity**: “all or nothing” 
+- **atomicity**: “all or nothing” <-> a transaction is treated as a single, indivisible unit. It either completes fully or not at all**.
 - **consistency**: transactions never observe or result in inconsistent data 
 - **isolation**: transactions are not aware of concurrent transactions 
 - **durability**: once committed, the state of a transaction is permanent
@@ -1130,11 +1130,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTEzOTA3OCwtMTQ4NDQ5Mzk2NiwtOD
-YzODg2MzkxLDQxMTI4MTY0NiwtNzM5NTA4MDczLC04MDgyMDIw
-OTMsNTM1ODg3MjM2LDE4ODc2NzkwOTQsLTEyNTUxMDAzNjIsND
-MxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEz
-Mjg3LDEwMjk2NTQzOTYsLTYzMzIwOTk0OCwtMTY4NzcxOTk1MC
-w3MzA5Mjk4OTYsLTk0ODM2Mzk5Miw1NjUwMDM1MDUsLTEyNTg3
-MjIxNThdfQ==
+eyJoaXN0b3J5IjpbLTM3MjQxNjk4NiwxMzcxMTM5MDc4LC0xND
+g0NDkzOTY2LC04NjM4ODYzOTEsNDExMjgxNjQ2LC03Mzk1MDgw
+NzMsLTgwODIwMjA5Myw1MzU4ODcyMzYsMTg4NzY3OTA5NCwtMT
+I1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2
+NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC
+0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAw
+MzUwNV19
 -->
