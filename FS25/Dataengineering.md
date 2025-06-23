@@ -836,7 +836,7 @@ leads to levels of scalability that cannot be obtained with ACID, at the cost of
 	 - content management systems, blogging platforms
 	 - web/ real-time analytics
 	 - e-commerce application
- - unsuitable database solution everything that requires atomic cross-document oerations or queries aganst varying aggregate structures
+ - unsuitable database solution everything that requires atomic cross-document operations or queries aganst varying aggregate structures
 ## MongoDB
 ### Fundamental
 - uses json stored as bson (binary)
@@ -1130,11 +1130,11 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MzAwNzUxNCwxMzcxMTM5MDc4LC0xND
-g0NDkzOTY2LC04NjM4ODYzOTEsNDExMjgxNjQ2LC03Mzk1MDgw
-NzMsLTgwODIwMjA5Myw1MzU4ODcyMzYsMTg4NzY3OTA5NCwtMT
-I1NTEwMDM2Miw0MzEyNzc1MTUsLTUxODY0NjY0LDEzMTM3OTQ2
-NzUsLTEwMTMyMTMyODcsMTAyOTY1NDM5NiwtNjMzMjA5OTQ4LC
-0xNjg3NzE5OTUwLDczMDkyOTg5NiwtOTQ4MzYzOTkyLDU2NTAw
-MzUwNV19
+eyJoaXN0b3J5IjpbMTAwMDA3MDkyNCwtNTYzMDA3NTE0LDEzNz
+ExMzkwNzgsLTE0ODQ0OTM5NjYsLTg2Mzg4NjM5MSw0MTEyODE2
+NDYsLTczOTUwODA3MywtODA4MjAyMDkzLDUzNTg4NzIzNiwxOD
+g3Njc5MDk0LC0xMjU1MTAwMzYyLDQzMTI3NzUxNSwtNTE4NjQ2
+NjQsMTMxMzc5NDY3NSwtMTAxMzIxMzI4NywxMDI5NjU0Mzk2LC
+02MzMyMDk5NDgsLTE2ODc3MTk5NTAsNzMwOTI5ODk2LC05NDgz
+NjM5OTJdfQ==
 -->
