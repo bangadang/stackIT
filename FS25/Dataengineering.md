@@ -145,7 +145,7 @@ If both `i > 0` and `j > 0`, then we look at the **minimum** of the following th
 		 - **type of data**:
 			 - snapshots: the source delivers the complete dataset each time, like new pricing list or product catalog
 				 - requires an update detection and capturing of the update history
-			 - logs: the ource logs each update operation on the data through transaction/appplication-driven logging
+			 - logs: the source logs each update operation on the data through transaction/appplication-driven logging
 				 - requires efficient update execution
 			 - netlogs: the source delivers net updates though catalog updates, snapshot deltas
 				 - source cannot offer a complete history but updating can be done efficiently
@@ -1130,7 +1130,7 @@ updates will **eventually** reach all nodes, but **no guarantees on order** or t
 -   Ensures **stronger guarantees** than eventual consistency, without sacrificing too much availability.
 - example: If you write "Alice likes Bob" and then query for Alice’s likes, **you’ll see that result**—even on a different replica.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTk0NzI5NywtMTQ4NDQ5Mzk2NiwtOD
+eyJoaXN0b3J5IjpbMTM3MTEzOTA3OCwtMTQ4NDQ5Mzk2NiwtOD
 YzODg2MzkxLDQxMTI4MTY0NiwtNzM5NTA4MDczLC04MDgyMDIw
 OTMsNTM1ODg3MjM2LDE4ODc2NzkwOTQsLTEyNTUxMDAzNjIsND
 MxMjc3NTE1LC01MTg2NDY2NCwxMzEzNzk0Njc1LC0xMDEzMjEz
