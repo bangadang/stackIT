@@ -143,9 +143,9 @@ C --> D
 ```
 ![Alt](https://github.com/bangadang/stackIT/blob/master/accuracy-vs-precision.png)
 
-![de](https://github.com/bangadang/stackIT/blob/master/accuracy-vs-precision.png)
+![description](https://github.com/bangadang/stackIT/blob/master/accuracy-vs-precision.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDMzMTk0NywtMTY3MjgwNTIyM119
+eyJoaXN0b3J5IjpbLTQzNjYyMjM4NCwtMTY3MjgwNTIyM119
 -->
