@@ -141,11 +141,7 @@ A --> C(Round Rect)
 B --> D{Rhombus}
 C --> D
 ```
-![Alt](https://github.com/bangadang/stackIT/blob/master/accuracy-vs-precision.png)
-
-![description](https://github.com/bangadang/stackIT/blob/master/accuracy-vs-precision.png)
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjYyMjM4NCwtMTY3MjgwNTIyM119
+eyJoaXN0b3J5IjpbMzcxNTYxNzcxLC0xNjcyODA1MjIzXX0=
 -->
