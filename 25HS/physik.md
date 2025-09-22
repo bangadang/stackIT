@@ -14,7 +14,7 @@ Begründen Sie die vorrangige Verwendung der Kompensationsmethode für hochgenau
 Die relative Abweichung infolge der Quantisierung soll kleiner als 0,02% bleiben.<br />
 Wie gross muss die Auflösung des zu verwendenden AD-Wandlers mindestens sein?
 
-$$ f0.0002 = 
+$$ 0.0002 \gt \frac{1}{2^n - 1} = $$
 
 
 == Aufgabe ==
@@ -103,5 +103,5 @@ $$ \begin{align*}
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTk2ODM4M119
+eyJoaXN0b3J5IjpbNzU3NzIyNjA1XX0=
 -->
