@@ -1,4 +1,4 @@
-
+## SW2
 ''Blenden Sie beim ersten Versuch die Musterlösung aus und versuchen Sie, die Aufgabe ohne Hilfe zu lösen. Recherchieren Sie selbständig, wenn Ihnen eine physikalische Formel nicht bekannt ist. Wenn Sie die Musterlösung nicht verstehen, fragen Sie in der Übungsstunde nach oder chatten Sie mir per MS Teams''
 
 == Aufgabe ==
@@ -14,6 +14,7 @@ Begründen Sie die vorrangige Verwendung der Kompensationsmethode für hochgenau
 Die relative Abweichung infolge der Quantisierung soll kleiner als 0,02% bleiben.<br />
 Wie gross muss die Auflösung des zu verwendenden AD-Wandlers mindestens sein?
 
+$$ f0.0002 = 
 
 
 == Aufgabe ==
@@ -102,5 +103,5 @@ $$ \begin{align*}
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDUyODgyMzJdfQ==
+eyJoaXN0b3J5IjpbMTg3NTk2ODM4M119
 -->
