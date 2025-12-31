@@ -1,0 +1,859 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="MarkdownViewer++" />
+        <title>Zusammenfassung.md</title>
+        <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+        </style>
+      </head>
+    <body>
+        </style>
+# Zusammenfassung Data Product and Services
+<h1 id="basics-of-data-products-and-services">Basics of Data Products and Services</h1>
+<h2 id="definition-of-services">Definition of Services</h2>
+<p><strong>macroeconomic view of services</strong></p>
+<ul>
+<li>primary sector: agriculture</li>
+<li>secondary sector: manufacturing</li>
+<li>tertiary sector: services (in CH growing sector since 1800, main sector today)
+<ul>
+<li>quartenary sector: information services - division of labour in transport, communication, trade, and administration through high information content.</li>
+<li>quinary sector: human services - Services that change and improve the recipient in health, education annd recreational services.</li>
+</ul>
+</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/services.png" width="800" height="auto" alt="different services in an economy" /></p>
+<h2 id="value-of-data-analytics-today">Value of data &amp; analytics today</h2>
+<p>Most large companies have data-driven business models. Good data accquisition and analyzation of data provide a huge value.</p>
+<h2 id="importance-of-data-product-thinking">Importance of data product thinking</h2>
+<p>Top Big Data challenges:</p>
+<ul>
+<li>Determing how to get value from big data</li>
+<li>Defining strategy</li>
+<li>Obtaining skills and capabillities necessary</li>
+<li>Integratting multiple data soources</li>
+<li>Infrastructure and/or architecture</li>
+<li>Security, privacy and data quality risks and issues</li>
+<li>funding</li>
+<li>understanding of big data</li>
+<li>leadership / organizational issues</li>
+</ul>
+<p>Data product concepts provided reliably added value, therefore a data product:</p>
+<ol>
+<li>generates a customer benefit or satisfies customer needs</li>
+<li>is relevant for more than one user</li>
+<li>goes through a production process and is produced with quality</li>
+<li>is managed within a product life cycle</li>
+<li>is a combination of data assets, data related capabillities that together form/contribute to value added prooduct offerings</li>
+</ol>
+<h3 id="data-assets">Data assets</h3>
+<p>They belong to a multitude of different data types, like</p>
+<ul>
+<li>transactional data</li>
+<li>demographic data</li>
+<li>time series data</li>
+<li>location data</li>
+<li>IoT Data</li>
+<li>etc.</li>
+</ul>
+<h3 id="data-capabillities">Data capabillities</h3>
+<p>They span a wide variety of areas.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/dataCapabillities.png" width="800" height="auto" alt="data related capabillities" /></p>
+<h3 id="value-added-product-offerings">value-added product offerings</h3>
+<p>There are four mechanisms of how data and analytics provide value.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/productOfferings.png" width="800" height="auto" alt="data offerings" /></p>
+<p>Prescriptive Analytics translate trends/prediction into actions.</p>
+<h2 id="three-types-of-data-products">Three types of data products</h2>
+<ol>
+<li><strong>Data as a service</strong>
+<ul>
+<li>This product does not exists without the data it is its , since together with the analytics it generates sales.</li>
+<li>Swiss Post Adress Management service</li>
+<li>MS Azure Computer Vision service</li>
+</ul>
+</li>
+<li><strong>Data-enhanced products</strong>
+<ul>
+<li>Extends an existing business model by increasing the value of another product (new customer value proposition new revenue streams).</li>
+<li>Tesla Auto Pilot</li>
+<li>Bosch Predicitve Maintenance</li>
+</ul>
+</li>
+<li><strong>Data as insights</strong>
+<ul>
+<li>Supports business model to improve internal processes for example. It benefits decision making for product innovation and management.</li>
+<li>Manufacturing-Analytics</li>
+<li>Supply Chain-Analytics</li>
+<li>Marketing-Analytics</li>
+</ul>
+</li>
+</ol>
+<h2 id="data-product-design-process">Data product design process</h2>
+<h3 id="cross-industry-standard-process-for-data-mining">Cross-industry standard process for data mining</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/crisp.png" width="800" height="auto" alt="CRISP-DM" /></p>
+<p>data understanding is often forgotten but a very important step</p>
+<p><strong>Generic Tasks and Outputs of the phases</strong></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/crispTasks.png" width="800" height="auto" alt="CRISP-DM" /></p>
+<p>(don't need to memorize the outputs for the exam. only understanding on the high level is needed)</p>
+<h1 id="waiting-queues">Waiting Queues</h1>
+<p>Examples</p>
+<ul>
+<li>Waiting at a counter</li>
+<li>Waiting for the machine to become free</li>
+<li>Waiting for vacant call center employees</li>
+<li>Waiting for a free doctor</li>
+<li>Waiting for a green light</li>
+</ul>
+<p>Questions</p>
+<ul>
+<li>How long do I have to wait?</li>
+<li>How long will I be &quot;in the system&quot;?</li>
+<li>How likely is it that I won't have to wait?</li>
+</ul>
+<h2 id="capacity-managment">Capacity Managment</h2>
+<p>Most services fullfill IHIP properties</p>
+<ul>
+<li>Intangible: Services are no physical object, they are experienced</li>
+<li>Heterogeneous: customer involement</li>
+<li>Instantaneous:</li>
+<li>Perishable:</li>
+</ul>
+<p>--&gt; Operations managers are concerned with ensuring that the service process has <strong>sufﬁcient resources</strong> to deal with the anticipated levels of <strong>customer demand</strong> in such a way that <strong>quality of service</strong> meets pre-set targets in the most **cost-effective ** manner.</p>
+<h2 id="strategies">Strategies</h2>
+<ul>
+<li><strong>Low capacity</strong>: steady caapcity and deal with the consequences of customer insatisfaction and service quality</li>
+<li><strong>Chase capacity</strong>: capacity matches predicted demand</li>
+<li><strong>Demand management</strong>: influence/ notch cusstomers to prefer non peak times</li>
+</ul>
+<h2 id="queue-design">Queue design</h2>
+<ul>
+<li>Multiple lines, multiple servers</li>
+<li>single line, multiple servers</li>
+</ul>
+<h3 id="queue-parameters">Queue Parameters</h3>
+<p>Arrival rate <span class="math">\lambda</span>
+Service time S
+Notation: a/b/c
+a Probability distribution of the arrival rate
+D = Deterministic
+M = Poisson
+G = General
+b Probability distribution of service time
+D = Deterministic
+M = Exponential
+G = General
+c Number of servers</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/queueCharacterisitcs.png" width="800" height="auto" alt="Queue Characeristics" /></p>
+<h3 id="performance-mm1-queues">Performance M/M/1 Queues</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/mm1Queues.png" width="800" height="auto" alt="" /></p>
+<h3 id="markov-chain-of-the-mm1-queue">Markov chain of the M/M/1 Queue</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/markovChain.png" width="800" height="auto" alt="" />
+System Probability: P<sub>n</sub> = p<sup>n</sup> (1-p)
+Queue Probability: P<sub>n+1</sub> = p<sup>n+1</sup> (1-p), n&gt;1 (Queue empty but service ppl is directly servicing)</p>
+<h3 id="example-post-office">Example Post Office</h3>
+<ul>
+<li>single service employee</li>
+<li>22 customers/h (lambda, poisson dist.)</li>
+<li>30 customers/h (mu, exp. dist.)
+<strong>Questions</strong></li>
+</ul>
+<ol>
+<li>To what extent of his time is the postal employee busy serving customers?
+22/30 = 73.3%</li>
+<li>What is the probability that the post office is empty?
+P<sub>0</sub> = (22/30)<sup>0</sup> (1 - 22/30) = 26.7%
+<ol type="a">
+<li>What is the probability that the queue in the post office is empty?
+p<sup>0</sup>(1-p) + p<sup>1</sup>(1-p) = 1-p<sup>2</sup>
+1-p<sup>2</sup> = (22/30)<sup>0</sup> (1- 22/30) + (22/30)<sup>1</sup> (1- 22/30)</li>
+</ol>
+</li>
+<li>What is the probability that exactly two customers will be in the post office?
+P<sub>2</sub> = (22/30)<sup>2</sup> (1 - 22/30) = 14.3%
+<ol type="a">
+<li>What is the probability that exactly one customer will be in the queue?	
+14.3% 1 in Queue 1 Serviced --&gt; 2 customers are in the office</li>
+</ol>
+</li>
+<li>What is the probability that there will be three or fewer customers in the post office?
+P<sub>0</sub> + P<sub>1</sub> + P<sub>2</sub> + P<sub>3</sub> = 71%</li>
+<li>What is the expected number of customers in the post office? --&gt; LQ and LS (length queue/system)
+LS = (22/30)/(1 - 22/30) = 2.75</li>
+<li>What is the expected number of customers served by the postal officer?
+LS - LQ = p = 0.733</li>
+<li>What is the expected number of customers in the queue?
+LS - p = 2.75 - 0.733 = 2.02</li>
+</ol>
+<p>--&gt; For a functioning system or model arrival rate has to be smaller than the serrrvice rate</p>
+<h3 id="mm1-waiting-queue-network">M/M/1 waiting queue network</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/mm1network.png" width="800" height="auto" alt="demand function" />
+Incomin arrival rate = outcoming arrival rate --&gt; Average Time in System or Service Time is equal to the sum of the individual stations
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/mm1combinations.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/mm1networkformula.png" width="800" height="auto" alt="demand function" /></p>
+<h1 id="demand-management-yield-management-price-optimization">Demand management (= Yield management, Price optimization)</h1>
+<p>Revenue Management embraces techniques to allocate limited resources to different types of
+customers at different prices in order to maximize company revenues.
+-&gt; Smooth the load on resources by influencing the demand.</p>
+<p>Revenue managment is most effective:</p>
+<ul>
+<li>product can be sold in advance because it has a limited shelf life</li>
+<li>limited product capacity and increasing capacity takes a lot of effort</li>
+<li>market/customer can be divided into segments</li>
+<li>low variable cost, flying with full or empty plane is roughly the same</li>
+<li>fluctuating demand, demand is not known at time of decision</li>
+<li>adjustable pricing</li>
+</ul>
+<p>Revenue management is used in airlines, hotels, car rentals, freight but also in energy, broadcasting, health services, golf, clothing industry.</p>
+<h3 id="case-example-american-airlines">Case example American airlines</h3>
+<ul>
+<li>They need to sell the right payces to the right customers at the right price.</li>
+<li>The value of a seat varies depending on demand. (seat hortage&lt;-&gt;high prices, as soon as plane takes off seats are worthless)</li>
+<li>Strategy has to consider millions of bookings, cacellation and corrections. Business model needs to divide problems into overbooking, dsicounts, data-traffic management
+Proof their strategy works: trillion in revenue and other airline applied their revenue Management</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/germanwings.png" width="800" height="auto" alt="case example" /></p>
+<h2 id="demand-functions-preis-absatz-funktion">Demand functions (Preis-Absatz-Funktion)</h2>
+<p>Equation representing the relationship between the quantity of a good or service consumers are willing and able to buy and the factors influencing that quantity, primarily price, but also income, tastes, population, and expectations.</p>
+<h3 id="continuous-demand-function">Continuous demand function</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/demandfunction.png" width="800" height="auto" alt="demand function" /></p>
+<h3 id="continuous-demand-function-with-one-segment">Continuous demand function with one segment</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/demandfunction2.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/demandfunction2solution.png" width="800" height="auto" alt="demand function" /></p>
+<h3 id="continuous-demand-function-with-two-segment">Continuous demand function with two segment</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/demandfunction3.png" width="800" height="auto" alt="demand function" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/demandfunction4.png" width="800" height="auto" alt="demand function" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/demandfunction5.png" width="800" height="auto" alt="demand function" /></p>
+<h2 id="how-to-segment-customers">How to segment customers</h2>
+<h3 id="segmentation-objectives">Segmentation objectives</h3>
+<ul>
+<li>time</li>
+<li>location</li>
+<li>flexibility</li>
+<li>groups</li>
+<li>variants</li>
+</ul>
+<h1 id="booking-control">Booking Control</h1>
+<p>There are two approaches, they have a interrealationship:
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/bookingcontrol.png" width="800" height="auto" alt="demand function" />
+When using booking and protection limits the same request are accepted or rejected.Depending on the situation one of them is easier to handle.
+It is nested because theoretically premium passegers can afford all seats</p>
+<h2 id="nested-policy-implementation">Nested policy implementation</h2>
+<p><strong>Booking limits</strong></p>
+<ol>
+<li>Start</li>
+<li>In class k a demand y<sub>k</sub> occurs.</li>
+<li>The demand met min(y<sub>k</sub>, B<sub>k</sub>)</li>
+<li>Subtract min(y<sub>k</sub>, B<sub>k</sub>) from all booking limits until they reach 0</li>
+<li>End</li>
+</ol>
+<p><strong>Protection limits</strong> an alternative approach
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/protectionlimits.png" width="800" height="auto" alt="demand function" /></p>
+<h3 id="example">example</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/bookinglimits.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/unorderedbookinglimits.png" width="800" height="auto" alt="demand function" /></p>
+<h2 id="the-optimal-booking-limits">The optimal booking limits</h2>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/optimalbookinglimits.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/cum.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/normaldist.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/recapnormaldist.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/optimalbookinglimits2.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/optimalbookinglimits3.png" width="800" height="auto" alt="demand function" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/optimalbookinglimits4.png" width="800" height="auto" alt="demand function" />
+<strong>Littlewood's Rule: The probability that class 1 demand will be higher than the protection limit of booking class 1 should match the ratio of prices (r2/r1)</strong></p>
+<h2 id="expected-marginal-seat-revenue-and-overbooking">Expected Marginal Seat Revenue and overbooking</h2>
+<h3 id="booking-limits-for-more-than-2-classes">Booking limits for more than 2 classes</h3>
+<p>Assumptions:</p>
+<ul>
+<li>K Booking Classes</li>
+<li>Maximal Capacity C given</li>
+<li>Classes are determined so that r1 &gt; r2 applies &gt; ... &gt; rK</li>
+<li>Demand is met according to the sequential order of the booking classes</li>
+<li>Nested protection limits</li>
+<li>At each level, a two-class problem is solved</li>
+</ul>
+<p>The solution is to use heuristics:</p>
+<ul>
+<li><strong>EMSR-a</strong> Expected marginal seat revenue version a, uses aggregated protection limits</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/emsra.png" width="800" height="auto" alt="EMSR-a" /></p>
+<ul>
+<li><strong>EMSR-b</strong> Expected marginal seat revenue version b, uses aggregated demnad</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/emsrb.png" width="800" height="auto" alt="EMSR-b" /></p>
+<p>SUMMARY</p>
+<ul>
+<li>Both approaches are heuristics</li>
+<li>EMSR-a aggregates the protection limits while EMSR-b aggregates the demand</li>
+<li>Calculating the weighted average price is a critical assumption</li>
+<li>In practice, EMSR-b is more widespread</li>
+<li>Experimental studies show that neither method dominates the other</li>
+</ul>
+<h1 id="overbooking">Overbooking</h1>
+<p>From the capacity management strategies this topic touches the level capacity, where scarce or
+expensive resources are maintained at a constant level, and the organisation must manage the consequential issues for customer satisfaction and operational service quality.</p>
+<h2 id="example-lufthansa">Example Lufthansa</h2>
+<p>Lufthansa has millions of no show passengers (8% of all bookings) this equals to tens of thounsands of empty flights per year. These are mostly busines travellers which book multiple flights.
+Solutions are:</p>
+<ul>
+<li>Increase the cost of cancellations</li>
+<li>Automatic cancellations for redundant flights</li>
+<li>Flight reminders via SMS/e-mail</li>
+<li>Advanced payments</li>
+<li>Overbooking (most effective, sell more than avaiable seats because you accomodate for no shows)</li>
+</ul>
+<h3 id="implementation-overbooking">Implementation overbooking</h3>
+<ul>
+<li>Prognosis of no shows based on current bookings and time to flight (up to 16 model adjustments)</li>
+<li>Exemplary prognosis features:
+<ul>
+<li>General: weekday, departure time, season, events</li>
+<li>Passenger related: nationality, age etc.</li>
+</ul>
+</li>
+</ul>
+<p><strong>Steps for handling overbooked flights</strong></p>
+<ul>
+<li>Compensations (upgrades for later flights, money) for voluntary reschedulings</li>
+<li>Terms and conditions for when more ppl show up than expected
+<ul>
+<li>Children and disabled passengers have priority</li>
+<li>Premium customers are treated with priority</li>
+<li>Forced rescheduling by check-in personnel</li>
+<li>Compensation payments defined by regulations</li>
+<li>Only necessary for 11 out of 10,000 passengers</li>
+</ul>
+</li>
+</ul>
+<h2 id="managing-overbooking">Managing overbooking</h2>
+<p>Overbooking is especially important if the number of no-shows is high and the cancellation does not entail any costs.</p>
+<p>Overbooking is applied to
+- Aircraft seats reserved prior to travel
+- Car rental, where the cars are reserved before the day of rental
+- Hotel rooms or concert tickets sold in advance
+Procedure if customers have to be rejected:
+- Hotels: alternative accommodation, compensation
+- Car rental: Upgrade
+- Airlines: alternative flights
+- Advertising: alternative broadcasting times, discount
+Minimize the number of no-shows
+- require early payment
+- increase cancellation fees
+- increase rebooking fees</p>
+<h3 id="assumptions-overbooking-model">Assumptions overbooking model</h3>
+<p>C Capacity limitation
+B Booking limit
+r Price for one unit sold
+p Penalties</p>
+<p>Other assumptions:</p>
+<ul>
+<li>Each customer who appears pays r, despite potentially idle capacity</li>
+<li>Number of no-shows is X</li>
+<li>Density function of no shows is h(x) and distribution function of no-shows is H(x)</li>
+<li>Density function of demand Y is f(y) and the distribution function F(y)</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/overbooking.png" width="800" height="auto" alt="overbooking model" /></p>
+<h1 id="service-process-management">Service Process Management</h1>
+<h2 id="definition-of-process">Definition of process</h2>
+<p>A sequence of activties to create a performance, with a beginning and end and a goal</p>
+<p>Example:
+Manufacture PC</p>
+<p>Beginning: Release of a production order</p>
+<p>End: Packaging PC</p>
+<p>Goal: Conversion of a production order into a product that can be shipped</p>
+<h3 id="process-types">Process Types</h3>
+<ul>
+<li><strong>Control processes</strong>: Management of the company and control/management of core processes</li>
+<li><strong>Coreprocesses</strong>: Focused on external customers with a direct contribution to value creation</li>
+<li><strong>Support processes</strong>: Targeted at internal customers (core processes) with no direct contribution to value creation
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/processTypes.png" width="800" height="auto" alt="overbooking model" /></li>
+</ul>
+<h3 id="performance-measures">Performance measures</h3>
+<ul>
+<li>capcity: order acceptance or production</li>
+<li>time: lead Time, delivery period</li>
+<li>cost: staff, maerial, ..</li>
+<li>quality: waste, reliability</li>
+<li>flexibility: load flexibility, product flexibility</li>
+</ul>
+<h3 id="conflicting-objectives">conflicting objectives</h3>
+<p>example call center: difference between capacity and average latency can be optimized with process design
+example central storage: difference between stock and service level can be optimized with process design</p>
+<h2 id="base-for-process-mining">Base for Process mining</h2>
+<p>Process mining bridges gap between process model analysis (simulation, verfication, optimization, gaming etc.) and data-oriented analysis (data-mining, machine learning, business intelligence).
+Process mining can be performance oriented (question, problems and solutions) or compliance oriented (question, problems and solutions)</p>
+<h3 id="example-order-to-cash-process">Example Order to cash process</h3>
+<p>OtCP: top level business process for receiving and processing customer orders and revenue recognition.</p>
+<ul>
+<li>essential function in finance</li>
+<li>cycle happens after customer places an order until they pay</li>
+<li>requires an activity/event log with an order (OrderID), activity (step of process), timestamp (start time end time optional)
+<ul>
+<li>event/ case is a row in the relationship</li>
+<li>eventlog is the whole table</li>
+<li>trace a control flow of activities of the process: [&lt;register_order, check_stock,ship_order,handle_payment&gt; &amp; &lt;register_order, check_stock,cancel_order&gt;, ...]</li>
+</ul>
+</li>
+</ul>
+<h3 id="simplified-event-log">Simplified Event log</h3>
+<ul>
+<li>A simplified event log is a multiset of traces (i.e., the same trace can occur multiple times).</li>
+<li>A trace is the activity sequence of a case (i.e. we only look at the order of the activities of each case).</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/Log.png" width="800" height="auto" alt="log" /></p>
+<p>L = Log
+L<sub>1</sub>= Log ID
+&lt;a,b,c,d&gt;= activity with frequency as exponent
+a = trace</p>
+<p><strong>Exercise</strong>
+caseID: student name
+activity: course name
+timestamp: exam date
+event: student taking exam on a course on a date</p>
+<p>3 different actitvities: Business Information systems, BPM systems, Process Mining
+9 cases</p>
+<p>4 traces</p>
+<p>[&lt;Business Information systems&gt;,
+&lt;Business Information systems, BPM systems, Process Mining&gt;<sup>2</sup>,
+&lt;Business Information systems, process Mining&gt;]</p>
+<h2 id="process-footprint">Process Footprint</h2>
+<h3 id="relations">relations</h3>
+<ul>
+<li><strong>direct succession</strong> : x&gt;y if for some case x is directly followed by y.</li>
+<li><strong>casuality</strong>: x --&gt; y if x &gt; y and not y &gt; x</li>
+<li><strong>parallel</strong>: x||y if x &gt; y and y &gt; x</li>
+<li><strong>independent/ choice</strong>: x # y if not x &gt; y and not y &gt; x</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/footprint.png" width="800" height="auto" alt="log" /></p>
+<h2 id="direct-follow-graphs">Direct follow graphs</h2>
+<ul>
+<li>do not show concurrency (Parallelität), activities can happen at the same time</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/dfg.png" width="800" height="auto" alt="log" /></p>
+<h3 id="exercise">Exercise</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/exdfg.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/sol.png" width="800" height="auto" alt="log" /></p>
+<h2 id="petri-network-a-modeling-syntax">Petri network a modeling syntax</h2>
+<ul>
+<li>Can handle concurrency (not like DFG) but are not deterministic (multiple traffic lights example)</li>
+<li>It is a static network consisting of <strong>places</strong>, which represent possible states of a proces, and <strong>transitions</strong>, which represent the dynamics/ relationships between states.</li>
+<li>A place and transition are connected by a <strong>directed edge</strong>. A directed edge connect always just one place and transition or vice versa.</li>
+<li>Places can contain <strong>token</strong> which indicate the state of a process. Said tokens are generated and/or consumed by transitions.</li>
+<li>A transition is <strong>enabled</strong> when each input place contains a token.</li>
+<li>A transition can <strong>fire</strong>, when it consumes all tokens from the input places and generates a token for each output place.
+<ul>
+<li>firing is atomic production and consumption happen at the same time.</li>
+</ul>
+</li>
+<li>A <strong>marking</strong> is the distributions of token across the places in the petri net.</li>
+<li>The <strong>initial marking</strong> is the state before transitions fire. Starting point before the petri net becomess active.</li>
+<li><strong>Reachable marking</strong>: Marking that is reachable through firing after the initial marking.
+The <strong>final marking</strong> are the distrinuted token after all transitions have fired. There can be no, one or multiple final markings.</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/markings.png" width="800" height="auto" alt="log" /></p>
+<h3 id="multiple-transitions">multiple transitions</h3>
+<p>We assume that enabled transitions do not fire synchronoulsly
+reachable states = number of  possible tokens in one place <sup>number of transitions</sup> = multiply each reacheable states per places</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/finalmarking.png" width="800" height="auto" alt="log" /></p>
+<ul>
+<li>t1 fires 3 times</li>
+<li>t2 fires 3 times</li>
+<li>t1 fires 2 times t2 fires 1 time</li>
+<li>t1 fires 1 time  t2 fires 2 times</li>
+</ul>
+<h1 id="application-areas-for-process-mining">Application areas for process mining</h1>
+<p>relating process models and event logs</p>
+<ol>
+<li>Play In: Use data to produce process models, process discovery, learning process models from observed behaviour.</li>
+<li>Play out: use models to produce data (simulation, workflow, management games, model checking)</li>
+<li>Replay: Aligning modeled and discovered behaviour with observed behaviour (conformance checking, prediction, bottleneck analysis). In other words the confrontation between model and reality (used for diagnostics, predictions and recommendations)</li>
+</ol>
+<h2 id="process-discovery-with-alpha-algorithm">Process Discovery with Alpha Algorithm</h2>
+<p>Assumption the eventlog contains all possible traces of the model (petrinet) and vice versa.
+We have different pattern that emerge through the simplified event log:</p>
+<ul>
+<li><p>sequence: a-&gt;b
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/sequence.png" width="800" height="auto" alt="log" /></p>
+</li>
+<li><p>XOR-split pattern: a-&gt;b, a-&gt;c and b#c
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/xor.png" width="800" height="auto" alt="log" /></p>
+</li>
+<li><p>XOR-join pattern: b-&gt;d, c-&gt;d and b#c
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/xor2.png" width="800" height="auto" alt="log" /></p>
+</li>
+<li><p>AND-split pattern a-&gt;b, a-&gt;c and b||c
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/and.png" width="800" height="auto" alt="log" /></p>
+</li>
+<li><p>AND-split pattern b-&gt;d, c-&gt;d and b||c
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/and2.png" width="800" height="auto" alt="log" /></p>
+</li>
+</ul>
+<h2 id="alpa-algorithm">Alpa Algorithm</h2>
+<p>The algo is relativly simple and has the ability to discover:</p>
+<ul>
+<li>loops</li>
+<li>parallel parts</li>
+<li>choices</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/alphaalg.png" width="800" height="auto" alt="log" /></p>
+<ol>
+<li>collect all activities from eventlog, They will represent transitions in the petrinet.</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s1.png" width="800" height="auto" alt="log" /></p>
+<ol start="2">
+<li>collect the set of start activities</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s2.png" width="800" height="auto" alt="log" /></p>
+<ol start="3">
+<li>collect the set of end actitvities</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s3.png" width="800" height="auto" alt="log" /></p>
+<p>Goals from step 4-6 are to find the places between transitions A and B by finding the set A of upstream transitions of a place p(A, B) (token producing) and the set B of downstream transitions (token consuming)of a place p(A, B)</p>
+<ol start="4">
+<li>Calculate pairs such that:
+<ul>
+<li>every element of a and b are casually related (-&gt;)</li>
+<li>all elements of A are independent a1#a2</li>
+<li>all elements in B are independent b1#b2</li>
+</ul>
+<ol>
+<li>Form pairs with sets of 1 activity for all casualties and only include activity if it is independent from itself. (,), (,), ..</li>
+<li>Find pairs in which, either first or second set are equal and the other activities (unequal sets) are independent. Then merge these pairs (,{b, e}), ...</li>
+<li>Merge the pairs with one activity and the merged set pairs {(,), ..., (,{b, e}), ...}</li>
+</ol>
+</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s4.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s42.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s43.png" width="800" height="auto" alt="log" /></p>
+<ol start="5">
+<li>delete from X<sub>L</sub> all non-maximal pairs</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s5.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s52.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s53.png" width="800" height="auto" alt="log" /></p>
+<pre><code>			...
+</code></pre>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s54.png" width="800" height="auto" alt="log" /></p>
+<ol start="6">
+<li>determine places p<sub>(A,B)</sub> from pairs (A.B) and add a source and target place</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s6.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s62.png" width="800" height="auto" alt="log" /></p>
+<ol start="7">
+<li>Connect each place with each element f its set A of upstreamtransitions and with each element of its set B of downstream transitions. Connect the source place to all start transitions and connect all end transitions to the target/sink place.</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s72.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s7.png" width="800" height="auto" alt="log" /></p>
+<ol start="8">
+<li>Build the etrinet from Y<sub>L<sub>1</sub></sub>
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/s8.png" width="800" height="auto" alt="log" /></li>
+</ol>
+<h2 id="limitations-of-the-algo">Limitations of the algo</h2>
+<ul>
+<li><strong>Implicit places</strong>
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/lim1.png" width="800" height="auto" alt="log" /></li>
+<li><strong>Loops of length 1 or 2</strong>
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/lim2.png" width="800" height="auto" alt="log" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/lim3.png" width="800" height="auto" alt="log" /></li>
+<li><strong>Non local dependencies</strong>
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/lim4.png" width="800" height="auto" alt="log" /></li>
+<li><strong>Representational bias</strong>
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/lim6.png" width="800" height="auto" alt="log" /></li>
+<li><strong>deadlocks</strong>
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/lim5.png" width="800" height="auto" alt="log" /></li>
+</ul>
+<h2 id="process-mining">Process mining</h2>
+<p>Wil van der Aalst: Process Mining, Data Science in Action
+lars reinkemeyer process mining in action, Principles, use cases and outlook
+use cases in companies:</p>
+<h2 id="play-out-and-reachability-graph">Play out and reachability graph</h2>
+<p>the play out strategy is user to obtain data from a predefined model (simulation, management games, model checking, workflow automation)</p>
+<p>A <strong>reachability graph</strong> is a directed graph that can be obtained from a petri net and an initial marking.
+All the markings are determined in a stepwise manners.
+The reachability graph is obtained, where the markings(tokens) are represented by nodes and the transitions between a marking and its next marking is represented by a directed edge, annotated with the respective transition.
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d1.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d2.png" width="800" height="auto" alt="log" /></p>
+<p>--&gt; we can follow the edges and see the possible traces,</p>
+<p><strong>example traffic lights</strong></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d3.png" width="800" height="auto" alt="log" /></p>
+<p><strong>multiple arcs</strong> between place and transition</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d4.png" width="800" height="auto" alt="log" /></p>
+<p><strong>non finite reachability</strong></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d5.png" alt="log" /></p>
+<h2 id="advances-petri-net-modeling">Advances petri net modeling</h2>
+<ul>
+<li>Model a circular railway system with four stations (st1, st2, st3, and st4) and one train.</li>
+<li>At each station passengers may &quot;hop on&quot; or &quot;hop off&quot;. This is impossible if the train is moving.</li>
+<li>The train has a capacity of 50 persons; if the train is full, no new passengers may hop on.</li>
+<li>Model the above process in terms of a Petri net.</li>
+</ul>
+<h3 id="petri-net-of-the-state-of-the-train">Petri net of the state of the train</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d6.png" width="800" height="auto" alt="log" /></p>
+<h3 id="petri-net-of-the-state-of-the-passengers">Petri net of the state of the passengers</h3>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d7.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/d8.png" width="800" height="auto" alt="log" /></p>
+<p>The capacity is 50, so the number of occupied seats can be 0,1,…,50 → 51 possibilities.</p>
+<h2 id="conformance-and-checking">Conformance and checking</h2>
+<h2 id="evaluate-conformance-between-traces-and-process-models">Evaluate conformance between traces and process models</h2>
+<p><strong>Replay</strong>
+Conformance happens through alignment of modeled and observed behaviour. Most important form of process minning.</p>
+<p><strong>Case example</strong>: Optimizing painting process at BMW</p>
+<ul>
+<li>detect irregularities in the paint process in almost real time, analyze their cause and react to them</li>
+<li>downtimes in production and the associated additional costs can be avoided</li>
+<li>compare the “As Is” process with the originally planned process</li>
+<li>identify unplanned deviations as well as requirements to modify production steps.</li>
+<li>bottlenecks can be identified quickly</li>
+<li>see which process changes really make sense, e.g., if a parallel queue of certain production steps can help to reduce throughput times
+--&gt; are there processes that can be parallalized?</li>
+</ul>
+<h2 id="how-to-evaluate">How to evaluate</h2>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r1.png" width="800" height="auto" alt="log" /></p>
+<p>Take the trace that happens most. Alone it lacks of fitness because it just represents one trace of them all.</p>
+<p><strong>Fitness</strong>: ability to play through the traces of a model</p>
+<ul>
+<li>perfect fitness if all traces in the log can be replayed by the model from beginning to end.
+− Case level: fraction of traces in
+the log that can be fully
+replayed
+− Event level: fraction of events in
+the log that are indeed possible
+according to the model</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r2.png" width="800" height="auto" alt="log" /></p>
+<p>Next step could be model all the traces. This lacks simplicity as it is overly complex and messy.</p>
+<p><strong>Simplicity</strong>:
+− The simplest model that can explain the behavior seen in the log, is the best model.
+− Complexity of the model could be defined by the number of nodes and arcs</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r3.png" width="800" height="auto" alt="log" /></p>
+<p>As a next step we could implement the traces as a flower model. This model lacks precision as it is underfitting because we could obtain traces that are not part of the original to be modeled traces. Flower model is too general.</p>
+<p><strong>Precision</strong>:
+− A model is precise if it does not allow for “too much” behavior
+(“underfitting”).
+− fraction of traces in the log to all traces that can be played out from the process model</p>
+<p>--&gt; A high quaality model is defined through fitness, simplicity and precision.
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r5.png" width="800" height="auto" alt="log" /></p>
+<h2 id="use-of-log-and-model-footprint-to-measure-conformance">Use of log and model footprint to measure conformance</h2>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r6.png" width="800" height="auto" alt="log" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r4.png" width="800" height="auto" alt="log" />
+footprint-based conformance = 1 – (number of differences) / (number of cells in footprint) = 1 – 0/25 = 1
+(1 = perfect match) (0 = worst match possible)
+!(pic footprint conformance)</p>
+<p>--&gt; <strong>Limitations</strong> of footprint based conformance:</p>
+<ul>
+<li><p>Frequencies are not used</p>
+</li>
+<li><p>Behaviour is only considered indirectly through directly follow relation</p>
+</li>
+<li><p>It aims to capture fitness and precision in a single metric</p>
+</li>
+<li><p>If there are  traces in the eventlog which are not in the petrinet or vice versa we fill these missing traces with independence relationsships in the corresponding footprint</p>
+</li>
+</ul>
+<h2 id="measure-trace-level-fitness-with-token-based-replay">Measure trace-level fitness with token based replay</h2>
+<p>Replay a trace on a model/ petri net</p>
+<p>Produce a missing token when we encounter the situation that we otherwise cannot replay a trace because a transition is not enabled. (Track missing and remaining tokens)</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r7.png" width="800" height="auto" alt="log" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r8.png" width="800" height="auto" alt="log" />
+--&gt; p and c always at least one since we cannot divide by zero</p>
+<p>We can apply this formula on a higher level of the log level. We measure over all traces and sum up. We now consider the frequency of the traces. We measure the proportion of the events that can be replayed correctly.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r9.png" width="800" height="auto" alt="log" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/r10.png" width="800" height="auto" alt="log" /></p>
+<p><strong>Limitations</strong> of token based replay fitness (problem of token flooding)</p>
+<ul>
+<li>Conformance values sometimes too optimistic due to &quot;token flooding“:</li>
+<li>When the case differs much from the model, a lot of missing tokens are inserted during the replay.</li>
+<li>As a result of all the added tokens, many transitions become enabled.</li>
+<li>Therefore, also deviating events are likely to match an enabled transition.</li>
+<li>This leads to misleading diagnostics because unwanted parts of the model may be activated.</li>
+<li>So the fitness value for highly problematic executions may be too high.</li>
+</ul>
+<p><strong>Limitation</strong> of visible/uniquely labeled transitions. If a petrii net contains transitions with the same level, we do not have a definite way to replay and this approach to calculate conformance collapses.</p>
+<h1 id="organizational-mining">Organizational Mining</h1>
+<p>Enhancing Process Models with organizational level data.</p>
+<p>Example Compensation request process</p>
+<p>Step one Identify roles from data and create resource activity <strong>matrix</strong>
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o1.png" width="800" height="auto" alt="log" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o2.png" width="800" height="auto" alt="log" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o3.png" width="800" height="auto" alt="log" /></p>
+<p>Step 2 Divide absolute frequencies by number of cases (number of rows in event log) to obtain the average number of times a resource performs a case
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o4.png" width="800" height="auto" alt="log" /></p>
+<p>--&gt; provides basic insights into who is doing what.</p>
+<h2 id="construct-a-social-network">Construct a social network</h2>
+<ul>
+<li>Sociometry: present data on interpersonal relationships in graph or matrix form.</li>
+<li>Arcs: weights or (inverted) distance.</li>
+<li>Metrics to denote importance:
+− centrality,
+− closeness,
+− betweenness.
+− …</li>
+<li>Identification of cliques.
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o5.png" width="800" height="auto" alt="log" /></li>
+</ul>
+<h2 id="calculate-vector-distances">Calculate vector distances</h2>
+<p>We want to figure out which worker of the example before are similar?
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o6.png" width="800" height="auto" alt="log" /></p>
+<p>For similarity we can invert the obtained distance value.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o7.png" width="800" height="auto" alt="log" /></p>
+<ul>
+<li>Similarity is the inverse (“Kehrwert”) of distance.</li>
+<li>Resources that execute similar collections of activities are related.</li>
+<li>Self-similarity is ignored.</li>
+<li></li>
+</ul>
+<p>Social network based on similarity of profiles</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o8.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o9.png" width="800" height="auto" alt="log" /></p>
+<h2 id="how-to-indentify-teams-of-resources-clusering">How to indentify teams of resources (clusering)</h2>
+<p>Teams can be also obtained through clustering (kMeans, agglomerative hierarchical clustering)</p>
+<p>Step one: Create resource case matrix
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o10.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o11.png" width="800" height="auto" alt="log" /></p>
+<p>Step 2-4 Binarization, Calculate euclidean distances and inver values</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o12.png" width="800" height="auto" alt="log" /></p>
+<p>From the similaritiy measure (only th ehigh ones) we can form a resource network</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/o14.png" width="800" height="auto" alt="log" /></p>
+<h1 id="organizational-mining-to-detect-botttlenecks">Organizational mining to detect botttlenecks</h1>
+<p>The following topic is used to identify bottlenecks in respurce matrices or petri nets.</p>
+<h2 id="handover-matrix">Handover matrix</h2>
+<p>If we have a footprint we can use  the casual dependencies &gt; (not -&gt; = direct successor) to identify the handovers.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b1.png" width="800" height="auto" alt="log" /></p>
+<p>If we identified the handovers we can use the formula to calculate the cell values of the handover matrix.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b2_1.png" width="800" height="auto" alt="" />
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b2.png" width="800" height="auto" alt="log" /></p>
+<p>--&gt; Alan |&gt;_L Sara = (1+1)/4 = 1/2</p>
+<p>We can build the handover matrix and the resulting network.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b3.png" width="800" height="auto" alt="log" /></p>
+<h2 id="degree-centrality-of-a-node-in-a-network">Degree centrality of a node in a network</h2>
+<p>As a next step we calculate  how central a node is in a network. The formula calculates the sum over the input weights and the output weights.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b4.png" width="800" height="auto" alt="log" /></p>
+<h2 id="betweenness-centrality-of-a-node-in-a-newtwork">Betweenness centrality of a node in a newtwork</h2>
+<p>The betweeness reprsents the assumption that important nodes should connect the other nodes. in other words: it is the fraction of shortest paths between any two nodes passing a particular node</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b5.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b6.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b7.png" width="800" height="auto" alt="log" /></p>
+<p>We can obtain the betweenness centrality of resources with the handover matrix.</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b8.png" width="800" height="auto" alt="log" /></p>
+<h1 id="decision-point-mining">Decision point mining</h1>
+<p>The decision spot mining can be seen as a XOR-split in a network, where we have a number of cases which go one wax at an XOR-split and a number of cases which go the other way.
+Example accept/reject claim. This can be seen as a classification problem. Maybe there are certain pattern of traces which will have a claim always rejected and other traces where claims can be accepted.</p>
+<p>In order to do a decision point mining we assume that the event log and process model have been aligned. So every trace of the log is represented in the model.</p>
+<p>One way is to have decision guards at the XOR-split which check for an attribute in the trace in order to decide which way to go</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b9.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b10.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b11.png" width="800" height="auto" alt="log" /></p>
+<h2 id="decision-point-mining-as-a-classification-problem">Decision point mining as a classification problem</h2>
+<p>We will use the Gini impurity to build the decision tree.</p>
+<p><strong>Definition</strong>: Gini impurity is a way for a decision tree to measure how “mixed” the class labels are in a node. The probability that you would misclassify a randomly chosen sample from the node if you guessed the class at random according to the class distribution in that node.
+More concretely:</p>
+<ol>
+<li><p>Pick a random sample from the node.</p>
+</li>
+<li><p>“Predict” its class by randomly drawing a class label according to the node’s class proportions.</p>
+</li>
+<li><p>Gini impurity is the probability that this prediction is wrong.</p>
+</li>
+</ol>
+<p>So:</p>
+<ul>
+<li>Lower Gini impurity → node is “purer” (mostly one class).</li>
+<li>Higher Gini impurity → node is “mixed” (many classes with similar proportions).</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b12.png" width="800" height="auto" alt="log" /></p>
+<ol start="5">
+<li>How decision trees use Gini impurity</li>
+</ol>
+<p>In a classification tree (like CART), at each node the algorithm:</p>
+<ol>
+<li>Considers possible splits (e.g., “feature X ≤ 3.5?”).</li>
+<li>For each split, it computes the weighted average Gini impurity of the child nodes</li>
+</ol>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b13.png" width="800" height="auto" alt="log" />
+3. Chooses the split that reduces Gini impurity the most (i.e., maximizes impurity decrease).</p>
+<p>So Gini impurity is the criterion the tree uses to decide where to split so that nodes become purer and purer.
+<img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b14.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b15.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/b16.png" width="800" height="auto" alt="log" /></p>
+<h1 id="customer-lifetime-value">Customer Lifetime Value</h1>
+<h3 id="definition">Definition</h3>
+<ul>
+<li>total financial contribution from the current period into the future of a customer over his/her future lifetime with the company – that is, revenues minus costs<br />
+− reflects the future profitability of the customer
+− present value of the cumulative cash flows of a customer
+− Comparable to net present value of machines</li>
+</ul>
+<h3 id="objective">Objective</h3>
+<p>− helps a firm to know how much it can invest in retaining the customer as to achieve a positive return on investment
+− focus investments on customers that bring the maximum profit
+− deciding on customer-specific communication strategies</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv1.png" width="800" height="auto" alt="log" /></p>
+<p>Definition Contribution Margin: The rest of the revenue that remains after paying all the variable const of the revenue. Can be used to pay it towards fix costs
+During the customer aquisition the revenue is quite low, therefore the contrivution margin is negative because the variable costs to aquire the customer are higher than the revenue. When the trust with the customer is built ans the customer is retained,the customer will spend more resulting in high revenue and higher/positive contribution margin. If the customer leaves (better offers somewhere else) the company has to spend money to recover the customer therefore revenue and contribution margin sink again.</p>
+<h2 id="measure-clv">Measure CLV</h2>
+<p><strong>simple/basic approach</strong></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv2.png" width="800" height="auto" alt="log" /></p>
+<p><strong>with retention rate</strong></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv3.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv4.png" width="800" height="auto" alt="log" /></p>
+<p><strong>with fix aquisition costs</strong></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv5.png" width="800" height="auto" alt="log" /></p>
+<p>Example:
+Consider a CLV model with the following variables. What is the acquisition cost threshold, from which on a customer relationship becomes unprofitable?
+• Fixed revenues per period: CHF 5
+• Fixed cost per period: CHF 3
+• Customer retention rate: 0.65
+• Interest rate per period: 0.05</p>
+<p>m = 5 - 3 = 2</p>
+<p>m * r / (1+i-r) = 2 * 0.65 / (1 + 0.05 - 0.65) = 3.25</p>
+<h2 id="customer-equity">Customer equity</h2>
+<p>The sum of customer life time values of all customers</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv6.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv7.png" width="800" height="auto" alt="log" /></p>
+<p>C * (m * r / (1+i-r) - AC) =5000 * (2 * 0.65 / (1 + 0.05 - 0.65) - 1) = 11250</p>
+<h2 id="critic-of-the-clv-model-from-above">Critic of the CLV model from above</h2>
+<p>Fixed retention rates is not realisitc as it is very subjective to different customer groups or business settings because:</p>
+<ol>
+<li>Recency effect (intuition here: the more recent the last
+transaction, the higher the transaction probability/retention
+rate)</li>
+<li>Frequency effect (intuition here: budgetary constrains and
+worn out novelty effect reduce transaction probability/retention
+rate)</li>
+<li>Customers are not „lost for good“ but might come  back at later
+periods</li>
+</ol>
+<h2 id="purchase-probability">Purchase Probability</h2>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv8.png" width="800" height="auto" alt="log" /></p>
+<h2 id="clv-with-receny-and-frequency">CLV with receny and frequency</h2>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv9.png" width="800" height="auto" alt="log" /></p>
+<h2 id="loyality-effect-on-churn">Loyality effect on churn</h2>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv10.png" width="800" height="auto" alt="log" /></p>
+<h1 id="markov-chain">Markov chain</h1>
+<ul>
+<li>A Markov chain is a stochastic process. (e.g. purchase, customer retention)</li>
+<li>The aim is to give probabilities for future events to occur.</li>
+<li>A Markov chain is defined by the fact that knowledge of only a limited prehistory (in this case: only the current state of the system) makes it possible to predict future development.</li>
+<li>The entire prehistory of the process is not relevant for prediction.</li>
+<li>Modeling with discrete time (e.g. months or years)</li>
+<li>Modeling with finite state set (e.g. customer status as potential, active or lost customer)</li>
+</ul>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv11.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv12.png" width="800" height="auto" alt="log" />
+p_a = aquisition probability
+p = retention probability</p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv13.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv14.png" width="800" height="auto" alt="log" /></p>
+<p><img src="file:///C:/Users/lilli/Documents/Zhaw/25HS/DataServicesProducts/Images/clv15.png" width="800" height="auto" alt="log" /></p>
+
+    </body>
+</html>
+            
